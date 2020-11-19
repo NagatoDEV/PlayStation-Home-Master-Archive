@@ -1,0 +1,4 @@
+<stats>
+	<pstats id="general" data="ndreams.stats.s3.amazonaws.com/aurora" target="pshome.ndreams.net/aurora" fallover="pshome.ndreams.net/aurora"/>
+	<pstats id="boutique" data="ndreams.stats.s3.amazonaws.com/theboutique" target="pshome.ndreams.net/boutique" fallover="pshome.ndreams.net/boutique"/>
+</stats>
