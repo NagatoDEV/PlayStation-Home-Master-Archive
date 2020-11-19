@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='/styles/rss.xsl'?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>Example Media RSS Feed</title>
+        <description>Example Media RSS feed served from an HTTP server.</description>
+		<item>
+            <media:title type="plain">AC_Lineage_Apple_ProRes_SONY_01_Profile3.mp4</media:title>
+            <media:description type="plain">AC_Lineage_Apple ProRes_SONY_01_Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/AC_Lineage_Apple_ProRes_SONY_01_Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+ 	     <media:embed url="http://www.playstation-home.com/">
+            <media:param name="deliverymethod">precache</media:param>
+     	     </media:embed>
+        </item>
+        <item>
+            <media:title type="plain">AC_Lineage_Apple_ProRes_SONY_02_Profile3.mp4</media:title>
+            <media:description type="plain">AC_Lineage_Apple ProRes_SONY_02_Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/AC_Lineage_Apple_ProRes_SONY_02_Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+ 	     <media:embed url="http://www.playstation-home.com/">
+            <media:param name="deliverymethod">precache</media:param>
+     	     </media:embed>
+        </item>
+        <item>
+            <media:title type="plain">AC_Lineage_Apple_ProRes_SONY_03_Profile3.mp4</media:title>
+            <media:description type="plain">AC_Lineage_Apple ProRes_SONY_03_Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/AC_Lineage_Apple_ProRes_SONY_03_Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+ 	     <media:embed url="http://www.playstation-home.com/">
+            <media:param name="deliverymethod">precache</media:param>
+     	     </media:embed>
+        </item>
+        <item>
+            <media:title type="plain">AC_Lineage_Apple_ProRes_SONY_04_Profile3.mp4</media:title>
+            <media:description type="plain">AC_Lineage_Apple_ProRes_SONY_04_Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/AC_Lineage_Apple_ProRes_SONY_04_Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+ 	     <media:embed url="http://www.playstation-home.com/">
+            <media:param name="deliverymethod">precache</media:param>
+     	     </media:embed>
+        </item>
+        <item>
+            <media:title type="plain">AC_Lineage_Apple_ProRes_SONY_05_Profile3.mp4</media:title>
+            <media:description type="plain">AC_Lineage_Apple_ProRes_SONY_05_Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/AC_Lineage_Apple_ProRes_SONY_05_Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+ 	     <media:embed url="http://www.playstation-home.com/">
+            <media:param name="deliverymethod">precache</media:param>
+     	     </media:embed>
+        </item>
+         <item>
+            <media:title type="plain">AC_Lineage_Apple_ProRes_SONY_06_Profile3.mp4</media:title>
+            <media:description type="plain">AC_Lineage_Apple_ProRes_SONY_06_Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/AC_Lineage_Apple_ProRes_SONY_06_Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+ 	     <media:embed url="http://www.playstation-home.com/">
+            <media:param name="deliverymethod">precache</media:param>
+     	     </media:embed>
+        </item>
+        <item>
+            <media:title type="plain">AC_Lineage_Apple_ProRes_SONY_07_Profile3.mp4</media:title>
+            <media:description type="plain">AC_Lineage_Apple_ProRes_SONY_07_Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/AC_Lineage_Apple_ProRes_SONY_07_Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+ 	     <media:embed url="http://www.playstation-home.com/">
+            <media:param name="deliverymethod">precache</media:param>
+     	     </media:embed>
+        </item>
+    </channel>
+</rss>
