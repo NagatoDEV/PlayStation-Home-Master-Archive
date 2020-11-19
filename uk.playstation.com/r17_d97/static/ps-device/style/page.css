@@ -1,0 +1,808 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+}
+
+body {
+	background: #0076d0 url(/static/ps-device/image/background-glow.jpg) no-repeat 50% 0%;
+	font-size: 24px;
+	color: #8fdffd;
+}
+
+body, a {
+	font-family: arial;
+}
+
+h1,
+h2 {
+	display: block;
+	width: 100%;
+	position: relative;
+	padding:  22px;
+	font-size: 26px;
+}
+
+h1 {
+	max-height: 108px;
+}
+
+h2 {
+	height: 80px;
+}
+
+a {
+	text-decoration: none;
+	color: #8fdffd;
+}
+
+section,
+nav,
+footer {
+	display: block;
+}
+
+nav,
+.promo,
+.promo span {
+	background: 50% 50% no-repeat;
+}
+
+nav {
+	background-image: url(/static/ps-device/image/logo-ps-family.png),-webkit-gradient(linear, left top, left bottom, color-stop(0%,#2a2a2a), color-stop(100%,#000000));
+	text-align: right;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+}
+
+nav img,
+.promo img {
+	width: 100%;
+}
+
+.promos {
+	display: table;
+	border-spacing: 28px;
+	width: 100%;
+}
+
+.promos.large .promo {
+	width: 50%;
+}
+
+.promos.large .promo img {
+	width: 100%;
+	height: 310px;
+}
+
+.promos.large .promo a {
+	height: 435px;
+}
+
+.promos .promo .teaser {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.promos.large .promo .teaser,
+.promos.small .promo .teaser {
+	height: 10px;
+}
+
+.promos.small {
+	margin-top: -30px;
+}
+
+.promos.small .promo {
+	width: 33%;
+}
+
+.promos.small .promo a {
+	height: 287px;
+}
+
+.promos.small .promo img {
+	width: 100%;
+	height: 200px;
+}
+
+.promo {
+	display: table-cell;
+	background-color: #1f1f1f;
+	position: relative;
+}
+
+.promo a  {
+	display: table;
+	width: 100%;
+	border-spacing: 0px;
+	color: #fff;
+}
+
+.promo,
+.promo span {
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+}
+
+.promo .image {
+	display: table-row;
+}
+
+form {
+	position: relative;
+	display: inline-block;
+	margin: 1.6%;
+	width: 33%;
+	background-color: #363636;
+}
+
+form.hide {
+	visibility: hidden;
+}
+
+form input[type=text] {
+	background: 5% 80% no-repeat;
+	background-size: auto 70%;
+	-webkit-background-size: auto 70%;
+	display: inline-block;
+	padding: 3.6%;
+	width: 88%;
+	border: none;
+	font: 24px arial;
+	color: #fff;
+}
+
+form input[type=text].display {
+	background-image: url(/static/ps-device/image/icon-google-search.png);
+}
+
+form input[type=text]:focus {
+	background: none;
+	background-color: #363636;
+}
+
+form input[type=submit] {
+	border: none;
+	display: table-cell;
+	vertical-align: middle;
+	width: 10%;
+	margin-top: 0;
+	height: 48px;
+	background: url(/static/ps-device/image/icon-google-search-submit.png) 0% 50% no-repeat;
+	background-size: auto 100%;
+	-webkit-background-size: auto 100%;
+}
+
+footer {
+	margin-top: 0px;
+	margin-bottom: 2%;
+	padding: 0 15px;
+	text-align: center;
+}
+
+footer a {
+	font-weight: bold;
+}
+
+footer .more-info {
+	margin-bottom: 10px
+}
+
+/* HD1080 0-2 */
+@media all and (min-width: 1751px) and (max-width: 1851px) {
+	body {
+		 font-size: 24px;
+	}
+
+	h1,
+	h2 {
+		padding:  24px;
+		font-size: 26px;
+	}
+
+	h1 {
+		max-height: 125px;
+	}
+
+	h2 {
+		height: 80px;
+	}
+
+	.promos {
+		border-spacing: 20px;
+	}
+
+	/* Adjust following for heights of large promos */
+	.promos.large .promo img {
+		width: 100%;
+		height: 300px;
+	}
+
+	.promos.large .promo a {
+		height: 425px;
+	}
+
+	.promos.small {
+		margin-top: -25px;
+	}
+
+	/* Adjust following for heights of small promos */
+	.promos.small .promo a {
+		height: 277px;
+	}
+
+	.promos.small .promo img {
+		width: 100%;
+		height: 190px;
+	}
+
+	form input[type=text] {
+		padding: 3.0%;
+	}
+
+	form input[type=submit] {
+		margin-top: 0;
+		height: 38px;
+	}
+
+	footer {
+		margin-top: 10px;
+	}
+}
+
+/* HD1080 0-2 */
+@media all and (min-width: 1651px) and (max-width: 1751px) {
+	body {
+		 font-size: 22px;
+	}
+
+	h1,
+	h2 {
+		padding:  24px;
+		font-size: 22px;
+	}
+
+	h1 {
+		max-height: 80px;
+	}
+
+	h2 {
+		height: 80px;
+	}
+
+	.promos {
+		border-spacing: 20px;
+	}
+
+	/* Adjust following for heights of large promos */
+	.promos.large .promo img {
+		width: 100%;
+		height: 280px;
+	}
+
+	.promos.large .promo a {
+		height: 405px;
+	}
+
+	.promos.small {
+		margin-top: -25px;
+	}
+
+	/* Adjust following for heights of small promos */
+	.promos.small .promo a {
+		height: 257px;
+	}
+
+	.promos.small .promo img {
+		width: 100%;
+		height: 170px;
+	}
+
+	form input[type=text] {
+		padding: 3.0%;
+	}
+
+	form input[type=submit] {
+		margin-top: 0;
+		height: 38px;
+	}
+}
+
+/* HD1080-720 0-2 */
+@media all and (min-width: 1551px) and (max-width: 1650px) {
+	body {
+		 font-size: 22px;
+	}
+
+	h1,
+	h2 {
+		padding:  24px;
+		font-size: 22px;
+	}
+
+	h1 {
+		max-height: 120px;
+	}
+
+	h2 {
+		height: 80px;
+	}
+
+	.promos {
+		border-spacing: 20px;
+	}
+
+	/* Adjust following for heights of large promos */
+	.promos.large .promo img {
+		width: 100%;
+		height: 260px;
+	}
+
+	.promos.large .promo a {
+		height: 385px;
+	}
+
+	.promos.small {
+		margin-top: -25px;
+	}
+
+	/* Adjust following for heights of small promos */
+	.promos.small .promo a {
+		height: 237px;
+	}
+
+	.promos.small .promo img {
+		width: 100%;
+		height: 150px;
+	}
+
+	form input[type=text] {
+		padding: 3.0%;
+	}
+
+	form input[type=submit] {
+		margin-top: -5px;
+		height: 35px;
+	}
+
+	footer {
+		font-size: 20px;
+	}
+}
+
+/* HD1080-720 0-2 */
+@media all and (min-width: 1351px) and (max-width: 1550px) {
+	body {
+		 font-size: 22px;
+	}
+
+	h1,
+	h2 {
+		padding:  24px;
+		font-size: 22px;
+	}
+
+	h1 {
+		max-height: 105px;
+	}
+
+	h2 {
+		height: 80px;
+	}
+
+	.promos {
+		border-spacing: 20px;
+	}
+
+	/* Adjust following for heights of large promos */
+	.promos.large .promo img {
+		width: 100%;
+		height: 280px;
+	}
+
+	.promos.large .promo a {
+		height: 405px;
+	}
+
+	.promos.small {
+		margin-top: -25px;
+	}
+
+	/* Adjust following for heights of small promos */
+	.promos.small .promo a {
+		height: 250px;
+	}
+
+	.promos.small .promo img {
+		width: 100%;
+		height: 170px;
+	}
+
+	form input[type=text] {
+		padding: 3.0%;
+	}
+
+	form input[type=submit] {
+		margin-top: -5px;
+		height: 30px;
+	}
+}
+
+/* PSVita overrides */
+@media all and (min-width: 1024px) and (max-width: 1024px) {
+
+	nav {
+		min-height: 30px !important;
+	}
+
+	form {
+		margin: 1% !important;
+	}
+
+	h1, h2 {
+		padding: 13px !important;
+	}
+
+	h2 {
+		max-height: 50px !important;
+	}
+
+	.promos {
+		border-spacing: 20px !important;
+	}
+
+	.promos.large .promo img {
+		width: 100%;
+		height: 15px !important;
+	}
+
+	.promos.large .promo a {
+		height: 250px !important;
+	}
+
+	.promos.small {
+		margin-top: -20px !important;
+	}
+
+	/* Adjust following for heights of small promos */
+	.promos.small .promo a {
+		height: 167px !important;
+	}
+
+	.promos.small .promo img {
+		width: 100% !important;
+		height: 80px !important;
+	}
+
+	form input[type=text] {
+		padding: 2.2% !important;
+	}
+
+	footer {
+		font-size: 16px !important;
+		margin-top: -5px !important;
+		margin-bottom: 20px !important;
+	}
+}
+
+/* HD 720 0-2 */
+@media all and (min-width: 1001px) and (max-width: 1350px) {
+	body {
+		font-size: 16px;
+	}
+
+	h1,
+	h2 {
+		padding:  12px 15px;
+		font-size: 16px;
+	}
+
+	h1 {
+		max-height: 80px;
+	}
+
+	h2 {
+		max-height: 44px;
+	}
+
+	.promos {
+		border-spacing: 14px;
+	}
+
+	/* Adjust following for heights of large promos */
+	.promos.large .promo img {
+		width: 100%;
+		height: 180px;
+	}
+
+	.promos.large .promo a {
+		height: 305px;
+	}
+
+	.promos.small {
+		margin-top: -15px;
+	}
+
+	/* Adjust following for heights of small promos */
+	.promos.small .promo a {
+		height: 160px;
+	}
+
+	.promos.small .promo img {
+		width: 100%;
+		height: 80px;
+	}
+
+	form input[type=text] {
+		padding: 2.2%;
+	}
+
+	form input[type=submit] {
+		margin-top: -10px;
+		height: 30px;
+	}
+
+	footer {
+		font-size: 16px;
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+}
+
+/*  SD-HD 720 0-2 1 */
+@media all and (min-width: 901px) and (max-width: 1000px) {
+	body {
+		 font-size: 16px;
+	}
+
+	h1,
+	h2 {
+		padding:  10px;
+		font-size: 16px;
+	}
+
+	h1 {
+		height: 45px;
+	}
+
+	h2 {
+		max-height: 45px;
+	}
+
+	.promos {
+		border-spacing: 10px;
+	}
+
+	.promos.small {
+		margin-top: -10px;
+	}
+
+	/* Adjust following for heights of large promos */
+	.promos.large .promo img {
+		width: 100%;
+		height: 180px;
+	}
+
+	.promos.large .promo a {
+		height: 305px;
+	}
+
+	.promos.small {
+		margin-top: -15px;
+	}
+
+	/* Adjust following for heights of small promos */
+	.promos.small .promo a {
+		height: 160px;
+	}
+
+	.promos.small .promo img {
+		width: 100%;
+		height: 80px;
+	}
+
+	form input[type=text] {
+		padding: .9%;
+	}
+}
+
+/*  SD-HD 720 0-2 2 */
+@media all  and (min-width: 856px) and (max-width: 900px) {
+	body {
+		 font-size: 14px;
+	}
+
+	h1,
+	h2 {
+		padding:  8px;
+		font-size: 14px;
+	}
+
+	h1 {
+		height: 45px;
+	}
+
+	h2 {
+		max-height: 45px;
+	}
+
+	.promos {
+		border-spacing: 10px;
+	}
+
+	.promos.small {
+		margin-top: -10px;
+	}
+
+	/* Adjust following for heights of large promos */
+	.promos.large .promo img {
+		width: 100%;
+		height: 180px;
+	}
+
+	.promos.large .promo a {
+		height: 305px;
+	}
+
+	.promos.small {
+		margin-top: -15px;
+	}
+
+	/* Adjust following for heights of small promos */
+	.promos.small .promo a {
+		height: 160px;
+	}
+
+	.promos.small .promo img {
+		width: 100%;
+		height: 80px;
+	}
+
+	form input[type=text] {
+		padding: .9%;
+	}
+}
+
+/* SD-HD 720 0-2 3 */
+@media all and (min-width: 621px) and (max-width: 855px) {
+	body {
+		 font-size: 13px;
+	}
+
+	h1,
+	h2 {
+		padding:  8px;
+		font-size: 14px;
+	}
+
+	h1 {
+		max-height: 55px;
+	}
+
+	h2 {
+		max-height: 35px;
+	}
+
+	.promos {
+		border-spacing: 12px;
+	}
+
+	.promos.small {
+		margin-top: -15px;
+		margin-bottom: 5px;
+	}
+
+	/* Adjust following for heights of large promos */
+	.promos.large .promo img {
+		width: 100%;
+		height: 120px;
+	}
+
+	.promos.large .promo a {
+		height: 185px;
+	}
+
+	.promos.small {
+		margin-top: -15px;
+	}
+
+	/* Adjust following for heights of small promos */
+	.promos.small .promo a {
+		height: 110px;
+	}
+
+	.promos.small .promo img {
+		width: 100%;
+		height: 50px;
+	}
+
+	form {
+		width: 30%;
+	}
+	form input[type=text] {
+		padding: 3%;
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+	form input[type=submit] {
+		margin-top: -4px;
+		height: 18px;
+	}
+
+	footer {
+		font-size: 12px;
+	}
+}
+
+/* SD 4:3 - 16:9 0-2 */
+@media all and (min-width: 0px) and (max-width: 620px) {
+
+	body {
+		 font-size: 12px;
+	}
+
+	h1,
+	h2 {
+		padding:  12px;
+		font-size: 14px;
+	}
+
+	h1 {
+		max-height: 65px;
+	}
+
+	h2 {
+		height: 45px;
+	}
+
+	form {
+		margin: 1.8%;
+	}
+
+	form input[type=text] {
+		padding: 3%;
+		font-size: 18px;
+	}
+
+	nav {
+		background-position: left;
+	}
+
+	.promos {
+		border-spacing: 10px;
+	}
+
+	.promos.small {
+		margin-top: -20px;
+	}
+
+	.promos.large .promo,
+	.promos.small .promo {
+		width: 100%;
+	}
+
+	.promo {
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.promos.large .promo a {
+		height: 285px;
+	}
+
+	.promos.large .promo img {
+		height: 220px;
+	}
+
+	form input[type=text] {
+		width: 86%;
+	}
+
+	form input[type=submit] {
+		margin-top: -6px;
+		height: 20px;
+		width: 12%;
+	}
+}
