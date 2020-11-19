@@ -1,0 +1,2104 @@
+<commerce_point>
+  <node>
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="fr-FR" >Homme</name>
+        <name lang="it-IT" >Maschio</name>
+        <name lang="de-DE" >Männlich</name>
+        <name lang="es-ES" >Hombre</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+      </header>
+            <node>
+           <header>
+			<name lang="en-GB" default="true">Home</name>
+			<name lang="fr-FR" >Home</name>
+			<name lang="it-IT" >Home</name>
+			<name lang="de-DE" >Home</name>
+			<name lang="es-ES" >Home</name>
+			<thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/HomeStore.png</thumbnail>
+		  </header> 
+        <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Headgear</name>
+          <name lang="en-US" >Headgear</name>
+          <name lang="fr-FR" >Couvre-chef</name>
+          <name lang="it-IT" >Accessori testa</name>
+          <name lang="de-DE" >Kopfbedeckung</name>
+          <name lang="es-ES" >Accesorios cabeza</name>
+          <name lang="ja-JP" >?</name>
+          <name lang="ko-KR" >??</name>
+          <name lang="zh-HK" >?</name>
+          <name lang="zh-TW" >?</name>
+          <name lang="en-SG" >Headgear</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+        </header>
+        <!--Army Cap-->
+        <object>59AF88A9-3CEF46A3-99921054-60898FE5</object>
+        <!--Stars & Stripes Do-rag-->
+        <object>00000000-00000000-00000000-00010059</object>
+        <!--Fedora-->
+        <object>00000000-00000000-00000000-00010067</object>
+        <!--Sailors Beanie Hat-->
+        <object>AB1760E7-CA1543EA-99A74571-95F48049</object>
+        <!--Black and Grey Flatcap-->
+        <object>00000000-00000000-00000000-00010049</object>
+        <!--Black and Red Flatcap-->
+        <object>00000000-00000000-00000000-00010050</object>
+        <!--Black and Brown Flatcap-->
+        <object>00000000-00000000-00000000-00010051</object>
+        <!--30thJuly-->
+        <!--Purple Bandana-->
+        <object>F922227B-AF2C46D1-A6CB1890-28D6D23D</object>
+        <!--16thJuly-->
+        <!--Red Bandana-->
+        <object>1D86D1AD-97DB4297-BC68D23C-0A7B9FF6</object>
+        <!--Blue Bandana-->
+        <object>CC17E3F5-761549A2-92D71FAE-BBDDEBFC</object>
+        <!--Green Bandana-->
+        <object>C034B897-A7CB4A38-BA202C4D-B4A71964</object>
+        <!--Black Bandana-->
+        <object>92A65925-C4844D17-89CF350D-434F1460</object>
+        <!--White Bandana-->
+        <object>F546D3EE-927442E8-9BFE9B7B-CFEE8D98</object>
+        <!--7thMay-->
+        <object>0212C7AF-B7DC4E01-A31503A1-CBC5AE09</object>
+        <object>4BFD45D1-89D24531-B57BDBB0-E334830C</object>
+        <object>B9B9FE21-DD254D4C-B73D86B2-BA24B334</object>
+        <object>59117C28-4B0449CE-A23DB49B-692CCA1D</object>
+        <object>512FF2C6-3FB64CA0-9FBA185F-8ADF97B7</object>
+        <object>6C5F2BE4-9F9D4828-B452A669-761F5A45</object>
+        <object>00000000-00000000-00000000-00010047</object>
+        <!--18th-->
+        <object>00000000-00000000-00000000-00010068</object>
+        <object>19A74DE6-05854612-AF10B7A9-3F256EFB</object>
+        <object>E5891AAD-9D424EB1-A13C3E59-66D7CADF</object>
+        <object>D1B52336-72024B81-A08C0682-E2C9FFDA</object>
+        <object>EBCCED0F-E4244EA0-87B78397-A526B270</object>
+        <object>47F68F30-50FB43F7-BFA344B1-0348A629</object>
+        <object>00000000-00000000-00000000-00010052</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Hands</name>
+          <name lang="en-US" >Hands</name>
+          <name lang="fr-FR" >Mains</name>
+          <name lang="it-IT" >Mani</name>
+          <name lang="de-DE" >Hände</name>
+          <name lang="es-ES" >Manos</name>
+          <name lang="ja-JP" >?</name>
+          <name lang="ko-KR" >?</name>
+          <name lang="zh-HK" >?</name>
+          <name lang="zh-TW" >?</name>
+          <name lang="en-SG" >Hands</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hands.dds</thumbnail>
+        </header>
+        <!--18th-->
+        <object>B98C1286-09F34B02-A5F27343-EE89E313</object>
+        <object>1BD38F32-DD8D4A5F-B861770C-B47C9935</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="en-US" >Torso</name>
+          <name lang="fr-FR" >Torse</name>
+          <name lang="it-IT" >Torso</name>
+          <name lang="de-DE" >Rumpf</name>
+          <name lang="es-ES" >Torso</name>
+          <name lang="ja-JP" >????</name>
+          <name lang="ko-KR" >?</name>
+          <name lang="zh-HK" >??</name>
+          <name lang="zh-TW" >??</name>
+          <name lang="en-SG" >Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+        </header>
+        <!--Black Baseball Shirt -->
+        <object>C07C70F8-47994B26-8870521A-8E8E78B6</object>
+        <!--Green and Blue Sports Top-->
+        <object>FEF28F54-C7964A99-BD3B14ED-A41752EE</object>
+        <!--Red and Grey Sports Top-->
+        <object>5B644FA0-1D964D3E-916FD957-184092C4</object>
+        <!--Red Biker Jacket-->
+        <object>00000000-00000000-00000000-00030040</object>
+        <!--Brown Flying Jacket-->
+        <object>C8DAE0CA-088944A0-82C40901-D4D58282</object>
+        <!--Dark Brown Flying Jacket-->
+        <object>EF295D3B-CFBA4D9B-9A713080-5CE32BB7</object>
+        <!--Black Flying Jacket-->
+        <object>B055F3DD-E3A94492-A7D1B78A-0AADA7D2</object>
+        <!--White Hooded Top-->
+        <object>00000000-00000000-00000000-00030023</object>
+        <!--Urban Camo Hooded Top-->
+        <object>00000000-00000000-00000000-00030029</object>
+        <!--Red Hooded Top-->
+        <object>00000000-00000000-00000000-00030032</object>
+        <!--Pale Pink Hooded Top-->
+        <object>00000000-00000000-00000000-00030032</object>
+        <!--Pale Blue Hooded Top-->
+        <object>00000000-00000000-00000000-00030031</object>
+        <!--Navy Hooded Top-->
+        <object>00000000-00000000-00000000-00030030</object>
+        <!--Jungle Camo Hooded Top-->
+        <object>00000000-00000000-00000000-00030028</object>
+        <!--Black Hooded Top-->
+        <object>00000000-00000000-00000000-00030025</object>
+        <!--Green Hooded Top-->
+        <object>00000000-00000000-00000000-00030026</object>
+        <!--Cyber-Goth Top-->
+        <object>586E32DB-261E404C-AFA2025A-B5778A7A</object>
+        <!--Black and Lilac Dress Shirt-->
+        <object>FFB43166-56474B7C-8968E4AF-67D6DD78</object>
+        <!--Brown Dress Shirt -->
+        <object>00000000-00000000-00000000-00030042</object>
+        <!--Black Dress Shirt -->
+        <object>6B859AD8-06654C2A-A4B6DC65-F549C281</object>
+        <!--Blue and Grey Sports Top -->
+        <object>B899551C-F1874C5D-BEAF9553-EFA8B035</object>
+        <!--Grey and Red Sports Top -->
+        <object>CC0FF76B-25274788-9DAA9F8D-EA439C30</object>
+        <!--Blue Baseball Shirt -->
+        <object>46390C2A-95684588-B6CCAEE2-582CEB86</object>
+        <!--Home Baseball Shirt  -->
+        <object>7B26E6EA-7DAD49F8-AB143521-61CB5847</object>
+        <!--Grey Baseball Shirt  -->
+        <object>76823045-B0D8499C-850F8AA3-EF5EE6E7</object>
+        <!--Striped Baseball Shirt  -->
+        <object>5572104B-AC294811-87632435-083D2F64</object>
+        <!--Denim Jacket -->
+        <object>00000000-00000000-00000000-00030069</object>
+        <!--Red and White Letterman Jacket -->
+        <object>017E782E-FCFF4DAE-AEC5E24F-D1D9ACD9</object>
+        <!--Black and White Letterman Jacket -->
+        <object>E84EC602-D96F41BD-92F63C7F-5FCF030D</object>
+        <!--Blue and Yellow Letterman Jacket -->
+        <object>17456525-B03F4E06-A0992887-807EB298</object>
+        <!--Green and White Letterman Jacket -->
+        <object>5BBC3567-13FA4844-91030EA2-34770BF4</object>
+        <!--30thJuly-->
+        <!--Teal Vest with Jewellery -->
+        <object>B5AEB63B-050E463E-8450520E-CEAE6EC7</object>
+        <!--Green Vest with Jewellery -->
+        <object>4035B5D5-660E4433-871083B4-F88022BC</object>
+        <!--Black Vest with Jewellery -->
+        <object>09EED79F-07F5472A-B7965259-C0746872</object>
+        <!--3 Colour Vest with Jewellery -->
+        <object>99B05631-76CC4E06-BC4AE633-C4D36666</object>
+        <!--Red Vest with Jewellery -->
+        <object>E139414D-E19A41B1-A1B356CD-02C563DD</object>
+        <!--WhiteVest with Jewellery -->
+        <object>0230A5AC-3A8A4963-936A0447-030E4C45</object>
+        <!--4thJune-->
+        <object>91BF1B47-60374A4E-BD9BD2B5-4DA3BFDA</object>
+        <object>C2C88B2E-7BA740D9-901A82DB-A3194966</object>
+        <!--21st May-->
+        <object>048AFED2-20804B96-B7E3CFC7-F4C321B3</object>
+        <object>EF3C155C-024F4718-953A9822-ECCD43F0</object>
+        <object>BD117C51-66E84680-B91B9632-59750880</object>
+        <!--7thMay-->
+        <object>82D8FBB3-E2864D15-B2D9E12D-78362E14</object>
+        <object>B82E5EB4-B3B84AD7-9D44EAC8-367087F0</object>
+        <object>EF85C87E-89C14D71-88AF83BC-6F891513</object>
+        <object>E6E8B98B-7D79459D-8947BAE8-89A3D43C</object>
+        <object>053247C8-06A14A2C-AEBD2DD7-2CFD78EA</object>
+	      <!--misc tshirts-->
+        <!--<object>F9558B06-86D840A9-954809E3-2B8E3AFB</object>
+        <object>77D5D3DD-B02D4D3C-B72A3120-EA374874</object>
+        <object>F5A5DE9E-7B784D91-8729014F-77A69F8F</object>
+        <object>9A57FC0E-949E4769-BB47E7B8-38BC5B66</object>
+        <object>170A8032-66C242EE-AAAF583C-35AC8F2C</object>-->
+        <object>00000000-00000000-00000000-00030027</object>
+        <object>00000000-00000000-00000000-00030065</object>
+        <object>00000000-00000000-00000000-00030054</object>
+        <!--18th-->
+        <object>3D0FA424-9D024F94-86B295BA-5A5F0B5D</object>
+        <object>00000000-00000000-00000000-00030076</object>
+        <object>16B61BE3-3A614235-83D7F44C-E32C18F6</object>
+        <object>00000000-00000000-00000000-00030057</object>
+        <object>1AFFDFBB-003B4B87-8783B65D-D0ABE3B7</object>
+        <object>038F2E15-F11641C6-BE229CEB-F7C65035</object>
+        <object>A03961F7-5D3440CB-88DA9D6D-B440AC3E</object>
+        <object>CE49E9DA-68F3449C-8862349A-ED655EAF</object>
+        <object>A91F7A89-5F4D40E2-9532349E_BEFE6D20</object>
+        <object>D887517F-ACA54220-B8C73B6B-391948E2</object>
+        <object>32A1E5DC-E1A14ECD-BEDF3354-0D4DE326</object>
+        <object>41EB25BC-94284445-B61ECF20-F4F6627E</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Legs</name>
+          <name lang="en-US" >Legs</name>
+          <name lang="fr-FR" >Jambes</name>
+          <name lang="it-IT" >Gambe</name>
+          <name lang="de-DE" >Beine</name>
+          <name lang="es-ES" >Piernas</name>
+          <name lang="ja-JP" >????</name>
+          <name lang="ko-KR" >??</name>
+          <name lang="zh-HK" >?</name>
+          <name lang="zh-TW" >?</name>
+          <name lang="en-SG" >Legs</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/legs.dds</thumbnail>
+        </header>
+        <!--Tartan Corduroy Jeans-->
+        <object>00000000-00000000-00000000-00040027</object>
+        <!--Urban-Camo Cargo Pants-->
+        <object>00000000-00000000-00000000-00040008</object>
+        <!--Jungle Camo Cargo Shorts-->
+        <object>00000000-00000000-00000000-00040034</object>
+        <!--Green Sweat Pants-->
+        <object>C7ABB118-8C0B4832-8B7950E7-6D26A81D</object>
+        <!--Blue Sweat Pants-->
+        <object>CF3731A8-C5D14CD6-A54D9F5E-C0934608</object>
+        <!--Red Sweat Pants-->
+        <object>DC1A0DAE-A3B04E28-A0538FF9-86015650</object>
+        <!--Turquoise Sweat Pants-->
+        <object>6CC65C66-AE9E416F-AF595D4B-35D415D5</object>
+        <!--30thJuly-->
+        <!--Blue Baggy Chinos-->
+        <object>C0FBD3FA-8177454A-AB153516-B6656828</object>
+        <!--Beige Baggy Chinos-->
+        <object>6DEB465A-CFE34D2B-9777B29A-92DAFD49</object>
+        <!--Brown Baggy Chinos-->
+        <object>ADA276AA-0F0A4846-9C3C439C-7C0EF2FD</object>
+        <!--4thJune-->
+        <object>22A5D4AC-0E154745-A2AA31E5-4CC9E405</object>
+        <!--21stMay-->
+        <object>70B2DE18-707044E1-8AFFD367-3AD25D01</object> 
+                <!--7thMay-->
+        <object>2972FC06-1E2347FF-85C319A2-485E37E9</object>
+        <object>00000000-00000000-00000000-00040040</object>
+            <!--18th-->
+        <object>B0260706-81944A4D-850CB531-5945F0AF</object>
+        <object>00000000-00000000-00000000-00040026</object>
+        <object>2F3F1D0F-DA764CED-ABF49E89-6D5E2060</object>
+        <object>327A1C6C-12D442B4-85DFA232-FC0B638A</object>
+        <object>00000000-00000000-00000000-00040031</object>
+        <object>00000000-00000000-00000000-00040035</object>
+        <object>00000000-00000000-00000000-00040017</object>
+        <object>00000000-00000000-00000000-00040051</object>     
+        </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Feet</name>
+          <name lang="en-US" >Feet</name>
+          <name lang="fr-FR" >Pieds</name>
+          <name lang="it-IT" >Piedi</name>
+          <name lang="de-DE" >Füße</name>
+          <name lang="es-ES" >Pies</name>
+          <name lang="ja-JP" >?</name>
+          <name lang="ko-KR" >?</name>
+          <name lang="zh-HK" >??</name>
+          <name lang="zh-TW" >?</name>
+          <name lang="en-SG" >Feet</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/feet.dds</thumbnail>
+        </header>
+        <!--Cyber-Goth Shoes-->
+        <object>7764BFAD-EB804E1B-A5F96733-2A01ECE6</object>
+        <!--30thJuly-->
+        <!--Black and White Hightops-->
+        <object>A828590A-B604470E-967736DC-534E8CB8</object>
+        <!--Blue and Orange Hightops-->
+        <object>15869544-F1FF4817-AC9A0BF4-A929EBDA</object>
+        <!--Blue and White Hightops-->
+        <object>09CD4E59-D97B4A1F-AE1B0E29-112F3EB3</object>
+        <!--Brown and White Hightops-->
+        <object>4F2FA910-0CA94B25-99EA390D-CD400330</object>
+        <!--16thJuly-->
+        <!--Green Classic Trainers-->
+        <object>F31E5D24-90554F3A-81C3AA82-1EB14332</object>
+        <!--Black Classic Trainers-->
+        <object>ADC77AB2-AEE1461A-AC902B8C-C333DD89</object>
+        <!--Brown Classic Trainers-->
+        <object>64453FFF-6338449D-A52B1948-FCC4C63F</object>
+        <!--Red Classic Trainers-->
+        <object>33F13C20-88B04CBD-A86F2869-F24C638D</object>
+        <!--Blue Classic Trainers-->
+        <object>3FAB2BAB-13E74D08-881A857C-FDFDA2C3</object>
+        <!--4thJune-->
+        <object>A277CFA3-DDBC4FB0-BFCC40B2-E1D8A83D</object>        
+        <!--21st May-->
+        <object>A4AF346C-71E94506-80761AAF-AD24F40B</object>
+        <object>8D420775-B2124AC4-AF0CB81C-458223CD</object>
+        <object>AA453379-15F941A8-B31A9322-B20E4029</object>
+        <!--7thMay-->
+        <object>2942F88D-5B684D98-B7C001F7-FE75E0B6</object>
+        <object>679E8FF8-E79C4595-BCC8690A-1C2B6A4E</object>
+        <!--18th-->
+        <object>00000000-00000000-00000000-00050024</object>
+        <object>00000000-00000000-00000000-00050014</object>
+        <object>C9DE39FF-909B45C7-B37958E2-863C8A39</object>
+        <object>3215839D-F5A64BFD-A5309AA2-6EA07CC3</object>
+        <object>495755E0-D1454644-AAE82146-10961191</object>
+        <object>00000000-00000000-00000000-00050021</object>
+        <object>00000000-00000000-00000000-00050012</object>
+        <object>00000000-00000000-00000000-00050019</object>
+        <object>00000000-00000000-00000000-00050031</object>
+      </node>
+        <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Jewellery</name>
+          <name lang="en-US" >Jewelry</name>
+          <name lang="fr-FR" >Bijoux</name>
+          <name lang="it-IT" >Gioielli</name>
+          <name lang="de-DE" >Schmuck</name>
+          <name lang="es-ES" >Bisutería</name>
+          <name lang="ja-JP" >?????</name>
+          <name lang="ko-KR" >???</name>
+          <name lang="zh-HK" >??</name>
+          <name lang="zh-TW" >??</name>
+          <name lang="en-SG" >Jewellery</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/jewellery.dds</thumbnail>
+        </header>
+          <!--Skull Stud Earrings-->
+         <object>56D139E1-7B4A4F78-84FDC19B-F1E088F7</object>
+         <object>20D6E9AD-A6A64EDD-B95AB97B-0F7BA55A</object>
+         <object>00000000-00000000-00000000-00070003</object>
+      </node>
+      <node>
+        <header>
+          <name lang="en-GB" default="true">Accessories</name>
+          <name lang="en-US" >Accessories</name>
+          <name lang="fr-FR" >Accessoires</name>
+          <name lang="it-IT" >Accessori</name>
+          <name lang="de-DE" >Accessoires</name>
+          <name lang="es-ES" >Accesorios</name>
+          <name lang="ja-JP" >??????</name>
+          <name lang="ko-KR" >????</name>
+          <name lang="zh-HK" >??</name>
+          <name lang="zh-TW" >??</name>
+          <name lang="en-SG" >Accessories</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/accessories.dds</thumbnail>
+        </header>
+        <node type="objects">
+          <header>
+            <name lang="en-GB" default="true">Spectacles</name>
+            <name lang="en-US" >Spectacles</name>
+            <name lang="fr-FR" >Lunettes</name>
+            <name lang="it-IT" >Occhiali</name>
+            <name lang="de-DE" >Brille</name>
+            <name lang="es-ES" >Gafas</name>
+            <name lang="ja-JP" >???</name>
+            <name lang="ko-KR" >??</name>
+            <name lang="zh-HK" >??</name>
+            <name lang="zh-TW" >??</name>
+            <name lang="en-SG" >Spectacles</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/glasses.dds</thumbnail>
+          </header>
+          <!--Eye Mask-->
+          <object>0A8EE503-D4574985-B53E2046-08F3A72B</object>
+          <!--Small Square Framed Sunglasses-->
+          <object>00000000-00000000-00000000-00060012</object>
+          <!--4thJune-->
+          <object>AE8CC350-D0D24AB4-A3DB3DDB-90E0AC48</object>
+          <object>23FF89D0-15B44D4B-A1DCED90-1C2E1BF0</object>          
+            <!--21stMay-->
+          <object>098EA919-711B413D-B19859EE-F1D822D8</object>
+            <!--7thMay-->
+          <object>00000000-00000000-00000000-00060011</object>
+          <object>4425CF0C-305A45F1-95E7ABAA-C193381E</object>          
+         <object>2688AA69-374C49CE-878C1CA7-F6EAF44B</object>
+          <object>00000000-00000000-00000000-00060007</object>
+          <object>00000000-00000000-00000000-00060002</object>
+          <object>2A283B0D-75334C68-960DE50D-EC1F8202</object>
+          <object>1F03C805-CC164AFD-B9C5E663-B36D9F14</object>
+        </node>
+        <node type="objects">
+          <header>
+            <name lang="en-GB" default="true">Headphones</name>
+            <name lang="en-US" >Headphones</name>
+            <name lang="fr-FR" >Headphones</name>
+            <name lang="it-IT" >Headphones</name>
+            <name lang="de-DE" >Headphones</name>
+            <name lang="es-ES" >Headphones</name>
+            <name lang="ja-JP" >???</name>
+            <name lang="ko-KR" >??</name>
+            <name lang="zh-HK" >??</name>
+            <name lang="zh-TW" >??</name>
+            <name lang="en-SG" >Spectacles</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/headphones.dds</thumbnail>
+          </header>
+          <!--Headband Headphones-->
+          <object>00000000-00000000-00000000-00060003</object>
+          <!--7thMay-->
+          <object>00000000-00000000-00000000-00060005</object>
+        </node>
+      </node>
+             	<node type="objects">
+				<header>
+			      <name lang="en-GB" default="true">Costume</name>
+			      <name lang="en-US" >Costume</name>
+			      <name lang="fr-FR" >Costumes</name>
+			      <name lang="it-IT" >Costume</name>
+			      <name lang="de-DE" >Kostüm</name>
+			      <name lang="es-ES" >Traje</name>
+				  <name lang="ja-JP" >????</name>
+				  <name lang="ko-KR" >?</name>
+				  <name lang="zh-HK" >??</name>
+				  <name lang="zh-TW" >??</name>
+				  <name lang="en-SG" >Costume</name>
+				  <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+				</header>
+				<!--Caveman Hair-->
+				<object>CF434138-2B104B92-9C4D5C72-3A061004</object>
+				<!--Caveman Boar Sash -->
+				<object>C890732A-6B8E4CF7-81BE95D8-1C683630</object>
+				<!--Cave Gloves-->
+				<object>6985CD4B-A5F84A0A-93FC5A57-779C6750</object>
+				<!--Caveman Loincloth-->
+				<object>412EF90D-7E274B86-8FFE51C6-E129C47C</object>
+				<!--Cave Boots-->
+				<object>1156C0BF-03474F6E-BBFB133D-FB77735B</object>
+              </node>
+    </node>
+        <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Resistance 2</name>
+          <name lang="fr-FR">Resistance 2</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/R2Logo.png</thumbnail>
+        </header>        
+        <object>B2C4B039-4A85427A-9EB0B529-CC83F6A1</object>		
+        <object>925C9E5E-2EF74F1E-8E706D82-F1516833</object>
+        <object>2F4AD443-F1CE43ED-ABC38DB3-99214F8F</object>
+        <object>4B8F6DC0-2FCC4EE4-8107FC7B-BFF7F797</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="en-US" >Torso</name>
+          <name lang="fr-FR" >Torse</name>
+          <name lang="it-IT" >Torso</name>
+          <name lang="de-DE" >Rumpf</name>
+          <name lang="es-ES" >Torso</name>
+          <name lang="ja-JP" >????</name>
+          <name lang="ko-KR" >?</name>
+          <name lang="zh-HK" >??</name>
+          <name lang="zh-TW" >??</name>
+          <name lang="en-SG" >Torso</name>
+          <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/mysoti_chip_blk.png</thumbnail>
+        </header>
+       <!--Poochies-->
+        <object>6FAA453E-97E64B5B-A8319B88-792CA6BA</object>
+        <!--Ray-->
+        <object>39CB9F04-E2394213-A48BC40F-010EB352</object>
+        <!--Clever Roos-->
+        <object>81EE9D0F-AAFB43D4-B0899009-FF20FCF9</object>
+        <!--Colorful Zebra-->
+        <object>A21A9278-A8304CCC-A3554EBD-83CA5925</object>
+        <!--The Jam Monster-->
+        <object>5A462C2C-3A0245C6-B633752B-6AE05C3C</object>
+        <!--Triangle-->
+        <object>22BC8528-57E846AA-B1561FDF-63C82B64</object>
+        <!--Frolic!-->
+        <object>B9EBCFE5-F6124EBF-9E895AAD-20CFF92A</object>
+        <!--Jobby Monster-->
+        <object>3BFBF911-7474412E-AA2374E4-DC67E9DD</object>
+        <!--Gumball Goblins-->
+        <object>6A5B8FD7-3AD54801-A1B92FB1-F0EC9333</object>
+        <!--I Hear Music In Everything-->
+        <object>6DCFF8D2-1FBC44BC-9A4EB08B-7EBE9B65</object>
+        <!--Little kiss...-->
+        <object>3727751F-85DF4BC3-AB0CC49A-0AF89272</object>
+        <!--Makeshift costume-->
+        <object>9348AB66-F75C436C-961F77C3-F70F1A98</object>
+        <!--When In Doubt, Make Tea-->
+        <object>9CFD98FE-737B4B70-97E4AB8C-53A36B1F</object>
+        <!--The End!!!-->
+        <object>FA545CF9-C1404343-9027CFFE-868FD444</object>
+        <!--Big Ups!-->
+        <object>DE043BB5-F5924E49-850F879C-8ABE5B82</object>
+        <!--Gorilla Warfare-->
+        <object>061A0C6E-EF2D4BAE-BDF3E2FA-DFD55796</object>
+        <object>5E39B105-6C7948F1-A0455740-E1255180</object>
+        <object>6B1991EC-4D3A4FC6-A8DB934D-5A21D282</object>
+        <object>9C4BD897-F425478E-A0AA2D2B-148C9BB6</object>
+        <object>17D16E39-C98045D6-B42013E8-C619806D</object>
+        <object>49E01934-8ABF4C0A-BA4C0D90-06750AD1</object>
+        <object>185BADAA-C4CC426F-8519E06E-C8BA6032</object>
+        <object>261D34ED-43434453-A60C5AEF-553A9790</object>
+        <object>887A5C9B-D84E4F93-A66CBB29-166AB638</object>
+        <object>9367CAE1-4AE44D41-9A131A40-BCC7F12E</object>
+        <object>B5215377-36B04117-8F422F84-BBFEA535</object>
+        <object>C70D32B4-513E44B4-9F1AC813-A4319AD5</object>
+        <object>CFAFECE8-D5F84FD1-94427BDD-C581C90F</object>
+      </node>
+      <node>
+			<header>
+			<name lang="en-GB" default="true">Killzone2</name>
+			<name lang="en-US" >Killzone2</name>
+			<name lang="fr-FR" >Killzone2</name>
+			<name lang="it-IT" >Killzone2</name>
+			<name lang="de-DE" >Killzone2</name>
+			<name lang="es-ES" >Killzone2</name>
+			<name lang="ja-JP" >??</name>
+			<name lang="ko-KR" >??</name>
+			<name lang="zh-HK" >??</name>
+			<name lang="zh-TW" >??</name>
+			<name lang="en-SG" >Male</name>
+			<thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/K2_demo.png</thumbnail>
+		  </header>
+			  <node type="objects">
+				<header>
+				  <name lang="en-GB" default="true">Torso</name>
+				  <name lang="en-US" >Torso</name>
+				  <name lang="fr-FR" >Torse</name>
+				  <name lang="it-IT" >Torso</name>
+				  <name lang="de-DE" >Rumpf</name>
+				  <name lang="es-ES" >Torso</name>
+				  <name lang="ja-JP" >????</name>
+				  <name lang="ko-KR" >?</name>
+				  <name lang="zh-HK" >??</name>
+				  <name lang="zh-TW" >??</name>
+				  <name lang="en-SG" >Torso</name>
+				 <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+				</header>
+				<object>DB401EEC-346C4D09-8C370D7D-454242B3</object>
+				<object>D5AC43A6-101A4C78-884CACC7-9EA167B3</object>
+				<object>B6D399DB-AC204AC0-B1955B28-7ED74A72</object>
+				<object>9B2E6329-3E254838-9C154401-DF003BE0</object>
+				<object>BCE3F082-58BF4BFC-A26D685A-B564513E</object>
+				<object>9005AD5B-9A7F4B6A-90437863-0B248EA0</object>
+				<object>10E1D4B7-8E574F99-86BB3B55-8B9AF144</object>
+				<object>73847EF5-17B947C6-84F6CBA2-7D217E64</object>
+			  </node>
+			  <node type="objects">
+				<header>
+				  <name lang="en-GB" default="true">Helghast</name>
+				  <name lang="en-US" >Helghast</name>
+				  <name lang="fr-FR" >Helghast</name>
+				  <name lang="it-IT" >Helghast</name>
+				  <name lang="de-DE" >Helghast</name>
+				  <name lang="es-ES" >Helghast</name>
+				  <name lang="ja-JP" >????</name>
+				  <name lang="ko-KR" >?</name>
+				  <name lang="zh-HK" >??</name>
+				  <name lang="zh-TW" >??</name>
+				  <name lang="en-SG" >Helghast</name>
+				  <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Tactician.png</thumbnail>
+				</header>
+				<!--Male Helghast Tactician Helmet
+				<object>C1E32A59-161A4879-9A0725A9-A3CAE907</object>-->
+				<!--Male Helghast Tactician Flak Jacket-->
+				<object>F5FC20FA-22B542E8-8C2D8D7E-FFB1DE57</object>
+				<!--Male Helghast Tactician Gloves-->
+				<object>7D6B0DCE-EEE64E29-A7F3E26A-DEAC9412</object>
+				<!--Male Helghast Tactician Trousers-->
+				<object>E3D5EFEA-E1624821-855C33F7-1F2A4657</object>
+				<!--Male Helghast Tactician Boots
+				<object>8CE84481-DB304612-9D0C1FA0-702FA293</object>-->
+			  </node>
+      </node>
+      <node>
+			<header>
+			<name lang="en-GB" default="true">GI Joe</name>
+			<name lang="en-US" >GI Joe</name>
+			<name lang="fr-FR" >GI Joe</name>
+			<name lang="it-IT" >GI Joe</name>
+			<name lang="de-DE" >GI Joe</name>
+			<name lang="es-ES" >GI Joe</name>
+			<name lang="ja-JP" >??</name>
+			<name lang="ko-KR" >??</name>
+			<name lang="zh-HK" >??</name>
+			<name lang="zh-TW" >??</name>
+			<name lang="en-SG" >Male</name>
+			<thumbnail lang="en-GB"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/GIJoe_Logo.png</thumbnail>
+		  </header>
+			<node type="objects">
+			<header>
+			<name lang="en-GB" default="true">GI Joe</name>
+			<name lang="en-US" >GI Joe</name>
+			<name lang="fr-FR" >GI Joe</name>
+			<name lang="it-IT" >GI Joe</name>
+			<name lang="de-DE" >GI Joe</name>
+			<name lang="es-ES" >GI Joe</name>
+			<name lang="ja-JP" >??</name>
+			<name lang="ko-KR" >??</name>
+			<name lang="zh-HK" >??</name>
+			<name lang="zh-TW" >??</name>
+			<name lang="en-SG" >Male</name>
+			<thumbnail lang="en-GB"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/GIJoe_Duke.png</thumbnail>
+		  </header>
+				<!--GI Joe Duke Costume-->
+				<!--Torso-->
+				<object>751DB1A7-B1CC4235-8C788A8C-9C885726</object>
+				<!--Gloves-->
+				<object>A52A8B41-E55940A1-A8044C2C-707AB80D</object>
+				<!--Pants-->
+				<object>24152B0F-8DDF47CF-A823A2E6-4A04B023</object>
+				<!--Boots-->
+				<object>B049A26F-126A43AD-B2D1948F-06CBC65F</object>
+				</node>
+				<node type="objects">
+			<header>
+			<name lang="en-GB" default="true">GI Joe</name>
+			<name lang="en-US" >GI Joe</name>
+			<name lang="fr-FR" >GI Joe</name>
+			<name lang="it-IT" >GI Joe</name>
+			<name lang="de-DE" >GI Joe</name>
+			<name lang="es-ES" >GI Joe</name>
+			<name lang="ja-JP" >??</name>
+			<name lang="ko-KR" >??</name>
+			<name lang="zh-HK" >??</name>
+			<name lang="zh-TW" >??</name>
+			<name lang="en-SG" >Male</name>
+			<thumbnail lang="en-GB"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/GIJoe_StormShadow.png</thumbnail>
+		  </header>
+				<!--GI Joe Storm Shadow-->
+				<!--Mask-->
+				<object>CF3D3DE4-F90F4449-8BA19C22-8756F4BD</object>
+				<!--Torso-->
+				<object>38322DF1-77834E07-AD119A4E-6F210F30</object>
+				<!--Gloves-->
+				<object>99FAAD58-A2314D14-9C46E998-04DFBBB3</object>
+				<!--Pants-->
+				<object>09A98978-57424466-AE215D5D-838EC737</object>
+				<!--Shoes-->
+				<object>CA7E4BB6-191240C1-8DE6B64C-069007A0</object>
+				</node>
+				<node type="objects">
+			<header>
+			<name lang="en-GB" default="true">GI Joe</name>
+			<name lang="en-US" >GI Joe</name>
+			<name lang="fr-FR" >GI Joe</name>
+			<name lang="it-IT" >GI Joe</name>
+			<name lang="de-DE" >GI Joe</name>
+			<name lang="es-ES" >GI Joe</name>
+			<name lang="ja-JP" >??</name>
+			<name lang="ko-KR" >??</name>
+			<name lang="zh-HK" >??</name>
+			<name lang="zh-TW" >??</name>
+			<name lang="en-SG" >Male</name>
+			<thumbnail lang="en-GB"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/GIJoe_SnakeEyes.png</thumbnail>
+		  </header>
+				<!--GI Joe Snake Eyes-->
+				<!--Mask-->
+				<object>35F27F34-55264754-9417FA73-6A3074A1</object>
+				<!--Torso-->
+				<object>F243290C-2D54495F-A5830155-0D65756C</object>
+				<!--Gloves-->
+				<object>A3BA24A1-EC8C4B5E-9643D9EE-280E89A1</object>
+				<!--Pants-->
+				<object>BD4858D2-F8BB48AE-B255FCB2-ECF422B4</object>
+				<!--Shoes-->
+				<object>F4453AEE-D7CA4A08-9F186405-40F34656</object>
+				</node>
+      </node>
+      <node>
+			<header>
+			<name lang="en-GB" default="true">Ghostbusters™</name>
+			<name lang="en-US" >Ghostbusters™</name>
+			<name lang="fr-FR" >S.O.S. Fantômes™</name>
+			<name lang="it-IT" >Ghostbusters™</name>
+			<name lang="de-DE" >Ghostbusters™</name>
+			<name lang="es-ES" >Cazafantasmas™</name>
+			<name lang="ja-JP" >??</name>
+			<name lang="ko-KR" >??</name>
+			<name lang="zh-HK" >??</name>
+			<name lang="zh-TW" >??</name>
+			<name lang="en-SG" >Male</name>
+			<thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/STORE_Ghostbusters_128x128px_SCEE.png</thumbnail>
+		  </header>
+			  <node type="objects">
+				<header>
+				  <name lang="en-GB" default="true">Torso</name>
+				  <name lang="en-US" >Torso</name>
+				  <name lang="fr-FR" >Torse</name>
+				  <name lang="it-IT" >Torso</name>
+				  <name lang="de-DE" >Rumpf</name>
+				  <name lang="es-ES" >Torso</name>
+				  <name lang="ja-JP" >????</name>
+				  <name lang="ko-KR" >?</name>
+				  <name lang="zh-HK" >??</name>
+				  <name lang="zh-TW" >??</name>
+				  <name lang="en-SG" >Torso</name>
+				 <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+				</header>
+				<object>640FE4C0-D3604179-94FBE578-A3133429</object>
+				<object>CA33950E-05044798-A6E451ED-BD6CB714</object>
+			  </node>
+			  <node type="objects">
+				<header>
+				  <name lang="en-GB" default="true">Costume</name>
+				  <name lang="en-US" >Costume</name>
+				  <name lang="fr-FR" >Costumes</name>
+				  <name lang="it-IT" >Costume</name>
+				  <name lang="de-DE" >Kostüm</name>
+				  <name lang="es-ES" >Traje</name>
+				  <name lang="ja-JP" >????</name>
+				  <name lang="ko-KR" >?</name>
+				  <name lang="zh-HK" >??</name>
+				  <name lang="zh-TW" >??</name>
+				  <name lang="en-SG" >Helghast</name>
+				  <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/dummyMaleCostume_Small.png</thumbnail>
+				</header>
+				<!--Male Ghostbusters Head-->
+				<object>95A95E73-DFBA498B-866BB658-4D111658</object>
+				<!--Male Ghostbusters Torso-->
+				<object>0B13812F-0ADC444B-8D31FE18-AF0808CD</object>
+				<!--Male Ghostbusters Gloves-->
+				<object>B42EB771-0D6D4253-AA709361-DFA313FC</object>
+				<!--Male Ghostbusters Trousers-->
+				<object>2CA8254B-A76848F9-864C695E-8E35FCEE</object>
+				<!--Male Ghostbusters Boots-->
+				<object>D0E4077E-2510491D-B9C2D519-7A1B9635</object>
+			  </node>
+      </node>
+      <node>
+        <header>
+           <name lang="en-GB" default="true">MotorStorm®</name>
+          <name lang="en-US" >MotorStorm®</name>
+          <name lang="fr-FR" >MotorStorm®</name>
+          <name lang="it-IT" >MotorStorm®</name>
+          <name lang="de-DE" >MotorStorm®</name>
+          <name lang="es-ES" >MotorStorm®</name>
+          <name lang="ja-JP" >足</name>
+          <name lang="ko-KR" >발</name>
+          <name lang="zh-HK" >鞋子</name>
+          <name lang="zh-TW" >腳</name>
+          <name lang="en-SG" >Feet</name>
+          <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/MS_Test01.png</thumbnail>
+        </header>
+        <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Lunatic</name>
+          <name lang="en-US" >Lunatic</name>
+          <name lang="fr-FR" >Lunatique</name>
+          <name lang="it-IT" >Squilibrato</name>
+          <name lang="de-DE" >Lunatic</name>
+          <name lang="es-ES" >Lunático</name>
+          <name lang="ja-JP" >頭</name>
+          <name lang="ko-KR" >머리</name>
+          <name lang="zh-HK" >頭</name>
+          <name lang="zh-TW" >頭</name>
+          <name lang="en-SG" >Headgear</name>
+          <thumbnail lang="en-GB" default="true">
+[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/MS_Lunatic.png</thumbnail>
+        </header>
+        <!--MotorStorm®  Lunatic Race Shoes-->
+        <object>BE9BC4AD-6EEB45E6-A4C4BDF8-61CECE19</object>
+        <!--MotorStorm®  Lunatic C95's-->
+        <object>DCE0FAF7-A4014CF7-BA22C81B-D1DB62C8</object>
+        <!--MotorStorm®  Lunatic Pressure Suit-->
+        <object>B424E972-7AC44769-91D4248E-421C3409</object>
+        <!--MotorStorm®  Lunatic Carbon DH Gloves-->
+        <object>789591CB-50784036-974C3F23-D047B9EF</object>
+        <!--MotorStorm® Lunatic Goggles-->
+        <object>8F107BC8-035E4719-B5CC388D-BAEBD42B</object>
+      </node>
+      </node>
+      <node>
+        <header>
+          <name lang="en-GB" default="true">Arsenal</name>
+          <name lang="en-US" >Arsenal</name>
+          <name lang="fr-FR" >Arsenal</name>
+          <name lang="it-IT" >Arsenal</name>
+          <name lang="de-DE" >Arsenal</name>
+          <name lang="es-ES" >Arsenal</name>
+          <name lang="ja-JP" >胴</name>
+          <name lang="ko-KR" >몸</name>
+          <name lang="zh-HK" >上身</name>
+          <name lang="zh-TW" >身體</name>
+          <name lang="en-SG" >Torso</name>
+          <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/arsenalcrest.png</thumbnail>
+        </header>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Home</name>
+          <name lang="en-US" >Home</name>
+          <name lang="fr-FR" >Domicile</name>
+          <name lang="it-IT" >Maglia di casa</name>
+          <name lang="de-DE" >Heim-Trikot</name>
+          <name lang="es-ES" >Titular</name>
+          <name lang="ja-JP" >脚</name>
+          <name lang="ko-KR" >다리</name>
+          <name lang="zh-HK" >腳</name>
+          <name lang="zh-TW" >腿</name>
+          <name lang="en-SG" >Legs</name>
+          <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/homekit.png</thumbnail>
+        </header>        
+        <object>9924E223-CB3646BF-AB74830C-DD05BAD0</object>
+        <object>22CE5DB9-19F649D6-85693BF5-8F2D0C96</object>
+        <object>8EBEED36-E27B4831-907195B3-62E2A99A</object>
+        <object>6DC5A347-001649AA-95E8A634-4724BF32</object>
+        <object>C8BD1D43-62F0411F-9403E3AC-0E1A1B34</object>
+        <object>F9F1F9B0-D55B491A-BD6CF470-DC1ADC3E</object>
+        <object>6325C575-EA5140CC-8E08361F-8AFD0788</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Away</name>
+          <name lang="en-US" >Legs</name>
+          <name lang="fr-FR" >Arsenal Extérieur</name>
+          <name lang="it-IT" >Maglia da trasferta</name>
+          <name lang="de-DE" >Auswärts-Trikot</name>
+          <name lang="es-ES" >Visitante</name>
+          <name lang="ja-JP" >脚</name>
+          <name lang="ko-KR" >다리</name>
+          <name lang="zh-HK" >腳</name>
+          <name lang="zh-TW" >腿</name>
+          <name lang="en-SG" >Legs</name>
+          <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/awaykit.png</thumbnail>
+        </header>        
+        <object>5D152968-AFB14A90-995FCE1D-50E6854B</object>
+        <object>2931B368-27314BA6-89499293-8CCC3569</object>
+        <object>7F092A2A-9A73425C-AE4819B1-7704C613</object>
+        <object>DC6F61A6-DD1745BF-A4492784-A67C1AA9</object>
+        <object>A073C80D-A9C34D8D-AB393401-4A9CACC7</object>
+        <object>32F57645-00E44F54-8F42D74D-79E413CF</object>
+        <object>7A722881-948647CD-83EF59E5-54B46E75</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Third</name>
+          <name lang="en-US" >Legs</name>
+          <name lang="fr-FR" >Arsenal Third</name>
+          <name lang="it-IT" >Maglia della terza</name>
+          <name lang="de-DE" >Ausweich-Trikot</name>
+          <name lang="es-ES" >Tercera</name>
+          <name lang="ja-JP" >脚</name>
+          <name lang="ko-KR" >다리</name>
+          <name lang="zh-HK" >腳</name>
+          <name lang="zh-TW" >腿</name>
+          <name lang="en-SG" >Legs</name>
+          <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/thirdkit.png</thumbnail>
+        </header>        
+        <object>DA59271B-82764E13-96F9EDC5-5661737B</object>
+        <object>EE5B7CD7-DC684F35-8B83F399-E0C84B9D</object>
+        <object>BE8EACDC-59BF4842-A69FCE70-7833663F</object>
+        <object>9B9B13EB-9403431F-9CA7447E-F1BC1744</object>
+        <object>6A07A443-FE8E4B91-9ADCAB58-DE2B4D63</object>
+        <object>5B714A19-C3674EC4-9706CAE6-28185EA0</object>
+        <object>5C700002-26E542B5-9C78B86B-21AE45BB</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Misc</name>
+          <name lang="en-US" >Misc</name>
+          <name lang="fr-FR" >Misc</name>
+          <name lang="it-IT" >Misc</name>
+          <name lang="de-DE" >Misc</name>
+          <name lang="es-ES" >Misc</name>
+          <name lang="ja-JP" >脚</name>
+          <name lang="ko-KR" >다리</name>
+          <name lang="zh-HK" >腳</name>
+          <name lang="zh-TW" >腿</name>
+          <name lang="en-SG" >Legs</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/legs.dds</thumbnail>
+        </header>        
+        <object>7E04B03F-CB4D493C-9574EA7D-BCAE7CDB</object>
+        <object>66909278-60ED4389-9C64C05B-EE621DC3</object>
+      </node>
+     </node>
+<node>
+        <header>
+          <name lang="en-GB" default="true">Singstar</name>
+          <name lang="en-US" >Singstar</name>
+          <name lang="fr-FR" >Singstar</name>
+          <name lang="it-IT" >Singstar</name>
+          <name lang="de-DE" >Singstar</name>
+          <name lang="es-ES" >Singstar</name>
+          <name lang="ja-JP" >脚</name>
+          <name lang="ko-KR" >다리</name>
+          <name lang="zh-HK" >腳</name>
+          <name lang="zh-TW" >腿</name>
+          <name lang="en-SG" >Singstar</name>
+          <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/SS_Original.png</thumbnail>
+        </header>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Headgear</name>
+          <name lang="en-US">Headgear</name>
+          <name lang="fr-FR">Couvre-chef</name>
+          <name lang="de-DE">Kopfbedeckung</name>
+          <name lang="it-IT">Accessori testa</name>
+          <name lang="es-ES">Accesorios cabeza</name>
+          <name lang="ja-JP">?</name>
+          <name lang="ko-KR">??</name>
+          <name lang="en-SG">Headgear</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+        </header>
+                <object>6F7F222F-01C34A47-A71B0B13-3A52E764</object>
+    </node>
+     <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+         <name lang="en-US">Torso</name>
+          <name lang="fr-FR">Torse</name>
+          <name lang="de-DE">Rumpf</name>
+          <name lang="it-IT">Torso</name>
+          <name lang="es-ES">Torso</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Torso</name>
+          <name lang="zh-HK">??</name>
+          <name lang="zh-TW">??</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+        </header>
+        <object>3FA2E6E5-9AC34005-BE1C91BD-F572E4C3</object>
+        <object>FDD8AEFF-69664844-A57429ED-033F27E7</object>
+        <object>00F22B82-84214B89-9C2680BF-AEF72F7F</object>
+        <object>94E5D50F-50A7482A-99063D4B-34A072CF</object>
+        <object>FC10973A-B45E4CDA-88E85F8D-7F3A03FB</object>
+        <object>F4E5E767-5FDF4600-9C6D5FD1-B9567E64</object>
+        <object>D84D7A25-92A1483B-A1C4FF34-CD32CEA6</object>
+        <object>AFDB78BE-F1D34BEA-8B146003-1F8D9FA5</object>
+      </node>
+<node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Legs</name>
+           <name lang="en-US">Legs</name>
+          <name lang="fr-FR">Jambes</name>
+          <name lang="de-DE">Beine</name>
+          <name lang="it-IT">Gambe</name>
+          <name lang="es-ES">Piernas</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">??</name>
+          <name lang="en-SG">Legs</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/legs.dds</thumbnail>
+        </header>
+      <object>2542F23F-5C144733-82C10C78-A70C83F4</object>
+      <object>DC663644-4ECE405B-902350E7-5A5E858A</object>
+      </node>
+<node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Feet</name>
+          <name lang="en-US">Feet</name>
+          <name lang="fr-FR">Pieds</name>
+          <name lang="de-DE">F��e</name>
+          <name lang="it-IT">Piedi</name>
+          <name lang="es-ES">Pies</name>
+          <name lang="ja-JP">?</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Feet</name>
+          <name lang="zh-HK">??</name>
+          <name lang="zh-TW">?</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/feet.dds</thumbnail>
+        </header>
+      <object>C12AB3CF-062C4602-B4A1717B-54254568</object>
+      </node>
+      </node>   
+      	  <node>
+		  <header>
+			<name lang="en-GB" default="true">Burn Zombie Burn</name>
+			<name lang="en-US" >Burn Zombie Burn</name>
+			<name lang="fr-FR" >Burn Zombie Burn</name>
+			<name lang="it-IT" >Burn Zombie Burn</name>
+			<name lang="de-DE" >Burn Zombie Burn</name>
+			<name lang="es-ES" >Burn Zombie Burn</name>
+			<name lang="ja-JP" >Burn Zombie Burn</name>
+			<name lang="ko-KR" >Burn Zombie Burn</name>
+			<name lang="zh-HK" >Burn Zombie Burn</name>
+			<name lang="zh-TW" >Burn Zombie Burn</name>
+			<name lang="en-SG" >Burn Zombie Burn</name>
+			<thumbnail lang="en-GB" default="true" > [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/logo_BZB.png</thumbnail>
+		  </header>
+       <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Headgear</name>
+          <name lang="en-US" >Headgear</name>
+          <name lang="fr-FR" >Couvre-chef</name>
+          <name lang="it-IT" >Accessori testa</name>
+          <name lang="de-DE" >Kopfbedeckung</name>
+          <name lang="es-ES" >Accesorios cabeza</name>
+          <name lang="ja-JP" >?</name>
+          <name lang="ko-KR" >??</name>
+          <name lang="zh-HK" >?</name>
+          <name lang="zh-TW" >?</name>
+          <name lang="en-SG" >Headgear</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+        </header>
+        <!--Zombie Head-->
+        <object>A7E0561B-6B964646-AE872240-53593039</object>
+      </node>
+        <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="en-US" >Torso</name>
+          <name lang="fr-FR" >Torse</name>
+          <name lang="it-IT" >Torso</name>
+          <name lang="de-DE" >Rumpf</name>
+          <name lang="es-ES" >Torso</name>
+          <name lang="ja-JP" >胴</name>
+          <name lang="ko-KR" >몸</name>
+          <name lang="zh-HK" >上身</name>
+          <name lang="zh-TW" >身體</name>
+          <name lang="en-SG" >Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+        </header>
+        <object>7550AB40-211B49FC-90795273-48D82BEA</object>
+        <object>82FF4D95-DC894C1E-B5352D79-55B3B50B</object>
+        <object>1DEBB243-23804190-90CD51A7-21BE1190</object>
+        <object>1F0AFAF4-15D94E18-B07EDD09-1379C059</object>
+        <object>C7A7D02B-FC4A4375-AECC0CBE-1FCDD8B7</object>
+      </node>
+              <node type="objects">
+        <header>
+			      <name lang="en-GB" default="true">Costume</name>
+			      <name lang="en-US" >Costume</name>
+			      <name lang="fr-FR" >Costumes</name>
+			      <name lang="it-IT" >Costume</name>
+			      <name lang="de-DE" >Kostüm</name>
+			      <name lang="es-ES" >Traje</name>
+          <name lang="ja-JP" >胴</name>
+          <name lang="ko-KR" >몸</name>
+          <name lang="zh-HK" >上身</name>
+          <name lang="zh-TW" >身體</name>
+          <name lang="en-SG" >Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+        </header>
+        <!--Zombie Cossie-->
+        <object>BCF7C07C-3A2D4D27-93C1851A-BA4B62E9</object>  
+       </node>
+      </node>
+        <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">LittleBigPlanet</name>
+          <name lang="en-US" >LittleBigPlanet</name>
+          <name lang="fr-FR" >LittleBigPlanet</name>
+          <name lang="it-IT" >LittleBigPlanet</name>
+          <name lang="de-DE" >LittleBigPlanet</name>
+          <name lang="es-ES" >LittleBigPlanet</name>
+          <name lang="ja-JP" >足</name>
+          <name lang="ko-KR" >발</name>
+          <name lang="zh-HK" >鞋子</name>
+          <name lang="zh-TW" >腳</name>
+          <name lang="en-SG" >Feet</name>
+          <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/LBP.png</thumbnail>
+        </header>
+        <object>A5B7E50F-04A04C85-A78C5316-716BEFAE</object>
+        <object>763C55E2-F7414524-94A14E84-4C918310</object>
+        <object>0DD18761-8413459D-9D1E88D1-AFC845F6</object>
+        <object>B0B7E6B2-649541F7-919A4320-EC640A71</object>
+        <object>A3AE1CEE-208C41CE-BF260044-E2396D6E</object>
+      </node>
+ <node>
+     <header>
+        <name lang="en-GB" default="true">TEKKEN™6</name>
+        <name lang="en-US" >TEKKEN™6</name>
+        <name lang="fr-FR" >TEKKEN™6</name>
+        <name lang="it-IT" >TEKKEN™6</name>
+        <name lang="de-DE" >TEKKEN™6</name>
+        <name lang="es-ES" >TEKKEN™6</name>
+        <name lang="ja-JP" >????</name>
+        <name lang="ko-KR" >?? ??</name>
+        <name lang="zh-HK" >??</name>
+        <name lang="zh-TW" >??</name>
+        <name lang="en-SG" >TEKKEN™6</name>
+        <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/bng128_tk6_logo.png</thumbnail>
+      </header>
+      <node type="objects">
+     <header>
+        <name lang="en-GB" default="true">Heihachi Mishima</name>
+        <name lang="en-US" >Heihachi Mishima</name>
+        <name lang="fr-FR" >Heihachi Mishima</name>
+        <name lang="it-IT" >Heihachi Mishima</name>
+        <name lang="de-DE" >Heihachi Mishima</name>
+        <name lang="es-ES" >Heihachi Mishima</name>
+        <name lang="ja-JP" >????</name>
+        <name lang="ko-KR" >?? ??</name>
+        <name lang="zh-HK" >??</name>
+        <name lang="zh-TW" >??</name>
+        <name lang="en-SG" >Heihachi Mishima</name>
+        <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/bng128_tekken_hei.png</thumbnail>
+      </header>
+        <object>05DF9D97-9D804B83-A51EC15F-5FBD59FB</object>
+        <object>55DD94B6-835A4C9A-8AC8EC09-3A282D0B</object>
+        <object>92E2C9AC-B31442CE-A356B266-C90D59AC</object>
+        <object>D108139D-B03E4C24-A6031704-7F3211C1</object>
+      </node>
+      <node type="objects">
+    <header>
+        <name lang="en-GB" default="true">Paul Phoenix</name>
+        <name lang="en-US" >Paul Phoenix</name>
+        <name lang="fr-FR" >Paul Phoenix</name>
+        <name lang="it-IT" >Paul Phoenix</name>
+        <name lang="de-DE" >Paul Phoenix</name>
+        <name lang="es-ES" >Paul Phoenix</name>
+        <name lang="ja-JP" >????</name>
+        <name lang="ko-KR" >?? ??</name>
+        <name lang="zh-HK" >??</name>
+        <name lang="zh-TW" >??</name>
+        <name lang="en-SG" >Paul Phoenix</name>
+        <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/bng128_tekken_paul.png</thumbnail>
+      </header>
+        <object>1019F436-43A14E7C-9F75630C-5E15BDB6</object>
+        <object>3DE33B45-ED8347A1-8C9FED79-8AA3DB98</object>
+        <object>20099DAA-C90A49E6-9B57E477-1D8225C4</object>
+        <object>85143265-3AC2414F-9D36E0C9-CF25D1ED</object>
+        <object>E5C23721-E57C4216-A1B9EE74-E6714057</object>
+      </node>
+      </node>
+        <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">MAG™</name>
+          <name lang="en-US" >MAG™</name>
+          <name lang="fr-FR" >MAG™</name>
+          <name lang="it-IT" >MAG™</name>
+          <name lang="de-DE" >MAG™</name>
+          <name lang="es-ES" >MAG™</name>
+          <name lang="ja-JP" >足</name>
+          <name lang="ko-KR" >발</name>
+          <name lang="zh-HK" >鞋子</name>
+          <name lang="zh-TW" >腳</name>
+          <name lang="en-SG" >MAG™</name>
+          <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/MAG.png</thumbnail>
+        </header>
+        <object>FEF46CD5-0D844441-A3536665-ADABFAE3</object>
+        <object>038289F2-62D24B9E-840FC70D-7F753095</object>
+        <object>2BA5D6DE-81F34984-8C21C6BB-7B17CBE7</object>
+      </node>
+           	<node type="objects">
+           <header>
+			<name lang="en-GB" default="true">Assassins Creed 2</name>
+			<name lang="en-US" >Assassins Creed 2</name>
+			<name lang="fr-FR" >Assassins Creed 2</name>
+			<name lang="it-IT" >Assassins Creed 2</name>
+			<name lang="de-DE" >Assassins Creed 2</name>
+			<name lang="es-ES" >Assassins Creed 2</name>
+			<name lang="ja-JP" >??</name>
+			<name lang="ko-KR" >??</name>
+			<name lang="zh-HK" >??</name>
+			<name lang="zh-TW" >??</name>
+			<name lang="en-SG" >Assassins Creed 2</name>
+			<thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/AC2.png</thumbnail>
+		  </header> 
+				<!--Assassin's Creed 2 Male Ezio Bundle-->
+				<object>200A1F04-233F4913-83AAFDA1-7DC58110</object>
+				<!--Assassin's Creed 2 Guard Bundle  -->
+				<object>0EF4F507-882248D4-9B2EFC0F-38CD50E5</object>
+				<!--Assassin's Creed 2 Promotional Original Altair Costume-->
+				<object>D5DDC843-BBA8430C-B954ABF0-ECEE6166</object>
+           </node>
+           	<node type="objects">
+				<header>
+			      <name lang="en-GB" default="true">Lockwood</name>
+			      <name lang="en-US" >Lockwood</name>
+			      <name lang="fr-FR" >Lockwood</name>
+			      <name lang="it-IT" >Lockwood</name>
+			      <name lang="de-DE" >Lockwood</name>
+			      <name lang="es-ES" >Lockwood</name>
+				  <name lang="ja-JP" >????</name>
+				  <name lang="ko-KR" >?</name>
+				  <name lang="zh-HK" >??</name>
+				  <name lang="zh-TW" >??</name>
+				  <name lang="en-SG" >Lockwood</name>
+				  <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Lockwood.png</thumbnail>
+				</header>
+				<!--I'm Single Hoodie-->
+				<object>349D054B-4D074CA7-934BCCB4-315CAB5C</object>
+				<!--Animated Beating Heart t-shirt-->
+				<object>B11F747F-1A2F4EDD-AC1105B3-47B7BED1</object>
+				<!--Animated Emoticon "Love" Bundle-->
+				<object>F18BDA2A-80F347EF-A5010EA4-FDB221DC</object>
+              </node>
+      </node>
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR" >Femme</name>
+        <name lang="it-IT" >Femmina</name>
+        <name lang="de-DE" >Weiblich</name>
+        <name lang="es-ES" >Mujer</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+      </header>
+           <node>
+           <header>
+			<name lang="en-GB" default="true">Home</name>
+			<name lang="en-US" >Home</name>
+			<name lang="fr-FR" >Home</name>
+			<name lang="it-IT" >Home</name>
+			<name lang="de-DE" >Home</name>
+			<name lang="es-ES" >Home</name>
+			<name lang="ja-JP" >??</name>
+			<name lang="ko-KR" >??</name>
+			<name lang="zh-HK" >??</name>
+			<name lang="zh-TW" >??</name>
+			<name lang="en-SG" >Male</name>
+			<thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/HomeStore.png</thumbnail>
+		  </header> 
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Head</name>
+          <name lang="en-US" >Head</name>
+          <name lang="fr-FR" >Tête</name>
+          <name lang="it-IT" >Capelli</name>
+          <name lang="de-DE" >Kopf</name>
+          <name lang="es-ES" >Head</name>
+          <name lang="ja-JP" >?</name>
+          <name lang="ko-KR" >??</name>
+          <name lang="zh-HK" >?</name>
+          <name lang="zh-TW" >?</name>
+          <name lang="en-SG" >Head</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+        </header>
+        <!--Sailors Beanie Hat-->
+        <object>611DA384-681147DE-AC944E92-A53B7097</object>
+        <!--Blue Floral Bucket Hat-->
+        <object>00000000-00000000-00000000-01010035</object>
+        <!--Red Floral Bucket Hat-->
+        <object>F2B1579D-78204955-AB1EA544-8339579B</object>
+        <!--Pink-camo Do-rag-->
+        <object>00000000-00000000-00000000-01010045</object>
+        <!--Stars & Stripes Do-rag-->
+        <object>00000000-00000000-00000000-01010050</object>
+        <!--30thJuly-->
+        <!--Black and Grey Flat Cap-->
+        <object>00000000-00000000-00000000-01010051</object>
+        <!--16thJuly-->
+        <!--Red Flat Cap-->
+        <object>00000000-00000000-00000000-01010053</object>
+        <!--21st May-->
+        <object>D048BF03-82F54D89-988F6ECE-F51CDC2B</object>
+        <object>30C7EE71-2C774E66-914AE889-516E450B</object>
+        <!--7thMay-->
+        <object>E9F8664F-99AF47D9-BDC6AFD8-CC23C89D</object>
+        <object>98BF5738-B3A44D19-BCB4D273-1363FCFD</object>
+        <object>446C9BA6-1AC94D40-80A1696E-BD69CEB8</object>
+        <object>BC36EEC4-3DC94793-97E4FFDE-A20CF61F</object>
+        <object>2237FF03-B9D04132-9E81C7F2-33D4A7ED</object>
+        <!--18th-->
+        <object>00000000-00000000-00000000-01010062</object>
+        <object>B34CF875-004D4901-8489DA4A-74C28B89</object>
+        <object>5FE1FA90-099C483A-A8C96894-8B77EAF1</object>
+        <object>D048BF03-82F54D89-988F6ECE-F51CDC2B</object>
+        <object>083C1372-86BC4099-90C3D958-C7EAF8A8</object>
+        <object>00000000-00000000-00000000-01010043</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Hands</name>
+          <name lang="en-US" >Hands</name>
+          <name lang="fr-FR" >Mains</name>
+          <name lang="it-IT" >Mani</name>
+          <name lang="de-DE" >Hände</name>
+          <name lang="es-ES" >Manos</name>
+          <name lang="ja-JP" >?</name>
+          <name lang="ko-KR" >?</name>
+          <name lang="zh-HK" >?</name>
+          <name lang="zh-TW" >?</name>
+          <name lang="en-SG" >Hands</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hands.dds</thumbnail>
+        </header>
+        <!--Leather Gloves-->
+        <object>CF13D60B-80174F45-AFCE11AD-B360C7D9</object>
+        <!--4thJune-->
+        <object>72194790-63A4444A-A01FD94A-FB17C622</object>
+        <!--18th-->
+        <object>696E297F-C04748D9-A6DA6482-723552F4</object>
+        <object>5CE2F082-4FCC4B5A-A93DD925-C3B57F8B</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="en-US" >Torso</name>
+          <name lang="fr-FR" >Torse</name>
+          <name lang="it-IT" >Torso</name>
+          <name lang="de-DE" >Rumpf</name>
+          <name lang="es-ES" >Torso</name>
+          <name lang="ja-JP" >????</name>
+          <name lang="ko-KR" >?</name>
+          <name lang="zh-HK" >??</name>
+          <name lang="zh-TW" >??</name>
+          <name lang="en-SG" >Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+        </header>
+        <!--Black Halterneck Dress-->
+        <object>0D2C8F4E-98D84514-BF9D0533-68D96B2A</object>
+        <!--Floral Print Halterneck Dress-->
+        <object>B7E97E9B-93334A18-80370F8B-F6F09F37</object>
+        <!--Brown and Cream Padded Gilet over Fleece-->
+        <object>00000000-00000000-00000000-01030044</object>
+        <!--Brown and Yellow Leather Jacket-->
+        <object>AFF95B8A-481D48F9-9D83ECE7-089B8946</object>
+        <!--Black and Grey Faux Leather Jacket-->
+        <object>8B60FD86-051C4244-9DD77C17-FEA7DC4C</object>
+        <!--Yellow Turtle Neck-->
+        <object>00000000-00000000-00000000-01030068</object>
+        <!--Pink Turtle Neck-->
+        <object>00000000-00000000-00000000-01030066</object>
+        <!--Black Turtle Neck -->
+        <object>00000000-00000000-00000000-01030065</object>
+        <!--Red and Blue Rugby Top-->
+        <object>00000000-00000000-00000000-01030087</object>
+        <!--Brown and Grey Rugby Top-->
+        <object>00000000-00000000-00000000-01030084</object>
+        <!--Black and Green Rugby Top-->
+        <object>00000000-00000000-00000000-01030085</object>
+        <!--Pink and Grey Rugby Top-->
+        <object>00000000-00000000-00000000-01030086</object>
+        <!--Green Hooded Jacket -->
+        <object>52ADBC6B-AEF444D5-A82BB067-532F6676</object>
+        <!--Black Hooded Jacket  -->
+        <object>C8C6E0B1-A6504E5F-88CDBCE3-2781DE5C</object>
+        <!--Brown Hooded Jacket  -->
+        <object>DCBB9566-F694449F-804E56FF-E672FE97</object>
+        <!--Red Hooded Jacket -->
+        <object>D4150CBE-AE434835-9017046A-B7C62C5B</object>
+        <!--2nd July-->
+        <object>B4B2B3AB-8A2C4D14-A68966EE-CAC78AA2</object>
+        <!--4thJune-->
+        <object>DA5BE9B3-9B9942D5-983AAFBA-33F6A121</object>
+        <object>7B903504-A0FB4330-88A711E7-708DD755</object>        
+        <!--21st May-->
+        <object>531CF8E9-D0684349-96AF591A-3179F438</object>
+        <object>1D4CBDFE-921242E6-AC5C34EA-2C9EE7E8</object>
+        <!--7thMay-->
+        <object>00000000-00000000-00000000-01030046</object>
+        <object>E58DC169-D28445BD-9CF132BE-7D7E3BBC</object>
+        <object>02B180E4-D10B44C3-8D64A574-C2987C2A</object>
+        <object>DC8FAB0B-63FE4C0F-93457E4C-F1762823</object>
+        <object>FA9733FB-226B4547-94F64963-B4E31690</object>
+        <object>2D11FA9C-8AB64204-8695F9B9-E89307C1</object>
+        <!--misc tshirts-->
+        <!--<object>268DECAF-B0B64EAA-892EB575-BAD9FE60</object>
+        <object>EAEFBD58-C6E0407F-831799D1-59C7BA01</object>
+        <object>DE7BC293-127C40FB-93FF10D6-5810BE08</object>
+        <object>64F8959C-4464442F-AA3DF2A1-76035946</object>
+        <object>9487BDA2-037B40C1-832E6DEF-9D432F8A</object>
+        <object>7708B91A-28614EAA-9BD55E8C-58577251</object>-->
+        <object>00000000-00000000-00000000-01030036</object>
+        <object>00000000-00000000-00000000-01030078</object>
+        <object>00000000-00000000-00000000-01030019</object>
+        <!--18th-->
+        <object>DD302F00-F9DE4D9B-945AEF78-AC2E175F</object>
+        <object>00000000-00000000-00000000-01030060</object>
+        <object>E119B05D-FB014558-9398F0B9-17E68AB2</object>
+        <object>4249D43B-EFE4437B-9C3C820B-A96DF74E</object>
+        <object>6B8BCA30-A4A34058-A1D78019-86CFC282</object>
+        <object>5B7EF039-B5EE4F45-8D3CF98D-9A40A7C4</object>
+        <object>6FF93A8D-B79C46A9-86CC4B2C-295EB12B</object>
+        <object>E7846F03-AC1B42FE-94D48543-5FFA7F24</object>
+        <object>00000000-00000000-00000000-01030034</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Legs</name>
+          <name lang="en-US" >Legs</name>
+          <name lang="fr-FR" >Jambes</name>
+          <name lang="it-IT" >Gambe</name>
+          <name lang="de-DE" >Beine</name>
+          <name lang="es-ES" >Piernas</name>
+          <name lang="ja-JP" >????</name>
+          <name lang="ko-KR" >??</name>
+          <name lang="zh-HK" >?</name>
+          <name lang="zh-TW" >?</name>
+          <name lang="en-SG" >Legs</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/legs.dds</thumbnail>
+        </header>
+        <!--30thJuly-->
+        <!--Purple Drainpipe Jeans-->
+        <object>700DBA46-0C434E13-83B7C2D6-D60E6B11</object>
+        <!--16thJuly-->
+        <!--Dark Blue Drainpipe Jeans -->
+        <object>00000000-00000000-00000000-01040055</object>
+        <!--White Drainpipe Jeans -->
+        <object>E0D3D680-2EFE430A-94F0ACB3-870C4388</object>
+        <!--Green Drainpipe Jeans -->
+        <object>AD90C06E-32A14C47-B341B7AD-F05B873F</object>
+        <!--4thJune-->
+        <object>F89783EC-AAF948D6-9E3F7D83-1AFF55D6</object>
+        <object>E789D8C1-36DE4713-9506310D-88676511</object>        
+        <!--21st May-->
+        <object>284A9EA1-8CB44F97-86A32EED-EAEFA43D</object>
+        <!--7thMay-->
+        <object>94ED6882-51974344-8962F81C-4F5147AB</object>
+        <object>00000000-00000000-00000000-01040061</object>
+        <object>00000000-00000000-00000000-01040039</object>
+        <object>00000000-00000000-00000000-01040022</object>
+        <!--18th-->
+        <object>AC559639-16014EF0-92CFA0C4-7422A3E1</object>
+        <object>1088037E-B2CF4739-B7EA736C-13BEAFA5</object>
+        <object>BC458343-0A544DCE-A4C64AD0-E6C41315</object>
+        <object>6CDC2AAA-FAEF48DF-BFBE04F5-60A1CA38</object>
+        <object>F666A98C-DCE34096-A33CDA0B-0378D3C8</object>
+        <object>00000000-00000000-00000000-01040033</object>
+        <object>C2D258A0-5C494AAD-90CD50C9-5EA51B41</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Feet</name>
+          <name lang="en-US" >Feet</name>
+          <name lang="fr-FR" >Pieds</name>
+          <name lang="it-IT" >Piedi</name>
+          <name lang="de-DE" >Füße</name>
+          <name lang="es-ES" >Pies</name>
+          <name lang="ja-JP" >?</name>
+          <name lang="ko-KR" >?</name>
+          <name lang="zh-HK" >??</name>
+          <name lang="zh-TW" >?</name>
+          <name lang="en-SG" >Feet</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/feet.dds</thumbnail>
+        </header>
+        <!--30thJuly-->
+        <!--Black and White Hightops-->
+        <object>112EF0DF-3BD04D45-B6251ABC-BF5A48D3</object>
+        <!--Blue and Orange Hightops-->
+        <object>30C07082-38524AA5-A54A382C-8596C38D</object>
+        <!--Blue and White Hightops-->
+        <object>C0AAFFA0-03054F19-B09B2AD7-A9E67634</object>
+        <!--Brown and White Hightops-->
+        <object>6DF43991-6E3A4A5F-8526D4D8-FDBC6B8F</object>
+        <!--16thJuly-->
+        <!--Pointed Ankle Boots -->
+        <object>00000000-00000000-00000000-01050034</object>
+        <!--4thJune-->
+        <object>C4F90055-84234B68-901603E5-FF175D57</object>
+        <!--21st May-->
+        <object>2B952A1D-D0834ADC-80EC8CA7-BFD6F132</object>
+        <object>362FB5DC-CA6C4229-B0EF758C-6A83A671</object>
+        <object>C6702A34-E04F4848-9FDB6B62-FB599B3A</object>        
+        <!--7thMay-->
+        <object>07C3BB87-AD034AF7-B61943A0-280946C7</object>
+        <!--18th-->
+        <object>5B551DD0-8D2A42AD-92681C03-CF3D8A60</object>
+        <object>00000000-00000000-00000000-01050056</object>
+        <object>EC8C392E-91384DE7-A1F43DC6-BB8997C5</object>
+        <object>6CADA425-7CC44717-A2123791-F1799C48</object>
+        <object>B1CC14E7-6A09417A-B10F4031-2551B192</object>
+        <object>00000000-00000000-00000000-01050039</object>
+        <object>00000000-00000000-00000000-01050024</object>
+        <object>00000000-00000000-00000000-01050048</object>
+        <object>00000000-00000000-00000000-01050041</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Jewellery</name>
+          <name lang="en-US" >Jewelry</name>
+          <name lang="fr-FR" >Bijoux</name>
+          <name lang="it-IT" >Gioielli</name>
+          <name lang="de-DE" >Schmuck</name>
+          <name lang="es-ES" >Bisutería</name>
+          <name lang="ja-JP" >?????</name>
+          <name lang="ko-KR" >???</name>
+          <name lang="zh-HK" >??</name>
+          <name lang="zh-TW" >??</name>
+          <name lang="en-SG" >Jewellery</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/jewellery.dds</thumbnail>
+        </header>
+        <!--4thJune-->
+        <object>4B87840C-40204BD2-95FC513C-EEF0279A</object>
+        <object>5F2FC7A8-7DD94E83-8F707AAF-075A4D25</object>
+      </node>
+      <node>
+        <header>
+          <name lang="en-GB" default="true">Accessories</name>
+          <name lang="en-US" >Accessories</name>
+          <name lang="fr-FR" >Accessoires</name>
+          <name lang="it-IT" >Accessori</name>
+          <name lang="de-DE" >Accessoires</name>
+          <name lang="es-ES" >Accesorios</name>
+          <name lang="ja-JP" >??????</name>
+          <name lang="ko-KR" >????</name>
+          <name lang="zh-HK" >??</name>
+          <name lang="zh-TW" >??</name>
+          <name lang="en-SG" >Accessories</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/accessories.dds</thumbnail>
+        </header>
+        <node type="objects">
+          <header>
+            <name lang="en-GB" default="true">Spectacles</name>
+            <name lang="en-US" >Spectacles</name>
+            <name lang="fr-FR" >Lunettes</name>
+            <name lang="it-IT" >Occhiali</name>
+            <name lang="de-DE" >Brille</name>
+            <name lang="es-ES" >Gafas</name>
+            <name lang="ja-JP" >???</name>
+            <name lang="ko-KR" >??</name>
+            <name lang="zh-HK" >??</name>
+            <name lang="zh-TW" >??</name>
+            <name lang="en-SG" >Spectacles</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/glasses.dds</thumbnail>
+          </header>
+        <!--70's Sunglasses-->
+        <object>00000000-00000000-00000000-01060006</object>
+          <!--16thJuly-->
+        <!--Aviator Style Sunglasses -->
+        <object>F3E53ED5-2D294798-B92916BE-F4EEAC6B</object>
+            <!--4thJune-->
+        <object>58EB832E-7BAA443A-99F01EA6-716279DC</object>
+           <!--21st May-->
+        <object>00000000-00000000-00000000-01060014</object>
+           <!--7thMay-->
+          <object>00000000-00000000-00000000-01060016</object>
+          <object>00000000-00000000-00000000-01060013</object>
+        <object>EA6148D8-DA4F4F87-A626D4D3-907A3849</object>
+          <!--18th-->
+          <object>00000000-00000000-00000000-01060001</object>
+          <object>6DED4856-3B7B4156-96366E81-343387C4</object>
+          <object>00000000-00000000-00000000-01060017</object>
+        </node>
+        <node type="objects">
+          <header>
+            <name lang="en-GB" default="true">Headphones</name>
+            <name lang="en-US" >Headphones</name>
+            <name lang="fr-FR" >Headphones</name>
+            <name lang="it-IT" >Headphones</name>
+            <name lang="de-DE" >Headphones</name>
+            <name lang="es-ES" >Headphones</name>
+            <name lang="ja-JP" >???</name>
+            <name lang="ko-KR" >??</name>
+            <name lang="zh-HK" >??</name>
+            <name lang="zh-TW" >??</name>
+            <name lang="en-SG" >Spectacles</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/headphones.dds</thumbnail>
+          </header>
+          <!--7thMay-->
+          <object>00000000-00000000-00000000-01060004</object>
+        </node>
+       </node>
+       	<node type="objects">
+				<header>
+			      <name lang="en-GB" default="true">Costume</name>
+			      <name lang="en-US" >Costume</name>
+			      <name lang="fr-FR" >Costumes</name>
+			      <name lang="it-IT" >Costume</name>
+			      <name lang="de-DE" >Kostüm</name>
+			      <name lang="es-ES" >Traje</name>
+				  <name lang="ja-JP" >????</name>
+				  <name lang="ko-KR" >?</name>
+				  <name lang="zh-HK" >??</name>
+				  <name lang="zh-TW" >??</name>
+				  <name lang="en-SG" >Costume</name>
+				  <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+				</header>
+				<!--Cavegirl Topknot-->
+				<object>42FBC520-BEDE46B0-A13D277B-584AB5B0</object>
+				<!--Cave Tank Top -->
+				<object>63A018F3-DD4F492D-AC41D863-E3396027</object>
+				<!--Cave Gloves-->
+				<object>A73AD85C-77B543FF-80712D57-51B54289</object>
+				<!--Cave Skirt-->
+				<object>E02D3E4A-F69542F5-8893138A-5800B52C</object>
+				<!--Cave Boots-->
+				<object>0D4E9016-BCFC4F5C-8F95D0D4-A250C9A0</object>
+              </node>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="en-US" >Torso</name>
+          <name lang="fr-FR" >Torse</name>
+          <name lang="it-IT" >Torso</name>
+          <name lang="de-DE" >Rumpf</name>
+          <name lang="es-ES" >Torso</name>
+          <name lang="ja-JP" >????</name>
+          <name lang="ko-KR" >?</name>
+          <name lang="zh-HK" >??</name>
+          <name lang="zh-TW" >??</name>
+          <name lang="en-SG" >Torso</name>
+          <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/mysoti_chip_blk.png</thumbnail>
+        </header>
+        <!--Poochies-->
+        <object>E174596D-F31C4445-991C4604-6CB5AE6D</object>
+        <!--Ray-->
+        <object>B8D3817A-11894333-A3075B52-6624EF3E</object>
+        <!--Clever Roos-->
+        <object>D1FC2AA8-870B45F1-BB82DDEF-D9F6F8A5</object>
+        <!--Colorful Zebra-->
+        <object>A7CBE709-47824EA9-A6921292-91C7BAB1</object>
+        <!--The Jam Monster-->
+        <object>2C588EED-08CD4116-844058B0-CE07BD2B</object>
+        <!--Triangle-->
+        <object>C643A9C5-3BD64B7C-AA5982E8-5B54DA6F</object>
+        <!--Frolic!-->
+        <object>BF77F42F-A81747E7-AC305526-EC7FDC40</object>
+        <!--Jobby Monster-->
+        <object>FC0AD4B8-D20D4D31-83989891-78057CBC</object>
+        <!--Gumball Goblins-->
+        <object>B5EC4568-AD7642F7-B9510CA0-82E1E598</object>
+        <!--I Hear Music In Everything-->
+        <object>9D8723E6-95AA449B-A94B31A9-907300D1</object>
+        <!--Little kiss...-->
+        <object>E631713D-64734B37-90CF38F4-2809A145</object>
+        <!--Makeshift costume-->
+        <object>8605D7B3-19EC4527-B6F68312-B3D470B2</object>
+        <!--When In Doubt, Make Tea-->
+        <object>C70A8266-2D384C36-A36B9841-FA099986</object>
+        <!--The End!!!-->
+        <object>3C207200-F47C46FA-835BD380-5DB3D3C8</object>
+        <!--Big Ups!-->
+        <object>B9A51585-461F4C33-9028E4E5-DA180AD2</object>
+        <!--Gorilla Warfare-->
+        <object>CD05EA3D-834044B5-A0365F04-31411BFF</object>
+        <object>07A64AE4-EEEF46F8-8758A3E9-170EDA10</object>
+        <object>7D01A4AF-808B4171-AE7DF145-0B450D6F</object>        
+        <object>9D5D81F3-76A740EC-A311F8B3-570466B1</object>
+        <object>030AD760-2B8246B3-8EE55F4F-BF244019</object>
+        <object>423415CA-50D34E22-A534AF3E-DD7DB38E</object>
+        <object>AC4387E2-09B34133-AA3E7599-90B4C322</object>
+        <object>C76B1BA8-FDCE44F7-91C6E3A2-7C237B95</object>
+        <object>C61949C5-B8C041A4-ADBD41CF-9DE25DD4</object>
+        <object>8956404D-E18D430C-A987151A-C02F6495</object>
+        <object>EAE19F84-D50D4A0C-A8D25599-16DDB076</object>
+        <object>F1176A74-48FC45B7-A0DA2957-9E6ECB9B</object>
+      </node>
+      <node>
+			<header>
+			<name lang="en-GB" default="true">Killzone2</name>
+			<name lang="en-US" >Killzone2</name>
+			<name lang="fr-FR" >Killzone2</name>
+			<name lang="it-IT" >Killzone2</name>
+			<name lang="de-DE" >Killzone2</name>
+			<name lang="es-ES" >Killzone2</name>
+			<name lang="ja-JP" >??</name>
+			<name lang="ko-KR" >??</name>
+			<name lang="zh-HK" >??</name>
+			<name lang="zh-TW" >??</name>
+			<name lang="en-SG" >Killzone2</name>
+			<thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/K2_demo.png</thumbnail>
+		  </header>
+			  <node type="objects">
+				<header>
+				  <name lang="en-GB" default="true">Torso</name>
+				  <name lang="en-US" >Torso</name>
+				  <name lang="fr-FR" >Torse</name>
+				  <name lang="it-IT" >Torso</name>
+				  <name lang="de-DE" >Rumpf</name>
+				  <name lang="es-ES" >Torso</name>
+				  <name lang="ja-JP" >????</name>
+				  <name lang="ko-KR" >?</name>
+				  <name lang="zh-HK" >??</name>
+				  <name lang="zh-TW" >??</name>
+				  <name lang="en-SG" >Torso</name>
+				  <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+				</header>
+				<!--7thMay-->
+				<object>DBB6A17B-464C4E67-8C101CBB-A948640F</object>
+				<object>56FBD051-9D204E6F-B363329D-D1CBA128</object>
+				<object>42D923E5-32E94B11-BFD6FA15-CD8AA77C</object>
+				<object>7CBE0E60-42354FE0-946C07D1-42808350</object>
+				<object>4FF6C6BA-70F24C54-91AF1179-C0DA0C45</object>
+				<object>219BD230-AFFA4B4E-AF58D45C-A9636F45</object>
+				<object>9677AD5A-52F34AED-867C8B9E-1A77E6D2</object>
+				<object>D2AA6CB2-C6C543CD-961CF16F-50312B0A</object>
+			  </node>
+			  <node type="objects">
+				<header>
+				  <name lang="en-GB" default="true">Helghast</name>
+				  <name lang="en-US" >Helghast</name>
+				  <name lang="fr-FR" >Helghast</name>
+				  <name lang="it-IT" >Helghast</name>
+				  <name lang="de-DE" >Helghast</name>
+				  <name lang="es-ES" >Helghast</name>
+				  <name lang="ja-JP" >????</name>
+				  <name lang="ko-KR" >?</name>
+				  <name lang="zh-HK" >??</name>
+				  <name lang="zh-TW" >??</name>
+				  <name lang="en-SG" >Helghast</name>
+				  <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Tactician.png</thumbnail>
+				</header>
+				<!--Female Helghast Tactician Helmet
+				<object>2E459CDE-CF114C64-9C31C8D4-DC9526F6</object>-->
+				<!--Female Helghast Tactician Flak Jacket-->
+				<object>01376D69-90A94BF6-AAF004E1-9238545E</object>
+				<!--Female Helghast Tactician Gloves-->
+				<object>2DA75FE0-50A14A1B-A7CD3D24-B4591BBB</object>
+				<!--Female Helghast Tactician Trousers-->
+				<object>5D5DD097-A0394D56-861AFC75-5B3852F8</object>
+				<!--Female Helghast Tactician Boots
+				<object>E908A0FE-AAAE473F-A9742617-39D384A4</object>-->
+			  </node>
+      </node>
+      <node>
+			<header>
+			<name lang="en-GB" default="true">GI Joe</name>
+			<name lang="en-US" >GI Joe</name>
+			<name lang="fr-FR" >GI Joe</name>
+			<name lang="it-IT" >GI Joe</name>
+			<name lang="de-DE" >GI Joe</name>
+			<name lang="es-ES" >GI Joe</name>
+			<name lang="ja-JP" >??</name>
+			<name lang="ko-KR" >??</name>
+			<name lang="zh-HK" >??</name>
+			<name lang="zh-TW" >??</name>
+			<name lang="en-SG" >Male</name>
+			<thumbnail lang="en-GB"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/GIJoe_Logo.png</thumbnail>
+		  </header>
+		  <node type="objects">
+			<header>
+			<name lang="en-GB" default="true">GI Joe</name>
+			<name lang="en-US" >GI Joe</name>
+			<name lang="fr-FR" >GI Joe</name>
+			<name lang="it-IT" >GI Joe</name>
+			<name lang="de-DE" >GI Joe</name>
+			<name lang="es-ES" >GI Joe</name>
+			<name lang="ja-JP" >??</name>
+			<name lang="ko-KR" >??</name>
+			<name lang="zh-HK" >??</name>
+			<name lang="zh-TW" >??</name>
+			<name lang="en-SG" >Male</name>
+			<thumbnail lang="en-GB"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Cobra_Baroness.png</thumbnail>
+		  </header>
+				<!--COBRA Baroness Costume-->
+				<!--Glasses-->
+				<object>3B195CDC-DD4C43C0-827FBDDD-400E3067</object>
+				<!--Torso-->
+				<object>50502CA2-111B456E-B11025DE-C9C80CD1</object>
+				<!--Gloves-->
+				<object>FBD7011F-F429481E-A33C3FFB-AB6DEAA6</object>
+				<!--Pants-->
+				<object>08CC14DA-498A4165-BDA9A5DF-A04BCD90</object>
+				<!--Shoes-->
+				<object>BF4E955B-4CF24C88-B28153B4-CEF4D04C</object>
+				</node>
+        </node>
+    <node>
+			<header>
+			<name lang="en-GB" default="true">Ghostbusters™</name>
+			<name lang="en-US" >Ghostbusters™</name>
+			<name lang="fr-FR" >S.O.S. Fantômes™</name>
+			<name lang="it-IT" >Ghostbusters™</name>
+			<name lang="de-DE" >Ghostbusters™</name>
+			<name lang="es-ES" >Cazafantasmas™</name>
+			<name lang="ja-JP" >??</name>
+			<name lang="ko-KR" >??</name>
+			<name lang="zh-HK" >??</name>
+			<name lang="zh-TW" >??</name>
+			<name lang="en-SG" >Male</name>
+			<thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/STORE_Ghostbusters_128x128px_SCEE.png</thumbnail>
+		  </header>
+			  <node type="objects">
+				<header>
+				  <name lang="en-GB" default="true">Torso</name>
+				  <name lang="en-US" >Torso</name>
+				  <name lang="fr-FR" >Torse</name>
+				  <name lang="it-IT" >Torso</name>
+				  <name lang="de-DE" >Rumpf</name>
+				  <name lang="es-ES" >Torso</name>
+				  <name lang="ja-JP" >????</name>
+				  <name lang="ko-KR" >?</name>
+				  <name lang="zh-HK" >??</name>
+				  <name lang="zh-TW" >??</name>
+				  <name lang="en-SG" >Torso</name>
+				 <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+				</header>
+				<object>41EAE620-0F2B4E0D-9EB3F4EE-98290F0F</object>
+				<object>A8D0DA60-C47844AF-860C8A74-763231B3</object>
+				<object>B578984A-29674122-ACCC1675-C69E6A8F</object>
+			  </node>
+			  <node type="objects">
+				<header>
+			      <name lang="en-GB" default="true">Costume</name>
+			      <name lang="en-US" >Costume</name>
+			      <name lang="fr-FR" >Costumes</name>
+			      <name lang="it-IT" >Costume</name>
+			      <name lang="de-DE" >Kostüm</name>
+			      <name lang="es-ES" >Traje</name>
+				  <name lang="ja-JP" >????</name>
+				  <name lang="ko-KR" >?</name>
+				  <name lang="zh-HK" >??</name>
+				  <name lang="zh-TW" >??</name>
+				  <name lang="en-SG" >Helghast</name>
+				  <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/dummyFemaleCostume_Small.png</thumbnail>
+				</header>
+				<!--Female Ghostbusters Head-->
+				<object>C617A8E0-091847A5-AAD6A232-FADAEFD7</object>
+				<!--Female Ghostbusters Torso-->
+				<object>452B911F-23BB4F82-BB129419-48C191DC</object>
+				<!--Female Ghostbusters Gloves-->
+				<object>1DE352FB-A5624E35-9FF1A17B-B7196E6B</object>
+				<!--Female Ghostbusters Trousers-->
+				<object>4C6E5DB7-AEDE4C66-B1720ECF-7FE7DE49</object>
+				<!--Female Ghostbusters Boots-->
+				<object>00DBAEB6-404540DF-9BB3393B-3878811B</object>
+              </node>
+          </node>
+          <node>
+        <header>
+          <name lang="en-GB" default="true">MotorStorm®</name>
+          <name lang="en-US" >MotorStorm®</name>
+          <name lang="fr-FR" >MotorStorm®</name>
+          <name lang="it-IT" >MotorStorm®</name>
+          <name lang="de-DE" >MotorStorm®</name>
+          <name lang="es-ES" >MotorStorm®</name>
+          <name lang="ja-JP" >足</name>
+          <name lang="ko-KR" >발</name>
+          <name lang="zh-HK" >鞋子</name>
+          <name lang="zh-TW" >腳</name>
+          <name lang="en-SG" >Feet</name>
+          <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/MS_Test01.png</thumbnail>
+        </header>
+        <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">BikerGirl</name>
+          <name lang="en-US" >BikerGirl</name>
+          <name lang="fr-FR" >Motarde</name>
+          <name lang="it-IT" >Centaura</name>
+          <name lang="de-DE" >BikerGirl</name>
+          <name lang="es-ES" >Motera</name>
+          <name lang="ja-JP" >頭</name>
+          <name lang="ko-KR" >머리</name>
+          <name lang="zh-HK" >頭</name>
+          <name lang="zh-TW" >頭</name>
+          <name lang="en-SG" >Headgear</name>
+          <thumbnail lang="en-GB" default="true">
+[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/MS_Bikergirl.png</thumbnail>
+        </header>
+        <!--MotorStorm®  BikerGirl Race Shoes-->
+        <object>CD2D65FD-710843C7-91F7BDDB-1CC4B44D</object>
+        <!--MotorStorm®  BikerGirl Leathers-->
+        <object> F7B72266-583F4643-81EDA82C-2D736876</object>
+        <!--MotorStorm®  BikerGirl Leather Jacket-->
+        <object> E1578812-B66F4B9E-A7B9B289-661D29F8</object>
+        <!--MotorStorm®  BikerGirl Studded Gloves-->
+        <object> AA065C1E-CBD94395-A154E433-15423BD3</object>
+        <!--MotorStorm®  BikerGirl Shades-->
+        <object>EF9ADCE8-EE9D456B-9B62DD1D-0ABE591C</object>
+      </node>
+     </node>
+<node>
+        <header>
+          <name lang="en-GB" default="true">Singstar</name>
+          <name lang="en-US" >Singstar</name>
+          <name lang="fr-FR" >Singstar</name>
+          <name lang="it-IT" >Singstar</name>
+          <name lang="de-DE" >Singstar</name>
+          <name lang="es-ES" >Singstar</name>
+          <name lang="ja-JP" >脚</name>
+          <name lang="ko-KR" >다리</name>
+          <name lang="zh-HK" >腳</name>
+          <name lang="zh-TW" >腿</name>
+          <name lang="en-SG" >Singstar</name>
+          <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/SS_Original.png</thumbnail>
+        </header>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Headgear</name>
+          <name lang="en-US">Headgear</name>
+          <name lang="fr-FR">Couvre-chef</name>
+          <name lang="de-DE">Kopfbedeckung</name>
+          <name lang="it-IT">Accessori testa</name>
+          <name lang="es-ES">Accesorios cabeza</name>
+          <name lang="ja-JP">?</name>
+          <name lang="ko-KR">??</name>
+          <name lang="en-SG">Headgear</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+        </header>
+                <object>98CC48E4-AD6C405F-9E725436-A35E962E</object>
+    </node>
+     <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+         <name lang="en-US">Torso</name>
+          <name lang="fr-FR">Torse</name>
+          <name lang="de-DE">Rumpf</name>
+          <name lang="it-IT">Torso</name>
+          <name lang="es-ES">Torso</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Torso</name>
+          <name lang="zh-HK">??</name>
+          <name lang="zh-TW">??</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+        </header>
+        <object>C90A409B-BC4546B8-BD0CAC8C-63604A3C</object>
+        <object>A7579528-9A3D498E-A33FD7C0-CD721D57</object>
+        <object>078C017D-97DD44CE-9C54762E-69213C0E</object>
+        <object>4C270436-A9F54B3F-B5F0AF00-78729A48</object>
+        <object>1B499615-73DC4934-9DB68799-C0F09C47</object>
+        <object>82F03600-E0E74B1A-9E07C8E0-82C66C88</object>
+        <object>889AA7A7-A5A7415C-A8C2EFE4-868B9040</object>
+      </node>
+<node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Legs</name>
+           <name lang="en-US">Legs</name>
+          <name lang="fr-FR">Jambes</name>
+          <name lang="de-DE">Beine</name>
+          <name lang="it-IT">Gambe</name>
+          <name lang="es-ES">Piernas</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">??</name>
+          <name lang="en-SG">Legs</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/legs.dds</thumbnail>
+        </header>
+        <object>2E1A00E7-DA8C4988-9C2CA1A2-CF8AFB8B</object>
+        <object>A2BF1213-89104EBB-8DD3082F-90B1B70E</object>
+        <object>1AA8166C-ACCE4BFD-83C6821A-218232E5</object>
+      </node>
+<node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Feet</name>
+          <name lang="en-US">Feet</name>
+          <name lang="fr-FR">Pieds</name>
+          <name lang="de-DE">F��e</name>
+          <name lang="it-IT">Piedi</name>
+          <name lang="es-ES">Pies</name>
+          <name lang="ja-JP">?</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Feet</name>
+          <name lang="zh-HK">??</name>
+          <name lang="zh-TW">?</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/feet.dds</thumbnail>
+        </header>
+        <object>7BC0DD1F-613247D3-9D4CF1B6-A2399F3C</object>
+      </node>
+      </node>
+      	  <node>
+		  <header>
+			<name lang="en-GB" default="true">Burn Zombie Burn</name>
+			<name lang="en-US" >Burn Zombie Burn</name>
+			<name lang="fr-FR" >Burn Zombie Burn</name>
+			<name lang="it-IT" >Burn Zombie Burn</name>
+			<name lang="de-DE" >Burn Zombie Burn</name>
+			<name lang="es-ES" >Burn Zombie Burn</name>
+			<name lang="ja-JP" >Burn Zombie Burn</name>
+			<name lang="ko-KR" >Burn Zombie Burn</name>
+			<name lang="zh-HK" >Burn Zombie Burn</name>
+			<name lang="zh-TW" >Burn Zombie Burn</name>
+			<name lang="en-SG" >Burn Zombie Burn</name>
+			<thumbnail lang="en-GB" default="true" > [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/logo_BZB.png</thumbnail>
+		  </header>
+       <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Headgear</name>
+          <name lang="en-US" >Headgear</name>
+          <name lang="fr-FR" >Couvre-chef</name>
+          <name lang="it-IT" >Accessori testa</name>
+          <name lang="de-DE" >Kopfbedeckung</name>
+          <name lang="es-ES" >Accesorios cabeza</name>
+          <name lang="ja-JP" >?</name>
+          <name lang="ko-KR" >??</name>
+          <name lang="zh-HK" >?</name>
+          <name lang="zh-TW" >?</name>
+          <name lang="en-SG" >Headgear</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+        </header>
+        <!--Zombie Head-->
+        <object>C1DDC580-F9584D30-B38434EB-E189B5D8</object>
+      </node>
+        <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="en-US" >Torso</name>
+          <name lang="fr-FR" >Torse</name>
+          <name lang="it-IT" >Torso</name>
+          <name lang="de-DE" >Rumpf</name>
+          <name lang="es-ES" >Torso</name>
+          <name lang="ja-JP" >胴</name>
+          <name lang="ko-KR" >몸</name>
+          <name lang="zh-HK" >上身</name>
+          <name lang="zh-TW" >身體</name>
+          <name lang="en-SG" >Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+        </header>
+        <object>F6BC44B6-43BA405C-80C296A6-92145631</object>
+        <object>E6408612-3EA44513-99770589-2C1CF40C</object>
+        <object>D2276E5B-9F5A47E3-837A00B6-FFE3DD5B</object>
+        <object>95FB0133-0BB24882-BFE1EF21-AB92DE49</object>
+        <object>BAA6AEC3-928B4F2A-A081E7F5-C07608BD</object>
+      </node>
+              <node type="objects">
+        <header>
+			      <name lang="en-GB" default="true">Costume</name>
+			      <name lang="en-US" >Costume</name>
+			      <name lang="fr-FR" >Costumes</name>
+			      <name lang="it-IT" >Costume</name>
+			      <name lang="de-DE" >Kostüm</name>
+			      <name lang="es-ES" >Traje</name>
+          <name lang="ja-JP" >胴</name>
+          <name lang="ko-KR" >몸</name>
+          <name lang="zh-HK" >上身</name>
+          <name lang="zh-TW" >身體</name>
+          <name lang="en-SG" >Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+        </header>
+        <!--Zombie Cossie-->
+        <object>BE85B7BD-BD8A4320-85320F69-6F48CBFA</object>
+      </node>     
+       </node>
+        <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">LittleBigPlanet(TM)</name>
+          <name lang="en-US" >LittleBigPlanet</name>
+          <name lang="fr-FR" >LittleBigPlanet</name>
+          <name lang="it-IT" >LittleBigPlanet</name>
+          <name lang="de-DE" >LittleBigPlanet</name>
+          <name lang="es-ES" >LittleBigPlanet</name>
+          <name lang="ja-JP" >足</name>
+          <name lang="ko-KR" >발</name>
+          <name lang="zh-HK" >鞋子</name>
+          <name lang="zh-TW" >腳</name>
+          <name lang="en-SG" >Feet</name>
+          <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/LBP.png</thumbnail>
+        </header>
+        <object>2260C13D-ADF14CDE-854D8DF4-182E176F</object>
+        <object>1CF23BF7-BD564DAF-90A48D54-49B87FD1</object>
+        <object>105C8437-26524A7B-9493E3D1-462D68DA</object>
+        <object>DCF4576E-7BF649D4-8D05A5FE-12B83378</object>
+        <object>8305BF2A-2EE940BF-A0043DCB-5C767E50</object>
+      </node>
+        <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">MAG™</name>
+          <name lang="en-US" >MAG™</name>
+          <name lang="fr-FR" >MAG™</name>
+          <name lang="it-IT" >MAG™</name>
+          <name lang="de-DE" >MAG™</name>
+          <name lang="es-ES" >MAG™</name>
+          <name lang="ja-JP" >足</name>
+          <name lang="ko-KR" >발</name>
+          <name lang="zh-HK" >鞋子</name>
+          <name lang="zh-TW" >腳</name>
+          <name lang="en-SG" >MAG™</name>
+          <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/MAG.png</thumbnail>
+        </header>
+        <object>FBBC4DB7-19AA4130-BAA8BD48-BFB22783</object>
+        <object>73EFB558-97174AAF-A83A3B60-4BF3EDE0</object>
+        <object>2B191C65-3FA74A40-B9A0722C-691877A5</object>
+      </node>
+           	<node type="objects">
+           <header>
+			<name lang="en-GB" default="true">Assassins Creed 2</name>
+			<name lang="en-US" >Assassins Creed 2</name>
+			<name lang="fr-FR" >Assassins Creed 2</name>
+			<name lang="it-IT" >Assassins Creed 2</name>
+			<name lang="de-DE" >Assassins Creed 2</name>
+			<name lang="es-ES" >Assassins Creed 2</name>
+			<name lang="ja-JP" >??</name>
+			<name lang="ko-KR" >??</name>
+			<name lang="zh-HK" >??</name>
+			<name lang="zh-TW" >??</name>
+			<name lang="en-SG" >Assassins Creed 2</name>
+			<thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/AC2.png</thumbnail>
+		  </header> 
+				<!--Assassin's Creed 2 Courtesan Bundle-->
+				<object>98A52E46-05B54C64-B93C7559-50D8D6C5</object>
+				<!--Assassin's Creed 2 Female Ezio Bundle-->
+				<object>7A3CB15A-B7484D9F-A31CD202-7A1809F8</object>
+				<!--Assassin's Creed 2 Guard Bundle  -->
+				<object>C361B817-39E943EC-88F80D52-DFEBF17F</object>
+				<!--Assassin's Creed 2 Promotional Original Altair Costume Female Version-->
+				<object>16DFCFA1-BB9544C8-B9348A06-F2C00DBB</object>
+           </node>
+           	<node type="objects">
+				<header>
+			      <name lang="en-GB" default="true">Lockwood</name>
+			      <name lang="en-US" >Lockwood</name>
+			      <name lang="fr-FR" >Lockwood</name>
+			      <name lang="it-IT" >Lockwood</name>
+			      <name lang="de-DE" >Lockwood</name>
+			      <name lang="es-ES" >Lockwood</name>
+				  <name lang="ja-JP" >????</name>
+				  <name lang="ko-KR" >?</name>
+				  <name lang="zh-HK" >??</name>
+				  <name lang="zh-TW" >??</name>
+				  <name lang="en-SG" >Lockwood</name>
+				  <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Lockwood.png</thumbnail>
+				</header>
+				<!--Animated "Love Stinks" Scrolling LED Text T-Shirt-->
+				<object>ADF53C50-BDE94FDF-A7BAA6E7-2093C0C2</object>
+				<!--Animated Beating Heart t-shirt-->
+				<object>59217056-2E62471F-AD484D75-8C2D1EEF</object>
+				<!--Animated Emoticon "Love" Bundle-->
+				<object>C64CA317-FCA546B4-A069C1E9-9B58FB5A</object>
+              </node>
+   </node>
+</node>
+</commerce_point>
