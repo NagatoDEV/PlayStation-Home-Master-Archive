@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header>
+	  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/onestopshop_bg_scea.dds</background> 
+    </header>
+	<node> <!--Wardrobe Wars Themed-->
+	  <header>
+	    <name lang="en-US" default="true">Wardrobe Wars</name>
+		<name lang="fr-FR">Wardrobe Wars</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="false">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/wardrobewars_scea.png</thumbnail>
+		<thumbnail lang="fr-FR" default="false" useOsdColour="false">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/wardrobewars_scea.png</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/onestopshop_bg_scea.dds</background>
+	  </header>
+        <node type="objects"> <!-- Male -->
+          <header>
+            <name lang="en-US" default="true">Male</name>
+            <name lang="fr-FR">Homme</name>
+            <thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+    		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/onestopshop_bg_scea.dds</background> 
+          </header>
+			<object>6F8B499C-6A9F4A89-8AC96590-13283AFC</object>
+			<object>40F522B8-BB094BE8-96EA55D4-6A4618DF</object>
+			<object>8D3A7CBF-823544D2-82A0AE54-423E4867</object>
+			<object>4D216572-C79E4485-ADFC1F1F-B72719A1</object> 
+			<object>863BEF44-87EE47B9-84104A85-77B24707</object>
+			<object>F3E7F9D2-4C724229-A2F950DC-3DEA38FC</object>
+			<object>5D1446EE-150F4ACE-97E92158-707E42E4</object>
+			<object>07F5FA08-8D3345FC-BEE3D23B-6BD9CBA5</object>
+			<object>FBC9E5AE-5BD04502-9621AA07-773E7E49</object>
+			<object>FE04F57E-50FB4552-89C78E5F-468C56C2</object> 
+			<object>05477193-3FE24F7C-8CE0AA2E-38421EBA</object>
+			<object>7727EB90-47C24F9E-BAA1447B-E4829AD7</object>
+			<object>E619FE02-036C46F7-8A5446B8-2CD7312F</object>
+			<object>DD056FE3-3ECF4315-8E773E99-F5CE584E</object> 
+			<object>86D38282-063246B8-A03021CD-9DB1B9E5</object>
+
+
+		  </node>
+		<node type="objects"> <!-- Female -->
+		  <header>
+			<name lang="en-US" default="true">Female</name>
+			<name lang="fr-FR">Femme</name>
+			<thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+			<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/onestopshop_bg_scea.dds</background> 
+		  </header>
+			<object>07282A70-BB374785-8AEF8A96-E0F51DF2</object> 
+			<object>3FF21037-72284001-9A2A7333-901A4FEB</object> 
+			<object>1746A134-1DCB4466-BE26157E-CA27AE45</object> 
+			<object>7DE7E472-EB5A4DF7-A2DA0E1A-FC7F2693</object> 
+			<object>00000000-00000000-00000000-01050054</object> 
+			<object>00000000-00000000-00000000-01030068</object> 
+			<object>30DD9C35-CE3747B5-A7C70058-C5C5DFA3</object> 
+			<object>B252F96B-614D470D-833628A0-3195123E</object>
+			<object>41540AFD-3C8F44E5-8D7E2CDF-595EF8D9</object>			
+			<object>192F5ACA-CE4743D7-B4926CD1-702A5ED7</object>
+			<object>6CA186AC-9E624BEC-849BE7E4-FC86C8A6</object>			
+			<object>3EE00EDB-BB364E92-A6888B91-631875CE</object>
+			<object>FCA11E6D-12754E7B-BEF5EBE7-6778F08F</object>
+			<object>28B8C653-FA004735-9AB0BA73-D95A5349</object>
+			<object>00000000-00000000-00000000-01030068</object>			
+		</node>
+	</node>
+	<node> <!-- Spring Fling-->
+	  <header>
+	    <name lang="en-US" default="true">Spring Fling</name>
+		<name lang="fr-FR">Spring Fling</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="false">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/springfling_scea.png</thumbnail>
+		<thumbnail lang="fr-FR" default="false" useOsdColour="false">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/springfling_scea.png</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/SpringFling_bg_scea.dds</background>
+	  </header>
+		<node type="objects"> <!-- Romantic Gentleman -->
+		  <header>
+            <name lang="en-US" default="true">Romantic Gentleman</name>
+            <thumbnail lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/romanticgentleman_scea.png</thumbnail>
+		    <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/SpringFlings_Clue1.dds</background> 
+          </header>
+			<object>454C831C-42284070-84A368BB-2CEA4CAF</object> <!-- 4/4/12 -->
+			<object>BEE82DCE-543945F9-B1DFBECD-074F6372</object> <!-- 4/4/12 -->
+			<object>14D78E39-FA10493F-BDCD49A2-CA033F20</object> <!-- 4/4/12 -->
+			<object>BE09B3DA-22D849B6-B9308210-83A855A2</object> <!-- 4/4/12 -->
+		</node>
+		<node type="objects"> <!-- Smoking Hot (Male) -->
+		  <header>
+            <name lang="en-US" default="true">Smoking Hot (Male)</name>
+            <thumbnail lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/smokinghotm_scea.png</thumbnail>
+		    <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/SpringFlings_Clue2.dds</background> 
+          </header>
+			<object>B25BB676-B51B4D4F-B509D32E-6160A5A2</object> <!-- 4/4/12 -->
+			<object>D7BF2F54-830F46D5-B3415258-E94C5899</object> <!-- 4/4/12 -->
+			<object>BD83AD63-27FD4F87-AC7EB83F-23F5BABA</object> <!-- 4/4/12 -->
+			<object>D9D1929D-A6A744B7-87280970-41524281</object> <!-- 4/4/12 -->
+		</node>
+		<node type="objects"> <!-- Prettiest in Pink -->
+		  <header>
+            <name lang="en-US" default="true">Prettiest in Pink</name>
+            <thumbnail lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/prettiestinpinkf_scea.png</thumbnail>
+		    <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/SpringFlings_Clue3.dds</background> 
+          </header>
+			<object>FB565142-A44D4E00-A067328E-181DAB7C</object> <!-- 4/4/12 -->
+			<object>065DFEBD-615A49F0-87675460-0950F389</object> <!-- 4/4/12 -->
+			<object>23E4CF7F-F14B447D-854FB719-90F47BD7</object> <!-- 4/4/12 -->
+			<object>CCB4E5FA-C4B7447A-81A85556-7C110E63</object> <!-- 4/4/12 -->
+		</node>
+		<node type="objects"> <!-- Red Hot (Female) -->
+		  <header>
+            <name lang="en-US" default="true">Red Hot (Female)</name>
+            <thumbnail lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/redhotf_scea.png</thumbnail>
+		    <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/SpringFlings_Clue4.dds</background> 
+          </header>
+			<object>D78BDC8D-AF604764-B9FDE7B9-B87688C6</object> <!-- 4/4/12 -->
+			<object>CF140BAB-9E28442F-AD91F4C5-5ACDCE7F</object> <!-- 4/4/12 -->
+			<object>7E6203A9-865D4610-BCA3EB5C-7A828664</object> <!-- 4/4/12 -->
+			<object>A390E353-E35E40B8-9DD7B5EE-5B382DD8</object> <!-- 4/4/12 -->
+		</node>
+	</node>
+  </node>
+</commerce_point>

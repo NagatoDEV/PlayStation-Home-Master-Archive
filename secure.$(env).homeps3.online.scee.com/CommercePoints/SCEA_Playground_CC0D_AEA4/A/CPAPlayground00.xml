@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header>
+	  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+    </header>
+	<node> <!-- Male -->
+      <header>
+	    <name lang="en-US" default="true">Male</name>
+        <name lang="fr-FR">Homme</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+      </header>
+	  <node type="objects"> <!-- Head -->
+		<header>
+          <name lang="en-US" default="true">Headgear</name>
+          <name lang="fr-FR">Couvre-chef</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+        </header>
+		  <object>DC013107-EAD447D9-91F9A5BF-A7265A35</object>
+		  <object>513FFDDB-C0DA411B-8A399952-69498172</object>
+		  
+		  <!-- Hair -->
+		  <object>EE297A44-BD1644D7-A9BCEF78-F6FBBCA0</object>
+		  <object>CEE4CAD4-B7584C49-8F48B560-EBCC245E</object>
+		  <object>CC9FEDBE-76A743B6-B22F10B4-F4DD1437</object>
+		  <object>79EDD4B3-FAAE434F-A354D2C3-97973BA3</object>
+		  <object>F9FC24EE-C90048E9-AAE4599F-03E1E62B</object>
+		  <object>1E2C5392-4F5A4D62-85BA88AA-20152BDD</object>
+		  <object>774036AF-C96243C5-A9DC216A-1F63783E</object>
+		  <object>3B256879-C28144AA-AB2FB542-FA769F40</object>
+		  <object>67139548-746C4590-9AF0EC50-EAF1CCBA</object>
+		  <object>E61E02D3-B0F54591-818E4A5F-F8B46B82</object>
+      </node>
+	  <node type="objects"> <!-- Hands -->
+		<header>
+          <name lang="en-US" default="true">Hands</name>
+          <name lang="fr-FR">Mains</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hands.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+        </header>
+		  <object>B3C29B90-55FD41D9-9F2B754C-26EE3BC4</object>
+		  <object>CD4C2A25-DF604EDF-8738D7C9-64C44F37</object>
+		  <object>39F10924-0411462E-BDCBEDA4-E8A984CA</object>
+		  <object>4F879946-05914350-987BA4F6-AF61870F</object>
+		  <object>B7EC2780-A5F64512-A3A3BB88-69F743A3</object>
+		  <object>F49084D0-F2524151-949B42A4-DBC20692</object>
+	  </node>
+	  <node> <!-- Torso -->
+		<header>
+          <name lang="en-US" default="true">Torso</name>
+          <name lang="fr-FR">Torse</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+        </header>
+	    <node type="objects"> <!-- Torso -->
+		  <header>
+            <name lang="en-US" default="true">Torso</name>
+            <name lang="fr-FR">Torse</name>
+            <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+		    <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+          </header>
+		    <object>A1BA509C-5AA54F26-92424278-EDFF34EA</object>
+		    <object>40C54F5F-8EFF45CA-8B5E4CBA-0D246A2F</object>
+		    <object>C259B591-E8AB407F-934D99CF-80513FFB</object>
+		    <object>0A806ABF-136E4803-82181A9E-4E8A4118</object>
+		    <object>9B6A15A4-069B44B2-BBE057E5-E73782D5</object>
+		    <object>1D31012E-050E4732-B339A3FF-5C787C0B</object>
+		    <object>F57E1AA6-B34F4FC9-B119067D-92F89357</object>
+		    <object>4104D351-445A4D71-9827767C-9F4FEC7B</object>
+		    <object>66796B47-36574C79-9C2A6435-C159104B</object>
+		    <object>FF839A75-121D4493-894135BA-0DCC75F1</object>
+		    <object>78953FD9-2E9E408B-AC895BDF-48627ED2</object>
+		    <object>D087B7F5-B84140A1-B82249C0-499F30A5</object>
+		    <object>3DFC91B5-CE2C43F0-93A46D64-CFDAEBD4</object>
+		    <object>13CDBA27-D27E43D7-AA51732E-81B9DCF6</object>
+		    <object>E511D314-138D45A5-AB7F11C5-3555455B</object>
+		    <object>49D46443-69E8496C-B6C239F5-A78FF35D</object>
+		    <object>8754DC81-E6514C66-8C982D53-B3D859CA</object>
+		</node>
+		<node type="objects"> <!-- Jackets -->
+		  <header>
+            <name lang="en-US" default="true">Jacket</name>
+            <name lang="fr-FR">Veste</name>
+            <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/jacket.dds</thumbnail>
+		    <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+          </header>
+		  <!-- Jackets -->
+		  <object>842EC595-670C45F1-B5B5EF94-6CCB31B5</object>
+		  <object>973AA7D3-891941F4-AA17EB04-7F42312A</object>
+		  <object>C8C6F479-43854C1D-9FA06DEF-F3B20872</object>
+		  <object>08438EC5-52C140C0-96D3BFC2-6C13DF77</object>
+		  <object>2A749C65-E52F4FCA-979927FC-EFE4C410</object>
+		  <object>240C8E71-C3B04F4C-A27ED06C-E09C4002</object>
+		  <object>A4316850-F0A74EA2-A089AD44-0FA878EC</object>
+		</node>
+      </node>
+	  <node type="objects"> <!-- Legs -->
+        <header>
+          <name lang="en-US" default="true">Legs</name>
+          <name lang="fr-FR">Jambes</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/legs.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+        </header>
+		  <object>0A0F5050-9BED42DE-AD1E33B9-655F9FFE</object>
+		  <object>1D612C81-32934A16-8EB11762-FDD9AC71</object>
+		  <object>13BB7DFC-D2744EA4-90832786-51D30F70</object>
+		  <object>943938F6-E3654238-B330D218-A28C5F43</object>
+		  <object>7BD7EDBB-D1B64326-8DBEEBE9-8B0E8CD7</object>
+		  <object>B4E4A440-8FD342CF-B41B4402-79E3A27D</object>
+		  <object>FAAAF81A-B6D04736-BD661A32-F55ECC4C</object>
+		  <object>E1E0F650-33264479-9523CF53-C1709BF7</object>
+	  </node>
+	  <node type="objects"> <!-- Feet -->
+		<header>
+          <name lang="en-US" default="true">Feet</name>
+          <name lang="fr-FR">Pieds</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/feet.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+		</header>
+		  <object>DAB53565-170E4FF9-9786013F-2C30B2C1</object>
+		  <object>87E49F1A-DE7B4A5F-83B772B2-1FE57C1C</object>
+		  <object>9CD854D0-34E741CC-9112D3A6-DFE497AD</object>
+		  <object>E7B583BB-D9F044DD-A84CCC47-411E228C</object>
+		  <object>4B78425A-7B194EFD-9BC8C35B-6A397B3E</object>
+		  <object>993A95C5-8FB54706-A3F48771-14C1F182</object>
+		  <object>AD3679AD-D95C405A-BBAEDE23-873E9E3B</object>
+		  <object>CB0CD0A5-1C1A4673-8B1C93FF-7D6EEC71</object>
+		  <object>9FFE0E61-A9414DD8-91F7664D-2880BC7F</object>
+		  <object>390E90E7-511740B4-9208D53D-CB387686</object>
+		  <object>C1D85D58-7DFD4CE5-B06A3411-E05F5336</object>
+	  </node>
+	  <node type="objects"> <!-- Spectacles -->
+		<header>
+          <name lang="en-US" default="true">Spectacles</name>
+          <name lang="fr-FR">Lunettes</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/glasses.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+        </header>
+
+		  <object>48461B14-92C04B5A-A56127FC-66715D96</object>
+		  <object>93555CAC-D64D4151-A1D0872B-3DDB3BC3</object>
+		  <object>B240451F-27D34BC0-A82714B4-EAF7DA2A</object>
+		  <object>A7F6086E-ED914028-B84BAE90-F884A59C</object>
+		  
+		  <object>C409E790-581C4753-BB2E1D71-C843360E</object>
+		  <object>93437A54-EEE64DEF-ADAFC1DE-FC99CB7D</object>
+		  <object>23396DBA-FAE14A2B-8E71322B-9AADE003</object>
+		  <object>1F57D1F6-FD4D4E04-A3924655-D145A922</object>
+	  </node>
+	</node>
+	<node> <!-- Female -->
+      <header>
+        <name lang="en-US" default="true">Female</name>
+        <name lang="fr-FR">Femme</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+      </header>
+	<node type="objects"> <!-- Head -->
+      <header>
+        <name lang="en-US" default="true">Headgear</name>
+        <name lang="fr-FR">Couvre-chef</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+      </header>
+		<object>2F6D4EE3-A9AB4D5E-A8511E6C-AEC0248D</object>
+		<object>F4A18A3E-30984E35-9901097D-24AB2AD2</object>
+		<object>199A74B4-16C6462A-A1134DC0-701862D0</object>
+		<object>24A89895-AF874508-93AF7ECA-BFBDA5B9</object>
+		<object>81FC594C-F54B401C-83ACC3B3-FF1A58E7</object>
+  </node>
+	<node type="objects"> <!-- Hands -->
+      <header>
+        <name lang="en-US" default="true">Hands</name>
+        <name lang="fr-FR">Mains</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hands.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+      </header>
+		<object>DFECE3BB-66EF4722-A611C820-866039F3</object>
+		<object>0657448C-A92D4BBF-A30649A2-11F55977</object>
+		<object>B3CFEE96-EFCA447B-AE37D4D6-F4A48383</object>
+		<object>DDB218C4-D56741C4-B0283CDC-D1D5B5D3</object>
+		<object>8BA3499D-67404B0A-81012827-BD71D2F2</object>
+		<object>7F2CF474-6EE344A0-B19E4928-FCCCF798</object>
+		<object>48E55956-C94441C9-B47BD0B9-8F24ECAC</object>
+		<object>CA306FB7-63AB4C9B-BC08A10E-93659AA9</object>
+	</node>
+	<node> <!-- Torso -->
+      <header>
+        <name lang="en-US" default="true">Torso</name>
+        <name lang="fr-FR">Torse</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+      </header>
+	    <node type="objects"> <!-- Torso -->
+		  <header>
+            <name lang="en-US" default="true">Torso</name>
+            <name lang="fr-FR">Torse</name>
+            <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+		    <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+          </header>
+			<object>3C9AF403-25D34E66-916AE86C-DA33778E</object>
+			<object>1C0F9DE6-11464E65-B3A3D095-82847765</object>
+			<object>69A3730C-BABB4C9B-ABD8E901-52407F44</object>
+			<object>7F7EE37B-2672436D-8EF482EE-95B1EFD4</object>
+			
+			<object>57594641-F90848CD-919290C3-990E94F2</object>
+			<object>47730D56-376F4ECC-83B750EA-39C593AF</object>
+			<object>0408DA31-E48E4780-92B39864-49A11C97</object>
+			<object>1E3C0875-DF064C7F-9FB90B1F-E4CBF49D</object>
+			<object>6E260DBA-9FF64E24-A69F88AC-5DC407E9</object>
+			<object>AB03DC79-7ADC4F42-813D7E72-68BC93C5</object>
+			<object>E0D9BC13-916C4C0F-868ACF3D-089701A9</object>
+			<object>42BE1E7F-62734EFB-A5F20606-69452D6F</object>
+			<object>FB4A8446-E66E4CD3-9BEEC6C7-994FD8EA</object>
+			<object>6FA4EFA3-32334503-AB7A4128-16C5D2CC</object>
+			<object>3C61515D-FEC54CFF-A659F097-241BB76F</object>
+			<object>FE323937-52D24EBB-935DF650-8B1AB92D</object>
+		</node>
+		<node type="objects"> <!-- Jackets -->
+		  <header>
+            <name lang="en-US" default="true">Jacket</name>
+            <name lang="fr-FR">Veste</name>
+            <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/jacket.dds</thumbnail>
+		    <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+          </header>
+			<!-- Jackets -->
+			<object>0F741876-89B84420-9BE2525F-8017B45B</object>
+			<object>E3CEBFFB-517749C2-86FD4AA2-40249ED2</object>
+			<object>BF08534E-A9D04072-85EBA53A-47A56E3A</object>
+			<object>4D5587EA-5D014AEA-969906D2-EB42DED4</object>
+			<object>F75C2CEE-69634004-8B3C1346-7F4241A3</object>
+			<object>D3C88C9B-6A9B4346-94BB08C5-5D018BDA</object>
+			<object>FC07167B-3C834337-95F13A31-0DC386F6</object>
+		</node>
+	</node>
+	<node type="objects"> <!-- Legs -->
+      <header>
+        <name lang="en-US" default="true">Legs</name>
+        <name lang="fr-FR">Jambes</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/legs.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+      </header>
+		<object>C893B713-6FAB4371-91CF5367-BEA57107</object>
+		<object>14F5C86C-E52E46A9-9FF355F1-5A1BEDE9</object>
+		<object>2BE39EF1-302C48CC-B8A136E2-428826FE</object>
+		<object>47C9FB27-74D74C76-BFBCE50C-9AACF958</object>
+		<object>6F0E03AB-594C4AC0-B4439C34-C80587EF</object>
+		<object>417F687F-FFA648DA-91CADDBC-77E1882C</object>
+		<object>5F09410D-13224E0B-B0006719-370432FC</object>
+	</node>
+	<node type="objects"> <!-- Feet -->
+	  <header>
+        <name lang="en-US" default="true">Feet</name>
+        <name lang="fr-FR">Pieds</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/feet.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+	  </header>
+		<object>716F52D4-2159477B-B15BDF78-F75C2998</object>
+		<object>E007E5C6-E3C749FB-BDA9D6D2-00A5F935</object>
+		<object>FE409449-03E440DD-A3F15114-CFDDA4D3</object>
+		<object>F7DAF0ED-37FC4075-8618912A-2D2FFD0A</object>
+		<object>4891F675-5AE9479F-98D3A842-70893225</object>
+		<object>74F49962-F7DC4037-A6443B0D-AC351CC9</object>
+		<object>EFC6215E-B46E4F91-8B9266DF-D6037E03</object>
+		<object>301E2E1D-45FB4FC3-909096C5-A6038462</object>
+		<object>1C7199EC-3CE34E9E-B377A4EC-37761A11</object>
+		<object>7ECEAB8D-C8E246C2-8D8D8863-AABED16E</object>
+		<object>7375F02C-EAAC4B35-B8EC5650-BADA55E1</object>
+		<object>93F8B705-BD4A48EA-AD75660D-ABE6FBEF</object>
+		<object>39C82851-2FB44BE9-9BC6F23E-14E9C1E1</object>
+	</node>
+	<node type="objects"> <!-- Spectacles -->
+      <header>
+        <name lang="en-US" default="true">Spectacles</name>
+        <name lang="fr-FR">Lunettes</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/glasses.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+      </header>
+		<object>F294DED1-81AC4CD4-A1A7382C-E455C330</object>
+		<object>97693290-A80A41CC-A296422B-7B6D0110</object>
+		<object>5499A009-77074B7D-B050359B-105CD068</object>
+		<object>987E3169-BD7E402A-8225297E-D5773D13</object>
+		<object>1D95B346-13FB47CE-A763CACA-3F1156A2</object>
+		<object>6D740DC3-E28B4480-A71F8A5D-BAA1C780</object>
+		<object>52997ABA-FDFD4E1E-B1084A68-5F1F5DAB</object>
+		<object>847AE757-3B364040-9E06EDC9-4E26E73F</object>
+	</node>
+	<node type="objects"> <!-- Jewellery -->
+	  <header>
+        <name lang="en-US" default="true">Jewellery</name>
+        <name lang="fr-FR">Bijoux</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/jewellery.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+	  </header>
+	    <object>1CB7ADE6-E06D4BC1-969BB96E-BFE1E215</object>
+		<object>A32A2D19-F18A4922-A7336190-E60B65A3</object>
+		<object>247888EF-29BE4AE1-891FEDF5-F8480D7B</object>
+		
+  </node>
+	</node>
+	<node> <!-- Furniture -->
+	  <header>
+        <name lang="en-US" default="true">Furniture</name>
+		<name lang="fr-FR">Meubles</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/furniture_scea.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background>  
+      </header>
+	  <node type="objects"> <!-- Chairs -->
+		<header>
+          <name lang="en-US" default="true">Chairs</name>
+          <name lang="fr-FR" >Siges</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Chairs.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background>  
+		</header>
+		  <object>C0DCA778-30704525-B3ED8496-D8820704</object>
+		  <object>F6F4A8D9-4B35472C-8F2E674C-FBA7ADD2</object>
+		  <object>0ABA113D-47D84438-881A3365-828231D1</object>
+		  <object>189E25FF-352A4D01-BDE51A6A-5665AEA4</object>
+		  <object>73F5436A-0F5247EF-A17F44AE-43EF7D9E</object>
+		  <object>14129CF4-D6EB4535-9A4B4CEF-18DFE6F4</object>
+	  </node>
+	  <node type="objects"> <!-- Footstools -->
+		<header>
+          <name lang="en-US" default="true">Footstools</name>
+          <name lang="fr-FR" >Repose-pieds</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/footstools.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background>  
+		</header>
+		  <object>0CE1C2BC-218E4CE3-BD16ACE2-6A705433</object>
+		  <object>BAE68F4C-EFF64564-B369F768-FF24320F</object>
+		  <object>74EE3442-E1B1458C-A1C3B1F8-02796F29</object>
+	  </node>
+	  <node type="objects"> <!-- Sofas -->
+		<header>
+          <name lang="en-US" default="true">Sofas</name>
+          <name lang="fr-FR" >Canaps</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Sofas.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background>  
+		</header>
+		  <object>1DCE2171-53BA4C0E-B52E4803-F8E5B482</object>
+		  <object>AD4C635F-8B7A461C-AD756D17-A26151B3</object>
+		  <object>B64306E2-6449443E-820AF90B-8AE6124C</object>
+		  <object>919BE237-82B9480E-B596CD79-69BCE2F5</object>
+		  <object>6A99D97F-29134237-A86FA297-CC80EC6F</object>
+	  </node>
+	  <node type="objects"> <!-- Tables -->
+		<header>
+          <name lang="en-US" default="true">Tables</name>
+          <name lang="fr-FR" >Tables</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Tables.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background>  
+		</header>
+		  <object>D4CB4D7E-818647C9-B883D25A-F7014E22</object>
+		  <object>104E5992-A7EB4B7A-804689AF-D163CA8A</object>
+	  </node>
+      <node type="objects"> <!-- Storage -->
+        <header>
+          <name lang="en-GB" default="true">Storage</name>
+          <name lang="en-US" >Storage</name>
+          <name lang="fr-FR" >Rangements</name>
+          <name lang="it-IT" >Bauli</name>
+          <name lang="de-DE" >Aufbewahrung</name>
+          <name lang="es-ES" >Almacenamiento</name>
+          <name lang="ja-JP" >????</name>
+          <name lang="ko-KR" >?? ??</name>
+          <name lang="zh-HK" >???</name>
+          <name lang="zh-TW" >???</name>
+          <name lang="en-SG" >Storage</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Storage.dds</thumbnail>
+	  	  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Furniture2A.png</background>  
+        </header>
+		  <object>4D04B966-ADD44CF9-86FC694E-86FE944F</object>
+		  <object>DE6A31F8-64404FC4-BC75304E-B065A437</object>
+	  </node>
+	  <node type="objects"> <!-- Appliances -->
+		<header>
+			<name lang="en-US" default="true">Appliances</name>
+			<name lang="fr-FR" >Appareils</name>
+			<thumbnail lang="en-US" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_appliances.dds</thumbnail>
+			<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background>  
+		</header>
+		  <object>11837619-BBE14BA4-9511F580-379727E3</object> <!-- Boombox Radio -->
+	  </node>
+	  <node type="objects"> <!-- Ornaments -->
+		<header>
+          <name lang="en-US" default="true">Ornaments</name>
+          <name lang="fr-FR" >Dcoration</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background>  
+		</header>
+		  <object>236CF37F-CE824C2E-A34FDF0C-555398CE</object>
+		  <object>B6043AD3-59DA478B-8C164978-BA3F1188</object>
+		  <object>E820D6D6-DC664691-9539D016-EF046038</object>
+		  <object>566F56D7-87D44548-A2152B0B-FDC7DCD5</object>
+		  <object>A0E8B64E-26D74956-AFCD0D68-AC3F143E</object>
+		  <object>F3919D3A-EAE74F4E-9895E654-37848415</object>
+		  <object>F2143B7A-A9EA41B5-A93FA165-503F59D0</object>
+		  <object>0E15CFA5-3F6C4B1A-9EC98CDD-86044515</object>
+		  <object>321C609E-AC024497-93B5B46D-4EA56219</object>
+		  <object>58E7EA13-D18A4B82-9C2922ED-EE3E14E5</object>
+	  </node>
+	</node>
+	<node type="objects"> <!-- Personal Space -->
+	  <header>
+        <name lang="en-US" default="true">Personal Space</name>
+        <name lang="fr-FR" >Espace personnel</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/estates_scea.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/playground_bg_scea.dds</background> 
+      </header>
+	  <object>A02FA240-BA2E4816-88BAB4F3-A120FD4E</object>
+	</node>
+  </node>
+</commerce_point>

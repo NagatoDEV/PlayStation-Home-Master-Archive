@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header>
+      <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/RankingBG_jp.dds</background>
+    </header>
+    <node type="objects">
+      <header>
+        <name lang="en-GB">総合ランキング</name>
+        <thumbnail lang="en-GB" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/TotalRanking_jp.dds</thumbnail>
+        <name lang="ja-JP" default="true">総合ランキング</name>
+        <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/TotalRanking_jp.dds</thumbnail>
+        <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/RankingBG_jp.dds</background>
+      </header>
+      <object>42A93F08-A44747F5-BE68CF89-F5F753DC</object>
+      <object>EC15349C-76FA42BD-9143E144-CAC95603</object>
+      <object>CBC81E64-19F643DA-A4E0BB27-0FB943F9</object>
+      <object>00000000-00000000-00000002-00000006</object>
+      <object>B35259F2-E0184F93-A74386C5-42584F05</object>
+      <object>602C16CD-A77848CE-8757E586-884FED73</object>
+      <object>E951B160-028942D2-9715869F-FF89C3C7</object>
+      <object>905C8B40-461746DB-9E937654-33BAD7EA</object>
+      <object>77D9E3EF-02A74DA9-BD77FBBD-91407A88</object>
+      <object>69A74FBA-B57F4C85-9DC55CC4-4A638116</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB">男性アバター用</name>
+        <thumbnail lang="en-GB" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+        <name lang="ja-JP" default="true">男性アバター用</name>
+        <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+        <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/RankingBG_jp.dds</background>
+      </header>
+      <object>905C8B40-461746DB-9E937654-33BAD7EA</object>
+      <object>FA72C3D9-73B34D08-A16BA6D5-BFFF7593</object>
+      <object>B2D008DE-B3AE4C6F-B849871F-C1D6CB6B</object>
+      <object>704C4BD4-5B534866-B6938C32-83744C52</object>
+      <object>88D8CFB1-F4284844-9CE955CB-B479B00A</object>
+      <object>9E7296C2-B356400E-B6E80B17-D634960F</object>
+      <object>68C61D37-C4554F64-9DA48C95-D6CEF926</object>
+      <object>931C870C-427F4A7E-AC8A8CC5-681AC189</object>
+      <object>ED72D6EC-C2B34302-B03A84E0-47FDEEA9</object>
+      <object>00000000-00000000-00000000-00040040</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB">女性アバター用</name>
+        <thumbnail lang="en-GB" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+        <name lang="ja-JP" default="true">女性アバター用</name>
+        <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+        <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/RankingBG_jp.dds</background>
+      </header>
+      <object>B35259F2-E0184F93-A74386C5-42584F05</object>
+      <object>602C16CD-A77848CE-8757E586-884FED73</object>
+      <object>E951B160-028942D2-9715869F-FF89C3C7</object>
+      <object>82F68C9C-B001471D-B4F5159F-3449D265</object>
+      <object>1ECF3F4D-EB7A4EA9-86EE6707-8C2F5936</object>
+      <object>7A03FECD-81BA49E3-B95E2C3A-3AB0B159</object>
+      <object>9EAD4977-B99A4897-B321F1C9-81C0B883</object>
+      <object>5D7467C0-DDB54637-AFF318E5-7D393EB3</object>
+      <object>8286DA52-18734330-B354EB28-51DF751F</object>
+      <object>ED060B11-92DB48D4-80B99594-ADC7A28E</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB">家具・インテリア</name>
+        <thumbnail lang="en-GB" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Furniture_jp.dds</thumbnail>
+        <name lang="ja-JP" default="true">家具・インテリア</name>
+        <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Furniture_jp.dds</thumbnail>
+        <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/RankingBG_jp.dds</background>
+      </header>
+      <object>00000000-00000000-00000002-00000006</object>
+      <object>E75175E1-27504E4F-A09E344D-43FDA0F7</object>
+      <object>DEEF6928-1FE14CCD-B0086019-DA0335F1</object>
+      <object>8CD05735-B1164885-94885215-439B1712</object>
+      <object>D8A9C407-FF5A4D17-89B134BE-99CDA176</object>
+      <object>00000000-00000000-00000002-00000019</object>
+      <object>293670BC-99EE4BA3-A601657A-08DE9EE3</object>
+      <object>00000000-00000000-00000002-00000020</object>
+      <object>8BE536DB-69AB4874-AA55D47E-72EF8F26</object>
+      <object>E4AE2A85-8B9F426D-A1D63B61-189FF348</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB">パーソナルスペース</name>
+        <thumbnail lang="en-GB" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Personalspace_jp.dds</thumbnail>
+        <name lang="ja-JP" default="true">パーソナルスペース</name>
+        <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Personalspace_jp.dds</thumbnail>
+        <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/RankingBG_jp.dds</background>
+      </header>
+      <object>42A93F08-A44747F5-BE68CF89-F5F753DC</object>
+      <object>EC15349C-76FA42BD-9143E144-CAC95603</object>
+      <object>CBC81E64-19F643DA-A4E0BB27-0FB943F9</object>
+      <object>77D9E3EF-02A74DA9-BD77FBBD-91407A88</object>
+      <object>69A74FBA-B57F4C85-9DC55CC4-4A638116</object>
+      <object>1095EC78-EE204E80-A07EE02D-D2664E88</object>
+      <object>2519FAC0-18AA4FCB-A1214F6B-65F5F001</object>
+      <object>16609817-77F646D8-878789D7-135196C6</object>
+      <object>2935147C-2D4043C9-87E252B8-B960C809</object>
+      <object>63969967-334F4FD7-A57D0768-DA16D0FC</object>
+    </node>
+  </node>
+</commerce_point>

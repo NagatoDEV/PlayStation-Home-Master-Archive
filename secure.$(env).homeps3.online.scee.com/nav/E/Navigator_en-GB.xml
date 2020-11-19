@@ -1,0 +1,556 @@
+<XML>
+  <CONFIG>
+    <BGTYPE>GRAVPARTICLES</BGTYPE>
+  </CONFIG>
+  <CATEGORY BGCOLOR="#5A2C7B">
+    <TEXT LANG="fr-FR">Explorer</TEXT>
+    <TEXT LANG="de-DE">Erkunden</TEXT>
+    <TEXT LANG="it-IT">Esplora</TEXT>
+    <TEXT LANG="es-ES">Explorar</TEXT>
+    <TEXT>Explore</TEXT>
+    <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/explore_gradient.dds</IMAGE>
+    <ITEM>
+      <TEXT LANG="fr-FR">Espaces PlayStation®Home</TEXT>
+      <TEXT LANG="de-DE">Playstation®Home-Bereiche</TEXT>
+      <TEXT LANG="it-IT">Spazi Playstation®Home</TEXT>
+      <TEXT LANG="es-ES">Espacios Playstation®Home</TEXT>
+      <TEXT>PlayStation®Home Spaces</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/corespaces_gradient.dds</IMAGE>
+      <ITEM>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/square_large_003.png</IMAGE>
+        <DESTINATION>Home Square</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/shoppingcentre001.png</IMAGE>
+        <DESTINATION>Marketplace</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/ShoppingCentre2_Nav06.png</IMAGE>
+        <DESTINATION>VMShoppingCentre_F1EB_5D0C</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Cinema</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Game Space</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Assassin's Creed</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/AssassinsCreed.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>AC2_Lab_C277_EA79</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Audi</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Audi_Icon.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>AudiHub_231D_83AC</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>AudiVrun_152E_D24C</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Audi_Sled_D1B8_AAB8</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Aurora</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Aurora.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>nDreams_Skyhub_4809_6F8E</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Bandai-Namco</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/NBGE_logo.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>SCEE_Tekken6_A74C_61E9</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Double Six</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/BZB_Icon.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>DoubleSix_Lobby_D790_6CE</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Buzz!™</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Buzz.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>Buzz_Lobby_1655_6402</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>CAPCOM</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/SubHeader_Capcom.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>E_CAPCOM_J_RE5_6B9D_6A46</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>E_CAPCOM_SF4_8C4B_C0B</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Dead Nation</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/DN_Nav.png</IMAGE>
+      <ITEM>
+        <DESTINATION>Dead_Nation_2_DD26_B0EE</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Dragon's Green</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/DG_NavTile_02.jpg</IMAGE>
+      <ITEM>
+        <DESTINATION>SCEA_Outso_Arcade_3C7E_FB2B</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Everybody's Golf™</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/EBG.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>mingol_1_e_73F5_6807</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Far Cry 2</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/SubHeader_FarCry2.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>FC2_Trainstation</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>FC2_reubensroom</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>GAME</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/GAME.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>GAME_Moonbase_244E_AA34</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Hudson</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/HUDSON_logo.png</IMAGE>
+      <ITEM>
+        <DESTINATION>SCEE_HUDSON_Hudson_97B7_545F</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>SCEE_HUDSONBomberman_24A6_49CF</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>SCEE_Hudson_Theatre_37E5_CFCB</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>inFamous</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/inFamous.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>SCEE_inFAMOUS_Space_FC21_ABF7</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Irem</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/SubHeader_IREM.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>SCEE_Irem_Square_B2B2_B0E1</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>SCEE_IREM_Island_DE30_5834</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>LittleBigPlanet™</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/lbph.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>SCEE_LBP_Hub_4C7A_664F</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>LocoRoco™</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/LocoRoco.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>SCEJ_LocoRoco_Pub03_6A94_35E8</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Magic: The Gathering</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/magic_nav.png</IMAGE>
+      <ITEM>
+        <DESTINATION>MagicMainHall_65CF_845C</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>MagicGallery_A676_AB8E</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>The Midway</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/large.png</IMAGE>
+      <ITEM>
+        <DESTINATION>SCEA_MMI_Midway_D11D_5547</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>The Midway 2</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/TheMidway2_NavTicket.png</IMAGE>
+      <ITEM>
+        <DESTINATION>Midway2_68D9_45B4</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>minis</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/minis_PS_home_banner.jpg</IMAGE>
+      <ITEM>
+        <DESTINATION>SCEE_HOH_minis_top2_3790_8AF2</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>ModNation™</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/modnation_home_promo_324x152_01.png</IMAGE>
+      <ITEM>
+        <TEXT>Event</TEXT>
+        <DESTINATION>ModN_Event_Backstage_2EE9_AFB3</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>ModNationSpace_F46D_47C</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>MotorStorm®</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Motorstorm.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>SCEE_MS_Carrier_B6D5_23B8</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Novus Prime</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/NovusPrime_NewRecommended_320x176_01.png</IMAGE>
+      <ITEM>
+        <DESTINATION>Hellfire_Nebulon_ED3C_DE23</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>PixelJunk™</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/pixeljunk.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>SCEJ_QGames_Exhibit_19A7_2689</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="fr-FR">Le Playground</TEXT>
+      <TEXT LANG="de-DE">Der Spielplatz</TEXT>
+      <TEXT LANG="it-IT">Il Playground</TEXT>
+      <TEXT LANG="es-ES">Playground</TEXT>
+      <TEXT>The Playground</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Playground_T032.png</IMAGE>
+      <ITEM>
+        <DESTINATION>SCEA_Playground_CC0D_AEA4</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Playstation®Move</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/home-navigation-bar.png</IMAGE>
+      <ITEM>
+        <DESTINATION>SCEE_PSMove_Backstag_2CDD_304D</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>PSN Sphere</TEXT>
+      <IMAGE LANG="fr-FR">http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PSN-Navigator-Image_324x152_FRE.png</IMAGE>
+      <IMAGE LANG="de-DE">http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PSN-Navigator-Image_324x152_GER.png</IMAGE>
+      <IMAGE LANG="it-IT">http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PSN-Navigator-Image_324x152_ITA.png</IMAGE>
+      <IMAGE LANG="es-ES">http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PSN-Navigator-Image_324x152_SPA.png</IMAGE>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PSN-Navigator-Image_324x152_ENG.png</IMAGE>
+      <ITEM>
+        <DESTINATION>PSN_Dead_Nation_D598_E497</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="fr-FR">Le club privé PlayStation®Plus</TEXT>
+      <TEXT LANG="de-DE">Der PlayStation®Plus-Club für Premium-Mitglieder</TEXT>
+      <TEXT LANG="it-IT">Club privato membri PlayStation®Plus</TEXT>
+      <TEXT LANG="es-ES">Club privado de miembros de PlayStation®Plus</TEXT>
+      <TEXT>The PlayStation®Plus Private Members Club</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PSPLUSVIPCLUB_HomeNavigator.PNG</IMAGE>
+      <ITEM>
+        <DESTINATION>PlayStation_Plus_5ABC_6EAA</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Ratchet &amp; Clank™</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Ratchet.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>NSIRCHOME_Hub_2BC9_87FD</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Red Bull</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/RedBull_Icon.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>RedBullHub_17E6_7658</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>redbullairrace</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>SCEE_FlugTag_5D95_A113</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Resistance™</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Resistance.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>Resistance2_Lobby_77F0_7D02</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>SingStar®</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Singstar_Main_image_navigator.jpg</IMAGE>
+      <ITEM>
+        <DESTINATION>SingStar_Main</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>SIREN BLOOD CURSE™</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/SIREN_BC.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>SIREN_Entrance_Space_B6A4_65E4</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>SOCOM™</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Socom.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>SOCOM_TOC_EU_85DD_ECBC</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>SCEE_OPFOR_E558_46F7</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Sodium</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/sodium_group_logo.dds</IMAGE>
+      <ITEM>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Sodium_Vickie.dds</IMAGE>
+        <DESTINATION>Sodium_Demo_6C9B_2C7B</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Star Wars™</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/StarWars_Logo.png</IMAGE>
+      <ITEM>
+        <DESTINATION>Virtuos_Cantina_C7B_4487</DESTINATION>
+        <DESCRIPTION>
+          <BODY LANG="fr-FR">Vous ne trouverez jamais un endroit plus misérable et rempli d'autant de rebuts et de vilénie. Faites attention où vous mettez les pieds dans la cantina Star Wars™ de LucasArts ! Rejoignez les fans de Star Wars™, obtenez de nouveaux objets cool pour votre avatar, et restez au courant des derniers détails des jeux de LucasArts</BODY>
+          <BODY LANG="de-DE">Du wirst nirgends einen erbärmlicheren Haufen Abschaum und Halunken finden. Also, sei vorsichtig, wenn du die "LucasArts Star Wars™ Cantina" betrittst! Triff andere Star Wars™-Fans, erhalte cooles neues Zubehör für deinen Avatar und Informationen über neueste Veröffentlichungen von LucasArts</BODY>
+          <BODY LANG="it-IT">Non troverai mai un alveare di feccia e villania più terribile di questo. Fai attenzione quando entri nella Cantina Star Wars™ della LucasArts! Unisciti agli altri fan di Star Wars™, procurati nuovi fantastici accessori per il tuo avatar e ricevi gli ultimi aggiornamenti sulle novità della LucasArts</BODY>
+          <BODY LANG="es-ES">No podrás encontrar un peor agujero lleno de escoria y maldad. ¡Ten cuidado y guárdate las espaldas en la Cantina de Star Wars™ de LucasArts! Únete a los seguidores de Star Wars™, obtén nuevo equipamiento para tu avatar y ponte al día con los últimos detalles de los lanzamientos de LucasArts</BODY>
+          <BODY>You will never find a more wretched hive of scum and villainy. Be cautious and watch your step in the LucasArts Star Wars™  Cantina! Meet fellow Star Wars™ fans, get cool new gear for your avatar and obtain the latest details on LucasArts releases</BODY>
+        </DESCRIPTION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="fr-FR">Studio</TEXT>
+      <TEXT LANG="de-DE">Studio</TEXT>
+      <TEXT LANG="it-IT">Lo Studio</TEXT>
+      <TEXT LANG="es-ES">El Studio</TEXT>
+      <TEXT>The Studio</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/studio_home.jpg</IMAGE>
+      <ITEM>
+        <DESTINATION>The_Studio_7EA8_A1A3</DESTINATION>
+        <DESCRIPTION>
+          <BODY LANG="fr-FR">Bienvenue au Studio. Explorez et achetez les derniers thèmes du catalogue du Studio ou relaxez-vous et profitez de l'atmosphère.</BODY>
+          <BODY LANG="de-DE">Willkommen im Studio. Betrachten und kaufen Sie die neuesten Themen aus dem Studio-Katalog oder entspannen Sie sich einfach und genießen Sie die Atmosphäre.</BODY>
+          <BODY LANG="it-IT">Benvenuto a "Lo Studio", spulcia e compra i nuovi temi dal catalogo de "Lo Studio" o semplicemente rilassati in quest'atmosfera.</BODY>
+          <BODY LANG="es-ES">Bienvenido al "Studio"; aquí podrás echar un vistazo y comprar los últimos temas del catálogo del "Studio" o simplemente relajarte y disfrutar de la atmósfera.</BODY>
+          <BODY>Welcome to The Studio, peruse and purchase the latest themes from The Studio catalogue or just relax soak up the atmosphere</BODY>
+        </DESCRIPTION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Uncharted™</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Uncharted.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>Uncharted_TheBar</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="fr-FR">Musee WipEout®</TEXT>
+      <TEXT LANG="it-IT">Museo WipEout®</TEXT>
+      <TEXT LANG="es-ES">Museo WipEout®</TEXT>
+      <TEXT>WipEout® Museum</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/WipEout_324x152.png</IMAGE>
+      <ITEM>
+        <DESTINATION>Wipeout_Space_CC7E_1A5</DESTINATION>
+        <DESCRIPTION>
+          <BODY LANG="fr-FR">Observez en direct la préparation de vaisseaux WipEout de première main pour une course de ligue AG-350. Vivez une expérience où tous vos sens sont sollicités et qui invoque l'esprit de la nature innovante et dynamique de l'univers de WipEout.</BODY>
+          <BODY LANG="de-DE">Erleben Sie hautnah WipEout-Schiffe bei ihrer Vorbereitung auf AG-350-Ligarennen und tauchen Sie ein in ein völlig neuartiges Erlebnis für Ihre Sinne. Entdecken Sie den innovativen, dynamischen Geist der WipEout-Welt.</BODY>
+          <BODY LANG="it-IT">Assisti in prima persona alla preparazione delle navi di Wipeout per una gara AG-350 e tuffati in un'esperienza che coinvolge tutti i sensi e che scatena lo spirito innovativo e dinamico del mondo di Wipeout.</BODY>
+          <BODY LANG="es-ES">Conoce de primera mano las naves que se preparan para las carreras de la liga AG-350 y sumérgete en una experiencia para todos los sentidos que invoca el espíritu del carácter innovador y dinámico del mundo de WipEout.</BODY>
+          <BODY>Witness 1st hand WipEout® ships in preparation for an AG-350 league race and immerse yourself in an experience encompassing all the senses which invokes the spirit of the innovative, dynamic character of the WipEout® world.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Xi Museum</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/thumb320x176.png</IMAGE>
+      <ITEM>
+        <DESTINATION>Xi_PostHub_final</DESTINATION>
+      </ITEM>
+    </ITEM>
+  </CATEGORY>
+  <CATEGORY BGCOLOR="#FFDD51">
+    <TEXT LANG="fr-FR">Nouveau et recommandé</TEXT>
+    <TEXT LANG="de-DE">Neu und zu empfehlen</TEXT>
+    <TEXT LANG="it-IT">Nuovi e consigliati</TEXT>
+    <TEXT LANG="es-ES">Nuevo y recomendado</TEXT>
+    <TEXT>New and Recommended</TEXT>
+    <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/featuredspaces_gradient.dds</IMAGE>
+    <ITEM>
+      <TEXT LANG="fr-FR">Notre sélection</TEXT>
+      <TEXT LANG="de-DE">Hervorgehobene Bereiche</TEXT>
+      <TEXT LANG="it-IT">Spazio in evidenza</TEXT>
+      <TEXT LANG="es-ES">Espacios destacados</TEXT>
+      <TEXT>Featured Items</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/shopping_gradient.dds</IMAGE>
+      <DESTINATION>NAV/E/CPEFeatured00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <BODY LANG="fr-FR">Parcourez nos dernières recommandations d'achat ici.</BODY>
+        <BODY LANG="de-DE">Sehen Sie hier Ihre neuesten Einkaufsempfehlungen.</BODY>
+        <BODY LANG="it-IT">Qui puoi dare un'occhiata ai nostri consigli per gli acquisti.</BODY>
+        <BODY LANG="es-ES">Échale un vistazo a nuestras últimas recomendaciones de compra aquí.</BODY>
+        <BODY>Check out our latest shopping recommendations here.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="fr-FR">Espaces PlayStation®Home</TEXT>
+      <TEXT LANG="de-DE">Im Rampenlicht</TEXT>
+      <TEXT LANG="it-IT">Selezione speciale</TEXT>
+      <TEXT LANG="es-ES">Selección especial</TEXT>
+      <TEXT>PlayStation®Home Spaces</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/corespaces_gradient.dds</IMAGE>
+      <ITEM>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/square_large_003.png</IMAGE>
+        <DESTINATION>Home Square</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/shoppingcentre001.png</IMAGE>
+        <DESTINATION>Marketplace</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/ShoppingCentre2_Nav06.png</IMAGE>
+        <DESTINATION>VMShoppingCentre_F1EB_5D0C</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Cinema</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Game Space</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="fr-FR">Studio</TEXT>
+      <TEXT LANG="de-DE">Studio</TEXT>
+      <TEXT LANG="it-IT">Lo Studio</TEXT>
+      <TEXT LANG="es-ES">El Studio</TEXT>
+      <TEXT>The Studio</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/studio_home.jpg</IMAGE>
+      <ITEM>
+        <DESTINATION>The_Studio_7EA8_A1A3</DESTINATION>
+        <DESCRIPTION>
+          <BODY LANG="fr-FR">Bienvenue au Studio. Explorez et achetez les derniers thèmes du catalogue du Studio ou relaxez-vous et profitez de l'atmosphère.</BODY>
+          <BODY LANG="de-DE">Willkommen im Studio. Betrachten und kaufen Sie die neuesten Themen aus dem Studio-Katalog oder entspannen Sie sich einfach und genießen Sie die Atmosphäre.</BODY>
+          <BODY LANG="it-IT">Benvenuto a "Lo Studio", spulcia e compra i nuovi temi dal catalogo de "Lo Studio" o semplicemente rilassati in quest'atmosfera.</BODY>
+          <BODY LANG="es-ES">Bienvenido al "Studio"; aquí podrás echar un vistazo y comprar los últimos temas del catálogo del "Studio" o simplemente relajarte y disfrutar de la atmósfera.</BODY>
+          <BODY>Welcome to The Studio, peruse and purchase the latest themes from The Studio catalogue or just relax soak up the atmosphere</BODY>
+        </DESCRIPTION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Audi_Icon.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>AudiHub_231D_83AC</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Novus Prime</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/NovusPrime_NewRecommended_320x176_01.png</IMAGE>
+      <ITEM>
+        <DESTINATION>Hellfire_Nebulon_ED3C_DE23</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>The Midway 2</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/TheMidway2_NavTicket.png</IMAGE>
+      <ITEM>
+        <DESTINATION>Midway2_68D9_45B4</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Sodium</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/sodium_group_logo.dds</IMAGE>
+      <ITEM>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Sodium_Vickie.dds</IMAGE>
+        <DESTINATION>Sodium_Demo_6C9B_2C7B</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>PSN Sphere</TEXT>
+      <IMAGE LANG="fr-FR">http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PSN-Navigator-Image_324x152_FRE.png</IMAGE>
+      <IMAGE LANG="de-DE">http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PSN-Navigator-Image_324x152_GER.png</IMAGE>
+      <IMAGE LANG="it-IT">http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PSN-Navigator-Image_324x152_ITA.png</IMAGE>
+      <IMAGE LANG="es-ES">http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PSN-Navigator-Image_324x152_SPA.png</IMAGE>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PSN-Navigator-Image_324x152_ENG.png</IMAGE>
+      <ITEM>
+        <DESTINATION>PSN_Dead_Nation_D598_E497</DESTINATION>
+      </ITEM>
+    </ITEM>
+  </CATEGORY>
+  <CATEGORY BGCOLOR="#A91010">
+    <TEXT LANG="fr-FR">Favoris</TEXT>
+    <TEXT LANG="de-DE">Favoriten</TEXT>
+    <TEXT LANG="it-IT">Preferiti</TEXT>
+    <TEXT LANG="es-ES">Favoritos</TEXT>
+    <TEXT>Favourites</TEXT>
+    <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/favourites_gradient.dds</IMAGE>
+    <FUNCTION>Favourites</FUNCTION>
+  </CATEGORY>
+  <CATEGORY BGCOLOR="#f26522">
+    <TEXT LANG="fr-FR">Espace personnel</TEXT>
+    <TEXT LANG="de-DE">Persönliches Apartment</TEXT>
+    <TEXT LANG="it-IT">Spazi personali</TEXT>
+    <TEXT LANG="es-ES">Espacios Personales</TEXT>
+    <TEXT>Personal Spaces</TEXT>
+    <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/personalspaces_gradient.dds</IMAGE>
+    <ITEM>
+      <TEXT LANG="fr-FR">Vos clubs</TEXT>
+      <TEXT LANG="de-DE">Ihre Clubs</TEXT>
+      <TEXT LANG="it-IT">I tuoi club</TEXT>
+      <TEXT LANG="es-ES">Tus clubes</TEXT>
+      <TEXT>Your Clubs</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/Header-Personal1-Inverted.dds</IMAGE>
+      <FUNCTION>YourClubhouses</FUNCTION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="fr-FR">Vos appartements</TEXT>
+      <TEXT LANG="de-DE">Ihre Apartments</TEXT>
+      <TEXT LANG="it-IT">I tuoi appartamenti</TEXT>
+      <TEXT LANG="es-ES">Tus apartamentos</TEXT>
+      <TEXT>Your Apartments</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/Header-Personal1-Inverted.dds</IMAGE>
+      <FUNCTION>YourApartments</FUNCTION>
+    </ITEM>
+  </CATEGORY>
+  <CATEGORY BGCOLOR="#418A34">
+    <TEXT LANG="fr-FR">Amis connectés à Home</TEXT>
+    <TEXT LANG="de-DE">Freunde in Home</TEXT>
+    <TEXT LANG="it-IT">Amici in Home</TEXT>
+    <TEXT LANG="es-ES">Amigos en Home</TEXT>
+    <TEXT>Friends in Home</TEXT>
+    <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/friends_gradient.dds</IMAGE>
+    <FUNCTION>FriendsList</FUNCTION>
+  </CATEGORY>
+</XML>

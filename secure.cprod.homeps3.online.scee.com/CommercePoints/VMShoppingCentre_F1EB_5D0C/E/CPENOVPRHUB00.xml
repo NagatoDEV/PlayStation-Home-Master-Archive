@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+
+  <node>
+      <header>
+        <name lang="en-US" default="true">Nebulon Store</name>
+	          <background>http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+      </header>
+
+	<node type="objects">
+          <header>
+            <name lang="en-US" default="true">Clothing</name>
+            <name lang="en-GB" default="true">Clothing</name>
+            <name lang="en-SG" default="true">Clothing</name>
+            <name lang="fr-FR" default="true">Tenues</name>
+            <name lang="de-DE" default="true">Bekleidung</name>
+            <name lang="it-IT" default="true">Vestiario</name>
+            <name lang="es-ES" default="true">Uniformes</name>
+            <thumbnail lang="en-US" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Clothing.png</thumbnail>
+	          <background>http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+          </header>
+                <!--Nebulon-interweave power suit (Female)-->
+        <object>1331C53D-38D840AF-83EC0B91-BDADB50D</object>
+		<object>9B1ED201-142A4603-9062443E-55FA4682</object>
+		<object>49EFB84F-55794043-B2598610-70A0B5EB</object>
+		<object>31290B53-9BB848EF-A5D57B25-4D043130</object>
+		<object>B4083653-79254E21-9026222D-52A4B575</object>
+		<object>EF399B2B-D7BB496A-8A571022-9AB4FE59</object>
+		<object>ACC7CCC0-24814859-B3483943-CB8CEA0F</object>
+
+		<object>018D087F-FBAC4E16-9C2FDE5B-401E0F5A</object>
+		<object>A5E4BC14-F0EB46E6-BA801547-88E70EFF</object>
+		<object>D42FFDE9-82344CC8-98042983-296880CF</object>
+		<object>8C0CA0AE-B5C1448F-90344B94-2CF2060B</object>
+      </node>
+
+	<node type="objects">
+          <header>
+            <name lang="en-US" default="true">Mission Packs</name>
+            <name lang="en-GB" default="true">Mission Packs</name>
+            <name lang="en-SG" default="true">Mission Packs</name>
+            <name lang="fr-FR" default="true">Pack de missions</name>
+            <name lang="de-DE" default="true">Missions-Pack</name>
+            <name lang="it-IT" default="true">Pacchetto missione</name>
+            <name lang="es-ES" default="true">Misión Paquete</name>
+            <thumbnail lang="en-US" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Games.png</thumbnail>
+	          <background>http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+          </header>
+		<object>AB858A59-35354127-80DDFA3F-E06F9FCC</object>
+	 </node>
+
+	<node type="objects">
+          <header>
+            <name lang="en-US" default="true">Ships</name>
+            <name lang="en-GB" default="true">Ships</name>
+            <name lang="en-SG" default="true">Ships</name>
+            <name lang="fr-FR" default="true">Vaisseaux</name>
+            <name lang="de-DE" default="true">Schiffe</name>
+            <name lang="it-IT" default="true">Navi</name>
+            <name lang="es-ES" default="true">Naves</name>
+            <thumbnail lang="en-US" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Ships.png</thumbnail>
+	          <background>http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+          </header>
+		<object>018D087F-FBAC4E16-9C2FDE5B-401E0F5A</object>
+	        <object>A5E4BC14-F0EB46E6-BA801547-88E70EFF</object>
+	    </node>
+
+	    <node type="objects">
+          <header>
+	<name lang="en-US" default="true">Paint-jobs</name>
+	<name lang="en-GB" default="true">Paint-jobs</name>
+	<name lang="en-SG" default="true">Paint-jobs</name>
+	<name lang="fr-FR" default="true">Peintures de guerre</name>
+	<name lang="de-DE" default="true">Lackierung</name>
+	<name lang="it-IT" default="true">Verniciatura</name>
+	<name lang="es-ES" default="true">Trabajos de pintura</name>
+            <thumbnail lang="en-US" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Paintjobs.png</thumbnail>
+	          <background>http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+          </header>
+		<object>B4083653-79254E21-9026222D-52A4B575</object>
+		<object>EF399B2B-D7BB496A-8A571022-9AB4FE59</object>
+		<object>ACC7CCC0-24814859-B3483943-CB8CEA0F</object>
+      </node>
+
+	    <node type="objects">
+          <header>
+            <name lang="en-US" default="true">Weapons</name>
+            <name lang="en-GB" default="true">Weapons</name>
+            <name lang="en-SG" default="true">Weapons</name>
+            <name lang="fr-FR" default="true">Armes</name>
+            <name lang="de-DE" default="true">Bewaffnung</name>
+            <name lang="it-IT" default="true">Armi</name>
+            <name lang="es-ES" default="true">Armas</name>
+            <thumbnail lang="en-US" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Weapons.png</thumbnail>
+	          <background>http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+          </header>
+		<object>9B1ED201-142A4603-9062443E-55FA4682</object>
+		<object>49EFB84F-55794043-B2598610-70A0B5EB</object>
+	        <object>FC770FD0-26C34625-9ACC4C65-0C6EC041</object>
+	        <object>CA02D341-8E4D46CC-B5CD7E41-6E424964</object>
+      </node>
+
+	    <node type="objects">
+          <header>
+            <name lang="en-US" default="true">Boosters</name>
+            <name lang="en-GB" default="true">Boosters</name>
+            <name lang="en-SG" default="true">Boosters</name>
+            <name lang="fr-FR" default="true">Améliorateurs</name>
+            <name lang="de-DE" default="true">Booster</name>
+            <name lang="it-IT" default="true">Potenziatori</name>
+            <name lang="es-ES" default="true">Propulsores</name>
+            <thumbnail lang="en-US" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Boosters.png</thumbnail>
+	          <background>http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+          </header>
+	        <object>D06FEACD-1C3842C2-B09E259D-7FD6DEF0</object>
+	        <object>F7CCF365-225F4CC8-BF7D3D33-CF15778F</object>
+      </node>
+
+    <node type="objects">
+      <header>
+        <name lang="en-US" default="true">Companions</name>
+        <name lang="en-GB" default="true">Companions</name>
+        <name lang="en-SG" default="true">Companions</name>
+        <name lang="fr-FR" default="true">Compagnons</name>
+        <name lang="de-DE" default="true">Begleiter</name>
+        <name lang="it-IT" default="true">Compagni</name>
+        <name lang="es-ES" default="true">Compañeros</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/NP_Companions.png</thumbnail>
+	          <background>http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+      </header>
+	<object>40D59FA8-37F6484F-B66B9B12-839B1C3F</object>
+	<object>D895E073-760A4BB6-A837FEAA-8AC644E6</object>
+      <object>1F282331-D38C4AE8-B7343800-FF12493D</object>
+	<object>103CFB40-37484FC6-B81A6DE9-9B3024EF</object>
+	<object>FF176DED-34084CC4-957D0CC5-28F94ACE</object>
+    </node>
+
+	<node type="objects">
+      <header>
+        <name lang="en-US" default="true">Personal Spaces</name>
+        <name lang="en-GB" default="true">Personal Spaces</name>
+        <name lang="en-SG" default="true">Personal Spaces</name>
+        <name lang="fr-FR" default="true">Espaces personnels</name>
+        <name lang="de-DE" default="true">Privatgemächer</name>
+        <name lang="it-IT" default="true">Spazi personali</name>
+        <name lang="es-ES" default="true">Espacios personales</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Apartments.png</thumbnail>
+	          <background>http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+      </header>
+	<object>57C7E33B-09E8429D-AEE20B44-2BB36885</object>
+
+	<object>70CA65C3-9F0F4C13-99637E02-BB05586B</object>
+	<object>8DC0CE0B-DBD74AA2-BC8E1557-0572B80F</object>
+
+	<object>F3FD800E-97754786-8562E216-07D48624</object>
+	<object>98D1FE12-1E7148CF-A938F071-363AE57D</object>
+	<object>2BDF790E-264B46C3-A593C06C-14E8CC47</object>
+	<object>DA19EDDE-029949CE-8485A68F-8773909E</object>
+	<object>BAEBBCFE-2CE74FAF-9983F736-05829577</object>
+	<object>B688A562-B6F04D4A-A6DBC313-AC48F69F</object>
+	<object>685F4F0C-CA8E412F-B75D904D-414D40C6</object>
+    </node>
+
+
+  </node>
+
+</commerce_point>

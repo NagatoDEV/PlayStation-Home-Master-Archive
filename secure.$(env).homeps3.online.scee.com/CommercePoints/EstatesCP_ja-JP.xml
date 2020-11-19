@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header>
+      <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/EstatesBG_jp.dds</background>
+    </header>
+    <node>
+      <header>
+        <name lang="en-GB">NEW</name>
+        <thumbnail lang="en-GB" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/New_jp.dds</thumbnail>
+        <name lang="ja-JP" default="true">NEW</name>
+        <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/New_jp.dds</thumbnail>
+        <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/NewItemCP_ja-JP.dds</background>
+      </header>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">Ubisoft</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Ubisoft_jp.png</thumbnail>
+          <name lang="ja-JP" default="true">Ubisoft</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Ubisoft_jp.png</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/NewItemCP_ja-JP.dds</background>
+        </header>
+        <object>40BEF872-075A45E8-A3133BC4-0885EFFF</object>
+      </node>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB">2010年ランキング TOP10 [1月1日～12月8日]</name>
+        <thumbnail lang="en-GB" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Top10_jp.dds</thumbnail>
+        <name lang="ja-JP" default="true">2010年ランキング TOP10 [1月1日～12月8日]</name>
+        <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Top10_jp.dds</thumbnail>
+        <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/RankingBG_jp.dds</background>
+      </header>
+      <object>42A93F08-A44747F5-BE68CF89-F5F753DC</object>
+      <object>EC15349C-76FA42BD-9143E144-CAC95603</object>
+      <object>CBC81E64-19F643DA-A4E0BB27-0FB943F9</object>
+      <object>77D9E3EF-02A74DA9-BD77FBBD-91407A88</object>
+      <object>69A74FBA-B57F4C85-9DC55CC4-4A638116</object>
+      <object>1095EC78-EE204E80-A07EE02D-D2664E88</object>
+      <object>2519FAC0-18AA4FCB-A1214F6B-65F5F001</object>
+      <object>16609817-77F646D8-878789D7-135196C6</object>
+      <object>2935147C-2D4043C9-87E252B8-B960C809</object>
+      <object>63969967-334F4FD7-A57D0768-DA16D0FC</object>
+    </node>
+    <node>
+      <header>
+        <name lang="en-GB">パーソナルスペース</name>
+        <thumbnail lang="en-GB" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Personalspace_jp.dds</thumbnail>
+        <name lang="ja-JP" default="true">パーソナルスペース</name>
+        <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Personalspace_jp.dds</thumbnail>
+        <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/EstatesBG_jp.dds</background>
+      </header>
+      <node type="objects">
+        <header>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/home.png</thumbnail>
+          <name>PlayStation®Home</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/home.png</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/EstatesBG_jp.dds</background>
+        </header>
+        <object>16609817-77F646D8-878789D7-135196C6</object>
+        <object>CBC81E64-19F643DA-A4E0BB27-0FB943F9</object>
+        <object>77D9E3EF-02A74DA9-BD77FBBD-91407A88</object>
+        <object>2519FAC0-18AA4FCB-A1214F6B-65F5F001</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">nDreams</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/nDreams_jp.png</thumbnail>
+          <name lang="ja-JP" default="true">nDreams</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/nDreams_jp.png</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/EstatesBG_jp.dds</background>
+        </header>
+        <object>727DCA6F-16284020-B63B3206-3DD44797</object>
+        <object>F1211BB3-F84F4A38-8883E48B-534277EC</object>
+      </node>
+      <node type="objects">
+        <header>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/killzone_TM_jp.png</thumbnail>
+          <name>KILLZONE®2</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/killzone_TM_jp.png</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/EstatesBG_jp.dds</background>
+        </header>
+        <object>784FF69C-35D94E19-A8B4C8A7-9860E27C</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">週刊トロ・ステーション™</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/wtoro_jp.png</thumbnail>
+          <name lang="ja-JP" default="true">週刊トロ・ステーション™</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/wtoro_jp.png</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/EstatesBG_jp.dds</background>
+        </header>
+        <object>1095EC78-EE204E80-A07EE02D-D2664E88</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">ハドソン</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Hudson_jp.png</thumbnail>
+          <name lang="ja-JP" default="true">ハドソン</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Hudson_jp.png</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/EstatesBG_jp.dds</background>
+        </header>
+        <object>69A74FBA-B57F4C85-9DC55CC4-4A638116</object>
+      </node>
+      <node type="objects">
+        <header>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/ff13_title_jp.dds</thumbnail>
+          <name>FINAL FANTASY XIII</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/ff13_title_jp.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/EstatesBG_jp.dds</background>
+        </header>
+        <object>42A93F08-A44747F5-BE68CF89-F5F753DC</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">MAG™</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/MAG_jp.dds</thumbnail>
+          <name lang="ja-JP" default="true">MAG™</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/MAG_jp.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/EstatesBG_jp.dds</background>
+        </header>
+        <object>9D6282BB-46224ED8-BA541CF4-D2BEB11A</object>
+        <object>E9D19674-CADD4C83-A2FC440B-0AAA1528</object>
+        <object>73C463E7-CF9D4F10-8CE45CD6-5B0B6876</object>
+      </node>
+      <node type="objects">
+        <header>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/MS_WMC_jp.png</thumbnail>
+          <name>MotorStorm®～モーターストーム～</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/MS_WMC_jp.png</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/EstatesBG_jp.dds</background>
+        </header>
+        <object>00C4E166-D83A48EC-9A89767E-5F1F1410</object>
+        <object>55DAF48F-0E0F4DC8-85FFFDD1-C4B840B0</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">Ubisoft</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Ubisoft_jp.png</thumbnail>
+          <name lang="ja-JP" default="true">Ubisoft</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Ubisoft_jp.png</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/EstatesBG_jp.dds</background>
+        </header>
+        <object>40BEF872-075A45E8-A3133BC4-0885EFFF</object>
+      </node>
+      <node type="objects">
+        <header>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/rcfuture2_store_jp.png</thumbnail>
+          <name>ラチェット＆クランク</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/rcfuture2_store_jp.png</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/EstatesBG_jp.dds</background>
+        </header>
+        <object>B4D67F63-0CCE41A9-992A1E66-8083A5EF</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">リトルビッグプラネット™</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/lbp_jp.dds</thumbnail>
+          <name lang="ja-JP" default="true">リトルビッグプラネット™</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/lbp_jp.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/EstatesBG_jp.dds</background>
+        </header>
+        <object>79B5B7FA-84CE4D07-9D5E93A4-4AE7466B</object>
+      </node>
+      <node>
+        <header>
+          <name lang="en-GB">Loot</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Loot_Store_Node_jp.png</thumbnail>
+          <name lang="ja-JP" default="true">Loot</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Loot_Store_Node_jp.png</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/EstatesBG_jp.dds</background>
+        </header>
+        <node type="objects">
+          <header>
+            <name lang="en-GB">ゴーストバスターズ™</name>
+            <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Ghostbusters_jp.png</thumbnail>
+            <name lang="ja-JP" default="true">ゴーストバスターズ™</name>
+            <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Ghostbusters_jp.png</thumbnail>
+            <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/EstatesBG_jp.dds</background>
+          </header>
+          <object>2935147C-2D4043C9-87E252B8-B960C809</object>
+        </node>
+      </node>
+      <node type="objects">
+        <header>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/locoroco_jp.png</thumbnail>
+          <name>LocoRoco®</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/locoroco_jp.png</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/EstatesBG_jp.dds</background>
+        </header>
+        <object>EC15349C-76FA42BD-9143E144-CAC95603</object>
+      </node>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB">クラブ</name>
+        <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/ClubHouseSlotThumbnail.png</thumbnail>
+        <name lang="ja-JP" default="true">クラブ</name>
+        <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/ClubHouseSlotThumbnail.png</thumbnail>
+        <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/EstatesBG_jp.dds</background>
+      </header>
+      <object>63969967-334F4FD7-A57D0768-DA16D0FC</object>
+    </node>
+  </node>
+</commerce_point>

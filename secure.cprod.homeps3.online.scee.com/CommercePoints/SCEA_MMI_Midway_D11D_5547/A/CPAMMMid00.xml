@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+      <header>
+        <name lang="en-US" default="true">The Midway Ticket Booth</name>
+		<name lang="fr-FR">Nouveau</name>
+      <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/midwaya.png</background> 
+	  </header>	
+	<node type="objects"> <!-- Tickets -->
+      <header>
+        <name lang="en-US" default="true">The Midway Ticket Booth</name>
+		<name lang="fr-FR">Nouveau</name>
+        <thumbnail lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/midway_scea.png</thumbnail>
+        <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/midwaya.png</background> 
+	  </header>	
+		<object>6AB43A15-E0F54C63-91D6D0F5-A958702F</object>
+		<object>7DC7753D-B95B4A99-918B8AEE-E12C2A09</object>
+		<object>42ABEBA2-33EB4755-8EF9514E-FAE075BA</object>
+    </node>
+		<node> <!-- Weird Wear -->
+          <header>
+            <name lang="en-GB" default="true">Weird Wear</name>
+            <name lang="fr-FR">Weird Wear</name>
+		    <name lang="en-US">Weird Wear</name>
+            <thumbnail lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/weirdwear_scea.png</thumbnail>
+		    <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/weirdwear_bg_scea.dds</background> 
+          </header>
+	    <node type="objects"> <!-- Male -->
+          <header>
+            <name lang="en-GB" default="true">Male</name>
+            <name lang="fr-FR">Homme</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+		    <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/weirdwear_bg_scea.dds</background> 
+          </header>
+			<object>48934C7F-062E4800-BC905090-723D4669</object> <!-- 1/11/12 -->		  
+			<object>7C0804C7-C1274959-BC8A5204-809DC700</object> <!-- 12/22/11 -->
+			<object>FF11E857-189D4FD9-B26C3A13-0EB66975</object> <!-- 12/22/11 -->
+			<object>7A30B78B-4F964DB2-AEBA4ECB-55A610B1</object> <!-- 12/22/11 -->
+			<object>8045A6CA-6B9140D4-A31F043E-180C2BCD</object> <!-- 12/22/11 -->
+
+			<object>52423B74-531744A0-904963AE-D7162CA4</object> <!-- 12/8/11 -->
+			<object>294C2A80-13ED45C2-87365C21-9497BCE9</object> <!-- 12/8/11 -->
+			<object>4744DCD5-1CC1428F-A4A5821D-1A682EDF</object> <!-- 12/8/11 -->
+
+		    <object>259C4704-EE28484E-BF47A0E5-02EABDAC</object> <!-- 11/10/2011 -->
+		    <object>214E9BBC-D747490F-8833FB81-8E9D55E2</object> <!-- 11/10/2011 -->
+		    <object>400B7055-DB9147DE-88C854F6-3EB3530D</object> <!-- 11/10/2011 -->
+		    <object>80D67556-D66E4CAC-B44B084E-676D280B</object> <!-- 11/10/2011 -->
+		    <object>8BCC758C-5E4A4180-ACAE94FF-D317B205</object> <!-- 11/10/2011 -->
+		    <object>76FD0C4A-5D3A4D54-8733AE6B-175E6FF1</object> <!-- 11/10/2011 -->
+		    <object>627F5B9D-D0424F58-B1C68B51-4DAF837C</object> <!-- 11/10/2011 -->
+		    <object>87779634-032A4744-BBDCABF7-769235D1</object> <!-- 11/10/2011 -->	  
+		    <object>6EECD91F-3A2B44F8-B65D738D-30B60D09</object> <!-- 11/10/2011 -->	  
+		    <object>19FD5F6D-43B34EF2-A66CF3DE-091B7718</object> <!-- 11/10/2011 -->		  
+			<object>D428581E-A7C44B03-94BCD74E-519F8C11</object> <!-- 10/20/11 -->
+			<object>3081B6B5-B31E4C32-8CD6DCB4-C4357150</object> <!-- 10/20/11 -->
+			<object>FB79B8C0-F80B4F87-A7BD436D-E2CF24D3</object> <!-- 10/20/11 -->
+			<object>B778D464-BEFE4798-80864B28-55BD866C</object> <!-- 10/20/11 -->
+		    <object>5D327669-51B7485F-A1EE0BAC-0BD72D45</object> <!-- 10/6/2011 -->		  
+		    <object>FF5F1BEE-0CB2459C-ABC53C88-16B5A656</object> <!-- 10/6/2011 -->	
+		    <object>87EFD0FD-67D94EA5-80527EBD-DC4307B8</object> <!-- 10/6/2011 -->
+		    <object>CD8501E7-A34E4D4B-B469E65F-6598227C</object> <!-- 10/6/2011 -->
+		    <object>74341CC1-2EE64C36-B8F24E31-F92DEE43</object> <!-- 10/6/2011 -->
+		    <object>5E91E816-4C0A4E60-B1496EAD-BDA7A30C</object> <!-- 10/6/2011 -->				
+		    <object>EA40E61E-E75F4FD7-BA1C02D1-0116EEF4</object> <!-- 10/6/2011 -->
+			<object>7AD7A0F4-ACD84769-AEA60C52-79BC9F6C</object> <!-- 9/15/11 -->
+			<object>A26A9F99-3FD34584-84568FAB-2AC5B577</object> <!-- 9/15/11 -->
+			<object>59B403ED-0DD24119-81126AB9-3C7E5221</object> <!-- 9/15/11 -->
+			<object>3FBFBE28-F506452B-B9345289-6CE3F43A</object> <!-- 9/15/11 -->
+			<object>BEF6952C-8F63491D-B32FA283-75155982</object> <!-- 9/15/11 -->
+
+	    </node>
+	    <node type="objects"> <!-- Female -->
+          <header>
+            <name lang="en-GB" default="true">Female</name>
+            <name lang="fr-FR">Femme</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+		    <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/weirdwear_bg_scea.dds</background> 
+          </header>
+			<object>7C0804C7-C1274959-BC8A5204-809DC700</object> <!-- 12/22/11 -->
+			<object>0E984B3C-ED764132-BDFBAD6D-774B551E</object> <!-- 12/22/11 -->
+			<object>230C614B-45274CC1-A04D072E-7E54EE21</object> <!-- 12/22/11 -->
+
+		    <object>52423B74-531744A0-904963AE-D7162CA4</object> <!-- 12/8/11 -->
+			<object>35725966-A4FC411E-A426DE15-D5B4187C</object> <!-- 12/8/11 -->
+			<object>53F1664B-1E0E4E12-8A352234-2D8E3FF8</object> <!-- 12/8/11 -->
+			<object>1B0A3D27-B7B24193-BCB7B44D-BA598582</object> <!-- 12/8/11 -->
+			<object>3C7B6536-A88046CC-8CC4AFE4-1176757E</object> <!-- 12/8/11 -->
+			<object>F102C050-B24D4B29-83D9C0DF-7D74B4DD</object> <!-- 12/8/11 -->
+			<object>3FF145D6-E2204858-9559119B-945DB70F</object> <!-- 12/8/11 -->
+
+		    <object>259C4704-EE28484E-BF47A0E5-02EABDAC</object> <!-- 11/10/2011 -->		  
+		    <object>6DA37A2F-F1614755-A456B092-E8D68C03</object> <!-- 11/10/2011 -->
+		    <object>7BDBE31F-164C4DA7-8B860B8D-6786B151</object> <!-- 11/10/2011 -->
+		    <object>8EE46DB8-1A1040C9-8C220987-9ABDD0DA</object> <!-- 11/10/2011 -->
+		    <object>A0EFE67B-911C4816-B021A0DC-E5D40DA2</object> <!-- 11/10/2011 -->
+		    <object>F4FC2577-CC0A4A6E-9F54908A-145E0DA6</object> <!-- 11/10/2011 -->
+		    <object>8A09D260-56B54070-A0556EA8-B3240AD9</object> <!-- 11/10/2011 -->
+		    <object>E8060A20-F7214153-A62FF957-1C5E8631</object> <!-- 11/10/2011 -->
+		    <object>6EECD91F-3A2B44F8-B65D738D-30B60D09</object> <!-- 11/10/2011 -->		  
+		    <object>DB77EB6A-1368412C-B3B67792-A0D9C741</object> <!-- 11/10/2011 -->			  
+		    <object>D428581E-A7C44B03-94BCD74E-519F8C11</object> <!-- 10/20/11 -->
+			<object>94393E07-BFF14D52-A9661381-EB87ABD4</object> <!-- 10/20/11 -->
+			<object>2E55BBCD-3AA2414C-8406C5B5-65DA2F67</object> <!-- 10/20/11 -->
+			<object>71EDA4CA-9722478E-97B1920C-7B7FE9C3</object> <!-- 10/20/11 -->
+			<object>5946805A-4AC6498D-B0274F3D-2252B166</object> <!-- 10/20/11 -->
+			<object>5B31CCB9-78FF4D88-8A07258A-D056A44B</object> <!-- 10/20/11 -->
+			<object>9C940943-ECC94E86-A226414F-D9C0BEBB</object> <!-- 10/20/11 -->
+			<object>7B296465-37274A4C-A0803BA2-B82185F5</object> <!-- 10/20/11 -->
+			<object>1C7251C4-7D9C47C0-879BFC0A-3113F994</object> <!-- 10/20/11 -->
+			<object>6D24E7EC-2E934D7D-98A7FE7B-20B1C622</object> <!-- 10/20/11 -->
+			<object>2A88BD41-342A4570-B510E2E0-1867A5BF</object> <!-- 10/20/11 -->
+
+		    <object>41EA6AEB-612C4375-A08B5371-76B02F34</object> <!-- 10/6/2011 -->
+		    <object>FD7AE598-74C44F2D-993A9078-F366CC7F</object> <!-- 10/6/2011 -->	
+		    <object>0B23B699-300C4C23-B89E3AFB-D86AF340</object> <!-- 10/6/2011 -->
+		    <object>D63B1606-A5EE41DA-82CB9811-79205937</object> <!-- 10/6/2011 -->
+		    <object>FFFBA9FC-8D184BA9-96AC8544-BDA641DD</object> <!-- 10/6/2011 -->				
+		    <object>C248978B-D8AA4F6A-AF7CC26E-511061BD</object> <!-- 10/6/2011 -->
+		    <object>ED23FEB0-58F042D9-95107A05-66322DD2</object> <!-- 10/6/2011 -->			
+			<object>7AD7A0F4-ACD84769-AEA60C52-79BC9F6C</object> <!-- 9/15/11 -->
+			<object>A26A9F99-3FD34584-84568FAB-2AC5B577</object> <!-- 9/15/11 -->
+			<object>B37F642E-C00E4930-B1EA59D0-78870FE5</object> <!-- 9/15/11 -->
+			<object>1657F1D2-7439462F-8AC25882-FB3CD01D</object> <!-- 9/15/11 -->
+			<object>69930849-F2C24315-A31AB2AA-4B8BDFE5</object> <!-- 9/15/11 -->
+
+	    </node>	
+	<node type="objects"> <!-- Furniture -->
+	  <header>
+        <name lang="en-US" default="true">Furniture</name>
+		<name lang="fr-FR">Meubles</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/furniture_scea.dds</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/weirdwear_bg_scea.dds</background>  
+      </header>
+		  <object>71AD8189-D60846B2-B9DA5E20-AC296D42</object> <!-- 1/11/2012 -->	  
+		  <object>A8914F4D-23C04BBB-943A774B-54BDFC27</object> <!-- 1/11/2012 -->
+		  <object>76B24E35-333F4DDB-B60C5772-4CB32974</object> <!-- 1/11/2012 -->
+		  <object>D3AD4DAA-215B4F1D-A8C4528D-54A37654</object> <!-- 1/11/2012 -->
+		  <object>81A4BB1D-B1884777-8CC4B173-83CEAE8D</object> <!-- 1/11/2012 -->
+		  <object>393F54F0-BB04416E-BD9B90AD-2EDF6796</object> <!-- 1/11/2012 -->
+
+
+ </node>
+ 			<node type="objects"> <!-- Companions -->
+				<header>
+					<name lang="en-GB" default="true">Companions</name>
+					<name lang="fr-FR" >Compagne</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/companions.dds</thumbnail>
+			        <background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/weirdwear_bg_scea.dds</background>
+				</header>
+		  <object>6683FB84-E8C14C99-AC792B86-90615918</object> <!-- 1/11/2012 -->				
+			</node>
+  		
+		</node>
+	<node> <!-- Mass Media -->
+		<header>
+          <name lang="en-GB" default="true">Mass Media Collection</name>
+          <name lang="fr-FR">Mass Media Collection</name>
+		  <name lang="en-US">Mass Media Collection</name>
+          <thumbnail lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/massmedia_scea.png</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/midwaya.png</background> 
+		</header>
+	    <node type="objects"> <!-- Male -->
+          <header>
+            <name lang="en-GB" default="true">Male</name>
+            <name lang="fr-FR">Homme</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+		    <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/midwaya.png</background> 
+          </header>
+		    <object>73A9289F-165B4AAF-BDBCDB20-2B85E0A8</object>
+		    <object>166923D3-299F4DBC-80DA3721-4AE9A769</object>
+		    <object>D8A8A308-147C42D8-AC73E596-C8A1AAB2</object>
+		    <object>70779F45-4246420F-971E55A2-4290C19A</object>
+		    <object>6E317D20-80E74FCC-9701B86F-111222DB</object>
+		    <object>E28F6DC6-90284A65-9EFC37A1-3DEB6587</object>
+		    <object>73F65E91-FA5345F4-9CE98682-079B5E32</object>
+		    <object>FDFE0252-4B1F40EE-A8D80124-E494BCC8</object>
+		    <object>A028101C-D2294AD3-A7F8C296-97038688</object>
+		    <object>3DC1B83E-C9AE4CA7-B2A494C9-9BE7FAE8</object>
+		    <object>E317716C-89C04BEC-8162232E-6ED31FAD</object>
+	    </node>
+	    <node type="objects"> <!-- Female -->
+          <header>
+            <name lang="en-GB" default="true">Female</name>
+            <name lang="fr-FR">Femme</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+		    <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/midwaya.png</background> 
+          </header>
+
+		  
+		    <object>845DDE76-A6F74D9C-B31FCC94-D6FC7768</object>
+		    <object>6BEC0059-90EE404B-9973EAE8-5D666250</object>
+		    <object>3F6CD0A6-AE634DE8-8AEB3C4C-197AD3E9</object>
+		    <object>5E84DDE3-CD684EBE-A2BCD443-9BD2374A</object>
+		    <object>07385AF3-701844ED-B56FAE79-CE8C99E5</object>
+		    <object>8FE0C6D3-84C24D9B-9067FCE5-C612A4FE</object>
+		    <object>2CFDBD42-CFEE4BE6-AA1B4AF2-2ED5B82B</object>
+		    <object>313EDBB6-E7FC4434-B76DC37A-4A355852</object>
+		    <object>CB956AC2-392B4DB2-90D4E6E8-8CFE0235</object>
+		    <object>8F3DBDD9-17574549-A2C70F3F-ED4635D3</object>
+	    </node>		
+
+		<node type="objects"> <!-- Personal Space -->
+          <header>
+            <name lang="en-US" default="true">Personal Space</name>
+            <name lang="fr-FR" >Espace personnel</name>
+            <thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/estates_scea.dds</thumbnail>
+		    <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/midwaya.png</background> 
+          </header>
+		    <!--NeptuneSuite-->
+		    <object>E4EEA356-28704E7E-970B9191-CB4B1DC5</object>
+        </node>
+
+	<node> <!-- Furniture -->
+	  <header>
+        <name lang="en-US" default="true">Furniture</name>
+		<name lang="fr-FR">Meubles</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/furniture_scea.dds</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/midwaya.png</background>  
+      </header>
+		<node type="objects"> <!-- Value Packs -->
+		  <header>
+			<name lang="en-GB" default="true">Value Packs</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/value_packs.dds</thumbnail>
+			<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/midwaya.png</background> 
+		  </header>
+
+
+			<object>0D154434-38854E42-925F8A71-6F6C301B</object> <!-- 9/8/11 -->
+		    <object>BDFDC3AF-31ED4155-8804E860-9125B2A7</object> <!-- 7/7/11 -->
+			<object>38521F82-EF724E68-9BCE99AF-3DF51237</object> <!-- 7/7/11 -->
+			<object>94D4F4CA-29DF4439-BD391130-FE23864B</object> <!-- 7/7/11 -->
+			<object>B4D3F614-5F26436C-814ECB21-7E6805C0</object> <!-- 7/7/11 -->
+			<object>33E5A30D-64EF4EB4-BE4A5F47-53A8856D</object> <!-- 8/12/10 -->
+			<object>1BF3290C-E58047BF-95BA8CE5-4A252B13</object> <!-- 8/12/10 -->
+			<object>0B34EE6D-1C7D4DE4-A351B8B3-C8579D20</object> <!-- 8/12/10 -->
+			<object>BDC345A5-A75E4029-8D1EE48C-1868EEC7</object> <!-- 8/12/10 -->
+			<object>A77E7461-AF684C59-BEBEE39E-B9ACF121</object> <!-- 8/12/10 -->
+
+			<object>78A7AFD7-396244B6-877F880E-B5D354BE</object>
+			<!-- <object>166B3D42-72D943B6-88607EAF-521A24C4</object> slashed out -->
+			<object>7E29E1B6-288743ED-9209B245-088D7D38</object>
+			<object>DD536A9E-BF644B61-80F72D41-883132D9</object>
+			<object>F8771C06-C3D942E0-9FE963B4-44FD2B62</object>
+			<object>1A42B1C7-BF264697-AA179D57-A7F0B7F9</object>
+			<object>70E9CB94-F41B4349-8D0F7CAC-BB4323F7</object>
+			<object>3C7A09D7-FD46413A-A0E76FAF-52813C61</object>
+		</node>
+        <node type="objects"> <!-- Wall Hangings -->
+          <header>
+            <name lang="en-US" default="true">Wall Hangings</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/wallhangings.dds</thumbnail>
+	    	<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/midwaya.png</background>  
+          </header>
+			<object>98C80EB0-0D804D0C-8DAAAB81-FC4D646F</object> <!-- 8/12/10 -->
+			<object>D3859473-CA384C55-A173E45F-7E6B2AA3</object> <!-- 8/12/10 -->
+			<object>426EDCF0-EA7E4BFB-866F0D98-3483CD7C</object> <!-- 8/12/10 -->
+
+	    	<!--MassMedia_1112_picturestart-->
+	    	<object>54FCCE28-3C734728-A743A90A-ECF8444E</object>
+	    	<object>7F648902-542148B1-A3F3D06E-BF52829B</object>
+	    	<object>80EE5852-1585487A-89EAF018-764B804B</object>
+	    	<object>EE5804B4-70E04EC8-AE8D5CF4-667FECCD</object>
+	    	<object>3F68CAF0-76F64425-812D3AD9-72661BA7</object>
+	    	<!--MassMedia_1105-->
+	    	<object>D93DA71D-B1DE43E3-BB998F51-AE80CD31</object>
+	    	<object>44442AF6-0D5C4940-91335DF3-8F24DB6B</object>
+	    	<object>D85895AA-431C4105-B8D5AE4C-6421C52E</object>
+	    	<object>5E333411-7F9A4F33-A7032303-FBEB1E0C</object>
+	    	<object>BFE0BBF2-10F64053-922205DD-437A66EE</object>
+	    	<!--MassMedia_1029-->
+	    	<object>B26EAC04-88F24A95-9589B38C-4A79B15A</object>
+	    	<object>E3B8BF75-B4A24EF4-B832D6BF-FE044BBC</object>
+	    	<object>F869C71C-2D844D37-8346FF96-7E1D7410</object>
+	    	<object>8B55B978-82FE49E0-B14085BA-592C394E</object>
+	    	<object>6416B421-88BD4E7F-AFDCBBBA-456B4DB1</object>
+	    	<!--MassMedia_1022-->
+	    	<object>F62158D3-29EA42CE-8DEB6F79-6FCF8562</object>
+	    	<object>3D9D5F56-F99B4BF2-A2785B80-720BD6A3</object>
+	    	<object>61E8E948-7B084BD0-A6187F9F-6C174610</object>
+	    	<object>FB754BF5-970549AD-823424F6-4110FDA7</object>
+	    	<object>1DCD3BE2-3D0F4770-81770833-1217E417</object>
+	        <!--MassMedia_1015-->
+	    	<object>DEEB01B9-AECB40BC-8FC9FDF8-81821EA2</object>
+	    	<object>7DEE4350-279349AD-A76FCE6A-7101AC12</object>
+	    	<object>C01DDD7F-A84342B1-8BC5E103-A068EC58</object>
+	    	<object>2A2C6966-56454A24-A6835003-5D230878</object>
+	    	<object>9FBD77ED-9B5C4617-9FB7A651-DCEF31CC</object>
+	    	<object>FCD8DFD3-B15E410F-B8CF236E-211E7509</object>
+	    	<object>75DBBF19-C1194E1B-BF00FB73-281964FD</object>
+	    	<object>21718B9A-27124B45-ACE09F95-B73F02EC</object>
+	    	<object>12F2A813-8F424351-9F32C698-11C08251</object>
+	    	<object>B7DFDD68-751244C0-BCC086E9-2214EAAB</object>
+	    	<object>85A5B019-7EE84ADC-8117EC03-EC913543</object>
+	    	<object>55DD4C12-4C7344F3-B37F27BD-16798B65</object>
+	    	<object>2C75E523-9D9D4F87-A61FC39A-C5C12A97</object>
+			
+	    	<object>6913EF15-7CAF4B1A-8AFC4B61-58D085C5</object>
+	    	<object>4B0A4377-DEA14B7C-A09480F4-58460267</object>
+	    </node>		
+		<node type="objects"> <!-- Chairs -->
+		  <header>
+			<name lang="en-US" default="true">Chairs</name>
+			<name lang="fr-FR" >Sièges</name>
+			<thumbnail lang="en-US" default="true" useOsdColour="true"> http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Category_Chairs.dds</thumbnail>
+			<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/midwaya.png</background>  
+		  </header>
+			<!-- <object>594D4F16-E2E34A65-856E7A6C-8C58DC9B</object> slashed out -->
+			<object>3486C2AD-15F244B7-A3784E31-C3AAD3F4</object>
+			<object>45F597CB-823E4B79-912F4EB4-C5DE0DBD</object>
+			<object>37402C72-4FEB4E2B-818799B3-B900F8C2</object>
+			<object>A551FF24-E9384A57-9540E906-C2F63DB0</object>
+			<object>40B6C08B-380D484C-8B64DF90-600D2FC1</object>
+			<object>E4C63281-1FB0493E-8628BDDE-BB1C5F92</object>
+			<object>D73B1F75-E1F84C7B-A98CE9A3-1E7FC63D</object>
+			<object>28396332-1F61450A-8B60477A-C52D101A</object>
+			<object>44CBD28F-472B4EC4-81870FE5-D61D5C7D</object>
+			<object>F33F9F1E-CEE34873-AA34CC41-6DA35EDE</object>
+			<object>5DC3B631-F30F4D20-8591DD6B-807FBCB4</object>
+			<object>8DC983FB-889943F8-9608D8C8-3C68EA11</object>
+		</node>
+
+
+		<node type="objects"> <!-- Tables -->
+		  <header>
+			<name lang="en-US" default="true">Tables</name>
+			<name lang="fr-FR" >Tables</name>
+			<thumbnail lang="en-US" default="true" useOsdColour="true"> http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Category_Tables.dds</thumbnail>
+			<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/midwaya.png</background>  
+		  </header>
+			<object>0C90624B-450B442D-AE1A8267-F832F02C</object>
+			<object>968ADEB5-88214E08-BB83FB62-EBC27BAE</object>
+			<object>5481D8B0-DDC14374-A27BD543-C125D909</object>
+			<object>841ED5F6-FF5E4CD6-BC671DCD-49D00291</object>
+			<object>BAB693DA-E9E14F42-8CED9586-E2CBCFCD</object>
+		</node>
+		<node type="objects"> <!-- Ornaments -->
+		  <header>
+			<name lang="en-US" default="true">Ornaments</name>
+			<name lang="fr-FR" >Décoration</name>
+			<thumbnail lang="en-US" default="true" useOsdColour="true"> http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+			<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/midwaya.png</background>  
+		  </header>
+			<object>09D8943C-5F2C485F-B0E004C1-D25A57CB</object> <!-- 8/12/10 -->
+			<object>931DF657-80C149D8-A56E569C-6CAA459B</object> <!-- 8/12/10 -->
+
+			<object>E1C67247-83DA4EBB-A6A1EB68-17F4B96E</object>
+			<object>A04FC40C-0C544499-919A25D2-1DE502AE</object>
+			<object>D716CB25-51094335-826EDE3F-2E632300</object>
+			<object>0CA35132-28A14A87-AB09FEEB-860F6825</object>
+			<object>50BB21F8-D15C4439-8FE9D3BA-BDC18DD3</object>
+			<object>8DD711D1-2CD64A88-8216B7CF-85FC43B9</object>
+			<object>35B3C4DE-B5614E61-9FCD192C-863B842F</object>
+			<object>3E5271F4-070F4BFE-BB513835-D9F62F35</object>
+			<object>73B12A59-B72146DC-8948708C-6E11D0A4</object>
+			<object>038CC845-B8C74E0D-BC357798-3FB9BA9E</object>
+			<object>FE9B9015-A8F741A9-93B8A4B5-1F0438A5</object>
+			<object>FFE1C6AB-73F14CB4-AC47D469-99A83F9F</object>
+			<object>1CFDE8B1-AEB0421C-8437CEDC-32992DC7</object>
+		</node>
+		<node type="objects"> <!-- Sofas -->
+		  <header>
+			<name lang="en-US" default="true">Sofas</name>
+			<name lang="fr-FR" >Canapés</name>
+			<thumbnail lang="en-US" default="true" useOsdColour="true"> http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Category_Sofas.dds</thumbnail>
+			<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/midwaya.png</background>  
+		  </header>
+			<object>9FF90C26-3B174B7F-BE8AB84E-AB5DB319</object> 
+			<object>9646A256-678646B1-AB855F5F-ACF192CD</object>
+			<object>7231F597-4C304B6D-99C548A0-331BDE13</object>
+			<object>F5F153C7-9A7F4E52-BC16AC52-42BE62CA</object>
+			<object>9122FA8E-F4D141F7-A70F1632-16FC5EC4</object>
+			<object>40EEA2B8-1DC04E03-A03984EC-D4793E71</object>
+			<object>98522D9C-B4424CFE-A827F01F-8B75B415</object>
+			<object>6FD6C48D-D38A4491-A7C49A10-294C39DB</object>
+			<object>D35C3B1D-53FE433E-935D3E28-220D6514</object>
+			<object>ACDC2C3E-BFDB4ED1-B1E77487-D78426A2</object>
+			<object>DFFD6462-17014CFA-AD3D206F-03965CA8</object>
+		</node>
+	    <node type="objects"> <!-- Flooring -->
+          <header>
+            <name lang="en-US" >Flooring</name>
+            <name lang="fr-FR" >Flooring</name>
+            <thumbnail lang="en-US" default="true" useOsdColour="true"> http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/flooring.dds</thumbnail>
+	    	<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/midwaya.png</background>  
+          </header>
+		    <object>C1FF698E-F9674EE1-BBB15BE8-2B418073</object> <!-- 7/7/11 -->
+		    <object>49611B88-B4FF4B80-82F0EE07-B1D0AD0D</object> <!-- 7/7/11 -->
+		    <object>444A4B17-71994586-9243FDE8-F6529E35</object> <!-- 7/7/11 -->
+	    </node>
+	    <node type="objects"> <!-- Entertainment -->
+	      <header>
+	    	<name lang="en-US" default="true">Entertainment (Appliances)</name>
+	    	<name lang="fr-FR" >Divertissement (Appareils)</name>
+	    	<thumbnail lang="en-US" default="true" useOsdColour="true"> http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Category_appliances.dds</thumbnail>
+	    	<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/midwaya.png</background>  
+	      </header>
+			<object>9FD4B4EA-913C4050-9B661BE9-ECBFB5F9</object> <!-- 7/7/11 -->
+			<object>A5105CA3-6B554D62-BFC31D6A-1255A4E2</object> <!-- 7/7/11 -->
+			<object>69363D4B-1E744002-BF3E0B86-418F1C0C</object> <!-- 7/7/11 -->
+
+	        <object>E117152A-795249C5-B69EC7CF-578857D8</object> <!-- 9/2/10 -->
+	    	<object>1038B1F1-D9F3480B-91125EB4-882567C7</object> <!-- 8/12/10 -->
+			<object>1BF3290C-E58047BF-95BA8CE5-4A252B13</object> <!-- 8/12/10 -->
+			<object>0B34EE6D-1C7D4DE4-A351B8B3-C8579D20</object> <!-- 8/12/10 -->
+			<object>BDC345A5-A75E4029-8D1EE48C-1868EEC7</object> <!-- 8/12/10 -->
+			<object>A77E7461-AF684C59-BEBEE39E-B9ACF121</object> <!-- 8/12/10 -->
+	    </node>
+	    <node type="objects"> <!-- Companions -->
+	      <header>
+	        <name lang="en-GB" default="true">Companions</name>
+	        <name lang="fr-FR" >Compagne</name>
+	        <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/companions.dds</thumbnail>
+	        <background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/midwaya.png</background>
+	      </header>
+			<object>B311E9F7-A18C41D2-B71E43D1-073E6789</object> <!-- 7/7/11 -->
+			<object>0FB8F112-BC394CEC-A243F2B7-F69A406E</object> <!-- 7/7/11 -->
+			<object>8DC3BA6F-25824F66-B6190D61-36D04BFD</object> <!-- 7/7/11 -->
+	    </node>
+	    <node type="objects"> <!-- Arcade -->
+          <header>
+            <name lang="en-US" default="true">Games (Appliances)</name>
+	        <name lang="fr-FR">Jeux (Appareils)</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/arcade.dds</thumbnail>
+	        <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/midwaya.png</background>		
+          </header>
+			<object>42ABEBA2-33EB4755-8EF9514E-FAE075BA</object> <!-- 7/15/10 -->
+	    </node>	  
+	</node>		
+		
+		
+		
+ </node>		
+		
+		
+
+
+  </node>
+</commerce_point>

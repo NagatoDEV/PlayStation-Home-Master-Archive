@@ -1,0 +1,64 @@
+<commerce_point>
+  <node>
+    <header>
+    <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/lbph_sceaback2.dds</background>
+    </header>
+    <node>
+        <header>
+        <name lang="en-US" default="true">LittleBigPlanet™</name>
+        <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/lbph_sceaback2.dds</background> 
+        <name lang="fr-FR" >LittleBigPlanet™</name>
+        <thumbnail lang="en-US" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/scealbp.png</thumbnail>
+        </header>
+        <node type="objects">
+      <header>
+        <name lang="en-US" default="true">Male</name>
+      <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/lbph_sceaback1.dds</background> 
+        <name lang="fr-FR" >Homme</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true"> http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+      </header>
+        <object>A5B7E50F-04A04C85-A78C5316-716BEFAE</object>
+        <object>763C55E2-F7414524-94A14E84-4C918310</object>
+        <object>0DD18761-8413459D-9D1E88D1-AFC845F6</object>
+        <object>B0B7E6B2-649541F7-919A4320-EC640A71</object>
+        <object>A3AE1CEE-208C41CE-BF260044-E2396D6E</object>
+      </node>
+        <node type="objects">
+      <header>
+        <name lang="en-US" default="true">Female</name>
+      <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/lbph_sceaback1.dds</background> 
+        <name lang="fr-FR" >Femme</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true"> http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+      </header>
+        <object>2260C13D-ADF14CDE-854D8DF4-182E176F</object>
+        <object>1CF23BF7-BD564DAF-90A48D54-49B87FD1</object>
+        <object>105C8437-26524A7B-9493E3D1-462D68DA</object>
+        <object>DCF4576E-7BF649D4-8D05A5FE-12B83378</object>
+        <object>8305BF2A-2EE940BF-A0043DCB-5C767E50</object>
+      </node>
+    <node type="objects">
+        <header>
+          <name lang="en-US" default="true">Furniture</name>
+      <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/lbph_sceaback1.dds</background> 
+        <name lang="fr-FR">Furniture</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true"> http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+        </header>
+        <object>90E359BD-9FA94228-AF376B27-9430148A</object>
+        <object>CBC606B5-EB3B4175-BE755580-4D6C2F1B</object>
+        <object>F1902A7B-4B0C4477-AA59FD15-85887AD4</object>
+        <object>AF998131-B8084D4D-BBBF7850-2BBF497E</object>
+        <object>5C1002DC-1D754039-A458F639-16108CE3</object>
+        <object>2443087D-16494D00-AEDA44E2-DB1D3FFE</object>
+      </node>
+    <node type="objects">
+        <header>
+          <name lang="en-US" default="true">Personal Space</name>
+          <name lang="fr-FR" >Espace personnel</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/estates_scea.dds</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/lbph_sceaback1.dds</background> 
+        </header>
+        <object>79B5B7FA-84CE4D07-9D5E93A4-4AE7466B</object>
+      </node>
+  </node>
+  </node>
+</commerce_point>

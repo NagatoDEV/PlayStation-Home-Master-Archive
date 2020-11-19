@@ -1,0 +1,33 @@
+<commerce_point>
+ <node>
+         <header>
+       <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/white_bg_scee.png</background>
+      </header>
+<node type="products">
+      <header>
+        <name lang="en-GB" default="true">PlayStation® Plus Subscriptions</name>
+        <name lang="fr-FR">PlayStation® Plus</name>
+        <name lang="de-DE">PlayStation® Plus</name>
+        <name lang="it-IT">PlayStation® Plus</name>
+        <name lang="es-ES">PlayStation® Plus</name>
+        <thumbnail lang="en-GB" default="true" >http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/pluslogo_scee.png</thumbnail>
+       <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/white_bg_scee.png</background>
+      </header>
+   <product category="IP9102-NPIA90006_01">IP9102-NPIA90006_01-PSPLUSSUBS90DAYS</product> 
+   <product category="IP9102-NPIA90006_01">IP9102-NPIA90006_01-PSPLUSSUBS365DAY</product>  
+  </node>
+        <node type="objects">
+      <header>
+          <name lang="en-GB">Furniture</name>
+        <name lang="fr-FR" >Meubles</name>
+        <name lang="it-IT" >Mobili</name>
+        <name lang="de-DE" >Möbel</name>
+        <name lang="es-ES" >Muebles</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Furniture_jp.dds</thumbnail>
+       <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/white_bg_scee.png</background>
+      </header>
+		<!--Plus Lamp-->
+		<object>CCD3B305-0472405E-A126A2D2-4C99DBFD</object>
+  </node>
+    </node>
+</commerce_point>

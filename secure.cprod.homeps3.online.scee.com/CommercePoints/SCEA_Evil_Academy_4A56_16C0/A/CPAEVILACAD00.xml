@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+	<header>
+	  <background default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/disgaea_bg_scea.dds</background>
+	</header>
+	<node> <!-- Male -->
+      <header>
+        <name lang="en-US" default="true">Male</name>
+        <name lang="fr-FR">Homme</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/disgaea_bg_scea.dds</background> 
+      </header>
+	  <node type="objects"> <!-- Torso -->
+		<header>
+          <name lang="en-US" default="true">Torso</name>
+          <name lang="fr-FR">Torse</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/torso.dds</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/disgaea_bg_scea.dds</background> 
+		</header>
+		  <object>42C642F3-1F494587-8EAE2AC8-DAC846B1</object> <!-- 1/18/12 -->
+		  <object>5C131EBB-509342C1-AF5C3914-72AB489A</object> <!-- 1/18/12 -->
+		  <object>91805438-AD284861-832CD474-D240EBB9</object> <!-- 1/18/12 -->
+		  <object>D84B2E58-CC504AFD-8105D76F-7954B40B</object> <!-- 1/18/12 -->
+		  <object>53DEDB72-6CB74021-BF0A6939-261CEECF</object> <!-- 1/18/12 -->
+		  <object>29D05CD3-D2F643FA-A04DA154-387C8022</object> <!-- 1/18/12 -->
+
+		  <object>98483DEF-49B44F5F-9BC205F6-DED93410</object> <!-- Added 6/10/10 -->
+		  <object>245152DC-A1234DAE-9296750B-F5AF8C29</object> <!-- Added 6/10/10 -->
+		  <object>3281DA58-B38E4728-B8EFE7F6-543CD465</object> <!-- Added 6/10/10 -->
+		  <object>23C95E15-2CA647DB-B5D58801-1F91C643</object> <!-- Added 6/10/10 -->
+		  <object>7ED567E5-70D94014-B030E975-7DA44A44</object> <!-- Added 6/10/10 -->
+		  <object>45BD3BBA-1E4D4477-B7EB9AED-ACEA94D3</object> <!-- Added 6/10/10 -->
+		  <object>8988A137-AE704EDC-9347A1D2-B667503C</object> <!-- Added 6/10/10 -->
+		  <object>DFE6466F-D20943F4-A3C60A60-0351F9B5</object> <!-- Added 6/10/10 -->
+		  <object>7D287A34-24B643C6-AF747AA3-3530D975</object> <!-- Added 6/10/10 -->
+		  <object>7871E07A-4D994F87-9CAECE62-E738F093</object> <!-- Added 6/10/10 -->
+		  <object>4DED250E-78EF43FB-9A5C6594-D14C898D</object> <!-- Added 6/10/10 -->
+		  <object>4B649FF2-A5174702-A45030B5-E6837E36</object> <!-- Added 6/10/10 -->
+	    </node>
+		<node type="objects"> <!-- Hands -->
+          <header>
+			<name lang="en-US" default="true">Hands</name>
+			<name lang="fr-FR">Mains</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/hands.dds</thumbnail>
+			<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/disgaea_bg_scea.dds</background> 
+          </header>
+		    <object>DAA45C41-E525418C-9275CC87-3E1BD333</object> <!-- 1/18/12 -->
+			<object>A6ADC813-2330438D-B3F9D7A6-488AF9B0</object> <!-- 1/18/12 -->
+			<object>4258EEAA-80BF4F56-B96FA7E6-71DC70A3</object> <!-- 1/18/12 -->
+			<object>770CDB67-3FAC44C2-BDB30DE9-CE8D21F2</object> <!-- 1/18/12 -->
+			<object>468384FE-07F44886-8432D5F1-073B416E</object> <!-- 1/18/12 -->
+			<object>3B92F4E2-17B74D55-9DD3B455-7607CF78</object> <!-- 1/18/12 -->
+			<object>62FB196B-0D634C9E-988300A4-A2B94BA9</object> <!-- 1/18/12 -->
+			<object>6FC2141D-00344978-9C9788F6-E6EB1C86</object> <!-- 1/18/12 -->
+			<object>34C10F74-145346A4-810E3D2A-675F0AE7</object> <!-- 1/18/12 -->
+
+
+	  </node>
+      <node type="objects"> <!-- Legs -->
+          <header>
+            <name lang="en-US" default="true">Legs</name>
+            <name lang="fr-FR">Jambes</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/legs.dds</thumbnail>
+			<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/disgaea_bg_scea.dds</background> 
+          </header>
+			<object>DA1B3386-480B4C68-B7508139-711DA89B</object> <!-- 1/18/12 -->
+	  </node>
+		<node type="objects"> <!-- Feet -->
+          <header>
+			<name lang="en-GB" default="true">Feet</name>
+			<name lang="fr-FR">Pieds</name>
+			<name lang="en-US">Feet</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/feet.dds</thumbnail>
+			<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/disgaea_bg_scea.dds</background> 
+          </header>
+			<object>A97A988D-41614BFF-83BC768F-28060A9C</object> <!-- 1/18/12 -->
+
+
+	  </node>
+	  <node type="objects"> <!-- Jewellery -->
+		<header>
+          <name lang="en-US" default="true">Jewellery</name>
+          <name lang="fr-FR">Bijoux</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/jewellery.dds</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/disgaea_bg_scea.dds</background> 
+		</header>
+		  <object>9C78D109-0D07453E-AE4C0335-15691BFA</object> <!-- 1/18/12 -->
+	  </node>
+	</node>
+	<node> <!-- Female -->
+      <header>
+        <name lang="en-US" default="true">Female</name>
+        <name lang="fr-FR">Femme</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/disgaea_bg_scea.dds</background> 
+      </header>
+	  <node type="objects"> <!-- Torso -->
+		<header>
+          <name lang="en-US" default="true">Torso</name>
+          <name lang="fr-FR">Torse</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/torso.dds</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/disgaea_bg_scea.dds</background> 
+		</header>
+		  <object>E4BD29F1-48314B1A-A45D5FD3-07241F68</object> <!-- 1/18/12 -->
+		  <object>CE91D7BF-53634C3D-BADBF708-27BA457F</object> <!-- 1/18/12 -->
+		  <object>12E8473B-B59243E3-AF71227D-FAB4157D</object> <!-- 1/18/12 -->
+		  <object>C8624201-8DF24740-A8D01EDE-E2492FFE</object> <!-- 1/18/12 -->
+		  <object>948F784A-D25944C5-AC122A6F-4F47F33A</object> <!-- 1/18/12 -->
+		  <object>E08B4E96-54674E2F-B59A3EF6-44B68691</object> <!-- 1/18/12 -->
+
+		  <object>E5B9EEF3-1F2F4C8B-839716E6-D7527CD8</object> <!-- Added 6/10/10 -->
+		  <object>9547E52A-7EB24550-BBC06323-7E73ADA5</object> <!-- Added 6/10/10 -->
+		  <object>65F4D7EB-A77E48CF-899DBA09-35942EC8</object> <!-- Added 6/10/10 -->
+		  <object>BDD884B2-A5D34400-B07DA518-52C6B2B3</object> <!-- Added 6/10/10 -->
+		  <object>62B2B912-6738465D-BF6FD26B-7181F316</object> <!-- Added 6/10/10 -->
+		  <object>87B7A16A-4F9248D6-B35A68C6-E1277C07</object> <!-- Added 6/10/10 -->
+		  <object>BC62F1D2-3C6946E9-B46609F8-47698267</object> <!-- Added 6/10/10 -->
+		  <object>214AAF8E-34034617-AFF54891-E6E29C9F</object> <!-- Added 6/10/10 -->
+		  <object>405E61F4-9BC94E29-9572D859-81BB0565</object> <!-- Added 6/10/10 -->
+		  <object>5EEF5936-38E648DE-919CC36C-0841C6E0</object> <!-- Added 6/10/10 -->
+		  <object>3AD1D678-1C494A4A-8A44077B-EDE8C87D</object> <!-- Added 6/10/10 -->
+		  <object>76566EA0-BDBB4958-8501BBB4-F24EA8FD</object> <!-- Added 6/10/10 -->
+
+	  </node>
+		<node type="objects"> <!-- Hands -->
+          <header>
+			<name lang="en-US" default="true">Hands</name>
+			<name lang="fr-FR">Mains</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/hands.dds</thumbnail>
+			<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/disgaea_bg_scea.dds</background> 
+          </header>
+		    <object>88D1CF6D-3B134E1D-99D0814B-3123A960</object> <!-- 1/18/12 -->
+		    <object>85B335EB-35324A45-9B6D6B2F-B1996C66</object> <!-- 1/18/12 -->
+		    <object>4F0318C2-B24344D8-B55A2BBD-DCF95F53</object> <!-- 1/18/12 -->
+		    <object>97193357-26AC48C8-8AA1372D-785C5603</object> <!-- 1/18/12 -->
+		    <object>EDE7A445-599F4628-8A75796A-4D51D10F</object> <!-- 1/18/12 -->
+		    <object>5A86FAD5-B8824610-AEEBA765-AA29C092</object> <!-- 1/18/12 -->
+		    <object>8FD63B66-DD4049D0-8C0ECAFF-7D368310</object> <!-- 1/18/12 -->
+		    <object>68927589-F8F248C3-894D3C58-D0FFAEE1</object> <!-- 1/18/12 -->
+
+
+
+	  </node>
+      <node type="objects"> <!-- Legs -->
+          <header>
+            <name lang="en-US" default="true">Legs</name>
+            <name lang="fr-FR">Jambes</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/legs.dds</thumbnail>
+			<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/disgaea_bg_scea.dds</background> 
+          </header>
+			<object>85FD92DB-ED5D4E94-990B904A-D905843E</object> <!-- 1/18/12 -->
+	  </node>
+	  <node type="objects"> <!-- Jewellery -->
+		<header>
+          <name lang="en-US" default="true">Jewellery</name>
+          <name lang="fr-FR">Bijoux</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/jewellery.dds</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/disgaea_bg_scea.dds</background> 
+		</header>
+		  <object>E7729B6E-42914815-9FB97121-F65B8188</object> <!-- 1/18/12 -->
+		  <object>8F129886-2D4F4DBB-8AC2D795-9BF7C103</object> <!-- Added 6/10/10 -->
+
+	  </node>
+	</node>
+	<node> <!-- Furniture -->
+	  <header>
+        <name lang="en-US" default="true">Furniture</name>
+		<name lang="fr-FR">Meubles</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/furniture_scea.dds</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/disgaea_bg_scea.dds</background>  
+      </header>
+	  <node type="objects"> <!-- Tables -->
+		<header>
+          <name lang="en-US" default="true">Tables</name>
+          <name lang="fr-FR" >Tables</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true"> http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Category_Tables.dds</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/disgaea_bg_scea.dds</background>  
+		</header>
+		  <object>90535F68-747A4BED-BEA0DB62-98E94225</object> <!-- Added 6/10/10 -->
+	  </node>
+	  <node type="objects"> <!-- Chairs -->
+		<header>
+          <name lang="en-US" default="true">Chairs</name>
+          <name lang="fr-FR" >Siges</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true"> http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Category_Chairs.dds</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/disgaea_bg_scea.dds</background>  
+		</header>
+		  <object>42864A35-43004F27-931C2AC2-9C34EEA2</object> <!-- Added 6/10/10 -->
+	  </node>
+	  <node type="objects"> <!-- Ornaments -->
+		<header>
+          <name lang="en-US" default="true">Ornaments</name>
+          <name lang="fr-FR" >Dcoration</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true"> http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/disgaea_bg_scea.dds</background>  
+		</header>
+		  <object>A80A4628-A56C43CB-91A74AAA-E432A790</object> <!-- Added 6/10/10 -->
+		  <object>63032E86-43D34381-869EB483-0D971DA2</object> <!-- Added 6/10/10 -->
+		  <object>D04DE18C-76204782-8D3E63D1-42E9D4EE</object> <!-- Added 6/10/10 -->
+		  <object>F4F8CF22-3C704AED-A794A1A0-8B4A8E08</object> <!-- Added 6/10/10 -->
+		  <object>337CC048-F4E143FB-9719D317-084E582D</object> <!-- Added 6/10/10 -->
+		  <object>19C6142D-2C0245D7-B5673330-584421E2</object> <!-- Added 6/10/10 -->
+		  <object>B033DCE6-9C514182-AE3A08B3-DA84B30F</object> <!-- Added 6/10/10 -->
+		  <object>BA4E8603-64D246BD-8BC8265B-02D19B56</object> <!-- Added 6/10/10 -->
+		  <object>1FB81B7F-04954D06-AF3FA318-6D85F9D1</object> <!-- Added 6/10/10 -->
+		  <object>6D9C6608-6B174285-87FA80D5-4ED7D43C</object> <!-- Added 6/10/10 -->
+		  <object>C67EAC1D-AE814304-86779528-01592213</object> <!-- Added 6/10/10 -->
+		  <object>27A69F44-8DE14407-B9AE519F-C967C657</object> <!-- Added 6/10/10 -->
+		  <object>CB6C137D-00CA48A4-929A444F-E7D0C8C5</object> <!-- Added 6/10/10 -->
+		  <object>2EE23941-5AC54560-8EEA5F83-69DC0518</object> <!-- Added 6/10/10 -->
+		  <object>967172FF-02A44E32-BAAB0FD9-B7A2D6F4</object> <!-- Added 6/10/10 -->
+		  <object>30E434A4-11AE46CA-B9D7CEF7-0F979F4C</object> <!-- Added 6/10/10 -->
+		  <object>F9B0EA11-76624E9B-95540049-2EF157D6</object> <!-- Added 6/10/10 -->
+		  <object>9C3A6458-DB5245B0-A396471A-48E2982B</object> <!-- Added 6/10/10 -->
+		  <object>438D8013-B8864165-AE15DBE5-7FE108C1</object> <!-- Added 6/10/10 -->
+		  <object>C1474139-D4F84198-B0C928C4-2FC5CBAE</object> <!-- Added 6/10/10 -->
+		  <object>EF052701-CAD749EA-B723F540-D03EFA80</object> <!-- Added 6/10/10 -->
+		  <object>D0CB1DF5-0DA74DE1-BFB34FDF-93154E11</object> <!-- Added 6/10/10 -->
+		  <object>4F1B4492-27AF4B43-8C93B61C-CC471F4B</object> <!-- Added 6/10/10 -->
+		  <object>FD0EFD92-58154C69-BF944578-D8A9BAB6</object> <!-- Added 6/10/10 -->
+		  <object>F3D2723B-469C4822-ADB0FFB8-A2973281</object> <!-- Added 6/10/10 -->
+		  <object>85107A13-50434C74-B64D6A09-984776C9</object> <!-- Added 6/10/10 -->
+		  <object>3B534609-E8FA487F-A0DF838E-F2BA0590</object> <!-- Added 6/10/10 -->
+		  <object>DF55E6E0-B30E45AC-A59A6263-7897BFEF</object> <!-- Added 6/10/10 -->
+		  <object>3F34A54E-C4E24C70-95B7E4A6-D0C05D1F</object> <!-- Added 6/10/10 -->
+		  <object>0AF7AA4D-0FDA4BFC-A24730E9-43D0723F</object> <!-- Added 6/10/10 -->
+		  <object>51622629-18414D92-92558BDB-51430F46</object> <!-- Added 6/10/10 -->
+		  <object>00C70C76-F79A4AB9-911AE3B4-06935DF2</object> <!-- Added 6/10/10 -->
+		  <object>18C57A56-A7C34C12-95669C79-8AAEF4B8</object> <!-- Added 6/10/10 -->
+		  <object>7D292098-D0F34530-92E61041-2AD3FE79</object> <!-- Added 6/10/10 -->
+		  <object>B3556754-2C4843A6-A1190C51-A5C911CD</object> <!-- Added 6/10/10 -->
+		  <object>0A785F34-C8AD4405-81C1CAF0-A738045B</object> <!-- Added 6/10/10 -->
+		  <object>02C600AF-054941B7-90AE2DF4-67580349</object> <!-- Added 6/10/10 -->
+		  <object>411297BA-4C2A4CDE-8D7DBA23-23E516D5</object> <!-- Added 6/10/10 -->
+		  <object>75C91260-73FB43B7-AC78627C-771BFE19</object> <!-- Added 6/10/10 -->
+		  <object>9B3437C9-311841FE-8E54AB93-48D8DBFD</object> <!-- Added 6/10/10 -->
+		  <object>16A5A15D-308C48BC-87700131-7F6AA06C</object> <!-- Added 6/10/10 -->
+		  <object>122E5C7D-3A994C14-A25D2E1D-4216BEDE</object> <!-- Added 6/10/10 -->
+		  <object>808C2D7C-1A564FEB-BF3B887B-F6C7D39D</object> <!-- Added 6/10/10 -->
+		  <object>9E9C913A-1E7D4157-AE472301-C370934A</object> <!-- Added 6/10/10 -->
+		  <object>D7B79063-E3474657-9F1CF40D-8AC3A636</object> <!-- Added 6/10/10 -->
+	  </node>
+	</node>
+	<node type="objects"> <!-- Companions -->
+	  <header>
+	    <name lang="en-GB" default="true">Companions</name>
+	    <name lang="fr-FR" >Compagne</name>
+	    <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/companions.dds</thumbnail>
+	    <background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/disgaea_bg_scea.dds</background>
+	  </header>
+		<object>E93DC0E7-363A4CE7-92CEAB8C-7437259C</object> <!-- 1/18/12 -->
+		<object>195C794A-E16446D9-B1AE37ED-559C0F35</object> <!-- 1/18/12 -->
+		<object>0AED496D-04DE424D-BE7924C0-DABD6D90</object> <!-- 1/18/12 -->
+		<object>884E184F-DA8C4EC6-B56B3C9E-B08E2054</object> <!-- 1/18/12 -->
+		<object>631AB823-7A044375-9611C089-1420F77F</object> <!-- 1/18/12 -->
+	</node>
+	
+	
+  </node>
+</commerce_point>

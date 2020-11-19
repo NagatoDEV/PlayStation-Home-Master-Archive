@@ -1,0 +1,82 @@
+<commerce_point>
+      <node>
+        <header>
+        <name lang="en-GB" default="true">Dead Island™</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/deadisland_scee.png</thumbnail>
+        <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/deadisland_bg_scee.dds</background>
+        </header>
+<node type="objects">
+		<header >
+			<name lang="en-GB" default="true">Male</name>
+			<name lang="fr-FR">Homme</name>
+			<name lang="de-DE">Männlich</name>
+			<name lang="it-IT">Maschio</name>
+			<name lang="es-ES">Hombre</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+        <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/deadisland_bg_scee.dds</background>
+        		</header>	
+         <!--Dead Island™ Weapon Bundle (Male)-->
+        <object>4E0BFE4A-3A6F492B-8DD1E97C-F368D257</object>	
+ <!--Dead Island™ Electro-hammer (Male)-->
+        <object>23613B7F-E70F4860-880CBF33-FB4A2BD3</object>
+                <!--Dead Island™ Pipe (Male)-->
+        <object>6E9D0152-F6A04C88-863FACC4-D671E5EF</object>
+        <!--Dead Island™ Baseball Bat (Male)-->
+        <object>5D0DBA61-081F4BA8-81F5EF42-23D69B8D</object>
+                <!--Dead Island™ Fire Axe (Male)-->
+        <object>C2615279-31994530-8D7288AD-F3419B42</object>
+                <!--Dead Island™ Sticky Bomb Knife (Male)-->
+        <object>6438AA9D-96C24877-9929EBF2-B5D49549</object>
+		 		 </node>
+		 <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR" >Femme</name>
+        <name lang="it-IT" >Femmina</name>
+        <name lang="de-DE" >Weiblich</name>
+        <name lang="es-ES" >Mujer</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+        <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/deadisland_bg_scee.dds</background>
+      </header>
+              <!--Dead Island™ Weapon Bundle (Female)-->
+        <object>DA500FD4-E1A740CD-B63AA925-95731CA6</object>
+	 <!--Dead Island™ Pipe (Female)-->
+        <object>F0F3C5F3-D87F4B23-A12A6072-88583C86</object>
+                <!--Dead Island™ Fire Axe (Female)-->
+        <object>CC538962-92864CA9-9F87E3CE-CABFEFB9</object>
+        <!--Dead Island™ Baseball Bat (Female)-->
+        <object>7555C23E-594B45FD-AFA1561B-E746C751</object>
+                <!--Dead Island™ Sticky Bomb Knife (Female)-->
+        <object>11A49DE5-535240C8-94D3E591-C0765BC7</object>
+                <!--Dead Island™ Electro-hammer (Female)-->
+        <object>24BBD612-08C74E53-A0E807E1-549E94DF</object>
+		 		 </node>
+		 <node type="objects">
+		<header>
+        <name lang="en-GB">Furniture</name>
+        <name lang="fr-FR" >Meubles</name>
+        <name lang="it-IT" >Mobili</name>
+        <name lang="de-DE" >Möbel</name>
+        <name lang="es-ES" >Muebles</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Furniture_jp.dds</thumbnail>
+        <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/deadisland_bg_scee.dds</background>
+		</header>
+		    <!--Dead Island™ Blood Splatter Wall Art Pack-->
+        <object>E1D33D66-B7184988-B2B4146D-EDFB7A98</object>
+        <!--Dead Island™ Blood Splatter 1-->
+        <object>D1F84663-956D4DEE-95EA9EFF-04BD2445</object>
+                <!--Dead Island™ Blood Splatter 2-->
+        <object>037A2BF0-209A4042-9E2CEF85-7B7C110A</object>
+        <!--Dead Island™ Blood Splatter 3-->
+        <object>83FCDE3B-B2994C3D-A0866020-88CCCC31</object>
+        <!--Dead Island Severed Head Ornament-->
+        <object>43C0E766-10074438-99A075F8-5A8F4999</object>
+        <!--Dead Island™ Zombie Wall Bundle-->
+        <object>1388D95B-9619492E-88F29020-D6A7C685</object>
+                <!--Dead Island™ Zombie Window-->
+        <object>CC6CE5B5-84314905-AB93D1EA-52B2C9CD</object>
+        <!--Dead Island™ Zombie Wall-->
+        <object>CC0CA4AB-1AB74A40-86E09586-772D9C41</object>
+</node>
+</node>
+</commerce_point>

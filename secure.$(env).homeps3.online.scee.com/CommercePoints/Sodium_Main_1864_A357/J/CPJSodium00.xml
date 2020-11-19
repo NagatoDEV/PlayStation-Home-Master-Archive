@@ -1,0 +1,800 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header>
+      <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+    </header>
+    <node>
+      <header>
+        <name lang="en-GB">Male</name>
+        <thumbnail lang="en-GB" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+        <name lang="en-US">Male</name>
+        <name lang="fr-FR">Homme</name>
+        <name lang="de-DE">Männlich</name>
+        <name lang="it-IT">Maschio</name>
+        <name lang="es-ES">Hombre</name>
+        <name lang="ja-JP" default="true">男性</name>
+        <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+        <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        <name lang="ko-KR">??</name>
+        <name lang="en-SG">Male</name>
+        <name lang="zh-HK">??</name>
+        <name lang="zh-TW">??</name>
+      </header>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">頭</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+          <name lang="ja-JP" default="true">頭</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>10B658C6-B1444E52-AA75CB42-A46000B7</object>
+        <object>E4A6140F-FA68414E-902BCD69-36636B91</object>
+        <object>6242876B-57C444A1-80D72244-49BC2DF6</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">手</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hands.dds</thumbnail>
+          <name lang="ja-JP" default="true">手</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hands.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>42E1E813-0EBE4422-B8DA3210-FD8CA554</object>
+        <object>DF16F737-AFF64FE2-B3CBDF35-0B8966AD</object>
+        <object>1481CC1E-21C04176-AD23156C-C797A2C6</object>
+        <object>3249F654-B509438F-88015585-22A20274</object>
+        <object>267B59F1-A768467E-A5E89FAD-DD5087F4</object>
+        <object>E30B6145-E6F44811-AA0D66AF-1E6EC9EE</object>
+        <object>B0492355-6E774279-90C2E5B4-9A406D80</object>
+        <object>237BBA84-37D04433-8CBD36F2-22D6339F</object>
+        <object>378F4696-089D431F-A73DB4C3-4562FCD4</object>
+        <object>C22C4A4F-AF01424A-8ED6F160-0577DC78</object>
+        <object>DC3081C6-815848C7-84BF9F9B-C1A9B366</object>
+        <object>25A21640-F30A4A5C-BE436C89-D4E784C1</object>
+        <object>FF319383-1838414F-8D1CD170-F326DF5A</object>
+        <object>D6DC7020-1656493B-BD213B55-CA4DE1D6</object>
+        <object>C92AD987-1F4A45F2-B1BE15F1-21650F74</object>
+        <object>0F65BE20-BCDA4148-B1230F82-D0B12D07</object>
+        <object>30AA4D5A-31A54E61-B23ADBB7-2A08C741</object>
+        <object>EB4A1A03-F056437E-839F6F4D-3532092B</object>
+        <object>0BAF8F55-A21B4EBC-9D1F88E1-88B10648</object>
+        <object>7ED6E010-07074931-B5E66208-46FCB91B</object>
+        <object>BCFA47C3-2FDB4DFC-A8F79118-897E6772</object>
+        <object>9D5B5C40-87974321-8CAC9199-EFAD70AB</object>
+        <object>0360806A-6C8C4872-84D5C22A-F327D1BD</object>
+        <object>1A8AC708-CAF14C3D-9E77B69B-67AEFB7A</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">トップス</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+          <name lang="ja-JP" default="true">トップス</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>9D4916FF-8C4C4222-89E47FA6-FD068EE4</object>
+        <object>EE58F8A9-68654C08-87864683-E2C4D114</object>
+        <object>F023ABC1-4B9B427F-96D7EE3C-698B3320</object>
+        <object>5C59B572-A26547DE-8D6F0693-3DC2FEED</object>
+        <object>1EE1FC9B-8237495D-B8A0DD1D-A8F8A7EA</object>
+        <object>D151C3C4-49DD4B85-A07234C5-C395B1E0</object>
+        <object>E80AE2DD-7BEB4A14-8C59978A-7D3364F1</object>
+        <object>11AF1F4D-2B5B48FE-AE082EF5-1CF2F79F</object>
+        <object>BD8DBA94-230345B1-AED435BC-31CE10FD</object>
+        <object>A864A911-485F40C3-A23BB038-9F850DF6</object>
+        <object>0AB6D08F-FBBC4B0B-80FDE2E1-F0C936F3</object>
+        <object>BB2E54F0-91664094-940BA62B-C1B8DD04</object>
+        <object>548F33CC-B59B4C6B-80119985-7056FDCB</object>
+        <object>79C168C1-1BFD4654-92F36DCA-7E4B5A48</object>
+        <object>0820782D-82734739-8820740A-137A67F1</object>
+        <object>8F391701-51C64F57-9890071D-479F1B8B</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">靴</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/feet.dds</thumbnail>
+          <name lang="ja-JP" default="true">靴</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/feet.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>B2D008DE-B3AE4C6F-B849871F-C1D6CB6B</object>
+        <object>7C9ED226-16A34DDD-BA305579-200CC3BC</object>
+        <object>110F4F42-90B94B6C-91C2353A-97BCD82F</object>
+        <object>21BE875F-68DA488E-B293364B-6C7022B3</object>
+        <object>67030CBD-DF18451E-80739BAA-492E8E16</object>
+        <object>FC9137B8-D50E4CDF-A2FCFA9C-38487B02</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">アクセサリー</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+          <name lang="ja-JP" default="true">アクセサリー</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>8EA17F9E-FF6D4EF2-BDBF6970-B719AA5C</object>
+        <object>AB1A146F-AC144B0D-8F732674-36EFE722</object>
+        <object>50335847-39DC4159-A74A4F0C-90B47760</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">セットアイテム</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Setsales_jp.dds</thumbnail>
+          <name lang="ja-JP" default="true">セットアイテム</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Setsales_jp.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>88D8CFB1-F4284844-9CE955CB-B479B00A</object>
+        <object>F270A45F-13AD49F0-803B5583-2E31E0BE</object>
+        <object>0D7A6051-6F484599-8F0237DC-A20DF306</object>
+        <object>A9CEF181-D6C04718-AF3A706B-00608E10</object>
+        <object>DE14BDB8-B1B34E84-BBA4D5BE-520431DA</object>
+        <object>62D6B6F2-35C24379-920231D3-7C9451AF</object>
+        <object>F6CD35DC-66714B1C-AD112DCE-6C0F1F39</object>
+        <object>1AE80759-91AE405A-A0466D74-F093C8E0</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">Sodium One</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Sodium1_jp.png</thumbnail>
+          <name lang="ja-JP" default="true">Sodium One</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Sodium1_jp.png</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>88D8CFB1-F4284844-9CE955CB-B479B00A</object>
+        <object>B2D008DE-B3AE4C6F-B849871F-C1D6CB6B</object>
+        <object>F270A45F-13AD49F0-803B5583-2E31E0BE</object>
+        <object>0D7A6051-6F484599-8F0237DC-A20DF306</object>
+        <object>A9CEF181-D6C04718-AF3A706B-00608E10</object>
+        <object>50335847-39DC4159-A74A4F0C-90B47760</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">Jon Burgerman</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Burgerman_Tile_jp.png</thumbnail>
+          <name lang="ja-JP" default="true">Jon Burgerman</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Burgerman_Tile_jp.png</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>0820782D-82734739-8820740A-137A67F1</object>
+        <object>8F391701-51C64F57-9890071D-479F1B8B</object>
+        <object>67030CBD-DF18451E-80739BAA-492E8E16</object>
+        <object>FC9137B8-D50E4CDF-A2FCFA9C-38487B02</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">Lockwood</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Lockwood_jp.png</thumbnail>
+          <name lang="ja-JP" default="true">Lockwood</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Lockwood_jp.png</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>10B658C6-B1444E52-AA75CB42-A46000B7</object>
+        <object>42E1E813-0EBE4422-B8DA3210-FD8CA554</object>
+        <object>DF16F737-AFF64FE2-B3CBDF35-0B8966AD</object>
+        <object>1481CC1E-21C04176-AD23156C-C797A2C6</object>
+        <object>3249F654-B509438F-88015585-22A20274</object>
+        <object>267B59F1-A768467E-A5E89FAD-DD5087F4</object>
+        <object>E30B6145-E6F44811-AA0D66AF-1E6EC9EE</object>
+        <object>B0492355-6E774279-90C2E5B4-9A406D80</object>
+        <object>62D6B6F2-35C24379-920231D3-7C9451AF</object>
+        <object>237BBA84-37D04433-8CBD36F2-22D6339F</object>
+        <object>F6CD35DC-66714B1C-AD112DCE-6C0F1F39</object>
+        <object>1AE80759-91AE405A-A0466D74-F093C8E0</object>
+        <object>DE14BDB8-B1B34E84-BBA4D5BE-520431DA</object>
+        <object>E4A6140F-FA68414E-902BCD69-36636B91</object>
+        <object>9D4916FF-8C4C4222-89E47FA6-FD068EE4</object>
+        <object>EE58F8A9-68654C08-87864683-E2C4D114</object>
+        <object>F023ABC1-4B9B427F-96D7EE3C-698B3320</object>
+        <object>5C59B572-A26547DE-8D6F0693-3DC2FEED</object>
+        <object>1EE1FC9B-8237495D-B8A0DD1D-A8F8A7EA</object>
+        <object>D151C3C4-49DD4B85-A07234C5-C395B1E0</object>
+        <object>E80AE2DD-7BEB4A14-8C59978A-7D3364F1</object>
+        <object>11AF1F4D-2B5B48FE-AE082EF5-1CF2F79F</object>
+        <object>378F4696-089D431F-A73DB4C3-4562FCD4</object>
+        <object>C22C4A4F-AF01424A-8ED6F160-0577DC78</object>
+        <object>DC3081C6-815848C7-84BF9F9B-C1A9B366</object>
+        <object>25A21640-F30A4A5C-BE436C89-D4E784C1</object>
+        <object>FF319383-1838414F-8D1CD170-F326DF5A</object>
+        <object>D6DC7020-1656493B-BD213B55-CA4DE1D6</object>
+        <object>C92AD987-1F4A45F2-B1BE15F1-21650F74</object>
+        <object>BD8DBA94-230345B1-AED435BC-31CE10FD</object>
+        <object>A864A911-485F40C3-A23BB038-9F850DF6</object>
+        <object>0AB6D08F-FBBC4B0B-80FDE2E1-F0C936F3</object>
+        <object>BB2E54F0-91664094-940BA62B-C1B8DD04</object>
+        <object>0F65BE20-BCDA4148-B1230F82-D0B12D07</object>
+        <object>30AA4D5A-31A54E61-B23ADBB7-2A08C741</object>
+        <object>EB4A1A03-F056437E-839F6F4D-3532092B</object>
+        <object>0BAF8F55-A21B4EBC-9D1F88E1-88B10648</object>
+        <object>7ED6E010-07074931-B5E66208-46FCB91B</object>
+        <object>BCFA47C3-2FDB4DFC-A8F79118-897E6772</object>
+        <object>9D5B5C40-87974321-8CAC9199-EFAD70AB</object>
+        <object>0360806A-6C8C4872-84D5C22A-F327D1BD</object>
+        <object>1A8AC708-CAF14C3D-9E77B69B-67AEFB7A</object>
+        <object>8EA17F9E-FF6D4EF2-BDBF6970-B719AA5C</object>
+        <object>AB1A146F-AC144B0D-8F732674-36EFE722</object>
+        <object>6242876B-57C444A1-80D72244-49BC2DF6</object>
+        <object>7C9ED226-16A34DDD-BA305579-200CC3BC</object>
+        <object>110F4F42-90B94B6C-91C2353A-97BCD82F</object>
+        <object>21BE875F-68DA488E-B293364B-6C7022B3</object>
+        <object>548F33CC-B59B4C6B-80119985-7056FDCB</object>
+        <object>79C168C1-1BFD4654-92F36DCA-7E4B5A48</object>
+      </node>
+    </node>
+    <node>
+      <header>
+        <name lang="en-GB">Female</name>
+        <thumbnail lang="en-GB" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+        <name lang="en-US">Female</name>
+        <name lang="fr-FR">Femme</name>
+        <name lang="de-DE">Weiblich</name>
+        <name lang="it-IT">Femmina</name>
+        <name lang="es-ES">Mujer</name>
+        <name lang="ja-JP" default="true">女性</name>
+        <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+        <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        <name lang="ko-KR">??</name>
+        <name lang="en-SG">Female</name>
+        <name lang="zh-HK">??</name>
+        <name lang="zh-TW">??</name>
+      </header>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">頭</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+          <name lang="ja-JP" default="true">頭</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>BF811D1C-E3F14DFC-8142E722-B28A3243</object>
+        <object>BA4495E4-5BF54556-B6C295D5-00D2B99F</object>
+        <object>BA809FAE-BF46492B-87F4DF93-5BF559CB</object>
+        <object>BA79F08A-29ED463B-A2509817-CC17CF6D</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">手</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hands.dds</thumbnail>
+          <name lang="ja-JP" default="true">手</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hands.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>A5E98DC3-A1E3488C-A42ABC5B-A1AFDFD8</object>
+        <object>E5E04D84-901842E6-A9D28ED8-509E46EF</object>
+        <object>B4F86EBF-C84D4943-856D45F5-A97EB352</object>
+        <object>DF84576E-26554CBD-935EFB76-7A65E44B</object>
+        <object>7D7D9B0D-BD594E8B-A8B2AF85-045FA4A5</object>
+        <object>AE262EEC-0BF14CBC-982BBABD-477AF9D9</object>
+        <object>448B2B54-16614EB9-8B17D749-13A0526A</object>
+        <object>AFCA4A24-38E8409F-BAE68FCC-5566DC57</object>
+        <object>817FFC16-1C024CEA-97E85B7A-5B2879AC</object>
+        <object>A6C1B0CD-B9934056-9704E114-7281385C</object>
+        <object>8D4F21B0-85B446FB-AB4611E8-E1D1973E</object>
+        <object>85FE2E35-46794F13-B2E5A60B-E6A121D4</object>
+        <object>34BF74A3-06954233-A123CF20-BE048156</object>
+        <object>812C510F-E9134B27-95F3F140-84D2A9E8</object>
+        <object>DF82BFDA-07684DAB-A9B50951-83645E9F</object>
+        <object>BE8A4AFE-0D7B4A38-A157AFC9-AA3604D1</object>
+        <object>4EB1D65A-84504571-AA3E4CE7-49EC4DD4</object>
+        <object>8BA2BE6F-AF894F4E-994D6E25-605AA05E</object>
+        <object>906A85F4-91254C04-94112014-6AD7A480</object>
+        <object>F8D58DDB-85844748-8B546614-A99BB155</object>
+        <object>9FE53866-06BF4EAF-8197BD6B-EA747A8F</object>
+        <object>EBC149DA-10C34E32-A2F895E8-F5E80A61</object>
+        <object>67D84BDA-9B2D41AD-97CB6294-50F3C4B3</object>
+        <object>68985727-C5AC421F-BA24CE5D-B3A11AB9</object>
+        <object>0D89B51F-F0024C23-87C84395-103BB150</object>
+        <object>3CA400BB-F7EB4BBE-85CA42B0-97EB6AF8</object>
+        <object>5130E530-E42E4C69-B1380CAE-81DCABEC</object>
+        <object>86886805-D17E498E-B2319EF3-DC824449</object>
+        <object>993FD36D-859D4E76-83E23F7E-4EF0E5DC</object>
+        <object>D72794B6-435B4543-A9FCBA48-81B76B12</object>
+        <object>34F9EABC-FBC6405E-B63D40F4-0224812A</object>
+        <object>CB7FFEEE-A9414087-A9B90AB0-00E0239C</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">トップス</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+          <name lang="ja-JP" default="true">トップス</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>815BA36A-9C014C96-AE37A66E-0AC33496</object>
+        <object>195CF167-E0C74B9B-9E7E8769-90A2FC29</object>
+        <object>4CC8AAE9-67684584-A8812663-CA04F5D1</object>
+        <object>6A9B9A03-9ABC4FAE-B15310C3-2C801D64</object>
+        <object>BFC8B0A1-2ECA434C-AF69C4D1-6B914064</object>
+        <object>934C83D3-74C94D16-9939CED7-130F6780</object>
+        <object>A0323AD2-8BEC4D45-909E39EB-1D51D45F</object>
+        <object>5D9ED899-FDA14C0C-993C4002-200607EF</object>
+        <object>A9230040-A7364E27-873FB61A-19C8B2E0</object>
+        <object>FE74558D-291A4394-B4CCCF48-3F044577</object>
+        <object>C52A4161-8AEF4A5F-8BC462FB-86B48364</object>
+        <object>1E75BF5C-1AB54E7F-BFC63F09-60AE8980</object>
+        <object>22371F3C-45694619-A304AD74-4C3C5FC8</object>
+        <object>26F333C2-8D634A60-81DA240E-3C75212C</object>
+        <object>F2FA12CB-2DA94911-8B8D0655-85E27301</object>
+        <object>9E77687A-83D2424B-A27C84F3-5CCB3921</object>
+        <object>796D0DBC-8E37446D-81B58E0D-5EE57D1C</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">ボトムズ</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/legs.dds</thumbnail>
+          <name lang="ja-JP" default="true">ボトムズ</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/legs.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>66ED3809-102C4385-B43C289D-6FA33B5E</object>
+        <object>D3831497-7B5E4487-A06E0F2D-AA92AFC0</object>
+        <object>10C12FE6-E4774B2D-A03078EF-E7CF4FA9</object>
+        <object>9991A200-EAC44B91-82051FB7-F020A1E3</object>
+        <object>C748D61F-C0C04D7D-9EE15D4F-98A7CEB4</object>
+        <object>EC1A1DB9-1DD740A9-9939A30C-558699E9</object>
+        <object>CE92D563-BD764777-B4F559CE-12634806</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">靴</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/feet.dds</thumbnail>
+          <name lang="ja-JP" default="true">靴</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/feet.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>6A9A6863-24C84822-9218295F-D64DBC25</object>
+        <object>4F7C8484-65614537-AC713B0F-C0434EC5</object>
+        <object>F7EBF0DC-C9D74A0D-AE4D3F37-6EDA1B98</object>
+        <object>7F734295-A7B3451A-B686B8A7-2E3ED6F5</object>
+        <object>7B9E270F-B1894189-8F1B3FBE-07A9A5B0</object>
+        <object>72FB8540-B2FC4444-8C44D216-2B06E10C</object>
+        <object>7B5F45E0-C3AC4C38-BF2F1F2C-4E2D51C8</object>
+        <object>3544ED33-4F97414E-B6819079-BF8E77A4</object>
+        <object>6BC29CA2-C91F4ACA-A2E4BED6-7E8B1D67</object>
+        <object>1CEED5AA-5B864F82-A7F89ECF-C5B402C1</object>
+        <object>63FB0E91-09F74E30-87774B5B-81C56270</object>
+        <object>C9E3F128-35D04276-9DF9B542-AE37FAA3</object>
+        <object>C99A202A-3EE74A15-98BD4EA2-DE0D6A02</object>
+        <object>B4E3F1BC-410543AE-979BFABD-6755BFB0</object>
+        <object>2AC6B73E-F0E84851-9D9234C9-BE142CBE</object>
+        <object>68589D16-F2954EE4-BCCB7425-D2E5AACE</object>
+        <object>6395C934-EFAB4A98-87FAE24C-01671F83</object>
+        <object>8DE28B8C-84BC49ED-8D8FE014-7B68E43B</object>
+        <object>5AAAFD4C-6A754615-914F3520-A7FB8330</object>
+        <object>A00A688F-2C5F4696-BB527AFA-2D9CB48C</object>
+        <object>562C96CB-92E64C26-B43288D6-7BE8486B</object>
+        <object>0EF4C555-14BD416B-A6B3AC31-A80D2F55</object>
+        <object>5D2C0186-1D9D471A-AE4D9FB2-778B1F71</object>
+        <object>171C7D4D-DC924521-86AFAA88-89E0D573</object>
+        <object>DE507DB6-B5C444C8-AF319356-2ED7A346</object>
+        <object>7358B352-039C4671-A0C21CE6-8A4E488A</object>
+        <object>CEB028ED-293B4D26-B625E6B8-D6563611</object>
+        <object>9E540C72-1B4546A2-87095E27-3AB769B5</object>
+        <object>EA6840EB-4D8346DF-AEBF6988-0A97DDEF</object>
+        <object>DA0C116E-435740F2-9B025965-D388660B</object>
+        <object>E62EC58B-5D3A443B-B9FF949C-C4691C66</object>
+        <object>2D9D9FEA-010745C5-8ADBC607-892234CA</object>
+        <object>6D6433AF-63104861-BABB6E76-A0DBD37C</object>
+        <object>F5BD2320-9F244C35-A9D1707E-29814BB1</object>
+        <object>A37ABF9A-3C1240C7-93CF0BE9-101C9949</object>
+        <object>6D5F5F86-F5E54B45-AD60563A-76A115D8</object>
+        <object>79E1F31F-C97E4598-BFACD1F3-7DC0E998</object>
+        <object>8B945106-7D8D43F3-B646A1B3-807E2CC7</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">アクセサリー</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+          <name lang="ja-JP" default="true">アクセサリー</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>93183C2B-41E3433F-A8C66DB0-CB04EC87</object>
+        <object>DBC2DFD3-2BA04DDC-BB4A2E2C-F725D916</object>
+        <object>5DD6FCEB-FD7D4E8D-973B0A99-D2A68B08</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">セットアイテム</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Setsales_jp.dds</thumbnail>
+          <name lang="ja-JP" default="true">セットアイテム</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Setsales_jp.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>D999BA81-2E564A9F-A2EF088E-F4E89211</object>
+        <object>958E9D8C-1A834EE4-88484CA0-52A09E24</object>
+        <object>FEF53B0A-40AD4B9F-8F3DAE4D-83B8F31C</object>
+        <object>5FEECE12-0DA44622-9DDC1AFF-CCFF54F5</object>
+        <object>324B9D3C-22594BF3-B98D01E6-54F48E50</object>
+        <object>4BAB1ED0-CEAB43F0-8B123F92-1FE5DFDF</object>
+        <object>863280B2-04D541B0-86201C90-DF37CE77</object>
+        <object>88582178-ADB7483B-A2DA5584-108ED72C</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">Sodium One</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Sodium1_jp.png</thumbnail>
+          <name lang="ja-JP" default="true">Sodium One</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Sodium1_jp.png</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>D999BA81-2E564A9F-A2EF088E-F4E89211</object>
+        <object>6A9A6863-24C84822-9218295F-D64DBC25</object>
+        <object>958E9D8C-1A834EE4-88484CA0-52A09E24</object>
+        <object>FEF53B0A-40AD4B9F-8F3DAE4D-83B8F31C</object>
+        <object>5FEECE12-0DA44622-9DDC1AFF-CCFF54F5</object>
+        <object>5DD6FCEB-FD7D4E8D-973B0A99-D2A68B08</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">Jon Burgerman</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Burgerman_Tile_jp.png</thumbnail>
+          <name lang="ja-JP" default="true">Jon Burgerman</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Burgerman_Tile_jp.png</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>9E77687A-83D2424B-A27C84F3-5CCB3921</object>
+        <object>796D0DBC-8E37446D-81B58E0D-5EE57D1C</object>
+        <object>79E1F31F-C97E4598-BFACD1F3-7DC0E998</object>
+        <object>8B945106-7D8D43F3-B646A1B3-807E2CC7</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">Lockwood</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Lockwood_jp.png</thumbnail>
+          <name lang="ja-JP" default="true">Lockwood</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Lockwood_jp.png</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>BF811D1C-E3F14DFC-8142E722-B28A3243</object>
+        <object>815BA36A-9C014C96-AE37A66E-0AC33496</object>
+        <object>195CF167-E0C74B9B-9E7E8769-90A2FC29</object>
+        <object>4CC8AAE9-67684584-A8812663-CA04F5D1</object>
+        <object>66ED3809-102C4385-B43C289D-6FA33B5E</object>
+        <object>D3831497-7B5E4487-A06E0F2D-AA92AFC0</object>
+        <object>10C12FE6-E4774B2D-A03078EF-E7CF4FA9</object>
+        <object>4F7C8484-65614537-AC713B0F-C0434EC5</object>
+        <object>F7EBF0DC-C9D74A0D-AE4D3F37-6EDA1B98</object>
+        <object>7F734295-A7B3451A-B686B8A7-2E3ED6F5</object>
+        <object>7B9E270F-B1894189-8F1B3FBE-07A9A5B0</object>
+        <object>72FB8540-B2FC4444-8C44D216-2B06E10C</object>
+        <object>7B5F45E0-C3AC4C38-BF2F1F2C-4E2D51C8</object>
+        <object>3544ED33-4F97414E-B6819079-BF8E77A4</object>
+        <object>6BC29CA2-C91F4ACA-A2E4BED6-7E8B1D67</object>
+        <object>A5E98DC3-A1E3488C-A42ABC5B-A1AFDFD8</object>
+        <object>E5E04D84-901842E6-A9D28ED8-509E46EF</object>
+        <object>B4F86EBF-C84D4943-856D45F5-A97EB352</object>
+        <object>DF84576E-26554CBD-935EFB76-7A65E44B</object>
+        <object>1CEED5AA-5B864F82-A7F89ECF-C5B402C1</object>
+        <object>63FB0E91-09F74E30-87774B5B-81C56270</object>
+        <object>C9E3F128-35D04276-9DF9B542-AE37FAA3</object>
+        <object>7D7D9B0D-BD594E8B-A8B2AF85-045FA4A5</object>
+        <object>AE262EEC-0BF14CBC-982BBABD-477AF9D9</object>
+        <object>448B2B54-16614EB9-8B17D749-13A0526A</object>
+        <object>AFCA4A24-38E8409F-BAE68FCC-5566DC57</object>
+        <object>817FFC16-1C024CEA-97E85B7A-5B2879AC</object>
+        <object>A6C1B0CD-B9934056-9704E114-7281385C</object>
+        <object>4BAB1ED0-CEAB43F0-8B123F92-1FE5DFDF</object>
+        <object>BA4495E4-5BF54556-B6C295D5-00D2B99F</object>
+        <object>8D4F21B0-85B446FB-AB4611E8-E1D1973E</object>
+        <object>863280B2-04D541B0-86201C90-DF37CE77</object>
+        <object>88582178-ADB7483B-A2DA5584-108ED72C</object>
+        <object>324B9D3C-22594BF3-B98D01E6-54F48E50</object>
+        <object>BA809FAE-BF46492B-87F4DF93-5BF559CB</object>
+        <object>85FE2E35-46794F13-B2E5A60B-E6A121D4</object>
+        <object>34BF74A3-06954233-A123CF20-BE048156</object>
+        <object>812C510F-E9134B27-95F3F140-84D2A9E8</object>
+        <object>9991A200-EAC44B91-82051FB7-F020A1E3</object>
+        <object>C748D61F-C0C04D7D-9EE15D4F-98A7CEB4</object>
+        <object>EC1A1DB9-1DD740A9-9939A30C-558699E9</object>
+        <object>CE92D563-BD764777-B4F559CE-12634806</object>
+        <object>C99A202A-3EE74A15-98BD4EA2-DE0D6A02</object>
+        <object>B4E3F1BC-410543AE-979BFABD-6755BFB0</object>
+        <object>2AC6B73E-F0E84851-9D9234C9-BE142CBE</object>
+        <object>68589D16-F2954EE4-BCCB7425-D2E5AACE</object>
+        <object>6395C934-EFAB4A98-87FAE24C-01671F83</object>
+        <object>8DE28B8C-84BC49ED-8D8FE014-7B68E43B</object>
+        <object>5AAAFD4C-6A754615-914F3520-A7FB8330</object>
+        <object>A00A688F-2C5F4696-BB527AFA-2D9CB48C</object>
+        <object>562C96CB-92E64C26-B43288D6-7BE8486B</object>
+        <object>0EF4C555-14BD416B-A6B3AC31-A80D2F55</object>
+        <object>5D2C0186-1D9D471A-AE4D9FB2-778B1F71</object>
+        <object>171C7D4D-DC924521-86AFAA88-89E0D573</object>
+        <object>DF82BFDA-07684DAB-A9B50951-83645E9F</object>
+        <object>BE8A4AFE-0D7B4A38-A157AFC9-AA3604D1</object>
+        <object>4EB1D65A-84504571-AA3E4CE7-49EC4DD4</object>
+        <object>8BA2BE6F-AF894F4E-994D6E25-605AA05E</object>
+        <object>906A85F4-91254C04-94112014-6AD7A480</object>
+        <object>F8D58DDB-85844748-8B546614-A99BB155</object>
+        <object>9FE53866-06BF4EAF-8197BD6B-EA747A8F</object>
+        <object>6A9B9A03-9ABC4FAE-B15310C3-2C801D64</object>
+        <object>BFC8B0A1-2ECA434C-AF69C4D1-6B914064</object>
+        <object>934C83D3-74C94D16-9939CED7-130F6780</object>
+        <object>A0323AD2-8BEC4D45-909E39EB-1D51D45F</object>
+        <object>5D9ED899-FDA14C0C-993C4002-200607EF</object>
+        <object>A9230040-A7364E27-873FB61A-19C8B2E0</object>
+        <object>FE74558D-291A4394-B4CCCF48-3F044577</object>
+        <object>C52A4161-8AEF4A5F-8BC462FB-86B48364</object>
+        <object>1E75BF5C-1AB54E7F-BFC63F09-60AE8980</object>
+        <object>22371F3C-45694619-A304AD74-4C3C5FC8</object>
+        <object>DE507DB6-B5C444C8-AF319356-2ED7A346</object>
+        <object>7358B352-039C4671-A0C21CE6-8A4E488A</object>
+        <object>CEB028ED-293B4D26-B625E6B8-D6563611</object>
+        <object>9E540C72-1B4546A2-87095E27-3AB769B5</object>
+        <object>EA6840EB-4D8346DF-AEBF6988-0A97DDEF</object>
+        <object>DA0C116E-435740F2-9B025965-D388660B</object>
+        <object>E62EC58B-5D3A443B-B9FF949C-C4691C66</object>
+        <object>2D9D9FEA-010745C5-8ADBC607-892234CA</object>
+        <object>6D6433AF-63104861-BABB6E76-A0DBD37C</object>
+        <object>EBC149DA-10C34E32-A2F895E8-F5E80A61</object>
+        <object>67D84BDA-9B2D41AD-97CB6294-50F3C4B3</object>
+        <object>68985727-C5AC421F-BA24CE5D-B3A11AB9</object>
+        <object>0D89B51F-F0024C23-87C84395-103BB150</object>
+        <object>3CA400BB-F7EB4BBE-85CA42B0-97EB6AF8</object>
+        <object>5130E530-E42E4C69-B1380CAE-81DCABEC</object>
+        <object>86886805-D17E498E-B2319EF3-DC824449</object>
+        <object>993FD36D-859D4E76-83E23F7E-4EF0E5DC</object>
+        <object>D72794B6-435B4543-A9FCBA48-81B76B12</object>
+        <object>34F9EABC-FBC6405E-B63D40F4-0224812A</object>
+        <object>CB7FFEEE-A9414087-A9B90AB0-00E0239C</object>
+        <object>93183C2B-41E3433F-A8C66DB0-CB04EC87</object>
+        <object>DBC2DFD3-2BA04DDC-BB4A2E2C-F725D916</object>
+        <object>BA79F08A-29ED463B-A2509817-CC17CF6D</object>
+        <object>F5BD2320-9F244C35-A9D1707E-29814BB1</object>
+        <object>A37ABF9A-3C1240C7-93CF0BE9-101C9949</object>
+        <object>6D5F5F86-F5E54B45-AD60563A-76A115D8</object>
+        <object>26F333C2-8D634A60-81DA240E-3C75212C</object>
+        <object>F2FA12CB-2DA94911-8B8D0655-85E27301</object>
+      </node>
+    </node>
+    <node>
+      <header>
+        <name lang="en-GB">Furniture</name>
+        <thumbnail lang="en-GB" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Furniture_jp.dds</thumbnail>
+        <name lang="en-US">Ornaments</name>
+        <name lang="fr-FR">Décoration</name>
+        <name lang="de-DE">Verzierungen</name>
+        <name lang="it-IT">Decorazioni</name>
+        <name lang="es-ES">Adornos</name>
+        <name lang="ja-JP" default="true">家具</name>
+        <thumbnail lang="ja-JP" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Furniture_jp.dds</thumbnail>
+        <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        <name lang="ko-KR">장식품</name>
+        <name lang="en-SG">Ornaments</name>
+        <name lang="zh-HK">裝飾品</name>
+        <name lang="zh-TW">裝飾品</name>
+      </header>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">チェア</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Chairs.dds</thumbnail>
+          <name lang="ja-JP" default="true">チェア</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Chairs.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>83C214B2-07604A03-A31217B1-077A557E</object>
+        <object>88B5AF62-7C3F4614-A11ACC15-1DE18937</object>
+        <object>C7ECC413-C26D4BA5-93814C46-BA340B25</object>
+        <object>AEFBD08E-A1B34A92-88A7802E-7CC28A85</object>
+        <object>B7E5BAF3-EBF8431C-8A9FFE45-32958DA4</object>
+        <object>0AAF7362-35094402-86049FB4-87ABFD3C</object>
+        <object>FE239461-F635438D-B794ACB8-B64A8002</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">フットスツール</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/footstools.dds</thumbnail>
+          <name lang="ja-JP" default="true">フットスツール</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/footstools.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>DEE98DD9-DBEF47C7-ADE8E09F-E14297B8</object>
+        <object>FEFE84CB-39464D5A-A29623C6-83C4F48A</object>
+        <object>108CDAD6-88FF4225-926BF877-7197A87F</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">テーブル</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Tables.dds</thumbnail>
+          <name lang="ja-JP" default="true">テーブル</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Tables.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>F42499A0-8B2B4537-808EF46A-D9D36C6D</object>
+        <object>E9E35802-58CF4F84-900DE68F-797CA749</object>
+        <object>BA95F463-CF7744F9-A4D65AE1-664A4798</object>
+        <object>F50286F2-6FB74845-BB79FA4B-DB91F63F</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">ラグ</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Flooring.dds</thumbnail>
+          <name lang="ja-JP" default="true">ラグ</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Flooring.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>9AC9A180-59E34692-AFD85AB2-BD8A36BE</object>
+        <object>F3213FFB-51B84529-9F8541A6-BAAD4D70</object>
+        <object>B708897E-7CF04C9F-A166581E-9A28674D</object>
+        <object>F7AC0F96-934B4C85-A81C5105-147CF5B7</object>
+        <object>D9C99107-55774A69-A7C62325-666F2651</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">装飾品</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+          <name lang="ja-JP" default="true">装飾品</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>EBD496BC-9F0841E0-8DF7A7EC-56B3BD34</object>
+        <object>4B8D8B62-062E40D0-9A9795A7-630D8C23</object>
+        <object>4EA19C53-E4B940F2-B764776E-4923156C</object>
+        <object>19C475B5-9E5B47B0-907ACA8D-765D9DD9</object>
+        <object>46C7E4C9-A4084553-BE3890BD-C3D58E6F</object>
+        <object>96D780B4-404B4689-B4C867A6-95827DB9</object>
+        <object>854331E4-507B46D4-9954D356-8C8A3ED2</object>
+        <object>AEA1E61E-53164D35-AB49DB65-5C9B039E</object>
+        <object>C9BB7DEB-D7714F4F-853633E9-00188A4F</object>
+        <object>13902347-A94A43E4-B637D35C-8739155F</object>
+        <object>B67CC60D-5F324718-A1610DB1-466ABF64</object>
+        <object>99BE9C88-6EC34A86-BB90F468-D8553AF7</object>
+        <object>1B756BD0-230D419D-B9107CA0-92E6A331</object>
+        <object>0CF7ED6C-F6F04521-9F30F61B-E7CBDE70</object>
+        <object>B32EFFEF-CC174DEA-AD16579C-B74BB58B</object>
+        <object>3417C351-AB1B443C-B6C16D61-33A273FE</object>
+        <object>2BE8B4B9-EEAC43B2-A9521E7F-AA454545</object>
+        <object>70360119-C4344FCC-86F4BD1F-AEF7FE1E</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">照明器具</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Lights.dds</thumbnail>
+          <name lang="ja-JP" default="true">照明器具</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Lights.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>FA86D579-C4DE4D2E-9BA1E2A9-9D9B0BCF</object>
+        <object>FACBF3F8-FFA447F5-B79DAB47-4F5BD513</object>
+        <object>A44FBA39-FC6D47C9-B46D5BE4-EFAC70A1</object>
+        <object>DCC100BA-5AC0440B-94CB7F37-8AE64B90</object>
+        <object>C695FF6F-88B14B66-BEA1D973-FE1B2A61</object>
+        <object>8297F342-3ECF489F-93224D85-125C820A</object>
+        <object>F85CFAEF-316F402E-AE9FDE5E-771C635B</object>
+        <object>D0770B54-88B141B6-A7869B77-07890F4C</object>
+        <object>FFDBB4F6-D5154227-98DD0497-04FBBD30</object>
+        <object>106DD9C4-000A48BF-9C9CCA59-DDAC73FE</object>
+        <object>6220FEC9-39424848-9F546755-DC72BA8F</object>
+        <object>1C911C3E-9B204867-990BFA70-E7E7A841</object>
+        <object>8E3E0267-143A4C11-9AE7DBCA-85E0534F</object>
+        <object>EB316AA6-F99E44BB-9625ABDB-36C60D9C</object>
+        <object>38F2F89A-0C454B90-B0F8E053-196D90E5</object>
+        <object>ABAAC215-90974619-A7083DD6-BC63A0FD</object>
+        <object>B7B3D05E-600F41E1-965CC801-7400CFE3</object>
+        <object>2E8A698B-12F140B1-AE102A2E-3D968AC7</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">ソファー</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Sofas.dds</thumbnail>
+          <name lang="ja-JP" default="true">ソファー</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Sofas.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>F59F9197-DCF242E7-BA1B83AE-37935381</object>
+        <object>2657DC01-12244DF6-930579A6-A4B36BB4</object>
+        <object>D9F72C79-95AB4E61-BBE70971-6B2FD22B</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">家電・器具</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_appliances.dds</thumbnail>
+          <name lang="ja-JP" default="true">家電・器具</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_appliances.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>65FD7D8F-2E34450D-9FCC311D-55CAE107</object>
+        <object>1E09DBB2-E6F94CD2-B3CD881C-541A2AD0</object>
+        <object>727E3D5C-E2B64D6A-B21C509C-94624265</object>
+        <object>E0DC0D52-172A4EE5-AA393B3C-54223366</object>
+        <object>1D80DFFF-75CB4527-839D7299-3F21C9AD</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">セットアイテム</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Setsales_jp.dds</thumbnail>
+          <name lang="ja-JP" default="true">セットアイテム</name>
+          <thumbnail lang="ja-JP" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Setsales_jp.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>80861A67-703E40F4-A3F464B4-E071A431</object>
+        <object>BCD20ED8-57FA4AC5-83997035-B45AC34C</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">Sodium One</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Sodium1_jp.png</thumbnail>
+          <name lang="ja-JP" default="true">Sodium One</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Sodium1_jp.png</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>65FD7D8F-2E34450D-9FCC311D-55CAE107</object>
+        <object>83C214B2-07604A03-A31217B1-077A557E</object>
+        <object>88B5AF62-7C3F4614-A11ACC15-1DE18937</object>
+        <object>C7ECC413-C26D4BA5-93814C46-BA340B25</object>
+        <object>9AC9A180-59E34692-AFD85AB2-BD8A36BE</object>
+        <object>F3213FFB-51B84529-9F8541A6-BAAD4D70</object>
+        <object>B708897E-7CF04C9F-A166581E-9A28674D</object>
+        <object>F7AC0F96-934B4C85-A81C5105-147CF5B7</object>
+        <object>D9C99107-55774A69-A7C62325-666F2651</object>
+        <object>96D780B4-404B4689-B4C867A6-95827DB9</object>
+        <object>4B8D8B62-062E40D0-9A9795A7-630D8C23</object>
+        <object>4EA19C53-E4B940F2-B764776E-4923156C</object>
+        <object>19C475B5-9E5B47B0-907ACA8D-765D9DD9</object>
+        <object>46C7E4C9-A4084553-BE3890BD-C3D58E6F</object>
+        <object>854331E4-507B46D4-9954D356-8C8A3ED2</object>
+        <object>AEA1E61E-53164D35-AB49DB65-5C9B039E</object>
+        <object>C9BB7DEB-D7714F4F-853633E9-00188A4F</object>
+        <object>A44FBA39-FC6D47C9-B46D5BE4-EFAC70A1</object>
+        <object>FACBF3F8-FFA447F5-B79DAB47-4F5BD513</object>
+        <object>FA86D579-C4DE4D2E-9BA1E2A9-9D9B0BCF</object>
+        <object>F42499A0-8B2B4537-808EF46A-D9D36C6D</object>
+        <object>AEFBD08E-A1B34A92-88A7802E-7CC28A85</object>
+        <object>13902347-A94A43E4-B637D35C-8739155F</object>
+        <object>B67CC60D-5F324718-A1610DB1-466ABF64</object>
+        <object>99BE9C88-6EC34A86-BB90F468-D8553AF7</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">Lockwood</name>
+          <thumbnail lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Lockwood_jp.png</thumbnail>
+          <name lang="ja-JP" default="true">Lockwood</name>
+          <thumbnail lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Lockwood_jp.png</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+        </header>
+        <object>EBD496BC-9F0841E0-8DF7A7EC-56B3BD34</object>
+        <object>1B756BD0-230D419D-B9107CA0-92E6A331</object>
+        <object>0CF7ED6C-F6F04521-9F30F61B-E7CBDE70</object>
+        <object>B32EFFEF-CC174DEA-AD16579C-B74BB58B</object>
+        <object>80861A67-703E40F4-A3F464B4-E071A431</object>
+        <object>BCD20ED8-57FA4AC5-83997035-B45AC34C</object>
+        <object>DCC100BA-5AC0440B-94CB7F37-8AE64B90</object>
+        <object>C695FF6F-88B14B66-BEA1D973-FE1B2A61</object>
+        <object>8297F342-3ECF489F-93224D85-125C820A</object>
+        <object>F85CFAEF-316F402E-AE9FDE5E-771C635B</object>
+        <object>D0770B54-88B141B6-A7869B77-07890F4C</object>
+        <object>FFDBB4F6-D5154227-98DD0497-04FBBD30</object>
+        <object>106DD9C4-000A48BF-9C9CCA59-DDAC73FE</object>
+        <object>6220FEC9-39424848-9F546755-DC72BA8F</object>
+        <object>1C911C3E-9B204867-990BFA70-E7E7A841</object>
+        <object>8E3E0267-143A4C11-9AE7DBCA-85E0534F</object>
+        <object>EB316AA6-F99E44BB-9625ABDB-36C60D9C</object>
+        <object>38F2F89A-0C454B90-B0F8E053-196D90E5</object>
+        <object>1E09DBB2-E6F94CD2-B3CD881C-541A2AD0</object>
+        <object>B7E5BAF3-EBF8431C-8A9FFE45-32958DA4</object>
+        <object>3417C351-AB1B443C-B6C16D61-33A273FE</object>
+        <object>DEE98DD9-DBEF47C7-ADE8E09F-E14297B8</object>
+        <object>ABAAC215-90974619-A7083DD6-BC63A0FD</object>
+        <object>F59F9197-DCF242E7-BA1B83AE-37935381</object>
+        <object>E9E35802-58CF4F84-900DE68F-797CA749</object>
+        <object>727E3D5C-E2B64D6A-B21C509C-94624265</object>
+        <object>0AAF7362-35094402-86049FB4-87ABFD3C</object>
+        <object>2BE8B4B9-EEAC43B2-A9521E7F-AA454545</object>
+        <object>FEFE84CB-39464D5A-A29623C6-83C4F48A</object>
+        <object>B7B3D05E-600F41E1-965CC801-7400CFE3</object>
+        <object>2657DC01-12244DF6-930579A6-A4B36BB4</object>
+        <object>BA95F463-CF7744F9-A4D65AE1-664A4798</object>
+        <object>E0DC0D52-172A4EE5-AA393B3C-54223366</object>
+        <object>FE239461-F635438D-B794ACB8-B64A8002</object>
+        <object>70360119-C4344FCC-86F4BD1F-AEF7FE1E</object>
+        <object>108CDAD6-88FF4225-926BF877-7197A87F</object>
+        <object>2E8A698B-12F140B1-AE102A2E-3D968AC7</object>
+        <object>D9F72C79-95AB4E61-BBE70971-6B2FD22B</object>
+        <object>F50286F2-6FB74845-BB79FA4B-DB91F63F</object>
+        <object>1D80DFFF-75CB4527-839D7299-3F21C9AD</object>
+      </node>
+    </node>
+  </node>
+</commerce_point>

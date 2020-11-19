@@ -1,0 +1,306 @@
+<commerce_point>
+  <node>
+      <header>
+        <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/stars_bg_scee.png</background>
+   </header>
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Featured Items</name>
+        <name lang="fr-FR" >Notre sélection</name>
+        <name lang="it-IT" >Selezione speciale</name>
+        <name lang="de-DE" >Im Rampenlicht</name>
+        <name lang="es-ES" >Selección especial</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/newitems_scea.dds</thumbnail>
+        <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/stars_bg_scee.png</background>
+      </header>
+         <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Playstation®Home</name>
+        <name lang="fr-FR" >Playstation®Home</name>
+        <name lang="it-IT" >Playstation®Home</name>
+        <name lang="de-DE" >Playstation®Home</name>
+        <name lang="es-ES" >Playstation®Home</name>
+        <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/HomeStore.png</thumbnail>
+        <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/stars_bg_scee.png</background>
+      </header>
+        <!-- Checkers -->
+        <object>657CF753-A11A4082-8BF4EC6D-5D9346F0</object>
+        <object>501664A1-951E4CF5-A7C3E343-3581D4D6</object>
+        <object>C69DAF52-E02A4835-8B6D4B7B-7C8C1DE0</object>
+        <object>4EF3DE0D-3E6442D0-8679FED6-F4832B6F</object>
+        <object>3964377E-06B54F36-A27A4628-948DC59B</object>
+     </node>
+     <node>
+      <header>
+          <name lang="en-GB" default="true">Paris Clock Tower</name>
+          <name lang="fr-FR" >Appartement parisien dans un clocher</name>
+          <name lang="de-DE" >Pariser Turm-Apartment</name>
+          <name lang="it-IT" >Appartamento torre dell'orologio di Parigi</name>
+          <name lang="es-ES" >Apartamento torre del reloj de París</name>
+        <thumbnail lang="en-GB" default="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/parisapt_scee.png</thumbnail>
+     <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/stars_bg_scee.png</background>
+      </header>
+       <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Personal Space</name>
+          <name lang="fr-FR" >Espace personnel</name>
+          <name lang="it-IT" >Spazio personale</name>
+          <name lang="de-DE" >Home-Apartment</name>
+          <name lang="es-ES" >Espacio personal</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/apartment_scee.dds</thumbnail>
+             <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/stars_bg_scee.png</background>
+        </header>
+        <!-- Paris Clocktower-->
+		<object>2A90AC9C-35EE4A9D-B9C2DA00-7B5BB1E8</object>
+	  </node>
+       <node type="objects">
+				<header>
+			      <name lang="en-GB" default="true">Bundles</name>
+			      <name lang="fr-FR" >Paquets</name>
+			      <name lang="it-IT" >Pacchi</name>
+			      <name lang="de-DE" >Bündel</name>
+			      <name lang="es-ES" >Paquetes</name>
+				  <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/value_packs.dds</thumbnail>
+             <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/stars_bg_scee.png</background>
+				</header>
+	    <object>A4E05E88-84BD499D-A716EC43-8505BCFC</object>
+        <object>BB3F5B8E-98B14610-9AD12146-136277D3</object>
+        <object>36E66E36-A7554F5B-86404B4D-17AF7F67</object>
+        <object>C480D872-CFD942DF-AEBB7E74-2D8B38A8</object>
+        <object>28F5F3C9-1EAB47B5-BDF7B890-A2B9CA09</object>
+        <object>7A613A5D-36014D9A-98E8295F-6C82C250</object>
+        <object>9481E063-20AE4378-8B061DE9-D003FB62</object>
+        <object>E0F3F446-648E4807-8D53AB08-2D809BCD</object>
+        <object>6F9943C4-86EE44AB-A6EFDC2F-CF77AB12</object>
+        <object>9B2C3D65-4A814739-B70E3D27-A6A2B89B</object>
+       </node>
+       <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Chairs</name>
+        <name lang="fr-FR" >Chaises</name>
+        <name lang="it-IT" >Sedie</name>
+        <name lang="de-DE" >Stühle</name>
+        <name lang="es-ES" >Sillas</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Category_Chairs.dds</thumbnail>
+             <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/stars_bg_scee.png</background>
+      </header>
+        <object>469B9B15-D9D74325-9C7D0103-D3C25F0B</object>
+        <object>59790D46-E6D74085-85BD6C3C-E0A52406</object>
+        <object>DA45564F-8A324E9D-81A625FA-BD645C08</object>
+        <object>81577707-860C45C4-AE81FC80-F54CE1E2</object>
+        <object>CBF77093-CF2946E4-BC7A0100-DEEEF3E7</object>
+
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Tables</name>
+        <name lang="fr-FR" >Tables</name>
+        <name lang="it-IT" >Tavoli</name>
+        <name lang="de-DE" >Tische</name>
+        <name lang="es-ES" >Mesas</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Category_Tables.dds</thumbnail>
+           <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/stars_bg_scee.png</background>
+      </header>
+        <object>40F23EE0-4A914C17-9DD49942-C6F1F5B0</object>
+        <object>0D06EDC3-9E164D74-867A2CC9-722801B3</object>
+        <object>B7E23005-98494262-B411E745-EE91EF72</object>
+        <object>FBD5FBD5-30A34FC5-9E6D7B51-6C9B2A62</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Sofas</name>
+        <name lang="fr-FR" >Canapés</name>
+        <name lang="it-IT" >Divani</name>
+        <name lang="de-DE" >Sofas</name>
+        <name lang="es-ES" >Sofás</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Category_Sofas.dds</thumbnail>
+             <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/stars_bg_scee.png</background>
+      </header>
+        <object>A81B521A-312E49B9-B9DADC78-F9078A27</object>
+        <object>B0BF92E7-7CC14FFB-A5BA8AF2-EB96447E</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Containers</name>
+        <name lang="fr-FR" >Rangements</name>
+        <name lang="it-IT" >Bauli</name>
+        <name lang="de-DE" >Aufbewahrung</name>
+        <name lang="es-ES" >Almacenamiento</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Category_Storage.dds</thumbnail>
+             <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/stars_bg_scee.png</background>
+      </header>
+      <object>594EE087-EE6C4A9E-845D165C-BD50ADFA</object>
+      <object>236442BB-62CC4973-AE5FEA00-C05CD970</object>
+    </node>
+     <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Lighting</name>
+        <name lang="fr-FR" >Éclairage</name>
+        <name lang="it-IT" >Luci</name>
+        <name lang="de-DE" >Lampen</name>
+        <name lang="es-ES" >Luz</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Category_Lights.dds</thumbnail>
+             <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/stars_bg_scee.png</background>
+      </header>
+        <object>0E9F3BB9-18CF4E0D-9ACE2819-2393331F</object>
+        <object>232E794B-06E94E92-BCA0C5F1-CE6E6E71</object>
+    </node>
+        <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Ornaments</name>
+        <name lang="fr-FR" >Décoration</name>
+        <name lang="it-IT" >Decorazioni</name>
+        <name lang="de-DE" >Verzierungen</name>
+        <name lang="es-ES" >Adornos</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+             <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/stars_bg_scee.png</background>
+      </header>
+        <object>3D47F9D5-F6BE41D2-A8CC40A7-427A8420</object>
+        <object>035EA0F2-2F08432C-9780822A-3624782D</object>
+        <object>7FAFBFDF-68054E0D-A9D112E1-9DA2AD8A</object>
+        <object>435C3863-8DFE461A-9ED9D66B-57D56DA6</object>
+        <object>509DAF92-6A5C48EE-B0FC0BB3-D2F95E77</object>
+        <object>5EB7B6D2-98B142E8-94F3A218-978D780D</object>
+        <object>1C5CA84D-FB624D21-ADA2ED9A-7CCFE14B</object>
+        <object>67CA4024-7E6E4850-A627B713-95F21C5D</object>
+        <object>A851DC18-0206432C-AD9EED95-9CBAF43A</object>
+        <object>9695BEAC-34B246C7-88CB48E5-752C15FC</object>
+        <object>01FE00D6-DDE54B74-A445F7AA-4BD448CD</object>
+        <object>11A11785-28AA4533-AFA1C49F-FCA30DE1</object>
+        <object>AFEF40EB-9E0E4174-91C55781-722835EB</object>
+        <object>C6F7ACF0-55DE44AE-9CEC7818-0154F8F0</object>
+        <object>C9637889-163943F2-92D6D23F-0E2573A8</object>
+        <object>8A47077B-2F4748E7-BF52FAFD-2593F748</object>
+        <object>8F53676B-B73A44C9-8385A226-133966B3</object>
+        <object>CCCC41E9-36DC46F9-B8F1DE65-3EB7E3F2</object>
+        <object>FD7352A5-62924303-9FBF9C58-0C87C03A</object>
+        <object>7FE9290D-8F7E449A-BC673777-BE435B4C</object>
+        <object>356C0F65-FDF4400D-87AE22BD-5C228BF4</object>
+        <object>FF820395-1EE943F0-B21AB485-C884D1A7</object>
+        <object>B9630FEE-935F46AF-969686F8-90AB0490</object>
+        <object>49FBDCC5-8F2349F2-8855F956-539105D2</object>
+        <object>A7875638-90684039-AAA986D2-6BE467AF</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Flooring</name>
+        <name lang="fr-FR" >Sol</name>
+        <name lang="it-IT" >Pavimento</name>
+        <name lang="de-DE" >Fußböden</name>
+        <name lang="es-ES" >Revestimiento para suelo</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Category_Flooring.dds</thumbnail>
+        <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/stars_bg_scee.png</background>
+      </header>
+        <object>CBFEE4D8-98C9443F-B838F778-C9C67C60</object>
+    </node>
+     </node>
+   <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Lockwood</name>
+        <name lang="fr-FR" >Lockwood</name>
+        <name lang="it-IT" >Lockwood</name>
+        <name lang="de-DE" >Lockwood</name>
+        <name lang="es-ES" >Lockwood</name>
+        <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Lockwood.png</thumbnail>
+        <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/stars_bg_scee.png</background>
+      </header>
+        <!-- Admiral and Officer F -->
+        <object>2BB06ABE-1B09413A-91A108C8-63DAB1CA</object>
+        <object>29BCA6C4-1A6E4611-A8A70ADD-903E7FF1</object>
+        <!-- Baron's Eggcellent Plan -->
+        <object>1865E768-EBD54172-920F987F-509C4377</object>
+        <!-- Neon Furniture -->
+        <object>0BB7906B-1D1F4012-8FD044B5-A0DB11D8</object>
+        <object>968486D9-978F41EE-844141BC-F087EBEC</object>
+        <object>D9594BC2-DA7E4CEB-8C18A25D-939DE736</object>
+        <object>3417C351-AB1B443C-B6C16D61-33A273FE</object>
+        <object>DEE98DD9-DBEF47C7-ADE8E09F-E14297B8</object>
+        <object>727E3D5C-E2B64D6A-B21C509C-94624265</object>
+        <object>E9E35802-58CF4F84-900DE68F-797CA749</object>
+        <object>F59F9197-DCF242E7-BA1B83AE-37935381</object>
+        <object>B7E5BAF3-EBF8431C-8A9FFE45-32958DA4</object>
+        <object>ABAAC215-90974619-A7083DD6-BC63A0FD</object>
+        <object>1D80DFFF-75CB4527-839D7299-3F21C9AD</object>
+        <object>70360119-C4344FCC-86F4BD1F-AEF7FE1E</object>
+        <object>108CDAD6-88FF4225-926BF877-7197A87F</object>
+        <object>F50286F2-6FB74845-BB79FA4B-DB91F63F</object>
+        <object>D9F72C79-95AB4E61-BBE70971-6B2FD22B</object>
+        <object>FE239461-F635438D-B794ACB8-B64A8002</object>
+        <object>2E8A698B-12F140B1-AE102A2E-3D968AC7</object>
+        <object>E0DC0D52-172A4EE5-AA393B3C-54223366</object>
+        <object>2BE8B4B9-EEAC43B2-A9521E7F-AA454545</object>
+        <object>FEFE84CB-39464D5A-A29623C6-83C4F48A</object>
+        <object>BA95F463-CF7744F9-A4D65AE1-664A4798</object>
+        <object>2657DC01-12244DF6-930579A6-A4B36BB4</object>
+        <object>0AAF7362-35094402-86049FB4-87ABFD3C</object>
+        <object>B7B3D05E-600F41E1-965CC801-7400CFE3</object>
+   </node>
+   <node type="objects">
+				<header>
+			      <name lang="en-GB" default="true">Heavy Water</name>
+			      <name lang="fr-FR" >Heavy Water</name>
+			      <name lang="it-IT" >Heavy Water</name>
+			      <name lang="de-DE" >Heavy Water</name>
+			      <name lang="es-ES" >Heavy Water</name>
+				  <thumbnail lang="en-GB" default="true" > [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/heavywater_scee.png</thumbnail>
+        <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/stars_bg_scee.png</background>
+				</header>
+				<!-- Heavy Ink F -->
+	    <object>5E4F2FDA-13E348D1-9B896B26-2127F81B</object>
+        <object>D8B19CD0-E44B43B2-9B8AD2EE-37A3E1CF</object>
+        <object>EB01DEF0-50784310-B6F980BC-B60973FB</object>
+        </node>
+        <node>
+			<header>
+				  <name lang="en-GB" default="true">Futurlab</name>
+				  <name lang="fr-FR" >Futurlab</name>
+				  <name lang="it-IT" >Futurlab</name>
+				  <name lang="de-DE" >Futurlab</name>
+				  <name lang="es-ES" >Futurlab</name>
+				  <thumbnail lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/PS_HOME_FUTURLAB_CHIP.png</thumbnail>
+        <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/stars_bg_scee.png</background>
+				</header>
+	<node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="fr-FR" >Homme</name>
+        <name lang="it-IT" >Maschio</name>
+        <name lang="de-DE" >Männlich</name>
+        <name lang="es-ES" >Hombre</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+        <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/stars_bg_scee.png</background>
+      </header>
+		<!--Viking Helmet-->
+        <object>3420DF9D-5AF448CA-BB20085E-0C40DA1B</object>
+		<!--Coconut Hat-->
+        <object>1F13E58B-6D31438E-96473142-6E06D5B5</object>
+         <!--Crab_A_Hold Left Earring-->
+         <object>5A0FB61E-DBF44857-8A6E6432-19ED0C72</object>
+		 <!--Giant Ruby Left Earring-->
+         <object>083AD76A-BCF44C42-B5F1BECA-9DECFC1D</object>
+		 <!--Giant Ruby Right Earring M-->
+        <object>BD57EA47-7AEC4060-B088414C-EE2720F2</object>
+</node>	
+   <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR" >Femme</name>
+        <name lang="it-IT" >Femmina</name>
+        <name lang="de-DE" >Weiblich</name>
+        <name lang="es-ES" >Mujer</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+        <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/stars_bg_scee.png</background>
+      </header>
+		<!--Viking Helmet-->
+        <object>16D4F354-258A4E43-A1BB15C6-01BDFEDB</object>
+		<!--Coconut Hat-->
+        <object>C87E5627-DB7647A7-8D5294A0-11475F31</object>
+         <!--Crab_A_Hold Left Earring-->
+         <object>2D4E6567-9B6446D9-953D024B-BF444353</object>
+		 <!--Giant Ruby Left Earring-->
+         <object>DD2A8BDC-7300406E-88F7BA51-303167F0</object>
+    </node>	   
+    </node>							
+</node>
+</node>
+</commerce_point>

@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header>
+	<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/exclusives_background1.dds</background>
+    </header>
+	<node> <!-- Premium -->
+	  <header>
+        <name lang="en-US" default="true" useOsdColour="true">Premium</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/exclusives.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/exclusives_background1.dds</background>
+	  </header>
+		<node type="objects"> <!-- Value Packs -->
+          <header>
+			<name lang="en-US" default="true">Value Packs</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/value_packs.dds</thumbnail>
+			<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/exclusives_background1.dds</background> 
+          </header>
+		    <object>FE54D998-33574E37-AACBC869-76BE6263</object> <!-- 11/11/10 -->
+			<object>57AFE357-EEE24BDB-824E41E2-A9273F84</object> <!-- 10/14/10 -->
+		</node>
+	  <node type="objects"> <!-- Male -->
+        <header>
+          <name lang="en-US" default="true">Male</name>
+          <name lang="fr-FR">Homme</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/exclusives_background1.dds</background>
+		</header>
+		  <object>84E99F0C-6B4A4A28-BD532E6E-C11A63C0</object> <!-- 11/11/10 -->
+		  <object>C4CCB618-F3A34F85-9612E532-9847A7F9</object> <!-- 11/11/10 -->
+		  <object>D38B5A82-E8444232-994DE17F-85E8D097</object>
+	  </node>
+	  <node type="objects"> <!-- Female -->
+        <header>
+          <name lang="en-US" default="true">Female</name>
+          <name lang="fr-FR">Femme</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/exclusives_background1.dds</background>
+        </header> 
+		  <object>3935634D-826E497C-820D98A1-F19C8A12</object> <!-- 11/11/10 -->
+		  <object>417B3AAE-4C8F4EFA-A8B31880-0DC224F7</object> <!-- 11/11/10 -->
+		  <object>3929B797-F463433E-84248156-CC329970</object>  
+	  </node> 
+	</node>
+      <node type="objects"> <!-- Personal Space -->
+        <header>
+          <name lang="en-US" default="true">Personal Space</name>
+          <name lang="fr-FR" >Espace personnel</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/estates_scea.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/exclusives_background1.dds</background> 
+        </header>
+		  <!-- Mansion First Floor -->
+		  <object>28ADC591-B63448AC-B326E5DF-FC17A223</object> <!-- 01/06/11 -->
+	  </node>
+	<node type="objects"> <!-- Entertainment -->
+	  <header>
+		<name lang="en-US" default="true">Entertainment (Appliances)</name>
+		<name lang="fr-FR" >Divertissement (Appareils)</name>
+		<thumbnail lang="en-US" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_appliances.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/exclusives_background1.dds</background>  
+	  </header>
+	    <object>44025891-ED364BB7-AA476DBD-EACBA501</object> <!-- 1/20/11 -->
+		<object>AB03C480-61614F61-9CC426A5-B6BFBA68</object> <!-- 1/20/11 -->
+		<object>85CD1D02-18914DEE-99F2237D-CB4F0EB1</object> <!-- 1/20/11 -->
+		<object>B4F4E19D-AE74430E-B629B96F-4EBED6F2</object> <!-- 1/20/11 -->
+		<object>95CE34A5-8FA24774-A3943807-595CC655</object> <!-- 1/20/11 -->
+		<object>5ECAD541-FA7D4DB4-8F487701-B7B62FB6</object> <!-- 1/20/11 -->
+		<object>8834BCD5-51664A15-AA764211-E5DB9E97</object> <!-- 1/20/11 -->
+
+		<object>DB118089-86754ED3-9AF84294-712DE98B</object> <!-- 12/23/10 -->
+		<object>0CF1F556-A3C645BC-82A29E68-31C8DD32</object> <!-- 12/23/10 -->
+		<object>767FFEFB-2DA54A70-8300B330-0FAD3171</object> <!-- 12/23/10 -->
+		<object>B2CD6B0B-1C8D4233-A8B45689-AFF02A1E</object> <!-- 12/23/10 -->
+
+		<object>F4058055-F8484203-BFBD526A-53506589</object> <!-- 12/16/10 -->
+		<object>5B9BCC58-E794496A-B10A027C-DAFB1C19</object> <!-- 12/16/10 -->
+
+	    <object>E8B24919-E7154EA5-A440B169-3AB5F77B</object> <!-- 12/16/10 -->
+		<object>8C35FB24-37484D8E-8D70B4CF-2BF192D9</object> <!-- 12/16/10 -->
+		<object>B2420855-2CA44520-8D444845-E9E8BDC0</object> <!-- 12/9/10 -->
+		<object>F29812BA-5AE74843-B45C0860-C5226F18</object> <!-- 12/9/10 -->
+		<object>5CDFCBA1-221544CA-8B8BA512-285E7F5B</object> <!-- 12/9/10 -->
+	    <object>F2BDEF82-0B1A416B-9C93A85F-FB452539</object> <!-- 11/4/10 -->
+	    <object>1453FE23-DFF5483F-A07BEFC4-122AC7C8</object> <!-- 10/28/10 -->
+		<object>F7D4B4D4-81AD4526-A68F3B6E-C41DA86E</object> <!-- 10/28/10 -->
+		<object>FDF80D8F-FA104E48-918DBE6E-DFA33861</object> <!-- 10/28/10 -->
+		<object>B54B6E47-C6CD4B5D-AE09FBAB-771B5A8C</object> <!-- 10/28/10 -->
+		
+		<object>D7F8F326-67834D37-AF49FBEA-2317264B</object> <!-- 10/21/10 -->
+		<object>3C41C918-3A1B4679-B91056E2-F4304231</object> <!-- 10/21/10 -->
+		<object>F797A95F-C1654663-AF370705-E589A5F0</object> <!-- 10/21/10 -->
+		<object>1F82449F-70A4419F-924F6415-801FBD9E</object> <!-- 10/21/10 -->
+		<object>2615B3FB-75D84920-892053DC-8E3BEFBC</object> <!-- 10/21/10 -->
+	    <object>4D59921F-274F45D3-A82DEC24-A4BE49D8</object> <!-- 9/30/10 -->
+	    <object>1038B1F1-D9F3480B-91125EB4-882567C7</object> <!-- 8/12/10 -->
+		<object>1BF3290C-E58047BF-95BA8CE5-4A252B13</object> <!-- 8/12/10 -->
+		<object>0B34EE6D-1C7D4DE4-A351B8B3-C8579D20</object> <!-- 8/12/10 -->
+		<object>BDC345A5-A75E4029-8D1EE48C-1868EEC7</object> <!-- 8/12/10 -->
+		<object>A77E7461-AF684C59-BEBEE39E-B9ACF121</object> <!-- 8/12/10 -->
+	    <object>E34A137B-35304C8A-86D8804B-261FF6B6</object> <!-- 8/12/10 -->
+		<object>83D18196-DBB9400F-BC066593-7B18311A</object> <!-- 7/1/10 -->
+		<object>11837619-BBE14BA4-9511F580-379727E3</object> <!-- Boombox Radio -->
+	</node>
+	<node> <!-- Arcade -->
+      <header>
+        <name lang="en-US" default="true">Games (Appliances)</name>
+	    <name lang="fr-FR">Jeux (Appareils)</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/arcade.dds</thumbnail>
+	    <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/exclusives_background1.dds</background>		
+      </header>
+	  <node type="objects"> <!-- Arcade -->
+        <header>
+          <name lang="en-US" default="true">Games (Appliances)</name>
+	      <name lang="fr-FR">Jeux (Appareils)</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/arcade.dds</thumbnail>
+	      <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/exclusives_background1.dds</background>		
+        </header>
+		  <object>D619F591-03DE4B60-BC01BF0C-47A609CF</object> <!-- 1/13/11 -->
+		  <object>60E8CABA-70E24819-87F0AC4E-9B42363F</object> <!-- 1/13/11 -->
+		  <object>E278013F-67444757-BB478237-1F178C8D</object> <!-- 1/13/11 -->
+		  <object>EF3928AA-CA9843C2-B978BB8B-6E37EAC1</object> <!-- 1/13/11 -->
+		  <object>8F8B97F0-C6D141D0-832640B4-CDF269DD</object> <!-- 1/13/11 -->
+
+	  	<object>657CF753-A11A4082-8BF4EC6D-5D9346F0</object> <!-- 01/06/11 -->
+	  	<object>501664A1-951E4CF5-A7C3E343-3581D4D6</object> <!-- 01/06/11 -->
+	  	<object>C69DAF52-E02A4835-8B6D4B7B-7C8C1DE0</object> <!-- 01/06/11 -->
+	  	<object>4EF3DE0D-3E6442D0-8679FED6-F4832B6F</object> <!-- 01/06/11 -->
+	  	<object>3964377E-06B54F36-A27A4628-948DC59B</object> <!-- 01/06/11 -->
+	  	<object>4F269B85-34CB4615-99080E5E-1C6ADBFC</object> <!-- 12/23/10 -->
+	  	<object>4436A967-8B7C419D-9AD37BAB-3FA136F7</object> <!-- 12/23/10 -->
+	  	<object>23052E0D-D9C54F4E-9FA63EF4-52952F41</object> <!-- 12/23/10 -->
+	  	<object>4A6B28FF-1E9044B7-91AEE3D5-E9F21740</object> <!-- 12/23/10 -->
+	  	<object>4BD0B039-D06241DB-89024A65-97F0536F</object> <!-- 12/23/10 -->
+	      <object>E117152A-795249C5-B69EC7CF-578857D8</object> 
+	      <object>A294A886-F4AD4FB8-A309A8C7-0968FE50</object> 
+	  	<object>6762A673-1B144428-8E87950D-1260BC6B</object> <!-- 7/15/10 -->
+	  	<object>0B25F05D-B12B4356-891DB76F-B7FC0316</object> <!-- 7/15/10 -->
+	  	<object>42ABEBA2-33EB4755-8EF9514E-FAE075BA</object> <!-- 7/15/10 -->
+	  	<object>2FDCE747-EA004FE2-AC98F299-45D437BF</object> 
+	  	<object>839C1BF1-C4F44A9E-B11EE669-CF075D97</object> 
+	  	
+	  </node>
+	  <node> <!-- Novus Prime -->
+		<header>
+          <name lang="en-US" default="true">Novus Prime</name>
+          <name lang="fr-FR">Novus Prime</name>
+          <thumbnail lang="en-US" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/novusprime_scea.png</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background> 
+        </header>
+	    <node type="objects">
+            <header>
+              <name lang="en-US" default="true">Clothing</name>
+              <name lang="fr-FR" default="true">Tenues</name>
+              <thumbnail lang="en-US" default="true" useOsdColour="false">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Clothing1_scea.png</thumbnail>
+	            <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+            </header>
+	          <object>7E5CF0A0-8B744411-A81409AE-90680803</object>
+		      <object>B4083653-79254E21-9026222D-52A4B575</object>
+		      <object>EF399B2B-D7BB496A-8A571022-9AB4FE59</object>
+		      <object>ACC7CCC0-24814859-B3483943-CB8CEA0F</object>
+		      <object>A5E4BC14-F0EB46E6-BA801547-88E70EFF</object>
+		  	<object>8C0CA0AE-B5C1448F-90344B94-2CF2060B</object>
+        </node>
+	    <node type="objects"> <!-- Paint-jobs -->
+	      <header>
+		    <name lang="en-US" default="true">Paint-jobs</name>
+		    <name lang="fr-FR" default="true">Peintures de guerre</name>
+            <thumbnail lang="en-US" default="true" useOsdColour="false">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Paintjobs.png</thumbnail>
+            <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+	      </header>
+		    <object>ACC7CCC0-24814859-B3483943-CB8CEA0F</object>
+		    <object>B4083653-79254E21-9026222D-52A4B575</object>
+		    <object>EF399B2B-D7BB496A-8A571022-9AB4FE59</object>
+	    </node>
+	    <node type="objects">
+          <header>
+            <name lang="en-US" default="true">Ships</name>
+            <name lang="fr-FR" default="true">Vaisseaux</name>
+            <thumbnail lang="en-US" default="true" useOsdColour="false">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Ships1_scea.png</thumbnail>
+            <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+          </header>
+	        <object>A5E4BC14-F0EB46E6-BA801547-88E70EFF</object>
+	    </node>
+	    <node type="objects">
+          <header>
+            <name lang="en-US" default="true">Companions</name>
+            <thumbnail lang="en-US" default="true" useOsdColour="false">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/npcompanions_scea.png</thumbnail>
+	          <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+          </header>
+	        <object>1F282331-D38C4AE8-B7343800-FF12493D</object> <!-- 12/16/10 -->
+      </node>
+	  </node>
+	</node>
+	<node type="objects"> <!-- Portables -->
+	  <header>
+        <name lang="en-US" default="true">Portables/Companions</name>
+        <name lang="fr-FR">Portables</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/portables.dds</thumbnail>
+	    <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/exclusives_background1.dds</background>
+	  </header>
+		<object>F5D1419E-65284A4F-964E56BD-C6C7A2BE</object> <!-- 01/06/11 -->	<!-- Loot - Pet (Interactive Object) -->
+		<object>12E2C165-9797430F-81AF63ED-C434F507</object> <!-- 01/06/11 -->	<!-- Loot - Pet (Interactive Object) -->
+	    <object>DD4530AF-C36A4186-A5117816-A0F2916E</object> <!-- Xi Stapler companion -->
+	    <object>1F282331-D38C4AE8-B7343800-FF12493D</object> <!-- 12/16/10 -->
+
+		<object>85B87066-4A9B4D88-A4B0B9C6-1B28300A</object> <!-- 12/9/10 -->
+		
+
+		<object>0C188D40-376F44E2-9EC99A84-E40BA95D</object> <!-- nDreams - Benji - 11/25/10 -->
+		<object>BB71FDB1-194A44AD-9D6CC8B9-FBD58D35</object> <!-- nDreams - Nipper - 11/25/10 -->
+	    <object>00000000-00000000-000000F3-00000001</object> <!-- 6/17 -->
+	</node>
+	</node>
+</commerce_point>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+<node>
+<header>
+        <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/mtgduels_bg_scee.png</background>
+</header>
+  <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="fr-FR" >Homme</name>
+        <name lang="it-IT" >Maschio</name>
+        <name lang="de-DE" >Männlich</name>
+        <name lang="es-ES" >Hombre</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true" >[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+        <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/mtgduels_bg_scee.png</background>
+      </header>
+        <object>AB691496-DEDF418A-B08673C1-1B288BC4</object>
+        <object>4D9F80D7-0E284BF5-A71F1EB8-943C223A</object>
+        <object>8E9AC342-96B64887-9D7E9CF4-7C804069</object>
+        <object>49338C8E-9318452A-B0177F8B-EC929A65</object>
+        <object>90285C86-AA754CE3-98E3E7B9-16F1914A</object>        
+        <object>35A74C75-0912493A-BCD7D51B-DC3CE4CE</object>
+        <object>C9EAFBFA-4F8D407A-9A47A11E-65A82159</object>
+        <object>4E42E21A-859F4C0B-84122093-204AEF1B</object>
+        <object>816B1E73-120D4AC3-A3406717-AAD7CBD3</object>
+        <object>325BAC29-003A41B6-AFD92F5A-59870802</object>
+        <object>D6676F1F-3DF94B2D-8A96E58D-2D93019A</object>        
+      </node>
+      <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR" >Femme</name>
+        <name lang="it-IT" >Femmina</name>
+        <name lang="de-DE" >Weiblich</name>
+        <name lang="es-ES" >Mujer</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true" >[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+                <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/mtgduels_bg_scee.png</background>
+      </header>
+        <object>9A47B8CC-E1A8403C-A21CBCDB-34A71D04</object>
+        <object>6B3AB832-04224778-B74FB0D9-31100912</object>
+        <object>EA829781-7D964A27-9AF43E72-78EB5410</object>
+        <object>A9C89252-3CF64914-9AB699FE-DCD2D89C</object>
+        <object>7AB54E30-30774492-B42F1EDF-514DF499</object>        
+        <object>EF035EBC-28104B70-B945223C-6CD51DE6</object>
+        <object>40D29EE3-BB1D498D-946A9561-B692852A</object>
+        <object>2C74931B-F731447E-8B6D46E3-7FF8AC3F</object>
+        <object>C68399E4-49BB471E-BC840CC3-A12E7356</object>
+        <object>C1622FDF-10994DC5-85486AB3-FC6FB042</object>
+        <object>BC6DD1F3-A8004B59-9519E291-C79C2847</object>        
+      </node>
+    </node>
+</commerce_point>

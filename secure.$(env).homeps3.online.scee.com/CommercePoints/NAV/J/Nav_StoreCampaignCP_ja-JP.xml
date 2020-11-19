@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header>
+      <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/2010Store_Index_BG.dds</background>
+    </header>
+    <node>
+      <header>
+        <name lang="en-GB">年末年始キャンペーン</name>
+        <name lang="ja-JP" default="true">年末年始キャンペーン</name>
+        <thumbnail>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/2010Store_Index.dds</thumbnail>
+        <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/2010Store_Top2_BG.dds</background>
+      </header>
+      <node>
+        <header>
+          <name lang="en-GB">第4期：2010年12月22日(水)～2011年1月5日(水)</name>
+          <name lang="ja-JP" default="true">第4期：2010年12月22日(水)～2011年1月5日(水)</name>
+          <thumbnail>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/2010Store_week4.dds</thumbnail>
+          <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/2010Store_week4_BG.dds</background>
+        </header>
+        <node type="products">
+          <header>
+            <name lang="en-GB">グッズ応募券（G賞）</name>
+            <name lang="ja-JP" default="true">グッズ応募券（G賞）</name>
+            <thumbnail>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/2010Store_G.dds</thumbnail>
+            <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/2010Store_G_BG.dds</background>
+          </header>
+          <product category="JP9002-NPJQ90035_00">JP9002-NPJQ90035_00-0000070000000000</product>
+        </node>
+        <node type="products">
+          <header>
+            <name lang="en-GB">グッズ応募券（H賞）</name>
+            <name lang="ja-JP" default="true">グッズ応募券（H賞）</name>
+            <thumbnail>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/2010Store_H.dds</thumbnail>
+            <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/2010Store_H_BG.dds</background>
+          </header>
+          <product category="JP9002-NPJQ90035_00">JP9002-NPJQ90035_00-0000080000000000</product>
+        </node>
+        <node type="products">
+          <header>
+            <name lang="en-GB">チケット応募券（I賞）</name>
+            <name lang="ja-JP" default="true">チケット応募券（I賞）</name>
+            <thumbnail>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/2010Store_I.dds</thumbnail>
+            <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/2010Store_I_BG.dds</background>
+          </header>
+          <product category="JP9002-NPJQ90035_00">JP9002-NPJQ90035_00-0000090000000000</product>
+        </node>
+      </node>
+    </node>
+  </node>
+</commerce_point>

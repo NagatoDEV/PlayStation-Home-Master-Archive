@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+	<node>
+			<header>
+			  <background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/nDreamsStore_Back.dds</background>
+			</header>
+		<node>
+			<header>
+				<name lang="en-GB" default="true">nDreams Ltd</name>
+				<name lang="fr-FR">nDreams Ltd</name>
+				<thumbnail lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/ndreams.png</thumbnail>
+			    <background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/nDreamsStore_Back.dds</background>
+			</header>
+			<node>
+				<header>
+					<name lang="en-GB" default="true">Male</name>
+					<name lang="fr-FR">Homme</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+			        <background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/nDreamsStore_Back.dds</background>
+				</header>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Party Props</name>
+						<thumbnail lang="en-GB" default="true" >http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/party_icon_small.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/nDreamsStore_Back.dds</background>
+					</header>
+						<object>E8FD88D4-F427469A-9D5D3766-B91E3682</object> <!-- black party robe -->
+						<object>E9D421E7-FFFB487B-BD4C66F9-C87AB334</object> <!--	Epic Black Robe (Male)-->
+						<object>621304CC-DD084CB7-97891E7B-B4D3B73A</object> <!--	Bling Reaper (male)-->
+						<object>794E6833-8EF64D64-8A0528C1-63454E5F</object> <!-- male bundle -->
+						<object>1A957CBF-15BF4AD1-B596CBA3-B60C8651</object> <!-- party axe head -->
+						<object>67E894B0-9E3940C4-8B6E1341-AC3946E1</object> <!-- Party axe back -->
+						<object>F93176A8-1D484BFE-B87848CF-3B7A0A2F</object> <!-- party Sword Head -->
+						<object>08BC19E8-311646D9-90B09FAF-A61BD383</object> <!-- party sword torso -->
+						<object>A5A93333-4ECA4E02-AD845230-F9BEE2CD</object> <!-- neck bolts -->
+						<object>0B600AD3-D59C408B-A75EC842-7C4BA8D2</object> <!-- party scythe -->
+						<object>1F0633EC-E41D46A2-B0DB5F28-8D9F063C</object> <!-- party arrows -->
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Fantasy Fashion</name>
+						<thumbnail lang="en-GB" default="true" useOsdColour="false">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/FantasyFashion.png</thumbnail>
+			        <background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/nDreamsStore_Back.dds</background>
+					</header>
+						<object>C1196157-CDE74079-8942C497-10D84670</object> <!-- Angel Wings Male -->
+						<object>E7A296CF-D0C44F6A-82BA93C7-DB8A409D</object> <!-- Demon Wings Male -->
+						<object>9E541778-A3FB4793-80994C51-4A8291EB</object> <!-- Demon Head -->
+						<object>0BF2C496-AE4D4D97-A3B38D18-01D9A3D2</object> <!-- Minotaur Head -->
+						<object>66A89AE2-851F4938-90634A10-EA8110B0</object> <!-- Minotaur Legs and Hooves -->
+						<object>BA304FC0-0901475B-A2803985-92DC1AC2</object> <!-- Barbarian Torso -->
+						<object>2C4C054A-EE8E4757-97846B42-3DE08BD7</object> <!-- Barbarian Legs and Boots -->
+						<object>8C727B4C-63D9460A-B54C0BD7-E35FCE4D</object> <!-- Bunny Head Male -->
+						
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Musicality</name>
+						<thumbnail lang="en-GB" default="true" useOsdColour="false">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Musicality.png</thumbnail>
+			        <background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/nDreamsStore_Back.dds</background>
+					</header>
+						<object>063B9FC0-90E54F54-B5A2074E-8E26945E</object> <!-- Musicality RB Tee -->
+						<object>5084F66E-786A4FAA-9A0D91FE-30287406</object> <!-- Musicality Rock Tee -->
+				</node>
+			</node>
+			<node>
+				<header>
+					<name lang="en-GB" default="true">Female</name>
+					<name lang="fr-FR" >Femme</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+			        <background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/nDreamsStore_Back.dds</background>
+				</header>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Party Props</name>
+						<thumbnail lang="en-GB" default="true" >http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/party_icon_small.dds</thumbnail>
+						<background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/MarketPlace/E/nDreamsStore_Back.dds</background>
+						</header>
+							<object>7FBF62D1-A62D4FC4-A0F1966E-DB5281BF</object> <!-- black party robe -->
+							<object>ACBFFF08-A6364079-85E664AE-734D6E82</object> <!-- Epic Black Robe (Female)-->
+							<object>EF3D9AC7-511F4F61-A6FBB205-2DAE4D87</object> <!-- Bling Reaper (female)-->
+							<object>5FD21923-78B54740-9D912911-E5C78813</object> <!-- female bundle -->
+							<object>83F73515-0BBB42B0-A8E5000F-A6713FD5</object> <!-- party axe head -->
+							<object>034A3051-0AFC4D30-A1531905-F5251005</object> <!-- party Sword Head -->
+							<object>FA8986CB-E6CF4708-A066734B-8A6E8712</object> <!-- neck bolts -->
+							<object>04EAB38A-8EDC4DCC-A7CE0349-93E26FA4</object> <!-- Party axe back -->
+							<object>7D6F3924-E7104F5E-8371CDD8-FF48C40B</object> <!-- party sword torso -->
+							<object>2CD1ED3D-DE534DE3-83CEA8CB-8D7F9056</object> <!-- party scythe -->
+							<object>BDDA5101-419D4273-ACFE45A8-533E218F</object> <!-- party arrows -->
+						
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Fantasy Fashion</name>
+						<thumbnail lang="en-GB" default="true" useOsdColour="false">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/FantasyFashion.png</thumbnail>
+						<background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/nDreamsStore_Back.dds</background>
+</header>
+						<object>62264A9D-6F02492A-8C7CC9F8-64887BFC</object> <!-- Angel Wings -->
+						<object>75ED23B7-CAF74877-B15A6D5F-118D88B3</object> <!-- Demon Wings -->
+						<object>58CF6CF7-E6994156-B6800C92-9CE8E266</object> <!-- Amazonian Torso (Female)-->
+						<object>C76567AB-EB594890-AD2E5822-8913BBE4</object><!--Amazonian Legs and Boots (Female)-->
+						<object>194508A0-F44F46CB-A591902D-F15BD040</object><!--Barbarian Torso (Female)-->
+						<object>1B89C7D9-001F4584-97207988-F17281CD</object><!--Barbarian Legs and Boots (Female)-->
+						<object>3BBF4AD8-2D934623-9467DBD9-54ABAC4A</object><!--bunny Head Female-->
+
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Musicality</name>
+						<thumbnail lang="en-GB" default="true" useOsdColour="false">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Musicality.png</thumbnail>
+			        <background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/nDreamsStore_Back.dds</background>
+					</header>
+						<object>7B43E4BD-EEEA48F2-B28386F3-C78DE420</object> <!-- Musicality RB Tee -->
+						<object>2A74CE2E-198C42C9-A536B238-B4E6545C</object> <!-- Musicality Rock Tee -->
+				</node>
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB">Furniture</name>
+					<name lang="fr-FR" >Meubles</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/furniture_scea.dds</thumbnail>
+			        <background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/nDreamsStore_Back.dds</background>
+				</header>
+					<object>E5E7387F-B5D64AD9-A48B1E24-ECE0F7F9</object> <!-- dance floor pack -->
+					<object>B6A202C6-2C944B80-8BBB099A-94448E7D</object> <!-- dance floor and board game -->
+					<object>83D18196-DBB9400F-BC066593-7B18311A</object> <!-- UFO -->
+					<object>F74EA4C9-515A43B7-B480B897-800CF3D6</object> <!-- Xi Skull Ornament -->
+					<object>B51A803C-C0A1434B-B3240CB5-CF7698B2</object> <!-- Stapler Active item -->
+					<object>8A78800B-A91B4EE7-977D3B66-CE2265FE</object> <!-- Xi Hover Bike Bundle -->
+					<object>458ED9A4-1EE148A1-84309C46-98183018</object> <!-- Xi Hover Bike The Grasshopper -->
+					<object>E43609F2-16114F0D-89369605-236B843C</object> <!-- Xi Hover Bike The Wasp -->
+					<object>D304DB79-49F54420-AB155F24-A4806EC7</object> <!-- Xi Hover Bike The Redback -->
+					<object>DA22DF09-EFF744D4-AD98FE25-B3A6DCE8</object> <!-- Xi Hover Bike The Scarab -->
+					<object>031AEF5C-8B174737-958DE81A-00FA9574</object> <!-- Xi Elite Holo Bike -->
+					
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Companions</name>
+					<name lang="fr-FR" >Compagne</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/companions.dds</thumbnail>
+			        <background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/nDreamsStore_Back.dds</background>
+				</header>
+						<object>0C188D40-376F44E2-9EC99A84-E40BA95D</object> <!-- Benji -->
+						<object>BB71FDB1-194A44AD-9D6CC8B9-FBD58D35</object> <!-- Nipper -->
+						<object>DD4530AF-C36A4186-A5117816-A0F2916E</object> <!-- Xi Stapler companion -->
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Personal Space</name>
+					<name lang="fr-FR">Espace personnel</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/estates_scea.dds</thumbnail>
+			        <background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/nDreamsStore_Back.dds</background>
+				</header>
+					<object>B694C29F-794E4DCF-9F929370-353BBD5A</object> <!-- Xi apartment -->
+					<object>046B3B88-640B45ED-A1A0AF17-9EEFC570</object> <!-- Musicality apartment -->
+					<object>F4D950BB-AFBA4D07-B5CA783C-12FF1631</object> <!-- Pirate apartment -->
+			</node>
+		</node>
+		<node>
+			<header>
+				<name lang="en-GB" default="true">Xi</name>
+				<name lang="fr-FR">Xi</name>
+				<name lang="de-DE">Xi</name>
+				<name lang="it-IT">Xi</name>
+				<name lang="es-ES">Xi</name>
+				<name lang="en-SG">Xi</name>
+				<name lang="ja-JP">Xi</name>
+				<name lang="ko-KR">Xi</name>
+				<name lang="zh-HK">Xi</name>
+				<name lang="zh-TW">Xi</name>
+				<thumbnail lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Xi.png</thumbnail>
+			        <background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/nDreamsStore_Back.dds</background>
+			</header>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Male</name>
+					<name lang="fr-FR">Homme</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+			        <background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/nDreamsStore_Back.dds</background>
+				</header>
+						<object>4C6F0CD0-03B141A3-AFC0385C-FFCD29B2</object> <!-- Stapler Tshirt (Male) -->
+						<object>CD04DB1D-F24748AF-B179C74F-D3E89AF1</object> <!-- Ignatius Tshirt (Male) -->
+							
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Female</name>
+					<name lang="fr-FR" >Femme</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+			        <background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/nDreamsStore_Back.dds</background>
+				</header>
+						<object>15962C9A-E1FC4CCD-95C2B08D-85DA471E</object> <!-- Stapler Tshirt (FeMale) -->
+						<object>8A521708-4DC74366-8E1A7C23-25F99BA9</object> <!-- Ignatius Tshirt (FeMale) -->
+			</node>	
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Furniture</name>
+					<name lang="fr-FR" >Meubles</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/furniture_scea.dds</thumbnail>
+			        <background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/nDreamsStore_Back.dds</background>
+				</header>
+						<object>F74EA4C9-515A43B7-B480B897-800CF3D6</object> <!-- Xi Skull Ornament -->
+						<object>B51A803C-C0A1434B-B3240CB5-CF7698B2</object> <!-- Stapler Active item -->
+						<object>8A78800B-A91B4EE7-977D3B66-CE2265FE</object> <!-- Xi Hover Bike Bundle -->
+						<object>458ED9A4-1EE148A1-84309C46-98183018</object> <!-- Xi Hover Bike The Grasshopper -->
+						<object>E43609F2-16114F0D-89369605-236B843C</object> <!-- Xi Hover Bike The Wasp -->
+						<object>D304DB79-49F54420-AB155F24-A4806EC7</object> <!-- Xi Hover Bike The Redback -->
+						<object>DA22DF09-EFF744D4-AD98FE25-B3A6DCE8</object> <!-- Xi Hover Bike The Scarab -->
+						<object>031AEF5C-8B174737-958DE81A-00FA9574</object> <!-- Xi Elite Holo Bike -->
+			</node>	
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Companions</name>
+					<name lang="fr-FR" >Compagne</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/companions.dds</thumbnail>
+			        <background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/nDreamsStore_Back.dds</background>
+				</header>
+						<object>DD4530AF-C36A4186-A5117816-A0F2916E</object> <!-- Xi Stapler companion -->
+						
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Personal Space</name>
+					<name lang="fr-FR">Espace personnel</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/estates_scea.dds</thumbnail>
+			        <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/MarketPlace/E/nDreamsStore_Back.dds</background>
+				</header>
+					<object>B694C29F-794E4DCF-9F929370-353BBD5A</object> <!-- Xi apartment -->
+			</node>
+		</node>
+		<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Special</name>
+					<name lang="fr-FR" >Spéciale</name>
+
+					<thumbnail lang="en-GB" default="true" useOsdColour="false">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/special.png</thumbnail>
+			        <background lang="en-GB" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/nDreamsStore_Back.dds</background>
+				</header>
+						<object>B51A803C-C0A1434B-B3240CB5-CF7698B2</object> <!-- Stapler Active item -->
+						<object>DD4530AF-C36A4186-A5117816-A0F2916E</object> <!-- Xi Stapler companion -->
+						<object>0C188D40-376F44E2-9EC99A84-E40BA95D</object> <!-- Benji -->
+						<object>BB71FDB1-194A44AD-9D6CC8B9-FBD58D35</object> <!-- Nipper -->
+						<object>83D18196-DBB9400F-BC066593-7B18311A</object> <!-- UFO -->
+						
+						
+		</node>
+	</node>
+	
+</commerce_point>
