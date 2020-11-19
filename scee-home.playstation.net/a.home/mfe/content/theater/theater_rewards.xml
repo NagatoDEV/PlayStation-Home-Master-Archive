@@ -1,0 +1,85 @@
+<TheaterList>
+	<Theater number="1" source="STREAM">		
+		<Clip>Theater 1 Clip</Clip>
+		<Playing>Clip 01</Playing>
+		<Desc></Desc>
+		<SceneName>SCENE_01</SceneName>		
+	</Theater>
+	<Theater number="2" source="STREAM">	
+		<Clip>Theater 2 Clip</Clip>
+		<Playing>Clip 02</Playing>
+		<Desc></Desc> 
+		<SceneName>SCENE_02</SceneName>
+	</Theater>
+	<Theater number="3" source="DOWNLOAD">		
+		<Clip>Theater 3 Clip</Clip>
+		<Playing>Clip 03</Playing>
+		<SceneName>SCENE_03</SceneName>
+		<Desc></Desc>
+	</Theater>	
+	<Theater number="4" source="DOWNLOAD">		
+		<Clip>Theater 4 Clip</Clip>
+		<Playing>Clip 04</Playing>
+		<Desc></Desc>
+		<SceneName>SCENE_04</SceneName>
+			<RewardList delay="10">
+			<Reward>
+				<GUID>9606504D-1716405D-B1FE6019-0519AA50</GUID>
+				<Name>SOCOM FTB T-Shirt Star Logo</Name>
+				<Desc></Desc>
+			</Reward>
+			<Reward>
+				<GUID>042F3DA9-A00D46E7-BF3DAB96-BE9D49C8</GUID>
+				<Name>SOCOM FTB T-Shirt Star Logo</Name>
+				<Desc></Desc>
+			</Reward>
+		</RewardList>
+	</Theater>	
+	<Theater number="5" source="DOWNLOAD">		
+		<Clip>Theater 5 clip</Clip>
+		<Playing>Clip 05</Playing>
+		<Desc></Desc>
+		<SceneName>SCENE_05</SceneName>
+	</Theater>
+		<Theater number="6" source="STREAM">		
+		<Clip>Theater 6 clip</Clip>
+		<Desc></Desc>
+		<SceneName>SCENE_06</SceneName>
+			<RewardList delay="10">
+			<Reward>
+				<GUID>5176EC38-B1924C59-92DC2DA7-BD9DC649</GUID>
+				<Name>Star Ocean T Shirt Male</Name>
+				<Desc></Desc>
+			</Reward>
+			<Reward>
+				<GUID>C99D0098-E1F34726-8855D1A5-2D27680B</GUID>
+				<Name>Star Ocean T Shirt Female</Name>
+				<Desc></Desc>
+			</Reward>
+		</RewardList>		
+	</Theater>
+	<Theater number="7" source="DOWNLOAD">		
+		<Clip>Theater 7 Clip</Clip>
+		<Playing>Clip 07</Playing>
+		<Desc></Desc>
+		<SceneName>SCENE_07</SceneName>
+	</Theater>
+	<Theater number="8" source="DOWNLOAD">		
+		<Clip>Theater 8 Clip</Clip>
+		<Playing>Clip 08</Playing>
+		<Desc></Desc>
+		<SceneName>SCENE_08</SceneName>
+	</Theater>	
+	<Theater number="9" source="DOWNLOAD">		
+		<Clip>Theater 9 Clip</Clip>
+		<Playing>Clip 09</Playing>
+		<Desc></Desc>
+		<SceneName>SCENE_09</SceneName>
+	</Theater>	
+	<Theater number="10" source="STREAM">		
+		<Clip>Theater 10 Clip</Clip>
+		<Playing>Clip 10</Playing>
+		<Desc></Desc>
+		<SceneName>SCENE_10</SceneName>
+	</Theater>	
+</TheaterList>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header />
+	<node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="fr-FR">Homme</name>
+	<name lang="ja-JP" default="true">男性</name>
+        <name lang="en-US">Male</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+      </header>
+	  <object>48221119-1CDC4D34-8AF9706B-026D5D69</object>
+	  <object>F9A33E0C-726543AC-84AA6F3A-B106E9EC</object>
+	  <object>A7127CEB-285440B9-8DCDF402-83A418B9</object>
+	  <object>B6F6760A-137B4F5D-BA6E4A5B-F6CB06D3</object>
+	  <object>474B5766-FDAD4C60-A19B2C7A-F253350E</object>
+	  <object>F4E2D5A0-67B5487A-92C7C8D7-5704043B</object>
+      </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR">Femme</name>
+	<name lang="ja-JP" default="true">女性</name> 
+        <name lang="en-US">Female</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+      </header>
+	  <object>24A49405-2C6A4EE3-BD3B1249-E7DDA917</object>
+	  <object>C637AA27-22C641AC-81909174-DF4F0FAF</object>
+	  <object>CC34C406-6070422D-BB4AAA45-1215A069</object>
+	  <object>1493416E-4ACD48C0-97DD8450-25F93550</object>
+	  <object>11BB5955-818E4F30-AC173EED-36C15C7C</object>
+	  <object>CE06F45A-F0894DBB-843661EE-80FD2042</object>
+	  </node>
+	<node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Ornaments</name>
+        <name lang="en-US" >Ornaments</name>
+	<name lang="ja-JP" default="true">チェア</name> 
+        <name lang="fr-FR" >Décoration</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+	<thumbnail lang="ja-JP" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Chairs.dds</thumbnail>
+      </header>
+	 <object>65834F6D-5D294678-8A9EF8D6-CC9BC1A2</object>
+  </node>
+  <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Apartment</name>
+        <name lang="en-US" >Apartment</name>
+	<name lang="ja-JP" default="true">パーソナルスペース</name> 
+        <name lang="fr-FR" >Appartement</name>
+        <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/home.png</thumbnail>
+      </header>
+	 <object>B4D67F63-0CCE41A9-992A1E66-8083A5EF</object>
+  </node>
+  </node>
+</commerce_point>

@@ -1,0 +1,45 @@
+<commerce_point>
+  <node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Chairs</name>
+        <name lang="en-US" >Chairs</name>
+        <name lang="fr-FR" >Si�ges</name>
+        <name lang="it-IT" >Sedie</name>
+        <name lang="de-DE" >St�hle</name>
+        <name lang="es-ES" >Sillas</name>
+        <name lang="ja-JP" >???</name>
+        <name lang="ko-KR" >??</name>
+        <name lang="zh-HK" >??</name>
+        <name lang="zh-TW" >??</name>
+        <name lang="en-SG" >Chairs</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Chairs.dds</thumbnail>
+      </header>
+		<object>00000000-00000000-00000001-0000001B</object>
+	    <object>00000000-00000000-00000002-00000012</object>
+		<object>00000000-00000000-00000001-0000002D</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Tables</name>
+        <name lang="en-US" >Tables</name>
+        <name lang="fr-FR" >Tables</name>
+        <name lang="it-IT" >Tavoli</name>
+        <name lang="de-DE" >Tische</name>
+        <name lang="es-ES" >Mesas</name>
+        <name lang="ja-JP" >????</name>
+        <name lang="ko-KR" >???</name>
+        <name lang="zh-HK" >??</name>
+        <name lang="zh-TW" >??</name>
+        <name lang="en-SG" >Tables</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Tables.dds</thumbnail>
+      </header>
+		<object>00000000-00000000-00000002-00000011</object>
+		<object>00000000-00000000-00000001-0000000D</object>
+		<object>00000000-00000000-00000001-0000000C</object>
+		<object>00000000-00000000-00000001-00000064</object>
+    </node>
+  </node>
+</commerce_point>
+
+

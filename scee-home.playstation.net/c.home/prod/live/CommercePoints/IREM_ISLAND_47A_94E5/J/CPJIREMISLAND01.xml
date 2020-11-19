@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header />
+    <node type="objects">
+      <header>
+        <name lang="en-GB">男性</name>
+        <thumbnail lang="en-GB" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+        <name lang="ja-JP" default="true">男性</name>
+        <thumbnail lang="ja-JP" useOsdColour="true" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+      </header>
+      <object>3AC5C27C-597A4EED-9B0D10A9-A211ED9B</object>
+      <object>877BF574-A6E9429D-9DA9562C-9BC40395</object>
+      <object>D4776F06-2AEA421C-976475E9-44C2C8CF</object>
+      <object>3E63DE08-D91F4302-A89F8E66-2F825F9E</object>
+      <object>FE649E83-5A1B4FB2-A7A55F42-4FD8DDC0</object>
+      <object>82529325-04704D92-94227EC1-528BE577</object>
+      <object>2559803E-F9F04C04-B1719F6F-86E71FBB</object>
+      <object>012A9230-FE8444A1-9C3534C2-8E9BD63A</object>
+      <object>A969DE42-4F6C4DA2-95BC839F-2D72512E</object>
+      <object>FC177E90-FA564F80-9CCE40C8-CFAE6221</object>
+      <object>4BEF43D0-100940CC-998C7A39-3FAADF38</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB">女性</name>
+        <thumbnail lang="en-GB" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+        <name lang="ja-JP" default="true">女性</name>
+        <thumbnail lang="ja-JP" useOsdColour="true" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+      </header>
+      <object>930F8BDE-BC694F27-99D123E9-75A484C7</object>
+      <object>FBBDA1C5-7D7844D4-AAC77098-78D015F4</object>
+      <object>8FB1F966-292640AE-897EDE31-F914911D</object>
+      <object>BB7851A5-5CAA4BDB-A8AFC2CF-F19CA00C</object>
+      <object>60CC1A83-AF634DF0-8B99CB24-BF24205F</object>
+      <object>71E44630-A9A749F9-92DD9F37-9D379CCD</object>
+      <object>411E7081-2ADB4714-BACA2565-828BAB50</object>
+      <object>A32D8417-34434AFA-9EB98C84-F483470C</object>
+      <object>017D4442-33C8414C-AC81A853-9F1DAE1A</object>
+      <object>CE2CA9E5-59884C25-8898E663-F8C5DF64</object>
+      <object>5414ADEA-4AB54EE2-90A022DF-07212459</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB">装飾品</name>
+        <thumbnail lang="en-GB" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/catergory_decorations.dds</thumbnail>
+        <name lang="ja-JP" default="true">装飾品</name>
+        <thumbnail lang="ja-JP" useOsdColour="true" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/catergory_decorations.dds</thumbnail>
+      </header>
+      <object>669A4170-5F474702-8F77EE78-A45CB8B5</object>
+    </node>
+  </node>
+</commerce_point>

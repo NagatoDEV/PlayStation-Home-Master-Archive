@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header />
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <thumbnail lang="en-GB" useOsdColour="true" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+        <name lang="en-US">Male</name>
+        <name lang="fr-FR">Homme</name>
+        <name lang="de-DE">Männlich</name>
+        <name lang="it-IT">Maschio</name>
+        <name lang="es-ES">Hombre</name>
+        <name lang="ja-JP">男性</name>
+        <name lang="ko-KR">남성</name>
+        <name lang="en-SG">Male</name>
+        <name lang="zh-HK">男性</name>
+        <name lang="zh-TW">男性</name>
+      </header>
+      <object>EC8D910E-7F5C443B-B9BA4455-32BF20C5</object>
+      <object>CF7CE3E5-1C0944CF-933C4C70-DAD6035B</object>
+      <object>FF82B793-EB4448C8-88F2D486-043754F4</object>
+      <object>65722686-D3EF4ED2-868DD0AE-87D6703B</object>
+      <object>79817F58-8DDB436C-B10586E9-AC93F402</object>
+      <object>E7CBD856-4E944FC9-9E15DC4A-D39189B6</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <thumbnail lang="en-GB" useOsdColour="true" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+        <name lang="en-US">Female</name>
+        <name lang="fr-FR">Femme</name>
+        <name lang="de-DE">Weiblich</name>
+        <name lang="it-IT">Femmina</name>
+        <name lang="es-ES">Mujer</name>
+        <name lang="ja-JP">女性</name>
+        <name lang="ko-KR">여자</name>
+        <name lang="en-SG">Female</name>
+        <name lang="zh-HK">女性</name>
+        <name lang="zh-TW">女性</name>
+      </header>
+      <object>0F51F8E3-44A14BB5-A5CE59C0-CED42EF6</object>
+      <object>439B4DB1-F4BC4F5B-AF1EEC8D-375E6D1E</object>
+      <object>B869DE27-6C254959-A85BE1C4-1AD9855E</object>
+      <object>867CFD46-CA864584-B42449C7-EE626E94</object>
+      <object>D197B7D6-52EC4E08-B12AD018-8D14A856</object>
+      <object>8D63D9B1-72324C9F-99D3FDF5-2C107C9B</object>
+    </node>
+  </node>
+</commerce_point>

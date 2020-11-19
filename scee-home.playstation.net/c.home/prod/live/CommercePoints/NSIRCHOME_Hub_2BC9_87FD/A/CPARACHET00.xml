@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header />
+	<node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="fr-FR">Homme</name>
+        <name lang="en-US">Male</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+      </header>
+	  <object>D92F0F47-06324DA9-80BFE971-17C97EA0</object>
+	  <object>48221119-1CDC4D34-8AF9706B-026D5D69</object>
+	  <object>F9A33E0C-726543AC-84AA6F3A-B106E9EC</object>
+	  <object>A7127CEB-285440B9-8DCDF402-83A418B9</object>
+	  <object>B6F6760A-137B4F5D-BA6E4A5B-F6CB06D3</object>
+	  <object>474B5766-FDAD4C60-A19B2C7A-F253350E</object>
+	  <object>F4E2D5A0-67B5487A-92C7C8D7-5704043B</object>
+      </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR">Femme</name>
+        <name lang="en-US">Female</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+      </header>
+	   <object>977C6CAE-D53746AB-BEB3F79C-44C66C86</object>
+	  <object>24A49405-2C6A4EE3-BD3B1249-E7DDA917</object>
+	  <object>C637AA27-22C641AC-81909174-DF4F0FAF</object>
+	  <object>CC34C406-6070422D-BB4AAA45-1215A069</object>
+	  <object>1493416E-4ACD48C0-97DD8450-25F93550</object>
+	  <object>11BB5955-818E4F30-AC173EED-36C15C7C</object>
+	  <object>CE06F45A-F0894DBB-843661EE-80FD2042</object>
+	  </node>
+	<node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Ornaments</name>
+        <name lang="en-US" >Ornaments</name>
+        <name lang="fr-FR" >Décoration</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+      </header>
+	<!--012110-->
+<object>5C6A2CC2-29C54BF8-98FF7E90-4FFA27E5</object>
+<object>6E390EEB-A3104A88-A9F559B4-AC197B1F</object>
+<object>8D873924-217A415C-A03B2426-1C54FC94</object>
+<object>9A7DD90E-602548C6-83F25F66-7077B537</object>
+<object>9AA66661-DC154DC7-8F10A7E1-A28CC56F</object>
+<object>37E4A3E9-E3F84B4A-9C9F57DA-59C654BF</object>
+<object>069CCE7B-68CB47C4-849EFF85-1E718049</object>
+<object>362E6D84-6142427A-963F759A-EB6BB822</object>
+<object>90584780-AB0242E2-BEBA5B66-8B902CBD</object>
+	  <!--011410-->
+<object>F4974B21-BE824E5F-B0657B49-8AADCA74</object>
+	  <!--121009-->
+<object>9E03DF87-871F4132-BBFC4A9B-1FA39080</object>
+<object>6E390EEB-A3104A88-A9F559B4-AC197B1F</object>
+<object>AA3E6FA0-74B64090-87B2ED33-CA4B831F</object>
+<object>44E9EC67-D4E34B82-B0C05F3D-F3A4CB82</object>
+<object>9A7DD90E-602548C6-83F25F66-7077B537</object>
+<object>A3EF0CA1-A5B14740-B02FEA30-E43C2BD3</object>
+<object>8D873924-217A415C-A03B2426-1C54FC94</object>
+<object>27E50E65-B8FE4252-A1CF7379-977B7ED9</object>
+<object>8CD7F2C4-AD9745D0-BD0884CC-076193E6</object>
+<object>37E4A3E9-E3F84B4A-9C9F57DA-59C654BF</object>
+<object>96E61A26-65234D17-8F0DA7F8-F22F78BD</object>
+<object>DB537189-8EFB4752-89A24042-0B6CC50C</object>
+<object>F4974B21-BE824E5F-B0657B49-8AADCA74</object>
+<object>6F87A310-EA854296-B2985267-304CB99D</object>
+<object>1A240CE9-61604684-AACB4989-CF9C4C58</object>
+<object>90584780-AB0242E2-BEBA5B66-8B902CBD</object>
+<object>7D08975B-B43D46A8-A761B8C7-8B034324</object>
+<object>069CCE7B-68CB47C4-849EFF85-1E718049</object>
+<object>9AA66661-DC154DC7-8F10A7E1-A28CC56F</object>
+<object>5C6A2CC2-29C54BF8-98FF7E90-4FFA27E5</object>
+<object>0CB1CE4C-16C74332-B5215896-4C0E8371</object>
+<object>362E6D84-6142427A-963F759A-EB6BB822</object>
+<!--launch-->
+	 <object>65834F6D-5D294678-8A9EF8D6-CC9BC1A2</object>
+  </node>
+  <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Apartment</name>
+        <name lang="en-US" >Apartment</name>
+        <name lang="fr-FR" >Appartement</name>
+        <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/home.png</thumbnail>
+      </header>
+	 <object>B4D67F63-0CCE41A9-992A1E66-8083A5EF</object>
+  </node>
+  </node>
+</commerce_point>

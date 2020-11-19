@@ -1,0 +1,29 @@
+<commerce_point>
+  <node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Personal Space</name>
+          <name lang="fr-FR" >Espace personnel</name>
+          <name lang="it-IT" >Spazio personale</name>
+          <name lang="de-DE" >Home-Apartment</name>
+          <name lang="es-ES" >Espacio Home</name>
+          <name lang="ja-JP" >パーソナルスペース</name>
+          <name lang="ko-KR" >개인공간</name>
+          <name lang="zh-HK" >個人空間</name>
+          <name lang="zh-TW" >個人空間</name>
+          <name lang="en-SG" >Personal Space</name>
+          <name lang="en-US" >Personal Space</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/home.png</thumbnail>
+        </header> 
+        <!--02/07/09 Killzone 2 Apartment-->  
+        <object>784FF69C-35D94E19-A8B4C8A7-9860E27C</object>
+        <!--Older-->     
+	<object>2519FAC0-18AA4FCB-A1214F6B-65F5F001</object>
+	 <!--7thMay-->
+	 <object>77D9E3EF-02A74DA9-BD77FBBD-91407A88</object>
+	 <!--18thJune-->
+	 <object>CBC81E64-19F643DA-A4E0BB27-0FB943F9</object>
+      </node>
+  </node>
+</commerce_point>
+

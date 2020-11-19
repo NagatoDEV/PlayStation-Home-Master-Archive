@@ -1,0 +1,892 @@
+<XML>
+  <SCREEN ID="pr_area_spawn">
+    <TYPE>BANNER</TYPE>
+  </SCREEN>
+  <SCREEN ID="pr_gallery_fatprincess">
+    <TYPE>BANNER</TYPE>
+  </SCREEN>
+  <SCREEN ID="Presentation_Podium_Screen">
+    <TYPE>MEDIARSS</TYPE>
+    <SOURCE LINK="http://uk.playstation.com/">http://scee-home.playstation.net/e.home/mfe/content/E3/SCEE_E3_2.xml</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SingStarVIPScreen02">
+    <TYPE>MEDIARSS</TYPE>
+    <SOURCE LINK="http://uk.playstation.com/ps3/">http://scee-home.playstation.net/e.home/mfe/content/SingStar/Stereophonics/Video/Profile3/SS__Stereophonics_P3_RSS.xml</SOURCE>
+  </SCREEN>
+  <SCREEN ID="cpcom_bio5_0008">
+    <TYPE>MEDIARSS</TYPE>
+    <SOURCE LINK="http://uk.playstation.com/">http://scee-home.playstation.net/e.home/mfe/content/Movies/RE5/RE5_RSS.xml</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Tekken6Screen">
+    <TYPE>MEDIARSS</TYPE>
+    <SOURCE LINK="http://uk.playstation.com/">http://scee-home.playstation.net/e.home/mfe/content/Movies/Tekken/Tekken_RSS.xml</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Uncharted_RoomBehindScreen">
+    <TYPE>MEDIARSS</TYPE>
+    <SOURCE LINK="http://uk.playstation.com/ps3/">http://scee-home.playstation.net/e.home/mfe/content/Uncharted/UnchartedRoomBehind_RSS.xml</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Events_Landing_Spawn_Screen_Left">
+    <TYPE>MEDIARSS</TYPE>
+  </SCREEN>
+  <SCREEN ID="Events_Landing_Spawn_Screen_Right">
+    <TYPE>MEDIARSS</TYPE>
+  </SCREEN>
+  <SCREEN ID="HRain_PodiumMain">
+    <TYPE>MEDIARSS</TYPE>
+    <SOURCE LINK=" http://uk.playstation.com/ps3/">http://scee-home.playstation.net/e.home/mfe/content/HeavyRain/HeavyRain_ENG_RSS.xml</SOURCE>
+  </SCREEN>
+  <SCREEN ID="r2_screen_projector">
+    <TYPE>MEDIARSS</TYPE>
+    <SOURCE LINK="http://eu.playstation.com">http://scee-home.playstation.net/e.home/mfe/content/Movies/Gamer_RSS.xml</SOURCE>
+  </SCREEN>
+  <SCREEN ID="HomeSquareVideo1">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>OFFLINECONTENT/MOVIES/PS3.BIK</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SCEAdChannel2">
+    <TYPE>VIDEO</TYPE>
+  </SCREEN>
+  <SCREEN ID="SCEAdChannel1">
+    <TYPE>VIDEO</TYPE>
+  </SCREEN>
+  <SCREEN ID="Screen_Balls">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Movies/WipeoutPulse.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Screen">
+    <TYPE>VIDEO</TYPE>
+  </SCREEN>
+  <SCREEN ID="Pr_VIP_Screen">
+    <TYPE>VIDEO</TYPE>
+  </SCREEN>
+  <SCREEN ID="Pr_VIP_Screen_Balls">
+    <TYPE>VIDEO</TYPE>
+  </SCREEN>
+  <SCREEN ID="PR_Gallery_Screen3">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Movies/PSP_3000/PSP_HANDS_EUROPE_2-MPEG4_large.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="PR_Gallery_Screen1">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Movies/LocoRoco/LR2_PCStorePEGI-Home_PSP.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="CHVideoScreen01">
+    <TYPE>VIDEO</TYPE>
+  </SCREEN>
+  <SCREEN ID="SCEJ_MINGOL_VIDEO_001">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Movies/Everybodys_Golf/golf000.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TOC_Screen_01">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Movies/SOCOMConfrontation_LT.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Batcave_Outpost_Screen_Computer">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Movies/Eidos/M1981_EIDOS_BATMAN_AA_DEMO_LOCALISATION_UK_200609.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Batcave_Outpost_Screen_Batmobile">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Movies/Eidos/EIDOS_BATMAN_AA_JOKER_NOPS3_NOESRB_MPEG4_640x360.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LocalVideoLeft">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_07/FatPrincess/Fat_Princess_Official_Trailer_English_no_subtitles_Home_largeHL.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LocalVideoRight">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_07/FatPrincess/Fat_Princess_Official_Trailer_English_no_subtitles_Home_largeHL.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Gallery_Screen1">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_07/FatPrincess/Fat_Princess_English_drop_hat_large.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Gallery_Screen2">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_07/FatPrincess/Fat_Princess_Official_Trailer_English_no_subtitles_Home_largeHL.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="buzz_tomatina_landing_screen_right">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/week_27_08_09/BuzzQWLaTomatina2009comboHome_large.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="buzz_tomatina_landing_screen_left">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/week_27_08_09/BuzzQWLaTomatina2009comboHome_large.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="PodiumVanilla_Entrance">
+    <TYPE>VIDEO</TYPE>
+  </SCREEN>
+  <SCREEN ID="PodiumVanilla_LoungeArea_AlcoveLeft">
+    <TYPE>VIDEO</TYPE>
+  </SCREEN>
+  <SCREEN ID="PodiumVanilla_LoungeArea_ScreenLeft">
+    <TYPE>VIDEO</TYPE>
+  </SCREEN>
+  <SCREEN ID="PodiumVanilla_LoungeArea_Screenright">
+    <TYPE>VIDEO</TYPE>
+  </SCREEN>
+  <SCREEN ID="PodiumVanilla_LoungeArea_VideoScreen">
+    <TYPE>VIDEO</TYPE>
+  </SCREEN>
+  <SCREEN ID="PodiumVanilla_LoungeArea_ScreenMain_VideoScreen">
+    <TYPE>VIDEO</TYPE>
+  </SCREEN>
+  <SCREEN ID="SingStarMainScreen01">
+    <TYPE>VIDEO</TYPE>
+  </SCREEN>
+  <SCREEN ID="SingStarMainScreen02">
+    <TYPE>VIDEO</TYPE>
+  </SCREEN>
+  <SCREEN ID="OnlineVideo">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_11_26/R&amp;C_ACIT_Time_English-Home_large.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="infamous_docks_screen">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/INF_PreE3_English-Home_medium.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="RCHOMEVideo">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_11_26/R&amp;C_ACIT_Time_English-Home_large.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="cpcom_sf4_0001">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Movies/SF4/sf4_shop_HD_eng_pre.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="UnchartedBar01">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_10_15/Uncharted2E3trailer720pPEGIioPSNHome_large.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="cpcom_bio5_0002">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Movies/RE5/12069_BH5AE_EU_HomeLounge.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="gamescom_podium_small_screen">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/gravity_Crash_englishTrailer-Home_medium.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="gamescom_podium_massive_screen">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/gravity_Crash_englishTrailerHome_large.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Salt_Shooter_Screen_1">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Sodium/sodium_main.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Salt_Shooter_Screen_2">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Sodium/sodium_main.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Sodium_Screen_Signs">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Sodium/sodium_hub.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Sodium_Screen_Display">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Sodium/sodium_hub.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Sodium_Screen_Stage">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Sodium/sodium_hub.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="MotorStorm_Carrier_Ramp_Screen">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_11_05/Motorstorm_30sec_Sonybelieveend_AppleProResM_B_Home_largeRSS.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="MotorStorm_Carrier_Dancefloor_Screen">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Videos/MotorStorm_Festival.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="MotorStorm_Carrier_TV_Wall">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Videos/MotorStorm_Festival.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Mui_v_001_001">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/LocoRoco/locoroco_eu.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Mui_v_001_002">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/LocoRoco/MuiMui_Boat/locoisland_en.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="HK_landing_screen_left">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Hustle_Kings/HustleKings_English-Home_large_new.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="HK_landing_screen_right">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Hustle_Kings/HustleKings_English-Home_large_new.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="WKC_Screen">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/WKC/White_knight_Chronicles_PS3G-Home_medium.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Loco_v_001_001">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/LocoRoco/locoroco_eu.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="AudiHub_231D_83AC_SC02">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE LINK="http://eu.playstation.com">http://scee-home.playstation.net/e.home/mfe/content/Audi/A1065B001E_PSHomeHD_Prof02_EN.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="uncharted2_screen">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_11_19/Uncharted2E3trailer720pPEGIioPSNHome_large.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="AudiApt_394B_F75E_SC01">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE LINK="http://eu.playstation.com">http://scee-home.playstation.net/e.home/mfe/content/Audi/A1041B027_PSHomeHD_Prof02_EN.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="AudiHub_231D_83AC_SC01">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE LINK="http://eu.playstation.com">http://scee-home.playstation.net/e.home/mfe/content/Audi/A1056B001_PSHomeHD_Prof4_EN.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="AudiVrun_152E_D24C_SC01">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Audi/P1025B004E_PSHomeHD_P4_EN_reencode.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Mods_VideoScreen">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2010_20_05/noel.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="MRC_SeasideScreen">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/ModNation/MNR_Kart_characters_JC_online_030-Home_large.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="AudiIronMan_466D_A599_SC01">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Audi/Iron_Man_Home_Trailer_PR3_EN.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LBP_Hub_OnlineVideo">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/LBP/Final/LBP2reveal_final_M-Home_largeRSS.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SCEE_HOH_Minis_Screen01">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Minis_7_SCENESv02_PRORESeditedPEGI-Home_xlarge.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SCEE_HOH_Minis_Screen02">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Minis_7_SCENESv02_PRORESeditedPEGI-Home_xlarge.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="MNR_videoscreenA">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MNR_Kart_characters_JC_online_030-Home_large.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="MNR_videoscreenB">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MNR_Kart_characters_JC_online_030-Home_large.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="IREM_0001_002">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/IREM_ES_0001_002.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="VidScreen1_hub">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Wipeout/Visuals/wipEoutHOME.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="VidScreen2_Hanger">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Wipeout/Visuals/TEAMS.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="VidScreen_Djbooth">
+    <TYPE>VIDEO</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Wipeout/Visuals/djbooth_col.mp4</SOURCE>
+  </SCREEN>
+  <SCREEN ID="PR_Gallery_Screen2">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/PSP_3000/PSP_3000_billboard_684x384_en.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/PSP_3000/PSP_3000_billboard_684x384_fr.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/PSP_3000/PSP_3000_billboard_684x384_it.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/PSP_3000/PSP_3000_billboard_684x384_de.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/PSP_3000/PSP_3000_billboard_684x384_es.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="cpcom_bio5_0005">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/firstparty/re5_0005.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="cpcom_bio5_0001">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/RE5/en/re5_0001b.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="cpcom_bio5_0003">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/RE5/en/re5_0003.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="cpcom_bio5_0004">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/firstparty/re5_0004.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="cpcom_bio5_0006">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/firstparty/re5_0006.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SCEJ_MINGOL_IMAGE_001">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Everybodys_Golf/golf000.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Buzz_Studio_Entrance_Doorway_Poster">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Poster-minis_en.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Poster-minis_fr.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Poster-minis_it.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Poster-minis_de.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Poster-minis_es.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Buzz_Studio_Entrance_Left_Elevator_Poster">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Poster-minis_en.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Poster-minis_fr.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Poster-minis_it.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Poster-minis_de.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Poster-minis_es.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Buzz_Studio_Entrance_Right_Elevator_Poster">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Poster-minis_en.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Poster-minis_fr.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Poster-minis_it.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Poster-minis_de.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Poster-minis_es.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Buzz_Studio_Entrance_Doorway_Screen">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-minis_en.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-minis_fr.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-minis_it.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-minis_de.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-minis_es.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="gamescom_podium_dance_area_left">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-GC_1.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-GC_1_OFLAC.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="gamescom_podium_dance_area_right">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-GC_2.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-GC_2_OFLAC.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="gamescom_podium_fizzball_area">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-GC_3.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-GC_3_OFLAC.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SingStarVIPScreen01">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/SingStar/Stereophonics/STRPHNCS_BB_NOWON_ENG.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SingstarExitStore1">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/SingStar/Stereophonics/Motown_UK.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SingstarExitStore2">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/SingStar/Stereophonics/TakeThat_ENG.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SingstarExitVIP1">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/SingStar/Stereophonics/Motown_UK.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SingstarExitVIP2">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/SingStar/Stereophonics/TakeThat_ENG.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="cpcom_sf4_0002">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/SF4/en/sf4_lounge_poster.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/SF4/fr/sf4_lounge_poster.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/SF4/it/sf4_lounge_poster.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/SF4/de/sf4_lounge_poster.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/SF4/es/sf4_lounge_poster.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="cpcom_sf4_0003">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/SF4/en/EN_356_512.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/SF4/fr/French_356_512_ver3.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/SF4/it/Italy_356_512_ver3.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/SF4/de/German_356_512_ver3.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/SF4/es/Spanish_356_512_ver3.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Buzz_Studio_Entrance_Left_Elevator_Screen">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-minis_en.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-minis_fr.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-minis_it.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-minis_de.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-minis_es.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Buzz_Studio_Entrance_Right_Elevator_Screen">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-minis_en.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-minis_fr.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-minis_it.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-minis_de.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2009_12_17/Home-Billboard-minis_es.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Loco_p_001_001">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/LocoRoco/f_poster_buu_eu.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Loco_p_001_002">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/LocoRoco/f_poster_loco_eu.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Loco_p_001_003">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/LocoRoco/f_poster_loco2_eu.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Loco_p_001_004">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/LocoRoco/f_poster_mc_eu.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="PodiumVanilla_AlcoveLeft">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/Billboard_5/Home_Billboard_5-EN.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/Billboard_5/Home_Billboard_5-FR.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/Billboard_5/Home_Billboard_5-IT.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/Billboard_5/Home_Billboard_5-DE.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/Billboard_5/Home_Billboard_5-ES.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="PodiumVanilla_AlcoveRight">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/Billboard_2/Home_Billboard_2-EN.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/Billboard_2/Home_Billboard_2-FR.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/Billboard_2/Home_Billboard_2-IT.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/Billboard_2/Home_Billboard_2-DE.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/Billboard_2/Home_Billboard_2-ES.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="PodiumVanilla_ScreenLeft">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/Billboard_3/Home_Billboard_3-EN.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="PodiumVanilla_Screenright">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/Billboard_3/Home_Billboard_3-EN.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="PodiumVanilla_VideoScreen">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/Billboard_4/Home_Billboard_4-EN.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/Billboard_4/Home_Billboard_4-FR.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/Billboard_4/Home_Billboard_4-IT.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/Billboard_4/Home_Billboard_4-DE.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/Billboard_4/Home_Billboard_4-ES.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="PodiumVanilla_ShapeBlastArea">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/MISSED_Home_Billboard_4-EN.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SingstarVIP_Poster_01">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/SingStar/ChristmasParty/Posters/021203/TakeThat_ENG.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SingstarVIP_Poster_02">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/SingStar/ChristmasParty/Posters/021203/Motown_UK.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/SingStar/ChristmasParty/Posters/021203/Motown_Australian.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SingstarVIP_Poster_03">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/SingStar/Stereophonics/STRPHNCS_POSTER_NOWON_ENG.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SingstarVIP_Poster_04">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/SingStar/Stereophonics/STRPHNCS_POSTER_NOWON_ENG.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SingstarVIP_Poster_05">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/SingStar/ChristmasParty/Posters/021203/TakeThat_ENG.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SingstarVIP_Poster_06">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/SingStar/Stereophonics/STRPHNCS_POSTER_NOWON_ENG.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="PodiumVanilla_ScreenMain">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/MISSED_Home_Billboard_4-EN.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/MISSED_Home_Billboard_4-FR.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/MISSED_Home_Billboard_4-IT.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/MISSED_Home_Billboard_4-DE.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/GrooveArmada/MISSED_Home_Billboard_4-ES.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LowTideLoungeScreen2">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2010_18_03/STRPHNCS_BB_NOWON_ENG.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="HRain_LinkScreen">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/HeavyRain/heavy_rain_shirt_url.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="HRain_LowScr_Left">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/HeavyRain/911-call.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="HRain_LowScr_MidL">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/HeavyRain/Briefing.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="HRain_LowScr_MidR">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/HeavyRain/Flyer.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="HRain_LowScr_Right">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/HeavyRain/Bench.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="MotorStorm_Carrier_Walkway_Screen_1_Portrait">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MS_Eightball_P.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MS_Neco_P.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MSPR_Outfit_Male_P.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MS_Slick_P.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MS_Tysoyoshi_P.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MSPR_Outfit_Fem_P.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MS_Numskull_P.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MS_Ravine_P.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="MotorStorm_Carrier_Walkway_Screen_2_Landscape">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MS1_Apartment_L.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MS_Nairn_L.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MSPR_Apartment_L.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MS_Rumik_L.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MS_Furniture_L.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="MotorStorm_Carrier_Containers_Screen_Portrait">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MS_Numskull_P.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MS_Neco_P.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MSPR_Outfit_Fem_P.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MS_Ravine_P.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MS_Tysoyoshi_P.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MSPR_Outfit_Male_P.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MS_Slick_P.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MS_Eightball_P.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="MotorStorm_Carrier_Chill_Screen_Landscape">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MS1_Apartment_L.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MS_Nairn_L.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MSPR_Apartment_L.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MS_Rumik_L.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/MotorStorm/Posters/MS_Furniture_L.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Mui_p_001_001">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/LocoRoco/MuiMui_Boat/f_poster_loco_eu.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Mui_p_001_002">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/LocoRoco/MuiMui_Boat/f_poster_loco2_eu.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Mui_p_001_003">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/LocoRoco/MuiMui_Boat/f_poster_buu_eu.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Mui_p_001_004">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/LocoRoco/MuiMui_Boat/f_poster_mc_eu.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Mui_p_001_005">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/LocoRoco/MuiMui_Boat/f_poster_loco_eu.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Mui_p_001_006">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/LocoRoco/MuiMui_Boat/f_poster_loco2_eu.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Mui_p_001_007">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/LocoRoco/MuiMui_Boat/f_poster_buu_eu.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Mui_p_001_008">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/LocoRoco/MuiMui_Boat/f_poster_mc_eu.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="HRain_Podium01">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/HeavyRain/Presentationpodium_1.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/HeavyRain/Presentationpodium_2.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/HeavyRain/Presentationpodium_3.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/HeavyRain/Presentationpodium_4.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SCEJ_SIREN_GAME_003">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_1.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_2.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_3.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_4.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_5.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_6.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_EWOD.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="HKEventLandingPoster01">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Hustle_Kings/Home-Billboard-Hustle_Kings_new.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Hustle_Kings/Home-Billboard-Hustle_Kings_new_OFLAC.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="HKEventLandingPoster02">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Hustle_Kings/Home-Billboard-Hustle_Kings_new.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Hustle_Kings/Home-Billboard-Hustle_Kings_new_OFLAC.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="HKEventLandingPoster03">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Hustle_Kings/Home-Billboard-Hustle_Kings_new.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Hustle_Kings/Home-Billboard-Hustle_Kings_new_OFLAC.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="HKEventLandingPoster04">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Hustle_Kings/Home-Billboard-Hustle_Kings_new.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Hustle_Kings/Home-Billboard-Hustle_Kings_new_OFLAC.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SCEJ_SIREN_GAME_001">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_1.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_2.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_3.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_4.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_5.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_6.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_EWOD.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SCEJ_SIREN_GAME_002">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_1.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_2.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_3.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_4.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_5.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_6.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Posters/Siren/ENG/Siren_Bloodcurse_billboard_720x526_EWOD.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="WKC_Portrait">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/WKC/WKC_POSTER2-UK.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/WKC/WKC_POSTER2-ANZ.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SQEX_FF13_ps1_v_001">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2010_11_03/ffpsmonita5.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="PodiumVanilla_LoungeArea_AlcoveRight">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2010_18_03/STRPHNCS_BB_NOWON_ENG.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LowTideLoungeScreen1">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2010_18_03/STRPHNCS_BB_NOWON_ENG.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LowTideLoungeScreen3">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/2010_18_03/STRPHNCS_BB_NOWON_ENG.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Poster_1">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Uncharted/eng.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Poster_2">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Uncharted/U2BB_W_Callouts.jpg</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Uncharted/Uncharted2_Add-On-Skins-Homebillboard_US.jpg</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Uncharted/Updated_UC2GOTYbillboard.jpg</SOURCE>
+  </SCREEN>
+  <SCREEN ID="MRC_CommerceScreen">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/ModNation/MN_HAT_Home_Poster_UK.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/ModNation/MN_HAT_Home_Poster_ANZ.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="MRC_DesertScreen">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/ModNation/Mod_billboard_Strickers_ENG.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/ModNation/Mod_billboard_Strickers_ANZ.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="MRC_JungleScreen">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/ModNation/Mod_billboard_Strickers_ENG.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/ModNation/Mod_billboard_Strickers_ANZ.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LBP_Hub_OnlineImages">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/LBP/Final/lbp2.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SCEE_HOH_Minis_ComsPoster01">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Monsters.png</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SCEE_HOH_Minis_ComsPoster02">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Pinball_Dreams.png</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SCEE_HOH_Minis_ComsPoster03">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/minis_png.png</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SCEE_HOH_Minis_ComsPoster04">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Zombie_Tycoon.png</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SCEE_HOH_Minis_ComsPoster05">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Rocket_Racing.png</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SCEE_HOH_Minis_Poster01">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_alien_havoc_PEGI.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_alien_havoc_OFLAC.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_championship_manager_PEGI_EN.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SCEE_HOH_Minis_Poster02">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_coconut_dodge_PEGI.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_dracula_undead_awakening_PEGI.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SCEE_HOH_Minis_Poster03">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_hero_of_sparta_PEGI.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_hero_of_sparta_OFLAC.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SCEE_HOH_Minis_Poster04">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_international_snooker.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_let's_golf_PEGI.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_let's_golf_OFLAC.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SCEE_HOH_Minis_Poster05">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_monsters_probably_stole_my_princess_PEGI.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_pinball_fantasies_PEGI.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_pinball_fantasies_OFLAC.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SCEE_HOH_Minis_Poster06">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_retro_PEGI.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_rocket_racing_PEGI.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_vector_td_PEGI.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SCEE_HOH_Minis_Poster07">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_this_is_football_management_PEGI.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_this_is_football_management_OFLAC.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_yetisports_PEGI.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_yetisports_OFLAC.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="SCEE_HOH_Minis_Poster08">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_zombie_tycoon.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_zombie_tycoon_OFLAC.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Events/Minis/Home-Poster-minis_yummy_yummy_cooking_jam_PEGi.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="IREM_0001_001">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/IREM_UK_0001_001.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="IREM_0001_003">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/IREM_UK_0001_003.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="IREM_0001_004">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/IREM_UK_0001_004.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="IREM_0001_005">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/IREM_UK_0001_005.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="IREM_0001_006">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/IREM_UK_0001_006.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="IREM_0001_007">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/IREM_UK_0001_007.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="IREM_0001_008">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/IREM_UK_0001_008.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Playground_Billboard_01">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Billboard_A_16x9.jpg</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Playground_Billboard_02">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Billboard_B_16x9.jpg</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Playground_Billboard_03">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Billboard_C_16x9.jpg</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Playground_Poster_01">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Poster_A_3x4.jpg</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Playground_Poster_02">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Poster_A_3x4.jpg</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Playground_Poster_03">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Poster_A_9x16.jpg</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Playground_Poster_04">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Poster_B_9x16.jpg</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Playground_Poster_05">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Poster_B_16x9.jpg</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Playground_Poster_06">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Poster_C_4x3.jpg</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Playground_Poster_07">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/PSstore_Logo_cropped.jpg</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Playground_Poster_08">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Poster_A_4x3.jpg</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Playground_Poster_09">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Poster_A_16x9.jpg</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Playground_Poster_10">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Poster_B_16x9.jpg</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Playground_Poster_11">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Poster_B_4x3.jpg</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Playground_StageScreen">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Billboard_A_16x9.jpg</SOURCE>
+  </SCREEN>
+  <SCREEN ID="StillScreen1_Feisar">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Wipeout/Visuals/feisar01.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Wipeout/Visuals/feisar02.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Wipeout/Visuals/feisar03.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="StillScreen2_Icaras">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Wipeout/Visuals/icarus01.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Wipeout/Visuals/icarus02.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Wipeout/Visuals/icarus03.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="StillScreen3_furniture">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Wipeout/Visuals/flightsuite_eng.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Wipeout/Visuals/tshirts_eng.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Wipeout/Visuals/furniture_eng.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="StillScreen4_clothes">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Wipeout/Visuals/flightsuite_eng.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Wipeout/Visuals/tshirts_eng.dds</SOURCE>
+    <SOURCE>http://scee-home.playstation.net/e.home/mfe/content/Wipeout/Visuals/furniture_eng.dds</SOURCE>
+  </SCREEN>
+</XML>

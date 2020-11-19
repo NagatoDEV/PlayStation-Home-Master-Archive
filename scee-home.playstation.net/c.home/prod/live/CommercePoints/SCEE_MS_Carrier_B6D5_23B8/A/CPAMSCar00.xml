@@ -1,0 +1,198 @@
+<commerce_point>
+  <node>
+   <node>
+      <header>
+        <name lang="en-US" default="true">MotorStorm®</name>
+        <name lang="fr-FR" >MotorStorm®</name>
+        <thumbnail lang="en-US" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/MS_Test01.png</thumbnail>
+      </header>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="en-US" >Male</name>
+        <name lang="fr-FR" >Homme</name>
+        <name lang="it-IT" >Maschio</name>
+        <name lang="de-DE" >Männlich</name>
+        <name lang="es-ES" >Hombre</name>
+        <name lang="ja-JP" >??</name>
+        <name lang="ko-KR" >??</name>
+        <name lang="zh-HK" >??</name>
+        <name lang="zh-TW" >??</name>
+        <name lang="en-SG" >Male</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+      </header>
+      <!--MotorStorm® Lunatic Goggles-->
+        <object>8F107BC8-035E4719-B5CC388D-BAEBD42B</object>
+        <!--MotorStorm®  Lunatic Pressure Suit-->
+        <object>B424E972-7AC44769-91D4248E-421C3409</object>
+        <!--MotorStorm® Lunatic Carbon DH Gloves-->
+        <object>789591CB-50784036-974C3F23-D047B9EF</object>
+        <!--MotorStorm® Lunatic C95's-->
+        <object>DCE0FAF7-A4014CF7-BA22C81B-D1DB62C8</object>
+        <!--MotorStorm® Lunatic Race Shoes-->
+        <object>E9BC4AD-6EEB45E6-A4C4BDF8-61CECE19</object>
+      </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="en-US" >Female</name>
+        <name lang="fr-FR" >Femme</name>
+        <name lang="it-IT" >Femmina</name>
+        <name lang="de-DE" >Weiblich</name>
+        <name lang="es-ES" >Mujer</name>
+        <name lang="ja-JP" >??</name>
+        <name lang="ko-KR" >??</name>
+        <name lang="zh-HK" >??</name>
+        <name lang="zh-TW" >??</name>
+        <name lang="en-SG" >Female</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+      </header>
+       <!--MotorStorm® BikerGirl Shades-->
+        <object>EF9ADCE8-EE9D456B-9B62DD1D-0ABE591C</object>
+        <!--MotorStorm®  BikerGirl Leather Jacket-->
+        <object>E1578812-B66F4B9E-A7B9B289-661D29F8</object>
+        <!--MotorStorm® BikerGirl Studded Gloves-->
+        <object> AA065C1E-CBD94395-A154E433-15423BD3</object>
+        <!--MotorStorm® BikerGirl Leathers-->
+        <object>F7B72266-583F4643-81EDA82C-2D736876</object>
+        <!--MotorStorm® BikerGirl Race Shoes-->
+        <object>CD2D65FD-710843C7-91F7BDDB-1CC4B44D</object>
+      </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Chairs</name>
+        <name lang="en-US" >Chairs</name>
+        <name lang="fr-FR" >Sièges</name>
+        <name lang="it-IT" >Sedie</name>
+        <name lang="de-DE" >Stühle</name>
+        <name lang="es-ES" >Sillas</name>
+        <name lang="ja-JP" >???</name>
+        <name lang="ko-KR" >??</name>
+        <name lang="zh-HK" >??</name>
+        <name lang="zh-TW" >??</name>
+        <name lang="en-SG" >Chairs</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Chairs.dds</thumbnail>
+      </header>
+        <!--MotorStorm® Bucket Seat-->
+      <object>BAB7FC3F-2CD74B59-AB53FAD5-792A5E6B</object>
+       <!--MotorStorm® Camping Chair-->
+      <object>849FC695-58604E8D-A06F12AD-D0EDBE1B</object>
+       <!--MotorStorm® Tyre Footstool-->
+      <object>598F459D-7B034471-81295CE6-B07265BC</object>
+             <!--MotorStorm® Generator Seat-->
+      <object>1EA75F59-E7044239-9E5A11C4-756A3A0E</object>
+             <!--MotorStorm® Camping Seat-->
+      <object>5302B299-E4BB4022-997AB125-607DBDBC</object>
+             <!--MotorStorm® Easy Chair-->
+      <object>CE426BCD-2EB94C7C-840DD5D0-96D2F712</object>
+      </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Tables</name>
+        <name lang="en-US" >Tables</name>
+        <name lang="fr-FR" >Tables</name>
+        <name lang="it-IT" >Tavoli</name>
+        <name lang="de-DE" >Tische</name>
+        <name lang="es-ES" >Mesas</name>
+        <name lang="ja-JP" >????</name>
+        <name lang="ko-KR" >???</name>
+        <name lang="zh-HK" >??</name>
+        <name lang="zh-TW" >??</name>
+        <name lang="en-SG" >Tables</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Tables.dds</thumbnail>
+      </header>
+        <!--MotorStorm® Workbench-->
+      <object>76BE07EF-FAE2488C-85D5DF69-B135DF5E</object>
+      <!--MotorStorm® Scrap Table-->   
+      <object>D4E20BBA-B7294E93-ADB51717-0020658F</object> 
+    </node>    
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Storage</name>
+        <name lang="en-US" >Storage</name>
+        <name lang="fr-FR" >Rangements</name>
+        <name lang="it-IT" >Bauli</name>
+        <name lang="de-DE" >Aufbewahrung</name>
+        <name lang="es-ES" >Almacenamiento</name>
+        <name lang="ja-JP" >????</name>
+        <name lang="ko-KR" >?? ??</name>
+        <name lang="zh-HK" >???</name>
+        <name lang="zh-TW" >???</name>
+        <name lang="en-SG" >Storage</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Storage.dds</thumbnail>
+      </header>
+      <!--MotorStorm® Flightcase-->
+      <object>7136945D-E3AF453E-960E810C-2C63FF81</object>
+       <!--MotorStorm® Tool Chest-->
+      <object>069A2BB2-4BAB4CAB-83E2F4C0-DD5A703B</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Ornaments</name>
+        <name lang="en-US" >Ornaments</name>
+        <name lang="fr-FR" >Décoration</name>
+        <name lang="it-IT" >Decorazioni</name>
+        <name lang="de-DE" >Verzierungen</name>
+        <name lang="es-ES" >Adornos</name>
+        <name lang="ja-JP" >???</name>
+        <name lang="ko-KR" >???</name>
+        <name lang="zh-HK" >???</name>
+        <name lang="zh-TW" >???</name>
+        <name lang="en-SG" >Ornaments</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+      </header>
+      <!--MotorStorm® Buggy Model-->
+      <object>461EF1D5-4DDA443D-BE8038AB-AB08C941</object>
+      <!--MotorStorm® Coyote Rage Statue-->
+      <object>1491D001-0D084363-8F54E0F6-032EF4A6</object>
+       <!--MotorStorm® Broken Boombox-->
+      <object>CB8EC660-37E6478B-9EE8B527-3F57CA58</object>
+      <!--MotorStorm® Busted TV-->
+      <object>FBF58C79-11064C13-AAF7C771-DD109254</object>
+      <!--MotorStorm® Burnt Out BBQ-->
+      <object>55F3C953-667B48D4-846D025F-BD6BACF0</object>
+    </node>    
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Sofas</name>
+        <name lang="en-US" >Sofas</name>
+        <name lang="fr-FR" >Canapés</name>
+        <name lang="it-IT" >Divani</name>
+        <name lang="de-DE" >Sofas</name>
+        <name lang="es-ES" >Sofás</name>
+        <name lang="ja-JP" >????</name>
+        <name lang="ko-KR" >??</name>
+        <name lang="zh-HK" >??</name>
+        <name lang="zh-TW" >??</name>
+        <name lang="en-SG" >Sofas</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Sofas.dds</thumbnail>
+      </header>
+        <!--MotorStorm® Car Seat-->
+      <object>D482EED5-12A54DB4-878CC3DC-F13F5141</object>
+        <!--MotorStorm® Skateboard Sofa-->
+      <object>E147AB31-71B944B0-AA2339CB-5FD5B11D</object>
+    </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Personal Space</name>
+          <name lang="fr-FR" >Espace personnel</name>
+          <name lang="it-IT" >Spazio personale</name>
+          <name lang="de-DE" >Home-Apartment</name>
+          <name lang="es-ES" >Espacio Home</name>
+          <name lang="ja-JP" >パーソナルスペース</name>
+          <name lang="ko-KR" >개인공간</name>
+          <name lang="zh-HK" >個人空間</name>
+          <name lang="zh-TW" >個人空間</name>
+          <name lang="en-SG" >Personal Space</name>
+          <name lang="en-US" >Personal Space</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/estates_scea.dds</thumbnail>
+        </header>   
+        <!--MotorStorm® Monument Valley-->     
+	<object>55DAF48F-0E0F4DC8-85FFFDD1-C4B840B0</object>
+        <!--MotorStorm® Pacific Rift-->
+	<object>00C4E166-D83A48EC-9A89767E-5F1F1410</object>
+      </node>
+  </node>
+  </node>
+</commerce_point>
+

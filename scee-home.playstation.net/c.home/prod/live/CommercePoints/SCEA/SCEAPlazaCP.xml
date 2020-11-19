@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header>
+	<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+    </header>
+	<node>
+      <header>
+        <name lang="en-GB" default="true">Featured Items</name>
+        <name lang="fr-FR">Featured Items</name>
+        <name lang="en-US">Featured Items</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/featured.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+      </header>
+	<node>
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="fr-FR">Homme</name>
+        <name lang="de-DE">Männlich</name>
+        <name lang="it-IT">Maschio</name>
+        <name lang="es-ES">Hombre</name>
+        <name lang="ja-JP">??</name>
+        <name lang="ko-KR">??</name>
+        <name lang="en-SG">Male</name>
+        <name lang="zh-HK">??</name>
+        <name lang="zh-TW">??</name>
+        <name lang="en-US">Male</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+      </header>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="fr-FR">Torse</name>
+          <name lang="de-DE">Rumpf</name>
+          <name lang="it-IT">Torso</name>
+          <name lang="es-ES">Torso</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Torso</name>
+          <name lang="zh-HK">??</name>
+          <name lang="zh-TW">??</name>
+          <name lang="en-US">Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+        </header>
+<!--Tester-->
+<object>28582953-A0384B48-A50F4833-3A867A26</object>
+</node>
+		<node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Assassin's Creed 2</name>
+        <name lang="fr-FR">Assassin's Creed 2</name>
+		<name lang="en-US">Assassin's Creed 2</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/AC2.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+      </header>
+	  <!--Ezio_012810-->
+	<object>405BA51E-C9D84B5B-8FEA4FEF-9F78F94A</object> 
+	</node>
+<node type="objects">
+			<header>
+          <name lang="en-US" default="true">Paris Fantasy Wear</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/paris_fantasym.png</thumbnail>
+		 <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+        </header>
+<object>6A8493E9-CEAE49BF-B3BC9930-4A6A273A</object>
+<object>EA62BD5D-E3714107-984B73EA-A1B135CF</object>
+<object>68F3F9B8-8D504FE1-88DA544C-405FEDF8</object>
+<object>BE03D872-3C284453-9FAF5D85-2CCDB8BE</object>
+<object>F590ABC1-A14142D7-89E741B1-4BE0DB86</object>
+<object>B59F51A7-7BE24493-9D147D4F-37F36080</object>
+        </node>
+<node type="objects">
+			<header>
+          <name lang="en-US" default="true">Paris Victorian Wear</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/paris_victorianm.png</thumbnail>
+		 <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+        </header>
+<object>67AE8CCE-1C0B40ED-8915A873-7CD883F1</object>
+<object>772308C2-5ECB4558-A89E5F15-726D3384</object>
+<object>5D265660-8D41449F-86E762D0-DDF3196F</object>
+<object>0F58AFAA-CB234CE1-87751F27-F1FB14B7</object>
+<object>04DF9E24-246C4123-8A422FEC-F367C6C0</object>
+<object>E0D6947E-9D7D45D6-AE1E6A6D-4AD7EA75</object>
+        </node>
+<node type="objects">
+			<header>
+          <name lang="en-GB" default="true">Monty Python Holy Grail</name>
+          <name lang="fr-FR">Monty Python Holy Grail</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/sceamphg.png</thumbnail>
+		 <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+        </header>
+<object>255B466F-87BE41D1-AB33AE6A-8FBDCD2D</object>
+<object>491951FA-B7394539-84769044-9E367223</object>
+<object>5F7D6F61-4E3B428F-B47CFB6B-01045666</object>
+<object>3D7F3206-123748F2-9FA23575-80F2E1D3</object>
+<object>8B998557-317648CF-B3D127AE-0B78D823</object>
+<object>CBE5ED00-5FC74160-9B120390-B9B899D7</object>
+<object>0D03718D-814D4FB6-81C07875-7328C58C</object>
+</node>	  
+<node>
+	       <header>
+        <name lang="en-GB" default="true">The Original V-Shirt Store</name>
+        <name lang="fr-FR">The Original V-Shirt Store</name>
+        <name lang="en-US">The Original V-Shirt Store</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/TOVS.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+      </header>
+	  	  <node type="objects">
+     <header>
+        <name lang="en-GB" default="true">The Original V-Shirt Store</name>
+        <name lang="fr-FR">The Original V-Shirt Store</name>
+        <name lang="en-US">The Original V-Shirt Store</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/TOVS.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+      </header>
+	<object>4D44BD12-0ACB4160-B41F49EF-C477C996</object>
+	<object>38362CA7-071643EC-910EEFAE-9E8DD925</object>
+	<object>DEDE29A8-7AEE4109-8CB1C752-7FE49C7F</object>
+	<object>28F087E8-02404A7B-88266FDF-9C643CCE</object>
+	<object>632BFC2F-8F9C454B-A9A50F42-DF8C1A25</object>
+	<object>5726C13D-540A4162-BA04E355-D53A8588</object>
+	  </node>
+	  <node type="objects">
+     <header>
+        <name lang="en-GB" default="true">Billabong</name>
+        <name lang="fr-FR">Billabong</name>
+        <name lang="en-US">Billabong</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Billabong.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+      </header>
+	<object>86125FD5-A43345A5-9E98A946-0C4C81EC</object>
+	<object>879CB077-A0304E7A-B0CAC7A8-1D2860ED</object>
+	<object>A8ECC149-6C83428E-8315516C-0F6ABEFB</object>
+	<object>74A50F09-00684827-96481795-B3E8972D</object>
+	<object>903E0697-57164165-A3683A5F-9B619356</object>
+	<object>79D23113-58A647AF-AB998CF2-A70C8E08</object>
+	<object>5CE87DEE-743C49E3-88F929CD-31171436</object>
+	<object>91BC831C-9E274322-BBA753D3-E7416981</object>
+	  </node>
+	 <node type="objects">
+     <header>
+        <name lang="en-GB" default="true">Teetonic</name>
+        <name lang="fr-FR">Teetonic</name>
+        <name lang="en-US">Teetonic</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Teetonic.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+      </header>
+	<object>48B6CF48-81924C35-96469A97-04A5AA1B</object>
+	<object>DCF03851-BEB045FB-A1C08B35-8F56C407</object>
+	<object>7EC73E00-C01D4292-A460A298-67ADA8EC</object>
+	<object>DE98FA4B-7BB8446B-B10382FF-88964F3B</object>
+	<object>58C4440C-162D4CBA-AEFEB966-A3CA0C6D</object>
+	  </node>
+	  <node type="objects">
+     <header>
+        <name lang="en-GB" default="true">Worn Free</name>
+        <name lang="fr-FR">Worn Free</name>
+        <name lang="en-US">Worn Free</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/wornfree.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+      </header>
+	<object>4E1A5E78-48344552-9AD9827A-A3331A6C</object>
+	<object>C0C52A4C-D2ED4846-8563D9F1-5B5F65D8</object>
+	<object>120DC9F5-0FA4463D-ACA70030-186651A6</object>
+	<object>4566CE09-80354BC4-B199300A-6800A512</object>
+	<object>112EFD5D-51114EAB-B1D3AAA4-4532D604</object>
+	<object>B043E237-5C0B44C8-9E51FC8F-60464F9C</object>
+	  </node>
+	  <node type="objects">
+     <header>
+        <name lang="en-GB" default="true">Joystick Junkies</name>
+        <name lang="fr-FR">Joystick Junkies</name>
+        <name lang="en-US">Joystick Junkies</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/JJ.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+      </header>
+	<object>34FB6ED2-D4404296-88C711B0-F6857F04</object>
+	<object>6481B45E-65164B1A-BE948383-5FDD4030</object>
+	<object>2B5C0996-A0754B84-A9B929B9-C8563E66</object>
+	<object>7CC16C51-061E4213-A259D101-847D117D</object>
+	  </node>
+	  	  	  <node type="objects">
+     <header>
+        <name lang="en-GB" default="true">8Ball</name>
+        <name lang="fr-FR">8Ball</name>
+        <name lang="en-US">8Ball</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/8Ball.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background>  
+      </header>
+	<object>D32E5ADB-4CC9473D-B94D3E6F-B997AB19</object>
+	<object>DC364EC7-D7A64AED-B66462EA-3C5A5B32</object>
+	<object>CAB7639E-78D64F58-9ED1200E-D2A0F495</object>
+	<object>C3D6B68C-9AED40B7-960B0C63-966D2FDB</object>
+	  </node>
+	  	 <node type="objects">
+     <header>
+        <name lang="en-GB" default="true">Island Records</name>
+        <name lang="fr-FR">Island Records</name>
+        <name lang="en-US">Island Records</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/IR.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+      </header>
+	<object>459F6801-FC584891-BF107441-66B260B6</object>
+	<object>9E26F55B-0F41427F-8D9B8E7B-CE1E631C</object>
+	  </node>
+	  </node>
+  </node>
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR">Femme</name>
+        <name lang="de-DE">Weiblich</name>
+        <name lang="it-IT">Femmina</name>
+        <name lang="es-ES">Mujer</name>
+        <name lang="ja-JP">??</name>
+        <name lang="ko-KR">??</name>
+        <name lang="en-SG">Female</name>
+        <name lang="zh-HK">??</name>
+        <name lang="zh-TW">??</name>
+        <name lang="en-US">Female</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+      </header>
+ <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="fr-FR">Torse</name>
+          <name lang="de-DE">Rumpf</name>
+          <name lang="it-IT">Torso</name>
+          <name lang="es-ES">Torso</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Torso</name>
+          <name lang="zh-HK">??</name>
+          <name lang="zh-TW">??</name>
+          <name lang="en-US">Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+        </header>
+<!--Tester-->
+<object>3470D957-D21D4BFD-B74B72BA-C27FBE0C</object>
+</node>
+<node type="objects">
+			<header>
+          <name lang="en-US" default="true">Paris Fantasy</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/paris_fantasyf.png</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+        </header>
+<object>360E4687-E3D84BF4-80FEF6DC-4C018128</object>
+<object>2113258B-ADA84A09-8AE17B9C-0CFEFD73</object>
+<object>5BFFE560-D5EB4E28-984D6AD3-F2EA2418</object>
+<object>941A209F-12594CFC-A9E2848D-7B0D1B92</object>
+<object>D10A1C34-4EE04B28-823198B1-EBEC2F95</object>
+<object>6FAB10F8-2ECA48A9-A9EDC791-A7470B35</object>
+        </node>
+<node type="objects">
+			<header>
+          <name lang="en-US" default="true">Paris Victorian</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/paris_victorianf.png</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+        </header>
+<object>C3E1862C-6B3E449D-8D5C8447-62392182</object>
+<object>E71E5A91-0A0349EA-93AAB233-29162CE3</object>
+<object>3F702984-7A4048B5-92EB7240-BFA0293F</object>
+<object>0405EB53-F388455F-AADC7058-5268E83D</object>
+<object>5FD8297D-812E4105-BE091766-3A5D7137</object>
+<object>5AFCACAE-17354853-9AB24507-CAA415C8</object>
+        </node>
+<node>
+	       <header>
+        <name lang="en-GB" default="true">The Original V-Shirt Store</name>
+        <name lang="fr-FR">The Original V-Shirt Store</name>
+        <name lang="en-US">The Original V-Shirt Store</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/TOVS.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+      </header>
+	  	  <node type="objects">
+     <header>
+        <name lang="en-GB" default="true">The Original V-Shirt Store</name>
+        <name lang="fr-FR">The Original V-Shirt Store</name>
+        <name lang="en-US">The Original V-Shirt Store</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/TOVS.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+      </header>
+	<object>059ECEB6-57C346B1-B0AA7C6A-439BAAB9</object>
+	  </node>
+	  <node type="objects">
+     <header>
+        <name lang="en-GB" default="true">Billabong</name>
+        <name lang="fr-FR">Billabong</name>
+        <name lang="en-US">Billabong</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Billabong.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+      </header>
+	<object>A9A00910-D9F54259-93534DC4-BD837A5A</object>
+	<object>A3CF0380-CE594342-A21C3F99-89A09635</object>
+	<object>ACDDD154-24814999-914C961F-F137EE9A</object>
+	  </node>
+	  <node type="objects">
+     <header>
+        <name lang="en-GB" default="true">Worn Free</name>
+        <name lang="fr-FR">Worn Free</name>
+        <name lang="en-US">Worn Free</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/wornfree.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+      </header>
+	<object>E5B2DC84-43794B66-B4B48747-34A8EECC</object>
+	<object>C1E100D1-4F1E4B38-942AC771-B4E40678</object>
+	<object>12BC3C8D-DBDA4F0E-A5C97381-0E455C00</object>
+	<object>1FE6C37A-72154DCD-A2E460AB-73956A86</object>
+	  </node>
+	  	 <node type="objects">
+     <header>
+        <name lang="en-GB" default="true">Island Records</name>
+        <name lang="fr-FR">Island Records</name>
+        <name lang="en-US">Island Records</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/IR.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background>  
+      </header>
+	<object>6BD57262-16AB4312-BE357925-C0FE7600</object>
+	<object>14B1F513-101F4766-A5EF0D63-769DD113</object>
+	  </node>
+	  </node>
+   </node>
+   <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Personal Space</name>
+          <name lang="fr-FR" >Espace personnel</name>
+          <name lang="it-IT" >Spazio personale</name>
+          <name lang="de-DE" >Home-Apartment</name>
+          <name lang="es-ES" >Espacio Home</name>
+          <name lang="ja-JP" >パーソナルスペース</name>
+          <name lang="ko-KR" >개인공간</name>
+          <name lang="zh-HK" >個人空間</name>
+          <name lang="zh-TW" >個人空間</name>
+          <name lang="en-SG" >Personal Space</name>
+          <name lang="en-US" >Personal Space</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/EstatesStoreA.png</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+        </header>
+<!--LondonPub_012810-->
+<object>2BB4A258-50C94E43-B9FF7F58-1D122B23</object> 
+<!--Paris-->
+<object>2A90AC9C-35EE4A9D-B9C2DA00-7B5BB1E8</object>
+<!--Fantasy_012810-->	  
+<object>19EA5050-D8A7456C-B3DEDBC2-A275A59B</object> 
+<!--Classic-->
+<object>181F1585-049D4F45-823DE26A-331B6B79</object> 
+<object>1401DB1D-C3464D8F-A521C3D4-5948ACCF</object> 
+</node>
+<node type="objects">
+			<header>
+          <name lang="en-GB" default="true">Evolving Items</name>
+          <name lang="fr-FR">Evolving</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/evolving.png</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/PlazaA.png</background> 
+        </header>
+<object>97B8277C-E63D45AB-838A5D87-74F035E8</object>
+<object>B4F0903A-E1C04B8E-8AFFF4C2-67595AC7</object>
+</node>
+    </node>
+	</node>
+</commerce_point>

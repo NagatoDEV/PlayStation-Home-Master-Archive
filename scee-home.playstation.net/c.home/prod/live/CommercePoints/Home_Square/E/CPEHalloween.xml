@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+  <header>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+             <palette lang="en-GB" type="black" default="true" />
+    </header>
+  <node>
+        <header>
+        <name lang="en-GB">Male</name>
+        <name lang="fr-FR" >Homme</name>
+        <name lang="it-IT" >Maschio</name>
+        <name lang="de-DE" >Männlich</name>
+        <name lang="es-ES" >Hombre</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+      </header>
+    <node type="objects">
+        <header>
+          <name lang="en-GB">Head</name>
+          <name lang="fr-FR" >Accessoires de tête</name>
+          <name lang="it-IT" >Accessori testa</name>
+          <name lang="de-DE" >Kopf</name>
+          <name lang="es-ES" >Accesorios cabeza</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+      </header>
+        <!--nDreams party heads-->
+        <object>1A957CBF-15BF4AD1-B596CBA3-B60C8651</object>
+		<object>F93176A8-1D484BFE-B87848CF-3B7A0A2F</object>
+		<object>A5A93333-4ECA4E02-AD845230-F9BEE2CD</object>
+         <!--Skelly Bones-->
+		<object>811AEA78-B99E4EE8-B8A5A9B5-927A3A68</object>
+		<object>1E80242A-AE174CAC-88904673-F2184ECC</object>
+		     <!--Circlet of sunless kingdom-->
+		<object>BF833658-97CB4A5D-A421B26D-D196FDDE</object>
+			<!--Fantasy Fashion - Demon Head-->
+		<object>9E541778-A3FB4793-80994C51-4A8291EB</object>
+				<!--Fantasy Fashion - Minotaur Head-->
+		<object>0BF2C496-AE4D4D97-A3B38D18-01D9A3D2</object>
+				<!--Demon Horns-->
+        <object>E585FC0F-200A4654-BEBB4DB2-4CD95802</object>
+		        <!--Devilish Horns-->
+        <object>D8A8A308-147C42D8-AC73E596-C8A1AAB2</object>
+		        <!--Head Horns-->
+        <object>6E317D20-80E74FCC-9701B86F-111222DB</object>
+                <!--Side Horns-->
+        <object>3DC1B83E-C9AE4CA7-B2A494C9-9BE7FAE8</object>
+		<!--Mad scientist head -->
+		<object>5A9C4C12-F8974006-91884396-542B8209</object>
+			 <!--Goth Suit head -->
+		<object>2036D824-9A8C4192-A05B5641-72C118E5</object>
+              <!--Mola Ram Head-->
+		<object>50D8783D-1E504F39-93FA59D0-DC41C94C</object>
+              <!--Tiki Mask-->
+		<object>C1CAFDD5-A7914F1C-B9BF784C-D3F836DC</object>
+			  <!--Grim Mask-->
+        <object>7100263F-C9174C9C-A33428F5-2A65CDEB</object>
+		      <!-- Captain Inflame-o Mask and Hair  -->
+        <object>F52A260C-D077465F-9E66472C-E03C1E87</object>
+			  <!--Anime Flame Hair -->
+        <object>AC4FFB4C-16F24529-A8C49BDD-C1ACF883</object>
+			  <!--Servbot Head -->
+		<object>AB2BA63D-97CE41A7-985F40A1-F304448C</object>
+				<!--Skull Mask-->	
+		<object>2E2BD590-767448D6-A8649C80-9B15A99B</object>
+      </node>
+   <node type="objects">
+        <header>
+          <name lang="en-GB">Torso</name>
+          <name lang="fr-FR" >Torse</name>
+          <name lang="it-IT" >Torso</name>
+          <name lang="de-DE" >Rumpf</name>
+          <name lang="es-ES" >Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+      </header>
+               <!--nDreams party torsos-->
+        <object>67E894B0-9E3940C4-8B6E1341-AC3946E1</object>
+        <object>0B600AD3-D59C408B-A75EC842-7C4BA8D2</object>
+		<object>08BC19E8-311646D9-90B09FAF-A61BD383</object>
+		<object>1F0633EC-E41D46A2-B0DB5F28-8D9F063C</object>
+				<!-- Bone shirt-->
+		<object>1837E2C6-760C4E0A-A050685C-C997B598</object>
+                <!--Skelly Bones-->
+		<object>F0760790-D6F74917-A8F7661F-667A5A94</object>
+		<object>1A04A246-25D6410F-A36A2BC0-92725BD5</object>
+		<!--Mad scientist top -->
+		<object>C5FAAFBD-42664B26-8DCFA34F-480DAD80</object>
+			 <!--Goth Suit top -->
+		<object>47163F41-C1A64947-B2B536A2-525C4E6F</object>
+				<!--Fantasy Fashion - Demon Wings-->
+		<object>E7A296CF-D0C44F6A-82BA93C7-DB8A409D</object>
+				<!--Fantasy Fashion - Angel Wings-->
+		<object>C1196157-CDE74079-8942C497-10D84670</object>
+      </node>
+            <node type="objects">
+        <header>
+          <name lang="en-GB">Legs</name>
+          <name lang="fr-FR" >Jambes</name>
+          <name lang="it-IT" >Gambe</name>
+          <name lang="de-DE" >Beine</name>
+          <name lang="es-ES" >Piernas</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/legs.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+      </header>
+             <!--Skelly Bones-->
+		<object>407A3658-552C4AC9-BF0ACDE8-83971FA5</object>
+		<object>EADFF152-C8DB4676-8E4BF903-6466DA1F</object>
+		<!--Mad scientist legs -->
+		<object>47C62660-70434C04-B1EA2E72-7F53E243</object>
+			 <!--Goth Suit legs -->
+		<object>76B64549-B35949E7-B16DE086-79EA5C6A</object>
+			<!--Fantasy Fashion Minotaur Legs and Hooves-->
+		<object>66A89AE2-851F4938-90634A10-EA8110B0</object>
+        <object></object>
+      </node>
+            <node type="objects">
+        <header>
+          <name lang="en-GB">Hands</name>
+          <name lang="fr-FR" >Mains</name>
+          <name lang="it-IT" >Mani</name>
+          <name lang="de-DE" >Hände</name>
+          <name lang="es-ES" >Manos</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hands.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+      </header>
+          <!-- Black Rose (male) -->
+          <object>237BBA84-37D04433-8CBD36F2-22D6339F</object>
+          <!--Skelly Bones-->
+		<object>75177833-533944AF-B97D02B5-4D4005EA</object>
+		<object>6953F5AE-1B5647DF-A0304CB2-DAAA7F04</object>
+				<!--Mad scientist gloves -->
+		<object>E1E502BF-DDA8443E-BC9076D7-E8BB9678</object>
+			 <!--Goth Suit gloves -->
+		<object>7C3175E4-C4314D88-A1015078-6BD65EF4</object>
+	    <!-- Lockwood Wings (male) -->
+		<object>0BAF8F55-A21B4EBC-9D1F88E1-88B10648</object>
+	    <object>7ED6E010-07074931-B5E66208-46FCB91B</object>
+		<object>BCFA47C3-2FDB4DFC-A8F79118-897E6772</object>
+		<object>EB4A1A03-F056437E-839F6F4D-3532092B</object>
+      </node>
+            <node type="objects">
+        <header>
+          <name lang="en-GB">Feet</name>
+          <name lang="fr-FR" >Pieds</name>
+          <name lang="it-IT" >Piedi</name>
+          <name lang="de-DE" >Füße</name>
+          <name lang="es-ES" >Pies</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/feet.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+      </header>
+             <!--Skelly Bones-->
+		<object>49BA8D74-81834F50-BC17B0FD-A0A282A6</object>
+		<object>B1CF0635-CE9040F0-895B5E3B-C25F9B50</object>
+		<!--Mad scientist feet -->
+		<object>841CECA6-344C4867-94FCF139-22D7A57A</object>
+      </node>
+            <node type="objects">
+        <header>
+          <name lang="en-GB">Glasses</name>
+            <name lang="fr-FR" >Lunettes</name>
+            <name lang="it-IT" >Occhiali</name>
+            <name lang="de-DE" >Brille</name>
+            <name lang="es-ES" >Gafas</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/glasses.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+      </header>
+         <!--Contact lenses-->    
+		<object>DE14BDB8-B1B34E84-BBA4D5BE-520431DA</object>
+        <object>62D6B6F2-35C24379-920231D3-7C9451AF</object>
+        <object>5ACF8DA5-9E194819-83AC7753-BC5444C7</object>
+        <object>87353802-89E442FB-9230AF73-E01A6B68</object>
+        <object>DCECDD00-9B004B52-93700E26-FF9F110B</object>
+        <object>5D730350-2050443E-8B39F37F-7B68C94D</object>
+        <object>24CB66FB-0E8B4259-B36EAED4-742AC00D</object>
+        <object>08EB0D7A-7376422F-AD3F754C-4E57E5A5</object>
+        <object>FCEF97AF-41064162-9DEE3B82-A63C11DE</object>
+        <object>E158ED41-8E644996-9015C185-6336E764</object>
+          <!--Eye Mask-->
+          <object>0A8EE503-D4574985-B53E2046-08F3A72B</object>
+          <!--Dark Lilly Masks-->    
+		<object>EC433DB7-F4C740E5-8678C7D2-EFB9DE7B</object>
+        <object>8D344CF7-561B43B6-9E60A765-A9EB1AAF</object>
+        <object>29E607EE-133D4187-963401D1-75FAE8F5</object>
+        <object>45A0087F-BAB048D8-AD42C1CE-BBB7C355</object>
+        <object>BDD0DC6F-DFEC474D-8161280D-37CE4879</object>
+      </node>
+	  <node type="objects">
+          <header>
+			      <name lang="en-GB" default="true">Outfits and Bundles</name>
+			      <name lang="fr-FR" >Costumes et Paquets</name>
+			      <name lang="it-IT" >Costumes e Pacchi</name>
+			      <name lang="de-DE" >Kostüm und Bündel</name>
+			      <name lang="es-ES" >Traje y paquetes</name>
+				  <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/outfits.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+	   </header>
+			    <!--Black Party Robe (Male)-->
+			    <object>E8FD88D4-F427469A-9D5D3766-B91E3682</object>
+	   		<!-- nDreamsPart Prop bundle-->
+		<object>794E6833-8EF64D64-8A0528C1-63454E5F</object>
+			   		<!-- Mummy -->
+		<object>166A5643-DA314460-B5D70D5D-3DA6CA72</object>
+	          <!--Skelly Bones-->
+		<object>1AE80759-91AE405A-A0466D74-F093C8E0</object>
+		<object>F6CD35DC-66714B1C-AD112DCE-6C0F1F39</object>
+		<!--Skeleton Man-->
+		<object>9221006B-AECD413F-9A0CAAD1-06F45733</object>
+				<!--Pumpkin Zombie Outfit-->
+				<object>FB9F3CD7-E34E40B0-9C2A3E1C-CE82306B</object>
+				<!--Ghost Outfit-->
+				<object>DCC1AC66-77344115-990F84B1-83258593</object>
+				<!--Frankenstein-->
+				<object>41F9BB1A-165846A7-B7B18083-0795E162</object>
+				<!--Werewolf Outfit-->
+				<object>8EFCD861-9D1E454C-94BF25AE-CC63E5D9</object>
+			<!--Mad scientist bundle-->
+		<object>82E46970-D88541AC-A34B7162-B931E83B</object>
+			 <!--Goth Suit Bundle-->
+		<object>2C3371AD-96604E01-B80BE775-D1CFEB28</object>
+			    <!-- Stick Figure Suit -->
+		<object>6EBCCBD6-D51A4423-BC5343FE-77463619</object>
+      </node>
+      </node>
+   <node>
+        <header>
+        <name lang="en-GB">Female</name>
+        <name lang="fr-FR" >Femme</name>
+        <name lang="it-IT" >Femmina</name>
+        <name lang="de-DE" >Weiblich</name>
+        <name lang="es-ES" >Mujer</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+      </header>
+    <node type="objects">
+        <header>
+          <name lang="en-GB">Head</name>
+          <name lang="fr-FR" >Accessoires de tête</name>
+          <name lang="it-IT" >Accessori testa</name>
+          <name lang="de-DE" >Kopf</name>
+          <name lang="es-ES" >Accesorios cabeza</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+      </header>
+              <!--nDreams party heads-->
+        <object>83F73515-0BBB42B0-A8E5000F-A6713FD5</object>
+		<object>034A3051-0AFC4D30-A1531905-F5251005</object>
+		<object>FA8986CB-E6CF4708-A066734B-8A6E8712</object>
+      	     <!--Skelly Bones-->
+		<object>1E6F2F88-8ECC4233-B62225C0-3C0BEEEF</object>
+		<object>7A18681B-0A1E438D-A094187B-75FC3241</object>
+		           <!--Tiara of sunless kingdom-->
+		<object>5560D277-A6014465-8471B0BA-FAD8FFE9</object>
+			 <!--Demon Horns-->
+        <object>A8A1DB6A-6D724213-8BF5D755-BE65577C</object>
+		      <!--Devilish Horns-->
+        <object>3F6CD0A6-AE634DE8-8AEB3C4C-197AD3E9</object>
+		      <!--Head Horns-->
+        <object>07385AF3-701844ED-B56FAE79-CE8C99E5</object>
+              <!--Side Horns-->
+        <object>8F3DBDD9-17574549-A2C70F3F-ED4635D3</object>
+		      <!-- Servbot Head -->		
+		<object>64C465B0-05E54963-916232AD-F5945550</object>
+      </node>
+   <node type="objects">
+        <header>
+          <name lang="en-GB">Torso</name>
+          <name lang="fr-FR" >Torse</name>
+          <name lang="it-IT" >Torso</name>
+          <name lang="de-DE" >Rumpf</name>
+          <name lang="es-ES" >Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+      </header>
+         <!--nDreams party torsos-->
+        <object>04EAB38A-8EDC4DCC-A7CE0349-93E26FA4</object>
+		<object>2CD1ED3D-DE534DE3-83CEA8CB-8D7F9056</object>
+	    <object>7D6F3924-E7104F5E-8371CDD8-FF48C40B</object>
+		<object>BDDA5101-419D4273-ACFE45A8-533E218F</object>
+		<!-- Bone shirt-->
+		<object>382F1C9C-4C6A4700-B5B1F2D3-A318F243</object>
+          <!--Skelly Bones-->
+		<object>2E035809-B1FA48FC-8C01A5CD-C65D3040</object>
+		<object>2F69F284-FE3C4964-A44F87D0-AB1C5D1B</object>
+		<!--Fantasy Fashion - Angel Wings-->
+		<object>62264A9D-6F02492A-8C7CC9F8-64887BFC</object>
+		<!--Fantasy Fashion - Demon Wings-->
+		<object>75ED23B7-CAF74877-B15A6D5F-118D88B3</object>
+      </node>
+            <node type="objects">
+        <header>
+          <name lang="en-GB">Legs</name>
+          <name lang="fr-FR" >Jambes</name>
+          <name lang="it-IT" >Gambe</name>
+          <name lang="de-DE" >Beine</name>
+          <name lang="es-ES" >Piernas</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/legs.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+      </header>
+          <!--Skelly Bones-->
+		<object>EA8E05F1-E0D34C6D-A656E81A-A30793BD</object>
+		<object>5AA7CDBC-059A41ED-A136971C-5AAFBDA1</object>
+      </node>
+            <node type="objects">
+        <header>
+          <name lang="en-GB">Hands</name>
+          <name lang="fr-FR" >Mains</name>
+          <name lang="it-IT" >Mani</name>
+          <name lang="de-DE" >Hände</name>
+          <name lang="es-ES" >Manos</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hands.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+      </header>
+         <!-- Black Rose (female) -->
+         <object>8D4F21B0-85B446FB-AB4611E8-E1D1973E</object>
+          <!--Skelly Bones-->
+		<object>6DEA7DD1-F3024DE3-91C6BA1E-5C5EE851</object>
+		<object>C408695E-200248C8-A9F3A1D4-D8586F64</object>
+		<!-- Lockwood Wings (female) -->
+		<object>0D89B51F-F0024C23-87C84395-103BB150</object>
+		<object>3CA400BB-F7EB4BBE-85CA42B0-97EB6AF8</object>
+		<object>5130E530-E42E4C69-B1380CAE-81DCABEC</object>
+		<object>86886805-D17E498E-B2319EF3-DC824449</object>
+	    <object>993FD36D-859D4E76-83E23F7E-4EF0E5DC</object>
+      </node>
+  <node type="objects">
+        <header>
+          <name lang="en-GB">Feet</name>
+          <name lang="fr-FR" >Pieds</name>
+          <name lang="it-IT" >Piedi</name>
+          <name lang="de-DE" >Füße</name>
+          <name lang="es-ES" >Pies</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/feet.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+      </header>
+      	     <!--Skelly Bones-->
+		<object>EC441E3B-5D964AAF-9CF7DC74-3EF79813</object>
+		<object>9E08B59D-28A045E0-A3A7C38F-FD869F11</object>
+      </node>
+    <node type="objects">
+        <header>
+          <name lang="en-GB">Glasses</name>
+            <name lang="fr-FR" >Lunettes</name>
+            <name lang="it-IT" >Occhiali</name>
+            <name lang="de-DE" >Brille</name>
+            <name lang="es-ES" >Gafas</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/glasses.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+      </header>
+               <!--Contact lenses-->    
+        <object>324B9D3C-22594BF3-B98D01E6-54F48E50</object>
+        <object>4BAB1ED0-CEAB43F0-8B123F92-1FE5DFDF</object>
+        <object>3C589F30-60F549A2-AE917585-95F49F34</object>
+        <object>60B51431-817E43E8-A4399DF0-97078136</object>
+        <object>AADDA05B-4E264D8B-B0C113DE-43A70F35</object>
+        <object>F402799E-C57A423F-B05B476B-9266906B</object>
+        <object>120EA398-61794B71-AD39FAC2-26D6EEC4</object>
+        <object>12D64CA0-70DB4452-842A2124-8F6E68A0</object>
+        <object>57598768-AA084E2E-BF45C60C-23AAFFFC</object>
+        <object>DE1C6B3B-2EDA4F36-B02CACF5-DF2BEA19</object>
+          <!--Masks etc-->    
+        <object>324B9D3C-22594BF3-B98D01E6-54F48E50</object>
+        <object>4BAB1ED0-CEAB43F0-8B123F92-1FE5DFDF</object>
+		<object>3C589F30-60F549A2-AE917585-95F49F34</object>
+		<object>60B51431-817E43E8-A4399DF0-97078136</object>
+		<object>AADDA05B-4E264D8B-B0C113DE-43A70F35</object>
+	    <object>F402799E-C57A423F-B05B476B-9266906B</object>
+        <object>120EA398-61794B71-AD39FAC2-26D6EEC4</object>
+        <object>12D64CA0-70DB4452-842A2124-8F6E68A0</object>
+        </node>
+   <node type="objects">
+      <header>
+			<name lang="en-GB" default="true">Outfits and Bundles</name>
+			<name lang="fr-FR" >Costumes et Paquets</name>
+			<name lang="it-IT" >Costumes e Pacchi</name>
+			<name lang="de-DE" >Kostüm und Bündel</name>
+			<name lang="es-ES" >Traje y paquetes</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/outfits.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+				</header>
+			    <!-- Black Party Robe (Female) -->
+			    <object>7FBF62D1-A62D4FC4-A0F1966E-DB5281BF</object>
+		<!-- nDreamsPart Prop bundle-->
+		<object>5FD21923-78B54740-9D912911-E5C78813</object>
+					<!-- Mummy -->
+		<object>D8478A20-68164FD5-97E1B638-9FF1C226</object>
+		<!--Skelly Bones-->
+		<object>88582178-ADB7483B-A2DA5584-108ED72C</object>
+		<object>863280B2-04D541B0-86201C90-DF37CE77</object>
+				<!--Pumpkin Zombie Outfit-->
+				<object>B9EF105E-285948EC-B3E0C8D2-210EDCD0</object>
+				<!--Ghost Outfit-->
+				<object>3A70B3B0-D1274AD6-BD6B83C2-F8B628EF</object>
+				<!--Witch-->
+				<object>0B866E95-4C9340A9-A7B5D92F-5FB651C1</object>
+		</node>
+   <node type="objects">
+      <header>
+          <name lang="en-GB" default="true">Jewellery</name>
+          <name lang="fr-FR" >Bijoux</name>
+          <name lang="it-IT" >Gioielli</name>
+          <name lang="de-DE" >Schmuck</name>
+          <name lang="es-ES" >Bisutería</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/jewellery.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+      </header>
+	  			<!-- They Glow Budzi Earrings -->
+        <object>3F24B705-87E94B2B-BF4608B9-399B8CEE</object>
+      </node>
+      </node>
+      <node>
+        <header>
+        <name lang="en-GB">Furniture</name>
+        <name lang="fr-FR" >Meubles</name>
+        <name lang="it-IT" >Mobili</name>
+        <name lang="de-DE" >Möbel</name>
+        <name lang="es-ES" >Muebles</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Furniture_jp.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+      </header>
+            <node type="objects">
+        <header>
+        <name lang="en-GB" default="true">Chairs</name>
+        <name lang="fr-FR" >Chaises</name>
+        <name lang="it-IT" >Sedie</name>
+        <name lang="de-DE" >Stühle</name>
+        <name lang="es-ES" >Sillas</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Chairs.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+      </header>
+      	<!-- Skull chair -->
+        <object>56BB83C5-E0084B38-8C71B5B5-360E42F6</object>
+      </node>
+      <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Picture Frames (Wall Hangings)</name>
+        <name lang="fr-FR" >Cadres (Décorations murales)</name>
+        <name lang="it-IT" >Cornici (Tappezzeria)</name>
+        <name lang="de-DE" >lderrahmen (Wandbehänge)</name>
+        <name lang="es-ES" >Marcos (para colgar en la pared)</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_PictureFrames.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+      </header>
+      <!-- Creepy Painting -->
+      <object>5BB178CA-359E4516-AC9C3795-F6FE5E6F</object>
+      </node>
+<node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Ornaments</name>
+        <name lang="fr-FR" >Décoration</name>
+        <name lang="it-IT" >Decorazioni</name>
+        <name lang="de-DE" >Verzierungen</name>
+        <name lang="es-ES" >Adornos</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+             <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+                    <palette lang="en-GB" type="black" default="true" />
+        </header>
+      <!--Guillotine-->
+	  <object>B54B6E47-C6CD4B5D-AE09FBAB-771B5A8C</object>
+	 </node>
+<node type="objects">
+        <header>
+          <name lang="en-GB">Interactive Objects</name>
+        <name lang="fr-FR" >Objets interactifs</name>
+        <name lang="it-IT" >Mobilia interattiva</name>
+        <name lang="de-DE" >Wechselwirkende Möbel</name>
+        <name lang="es-ES" >Muebles interactivos</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_appliances.dds</thumbnail>
+      <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Home_Square/E/halloween_bg_scee.png</background>
+       <palette lang="en-GB" type="black" default="true" />
+      </header>
+       	<!--Heavy Halloween Pets -->
+        <object>3C41C918-3A1B4679-B91056E2-F4304231</object>
+        <object>F797A95F-C1654663-AF370705-E589A5F0</object>
+        <object>1F82449F-70A4419F-924F6415-801FBD9E</object>
+        <object>2615B3FB-75D84920-892053DC-8E3BEFBC</object>
+      	<!-- Cauldron of sunless kingdom -->
+        <object>FAAF6AAE-3EF640D4-A97D0BE9-D7895DB7</object>
+      </node>
+     </node>
+  </node>
+</commerce_point>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header>
+      <background lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/locoland_store_bg.png</background>
+      <background lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/locoland_store_bg.png</background>
+    </header>
+    <node type="objects">
+      <header>
+        <thumbnail lang="en-GB" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Personalspace_jp.dds</thumbnail>
+        <background lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/locoland_store_bg.png</background>
+        <name lang="ja-JP" default="true">パーソナルスペース</name>
+        <thumbnail lang="ja-JP" useOsdColour="true" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Personalspace_jp.dds</thumbnail>
+        <background lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/locoland_store_bg.png</background>
+      </header>
+      <object>EC15349C-76FA42BD-9143E144-CAC95603</object>
+    </node>
+    <node type="objects">
+      <header>
+        <thumbnail lang="en-GB" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Furniture_jp.dds</thumbnail>
+        <background lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/locoland_store_bg.png</background>
+        <name lang="ja-JP" default="true">家具</name>
+        <thumbnail lang="ja-JP" useOsdColour="true" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Furniture_jp.dds</thumbnail>
+        <background lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/locoland_store_bg.png</background>
+      </header>
+      <object>E4AE2A85-8B9F426D-A1D63B61-189FF348</object>
+      <object>BD17BDB5-96E84F98-A2440D65-457C40E2</object>
+      <object>8CD05735-B1164885-94885215-439B1712</object>
+      <object>E75175E1-27504E4F-A09E344D-43FDA0F7</object>
+      <object>D8A9C407-FF5A4D17-89B134BE-99CDA176</object>
+      <object>E842CD8B-CD224807-A90D3280-DD0CF4A4</object>
+      <object>036BCDEA-529E4EE2-A08BDFA6-56EE38BA</object>
+      <object>F96929E7-34124D77-A40F1BBA-F37F8EF9</object>
+      <object>8FFC08D1-2CF54CE1-B4E1A39B-F6AF38BC</object>
+      <object>35030735-38AC40BB-A70CCAAF-95496ECD</object>
+      <object>C53785F9-672C48D1-83BAC10A-FCE4B93E</object>
+    </node>
+    <node>
+      <header>
+        <thumbnail lang="en-GB" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/clothingOption.dds</thumbnail>
+        <background lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/locoland_store_bg.png</background>
+        <name lang="ja-JP" default="true">服</name>
+        <thumbnail lang="ja-JP" useOsdColour="true" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/clothingOption.dds</thumbnail>
+        <background lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/locoland_store_bg.png</background>
+      </header>
+      <node type="objects">
+        <header>
+          <thumbnail lang="en-GB" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+          <background lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/locoland_store_bg.png</background>
+          <name lang="ja-JP" default="true">男性用</name>
+          <thumbnail lang="ja-JP" useOsdColour="true" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+          <background lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/locoland_store_bg.png</background>
+        </header>
+        <object>EDD9FC5E-126647F2-9C28D2E2-74C1CF74</object>
+        <object>0933D817-FF384A6D-8ADF28BF-451CA1AF</object>
+        <object>CFB62F63-50974135-B4367A90-BAE4B276</object>
+        <object>0D2593F5-8B6B4303-808E4F97-5291F8D2</object>
+        <object>CBE0AC73-BA3A4128-B4158CF8-EF2F32D7</object>
+        <object>3E843068-87CF43D9-BF9CC9AC-21486C54</object>
+        <object>F30B685E-B3204117-B0152425-243D253C</object>
+        <object>40F87957-5A3B4287-974D466A-8C8384F9</object>
+      </node>
+      <node type="objects">
+        <header>
+          <thumbnail lang="en-GB" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+          <background lang="en-GB">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/locoland_store_bg.png</background>
+          <name lang="ja-JP" default="true">女性用</name>
+          <thumbnail lang="ja-JP" useOsdColour="true" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+          <background lang="ja-JP" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/locoland_store_bg.png</background>
+        </header>
+        <object>879CE5C7-F59840A0-868C448F-D1554FD8</object>
+        <object>54F3122E-5FF342FA-ADAF2BC5-AD802F09</object>
+        <object>99E21D4A-E06F4D90-AD1C86A3-54C5E969</object>
+        <object>53A6AD00-223C41D3-9397CEDF-94DE17E1</object>
+        <object>88BE4E56-CC964116-9264D3A9-1293FD4A</object>
+        <object>B14B6D31-9FB14DA8-91E44174-0768770B</object>
+        <object>38BCF35A-E9F94653-93225E91-1C7DF34D</object>
+        <object>6354018C-68684925-906796C6-62B75F5A</object>
+      </node>
+    </node>
+  </node>
+</commerce_point>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header />
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Personal Space</name>
+        <name lang="fr-FR">Espace personnel</name>
+        <name lang="de-DE">Home-Apartment</name>
+        <name lang="it-IT">Spazio personale</name>
+        <name lang="es-ES">Espacio Home</name>
+        <name lang="ja-JP">パーソナルスペース</name>
+        <name lang="ko-KR">개인공간</name>
+        <name lang="en-SG">Personal Space</name>
+        <name lang="zh-HK">個人空間</name>
+        <name lang="zh-TW">個人空間</name>
+        <name lang="en-US">Personal Space</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/home.png</thumbnail>
+      </header>
+      <object>CBC81E64-19F643DA-A4E0BB27-0FB943F9</object>
+      <object>77D9E3EF-02A74DA9-BD77FBBD-91407A88</object>
+      <object>2519FAC0-18AA4FCB-A1214F6B-65F5F001</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">LocoRoco</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/TM_LR_store_icon_asia.png</thumbnail>
+      </header>
+      <object>7F30B22F-8E3A43BD-9648EB96-D5514142</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Killzone2</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/killzone_TMasia.png</thumbnail>
+      </header>
+      <object>784FF69C-35D94E19-A8B4C8A7-9860E27C</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">MotorStorm</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/MS_thumnail_Asia.png</thumbnail>
+      </header>
+      <object>55DAF48F-0E0F4DC8-85FFFDD1-C4B840B0</object>
+    </node>
+  </node>
+</commerce_point>

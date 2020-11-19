@@ -1,0 +1,190 @@
+<commerce_point>
+  <node>
+	  <node>
+		  <header>
+			<name lang="en-GB" default="true">Burn Zombie Burn</name>
+			<name lang="en-US" >Burn Zombie Burn</name>
+			<name lang="fr-FR" >Burn Zombie Burn</name>
+			<name lang="it-IT" >Burn Zombie Burn</name>
+			<name lang="de-DE" >Burn Zombie Burn</name>
+			<name lang="es-ES" >Burn Zombie Burn</name>
+			<name lang="ja-JP" >Burn Zombie Burn</name>
+			<name lang="ko-KR" >Burn Zombie Burn</name>
+			<name lang="zh-HK" >Burn Zombie Burn</name>
+			<name lang="zh-TW" >Burn Zombie Burn</name>
+			<name lang="en-SG" >Burn Zombie Burn</name>
+			<thumbnail lang="en-GB" default="true" > [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/logo_BZB.png</thumbnail>
+		  </header>
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="en-US" >Male</name>
+        <name lang="fr-FR" >Homme</name>
+        <name lang="it-IT" >Maschio</name>
+        <name lang="de-DE" >Männlich</name>
+        <name lang="es-ES" >Hombre</name>
+        <name lang="ja-JP" >男性</name>
+        <name lang="ko-KR" >남성</name>
+        <name lang="zh-HK" >男性</name>
+        <name lang="zh-TW" >男性</name>
+        <name lang="en-SG" >Male</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+      </header>
+       <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Headgear</name>
+          <name lang="en-US" >Headgear</name>
+          <name lang="fr-FR" >Couvre-chef</name>
+          <name lang="it-IT" >Accessori testa</name>
+          <name lang="de-DE" >Kopfbedeckung</name>
+          <name lang="es-ES" >Accesorios cabeza</name>
+          <name lang="ja-JP" >?</name>
+          <name lang="ko-KR" >??</name>
+          <name lang="zh-HK" >?</name>
+          <name lang="zh-TW" >?</name>
+          <name lang="en-SG" >Headgear</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+        </header>
+        <!--Zombie Head-->
+        <object>A7E0561B-6B964646-AE872240-53593039</object>
+      </node>
+        <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="en-US" >Torso</name>
+          <name lang="fr-FR" >Torse</name>
+          <name lang="it-IT" >Torso</name>
+          <name lang="de-DE" >Rumpf</name>
+          <name lang="es-ES" >Torso</name>
+          <name lang="ja-JP" >胴</name>
+          <name lang="ko-KR" >몸</name>
+          <name lang="zh-HK" >上身</name>
+          <name lang="zh-TW" >身體</name>
+          <name lang="en-SG" >Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+        </header>
+        <object>7550AB40-211B49FC-90795273-48D82BEA</object>
+        <object>82FF4D95-DC894C1E-B5352D79-55B3B50B</object>
+        <object>1DEBB243-23804190-90CD51A7-21BE1190</object>
+        <object>1F0AFAF4-15D94E18-B07EDD09-1379C059</object>
+        <object>C7A7D02B-FC4A4375-AECC0CBE-1FCDD8B7</object>
+      </node>
+              <node type="objects">
+        <header>
+			      <name lang="en-GB" default="true">Costume</name>
+			      <name lang="en-US" >Costume</name>
+			      <name lang="fr-FR" >Costumes</name>
+			      <name lang="it-IT" >Costume</name>
+			      <name lang="de-DE" >Kostüm</name>
+			      <name lang="es-ES" >Traje</name>
+          <name lang="ja-JP" >胴</name>
+          <name lang="ko-KR" >몸</name>
+          <name lang="zh-HK" >上身</name>
+          <name lang="zh-TW" >身體</name>
+          <name lang="en-SG" >Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+        </header>
+        <!--Zombie Cossie-->
+        <object>BCF7C07C-3A2D4D27-93C1851A-BA4B62E9</object>
+      </node>     
+       </node>
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="en-US" >Female</name>
+        <name lang="fr-FR" >Femme</name>
+        <name lang="it-IT" >Femmina</name>
+        <name lang="de-DE" >Weiblich</name>
+        <name lang="es-ES" >Mujer</name>
+        <name lang="ja-JP" >女性</name>
+        <name lang="ko-KR" >여자</name>
+        <name lang="zh-HK" >女性</name>
+        <name lang="zh-TW" >女性</name>
+        <name lang="en-SG" >Female</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+      </header>
+       <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Headgear</name>
+          <name lang="en-US" >Headgear</name>
+          <name lang="fr-FR" >Couvre-chef</name>
+          <name lang="it-IT" >Accessori testa</name>
+          <name lang="de-DE" >Kopfbedeckung</name>
+          <name lang="es-ES" >Accesorios cabeza</name>
+          <name lang="ja-JP" >?</name>
+          <name lang="ko-KR" >??</name>
+          <name lang="zh-HK" >?</name>
+          <name lang="zh-TW" >?</name>
+          <name lang="en-SG" >Headgear</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+        </header>
+        <!--Zombie Head-->
+        <object>C1DDC580-F9584D30-B38434EB-E189B5D8</object>
+      </node>
+        <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="en-US" >Torso</name>
+          <name lang="fr-FR" >Torse</name>
+          <name lang="it-IT" >Torso</name>
+          <name lang="de-DE" >Rumpf</name>
+          <name lang="es-ES" >Torso</name>
+          <name lang="ja-JP" >胴</name>
+          <name lang="ko-KR" >몸</name>
+          <name lang="zh-HK" >上身</name>
+          <name lang="zh-TW" >身體</name>
+          <name lang="en-SG" >Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+        </header>
+        <object>F6BC44B6-43BA405C-80C296A6-92145631</object>
+        <object>E6408612-3EA44513-99770589-2C1CF40C</object>
+        <object>D2276E5B-9F5A47E3-837A00B6-FFE3DD5B</object>
+        <object>95FB0133-0BB24882-BFE1EF21-AB92DE49</object>
+        <object>BAA6AEC3-928B4F2A-A081E7F5-C07608BD</object>
+      </node>
+              <node type="objects">
+        <header>
+			      <name lang="en-GB" default="true">Costume</name>
+			      <name lang="en-US" >Costume</name>
+			      <name lang="fr-FR" >Costumes</name>
+			      <name lang="it-IT" >Costume</name>
+			      <name lang="de-DE" >Kostüm</name>
+			      <name lang="es-ES" >Traje</name>
+          <name lang="ja-JP" >胴</name>
+          <name lang="ko-KR" >몸</name>
+          <name lang="zh-HK" >上身</name>
+          <name lang="zh-TW" >身體</name>
+          <name lang="en-SG" >Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+        </header>
+        <!--Zombie Cossie-->
+        <object>BE85B7BD-BD8A4320-85320F69-6F48CBFA</object>
+      </node>     
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Ornaments</name>
+        <name lang="en-US" >Ornaments</name>
+        <name lang="fr-FR" >Décoration</name>
+        <name lang="it-IT" >Decorazioni</name>
+        <name lang="de-DE" >Verzierungen</name>
+        <name lang="es-ES" >Adornos</name>
+        <name lang="ja-JP" >???</name>
+        <name lang="ko-KR" >???</name>
+        <name lang="zh-HK" >???</name>
+        <name lang="zh-TW" >???</name>
+        <name lang="en-SG" >Ornaments</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+      </header>
+        <!--Bruce-->
+      <object>1D4876FB-D7A14B1A-9A9B63F7-5997E99B</object>
+        <!--Daisy-->
+      <object>B64CAC78-094C4226-AFB4BD09-5A30515F</object>
+        <!--Zombie-->
+      <object>8F0A443B-E4904FC6-BCB621B5-A93ADBEA</object>
+        <!--Zombie Rusher-->
+      <object>70A6EFF5-926A48B9-8976E32E-98361575</object>
+      </node>
+    </node>
+  </node>
+</commerce_point>

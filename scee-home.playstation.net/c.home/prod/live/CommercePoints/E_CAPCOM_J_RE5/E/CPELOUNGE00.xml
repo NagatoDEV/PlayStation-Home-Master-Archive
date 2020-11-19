@@ -1,0 +1,94 @@
+<commerce_point>
+  <node>
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="en-US" >Male</name>
+        <name lang="fr-FR" >Homme</name>
+        <name lang="it-IT" >Maschio</name>
+        <name lang="de-DE" >Männlich</name>
+        <name lang="es-ES" >Hombre</name>
+        <name lang="ja-JP" >??</name>
+        <name lang="ko-KR" >??</name>
+        <name lang="zh-HK" >??</name>
+        <name lang="zh-TW" >??</name>
+        <name lang="en-SG" >Male</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+      </header>
+        <node type="objects">
+        <header>
+	      <name lang="en-GB" default="true">Costume</name>
+	      <name lang="en-US" >Costume</name>
+		  <name lang="fr-FR" >Costumes</name>
+		  <name lang="it-IT" >Costume</name>
+		  <name lang="de-DE" >Kostüm</name>
+		  <name lang="es-ES" >Traje</name>
+          <name lang="ja-JP" >頭</name>
+          <name lang="ko-KR" >머리</name>
+          <name lang="zh-HK" >頭</name>
+          <name lang="zh-TW" >頭</name>
+          <name lang="en-SG" >Headgear</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">
+[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+        </header>
+        <!--Chris BSAA Costume: Top-->
+        <object>931C870C-427F4A7E-AC8A8CC5-681AC189</object>
+        <!--Chris BSAA Costume: Bottom-->
+        <object>9E7296C2-B356400E-B6E80B17-D634960F</object>
+        <!--Chris BSAA Costume: Gloves-->
+        <object>84864243-D16F4755-86B653B3-A731FB3A</object>
+        <!--Chris BSAA Costume: Shoes-->
+        <object>2536964D-16C847E1-B56BDB17-1FD8553D　</object>
+        <!--Chris BSAA Costume: Headset-->
+        <object>FA72C3D9-73B34D08-A16BA6D5-BFFF7593</object>
+      </node>
+    </node>
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="en-US" >Female</name>
+        <name lang="fr-FR" >Femme</name>
+        <name lang="it-IT" >Femmina</name>
+        <name lang="de-DE" >Weiblich</name>
+        <name lang="es-ES" >Mujer</name>
+        <name lang="ja-JP" >??</name>
+        <name lang="ko-KR" >??</name>
+        <name lang="zh-HK" >??</name>
+        <name lang="zh-TW" >??</name>
+        <name lang="en-SG" >Female</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+      </header>
+        <node type="objects">
+        <header>
+	      <name lang="en-GB" default="true">Costume</name>
+	      <name lang="en-US" >Costume</name>
+		  <name lang="fr-FR" >Costumes</name>
+		  <name lang="it-IT" >Costume</name>
+		  <name lang="de-DE" >Kostüm</name>
+		  <name lang="es-ES" >Traje</name>
+          <name lang="ja-JP" >頭</name>
+          <name lang="ko-KR" >머리</name>
+          <name lang="zh-HK" >頭</name>
+          <name lang="zh-TW" >頭</name>
+          <name lang="en-SG" >Headgear</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">
+[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+        </header>
+        <!--Sheva Wig-->
+        <object>74DCA91E-085D42AD-8B733422-7B08C3B8</object>
+        <!--Sheva Earrings-->
+        <object>20C1D211-C19F4899-AB079CE0-E3D6C15A</object>
+        <!--Sheva BSAA Costume: Headset-->
+        <object>CF8F052E-DB1C4691-854BFBB2-F1125B6C</object>
+        <!--Sheva BSAA Costume: Top-->
+        <object>1C4D07F2-13684C46-B74AFC0F-EA532527</object>
+        <!--Sheva BSAA Costume: Bottom-->
+        <object>1FF83C79-4A8C4FBB-931DEDBB-DB637DD8</object>
+        <!--Sheva BSAA Costume: Gloves-->
+        <object>30FCEED7-3B1A4421-AC6BC016-4DE1CA15</object>
+        <!--Sheva BSAA Costume: Boots-->
+        <object>7AA172C3-B3B048FD-98040791-0585BAD8</object>
+      </node>
+    </node>
+</node>
+</commerce_point>
