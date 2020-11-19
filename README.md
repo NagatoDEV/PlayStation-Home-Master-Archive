@@ -1,5 +1,5 @@
 # PlayStation-Home-Master-Archive
-This archive is based on A snapshot of data from PlayStation Home at 04-01-2015. This archive is a mirror of JohnDrinkWater's repo in an extracted format, and will be updated whenever the Destination Home Team obtains Cache Donations.
+This archive is based on A snapshot of data from PlayStation Home at 04-01-2015. This archive is a mirror of JohnDrinkWater's repo in an extracted format, and will be updated whenever the Destination Home Team obtains Cache Donations. All of the main CDN contents will be posted in the "main branch." 
 
 For more information about this master archive PlayStation Home of Home you can refer to the original archive here on archive.org: https://archive.org/details/psm_home_archive_2015_04_01
 
@@ -37,3 +37,6 @@ For more information on how to donate cache data please refer to this guide: htt
 ➤ Destination Home Official YouTube Channel: https://www.youtube.com/channel/UCQhwhFevEgsRqMTHof7FwPQ
 
 ➤ Destination Home 1.86 Dev Offline Client Patches: https://github.com/NagatoDEV/Destination-Home-1.86-Offline-Client-Patches
+
+
+**Disclaimer: This repository is purely for preservation and educational purposes.**
