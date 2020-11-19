@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><result><status><id>0</id><message>Successful completion</message></status><response><my_stats></my_stats>
+<leaderboard total="3" row_start="1" row_end="3" page="1" total_pages="1" type="LIFETIME" game_type="OVERALL_RACE">
+  <player created_at="2010-06-02T07:06:12+00:00" experience_points="3890.0" id="469133" longest_drift="100482.0" longest_hang_time="17095.0" longest_win_streak="9" online_disconnected="44" online_finished="1173" online_forfeit="73" online_quits="0" online_races="1290" online_wins="421" player_id="141559" points="4156.07" updated_at="2012-11-27T05:24:20+00:00" username="Thr33_Staks" win_streak="0" rank="1" skill_level_id="30" skill_level_name="Elite III"/>
+  <player created_at="2012-05-24T14:39:31+00:00" experience_points="1100.0" id="3378419" longest_drift="6483.0" longest_hang_time="3566.0" longest_win_streak="0" online_disconnected="1" online_finished="1" online_forfeit="0" online_quits="0" online_races="2" online_wins="0" player_id="1315874" points="3623.53" updated_at="2012-05-24T17:18:01+00:00" username="mopoiy" win_streak="0" rank="2" skill_level_id="10" skill_level_name="Prodigy I"/>
+  <player created_at="2011-11-06T02:40:28+00:00" experience_points="0.0" id="3017690" longest_drift="8252.0" longest_hang_time="2909.0" longest_win_streak="2" online_disconnected="0" online_finished="2" online_forfeit="0" online_quits="0" online_races="2" online_wins="2" player_id="1135988" points="3283.96" updated_at="2011-11-10T13:31:05+00:00" username="MikiMiki-Kawaii" win_streak="2" rank="3" skill_level_id="1" skill_level_name="Newcomer I"/>
+</leaderboard>
+<leaderboard_columns>
+  <column name="online_races" display_name="Online Races Started"/>
+  <column name="online_finished" display_name="Online Races Finished"/>
+  <column name="online_wins" display_name="Online Wins"/>
+  <column name="online_forfeit" display_name="Online Races DNF"/>
+  <column name="online_disconnected" display_name="Online Disconnects"/>
+  <column name="online_quits" display_name="Online Quits"/>
+  <column name="win_streak" display_name="Current Win Streak"/>
+  <column name="longest_win_streak" display_name="Longest Win Streak"/>
+  <column name="longest_drift" display_name="Longest Drift"/>
+</leaderboard_columns></response></result>
