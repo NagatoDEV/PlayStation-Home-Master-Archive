@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node> <!-- MAIN NODE OPEN -->
+  <header>
+	<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Shears1_bg_scea.dds</background> 
+    </header>
+  <node> <!--NEW ITEMS NODE OPEN-->
+	  <header>
+	    <name lang="en-US" default="true">New Items</name>
+		<name lang="fr-FR">Nouveau</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/new_items.dds</thumbnail>
+		<thumbnail lang="fr-FR" default="false" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/new_items_french.dds</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Shears1_bg_scea.dds</background>
+	  </header>
+    <node type="objects"> <!-- Male -->
+          <header>
+            <name lang="en-GB" default="true">Male</name>
+            <name lang="fr-FR">Homme</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+    		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Shears1_bg_scea.dds</background> 
+          </header>
+		<object>A04BDF11-C72C4C6F-942BC0D4-167D6A1E</object> <!-- 1/30/13 -->		  
+		<object>A4ACF227-A10C4B5B-B55A170F-9C38BC98</object> <!-- 1/30/13 -->
+		<object>A31D2AAA-3EE344B2-99BAB0F9-849F5DA9</object> <!-- 1/30/13 -->		  
+		<object>9B357F02-4FC9492B-96D1681A-CCF9312F</object> <!-- 1/30/13 -->
+		<object>C97AE658-32AD47B4-A8022B03-239FDC92</object> <!-- 1/30/13 -->
+		<object>6DA1EC5E-6FDB4990-B740F418-0A99D272</object> <!-- 1/30/13 -->
+		<object>DBED37FD-593F4E48-A1F9F4C1-4578D16C</object> <!-- 1/30/13 -->
+		<object>FE6B28CA-216340D7-9F026997-9E05222F</object> <!-- 1/30/13 -->
+		<object>B003F0B7-3595412D-98F3AD2E-A6FED67D</object> <!-- 1/30/13 -->
+		<object>BA4B06A7-5DA14D2F-8653DA71-61DB0E3A</object> <!-- 1/30/13 -->
+		<object>26402326-AB92449C-A7B1543D-615FC53D</object> <!-- 1/30/13 -->		  
+		<object>5AC5D849-87564F94-A8F0B8C0-7E1C3BBF</object> <!-- 1/23/13 -->		  
+		<object>31D1667F-148441EB-B1667D3D-18C8F367</object> <!-- 1/9/13 -->		  
+ 
+		</node>
+    <node type="objects"> <!-- Female -->
+          <header>
+            <name lang="en-GB" default="true">Female</name>
+            <name lang="fr-FR">Femme</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+    		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Shears1_bg_scea.dds</background> 
+          </header>
+		  		<object>A04BDF11-C72C4C6F-942BC0D4-167D6A1E</object> <!-- 1/30/13 -->
+		<object>6E2AB6C9-EBBE41F6-BB2BAEF9-27274570</object> <!-- 1/30/13 -->
+		<object>D4B2FAED-46064276-A1E2982B-E727A0D9</object> <!-- 1/30/13 -->
+		<object>93789029-9E6B4AD9-8A90B8C9-DB1F79E6</object> <!-- 1/30/13 -->
+		<object>0B35C755-30E54E13-8554B09A-267B81F4</object> <!-- 1/30/13 -->
+		<object>27ABB81B-B90249AE-BD56AF22-F1B0DFC7</object> <!-- 1/30/13 -->
+		<object>6425FC05-68564619-A7069211-EF317D94</object> <!-- 1/30/13 -->
+		<object>4B7C2FB9-B75E48E3-9692BC54-47AC4BC5</object> <!-- 1/30/13 -->
+		<object>5F44ECFF-4A224962-9DF7284E-F6769803</object> <!-- 1/30/13 -->
+		<object>31B9E25F-90C640F8-A958D5A4-88289B60</object> <!-- 1/30/13 -->
+		<object>9E224021-7B4343DF-863282EC-20069843</object> <!-- 1/30/13 -->
+		<object>2FD3D22C-ABA74AB4-BF048449-8B2A38DB</object> <!-- 1/30/13 -->
+		<object>598369EE-68E3427D-83084C0A-8F9C1358</object> <!-- 1/30/13 -->		  
+		<object>EC416D98-8B09406B-8A9C6CA1-F8B5F0D8</object> <!-- 1/30/13 -->
+		<object>5ADF2EBA-9C4D4EE4-922399B0-328B4A8D</object> <!-- 1/30/13 -->	  		  
+		<object>6E2AB6C9-EBBE41F6-BB2BAEF9-27274570</object> <!-- 1/30/13 -->
+		<object>D4B2FAED-46064276-A1E2982B-E727A0D9</object> <!-- 1/30/13 -->
+		<object>93789029-9E6B4AD9-8A90B8C9-DB1F79E6</object> <!-- 1/30/13 -->
+		<object>0B35C755-30E54E13-8554B09A-267B81F4</object> <!-- 1/30/13 -->		  
+		<object>9632816F-0ABB40B0-A82495A3-7181C1B6</object> <!-- 1/30/13 -->		  
+		<object>B9B7DCDA-3767466D-A9534294-5D89E305</object> <!-- 1/30/13 -->		  
+		<object>453BBB2D-C5EB4A19-A110E0AA-CCBE13F3</object> <!-- 1/30/13 -->		  
+		<object>00C455C3-E0DC4C83-AE18CB3B-F8C7FA84</object> <!-- 1/23/13 -->		  
+		<object>5F8879A0-D4EC4783-9A3D1FF3-A3A3DE4D</object> <!-- 1/9/13 -->		  
+		<object>2971263F-F4874174-852EBF91-A54548BF</object> <!-- 12/18/12 -->		  
+		<object>A29F6DCE-98ED4D19-9282C726-682EC6C8</object> <!-- 12/5/12 -->		  
+	
+	    </node>
+  </node>
+	<node> <!--Sale NODE OPEN-->
+	  <header>
+	    <name lang="en-US" default="true">Sale!</name>
+		<name lang="fr-FR">la vente</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/SaleNew.dds</thumbnail>
+		<thumbnail lang="fr-FR" default="false" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/sale.dds</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Shears1_bg_scea.dds</background>
+
+	  </header>
+    <node type="objects"> <!-- Male -->
+      <header>
+        <name lang="en-US" default="true">Male</name>
+        <name lang="fr-FR">Homme</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Shears1_bg_scea.dds</background> 
+      </header>
+
+		<object>67139548-746C4590-9AF0EC50-EAF1CCBA</object> <!-- 3/28/12 SALE -->
+		<object>1E2C5392-4F5A4D62-85BA88AA-20152BDD</object> <!-- 3/28/12 SALE -->
+		<object>5F3F7469-BAF64E77-8575B670-37263FBE</object> <!-- 3/28/12 SALE -->
+		<object>51FBC4D5-AF024104-8035C80C-54A3675D</object> <!-- 3/28/12 SALE -->
+		<object>CE4F7946-1B4B4ADC-ABA56162-E17DA2D8</object> <!-- 3/28/12 SALE -->
+		<object>1EA60EFB-473E4776-80EE4E04-6D084B8A</object> <!-- 3/28/12 SALE -->
+		<object>EE54B3E4-995B4D43-BD5F494E-42DCE642</object> <!-- 3/28/12 SALE -->
+	</node>
+    <node type="objects"> <!-- Female -->
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR">Femme</name>
+        <name lang="en-US">Female</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Shears1_bg_scea.dds</background> 
+      </header>
+	  
+		<object>37682C3C-532C4970-BD59926B-35415E5D</object> <!-- 5/30/12 -->
+		<object>95E9210B-A6394243-AFD9D39A-151D5A2F</object> <!-- 5/30/12 -->
+		<object>0FEE3B7A-33094F28-972B0AD6-4EF10142</object> <!-- 5/30/12 -->
+		<object>310529F6-67D04ED4-8A7051BB-975CDB18</object> <!-- 5/30/12 -->
+
+		<object>A3A11C88-055145DE-AD01634D-042AD22F</object> <!-- 3/28/12 -->
+		<object>F4A18A3E-30984E35-9901097D-24AB2AD2</object> <!-- 3/28/12 -->
+		<object>DD66C043-5AAE4126-AAD7B168-0E6AFD26</object> <!-- 3/28/12 -->
+		<object>32DD7F8B-88D94A32-85B36519-4A993B7B</object> <!-- 3/28/12 -->
+		<object>6C94B913-FAA141E3-A6BBDB09-354408F9</object> <!-- 3/28/12 -->
+		<object>F2E9DF0E-B9D64105-BCBF6733-E4073355</object> <!-- 3/28/12 -->
+		<object>81FC594C-F54B401C-83ACC3B3-FF1A58E7</object> <!-- 3/28/12 -->
+		<object>2F6D4EE3-A9AB4D5E-A8511E6C-AEC0248D</object> <!-- 3/28/12 -->
+	</node>  
+
+	</node>		
+    <node type="objects"> <!-- MALE Open -->
+      <header>
+        <name lang="en-US" default="true">Male</name>
+        <name lang="fr-FR">Homme</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Shears1_bg_scea.dds</background>
+		</header>
+		<object>A4ACF227-A10C4B5B-B55A170F-9C38BC98</object> <!-- 1/30/13 -->
+		<object>A31D2AAA-3EE344B2-99BAB0F9-849F5DA9</object> <!-- 1/30/13 -->		  
+		<object>9B357F02-4FC9492B-96D1681A-CCF9312F</object> <!-- 1/30/13 -->
+		<object>C97AE658-32AD47B4-A8022B03-239FDC92</object> <!-- 1/30/13 -->
+		<object>6DA1EC5E-6FDB4990-B740F418-0A99D272</object> <!-- 1/30/13 -->
+		<object>DBED37FD-593F4E48-A1F9F4C1-4578D16C</object> <!-- 1/30/13 -->
+		<object>FE6B28CA-216340D7-9F026997-9E05222F</object> <!-- 1/30/13 -->
+		<object>B003F0B7-3595412D-98F3AD2E-A6FED67D</object> <!-- 1/30/13 -->
+		<object>BA4B06A7-5DA14D2F-8653DA71-61DB0E3A</object> <!-- 1/30/13 -->
+		<object>26402326-AB92449C-A7B1543D-615FC53D</object> <!-- 1/30/13 -->	  
+		<object>5AC5D849-87564F94-A8F0B8C0-7E1C3BBF</object> <!-- 1/23/13 -->	  
+		<object>31D1667F-148441EB-B1667D3D-18C8F367</object> <!-- 1/9/13 -->	  
+		<object>E50319B7-49D249A5-AFA4FC79-B14B75B7</object> <!-- 12/5/12 -->	  
+		<object>FD412193-984C4D71-B8979925-51F1401F</object> <!-- 11/28/12 -->
+		<object>2E336E73-7B26447A-8F370D58-EA6157EA</object> <!-- 11/28/12 -->
+		<object>B73E76C0-C1EA4894-B591A4B2-63F176A1</object> <!-- 11/28/12 -->	  
+		<object>1517B50C-A8D44440-AF33D051-12F3FDA9</object> <!-- 11/21/12 -->
+		<object>40010C54-56BD46CF-A8C5C782-B69225C9</object> <!-- 11/21/12 -->
+		<object>1391A603-AF864C42-84AA1DE1-6FFCCBD0</object> <!-- 11/21/12 -->
+		<object>10B47E1E-AED34428-BFED940F-67DEF2E4</object> <!-- 11/21/12 -->
+		<object>459E7974-6C754971-B4CD0DBF-5171FFC7</object> <!-- 11/21/12 -->
+		<object>0D66263F-742C46B4-BB588554-2D09E6FD</object> <!-- 11/21/12 -->
+		<object>9BE913D2-F9134095-A949AE38-13E5073D</object> <!-- 11/21/12 -->
+		<object>5B8C9656-B40343AF-98052801-C1EE801C</object> <!-- 11/21/12 -->
+		<object>59A9C5CB-B4394171-A8DE1F37-12D9CA70</object> <!-- 11/21/12 -->	  
+		<object>DC5143DA-276743EF-81CDFBCC-EB339FCF</object> <!-- 10/31/12 -->	  
+		<object>A967371C-8BFD4450-B8894653-F4073A09</object> <!-- 10/31/12 -->
+        <object>14499756-BDEB4191-8DAA051C-27FDCA02</object> <!-- 10/31/12 -->	  
+		<object>79844639-3FD84F66-950E6967-5718AB3C</object> <!-- 10/10/12 -->
+	    <object>0CD4A632-BCCE456D-9B2C27E4-8B84CDD2</object> <!-- 7/18/12 -->
+		<object>DC00E35C-B0C94AD5-8C04D274-25C0906F</object> <!-- 7/11/12 -->
+		<object>97DF49D1-9B0D4BD2-8B56C212-BD3A57B2</object> <!-- 7/11/12 -->
+		<object>33BF0247-C7874476-B655E666-832F01CB</object> <!-- 7/11/12 -->
+		<object>4F3AC1BE-7FDE44A8-9B522B0C-E7A943CF</object> <!-- 7/11/12 -->
+	    <object>DCA52273-B0864953-9D5A19D3-CD7F6CFF</object> <!-- 7/4/12 -->
+	    <object>C8B37B4C-F5854C78-B2AE6173-FA449D0D</object> <!-- 6/27/12 -->
+		<object>52E21A78-36A0449B-9F953004-EE17D013</object> <!-- 5/23/12 -->
+		<object>1A97B531-FC0E4B9C-9943B296-5725CD60</object> <!-- 5/23/12 -->
+	    <object>D1D6DEA9-12154BD9-B8536192-9B2E1B02</object> <!-- 5/16/12 -->
+		<object>67C11D6F-FE58403E-A8132059-53B1F187</object> <!-- 5/9/12 -->
+		<object>DC4ECAFE-067B4075-919A043C-33490896</object> <!-- 5/9/12 -->
+		<object>7D6CFC94-348B4E4D-8EBDA5A8-CCE2D5D6</object> <!-- 5/9/12 -->
+		<object>4C6B0DEC-74944E00-B32E4BAE-69FC45FE</object> <!-- 5/9/12 -->
+		<object>56CF8EB0-91924A76-B02D3230-48416581</object> <!-- 4/25/12 -->
+	    <object>F0158CF3-EEDE4781-89C4621E-EC4C2073</object> <!-- 3/28/12 -->	  
+	    <object>CC6C468C-4E394B3E-9E532B1A-A1DDA713</object> <!-- 3/28/12 -->
+		<object>F8852C81-935646D8-9AC1275A-D5265109</object> <!--3/28/12 -->
+		<object>B62FECDE-646C454A-8223F9E7-103606BA</object> <!--3/28/12 -->
+		<object>13F31067-A3DE4C44-A065C734-2910F9F8</object> <!--3/28/12 -->
+	    <object>C35252F0-EB2245D6-BFBFED89-2ADE9DD1</object> <!-- 3/21/12 -->
+	    <object>B818ADF4-5F314516-9CA6BB08-16F90401</object> <!-- 3/14/12 -->
+	    <object>8E6CB720-D0224827-84ED5E63-B5B896EB</object> <!-- 3/7/12 -->
+	    <object>1C9739ED-68EA4CDF-AA950903-525B3B0C</object> <!-- 2/15/12 -->
+		<object>601D26AC-00084E5C-8FF4F31B-1977AECC</object> <!-- 1/18/12 -->
+		<object>8A467515-049A461A-82BC7EDE-82B2D488</object> <!-- 1/18/12 -->
+		<object>6F3B05F6-E72F4D7F-83C8530B-3C59644B</object> <!-- 1/18/12 -->
+	    <object>7234BB68-72A04A9E-9838D213-A030B5D3</object> <!-- 1/11/12 -->
+		<object>90AB7DD7-6996403C-9ED673CB-76F77CE6</object> <!-- 12/8/11 -->
+		<object>F0C81DC8-2F244C10-92C2063F-3D4AC550</object> <!-- 12/8/11 -->
+		<object>4A1E5D76-CD844186-BA8D0EFB-55B33B3C</object> <!-- 12/8/11 -->
+		<object>39CCFEEB-48F34759-96518FC6-9200484E</object> <!-- 12/8/11 -->
+	    <object>EA80A65C-892F4713-8B8AB612-012A28D1</object> <!-- 11/24/11 -->
+		<object>CF9952EE-DEF543A8-8E13FF9F-A9B73F6D</object> <!-- 11/17/11 -->
+		<object>9C029AAD-748B4AAA-864B7B66-355393C5</object> <!-- 11/17/11 -->
+		<!-- <object>C35252F0-EB2245D6-BFBFED89-2ADE9DD1</object>  CIRCLE SLASH 11/10/2011 -->
+		<object>3EBE68BA-E52B40F9-954B7C73-B8DAF0E6</object>  <!-- 11/10/2011 -->
+		<object>1EA60EFB-473E4776-80EE4E04-6D084B8A</object>  <!-- 11/10/2011 -->
+		<object>6782C952-85AB4FB0-92BD8274-3F49D3F0</object>  <!-- 11/10/2011 -->
+		<object>5F3F7469-BAF64E77-8575B670-37263FBE</object>  <!-- 11/10/2011 -->
+		<object>CE4F7946-1B4B4ADC-ABA56162-E17DA2D8</object>  <!-- 11/10/2011 -->
+		<object>198D6BF9-579542CA-A9B3F8D9-7F62CB1A</object>  <!-- 11/10/2011 -->
+		<object>51FBC4D5-AF024104-8035C80C-54A3675D</object>  <!-- 11/10/2011 -->
+		<object>EE54B3E4-995B4D43-BD5F494E-42DCE642</object>  <!-- 11/10/2011 -->	  
+	    <object>34B0262C-1EB946EE-8CE4FF9D-47DB515B</object> <!-- 11/3/11 -->
+	    <object>F1A6442B-3AED4AF3-919409B5-BA036855</object> <!-- 11/3/11 -->
+	    <object>9CE825FF-8506477F-A8AFCF15-38E35095</object> <!-- 9/22/11 -->
+	    <object>DED2DAAA-085D4A73-A9650CE3-5AAF624E</object> <!-- 9/22/11 -->
+	    <object>0BD6EC33-C35B4844-A63B88EA-35EAB1ED</object> <!-- 9/22/11 -->
+	    <object>5D7B9772-BC9747B7-A62D948A-4010F891</object> <!-- 9/22/11 -->
+	    <object>20C8FEFF-B62649A3-B242D356-E1D89817</object> <!-- 9/22/11 -->
+	  	<object>90FA784D-82884FF8-8C15127F-09A3D3B0</object> <!-- 8/4/11 -->
+	  	<object>9386F3DA-CE324E3A-BFA2AB05-5617B7F0</object> <!-- 8/4/11 -->
+	  	<object>5A4DC734-EABF4228-A093A4E3-048BDBD2</object> <!-- 8/4/11 -->
+	  	<object>ABAFC77D-60E54E2A-BD240CFF-A8C38C60</object> <!-- 8/4/11 -->			
+	    <object>EE297A44-BD1644D7-A9BCEF78-F6FBBCA0</object> <!--  7/1/10 -->
+	    <object>CEE4CAD4-B7584C49-8F48B560-EBCC245E</object> <!--  7/1/10 -->
+	    <object>CC9FEDBE-76A743B6-B22F10B4-F4DD1437</object> <!--  7/1/10 -->
+	    <object>79EDD4B3-FAAE434F-A354D2C3-97973BA3</object> <!--  7/1/10 -->
+	    <object>1E2C5392-4F5A4D62-85BA88AA-20152BDD</object> <!--  7/1/10 -->
+	    <object>774036AF-C96243C5-A9DC216A-1F63783E</object> <!--  7/1/10 -->
+	    <object>67139548-746C4590-9AF0EC50-EAF1CCBA</object> <!--  7/1/10 -->
+	    <object>E61E02D3-B0F54591-818E4A5F-F8B46B82</object> <!--  7/1/10 -->
+	    <object>F9FC24EE-C90048E9-AAE4599F-03E1E62B</object> <!--  7/1/10 -->
+	    <object>3B256879-C28144AA-AB2FB542-FA769F40</object>
+		<object>F8763CF0-2A77466F-801D2A1C-0C517E90</object>
+		<object>8C75B0EF-C3924571-83BBD8F6-59203E26</object>
+		<object>95EDB136-C700429D-83199B33-6AE13168</object>
+		<object>C808DD99-6FAE4438-8D07D031-B76D7107</object> <!-- 7/28/11 -->		  
+		<object>BA93D932-3939432B-B43B6DBF-B87272A5</object> <!-- 7/28/11 -->		  
+		<object>CA115A86-4BAD4D71-A7F02EB6-F5549CB9</object> <!-- 6/9/11 -->
+		<object>914876EC-25354111-BCCB4EDD-923C71D1</object> <!-- 2/24/11 -->
+		<object>A43AFB14-EFB440E5-90A08FCF-1AB8BCA3</object> <!-- 8/18/11 -->			
+		<object>E5A32ACB-EBF14891-8DFA50D7-F76D2527</object> <!-- 8/4/11 -->
+		<object>3C0E29F6-22E5497E-BB9470EB-DD2E7277</object> <!-- 8/4/11 -->
+		<object>378E91FE-72DB4169-B753E924-21929BFD</object> <!-- 8/4/11 -->
+		<object>2504CB21-1BC74AC1-AFEB99A6-A7A172FE</object> <!-- 8/4/11 -->
+		<object>D7B86394-48064AC1-A36FA232-ECB51766</object> <!-- 6/23/11 -->
+		<object>78C7629B-F9F54FBB-98278232-D3DC6CB8</object> <!-- 1/13/11 -->
+		<object>1166B8A9-B6CA40B4-B46A3CC2-4FE5A55E</object> <!-- 1/13/11 -->
+		<object>AB4A23B6-6CF24507-B3FA24D6-D1E6AD22</object> <!-- 10/7/10 -->
+		<object>F6F53904-764E4308-B7C4CCB7-E0E25527</object> <!-- 10/7/10 -->
+		<object>8EA7938D-4CC04821-87640BDC-22BC33C3</object> <!-- 10/7/10 -->
+		 <!--HalliHair-->
+		<object>40010C54-56BD46CF-A8C5C782-B69225C9</object>
+		<object>BE09FB13-39C74F24-928B6EBD-EEED4274</object>
+		<object>5AB2FFAD-6A304E25-900290C3-C8F2E320</object> <!-- 5/27/10 -->
+		<object>5C5F5BD8-0D194C0E-95124F95-9D4B59D9</object> <!-- 5/13/10 -->
+		 <!--JasonHair-->
+		<object>5B8C9656-B40343AF-98052801-C1EE801C</object>
+		 <!--JoelHair-->
+		<object>59A9C5CB-B4394171-A8DE1F37-12D9CA70</object>
+		 <!--NitrousHair-->
+		<object>9BE913D2-F9134095-A949AE38-13E5073D</object>
+		 <!--justinhair-->
+		<object>1517B50C-A8D44440-AF33D051-12F3FDA9</object>
+		<object>ACAF910C-974F4AF8-B992034F-7977F085</object> <!-- 5/27/10 -->
+		<object>CE086877-3C1F4064-B803995D-96392038</object>
+		<object>FE6AB1C6-FAF94F5B-92EBACAC-8245956E</object>
+		<object>EBC8A693-56554077-A61EEEFA-71209E60</object> <!-- 9/22/11 -->
+		<object>66CF65B4-4A054E8D-9C24922D-D69BE2BA</object> <!-- 9/22/11 -->
+		<object>537E657C-246740C6-A61AB37E-9974E8A5</object> <!-- 9/8/11 -->
+		<object>6CFF54A4-D7804D4D-A9575EAF-85DA241E</object> <!-- 9/8/11 -->	
+    </node> <!-- MALE Close -->
+    <node type="objects"> <!-- FEMALE Open -->
+      <header>
+        <name lang="en-US" default="true">Female</name>
+        <name lang="fr-FR">Femme</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Shears1_bg_scea.dds</background> 
+      </header>
+		<object>A04BDF11-C72C4C6F-942BC0D4-167D6A1E</object> <!-- 1/30/13 -->	  
+		<object>6E2AB6C9-EBBE41F6-BB2BAEF9-27274570</object> <!-- 1/30/13 -->
+		<object>D4B2FAED-46064276-A1E2982B-E727A0D9</object> <!-- 1/30/13 -->
+		<object>93789029-9E6B4AD9-8A90B8C9-DB1F79E6</object> <!-- 1/30/13 -->
+		<object>0B35C755-30E54E13-8554B09A-267B81F4</object> <!-- 1/30/13 -->
+		<object>27ABB81B-B90249AE-BD56AF22-F1B0DFC7</object> <!-- 1/30/13 -->
+		<object>6425FC05-68564619-A7069211-EF317D94</object> <!-- 1/30/13 -->
+		<object>4B7C2FB9-B75E48E3-9692BC54-47AC4BC5</object> <!-- 1/30/13 -->
+		<object>5F44ECFF-4A224962-9DF7284E-F6769803</object> <!-- 1/30/13 -->
+		<object>31B9E25F-90C640F8-A958D5A4-88289B60</object> <!-- 1/30/13 -->
+		<object>9E224021-7B4343DF-863282EC-20069843</object> <!-- 1/30/13 -->
+		<object>2FD3D22C-ABA74AB4-BF048449-8B2A38DB</object> <!-- 1/30/13 -->
+		<object>598369EE-68E3427D-83084C0A-8F9C1358</object> <!-- 1/30/13 -->	  
+		<object>EC416D98-8B09406B-8A9C6CA1-F8B5F0D8</object> <!-- 1/30/13 -->
+		<object>5ADF2EBA-9C4D4EE4-922399B0-328B4A8D</object> <!-- 1/30/13 -->	  		  
+		<object>6E2AB6C9-EBBE41F6-BB2BAEF9-27274570</object> <!-- 1/30/13 -->
+		<object>D4B2FAED-46064276-A1E2982B-E727A0D9</object> <!-- 1/30/13 -->
+		<object>93789029-9E6B4AD9-8A90B8C9-DB1F79E6</object> <!-- 1/30/13 -->
+		<object>0B35C755-30E54E13-8554B09A-267B81F4</object> <!-- 1/30/13 -->		  
+		<object>9632816F-0ABB40B0-A82495A3-7181C1B6</object> <!-- 1/30/13 -->		  
+		<object>B9B7DCDA-3767466D-A9534294-5D89E305</object> <!-- 1/30/13 -->		  
+		<object>453BBB2D-C5EB4A19-A110E0AA-CCBE13F3</object> <!-- 1/30/13 -->	  
+		<object>00C455C3-E0DC4C83-AE18CB3B-F8C7FA84</object> <!-- 1/23/13 -->	  
+		<object>5F8879A0-D4EC4783-9A3D1FF3-A3A3DE4D</object> <!-- 1/9/13 -->	  
+		<object>2971263F-F4874174-852EBF91-A54548BF</object> <!-- 12/18/12 -->	  
+		<object>A29F6DCE-98ED4D19-9282C726-682EC6C8</object> <!-- 12/5/12 -->	  
+		<object>E3D5F9B3-77C44B53-BACC87C8-E7033B1C</object> <!-- 11/28/12 -->
+		<object>76EF31A1-01464767-B63E9196-796C392F</object> <!-- 11/28/12 -->
+		<object>68D10574-661E4C7D-96FE938E-ECA945C3</object> <!-- 11/28/12 -->	  
+		<object>51404513-97BD4205-A08CF3AB-A4BB9DCF</object> <!-- 11/21/12 -->
+		<object>EF0EEB67-E4B04AF4-9A8E740C-84F08B2D</object> <!-- 11/21/12 -->
+		<object>B1AC2629-0E7F4DD7-97FA35C5-BEBB9DAB</object> <!-- 11/21/12 -->
+		<object>8A9D0695-899F4E57-BD85B47D-25981458</object> <!-- 11/21/12 -->
+		<object>E9CCD924-40ED473A-92AD7B26-9782CC21</object> <!-- 11/21/12 -->
+		<object>78AD2F10-4B7E4BAD-B628864E-ECFCDF26</object> <!-- 11/21/12 -->
+		<object>5994A114-87844CA5-89B3CF45-32FD2CAF</object> <!-- 11/21/12 -->
+		<object>35176556-7CDC447D-B5BC170F-F3074FFD</object> <!-- 11/21/12 -->
+		<object>BDA1F220-EB614078-9BBE7A1B-13DB2DFB</object> <!-- 11/21/12 -->
+		<object>BA8CE39A-62E34E34-89954FE3-460C77A3</object> <!-- 11/21/12 -->
+		<object>2CCE4A78-C016446E-A9BDC8C6-4E487BED</object> <!-- 11/21/12 -->
+		<object>045C6049-34AF43CA-ABF57686-C9EEF1EA</object> <!-- 11/21/12 -->
+		<object>D18AFF92-265E4B70-94A7C125-46A7E2AA</object> <!-- 11/21/12 -->
+		<object>4ABFA15B-6B4E4724-9686FB80-2B9299AB</object> <!-- 11/21/12 -->
+		<object>01920970-9A364375-A80B678B-026D2F90</object> <!-- 11/21/12 -->
+		<object>4CE9F8C6-EAD5484E-A74F30F5-B4E44AC8</object> <!-- 11/21/12 -->
+		<object>69CDDCA6-80524672-89827238-E0FC8FB6</object> <!-- 11/21/12 -->
+		<object>BCCC5125-492C4194-AD213A0C-AD448A77</object> <!-- 11/21/12 -->
+		<object>29A06206-88F242D8-83505934-2681E3BB</object> <!-- 11/21/12 -->
+		<object>F0EFE485-E8D6431A-86F82D3A-F5564A0B</object> <!-- 11/21/12 -->		
+		<object>AA8245A3-FCB34305-8B30C675-C308BFB4</object> <!-- 10/17/12 -->
+		<object>53EA33FA-D7BE4942-A234ED4A-7049B1B5</object> <!-- 10/17/12 -->		  
+		<object>EE9794AE-F8694A20-B8CF4B93-929C1DB6</object> <!-- 10/10/12 -->
+		<object>A45B8F5C-CCA54B09-8ABC9910-BF856F10</object> <!-- 10/10/12 -->
+		<object>0D0DA7A9-A37842E6-BCFC50B0-C034A922</object> <!-- 10/10/12 -->		
+		<object>0084CE82-07384551-90F2EDFD-8958E668</object> <!-- 9/26/12 -->
+		<object>057FB286-6BE14F3E-B4C310BA-D0EE6C3C</object> <!-- 9/26/12 -->
+	    <object>26FB0ABB-E89349B0-B8C8A30E-947B44DD</object> <!-- 8/30/12 -->
+		<object>4B95769D-59B844A5-B27FACC0-4BBB21DC</object> <!-- 7/18/12 -->
+		<object>1C2D1868-BA7C4325-B3F43D8B-DDA22AD5</object> <!-- 7/18/12 -->
+		<object>2AF430DD-C87C407F-8C14C663-30290F60</object> <!-- 7/18/12 -->
+	    <object>E66A5FFD-CF6843C8-AC3F919A-37FA5298</object> <!-- 7/11/12 -->
+		<object>679AAEE0-8826451A-93E845C6-685A748B</object> <!-- 7/11/12 -->
+		<object>B362AF80-E678481E-BE37924D-C2DDDF95</object> <!-- 7/11/12 -->
+		<object>08564C3F-8E7240FB-AE3F903F-B45EBD15</object> <!-- 7/11/12 -->
+		<object>1A1AD9E6-C1A94EDB-881E4D42-830FEABF</object> <!-- 7/11/12 -->
+	    <object>F3753687-87404592-A725C870-53E054CD</object> <!-- 7/4/12 -->
+	    <object>D4099542-21424F4A-AF7E30E5-34EDA414</object> <!-- 6/27/12 -->
+		<object>37682C3C-532C4970-BD59926B-35415E5D</object> <!-- 5/30/12 -->
+		<object>95E9210B-A6394243-AFD9D39A-151D5A2F</object> <!-- 5/30/12 -->
+		<object>0FEE3B7A-33094F28-972B0AD6-4EF10142</object> <!-- 5/30/12 -->
+		<object>310529F6-67D04ED4-8A7051BB-975CDB18</object> <!-- 5/30/12 -->
+		<object>50B420DC-7C6A48CC-B93B7770-9AB753ED</object> <!-- 5/23/12 -->	  
+	    <object>702B6DEA-DA9D480E-83E46DEC-112A60F1</object> <!-- 5/23/12 -->
+		<object>BF8D0D79-21144211-B14AF7E0-32FCBE7A</object> <!-- 5/16/12 -->
+		<object>14DCA5D9-94B54C4E-8C39A180-C0AFE1DE</object> <!-- 5/16/12 -->
+		<object>E17AE1AC-C7B14393-BD4A399D-F906EE3D</object> <!-- 5/16/12 -->
+		<object>A31FC5BC-32114C69-BC99DEA5-7E0FF2AC</object> <!-- 5/16/12 -->
+		<object>D93BBEE7-363A4F5D-9B98905B-6B251825</object> <!-- 5/16/12 -->
+		<object>01A796B2-51B34685-AAE47C1F-A5887C8C</object> <!-- 5/16/12 -->
+	    <object>7C87874F-3D9C4476-AD0D9226-4A96C7CF</object> <!-- 5/9/12 -->
+	    <object>9631AABA-D18645FC-B05D037C-6EDE7836</object> <!-- 5/9/12 -->
+	    <object>4F148269-244E4343-AFEC825C-E93C6F1C</object> <!-- 5/9/12 -->
+	    <object>0AD34E05-B8194E42-A9BE5D2B-55A4FFA9</object> <!-- 5/9/12 -->
+		<object>FA408C0A-7AE64684-9FB95043-F4CF60BA</object> <!-- 4/25/12 -->
+	    <object>8203D322-D58749DF-851DAC27-AFE00718</object> <!-- 4/4/12 -->
+	    <object>E52B4F35-5F3D403B-9AA0FC0C-8D3EE971</object> <!-- 4/4/12 -->
+		<object>1066BF59-AF0A40FA-9088BAD3-C37A6DB1</object> <!-- 3/28/12 -->	  		  
+		<object>BB16FC1F-93574D38-96BC3D05-345D13E4</object> <!-- 3/28/12 -->
+		<object>DF33DC8F-03894F11-923A6486-120E6C6F</object> <!-- 3/28/12 -->
+	    <object>2397600C-A2464DA4-9D299725-42423E88</object> <!-- 3/21/12 -->
+	    <object>9F452CED-32154DFE-B74FFAC1-F4BE3AF8</object> <!-- 3/21/12 -->
+		<object>B2C50BAF-FB9F42D2-ABFF4B31-96CEFB65</object> <!-- 3/14/12 -->
+		<object>CF7DA4BB-8C0F4E0A-8AC83944-4C02A627</object> <!-- 3/14/12 -->
+		<object>98F62B72-2FBC4ABC-B6912151-DCEF88D7</object> <!-- 3/14/12 -->
+	    <object>C0C6FA8F-E0BD43D1-A0E74ED8-1B8A3A73</object> <!-- 3/7/12 -->
+	    <object>9D18DD08-5F4D4694-82E06FC9-BBEBC254</object> <!-- 2/1/2012 -->
+		<object>E9318449-74C44F8D-96F70B50-62B4A363</object> <!-- 2/1/12 -->
+		<object>56DAB947-0ED24955-A6B4F8B2-0634BDD4</object> <!-- 2/1/12 -->
+		<object>ADB48DB8-440F4D39-829F7DC0-2E6BD4B3</object> <!-- 1/18/12 -->
+		<object>FBA8A477-D57E4856-BE87B20A-7E4CDC99</object> <!-- 1/18/12 -->
+		<object>0C880CBE-A7E34CA1-B5979717-59CB3507</object> <!-- 12/8/11 -->
+		<object>1650DF73-61814205-98BA7005-DCA59B42</object> <!-- 12/8/11 -->
+		<object>E27F5604-957E456A-AAB78E1E-36DD516A</object> <!-- 12/8/11 -->
+		<object>92502D86-6D21462A-A7115CA0-8C896744</object> <!-- 12/8/11 -->
+	    <object>B86869F9-FD654EA4-A2DCA580-3AC67287</object> <!-- 12/1/11 -->
+		<object>C65B15BE-0FD24663-826563E6-40E2C3EA</object> <!-- 11/24/11 -->
+		<object>93047CF0-26D443D0-8F2834E2-2BC90863</object> <!-- 11/17/11 -->
+		<object>1FBFEE3B-8BE54AAC-A4014A67-87D561FC</object> <!-- 11/17/11 -->
+		<object>2B9E1910-25C3461E-A53EB76D-23E25AE5</object> <!-- 11/17/11 -->
+		<!-- <object>2397600C-A2464DA4-9D299725-42423E88</object>  CIRCLE SLASH 11/10/2011 -->
+		<object>A3A11C88-055145DE-AD01634D-042AD22F</object>  <!-- 11/10/2011 -->
+		<object>DD66C043-5AAE4126-AAD7B168-0E6AFD26</object>  <!-- 11/10/2011 -->
+		<object>55BE8F34-1A3D4C05-A29A1901-8288CFAC</object>  <!-- 11/10/2011 -->
+		<object>DFA4B28E-17AB4234-ABFA0A8C-6BAB4CB6</object>  <!-- 11/10/2011 -->
+		<object>EFA68962-A3B2414C-AF71DFE9-D42AFA35</object>  <!-- 11/10/2011 -->
+		<object>DD8AD891-C4D347C9-AD35B845-1C777775</object>  <!-- 11/10/2011 -->
+		<object>8FDD1027-583546EE-B1F52A92-69FEBC35</object>  <!-- 11/10/2011 -->		  
+		<object>32DD7F8B-88D94A32-85B36519-4A993B7B</object> <!-- 11/3/11 -->
+		<object>646C8893-2A9045E3-98EAAEB4-B02A46B0</object> <!-- 11/3/11 -->
+		<object>645CA1BD-85C04152-A091DECA-4FFBCBFC</object> <!-- 9/22/11 -->
+		<object>B5DF1402-D69C4CBD-9B0F367E-F0EC7C91</object> <!-- 9/22/11 -->
+		<object>D2B357C0-5DFF4D13-8C7B53CC-39FBC9AA</object> <!-- 9/22/11 -->
+		<object>3288D7CC-B19144DD-952DC7ED-9BDAB5D4</object> <!-- 9/22/11 -->
+		<object>6C94B913-FAA141E3-A6BBDB09-354408F9</object> <!-- 9/22/11 -->
+		<object>068EC126-3C314A81-9DE994FB-D4031F1F</object> <!-- 9/15/11 -->
+		<object>B6CA147C-7D7B4EC2-8C10A24C-936A8540</object> <!-- 9/15/11 -->
+		<object>B928A199-D1B74D1B-BBA03BD0-DA9D7D71</object> <!-- 9/15/11 -->
+		<object>515FAC96-81E04837-B159A41E-4832127D</object> <!-- 9/15/11 -->
+		<object>12525771-3A504D70-AA735FEC-94A20B6C</object> <!-- 9/15/11 -->
+		<object>2956B446-F1E341C2-8222B1B9-E9ACCC67</object> <!-- 9/15/11 -->
+		<object>565D4F45-254D4915-B8B132E0-3463F471</object> <!-- 9/15/11 -->
+		<object>8D72E4DE-03E241EC-A289F2B0-E75616A7</object> <!-- 9/15/11 -->
+		<object>91A5C1E8-17B847E7-ABA25D0D-39F13F55</object> <!-- 9/15/11 -->
+		<object>24E0612A-8F6B4CD4-B4BDB928-1756116A</object> <!-- 9/15/11 -->
+		<object>4797544D-97B047AD-B04E279E-3E993655</object> <!-- 9/15/11 -->
+		<object>F07E006B-126F41DC-93F580F4-2263474E</object> <!-- 8/18/11 -->
+		<object>0DA26D92-42584F9C-99659DF3-65CAE71B</object> <!-- 8/18/11 -->
+		<object>E3F1F9F7-D823496B-B914DBB5-B7DDED15</object> <!-- 8/18/11 -->
+		<object>586E6A61-F7C84641-A0D21863-75FD1B0D</object> <!-- 8/18/11 -->
+		<object>445E885C-8667409B-B4DE5E71-021C1EE8</object> <!-- 8/18/11 -->			  
+		<object>F2E9DF0E-B9D64105-BCBF6733-E4073355</object> <!-- 8/4/11 -->
+		<object>A0BFFFD8-061D432E-82F93208-A40EDEE3</object> <!-- 8/4/11 -->
+		<object>61529E86-9A344782-A8F38046-83383F6D</object> <!-- 8/4/11 -->
+		<object>753EEDA6-F2E74C53-8501FCE8-5AC65CFB</object> <!-- 8/4/11 -->			
+	    <object>F4A18A3E-30984E35-9901097D-24AB2AD2</object> <!--  7/1/10 -->
+	    <object>199A74B4-16C6462A-A1134DC0-701862D0</object> <!--  7/1/10 -->
+	    <object>24A89895-AF874508-93AF7ECA-BFBDA5B9</object> <!--  7/1/10 -->
+		<object>2F6D4EE3-A9AB4D5E-A8511E6C-AEC0248D</object>
+		<object>81FC594C-F54B401C-83ACC3B3-FF1A58E7</object>
+		<object>8040DAFF-A6D64325-8EC773EF-E67A866D</object> <!-- 7/28/11 -->
+		<object>FB09DC81-3B914354-9D12D56B-74C2D204</object> <!-- 7/28/11 -->			
+		<object>20746EBE-4F1E4DBE-970388AD-49325C34</object> <!-- 6/9/11 -->
+		<object>B4562A00-877645BD-9FF3D7BE-966C1C11</object> <!-- 2/24/11 -->	
+		<object>CE0B18DA-78C34E5B-A3462021-3AAFF8D9</object> <!-- 8/4/11 -->
+		<object>607C63A3-7FD94152-9942DC40-CB9163FC</object> <!-- 8/4/11 -->
+		<object>3D63587D-53CB4A85-BFE71DF1-A955F6FA</object> <!-- 8/4/11 -->
+		<object>96B68CC9-CAC344F3-BCBCA5F3-FA33B40B</object> <!-- 8/4/11 -->
+		<object>1CC8B843-F45B4F69-BA61A1C6-02564EF4</object> <!-- 8/4/11 -->			
+	    <object>F82D06A9-54DE4B8F-848D99CE-5FEFED5C</object> <!-- 7/21/11 --> 			
+	    <object>67DC44D7-02E34649-8F0E0832-CE4DE434</object> <!-- 6/30/11 -->
+	    <object>7439E387-958645FD-9D286D5E-7D51CA4A</object> <!-- 2/24/11 -->
+	    <object>D702F87D-D29C4BEC-99E9A2CB-5DF0B130</object> <!-- 2/24/11 -->
+	    <object>B7252F00-FB864798-8B876848-DFE7E7F2</object> <!-- 1/13/11 -->
+	    <object>E29E99FA-574E44D6-AA11C0BB-3A30DEB5</object> <!-- 1/13/11 -->
+	    <object>338EE2AC-03C3436E-9B0C0BFA-85E52AAB</object> <!-- 10/7/10 -->
+	    <object>4417B809-352B41A0-98994A47-C569ABD4</object> <!-- 10/7/10 -->
+	    <object>47F29B5C-F9FF4D7E-806A9E1C-96D2D8BD</object> <!-- 10/7/10 -->
+	    <object>B59E8D5C-18C740FF-BA261838-7FC5DCF0</object> <!-- 9/23/10 -->
+	    <object>F9D220E4-C65F4B8A-947C8B0C-FFC8D099</object> <!-- 9/23/10 -->
+	    <object>313673A4-9E6943B0-B06DC2A1-5AF72756</object> <!-- 9/23/10 -->
+	    <object>B6A685C4-9080444C-90644DF1-DFA1851F</object> <!-- 9/16/10 -->
+	    <object>87C074DB-3E8945E9-933A5F4E-239D15EC</object> <!-- 9/16/10 -->
+	    <object>80412641-7087489C-B633A3F8-3261004F</object> <!-- 9/16/10 -->
+		<!--SamanthaHair-->
+		<object>E9CCD924-40ED473A-92AD7B26-9782CC21</object>
+		<object>35176556-7CDC447D-B5BC170F-F3074FFD</object> <!-- 5/27/10 -->
+		<object>78AD2F10-4B7E4BAD-B628864E-ECFCDF26</object> <!-- 5/27/10 -->
+		<object>5994A114-87844CA5-89B3CF45-32FD2CAF</object>
+		<!--AttitudeHair-->
+		<object>51404513-97BD4205-A08CF3AB-A4BB9DCF</object>
+		<object>B1AC2629-0E7F4DD7-97FA35C5-BEBB9DAB</object>
+		<object>8A9D0695-899F4E57-BD85B47D-25981458</object> <!-- 5/27/10 -->
+		<object>EF0EEB67-E4B04AF4-9A8E740C-84F08B2D</object> <!-- 5/27/10 -->
+		<!-- HolliHair 040110-->
+		<object>BDA1F220-EB614078-9BBE7A1B-13DB2DFB</object>
+		<object>2CCE4A78-C016446E-A9BDC8C6-4E487BED</object>
+		<object>045C6049-34AF43CA-ABF57686-C9EEF1EA</object> <!-- 5/13/10 -->
+		<object>BA8CE39A-62E34E34-89954FE3-460C77A3</object> <!-- 5/27/10 -->
+		<!-- Atomic -->
+		<object>D18AFF92-265E4B70-94A7C125-46A7E2AA</object>
+		<object>4ABFA15B-6B4E4724-9686FB80-2B9299AB</object>
+		<object>79C2EE4C-BF034B2D-A2E833DE-5AA20FC7</object> <!-- 9/8/11 -->		
+		<object>3C89B9E1-D07E409F-B9BFC675-99CCBB9F</object> <!-- 9/8/11 -->
+		<object>AF67AE6F-70774121-AD63B13F-175F802D</object> <!-- 9/8/11 -->
+		<object>D55D283A-705042DC-B3E0865C-A511AA59</object> <!-- 9/8/11 -->
+		<object>EE39ABD1-F4C1444C-8EB96AAB-AEED1163</object> <!-- 9/8/11 -->
+    </node> <!-- FEMALE Close -->
+  </node> <!-- MAIN NODE CLOSE -->
+</commerce_point>

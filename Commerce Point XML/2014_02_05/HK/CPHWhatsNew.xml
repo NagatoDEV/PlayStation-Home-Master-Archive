@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header />
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Home Stuff</name>
+        <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Featured_stuff.dds</thumbnail>
+        <name lang="ko-KR">Home Stuff</name>
+        <name lang="en-SG">Home Stuff</name>
+        <name lang="zh-HK">Home Stuff</name>
+        <name lang="zh-TW">Home Stuff</name>
+      </header>
+      <node>
+        <header>
+          <name>KONAMI</name>
+          <thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_CP_KONAMI_CampanyLogo.png</thumbnail>
+        </header>
+        <node type="objects">
+          <header>
+            <name lang="en-GB" default="true">Active Items</name>
+            <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/ActiveFurniture_Asia.dds</thumbnail>
+            <name lang="ko-KR">액티브 아이템</name>
+            <name lang="en-SG">Active Items</name>
+            <name lang="zh-HK">動態道具</name>
+            <name lang="zh-TW">動態道具</name>
+          </header>
+          <object>6580F7C6-93F64D96-8FCC04A0-A2038ECB</object>
+          <object>38151D47-048245FA-833B8FC2-A087626A</object>
+          <object>E889C62A-1C7943CD-8910D48D-5EF2FE15</object>
+          <object>EAE036A3-3BC844B1-A2511D69-9B9698DA</object>
+        </node>
+      </node>
+    </node>
+  </node>
+</commerce_point>

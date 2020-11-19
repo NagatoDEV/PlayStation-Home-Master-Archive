@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header />
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Home Estates</name>
+        <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Featured_estates.dds</thumbnail>
+        <name lang="ko-KR">Home Estates</name>
+        <name lang="en-SG">Home Estates</name>
+        <name lang="zh-HK">Home Estates</name>
+        <name lang="zh-TW">Home Estates</name>
+      </header>
+      <node type="objects">
+        <header>
+          <name>nDreams</name>
+          <thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TH_nDrems_Store.png</thumbnail>
+          <background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/nDreamsStore_Back_asia.dds</background>
+        </header>
+        <object>36B6A58C-7670478D-8C67A8EA-D5642510</object>
+        <object>C77BDA45-69B74D4F-AB24CDBD-69456462</object>
+        <object>B873C179-25334865-881741CF-1DC21591</object>
+      </node>
+    </node>
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Home Furnitures</name>
+        <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Featured_deco.dds</thumbnail>
+        <name lang="ko-KR">Home Furniture</name>
+        <name lang="en-SG">Home Furniture</name>
+        <name lang="zh-HK">Home Furniture</name>
+        <name lang="zh-TW">Home Furniture</name>
+      </header>
+      <node type="objects">
+        <header>
+          <name>nDreams</name>
+          <thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TH_nDrems_Store.png</thumbnail>
+          <background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/nDreamsStore_Back_asia.dds</background>
+        </header>
+        <object>36B6A58C-7670478D-8C67A8EA-D5642510</object>
+        <object>E5C29CE4-E9A84DF8-AC63F618-EF7272CF</object>
+        <object>B0AF5421-96E343B8-B380F129-05DA37DB</object>
+        <object>271B3516-445849F1-840645DF-0D62B492</object>
+        <object>6FD1B8A0-4732458F-95B16514-D35505D9</object>
+        <object>183A793B-B1A54CA3-957BADF9-086819EF</object>
+      </node>
+    </node>
+  </node>
+</commerce_point>

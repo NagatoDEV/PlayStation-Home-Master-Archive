@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+	<node>
+		<header>
+			<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/peakvox_bg_scee.png</background>
+		</header>
+	<node type="objects">
+		<header >
+			<name lang="en-GB" default="true">Male</name>
+			<name lang="fr-FR">Homme</name>
+			<name lang="de-DE">Männlich</name>
+			<name lang="it-IT">Maschio</name>
+			<name lang="es-ES">Hombre</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/peakvox_bg_scee.png</background>
+		</header>		
+		<!-- peakvox ninja M -->   
+		<object>E2B40E07-FEAF4706-B5BEC777-81FA0CE9</object> 
+		<object>DBF2300F-8F7F429B-948A4B6C-6E5159D4</object> 
+		<object>C4A4F4DE-DACB493D-92B76F02-DF86A58F</object> 
+		<object>4EFE348F-A3894805-BF9847A7-3569DB15</object> 
+		<object>91A48E68-9344449B-92ABEF58-E98575A3</object> 
+		<object>F43EE23E-0C4641B8-AAE9A0AE-F6962FE9</object> 
+		<object>372DBFB7-20294A0B-9602129F-2AD179D0</object> 
+										<!-- peakvox video camera set -->  
+		<object>882B8E8F-DC78464B-815C2D08-2927C167</object> 
+		 </node>
+		 		 <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR" >Femme</name>
+        <name lang="it-IT" >Femmina</name>
+        <name lang="de-DE" >Weiblich</name>
+        <name lang="es-ES" >Mujer</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/peakvox_bg_scee.png</background>
+      </header> 
+		<!-- peakvox ninja F -->   
+		<object>EC5EDEC8-C77B457F-BA0909EE-96D2763C</object> 
+		<object>87F4D38C-2D8B4D2C-98DC4D4A-73EE1405</object> 
+		<object>B53F7536-E7FD4D90-8388A012-E497F9E6</object> 
+		<object>55AC7B0D-1EE14229-8F23ADB8-9A2DA164</object> 
+		<object>BE791662-8FC643F8-8D810295-DFF74412</object> 
+		<object>E790F1DE-9E244C02-83A3283B-4DD6BA53</object> 
+		<object>6584F2F4-C1D6427C-B123D2CA-79E83931</object> 
+										<!-- peakvox video camera set -->  
+		<object>882B8E8F-DC78464B-815C2D08-2927C167</object> 
+						</node>
+								 		 <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Special / In-Game</name>
+				<name lang="fr-FR" >Spéciale</name>
+				<name lang="it-IT" >Speciale</name>
+				<name lang="de-DE" >Spezielle</name>
+				<name lang="es-ES" >Especiales</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/accessories.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/peakvox_bg_scee.png</background>
+      </header> 
+   <!-- peakvox ninja special / in-game items -->   
+		<!-- peakvox tickets - 10, 30 -->   
+		<object>E3CD71B0-84084A8D-ABC1F1E5-27B6C0FC</object> 
+		<object>C16364D6-A6834835-9B961186-91B92FDB</object> 
+		<!-- peakvox Energy Ball Scrolls 3, 7, 12 -->   
+		<object>1BE51D89-D267451F-96E594DA-53106312</object> 
+		<object>87BF9D3A-243641E8-889B488B-1DAE9F0A</object> 
+		<object>8639517F-147A4BB1-A1BC8ED7-88B6115E</object> 
+			<!-- peakvox Training Scrolls 10, 20 -->   	
+		<object>3A6EFFF8-55C742FE-9C977040-4AF960E3</object> 
+		<object>B44C05E2-64714B01-AFEE8703-3E089AF5</object> 
+		<!-- peakvox Special Attack Scrolls 5, 10 -->   	
+		<object>8C96DB72-55074703-B8763AA3-D290FEED</object> 
+		<object>FE9409B0-8E844436-BF580925-FD15874B</object> 
+			<!-- peakvox Gold Scrolls 10, 20 -->   	
+		<object>3C8EB592-F23F4F54-960248A7-F0DEFEC7</object> 
+		<object>0A00312B-ED5141C7-86A9870E-4913203C</object> 
+			<!-- peakvox Revival Scrolls 5, 10 -->   	
+		<object>4EA37A7E-2FDF49E9-AFD7BFBA-8C754E23</object> 
+		<object>C475FC7D-6AD7424C-943277FA-0F6AE2BA</object> 
+		<!-- peakvox Shuriken gauntlet - crimson, blue, orange -->   
+		<object>6C551D86-48C14B13-B7D28647-8903BD2B</object> 
+		<object>2DDA3CF1-52784148-9AFE0B8A-47DC68E7</object> 
+		<object>26A56D1F-9F8B4C41-9765EE28-2A284FD8</object> 
+				<!-- peakvox caltrop shotgun -->  
+		<object>86E463D6-A3294540-8E6F19D9-662014B2</object> 
+						<!-- peakvox kunai sniper rifle -->  
+		<object>B6CB1FC8-A96E4161-9B119317-07EAF101</object> 
+						<!-- peakvox camera -->  
+		<object>AFFD9EA5-122240D3-854D8106-C19AF0B6</object> 
+						<!-- peakvox Fireworks hand cannon -->  
+		<object>ADA91FE0-3CB84738-A260AC62-83E06AA3</object> 
+								<!-- peakvox Fireworks bomb -->  
+		<object>7C528482-C4264F80-92015EC1-D917C11B</object> 
+								<!-- peakvox video camera set -->  
+		<object>882B8E8F-DC78464B-815C2D08-2927C167</object> 
+						</node>
+		 		 </node>
+</commerce_point>

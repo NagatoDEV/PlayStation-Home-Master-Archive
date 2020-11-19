@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header />
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Home Threads</name>
+        <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Featured_threads.dds</thumbnail>
+        <name lang="ko-KR">Home Threads</name>
+        <name lang="en-SG">Home Threads</name>
+        <name lang="zh-HK">Home Threads</name>
+        <name lang="zh-TW">Home Threads</name>
+      </header>
+      <node>
+        <header>
+          <name>Granzella</name>
+          <thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_CP_Granzella_128x128.png</thumbnail>
+        </header>
+        <node type="objects">
+          <header>
+            <name lang="en-GB" default="true">Male</name>
+            <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/male.dds</thumbnail>
+            <name lang="fr-FR">Homme</name>
+            <name lang="de-DE">Mannlich</name>
+            <name lang="it-IT">Maschio</name>
+            <name lang="es-ES">Hombre</name>
+            <name lang="ja-JP">男性</name>
+            <name lang="ko-KR">남성</name>
+            <name lang="en-SG">Male</name>
+            <name lang="zh-HK">男性</name>
+            <name lang="zh-TW">男性</name>
+          </header>
+          <object>FFDED084-01BC471C-AB9D8F4E-92F9C4A1</object>
+          <object>B203BF25-B1184C97-90F27E11-C6A12BBB</object>
+        </node>
+        <node type="objects">
+          <header>
+            <name lang="en-GB" default="true">Female</name>
+            <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/female.dds</thumbnail>
+            <name lang="fr-FR">Femme</name>
+            <name lang="de-DE">Weiblich</name>
+            <name lang="it-IT">Femmina</name>
+            <name lang="es-ES">Mujer</name>
+            <name lang="ja-JP">女性</name>
+            <name lang="ko-KR">여자</name>
+            <name lang="en-SG">Female</name>
+            <name lang="zh-HK">女性</name>
+            <name lang="zh-TW">女性</name>
+          </header>
+          <object>D812FB71-237F4BC1-9D487FE6-C9713827</object>
+          <object>BD207342-340C46DE-A1BF5D8F-4FCB37AB</object>
+        </node>
+      </node>
+    </node>
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Home Estates</name>
+        <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Featured_estates.dds</thumbnail>
+        <name lang="ko-KR">Home Estates</name>
+        <name lang="en-SG">Home Estates</name>
+        <name lang="zh-HK">Home Estates</name>
+        <name lang="zh-TW">Home Estates</name>
+      </header>
+      <node type="objects">
+        <header>
+          <name>nDreams</name>
+          <thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TH_nDrems_Store.png</thumbnail>
+          <background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/nDreamsStore_Back_asia.dds</background>
+        </header>
+        <object>77621C8B-82D14C82-AD9C0A61-65058B25</object>
+      </node>
+    </node>
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Home Stuff</name>
+        <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Featured_stuff.dds</thumbnail>
+        <name lang="ko-KR">Home Stuff</name>
+        <name lang="en-SG">Home Stuff</name>
+        <name lang="zh-HK">Home Stuff</name>
+        <name lang="zh-TW">Home Stuff</name>
+      </header>
+      <node>
+        <header>
+          <name>nDreams</name>
+          <thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TH_nDrems_Store.png</thumbnail>
+          <background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/nDreamsStore_Back_asia.dds</background>
+        </header>
+        <node type="objects">
+          <header>
+            <name lang="en-GB" default="true">Locomotion</name>
+            <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Thumb_Locomotion_v3.dds</thumbnail>
+            <name lang="ko-KR">로코모션</name>
+            <name lang="en-SG">Locomotion</name>
+            <name lang="zh-HK">擴充活動功能</name>
+            <name lang="zh-TW">擴充活動功能</name>
+          </header>
+          <object>EC064C06-81494DB5-8A8114EF-D2AE37B6</object>
+          <object>CECA2106-D6754A22-A7E2BCDA-7D7E76B8</object>
+          <object>0082BA41-21354140-A674D4A9-8B129D11</object>
+          <object>F8D32725-C60F487F-91802FBE-21C57405</object>
+          <object>F02307D3-3E2A4548-ABBEA740-CA9E1356</object>
+          <object>739C65F6-36014DD8-9B094085-52D72CF3</object>
+        </node>
+      </node>
+    </node>
+  </node>
+</commerce_point>

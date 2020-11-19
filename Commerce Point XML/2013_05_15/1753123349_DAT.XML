@@ -1,0 +1,389 @@
+﻿<commerce_point>
+	<node>
+		<header>
+			<name lang="en-GB" default="true">Pottermore</name>
+			<name lang="fr-FR" >Pottermore</name>
+			<name lang="it-IT" >Pottermore</name>
+			<name lang="de-DE" >Pottermore</name>
+			<name lang="es-ES" >Pottermore</name>
+			<name lang="ja-JP" >Pottermore</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/companion.dds</thumbnail>
+			<background lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Background.jpg</background>
+		</header>
+		<node>
+			<header>
+				<name lang="en-GB" default="true">Clothing</name>
+				<name lang="fr-FR" >Vêtements</name>
+				<name lang="it-IT" >Abbigliamento</name>
+				<name lang="de-DE" >Kleidung</name>
+				<name lang="es-ES" >Ropa</name>
+				<name lang="ja-JP" >服</name>
+				<thumbnail lang="en-GB" default="true" useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Clothing.dds</thumbnail>
+				<background lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Background.jpg</background>
+			</header>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Gryffindor</name>
+					<name lang="fr-FR" >Gryffondor</name>
+					<name lang="it-IT" >Grifondoro</name>
+					<name lang="de-DE" >Gryffindor</name>
+					<name lang="es-ES" >Gryffindor</name>
+					<name lang="ja-JP" >グリフィンドール</name>
+					<thumbnail lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_G.png</thumbnail>
+					<background lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Background.jpg</background>
+				</header>
+				<object>9385C932-83A84E1C-9501663E-85808F20</object>
+				<object>4459368A-0B6D4BCA-A43116E0-927FD018</object>
+				<object>AD0BE303-2B024873-9F48014E-27665BBF</object>
+				<object>1DB91098-3C784FF6-9873AC1F-5A4B6536</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Hufflepuff</name>
+					<name lang="fr-FR" >Poufsouffle</name>
+					<name lang="it-IT" >Tassorosso</name>
+					<name lang="de-DE" >Hufflepuff</name>
+					<name lang="es-ES" >Hufflepuff</name>
+					<name lang="ja-JP" >ハッフルパフ</name>
+					<thumbnail lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_H.png</thumbnail>
+					<background lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Background.jpg</background>
+				</header>
+				<object>744F1B20-08674081-BFDD96C9-5539A97A</object>
+				<object>A4A65B50-5CCB4B86-8709472C-17D92FF5</object>
+				<object>E8F975B6-CA7E49BB-A256B17D-3A17F306</object>
+				<object>158057A5-1829439D-A6D14E3B-69240D31</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Ravenclaw</name>
+					<name lang="fr-FR" >Serdaigle</name>
+					<name lang="it-IT" >Corvonero</name>
+					<name lang="de-DE" >Ravenclaw</name>
+					<name lang="es-ES" >Ravenclaw</name>
+					<name lang="ja-JP" >レイブンクロー</name>
+					<thumbnail lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_R.png</thumbnail>
+					<background lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Background.jpg</background>
+				</header>
+				<object>B7792AC6-2655411A-BAC2499B-8D20B7AD</object>
+				<object>46442306-22F24689-9653D354-79A9E8DF</object>
+				<object>2E5CEF88-46EA4B60-A868AC7F-98955529</object>
+				<object>D836BD18-7D3A47FD-858E01C7-5C0A8485</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Slytherin</name>
+					<name lang="fr-FR" >Serpentard</name>
+					<name lang="it-IT" >Serpeverde</name>
+					<name lang="de-DE" >Slytherin</name>
+					<name lang="es-ES" >Slytherin</name>
+					<name lang="ja-JP" >スリザリン</name>
+					<thumbnail lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_S.png</thumbnail>
+					<background lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Background.jpg</background>
+				</header>
+				<object>3B3CA1BC-81974284-A312B55F-4F5218E5</object>
+				<object>69BEFC5A-4ACD4474-841BC61B-F7930E50</object>
+				<object>4FC375D0-AABF4BC6-BB4E0432-A26154D0</object>
+				<object>C5FCDF00-712F4EA4-9BFE5693-2AF0B102</object>
+			</node>
+			<node>
+				<header>
+					<name lang="en-GB" default="true">Male</name>
+					<name lang="fr-FR">Homme</name>
+					<name lang="de-DE">Männlich</name>
+					<name lang="it-IT">Maschio</name>
+					<name lang="es-ES">Hombre</name>
+					<name lang="ja-JP">男性</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/male.dds</thumbnail>
+					<background lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Background.jpg</background>
+				</header>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Head</name>
+						<name lang="fr-FR">Tête</name>
+						<name lang="de-DE">Kopf</name>
+						<name lang="it-IT">Cappelli</name>
+						<name lang="es-ES">Cabeza</name>
+						<name lang="ja-JP">頭</name>
+						<thumbnail lang="en-GB" default="true" useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/head.dds</thumbnail>
+						<background lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Background.jpg</background>
+					</header>
+					<!-- Male: Suede top hat -->
+					<object>0CFF64E2-818D4482-B4341115-0E2D0B8F</object>
+					<object>DE41EA44-E9404B85-BADCC305-C14ECF5B</object>
+					<object>5E0FD3D6-3C1F479B-829AD845-C8D530BA</object>
+					<!-- Male: Leather top hat -->
+					<object>C0EDCFED-F7B64053-B26E4785-7FE2BEDF</object>
+					<object>8E553F2B-CE114FFD-BFC91CBF-75A10A9C</object>
+					<object>2DDBC018-7278462C-B6A34A67-CF224850</object>
+					<!-- Male: Pointed wizard hat -->
+					<object>22684562-57724FB7-98C51C95-0B01AAB9</object>
+					<object>8EA931E9-96C84F39-85BB57D8-69938BDF</object>
+					<object>3CBF3260-143C4D43-9EE202DC-51BB6440</object>
+					<!-- Male: Wizard hat with buckle -->
+					<object>C1B3CBB8-37A744B4-84D03403-024B4E8C</object>
+					<object>8C85703A-C76849E4-93353F45-72736444</object>
+					<object>8BD1B045-F41F4B06-A909CD25-7FEE3175</object>
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Torso</name>
+						<name lang="fr-FR">Torse</name>
+						<name lang="de-DE">Rumpf</name>
+						<name lang="it-IT">Torso</name>
+						<name lang="es-ES">Torso</name>
+						<name lang="ja-JP">トップス</name>
+						<thumbnail lang="en-GB" default="true" useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/torso.dds</thumbnail>
+						<background lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Background.jpg</background>
+					</header>
+					<!-- Male: Waistcoat and cravat -->
+					<object>9548A75F-9446490B-987C619B-A0E245BE</object>
+					<object>3200DF81-9B844D65-87C9BA30-F48C2FD0</object>
+					<object>4346595E-4F2B453F-B44EB9D1-009CC424</object>
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Legs</name>
+						<name lang="fr-FR">Jambes</name>
+						<name lang="de-DE">Beine</name>
+						<name lang="it-IT">Gambe</name>
+						<name lang="es-ES">Piernas</name>
+						<name lang="ja-JP">ボトムズ</name>
+						<thumbnail lang="en-GB" default="true" useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/legs.dds</thumbnail>
+						<background lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Background.jpg</background>
+					</header>
+					<!-- Male: Trousers -->
+					<object>977D0967-7B184F7A-9E744ECD-E0A3FE7F</object>
+					<object>3ACE6837-BD7340DD-BB2830E2-4EAD6FCC</object>
+					<object>71229535-8EBB45D6-A11830EF-5FA915D3</object>
+					<!-- Male: Trousers and boots -->
+					<object>6673FE75-24F8419C-BB649ADA-9D323AD2</object>
+					<object>03753AA6-1AB84E67-AB551F09-5CDC29B0</object>
+					<object>03354212-4A9148F3-993C69DD-BB16F49F</object>					
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Feet</name>
+						<name lang="fr-FR">Pieds</name>
+						<name lang="de-DE">Füße</name>
+						<name lang="it-IT">Piedi</name>
+						<name lang="es-ES">Pies</name>
+						<name lang="ja-JP">靴</name>
+						<thumbnail lang="en-GB" default="true" useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/feet.dds</thumbnail>
+						<background lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Background.jpg</background>
+					</header>
+					<!-- Male: Shoes with strap -->
+					<object>E22BFD15-24FF4635-8C6D166F-77181F1F</object>
+					<object>4353B266-C39644FB-8A4502AB-E220FB13</object>
+					<object>F539BEAA-297143C0-B17924A6-A4377163</object>
+					<!-- Male: Shoes with buckle -->
+					<object>142C468E-86A94CE9-A2B26A54-5A131C5C</object>
+					<object>AB80E24A-A8F5460F-86457063-B8221FCB</object>
+					<object>66D18A22-B9474679-8775D92E-2FE29851</object>
+					<!-- Male: Button shoes -->
+					<object>349DD2DF-E32F4912-906AB8D6-D83CCC56</object>
+					<object>71587419-3CFE4D3A-804982E9-18DF1E37</object>
+					<object>B70944D1-03A6479D-B94925C9-F139F170</object>
+					<!-- Male: Trousers and boots -->
+					<object>6673FE75-24F8419C-BB649ADA-9D323AD2</object>
+					<object>03753AA6-1AB84E67-AB551F09-5CDC29B0</object>
+					<object>03354212-4A9148F3-993C69DD-BB16F49F</object>					
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Outfits</name>
+						<name lang="fr-FR">Tenues</name>
+						<name lang="de-DE">Outfits</name>
+						<name lang="it-IT">Aspetti</name>
+						<name lang="es-ES">Trajes</name>
+						<name lang="ja-JP">組み合わせ</name>
+						<thumbnail lang="en-GB" default="true" useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/outfits.dds</thumbnail>
+						<background lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Background.jpg</background>
+					</header>
+					<!-- Male: Riding coat and boots -->
+					<object>AAE144A6-8B914777-9893DE6A-AA9C7AEC</object>
+					<object>6DD3CD62-B01A4688-BAF83399-59F143F0</object>
+					<object>F1379FF3-F7944FD0-BE1C44DC-CEB42481</object>
+					<!-- Male: Suit with robes -->
+					<object>0253D0DC-F7954EE4-8C3A1952-8520420E</object>
+					<object>B67FB027-81984CA1-90B30A90-11E7DFD7</object>
+					<object>E2DD71D1-AEA14DAB-AAE0CAAA-87D67299</object>
+					<!-- Male: Casual clothing and robes -->
+					<object>CE5DCC50-A24A4CCD-B2B8761D-9DDFA506</object>
+					<object>9C59E499-986D4288-997171C9-6D85DDD2</object>
+					<object>EAEC7E97-6DCC4A65-83FE51F8-BD23CE8F</object>
+					<object>0B697066-ABAC4652-9F037B5D-5E8EB3C5</object>
+					<object>7449B428-40CB49EF-BD11DAB0-5DD1A92A</object>
+				</node>
+			</node>
+			<node>
+				<header>
+					<name lang="en-GB" default="true">Female</name>
+					<name lang="fr-FR">Femme</name>
+					<name lang="de-DE">Weiblich</name>
+					<name lang="it-IT">Femmina</name>
+					<name lang="es-ES">Mujer</name>
+					<name lang="ja-JP">女性</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/female.dds</thumbnail>
+					<background lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Background.jpg</background>
+				</header>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Head</name>
+						<name lang="fr-FR">Tête</name>
+						<name lang="de-DE">Kopf</name>
+						<name lang="it-IT">Cappelli</name>
+						<name lang="es-ES">Cabeza</name>
+						<name lang="ja-JP">頭</name>
+						<thumbnail lang="en-GB" default="true" useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/head.dds</thumbnail>
+						<background lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Background.jpg</background>
+					</header>
+					<!-- Female: Hat with bow -->
+					<object>03FB2BC0-AF1047C1-8DC61366-1F36AB43</object>
+					<object>6730CDCE-909243F2-A70EDC6C-1E3DEF08</object>
+					<object>6052D50D-44B54656-9039E4E1-258961C5</object>
+					<!-- Female: Pointed witch hat -->
+					<object>D836781A-BE2F4182-91CBFB5D-82B4FDBC</object>
+					<object>E3D59473-798043C3-A0C10A21-1C9F131F</object>
+					<object>4DBB0B97-90674DE3-A06D0219-E073A3F6</object>
+					<!-- Female: Witch hat with buckle -->
+					<object>FF4320BE-E418461B-BADE93FC-57BAB6CC</object>
+					<object>6C4A5F1F-4772432D-811E8D2A-490EA5FA</object>
+					<object>B0FC7B88-27F341C2-B41E88A8-4A351DB9</object>
+					<!-- Female: Bonnet with bow -->
+					<object>95B2035A-3A9141A5-8C03D4E4-EAC1361B</object>
+					<object>316198B3-30A54C6E-8BCCB6A8-30F45D07</object>
+					<object>A9EE02FE-6AED4D5B-9A635E57-2635DE2F</object>
+					<object>758DBA04-99154055-913EE379-B62CD8C5</object>
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Torso</name>
+						<name lang="fr-FR">Torse</name>
+						<name lang="de-DE">Rumpf</name>
+						<name lang="it-IT">Torso</name>
+						<name lang="es-ES">Torso</name>
+						<name lang="ja-JP">トップス</name>
+						<thumbnail lang="en-GB" default="true" useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/torso.dds</thumbnail>
+						<background lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Background.jpg</background>
+					</header>
+					<!-- Female: Ruffle shouldered jacket -->
+					<object>2D432B6F-8B584C68-90448697-D46BA2E2</object>
+					<object>9AFCC364-E6DD40FC-93A43999-DD103675</object>
+					<object>F245A78F-FC3446D1-8736ADEA-0D355FDA</object>
+					<object>548D2627-D81A4E5F-8593A502-30F4E085</object>
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Legs</name>
+						<name lang="fr-FR">Jambes</name>
+						<name lang="de-DE">Beine</name>
+						<name lang="it-IT">Gambe</name>
+						<name lang="es-ES">Piernas</name>
+						<name lang="ja-JP">ボトムズ</name>
+						<thumbnail lang="en-GB" default="true" useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/legs.dds</thumbnail>
+						<background lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Background.jpg</background>
+					</header>
+					<!-- Female: Wrap skirt-->
+					<object>9E8EC933-005E4FE4-9E264B48-F5C0A12B</object>
+					<object>A983B2BA-938E4A6C-A19815B9-E93A2BBE</object>
+					<object>CAB44303-BFBF4691-881EED7A-19C81A44</object>
+					<object>31A8E9D5-708241D4-89F5CB54-93ADA89C</object>
+					<!-- Female: Trousers and boots-->
+					<object>90341FF8-32254105-9EA02A89-5BC7C393</object>
+					<object>54BFD6FD-A8BA446B-878CEB3A-73C98280</object>
+					<object>7CCBAD27-E71D443C-92E0C384-2E3D0C33</object>
+					<object>8495AD77-E32C419E-93517B32-E35EBA59</object>					
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Feet</name>
+						<name lang="fr-FR">Pieds</name>
+						<name lang="de-DE">Füße</name>
+						<name lang="it-IT">Piedi</name>
+						<name lang="es-ES">Pies</name>
+						<name lang="ja-JP">靴</name>
+						<thumbnail lang="en-GB" default="true" useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/feet.dds</thumbnail>
+						<background lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Background.jpg</background>
+					</header>
+					<!-- Female: Gathered ankle boots -->
+					<object>8A98A141-FAC74A90-8C74704B-EE5D173C</object>
+					<object>626D2648-E9734797-9BBF3755-D5A63552</object>
+					<object>AF8CA7FF-00104529-B15372D3-315DD929</object>
+					<!-- Female: Brooch boots -->
+					<object>ED615736-0CCB4F52-B7898D81-C6BB2F04</object>
+					<object>19820D6C-D1A945AC-9BAA0C38-3AA56FF1</object>
+					<object>255ECD50-EE4E4256-8FF07BC7-154AE15D</object>
+					<!-- Female: Patent heels -->
+					<object>0F936757-1A714EC2-8197B27F-4513AEE4</object>
+					<object>602F5B20-C0F84689-83495BC0-97565B42</object>
+					<object>260ECD6F-16724FDB-BFCBD2FE-E69BBDD8</object>
+					<!-- Female: Trousers and boots-->
+					<object>90341FF8-32254105-9EA02A89-5BC7C393</object>
+					<object>54BFD6FD-A8BA446B-878CEB3A-73C98280</object>
+					<object>7CCBAD27-E71D443C-92E0C384-2E3D0C33</object>
+					<object>8495AD77-E32C419E-93517B32-E35EBA59</object>					
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Outfits</name>
+						<name lang="fr-FR">Tenues</name>
+						<name lang="de-DE">Outfits</name>
+						<name lang="it-IT">Aspetti</name>
+						<name lang="es-ES">Trajes</name>
+						<name lang="ja-JP">組み合わせ</name>
+						<thumbnail lang="en-GB" default="true" useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/outfits.dds</thumbnail>
+						<background lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Background.jpg</background>
+					</header>
+					<!-- Female: Ruffle dress -->
+					<object>FCE821B1-B9084B97-B1D08198-FBAE9FB4</object>
+					<object>7D617A72-B83F484C-A3ABD244-304BE1F7</object>
+					<object>F5A2E11C-685A4855-8C239376-3E4AC1CD</object>
+					<!-- Female: Smart dress with robes -->
+					<object>260229B8-1C114844-86B1654E-2E376837</object>
+					<object>26D66FE5-D19B4021-AED2B36C-2B4CF6EC</object>
+					<object>84AFEB70-DF7740CC-A77CF6CD-227C6793</object>
+					<!-- Female: Shirt, waistcoat and skirt -->
+					<object>1FC42F39-208F4D8F-858E3297-F3E8E957</object>
+					<object>6A975B9E-69A246CC-92527A84-C17F15DC</object>
+					<object>9EBCA0E4-7DDD40C8-A4473976-99066515</object>
+					<object>AA696362-CF0A472C-8E89B824-D19703A5</object>
+					<!-- Female: Casual clothing and robes -->
+					<object>7827D686-A2844FDE-985380CE-A24293D2</object>
+					<object>4B390803-B4364AF7-93CF1E87-4B5B8F7B</object>
+					<object>647912ED-A4E14571-B815881C-212A2FA7</object>
+					<object>FD821E18-AB684FCE-B3E9812E-F38E841A</object>
+					<object>B9CE001C-9B3A478B-981FFD5F-F90DE7C3</object>
+				</node>
+			</node>
+		</node>
+		<node type="objects">
+			<header>
+				<name lang="en-GB" default="true">Companions</name>
+				<name lang="fr-FR" >Compagnons</name>
+				<name lang="it-IT" >Compagni</name>
+				<name lang="de-DE" >Haustiere</name>
+				<name lang="es-ES" >Mascotas</name>
+				<name lang="ja-JP" >Companions ja-JP</name>
+				<thumbnail lang="en-GB" default="true" useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Companions.dds</thumbnail>
+				<background lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/PM_Content/PM_Commerce_Background.jpg</background>
+			</header>
+			<!-- Companions: Owls -->
+			<object>07AA8ED3-1ADD4FE1-9C41AC2F-E8944C37</object>
+			<object>FD5798DD-4FAB476D-A253760E-BB911F8D</object>
+			<object>5203DBB5-824246D1-BD2289BD-C8E7D63F</object>
+			<object>56A3DAD8-12304609-BE5EA81B-6F6C1D1C</object>
+			<!-- Companions: Cats -->
+			<object>F2ABC5D5-FC254707-8A09A1D8-28EF4B6A</object>
+			<object>C0AAC52D-0F1D4183-A12FDAF4-4C73A178</object>
+			<object>8A84D882-6B1F4E0F-A666FECA-EEDC614F</object>
+			<object>885AA538-0490418D-87AAAF61-50989D95</object>
+			<object>14EC94D5-D0944CC2-8F1CE68C-BFDB4CEA</object>
+			<!-- Companions: Toads -->
+			<object>F2DF74FA-420849C4-A6A74AD0-631FB2F2</object>
+			<object>963404FD-2DC64055-81FC3C64-C549D6CE</object>
+			<object>8DA1F954-5034488E-A19523B3-06D1E2B2</object>
+			<object>8544F347-85AF42D6-B659DDBD-D8AB76FF</object>
+			<object>68CC8B9F-C4534017-986295E4-8EBF1778</object>
+		</node>
+	</node>
+</commerce_point>

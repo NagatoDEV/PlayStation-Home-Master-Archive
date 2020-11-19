@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header>
+      <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/NewItemCP2_ja-JP.dds</background>
+    </header>
+    <node>
+      <header>
+        <name>男性アバター用</name>
+        <thumbnail useOsdColour="true">http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/male.dds</thumbnail>
+        <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/NewItemCP2_ja-JP.dds</background>
+      </header>
+      <node type="objects">
+        <header>
+          <name>グランゼーラ</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/GZ_Mark_jp.dds</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/NewItemCP2_ja-JP.dds</background>
+        </header>
+        <object>A2312775-86B840A1-8E4C205E-108CA7DB</object>
+        <object>36E7FC5F-6AAB4AEE-B2F9E3FE-E17EB92C</object>
+        <object>26995803-CA2B485D-8C777B2A-5095F7E7</object>
+        <object>CD8F7469-30AA4B45-96E9EEE1-FE89586E</object>
+        <object>63C57CDD-E3B04137-86D01E09-5DF42295</object>
+        <object>1A72D9C2-FE944C5E-A17A82AF-148827DA</object>
+        <object>A52EDAD0-33C642B0-A5D3AF18-B8619FAB</object>
+        <object>E32E09A2-0E644CD5-83F5A63F-097DB7E8</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>Lockwood</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/Lockwood_jp.png</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/NewItemCP2_ja-JP.dds</background>
+        </header>
+        <object>30C0ACCE-65464643-96BFBF35-1E0AC8EF</object>
+        <object>D13EC0C7-2EAA42DE-BBF3EAC7-784C6EB1</object>
+        <object>E0AEACBD-81B64DFA-AC8144EB-14E87D7B</object>
+        <object>E3C64B65-48DE4BE4-881719D9-DE5C941B</object>
+        <object>7A578A2D-BC2C424F-AB20E7F1-4A5218AC</object>
+        <object>19FA13B3-26E9427F-A0DB349C-C1C85B24</object>
+      </node>
+    </node>
+    <node>
+      <header>
+        <name>女性アバター用</name>
+        <thumbnail useOsdColour="true">http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/female.dds</thumbnail>
+        <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/NewItemCP2_ja-JP.dds</background>
+      </header>
+      <node type="objects">
+        <header>
+          <name>グランゼーラ</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/GZ_Mark_jp.dds</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/NewItemCP2_ja-JP.dds</background>
+        </header>
+        <object>DAD35E7C-43B54955-82405812-A4FBDFDD</object>
+        <object>D904A834-A4364BC4-AB61F0F6-337E7EAD</object>
+        <object>259B7E16-E199459F-AA02BBB1-AE34CB31</object>
+        <object>31D1D4D9-12C54266-B5239775-4B291516</object>
+        <object>EE7D7D7D-C1274F08-9C641027-33E21A78</object>
+        <object>301C2275-6B5D48D0-AEA51EED-2BA5BBFB</object>
+        <object>46384D26-357F4D97-B51D1F19-BD1F4A52</object>
+        <object>97A61C59-6271403E-9EE2F68D-EE6B1797</object>
+        <object>371B7CE8-009D4202-8254067B-97E11753</object>
+        <object>86806714-6BE845F8-AD8BAD37-9D6DDBBB</object>
+      </node>
+    </node>
+    <node>
+      <header>
+        <name>セットアイテム</name>
+        <thumbnail useOsdColour="true">http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/Setsales_jp.dds</thumbnail>
+        <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/NewItemCP2_ja-JP.dds</background>
+      </header>
+      <node type="objects">
+        <header>
+          <name>peakvox</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/Peakvox_jp.png</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/NewItemCP2_ja-JP.dds</background>
+        </header>
+        <object>882B8E8F-DC78464B-815C2D08-2927C167</object>
+      </node>
+    </node>
+  </node>
+</commerce_point>

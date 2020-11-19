@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header />
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Home Threads</name>
+        <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Featured_threads.dds</thumbnail>
+        <name lang="ko-KR">Home Threads</name>
+        <name lang="en-SG">Home Threads</name>
+        <name lang="zh-HK">Home Threads</name>
+        <name lang="zh-TW">Home Threads</name>
+      </header>
+      <node>
+        <header>
+          <name>Granzella</name>
+          <thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_CP_Granzella_128x128.png</thumbnail>
+        </header>
+        <node type="objects">
+          <header>
+            <name lang="en-GB" default="true">Male</name>
+            <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/male.dds</thumbnail>
+            <name lang="fr-FR">Homme</name>
+            <name lang="de-DE">Mannlich</name>
+            <name lang="it-IT">Maschio</name>
+            <name lang="es-ES">Hombre</name>
+            <name lang="ja-JP">男性</name>
+            <name lang="ko-KR">남성</name>
+            <name lang="en-SG">Male</name>
+            <name lang="zh-HK">男性</name>
+            <name lang="zh-TW">男性</name>
+          </header>
+          <object>FDC7734A-BB954BA7-9F6FFF10-2B3A3776</object>
+          <object>067BA997-B1A74F90-9A4E9032-9F558FF5</object>
+          <object>088CA31B-E7E34472-A56B4045-92D76CF3</object>
+        </node>
+        <node type="objects">
+          <header>
+            <name lang="en-GB" default="true">Female</name>
+            <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/female.dds</thumbnail>
+            <name lang="fr-FR">Femme</name>
+            <name lang="de-DE">Weiblich</name>
+            <name lang="it-IT">Femmina</name>
+            <name lang="es-ES">Mujer</name>
+            <name lang="ja-JP">女性</name>
+            <name lang="ko-KR">여자</name>
+            <name lang="en-SG">Female</name>
+            <name lang="zh-HK">女性</name>
+            <name lang="zh-TW">女性</name>
+          </header>
+          <object>102B5B28-F1DE40B4-BDF5034D-487D0A13</object>
+          <object>A6D8F902-30D942B4-B9ED9B1B-F93686DB</object>
+          <object>1F8990AE-F8254E08-A219E305-33F01208</object>
+          <object>EEEE13F9-3AA24086-9C9994C6-4C21CC2C</object>
+          <object>F038B9A9-29CD49FA-88E78111-5B59AF24</object>
+          <object>F4F0E2DA-5F6C42E2-8516D504-85BD1718</object>
+        </node>
+      </node>
+      <node>
+        <header>
+          <name>Lockwood</name>
+          <thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_Lockwood_Store_asia.png</thumbnail>
+          <background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_LKWD_CPBG_asia.png</background>
+        </header>
+        <node type="objects">
+          <header>
+            <name lang="en-GB" default="true">Male</name>
+            <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/male.dds</thumbnail>
+            <background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_LKWD_CPBG_asia.png</background>
+            <name lang="fr-FR">Homme</name>
+            <name lang="de-DE">Mannlich</name>
+            <name lang="it-IT">Maschio</name>
+            <name lang="es-ES">Hombre</name>
+            <name lang="ja-JP">男性</name>
+            <name lang="ko-KR">남성</name>
+            <name lang="en-SG">Male</name>
+            <name lang="zh-HK">男性</name>
+            <name lang="zh-TW">男性</name>
+          </header>
+          <object>387B49AE-68034E6A-B3B7F150-DD30ABA4</object>
+          <object>79844639-3FD84F66-950E6967-5718AB3C</object>
+          <object>DECE4FB9-C8CC44CE-B36A2922-FC541230</object>
+          <object>788F3A43-FDE54A16-80F87E2D-A4EE546A</object>
+          <object>C73402F2-66EB4E1E-872C8F28-B3B814AC</object>
+          <object>E8A1C3B4-61474846-8E27B3DE-76BB5624</object>
+          <object>4717E585-E8AA416B-B7237DB1-D8639F1B</object>
+          <object>CDD3CF26-EE8D4D3D-877AE388-DC575A3B</object>
+          <object>24225D62-8FAD4E53-B6EAAE20-860B73F4</object>
+        </node>
+        <node type="objects">
+          <header>
+            <name lang="en-GB" default="true">Female</name>
+            <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/female.dds</thumbnail>
+            <background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_LKWD_CPBG_asia.png</background>
+            <name lang="fr-FR">Femme</name>
+            <name lang="de-DE">Weiblich</name>
+            <name lang="it-IT">Femmina</name>
+            <name lang="es-ES">Mujer</name>
+            <name lang="ja-JP">女性</name>
+            <name lang="ko-KR">여자</name>
+            <name lang="en-SG">Female</name>
+            <name lang="zh-HK">女性</name>
+            <name lang="zh-TW">女性</name>
+          </header>
+          <object>759C7C49-42694648-9005C226-0DAB3690</object>
+          <object>EE9794AE-F8694A20-B8CF4B93-929C1DB6</object>
+          <object>E848FC9B-4B154D57-99758857-809A5968</object>
+          <object>50E26D43-008E4D83-A39094A1-D9370A60</object>
+          <object>63C0E44F-C0C44FDC-BC80FC5C-CC75E040</object>
+          <object>2C584674-02E04F51-8B37E0EE-5D78D8CC</object>
+          <object>AFA555A3-9F7D47C7-B9822517-74370265</object>
+          <object>A45B8F5C-CCA54B09-8ABC9910-BF856F10</object>
+          <object>8802F8D9-4ACF47F0-8232ABBA-4A984FC0</object>
+          <object>9A9EF86C-DF65436A-90EED42C-4876444B</object>
+          <object>0581D3E0-26724C1A-93506001-65BF77A6</object>
+          <object>7CD07730-3B514B97-A1CD81D2-3E822DDD</object>
+          <object>0D0DA7A9-A37842E6-BCFC50B0-C034A922</object>
+          <object>D91A032A-3E834279-BB99B7DC-4A1725B3</object>
+          <object>8CC12A31-89904DE8-B6054977-D1569285</object>
+          <object>74BD98E3-FD54432B-901DBBE0-D3895A1A</object>
+        </node>
+      </node>
+    </node>
+  </node>
+</commerce_point>

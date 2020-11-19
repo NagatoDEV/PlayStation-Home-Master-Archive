@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+	<node>
+		<header/>
+		<node>
+			<header>
+				<name>SALE</name>
+				<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TH_Asia_sale.dds</thumbnail>
+			</header>
+			<node type="objects">
+				<header>
+					<name>nDreams</name>
+					<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TH_nDrems_Store.png</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/nDreamsStore_Back_asia.dds</background>
+				</header>
+				<object>2B2AC754-5DA64B09-BC99CE7E-00D37FEF</object>
+				<object>2CFB42A6-35FA48E8-8DF7C2A0-5640222E</object>
+				<object>082F422B-2B4E4BAD-8094E7B9-DFBBCF7A</object>
+				<object>35C94CB0-36854502-9B809667-AEC01365</object>
+				<object>54133298-B6614529-A7AB84AA-014CC4EF</object>
+				<object>87DC0BDF-67FB4AB0-94E27164-57C23849</object>
+				<object>498DA4E2-87424986-9D898CF7-4410F619</object>
+				<object>EB2AD92F-A922421A-8A639F44-C145DE2D</object>
+				<object>85F74B72-09A9476D-B28162EA-39CEF087</object>
+				<object>05959018-4BC040BC-AD0B4D02-CC3BBF9D</object>
+				<object>2C1B6890-61CC45DA-9D1CEE81-3E9B3878</object>
+				<object>BA918110-24624739-B096C989-6B628D65</object>
+				<object>65729B42-6F894015-A547BAEE-C816764D</object>
+				<object>ED2C31F6-A9F44729-B940D591-143FC27E</object>
+				<object>0A849C95-68D2468B-969A50F7-D4798327</object>
+				<object>6B54042C-DAD1414B-A948D6B1-909FF5E1</object>
+				<object>93BAE492-CADD48EC-A242D170-652A63A8</object>
+				<object>20A52609-24EF4E2C-84E0ED20-4533C177</object>
+				<object>F122E567-AAB0436C-840F8441-A434B3A7</object>
+				<object>790A77BE-989D4E55-B7AF209B-1C2A0C8C</object>
+			</node>
+		</node>
+		<node>
+			<header>
+				<name lang="en-GB" default="true">Luxury Items</name>
+				<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Luxury_Asia.dds</thumbnail>
+				<name lang="ko-KR">호화 아이템</name>
+				<name lang="en-SG">Luxury Items</name>
+				<name lang="zh-HK">豪華道具</name>
+				<name lang="zh-TW">豪華道具</name>
+			</header>
+			<node type="objects">
+				<header>
+					<name>SCE</name>
+					<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/home.png</thumbnail>
+					<background lang="en-GB" default="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_CPbg_forSM_1024x576_en.dds</background>
+					<background lang="ko-KR">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_CPbg_forSM_1024x576_kr.dds</background>
+					<background lang="en-SG">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_CPbg_forSM_1024x576_en.dds</background>
+					<background lang="zh-HK">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_CPbg_forSM_1024x576_cn.dds</background>
+					<background lang="zh-TW">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_CPbg_forSM_1024x576_cn.dds</background>
+				</header>
+				<object>28ADC591-B63448AC-B326E5DF-FC17A223</object>
+				<object>6C0884FA-6926419B-ABD4F676-9B4BBEF8</object>
+				<object>9E680C54-57E64C05-824C5D9E-85192126</object>
+				<object>A61C6C54-D6544E90-9F5B66EA-7247A79D</object>
+			</node>
+		</node>
+		<node type="objects">
+			<header>
+				<name lang="en-GB" default="true">Club</name>
+				<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_SCE_club_cpicon_asia.dds</thumbnail>
+				<name lang="ko-KR">클럽</name>
+				<name lang="en-SG">Club</name>
+				<name lang="zh-HK">聯盟</name>
+				<name lang="zh-TW">聯盟</name>
+			</header>
+			<object>63969967-334F4FD7-A57D0768-DA16D0FC</object>
+		</node>
+		<node type="objects">
+			<header>
+				<name lang="en-GB" default="true">Personal Space</name>
+				<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Personalspace_jp.dds</thumbnail>
+				<name lang="en-US">Personal Space</name>
+				<name lang="fr-FR">Espace personnel</name>
+				<name lang="de-DE">Home-Apartment</name>
+				<name lang="it-IT">Spazio personale</name>
+				<name lang="es-ES">Espacio Home</name>
+				<name lang="ja-JP">パーソナルスペース</name>
+				<name lang="ko-KR">개인공간</name>
+				<name lang="en-SG">Personal Space</name>
+				<name lang="zh-HK">個人空間</name>
+				<name lang="zh-TW">個人空間</name>
+			</header>
+			<object>28ADC591-B63448AC-B326E5DF-FC17A223</object>
+			<object>6C0884FA-6926419B-ABD4F676-9B4BBEF8</object>
+			<object>9E680C54-57E64C05-824C5D9E-85192126</object>
+			<object>A61C6C54-D6544E90-9F5B66EA-7247A79D</object>
+			<object>DF87D024-CF5C4AE5-9C1E3581-779C2FAE</object>
+			<object>03DE7562-803A4BCC-A28ACD3C-8F3AB87D</object>
+			<object>24F5461A-E7E14954-8DD17411-D3A3BC24</object>
+			<object>2A90AC9C-35EE4A9D-B9C2DA00-7B5BB1E8</object>
+			<object>8EB870C4-5502489A-B4906B84-6AE35F01</object>
+			<object>16609817-77F646D8-878789D7-135196C6</object>
+			<object>CBC81E64-19F643DA-A4E0BB27-0FB943F9</object>
+			<object>77D9E3EF-02A74DA9-BD77FBBD-91407A88</object>
+			<object>2519FAC0-18AA4FCB-A1214F6B-65F5F001</object>
+		</node>
+		<node type="objects">
+			<header>
+				<name>Granzella</name>
+				<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_CP_Granzella_128x128.png</thumbnail>
+			</header>
+			<object>07357F60-FC504982-9E946020-1702D76A</object>
+			<object>F8803888-E0EF4EA9-B76F553B-C2E670A0</object>
+			<object>BEAF71D1-C32643BE-9CBED7EA-7E690F65</object>
+			<object>D6BA066B-B05D46F0-8C1E5CC3-ABA133AD</object>
+			<object>0CB218BC-DDC44348-BBF97B0B-9DF1090E</object>
+			<object>E7FF367C-0EFA4BC7-9189D0F8-08CCF09B</object>
+		</node>
+		<node>
+			<header>
+				<name>LOOT™</name>
+				<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_CPthumb_Loot_128x128.png</thumbnail>
+			</header>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Personal Space</name>
+					<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Personalspace_jp.dds</thumbnail>
+					<name lang="ko-KR">개인공간</name>
+					<name lang="en-SG">Personal Space</name>
+					<name lang="zh-HK">個人空間</name>
+					<name lang="zh-TW">個人空間</name>
+				</header>
+				<object>5A0A211B-BCF140BC-95B299C9-63E272A1</object>
+				<object>1CC3FC83-AD55454C-B2A32C67-5D55B95D</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Club</name>
+					<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_SCE_club_cpicon_asia.dds</thumbnail>
+					<name lang="ko-KR">클럽</name>
+					<name lang="en-SG">Club</name>
+					<name lang="zh-HK">聯盟</name>
+					<name lang="zh-TW">聯盟</name>
+				</header>
+				<object>CE92A783-C28948E4-B4225D06-E6A87217</object>
+				<object>67C5004E-BDB44973-8F939FCC-736ACA6A</object>
+			</node>
+		</node>
+		<node>
+			<header>
+				<name>VEEMEE</name>
+				<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_VEEMEE_maker.png</thumbnail>
+			</header>
+			<node type="objects">
+				<header>
+					<name>Acorn Meadows Park</name>
+					<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_VEEMEE_VeemeePark.png</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_VEEMEE_VeemeePark.png</background>
+				</header>
+				<object>C9B58F0B-F45C4D6E-8344DDD9-F09BBA72</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name>50's Diner</name>
+					<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_VEEMEE_50sDiner.png</thumbnail>
+				</header>
+				<object>872F0ED8-7E934107-B6EAABB1-D5767D1E</object>
+				<object>E753F04A-0CEC47E1-BDC84C10-7BE7C2AF</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Gnome Curling</name>
+					<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_VEEMEE_Gnome_Logo_Re.png</thumbnail>
+					<name lang="ko-KR">노움 컬링</name>
+					<name lang="en-SG">Gnome Curling</name>
+					<name lang="zh-HK">小精靈冰上溜石</name>
+					<name lang="zh-TW">小精靈冰上溜石</name>
+				</header>
+				<object>BF7EA1B6-93C54CAF-80BE273A-36425106</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Go Fish Tropical Island</name>
+					<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/GoFish_128x128.png</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/GoFish_CommerceBackground.dds</background>
+					<name lang="ko-KR">낚시광 열대섬</name>
+					<name lang="en-SG">Go Fish Tropical Island</name>
+					<name lang="zh-HK">釣魚樂熱帶島嶼</name>
+					<name lang="zh-TW">釣魚樂熱帶島嶼</name>
+				</header>
+				<object>C7E1DE3B-254E4516-8C624682-CB487A48</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Home Grown Laboratory</name>
+					<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_VEEMEE_HGL.jpg</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_VEEMEE_HGL.dds</background>
+					<name lang="ko-KR">Home Grown Laboratory (HGL, 홈 성장 실험실)</name>
+					<name lang="en-SG">Home Grown Laboratory</name>
+					<name lang="zh-HK">Home Grown Laboratory (HGL, Home成長研究室)</name>
+					<name lang="zh-TW">Home Grown Laboratory (HGL, Home成長研究室)</name>
+				</header>
+				<object>94E88A7F-7CFF41E4-962FE319-A06B4DF7</object>
+				<object>EAA67580-D99D40BE-BD920CBA-FE15568C</object>
+				<object>E40EDBD3-CF26496B-960BE590-C52C4570</object>
+				<object>28B18791-589E4EB7-BFB4E6C3-6422BF0E</object>
+				<object>1EB50B89-D390411B-85BF9C27-18424F02</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Oscar's Lobster Mania</name>
+					<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_VEEMEE_olm.png</thumbnail>
+					<name lang="ko-KR">오스카의 랍스터 매니아</name>
+					<name lang="en-SG">Oscar's Lobster Mania</name>
+					<name lang="zh-HK">奧斯卡的龍蝦狂</name>
+					<name lang="zh-TW">奧斯卡的龍蝦狂</name>
+				</header>
+				<object>07C04136-E54443FD-857666D8-35F3DE11</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name>Supa-Fun Robo-Goalie Beach Time!!</name>
+					<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_VEEMEE_SFRGBT.png</thumbnail>
+				</header>
+				<object>F2653EE0-993C471A-8E242F55-18AEBABC</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">The London Pub</name>
+					<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_LondonPub_CP3thumbnail128x128.png</thumbnail>
+					<name lang="ko-KR">런던 펍</name>
+					<name lang="en-SG">The London Pub</name>
+					<name lang="zh-HK">倫敦PUB</name>
+					<name lang="zh-TW">倫敦PUB</name>
+				</header>
+				<object>1A485810-8150433B-A0D6BFC6-F4B01942</object>
+			</node>
+		</node>
+		<node>
+			<header>
+				<name>nDreams</name>
+				<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TH_nDrems_Store.png</thumbnail>
+				<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/nDreamsStore_Back_asia.dds</background>
+			</header>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Personal Space</name>
+					<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Personalspace_jp.dds</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/nDreamsStore_Back_asia.dds</background>
+					<name lang="en-US">Personal Space</name>
+					<name lang="fr-FR">Espace personnel</name>
+					<name lang="de-DE">Home-Apartment</name>
+					<name lang="it-IT">Spazio personale</name>
+					<name lang="es-ES">Espacio Home</name>
+					<name lang="ja-JP">パーソナルスペース</name>
+					<name lang="ko-KR">개인공간</name>
+					<name lang="en-SG">Personal Space</name>
+					<name lang="zh-HK">個人空間</name>
+					<name lang="zh-TW">個人空間</name>
+				</header>
+				<object>B3595107-E2D3473A-8CAB36FD-2D843423</object>
+				<object>2A12CD40-E8D5450A-8E588773-4B37571B</object>
+				<object>77621C8B-82D14C82-AD9C0A61-65058B25</object>
+				<object>2BEDEC3A-EAE14B31-8F6D316D-087E57FB</object>
+				<object>107E5858-4DD348B2-BD0C5BD1-10230902</object>
+				<object>1774454A-BC524698-A3C44BF0-1AE58BFC</object>
+				<object>22140963-A0E6449B-A99E25B8-09D10A83</object>
+				<object>5A2DC5E8-F9244A69-B95E37BB-757F8A1B</object>
+				<object>A4D3DBF3-E1904B35-B1AA650D-48CFC5C5</object>
+				<object>F0C260A5-06C54571-B05E8D49-B32A2938</object>
+				<object>C8864540-2F1D4F2C-880D4A5F-5156EFB9</object>
+				<object>4D98A4B0-C2764E1C-ACFE4AC0-A6EEF079</object>
+				<object>D12B4345-24C741A5-BA7BBFA0-33982C3E</object>
+				<object>2CF5180D-20B04572-BB17FFC4-D452FAB6</object>
+				<object>F1211BB3-F84F4A38-8883E48B-534277EC</object>
+				<object>727DCA6F-16284020-B63B3206-3DD44797</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Club</name>
+					<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_SCE_club_cpicon_asia.dds</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/nDreamsStore_Back_asia.dds</background>
+					<name lang="ko-KR">클럽</name>
+					<name lang="en-SG">Club</name>
+					<name lang="zh-HK">聯盟</name>
+					<name lang="zh-TW">聯盟</name>
+				</header>
+				<object>690AF86B-98B54E59-8418C715-1967C200</object>
+				<object>0D9584EC-0FC64A01-A7134965-E39748BF</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Blueprint: Home</name>
+					<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_nDreams_Blueprint_asia.png</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/nDreamsStore_Back_asia.dds</background>
+					<name lang="ko-KR">블루프린트: 홈</name>
+					<name lang="en-SG">Blueprint: Home</name>
+					<name lang="zh-HK">Blueprint: Home</name>
+					<name lang="zh-TW">Blueprint: Home</name>
+				</header>
+				<object>2B2AC754-5DA64B09-BC99CE7E-00D37FEF</object>
+				<object>0A849C95-68D2468B-969A50F7-D4798327</object>
+				<object>6B54042C-DAD1414B-A948D6B1-909FF5E1</object>
+				<object>93BAE492-CADD48EC-A242D170-652A63A8</object>
+				<object>20A52609-24EF4E2C-84E0ED20-4533C177</object>
+				<object>F122E567-AAB0436C-840F8441-A434B3A7</object>
+				<object>790A77BE-989D4E55-B7AF209B-1C2A0C8C</object>
+				<object>2CFB42A6-35FA48E8-8DF7C2A0-5640222E</object>
+				<object>082F422B-2B4E4BAD-8094E7B9-DFBBCF7A</object>
+				<object>35C94CB0-36854502-9B809667-AEC01365</object>
+				<object>54133298-B6614529-A7AB84AA-014CC4EF</object>
+				<object>87DC0BDF-67FB4AB0-94E27164-57C23849</object>
+				<object>498DA4E2-87424986-9D898CF7-4410F619</object>
+				<object>EB2AD92F-A922421A-8A639F44-C145DE2D</object>
+				<object>85F74B72-09A9476D-B28162EA-39CEF087</object>
+				<object>05959018-4BC040BC-AD0B4D02-CC3BBF9D</object>
+				<object>2C1B6890-61CC45DA-9D1CEE81-3E9B3878</object>
+				<object>BA918110-24624739-B096C989-6B628D65</object>
+				<object>65729B42-6F894015-A547BAEE-C816764D</object>
+				<object>ED2C31F6-A9F44729-B940D591-143FC27E</object>
+			</node>
+		</node>
+		<node>
+			<header>
+				<name>Lockwood</name>
+				<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_Lockwood_Store_asia.png</thumbnail>
+				<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_LKWD_CPBG_asia.png</background>
+			</header>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Personal Space</name>
+					<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Personalspace_jp.dds</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_LKWD_CPBG_asia.png</background>
+					<name lang="en-US">Personal Space</name>
+					<name lang="fr-FR">Espace personnel</name>
+					<name lang="de-DE">Home-Apartment</name>
+					<name lang="it-IT">Spazio personale</name>
+					<name lang="es-ES">Espacio Home</name>
+					<name lang="ja-JP">パーソナルスペース</name>
+					<name lang="ko-KR">개인공간</name>
+					<name lang="en-SG">Personal Space</name>
+					<name lang="zh-HK">個人空間</name>
+					<name lang="zh-TW">個人空間</name>
+				</header>
+				<object id="EA475EA2-CBE94203-81586432-491FF1D6">
+					<video_preview lang="en-SG">http://sceasia-home.playstation.net/asia.home/CommercePoints/PVs/2013/CPPV_LKWD_Lockadoodle.mp4</video_preview>
+					<video_preview lang="ko-KR">http://sceasia-home.playstation.net/asia.home/CommercePoints/PVs/2013/CPPV_LKWD_Lockadoodle.mp4</video_preview>
+					<video_preview lang="zh-HK">http://sceasia-home.playstation.net/asia.home/CommercePoints/PVs/2013/CPPV_LKWD_Lockadoodle.mp4</video_preview>
+					<video_preview lang="zh-TW">http://sceasia-home.playstation.net/asia.home/CommercePoints/PVs/2013/CPPV_LKWD_Lockadoodle.mp4</video_preview>
+				</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Club</name>
+					<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_SCE_club_cpicon_asia.dds</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_LKWD_CPBG_asia.png</background>
+					<name lang="ko-KR">클럽</name>
+					<name lang="en-SG">Club</name>
+					<name lang="zh-HK">聯盟</name>
+					<name lang="zh-TW">聯盟</name>
+				</header>
+				<object id="A3BAF598-82314A5E-9454EBA1-8A16E388">
+					<video_preview lang="en-SG">http://sceasia-home.playstation.net/asia.home/CommercePoints/PVs/2013/CPPV_LKWD_Lockadoodle.mp4</video_preview>
+					<video_preview lang="ko-KR">http://sceasia-home.playstation.net/asia.home/CommercePoints/PVs/2013/CPPV_LKWD_Lockadoodle.mp4</video_preview>
+					<video_preview lang="zh-HK">http://sceasia-home.playstation.net/asia.home/CommercePoints/PVs/2013/CPPV_LKWD_Lockadoodle.mp4</video_preview>
+					<video_preview lang="zh-TW">http://sceasia-home.playstation.net/asia.home/CommercePoints/PVs/2013/CPPV_LKWD_Lockadoodle.mp4</video_preview>
+				</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Bundles</name>
+					<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Bundle_Asia.dds</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_LKWD_CPBG_asia.png</background>
+					<name lang="ko-KR">번들 팩</name>
+					<name lang="en-SG">Bundles</name>
+					<name lang="zh-HK">同捆包</name>
+					<name lang="zh-TW">同捆包</name>
+				</header>
+				<object>CB1196F7-59A24CF4-99750666-FA547397</object>
+				<object>7544F2C8-28E94176-824C628D-95C5C12F</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Figment</name>
+					<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_Lockwood_CPFigment.jpg</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_LKWD_CPBG_asia.png</background>
+					<name lang="ko-KR">Figment</name>
+					<name lang="en-SG">Figment</name>
+					<name lang="zh-HK">Figment</name>
+					<name lang="zh-TW">Figment</name>
+				</header>
+				<object>33229FDB-120042BB-8B13026E-4CD7EBF0</object>
+				<object>1F06C254-A7E64A30-B6D21BDC-AA465F64</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name>The Jewel of the Skies</name>
+					<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_Lockwood_jeweloftheskies_tile.png</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_LKWD_CPBG_asia.png</background>
+				</header>
+				<object>3CAFFD31-C87E4685-9C91F22F-9E6D8EBA</object>
+				<object>6631DA43-A58649DE-946D0FDB-771559A7</object>
+				<object>A5BFD1B4-36344DBC-973DAF29-DFCF1225</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name>The Venue</name>
+					<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_LKWD_Venue.dds</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_LKWD_Venue.dds</background>
+				</header>
+				<object>700948A9-12544633-8E553D87-A77382D3</object>
+				<object>84A3A0AD-E1294E08-9CB56FCA-629625EC</object>
+			</node>
+		</node>
+		<node>
+			<header>
+				<name>Juggernaut Games</name>
+				<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_Juggernaut.png</thumbnail>
+			</header>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Personal Space</name>
+					<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Personalspace_jp.dds</thumbnail>
+					<name lang="en-US">Personal Space</name>
+					<name lang="fr-FR">Espace personnel</name>
+					<name lang="de-DE">Home-Apartment</name>
+					<name lang="it-IT">Spazio personale</name>
+					<name lang="es-ES">Espacio Home</name>
+					<name lang="ja-JP">パーソナルスペース</name>
+					<name lang="ko-KR">개인공간</name>
+					<name lang="en-SG">Personal Space</name>
+					<name lang="zh-HK">個人空間</name>
+					<name lang="zh-TW">個人空間</name>
+				</header>
+				<object>7FC9B6B1-596D4F72-A590CBA2-F03AE542</object>
+			</node>
+		</node>
+		<node>
+			<header>
+				<name>Hellfire Games</name>
+				<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_Hellfire128x128.png</thumbnail>
+			</header>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Novus Prime</name>
+					<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_novusprime128x128.png</thumbnail>
+					<name lang="ko-KR">노부스 프라임</name>
+					<name lang="en-SG">Novus Prime</name>
+					<name lang="zh-HK">Novus Prime</name>
+					<name lang="zh-TW">Novus Prime</name>
+				</header>
+				<object>57C7E33B-09E8429D-AEE20B44-2BB36885</object>
+			</node>
+		</node>
+		<node type="objects">
+			<header>
+				<name>Sodium 2</name>
+				<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_Lockwood_SodiumTwo_asia.png</thumbnail>
+				<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumTwo_asia.png</background>
+			</header>
+			<object>865D333E-C7CB4C7E-8428B49D-50106E8A</object>
+			<object>C311F2FD-DB7249AA-8D152A3C-62EE039D</object>
+			<object>D561F3A9-DB5F48EE-8BF0D417-9767380A</object>
+			<object>31528C8A-8A3545B3-99127061-F5B55D2A</object>
+			<object>98878CCF-6E0D4707-82EBDC52-A6075845</object>
+			<object>2F08E187-A7EA4DD7-858B2968-C769DA9C</object>
+		</node>
+		<node type="objects">
+			<header>
+				<name>Sodium</name>
+				<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_Lockwood_SodiumOne_asia.png</thumbnail>
+				<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumOne_asia.png</background>
+			</header>
+			<object>55499856-FD83450E-BA301881-E78E3511</object>
+		</node>
+		<node type="objects">
+			<header>
+				<name>MAG</name>
+				<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/MAG_logo_asia.png</thumbnail>
+			</header>
+			<object>9D6282BB-46224ED8-BA541CF4-D2BEB11A</object>
+			<object>73C463E7-CF9D4F10-8CE45CD6-5B0B6876</object>
+			<object>E9D19674-CADD4C83-A2FC440B-0AAA1528</object>
+		</node>
+		<node type="objects">
+			<header>
+				<name>TORO</name>
+				<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Toro_asia.png</thumbnail>
+			</header>
+			<object>1095EC78-EE204E80-A07EE02D-D2664E88</object>
+		</node>
+		<node type="objects">
+			<header>
+				<name>Uncharted 2</name>
+				<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Unchated_logo_asia.png</thumbnail>
+			</header>
+			<object>D3108B66-456F4C74-93CB0BE4-D50A6381</object>
+		</node>
+		<node type="objects">
+			<header>
+				<name lang="en-GB" default="true">LittleBigPlanet</name>
+				<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/LBP_thumbnail_asia.png</thumbnail>
+				<name lang="ko-KR">리틀빅플래닛</name>
+				<name lang="en-SG">LittleBigPlanet</name>
+				<name lang="zh-HK">小小大星球</name>
+				<name lang="zh-TW">小小大星球</name>
+			</header>
+			<object>79B5B7FA-84CE4D07-9D5E93A4-4AE7466B</object>
+		</node>
+		<node type="objects">
+			<header>
+				<name>Ratchet &amp; Clank</name>
+				<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Ratchet_logo_asia.png</thumbnail>
+			</header>
+			<object>B4D67F63-0CCE41A9-992A1E66-8083A5EF</object>
+		</node>
+		<node type="objects">
+			<header>
+				<name>FINAL FANTASY XIII</name>
+				<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/FF_logo_asia.png</thumbnail>
+			</header>
+			<object>42A93F08-A44747F5-BE68CF89-F5F753DC</object>
+		</node>
+		<node type="objects">
+			<header>
+				<name>LocoRoco</name>
+				<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TM_LR_store_icon_asia.png</thumbnail>
+			</header>
+			<object>7F30B22F-8E3A43BD-9648EB96-D5514142</object>
+		</node>
+		<node type="objects">
+			<header>
+				<name>Killzone2</name>
+				<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/killzone_TMasia.png</thumbnail>
+			</header>
+			<object>784FF69C-35D94E19-A8B4C8A7-9860E27C</object>
+		</node>
+		<node type="objects">
+			<header>
+				<name>MotorStorm</name>
+				<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/MS_thumnail_Asia.png</thumbnail>
+			</header>
+			<object>00C4E166-D83A48EC-9A89767E-5F1F1410</object>
+			<object>55DAF48F-0E0F4DC8-85FFFDD1-C4B840B0</object>
+		</node>
+	</node>
+</commerce_point>

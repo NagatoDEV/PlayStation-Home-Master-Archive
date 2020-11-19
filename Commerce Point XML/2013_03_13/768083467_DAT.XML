@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+	<node>
+		<header>
+			<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_LockwoodPublishing_CPBG_asia.png</background>
+		</header>
+		<node>
+			<header>
+				<name>Sodium</name>
+				<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_Lockwood_SodiumOne_asia.png</thumbnail>
+				<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumOne_asia.png</background>
+			</header>
+			<node>
+				<header>
+					<name lang="en-GB" default="true">Clothing</name>
+					<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/clothingOption.dds</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumOne_asia.png</background>
+					<name lang="ko-KR">의상</name>
+					<name lang="en-SG">Clothing</name>
+					<name lang="zh-HK">服裝</name>
+					<name lang="zh-TW">服裝</name>
+				</header>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Male</name>
+						<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/male.dds</thumbnail>
+						<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumOne_asia.png</background>
+						<name lang="ja-JP">男性</name>
+						<name lang="ko-KR">남성</name>
+						<name lang="en-SG">Male</name>
+						<name lang="zh-HK">男性</name>
+						<name lang="zh-TW">男性</name>
+					</header>
+					<object>5803B93C-56DE4288-B83B6D1C-11D121DD</object>
+					<object>7FC78FC3-A34641D9-BCC2A8E2-CF38670E</object>
+					<object>023F50DB-AD634F6B-8F6189B7-E60E4A82</object>
+					<object>87D7B5D0-5C6A4DC6-8D0C93CB-B0346D13</object>
+					<object>BA93D932-3939432B-B43B6DBF-B87272A5</object>
+					<object>F1DD6031-19DA438E-B1711023-C4CFD911</object>
+					<object>8494FE43-DD5A4EB2-A0EB0CD9-D9E46BE3</object>
+					<object>DC26B3A8-D7B644D7-847823AD-A4DB641C</object>
+					<object>4198BCA2-8BB7406B-A198ACB4-944923E0</object>
+					<object>C808DD99-6FAE4438-8D07D031-B76D7107</object>
+					<object>88D8CFB1-F4284844-9CE955CB-B479B00A</object>
+					<object>B2D008DE-B3AE4C6F-B849871F-C1D6CB6B</object>
+					<object>F270A45F-13AD49F0-803B5583-2E31E0BE</object>
+					<object>0D7A6051-6F484599-8F0237DC-A20DF306</object>
+					<object>78CF7D8F-DBBD4587-AE93864F-5036A57A</object>
+					<object>50335847-39DC4159-A74A4F0C-90B47760</object>
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Female</name>
+						<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/female.dds</thumbnail>
+						<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumOne_asia.png</background>
+						<name lang="ja-JP">女性</name>
+						<name lang="ko-KR">여자</name>
+						<name lang="en-SG">Female</name>
+						<name lang="zh-HK">女性</name>
+						<name lang="zh-TW">女性</name>
+					</header>
+					<object>3353FFFB-5FC04A29-8BBF871F-F0532D88</object>
+					<object>82020345-C82849D8-9DAF0C12-8D1CB4A8</object>
+					<object>6285071B-EA064ECC-928A84FD-2E94DAF6</object>
+					<object>F6463AFD-1FB642B3-BE345A32-4F57F4C9</object>
+					<object>7E2391A4-75E9424A-9D6D9CD2-79A86951</object>
+					<object>8040DAFF-A6D64325-8EC773EF-E67A866D</object>
+					<object>EB1B7659-47A6445D-AECAB0CA-69C98AC2</object>
+					<object>1BDE412B-9D2C41DC-A4E5BC9A-239A6027</object>
+					<object>5E872F76-11E7447E-9B8A224C-5613B539</object>
+					<object>2CE3244E-256E4C8A-881ED741-1C453882</object>
+					<object>D0750D8C-C3F64560-B1C8D193-5CE7BB16</object>
+					<object>FB09DC81-3B914354-9D12D56B-74C2D204</object>
+					<object>C9F7C5AC-62D647B9-9BD158F9-5EDBA02A</object>
+					<object>D999BA81-2E564A9F-A2EF088E-F4E89211</object>
+					<object>6A9A6863-24C84822-9218295F-D64DBC25</object>
+					<object>958E9D8C-1A834EE4-88484CA0-52A09E24</object>
+					<object>19C8E6AD-4F1B4421-A77D013D-1135D7D8</object>
+					<object>5FEECE12-0DA44622-9DDC1AFF-CCFF54F5</object>
+					<object>5DD6FCEB-FD7D4E8D-973B0A99-D2A68B08</object>
+				</node>
+			</node>
+			<node>
+				<header>
+					<name lang="en-GB" default="true">Furniture</name>
+					<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Furniture_jp.dds</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumOne_asia.png</background>
+					<name lang="ko-KR">가구</name>
+					<name lang="en-SG">Furniture</name>
+					<name lang="zh-HK">家具</name>
+					<name lang="zh-TW">家具</name>
+				</header>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Active Items</name>
+						<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/ActiveFurniture_Asia.dds</thumbnail>
+						<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumOne_asia.png</background>
+						<name lang="ko-KR">액티브 아이템</name>
+						<name lang="en-SG">Active Items</name>
+						<name lang="zh-HK">動態道具</name>
+						<name lang="zh-TW">動態道具</name>
+					</header>
+					<object>65FD7D8F-2E34450D-9FCC311D-55CAE107</object>
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Chairs</name>
+						<thumbnail useOsdColour="true"> http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Category_Chairs.dds</thumbnail>
+						<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumOne_asia.png</background>
+						<name lang="en-US">Chairs</name>
+						<name lang="fr-FR">Sièges</name>
+						<name lang="de-DE">Stühle</name>
+						<name lang="it-IT">Sedie</name>
+						<name lang="es-ES">Sillas</name>
+						<name lang="ja-JP">チェア</name>
+						<name lang="ko-KR">의자</name>
+						<name lang="en-SG">Chairs</name>
+						<name lang="zh-HK">椅子</name>
+						<name lang="zh-TW">椅子</name>
+					</header>
+					<object>AEFBD08E-A1B34A92-88A7802E-7CC28A85</object>
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Tables</name>
+						<thumbnail useOsdColour="true"> http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Category_Tables.dds</thumbnail>
+						<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumOne_asia.png</background>
+						<name lang="en-US">Tables</name>
+						<name lang="fr-FR">Tables</name>
+						<name lang="de-DE">Tische</name>
+						<name lang="it-IT">Tavoli</name>
+						<name lang="es-ES">Mesas</name>
+						<name lang="ja-JP">テーブル</name>
+						<name lang="ko-KR">테이블</name>
+						<name lang="en-SG">Tables</name>
+						<name lang="zh-HK">桌子</name>
+						<name lang="zh-TW">桌子</name>
+					</header>
+					<object>F42499A0-8B2B4537-808EF46A-D9D36C6D</object>
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Ornaments</name>
+						<thumbnail useOsdColour="true"> http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+						<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumOne_asia.png</background>
+						<name lang="en-US">Ornaments</name>
+						<name lang="fr-FR">Décoration</name>
+						<name lang="de-DE">Verzierungen</name>
+						<name lang="it-IT">Decorazioni</name>
+						<name lang="es-ES">Adornos</name>
+						<name lang="ja-JP">装飾品</name>
+						<name lang="ko-KR">장식품</name>
+						<name lang="en-SG">Ornaments</name>
+						<name lang="zh-HK">裝飾品</name>
+						<name lang="zh-TW">裝飾品</name>
+					</header>
+					<object>99BE9C88-6EC34A86-BB90F468-D8553AF7</object>
+				</node>
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Personal Space</name>
+					<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Personalspace_jp.dds</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumOne_asia.png</background>
+					<name lang="ko-KR">퍼스널 스페이스</name>
+					<name lang="en-SG">Personal Space</name>
+					<name lang="zh-HK">個人空間</name>
+					<name lang="zh-TW">個人空間</name>
+				</header>
+				<object>55499856-FD83450E-BA301881-E78E3511</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Upgrade Weapons</name>
+					<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Sodium_Weapon_Asia.dds</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumOne_asia.png</background>
+					<name lang="ko-KR">업그레이드 무기</name>
+					<name lang="en-SG">Upgrade Weapons</name>
+					<name lang="zh-HK">升級武器</name>
+					<name lang="zh-TW">升級武器</name>
+				</header>
+				<object>13902347-A94A43E4-B637D35C-8739155F</object>
+				<object>B67CC60D-5F324718-A1610DB1-466ABF64</object>
+			</node>
+		</node>
+		<node>
+			<header>
+				<name>Sodium 2</name>
+				<thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_Lockwood_SodiumTwo_asia.png</thumbnail>
+				<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumTwo_asia.png</background>
+			</header>
+			<node>
+				<header>
+					<name lang="en-GB" default="true">Clothing</name>
+					<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/clothingOption.dds</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumTwo_asia.png</background>
+					<name lang="ko-KR">의상</name>
+					<name lang="en-SG">Clothing</name>
+					<name lang="zh-HK">服裝</name>
+					<name lang="zh-TW">服裝</name>
+				</header>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Male</name>
+						<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/male.dds</thumbnail>
+						<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumTwo_asia.png</background>
+						<name lang="fr-FR">Homme</name>
+						<name lang="de-DE">Mannlich</name>
+						<name lang="it-IT">Maschio</name>
+						<name lang="es-ES">Hombre</name>
+						<name lang="ja-JP">男性</name>
+						<name lang="ko-KR">남성</name>
+						<name lang="en-SG">Male</name>
+						<name lang="zh-HK">男性</name>
+						<name lang="zh-TW">男性</name>
+					</header>
+					<object>B520F79E-A99E42D7-A6BCCB6E-4C2C36FA</object>
+					<object>BBD83EC2-B1034809-8FF8CFB9-46338A14</object>
+					<object>484FEBA6-F5C241A5-8748EBAA-05F6295A</object>
+					<object>0364612A-81C247D2-A3677EAD-D63AA4D4</object>
+					<object>E592674A-2FE44C55-A6233A65-A2EC82B4</object>
+					<object>D831B57D-BEE447F3-BC6E7AC7-6C09995B</object>
+					<object>5712D587-5BAB4F37-8A6CCD72-D8CF8631</object>
+					<object>06A18FB6-53864F30-9F44EE1E-155F2EC4</object>
+					<object>858F8061-49204147-8A91EF19-80528103</object>
+					<object>4A2D7B65-78A74B17-807E4F9F-68544A07</object>
+					<object>025402E9-A3474BA3-BE18E2F4-D78B997C</object>
+					<object>78853304-D29A4FA7-966026F5-9EB958AC</object>
+					<object>CA115A86-4BAD4D71-A7F02EB6-F5549CB9</object>
+					<object>D71B1A6C-E52A4550-8A2DFA33-7BC38FA9</object>
+					<object>3B6EE82C-61394742-B01F2EFF-37DFB45D</object>
+					<object>DB7FFAE6-5906480D-86E2859A-EF701920</object>
+					<object>7ACE5FCA-E1E34C0D-A19159A7-FF1B237E</object>
+					<object>7E585D13-59A84BAE-9A8C786E-CA55DEEC</object>
+					<object>A6D2B5E1-77D64ECB-AABD6185-C60C3AFE</object>
+					<object>914876EC-25354111-BCCB4EDD-923C71D1</object>
+					<object>4B576E32-5C1B413D-9AC6B7AF-2AB0A603</object>
+					<object>360C922C-E1214CAF-B836B6B2-4ADFC780</object>
+					<object>74CA6EE3-79DB4C50-914B8AC7-04DAE8A5</object>
+					<object>2AFBEEAF-34E242E6-89A1EA99-78A21A0E</object>
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Female</name>
+						<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/female.dds</thumbnail>
+						<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumTwo_asia.png</background>
+						<name lang="en-US">Female</name>
+						<name lang="fr-FR">Femme</name>
+						<name lang="de-DE">Weiblich</name>
+						<name lang="it-IT">Femmina</name>
+						<name lang="es-ES">Mujer</name>
+						<name lang="ja-JP">女性</name>
+						<name lang="ko-KR">여자</name>
+						<name lang="en-SG">Female</name>
+						<name lang="zh-HK">女性</name>
+						<name lang="zh-TW">女性</name>
+					</header>
+					<object>1A32396B-C7F04724-A675BA5B-876600FC</object>
+					<object>A199793C-45254C2F-A4620ADF-4E0C63BC</object>
+					<object>2F1A2E96-7ED141E5-8C6B0EE2-F6CF4A43</object>
+					<object>AC1B59BB-3D0B4504-86C4C75A-FA43D3BB</object>
+					<object>E6A2C17F-74814842-B81F3EED-E58C0D05</object>
+					<object>111827CC-A8A64B2F-B41A898C-67127177</object>
+					<object>00D3C6C7-D2F94DA3-82ED3416-6089F7F7</object>
+					<object>B3D77975-CE574461-8C911E63-3D339C89</object>
+					<object>17F59C5E-82BC4C57-BB534C83-48202063</object>
+					<object>B0B6126E-457446B2-95BE0226-F2079521</object>
+					<object>2BEA01A4-87A14FD8-8F41959E-0F53FAC3</object>
+					<object>20746EBE-4F1E4DBE-970388AD-49325C34</object>
+					<object>ECB1CDB5-FAF444E4-8974C929-4FD47BA5</object>
+					<object>D4ADA109-801A4A36-8DA62EB9-67456FC7</object>
+					<object>893450F6-539F4C82-A6F1243B-D3D33C3E</object>
+					<object>1F329B82-21F34ECC-BA93AD5A-839CB997</object>
+					<object>3DDD804B-A2AD4F69-8760DFE8-B82AA963</object>
+					<object>88D822A9-C3774531-9E33707F-6E34D09B</object>
+					<object>F70C6AD9-876F4E3F-8F56CE8A-56DC2795</object>
+					<object>8250F496-5A4D4F6D-86FE3B62-99EE1539</object>
+					<object>5316FC90-0C4D4ADA-8AA54CC0-E5B552BF</object>
+					<object>27915444-8F104A93-81E8F4AC-E0BD2B73</object>
+					<object>2AB5298D-84C44072-8026448E-E9A85DBC</object>
+					<object>C64C5931-2B4E4DF7-A4C636F8-35219E9D</object>
+					<object>B4562A00-877645BD-9FF3D7BE-966C1C11</object>
+					<object>374BBDB4-D2F847B6-A99C5ED5-C9B32C11</object>
+					<object>320A3A8B-01D74250-94D02A8E-3901DA76</object>
+					<object>06081CF5-A3C94967-B5F1FFFB-5EBADB42</object>
+					<object>8676E135-8DED4837-817F5751-3C3947BE</object>
+				</node>
+			</node>
+			<node>
+				<header>
+					<name>Furniture</name>
+					<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Furniture_jp.dds</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumTwo_asia.png</background>
+				</header>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Active Items</name>
+						<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/ActiveFurniture_Asia.dds</thumbnail>
+						<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumTwo_asia.png</background>
+						<name lang="ko-KR">액티브 아이템</name>
+						<name lang="en-SG">Active Items</name>
+						<name lang="zh-HK">動態道具</name>
+						<name lang="zh-TW">動態道具</name>
+					</header>
+					<object>222050D1-99F7402E-B858A012-FAA8855B</object>
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Chairs</name>
+						<thumbnail useOsdColour="true"> http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Category_Chairs.dds</thumbnail>
+						<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumTwo_asia.png</background>
+						<name lang="en-US">Chairs</name>
+						<name lang="fr-FR">Sièges</name>
+						<name lang="de-DE">Stühle</name>
+						<name lang="it-IT">Sedie</name>
+						<name lang="es-ES">Sillas</name>
+						<name lang="ja-JP">チェア</name>
+						<name lang="ko-KR">의자</name>
+						<name lang="en-SG">Chairs</name>
+						<name lang="zh-HK">椅子</name>
+						<name lang="zh-TW">椅子</name>
+					</header>
+					<object>6FC6A31D-E9334933-954DBE5D-D9198243</object>
+					<object>F135DADF-FF6848CE-9BF560B1-AE299893</object>
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Tables</name>
+						<thumbnail useOsdColour="true"> http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Category_Tables.dds</thumbnail>
+						<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumTwo_asia.png</background>
+						<name lang="en-US">Tables</name>
+						<name lang="fr-FR">Tables</name>
+						<name lang="de-DE">Tische</name>
+						<name lang="it-IT">Tavoli</name>
+						<name lang="es-ES">Mesas</name>
+						<name lang="ja-JP">テーブル</name>
+						<name lang="ko-KR">테이블</name>
+						<name lang="en-SG">Tables</name>
+						<name lang="zh-HK">桌子</name>
+						<name lang="zh-TW">桌子</name>
+					</header>
+					<object>7FE3204C-A5B94085-AB40E254-CB584678</object>
+					<object>E508986F-D1E44CAC-90F90684-A10109BD</object>
+					<object>7ADB7647-7084490E-AEDA4927-1807573A</object>
+					<object>80FAD925-BB084A6F-BF392D3B-B7C98104</object>
+					<object>9427C022-21514672-959E9F43-B67A4C93</object>
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Flooring</name>
+						<thumbnail useOsdColour="true"> http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Category_Flooring.dds</thumbnail>
+						<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumTwo_asia.png</background>
+						<name lang="en-US">Flooring</name>
+						<name lang="fr-FR">Sol</name>
+						<name lang="de-DE">Fußböden</name>
+						<name lang="it-IT">Pavimento</name>
+						<name lang="es-ES">Revestimiento para suelo</name>
+						<name lang="ja-JP">ラグ</name>
+						<name lang="ko-KR">마룻바닥</name>
+						<name lang="en-SG">Flooring</name>
+						<name lang="zh-HK">地板</name>
+						<name lang="zh-TW">地板</name>
+					</header>
+					<object>6A917E62-2AE94785-8DC29B3A-5403794B</object>
+					<object>2C9B4F01-DAC343A2-9FD79636-35EDE532</object>
+					<object>1BC15958-1DE04A27-80DF9DAA-0A51F95A</object>
+					<object>85F9273E-E1DC4A06-A4AFFBED-16FB3A28</object>
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Ornaments</name>
+						<thumbnail useOsdColour="true"> http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+						<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumTwo_asia.png</background>
+						<name lang="en-US">Ornaments</name>
+						<name lang="fr-FR">Décoration</name>
+						<name lang="de-DE">Verzierungen</name>
+						<name lang="it-IT">Decorazioni</name>
+						<name lang="es-ES">Adornos</name>
+						<name lang="ja-JP">装飾品</name>
+						<name lang="ko-KR">장식품</name>
+						<name lang="en-SG">Ornaments</name>
+						<name lang="zh-HK">裝飾品</name>
+						<name lang="zh-TW">裝飾品</name>
+					</header>
+					<object>80AC7283-46C84337-A11F5D96-AD81D65C</object>
+					<object>607A4EF1-2F0C45FF-8F6F5B52-6F2A5120</object>
+					<object>183F7B9B-AF7D4E8D-86EAFB1C-8B7D41BC</object>
+					<object>09D985FD-B8664C07-88939A62-34123AAC</object>
+					<object>E94FA794-1BB24067-AEEDF713-C5535E07</object>
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Lights</name>
+						<thumbnail useOsdColour="true"> http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Category_Lights.dds</thumbnail>
+						<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumTwo_asia.png</background>
+						<name lang="en-US">Lights</name>
+						<name lang="fr-FR">Éclairage</name>
+						<name lang="de-DE">Lampen</name>
+						<name lang="it-IT">Luci</name>
+						<name lang="es-ES">Luces</name>
+						<name lang="ja-JP">照明器具</name>
+						<name lang="ko-KR">조명 기구</name>
+						<name lang="en-SG">Lights</name>
+						<name lang="zh-HK">燈具</name>
+						<name lang="zh-TW">燈具</name>
+					</header>
+					<object>D344D6D1-B4384704-8006E3AB-6B170768</object>
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Cube</name>
+						<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Category_Cubes.dds</thumbnail>
+						<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumTwo_asia.png</background>
+						<name lang="ko-KR">큐브</name>
+						<name lang="en-SG">Cube</name>
+						<name lang="zh-HK">擺設</name>
+						<name lang="zh-TW">擺設</name>
+					</header>
+					<object>C266CBF5-1E534803-A86F79E6-035DA1CD</object>
+					<object>ADA8398F-70DB4A24-A66B5E8D-D2221AFB</object>
+					<object>755A4A45-3BBA41CF-ADAFF540-ECA2B809</object>
+					<object>CF69FE8B-6097478A-8EE115DC-E4CE330F</object>
+					<object>8A7D54F3-70984B70-962DF0F3-685B17F8</object>
+					<object>147ECCFC-87DF48B4-AA282ED6-BC57322C</object>
+					<object>59F2495D-9D064CBB-AE955307-50CD6A3A</object>
+					<object>A696393E-620B42C8-BCE6CD3C-8025C0B0</object>
+				</node>
+				<node type="objects">
+					<header>
+						<name lang="en-GB" default="true">Sofas</name>
+						<thumbnail useOsdColour="true"> http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Category_Sofas.dds</thumbnail>
+						<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumTwo_asia.png</background>
+						<name lang="en-US">Sofas</name>
+						<name lang="fr-FR">Canapés</name>
+						<name lang="de-DE">Sofas</name>
+						<name lang="it-IT">Divani</name>
+						<name lang="es-ES">Sofás</name>
+						<name lang="ja-JP">ソファー</name>
+						<name lang="ko-KR">소파</name>
+						<name lang="en-SG">Sofas</name>
+						<name lang="zh-HK">沙發</name>
+						<name lang="zh-TW">沙發</name>
+					</header>
+					<object>8B5168F3-7A224F17-9C5A56A1-D4B14364</object>
+				</node>
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Personal Space</name>
+					<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Personalspace_jp.dds</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumTwo_asia.png</background>
+					<name lang="ko-KR">퍼스널 스페이스</name>
+					<name lang="en-SG">Personal Space</name>
+					<name lang="zh-HK">個人空間</name>
+					<name lang="zh-TW">個人空間</name>
+				</header>
+				<object>2F08E187-A7EA4DD7-858B2968-C769DA9C</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Companions</name>
+					<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Companion_SCEAsia.dds</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumTwo_asia.png</background>
+					<name lang="ko-KR">컴패니언</name>
+					<name lang="en-SG">Companions</name>
+					<name lang="zh-HK">隨身夥伴</name>
+					<name lang="zh-TW">隨身夥伴</name>
+				</header>
+				<object>F5FAF049-077C46C6-950A25F1-BB4C5930</object>
+				<object>D3448606-14554149-AA244F3E-5D6EDD32</object>
+			</node>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Bundles</name>
+					<thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Bundle_Asia.dds</thumbnail>
+					<background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/BG_Lockwood_SodiumTwo_asia.png</background>
+					<name lang="ko-KR">번들 팩</name>
+					<name lang="en-SG">Bundles</name>
+					<name lang="zh-HK">同捆包</name>
+					<name lang="zh-TW">同捆包</name>
+				</header>
+				<object>865D333E-C7CB4C7E-8428B49D-50106E8A</object>
+				<object>C311F2FD-DB7249AA-8D152A3C-62EE039D</object>
+				<object>D561F3A9-DB5F48EE-8BF0D417-9767380A</object>
+				<object>31528C8A-8A3545B3-99127061-F5B55D2A</object>
+				<object>98878CCF-6E0D4707-82EBDC52-A6075845</object>
+			</node>
+		</node>
+	</node>
+</commerce_point>

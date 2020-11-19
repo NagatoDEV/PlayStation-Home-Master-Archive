@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header>
+      <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+    </header>
+    <node>
+      <header>
+        <name>NEW</name>
+        <thumbnail useOsdColour="true">http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/New_jp.dds</thumbnail>
+        <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/NewItemCP2_ja-JP.dds</background>
+      </header>
+      <node type="objects">
+        <header>
+          <name>Lockwood</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/Lockwood_jp.png</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/NewItemCP2_ja-JP.dds</background>
+        </header>
+        <object>A5BFD1B4-36344DBC-973DAF29-DFCF1225</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>Loot</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/Loot_Store_Node_jp.png</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/NewItemCP2_ja-JP.dds</background>
+        </header>
+        <object>F6854E66-3D944778-8FBA40AC-5EEA954C</object>
+      </node>
+    </node>
+    <node>
+      <header>
+        <name>パーソナルスペース</name>
+        <thumbnail useOsdColour="true">http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/Personalspace_jp.dds</thumbnail>
+        <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+      </header>
+      <node type="objects">
+        <header>
+          <name>PlayStation®Home</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/home.png</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+        </header>
+        <object>E5946B58-111F4767-A91B0F08-057E339F</object>
+        <object>8EB870C4-5502489A-B4906B84-6AE35F01</object>
+        <object>16609817-77F646D8-878789D7-135196C6</object>
+        <object>CBC81E64-19F643DA-A4E0BB27-0FB943F9</object>
+        <object>77D9E3EF-02A74DA9-BD77FBBD-91407A88</object>
+        <object>2519FAC0-18AA4FCB-A1214F6B-65F5F001</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>nDreams</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/nDreams_jp.png</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+        </header>
+        <object>2B2AC754-5DA64B09-BC99CE7E-00D37FEF</object>
+        <object>D12B4345-24C741A5-BA7BBFA0-33982C3E</object>
+        <object>727DCA6F-16284020-B63B3206-3DD44797</object>
+        <object>F1211BB3-F84F4A38-8883E48B-534277EC</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>オーロラ</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/nDreams_Aurora_jp.png</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+        </header>
+        <object>2CF5180D-20B04572-BB17FFC4-D452FAB6</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>おしゃべりファーム</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/OshaFarm_jp.png</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+        </header>
+        <object>5B781C33-66164355-9B739FB6-1CCF9935</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>KILLZONE®2</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/killzone_TM_jp.png</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+        </header>
+        <object>784FF69C-35D94E19-A8B4C8A7-9860E27C</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>グランゼーラ</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/GZ_Mark_jp.dds</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+        </header>
+        <object>75CE4D91-496A4383-919B16C7-13D50B3D</object>
+        <object>5443F445-F7254581-B1AFF539-165B6334</object>
+        <object>93DA1344-F63F4007-9B69AA40-97CE99B6</object>
+        <object>8772245B-1B17460B-83D4D5AB-B0C9D5EF</object>
+        <object>480ACF30-D0A942A4-9BEA4AFB-D2FD9E96</object>
+        <object>1F80696E-77F141C2-8E0AEEBF-41E0943D</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>週刊トロ・ステーション™</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/wtoro_jp.png</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+        </header>
+        <object>1095EC78-EE204E80-A07EE02D-D2664E88</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>Sodium One</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/Sodium1_jp.png</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+        </header>
+        <object>55499856-FD83450E-BA301881-E78E3511</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>ノーバス・プライム</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/NovusPrime_logo_jp.png</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+        </header>
+        <object>57C7E33B-09E8429D-AEE20B44-2BB36885</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>ハドソン</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/Hudson_jp.png</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+        </header>
+        <object>DB5D6D31-96B1454B-82862C18-6BD61D8B</object>
+        <object>69A74FBA-B57F4C85-9DC55CC4-4A638116</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>peakvox</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/Peakvox_jp.png</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+        </header>
+        <object>7EFFA7A5-52994544-96C5F6F1-E6F4973D</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>FINAL FANTASY XIII</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/ff13_title_jp.dds</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+        </header>
+        <object>42A93F08-A44747F5-BE68CF89-F5F753DC</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>MAG™</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/MAG_jp.dds</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+        </header>
+        <object>9D6282BB-46224ED8-BA541CF4-D2BEB11A</object>
+        <object>E9D19674-CADD4C83-A2FC440B-0AAA1528</object>
+        <object>73C463E7-CF9D4F10-8CE45CD6-5B0B6876</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>MotorStorm®～モーターストーム～</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/MS_WMC_jp.png</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+        </header>
+        <object>00C4E166-D83A48EC-9A89767E-5F1F1410</object>
+        <object>55DAF48F-0E0F4DC8-85FFFDD1-C4B840B0</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>Ubisoft</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/Ubisoft_jp.png</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+        </header>
+        <object>40BEF872-075A45E8-A3133BC4-0885EFFF</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>ラチェット＆クランク</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/rcfuture2_store_jp.png</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+        </header>
+        <object>B4D67F63-0CCE41A9-992A1E66-8083A5EF</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>リトルビッグプラネット™</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/lbp_jp.dds</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+        </header>
+        <object>79B5B7FA-84CE4D07-9D5E93A4-4AE7466B</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>Loot</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/Loot_Store_Node_jp.png</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+        </header>
+        <object>F6854E66-3D944778-8FBA40AC-5EEA954C</object>
+        <object>2935147C-2D4043C9-87E252B8-B960C809</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>LocoRoco®</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/locoroco_jp.png</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+        </header>
+        <object>EC15349C-76FA42BD-9143E144-CAC95603</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>Lockwood</name>
+          <thumbnail>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/Lockwood_jp.png</thumbnail>
+          <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+        </header>
+        <object>A5BFD1B4-36344DBC-973DAF29-DFCF1225</object>
+        <object>D71526E0-21F4470E-9C8F75CA-3CDBD857</object>
+        <object>18824AB2-6D524781-9E478811-3C9E7200</object>
+        <object>7544F2C8-28E94176-824C628D-95C5C12F</object>
+      </node>
+    </node>
+    <node type="objects">
+      <header>
+        <name>クラブ</name>
+        <thumbnail useOsdColour="true">http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/ClubHouseSlotThumbnail.png</thumbnail>
+        <background>http://scej-home.playstation.net/j.home/CommercePoints/Thumbnails/EstatesBG2_jp.dds</background>
+      </header>
+      <object>63969967-334F4FD7-A57D0768-DA16D0FC</object>
+    </node>
+  </node>
+</commerce_point>

@@ -1,0 +1,1841 @@
+<XML>
+  <CONFIG>
+    <BGTYPE>GRAVPARTICLES</BGTYPE>
+  </CONFIG>
+  <CATEGORY BGCOLOR="#000000"> <!-- Core Spaces -->
+    <TEXT LANG="en-US">Core Spaces</TEXT>
+    <TEXT LANG="fr-FR">Ma page d'accueil</TEXT>
+    <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Main_CoreSpace_01.dds</IMAGE>
+    <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Main_CoreSpace_01.dds</IMAGE>
+	  <ITEM> <!-- The Hub -->
+        <TEXT LANG="en-US">The Hub</TEXT>
+        <TEXT LANG="fr-FR">Le Hub</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Hub_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Hub_large.dds</IMAGE>
+        <DESTINATION>Home Square</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">The Hub</HEADER>
+          <HEADER LANG="fr-FR">Le Hub</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">The Hub brings games directly to you with a featured game front-and-center, an Activity Board where you can engage in quests and community activities, shopping, and direct path to a wide world of games and entertainment!</BODY>
+          <BODY LANG="fr-FR">Le Hub apporte des jeux directement chez vous avec une vedette de jeu avant et centre, un conseil d'activité où l'on peut s'engager dans des quêtes et des activités communautaires, commerciaux, et le chemin direct à une vaste monde des jeux et du divertissement!</BODY>
+        </DESCRIPTION>
+      </ITEM>
+	  <ITEM> <!-- Sportswalk -->
+        <TEXT LANG="en-US">Sportswalk</TEXT>
+        <TEXT LANG="fr-FR">Sportswalk</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Sports_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Sports_large.dds</IMAGE>
+        <DESTINATION>SCEA_Sports_District_77D3_A934</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Sportswalk</HEADER>
+          <HEADER LANG="fr-FR">Sportswalk</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">The Sportswalk has an exciting outside-the-stadium feel with instant major league sports scores, headlines and highlights, and sports games!</BODY>
+          <BODY LANG="fr-FR">Le Sportswalk a une passionnante en dehors du stade, la convivialité avec des instantanés ligue sportive majeure scores, des titres et met en évidence, et les jeux de sport!</BODY>
+        </DESCRIPTION>
+      </ITEM>
+	  <ITEM> <!-- Action District -->
+        <TEXT LANG="en-US">Action District</TEXT>
+        <TEXT LANG="fr-FR">Action District</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Action_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Action_large.dds</IMAGE>
+        <DESTINATION>SCEA_Action_District_B0D_FF0B</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Action District</HEADER>
+          <HEADER LANG="fr-FR">Action District</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">A gathering place for the hardest of the hardcore, the Action District has a gritty, urban feel reminiscent of a first-person shooter level and provides you a travel point to action and horror games!</BODY>
+          <BODY LANG="fr-FR">L'Action District est le lieu de rassemblement des joueurs les plus exigeants. Il rappelle le niveau d'un jeu de tir à la première personne avec son atmosphère urbaine et permet d'accéder aux jeux d'action et d'horreur !</BODY>
+        </DESCRIPTION>
+      </ITEM>
+	  <ITEM> <!-- Pier Park -->
+        <TEXT LANG="en-US">Pier Park</TEXT>
+        <TEXT LANG="fr-FR">Pier Park</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_PlayPier_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_PlayPier_large.dds</IMAGE>
+        <DESTINATION>SCEA_Casual_District_7831_9753</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Pier Park</HEADER>
+          <HEADER LANG="fr-FR">Pier Park</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">A waterfront boardwalk leads players to carnival, puzzle, outdoor and arcade games. Take a ride on the Ferris Wheel or visit the Bowling Alley for even more games.</BODY>
+          <BODY LANG="fr-FR">Une promenade riveraine entraîne les joueurs au carnaval, puzzle, jeux de plein air et d'arcade. Faites un tour sur la Grande Roue ou visitez le bowling pour les jeux encore plus.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+	  <ITEM> <!-- Adventure District -->
+        <TEXT LANG="en-US">Adventure District</TEXT>
+        <TEXT LANG="fr-FR">Adventure District</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Adventure_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Adventure_large.dds</IMAGE>
+        <DESTINATION>SCEA_Advent_District_8BDB_69FE</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Adventure District</HEADER>
+          <HEADER LANG="fr-FR">Adventure District</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">A lush tropical island full of mystery, hidden treasure and discovery, the Adventure District hosts games and content custom-tailored for the most adventurous players.</BODY>
+          <BODY LANG="fr-FR">L'Adventure District, île tropicale remplie de mystères, de trésors cachés et de découvertes, propose des mini-jeux et du contenu spécialement pensés pour les joueurs les plus aventureux !</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- Mall First Floor -->
+        <TEXT LANG="en-US">Mall 1st Floor</TEXT>
+        <TEXT LANG="fr-FR">Mall première étage</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Mall_Floor01_WW_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Mall_Floor01_WW_large.dds</IMAGE>
+        <DESTINATION>Marketplace</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Mall 1st Floor</HEADER>
+          <HEADER LANG="fr-FR">Mall première étage</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">Looking for something new? Check out the latest items available for purchase in the Mall.</BODY>
+          <BODY LANG="fr-FR">Vous cherchez quelque chose de nouveau? Jetez un œil aux articles nouvellement disponibles au centre commercial.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- Mall Second Floor -->
+        <TEXT LANG="en-US">Mall 2nd Floor</TEXT>
+        <TEXT LANG="fr-FR">Mall deuxième étage</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Mall_Floor02_WW_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Mall_Floor02_WW_large.dds</IMAGE>
+        <DESTINATION>SCEA_Marketplace3_F18D_3380</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Mall 2nd Floor</HEADER>
+          <HEADER LANG="fr-FR">Mall deuxième étage</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">Looking for something new? Check out the latest items available for purchase in the Mall.</BODY>
+          <BODY LANG="fr-FR">Vous cherchez quelque chose de nouveau? Jetez un œil aux articles nouvellement disponibles au centre commercial.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- Theater Lobby -->
+        <TEXT LANG="en-US">Theater Lobby</TEXT>
+        <TEXT LANG="fr-FR">CINÉMA HOME</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Theater_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Theater_large.dds</IMAGE>
+        <DESTINATION>Cinema</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Theater Lobby</HEADER>
+          <HEADER LANG="fr-FR">CINÉMA HOME</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">Keep up with the latest new releases.  Watch game and movie trailers on six exclusive screens in the Home Cinema.</BODY>
+		  <BODY LANG="fr-FR">Tenez-vous au courant des dernières sorties. Visionnez des bandes-annonces de jeux et de films sur les dix écrans du cinéma Home.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+  </CATEGORY>
+  <CATEGORY BGCOLOR="#000000"> <!-- New and Recommended -->
+    <TEXT LANG="en-US">New and Recommended</TEXT>
+    <TEXT LANG="fr-FR">Recommended</TEXT>
+    <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Main_New_01.dds</IMAGE>
+    <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Main_New_01.dds</IMAGE>	
+	<ITEM> <!-- No Man's Land -->
+	  <DESTINATION>NoMansLand_Lobby_9B47_E5F2</DESTINATION>
+	  <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/NML_NavigatorThumbnail_Final_320x176.dds</IMAGE>
+	  <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/NML_NavigatorThumbnail_Final_320x176.dds</IMAGE>
+	</ITEM>
+	<ITEM> <!-- Bramblenook Farm - Open House -->
+	  <DESTINATION>Bramble_Nook_Lobby_407E_130F</DESTINATION>
+	</ITEM>
+		<ITEM> <!-- Dream Central -->
+	      <TEXT LANG="en-US">Dream Central</TEXT>
+          <TEXT LANG="fr-FR">Dream Central</TEXT>
+	<IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Dream_central_Navtile.png</IMAGE>
+    <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Dream_central_Navtile.png</IMAGE>		
+          <DESTINATION>Millionaires_Hub_1508_98C7</DESTINATION>
+		        <DESCRIPTION>
+          <HEADER LANG="en-US">Lockwood: Dream Central</HEADER>
+          <HEADER LANG="fr-FR">Lockwood: Dream Central</HEADER>
+          <MAKER LANG="en-US">Lockwood</MAKER>
+          <MAKER LANG="fr-FR">Lockwood</MAKER>
+          <BODY LANG="en-US">Dream Central is the gateway to your dreams. A portal to all your favourite apartments and stunning locations across the Dream Universe.</BODY>
+		  <BODY LANG="fr-FR">Dream Central is the gateway to your dreams. A portal to all your favourite apartments and stunning locations across the Dream Universe.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+	<ITEM> <!-- peakvox labs -->
+	  <DESTINATION>J_Peakvox_Labs_7_EECC_66B8</DESTINATION>
+	</ITEM>
+	<ITEM> <!-- Edo Lounge -->
+	  <DESTINATION>Edo_Lounge_US_7169_6A1C</DESTINATION>
+	</ITEM>
+		<ITEM> <!-- Home Tycoon -->
+	        <TEXT LANG="en-US">Home Tycoon: Rising Revenues</TEXT>
+        <TEXT LANG="fr-FR">Home Tycoon: Rising Revenues</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/RisingRevenuesNav.png</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/RisingRevenuesNav.png</IMAGE>	
+        <DESTINATION>Grand_Central_9290_4055</DESTINATION>
+		        <DESCRIPTION>
+          <HEADER LANG="en-US">Home Tycoon: Rising Revenues</HEADER>
+          <HEADER LANG="fr-FR">Home Tycoon: Rising Revenues</HEADER>
+          <MAKER LANG="en-US">Hellfire</MAKER>
+          <MAKER LANG="fr-FR">Hellfire</MAKER>
+          <BODY LANG="en-US">Build your dream city for FREE, earn new rewards, unlock epic buildings, race with friends online, and play free missions in the new Home Tycoon: Rising Revenues expansion from Hellfire Games!"</BODY>
+		  <BODY LANG="fr-FR">Build your dream city for FREE, earn new rewards, unlock epic buildings, race with friends online, and play free missions in the new Home Tycoon: Rising Revenues expansion from Hellfire Games!"</BODY>
+        </DESCRIPTION>
+      </ITEM>	
+	<ITEM>
+	    <DESTINATION>Diesel_Museum_9E_CE44</DESTINATION>
+	  </ITEM>
+	 	<ITEM>
+	    <DESTINATION>casino_lobby_a30e_e9d0</DESTINATION>
+	  </ITEM>
+	<ITEM> <!-- x7 Entrance -->
+	  <DESTINATION>VIP_Lobby_2305_A445</DESTINATION>
+        <DESCRIPTION>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        </DESCRIPTION>
+	</ITEM>	 
+    <ITEM> <!-- New and Featured Items -->
+      <TEXT LANG="en-US">New &amp; Featured Items</TEXT>
+      <TEXT LANG="fr-FR">New &amp; Featured Items</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/NewFeatured320x176.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/NewFeatured320x176.dds</IMAGE>
+      <DESTINATION>/Home_Square/A/OneStopShop.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">New &amp; Featured Items</HEADER>
+        <HEADER LANG="fr-FR">New &amp; Featured Items</HEADER>
+        <BODY LANG="en-US">Check out the latest items in PlayStation®Home!</BODY>
+        <BODY LANG="fr-FR">Check out the latest items in PlayStation®Home!</BODY>
+      </DESCRIPTION>
+    </ITEM>
+  </CATEGORY>
+  <CATEGORY BGCOLOR="#000000"> <!-- Featured Games -->
+    <TEXT LANG="en-US">Featured Games</TEXT>
+    <TEXT LANG="fr-FR">Jeux en Vedette</TEXT>
+    <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Main_FeaturedGames_01.dds</IMAGE>
+    <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Main_FeaturedGames_01.dds</IMAGE>
+		<ITEM>
+	    <DESTINATION>Peakvox_Ninja_3_5BBD_9BBA</DESTINATION>
+	  </ITEM>
+	  <ITEM> <!-- Home Grown Laboratory -->
+	    <DESTINATION>HGL_Combat_Lobby_452D_9FF9</DESTINATION>
+	  </ITEM>	  
+	 	<ITEM>
+	    <DESTINATION>Xi2_Axiom_EBBE_26D4</DESTINATION>
+	  </ITEM> 
+	       <ITEM> <!-- Digital Leisure Casino -->
+        <DESTINATION>casino_lobby_a30e_e9d0</DESTINATION>
+      </ITEM> 
+	  	<ITEM>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Prairie_Navtile.png</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Prairie_Navtile.png</IMAGE>		
+	    <DESTINATION>Prairie_F15F_8129</DESTINATION>
+	  </ITEM>
+      <ITEM> <!-- Total Rekall -->
+        <TEXT LANG="en-US">Total Rekall</TEXT>
+        <TEXT LANG="fr-FR">Total Rekall</TEXT>
+        <DESTINATION>NoMansLand_TRLobby_9382_FE1A</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Total Rekall</HEADER>
+          <HEADER LANG="fr-FR">Total Rekall</HEADER>
+          <MAKER LANG="en-US">VEEMEE</MAKER>
+          <MAKER LANG="fr-FR">VEEMEE</MAKER>
+          <BODY LANG="en-US">Welcome to Rekall. Tell us your fantasy. We'll give you the memory.</BODY>
+		  <BODY LANG="fr-FR">Bienvenue sur Rekall. Racontez-nous votre fantaisie. Nous vous donnerons la mémoire.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+	  	<ITEM> <!-- The Midway 3 -->
+	  <DESTINATION>Midway_3_C664_E87B</DESTINATION>
+	</ITEM>
+		<ITEM> <!-- Cutthroats -->
+	  <DESTINATION>PiratesParadise_Lake_4DB1_E98A</DESTINATION>
+	</ITEM>
+    <ITEM> <!-- More Featured Games -->
+      <TEXT LANG="en-US">More Featured Games</TEXT>
+      <TEXT LANG="fr-FR">Plus de Jeux en Vedette</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sub_MoreGames_01.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sub_MoreGames_01.dds</IMAGE>
+
+      <ITEM> <!-- Assassin's Creed - Abstergo Labs -->
+        <TEXT LANG="en-US">Assassin's Creed - Abstergo Labs</TEXT>
+        <TEXT LANG="fr-FR">Assassin's Creed - Abstergo Labs</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Ubisoft_AssassinsCreed_Lab.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Ubisoft_AssassinsCreed_Lab.dds</IMAGE>
+        <DESTINATION>AC2_Lab_C277_EA79</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Assassin's Creed - Abstergo Labs</HEADER>
+          <HEADER LANG="fr-FR">Assassin's Creed - Abstergo Labs</HEADER>
+          <MAKER LANG="en-US">Ubisoft</MAKER>
+          <MAKER LANG="fr-FR">Ubisoft</MAKER>
+          <BODY LANG="en-US">Use your Eagle Vision to explore the Abstergo Animus Labs and discover hidden messages. Live through the Vendetta between the Templars and the Assassins in a unique twist on the Tower defense genre.</BODY>
+          <BODY LANG="fr-FR">Utilise la Vision de l’Aigle pour trouver les messages cachés chez Abstergo.  Revis la Vendetta entre Templiers et Assassins dans une adaptation unique du jeu de Tower Defense.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+
+	  <ITEM> <!-- BOOTLEGGERS -->
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Bootleggers_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Bootleggers_large.dds</IMAGE>
+	    <DESTINATION>SCEA_Bootleggers_8D03_9B2D</DESTINATION>
+	  </ITEM>
+      <ITEM> <!-- Bowling Alley -->
+        <TEXT LANG="en-US">Bowling Alley</TEXT>
+        <TEXT LANG="fr-FR">Bowling</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_BowlingAlley_Large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_BowlingAlley_Large.dds</IMAGE>
+        <DESTINATION>Game Space</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Bowling Alley</HEADER>
+          <HEADER LANG="fr-FR">Bowling</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">Have some fun and challenge other people at the exciting games on offer in the Bowling Alley.</BODY>
+          <BODY LANG="fr-FR">Amusez-vous et affrontez d'autres joueurs dans les jeux palpitants du bowling.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- Burn Zombie Burn -->
+        <TEXT LANG="en-US">Burn Zombie Burn</TEXT>
+        <TEXT LANG="fr-FR">Burn Zombie Burn</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/BurnZombieBurn_Large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/BurnZombieBurn_Large.dds</IMAGE>
+        <DESTINATION>SCEA_DoubleSix_Lobby_9E4C_323</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Burn Zombie Burn</HEADER>
+          <HEADER LANG="fr-FR">Burn Zombie Burn</HEADER>
+          <MAKER LANG="en-US">Kuju</MAKER>
+          <MAKER LANG="fr-FR">Kuju</MAKER>
+          <BODY LANG="en-US">Welcome to the Burn Zombie Burn graveyard -- laugh at our Zombies, watch our trailer.</BODY>
+          <BODY LANG="fr-FR">Bienvenue dans le cimetière de Burn Zombie Burn - regardez notre trailer, riez de nos zombies.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- Buzz!: HQ -->
+        <TEXT LANG="en-US">BUZZ!: HQ</TEXT>
+        <TEXT LANG="fr-FR">Buzz!: QG</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/BUZZHQ_Large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/BUZZHQ_Large.dds</IMAGE>
+        <DESTINATION>Buzz_Lobby_1655_6402</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">BUZZ!: HQ</HEADER>
+          <HEADER LANG="fr-FR">Buzz!: QG</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">Step off the red carpet into BUZZ!: HQ's plush waiting area before heading into the Studio for a game.</BODY>
+          <BODY LANG="fr-FR">Foulez le tapis rouge jusqu'à la somptueuse zone d'attente Buzz!: QG avant d'entrer dans le studio pour jouer.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- Cogs -->
+        <DESTINATION>Cogs_Space_FBE9_3420</DESTINATION>
+      </ITEM>	
+      <ITEM> <!-- Dead Nation -->
+        <TEXT LANG="en-US">Dead Nation</TEXT>
+        <TEXT LANG="fr-FR">Dead Nation</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/DeadNation_Nav.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/DeadNation_Nav.dds</IMAGE>
+        <DESTINATION>Dead_Nation_2_DD26_B0EE</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Dead Nation</HEADER>
+          <HEADER LANG="fr-FR">Dead Nation</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- Dragon's Green -->
+        <TEXT LANG="en-US">Dragon's Green</TEXT>
+        <TEXT LANG="fr-FR">Dragon's Green</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SubHeader_DragonsGreen.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SubHeader_DragonsGreen.dds</IMAGE>
+        <DESTINATION>SCEA_Outso_Arcade_3C7E_FB2B</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Dragon's Green</HEADER>
+          <HEADER LANG="fr-FR">Dragon's Green</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">Nine holes of fantasy mini-golf with four difficulty gauntlets. Challenge up to three friends and test your skills against dozens of enemy obstacles. Uncover secret challenges, unlock special rewards, and fulfill your destiny in the Dragon's Green.</BODY>
+          <BODY LANG="fr-FR">Démontrez votre habileté à travers ces 9 intensifs trous de mini-golf. Combattez les scarabées, insectes, plantes et les féroces crocodiles pour atteindre le but ultime et débarassez la terre du dragon mystique.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+	  	<ITEM>
+	    <DESTINATION>Emo_Ray_B4C9_ED5</DESTINATION>
+	  </ITEM>
+	  	  <ITEM> <!-- FUBAR -->
+	    <DESTINATION>Soldierville_142_8397</DESTINATION>
+	  </ITEM>
+	  <ITEM> <!-- Home Grown Laboratory -->
+	    <DESTINATION>HGL_Combat_Lobby_452D_9FF9</DESTINATION>
+	  </ITEM>	  
+	  <ITEM> <!-- Home Hold'em -->
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/scea_core_sports_PR_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/scea_core_sports_PR_large.dds</IMAGE>
+	    <DESTINATION>SCEA_Holdem_BC2A_C751</DESTINATION>
+	  </ITEM>
+      <ITEM> <!-- Hudson Gate -->
+        <TEXT LANG="en-US">Hudson Gate</TEXT>
+        <TEXT LANG="fr-FR">Arche d'Hudson</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SubHeader_Hudson.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SubHeader_Hudson.dds</IMAGE>
+        <DESTINATION>SCEA_HUDSON_Hudson_8980_F24F</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Hudson Gate</HEADER>
+          <HEADER LANG="fr-FR">Arche d'Hudson</HEADER>
+          <MAKER LANG="en-US">Hudson Entertainment, Inc.</MAKER>
+          <MAKER LANG="fr-FR">Hudson Entertainment, Inc.</MAKER>
+          <BODY LANG="en-US">The main hub that connects several virtual disks. There's a shop, relaxing waterfall, large theatre, and a place where virtual pet "Dolphies" race. Hudson Gate is the entrance to many new worlds.</BODY>
+          <BODY LANG="fr-FR">Une plateforme qui relie plusieurs disques virtuels. On y trouve une boutique, une salle de spectacle, une cascade apaisante et un parcours de course pour les Dolphies ! L'Arche d'Hudson mène à de nombreux nouveaux mondes.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+	  <ITEM> <!-- Indie Park -->
+	    <DESTINATION>IndiePark_US_6610_CC18</DESTINATION>
+	  </ITEM>
+      <ITEM> <!-- Konami Penthouse -->
+        <TEXT LANG="en-US">Konami Penthouse</TEXT>
+        <TEXT LANG="fr-FR">Penthouse Konami</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SubHeader_KonamiV2.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SubHeader_KonamiV2.dds</IMAGE>
+        <DESTINATION>Konami_Space_1A13_E5ED</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Konami Penthouse</HEADER>
+          <HEADER LANG="fr-FR">Penthouse Konami</HEADER>
+          <MAKER LANG="en-US">Konami</MAKER>
+          <MAKER LANG="fr-FR">Konami</MAKER>
+          <BODY LANG="en-US">Explore and interact with some of the biggest names in gaming history. Make friends at the Konami lounge before joining them on the interactive DDR dance floor. Visit the exhibition space and penthouse area to catch up with Konami releases - both new and classic.</BODY>
+          <BODY LANG="fr-FR">Explorez et entrez en contact avec les plus grands noms de l'histoire des jeux vidéos. Faites-vous des amis au bar Konami avant de les rejoindre sur la piste de danse interactive de DDR. Visitez l'espace d'exposition et le Penthouse pour vous tenir au courant des sorties Konami, nouvelles ou anciennes.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- LocoRoco - MuiMui Ship -->
+        <TEXT LANG="en-US">LocoRoco - MuiMui Ship</TEXT>
+        <TEXT LANG="fr-FR">Navire MuiMui</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/LocoRoco_MuiMuiShip.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/LocoRoco_MuiMuiShip.dds</IMAGE>
+        <DESTINATION>SCEJ_LocoRoco_Pub02_A4CF_8E3F</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">MuiMui Ship</HEADER>
+          <HEADER LANG="fr-FR">Navire MuiMui</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">This great passenger ship built by the MuiMui is presently moored at LocoIsland! Use the binoculars to check LocoIsland, and play LocoReverse with friends on the deck while enjoying the wonderful view. A surprise awaits those who communicate with LocoRoco characters!</BODY>
+          <BODY LANG="fr-FR">Ce grand paquebot construit par les MuiMui est actuellement amarré sur l'ile Loco! Utilise les jumelles pour examiner l'ile Loco, et joue à LocoInversion avec tes amis sur le pont tout en profitant de la superbe vue. Une surprise attend ceux qui communiquent avec les personnages de LocoRoco!</BODY>
+        </DESCRIPTION>
+      </ITEM>
+	  	  <ITEM> <!-- Mercia -->
+	    <DESTINATION>Mercia_Hub_64E4_C8</DESTINATION>
+	  </ITEM>
+      <ITEM> <!-- The Midway -->
+        <TEXT LANG="en-US">The Midway</TEXT>
+        <TEXT LANG="fr-FR">The Midway</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Midway.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Midway.dds</IMAGE>
+        <DESTINATION>SCEA_MMI_Midway_D11D_5547</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">The Midway</HEADER>
+          <HEADER LANG="fr-FR">The Midway</HEADER>
+          <MAKER LANG="en-US">Mass Media</MAKER>
+          <MAKER LANG="fr-FR">Mass Media</MAKER>
+          <BODY LANG="en-US">With 10 games, over a hundred rewards (including a personal space), and secrets hiding in every corner - the Midway Carnival provides one of the most epic gaming experiences in PlayStation®Home. Grab your tickets today!</BODY>
+          <BODY LANG="fr-FR">Des attractions folles truffées de jeux et de divertissement. Achète un billet, participe aux jeux et gagne des tonnes de lots ! Impressionne tes amis, ridiculise tes ennemis et amuse-toi ! Reçois un nouvel espace personnel délirant sur simple visite !</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- The Midway 2-->
+        <TEXT LANG="en-US">The Midway 2</TEXT>
+        <TEXT LANG="fr-FR">The Midway 2</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SubHeader_Midway2.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SubHeader_Midway2.dds</IMAGE>
+        <DESTINATION>Midway2_68D9_45B4</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">The Midway 2</HEADER>
+          <HEADER LANG="fr-FR">The Midway 2</HEADER>
+          <MAKER LANG="en-US">Mass Media</MAKER>
+          <MAKER LANG="fr-FR">Mass Media</MAKER>
+          <BODY LANG="en-US">A crazy carnival midway bursting with games and excitement. Buy a ticket, play some games, win tons of prizes! Impress your friends, disgrace your enemies, enjoy the show!</BODY>
+          <BODY LANG="fr-FR">Des attractions folles truffées de jeux et de divertissement. Achète un billet, participe aux jeux et gagne des tonnes de lots ! Impressionne tes amis, ridiculise tes ennemis et amuse-toi !</BODY>
+        </DESCRIPTION>
+      </ITEM>
+	  <ITEM> <!-- The Midway 3 -->
+	    <DESTINATION>Midway_3_C664_E87B</DESTINATION>
+	  </ITEM>
+      <ITEM> <!-- Novus Prime -->
+      <TEXT LANG="en-US">Novus Prime</TEXT>
+      <TEXT LANG="fr-FR">Novus Prime</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/NovusPrimeVindication_newRecommended.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/NovusPrimeVindication_newRecommended.dds</IMAGE>
+      <DESTINATION>Hellfire_Nebulon_ED3C_DE23</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Novus Prime</HEADER>
+        <HEADER LANG="fr-FR">Novus Prime</HEADER>
+        <MAKER LANG="en-US">Hellfire Games, Inc.</MAKER>
+        <MAKER LANG="fr-FR">Hellfire Games, Inc.</MAKER>
+        <BODY LANG="en-US">Earn tons of new rewards as you fight to save the Earth from an onslaught of intergalactic enemies! Report to the Novus Prime space station and team up with other players to face the enemy armada in live-action multiplayer space combat! Upgrade your ship, level up to new ranks, and Spacewalk in Zero-G to blast the parasitic Crawlers that threaten the space station.</BODY>
+        <BODY LANG="fr-FR">Earn tons of new rewards as you fight to save the Earth from an onslaught of intergalactic enemies! Report to the Novus Prime space station and team up with other players to face the enemy armada in live-action multiplayer space combat! Upgrade your ship, level up to new ranks, and Spacewalk in Zero-G to blast the parasitic Crawlers that threaten the space station.</BODY>
+      </DESCRIPTION>
+    </ITEM>	  
+	  <ITEM> <!-- RC RALLY -->
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_RCRally_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_RCRally_large.dds</IMAGE>
+	    <DESTINATION>RC_Racers_Sports_BD78_4E21</DESTINATION>
+	  </ITEM>
+      <ITEM> <!-- Resistance Station -->
+        <TEXT LANG="en-US">Resistance Station</TEXT>
+        <TEXT LANG="fr-FR">Gare Resistance</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/ResistanceStation_Large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/ResistanceStation_Large.dds</IMAGE>
+        <DESTINATION>Resistance2_Lobby_77F0_7D02</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Resistance Station</HEADER>
+          <HEADER LANG="fr-FR">Gare Resistance</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">A last bastion of hope for Nathan Hale and the Sentinels where you'll need to fend off the Chimerian aerial forces with your trusty Quad Barrel, quick repeating, AA ball-turret gun.</BODY>
+          <BODY LANG="fr-FR">Dernière lueur d'espoir pour Nathan Hale et les Sentinelles, vous devez vaincre les forces aériennes des Chimères avec votre tourelle quadri-canons ultra-rapide.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- Slap Happy Sam's Sideshow -->
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SlapHappy_NoText_Nav.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SlapHappy_NoText_Nav.dds</IMAGE>
+        <DESTINATION>Codename_DuelingGent_6D4E_B90A</DESTINATION>
+        <DESCRIPTION>
+          <MAKER LANG="en-US">Codename Games</MAKER>
+          <MAKER LANG="fr-FR">Codename Games</MAKER>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- Sodium Hub -->
+        <TEXT LANG="en-US">Sodium Hub</TEXT>
+        <TEXT LANG="fr-FR">Centre Sodium</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/v4.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/v4.dds</IMAGE>
+        <DESTINATION>Sodium_Demo_6C9B_2C7B</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Sodium Hub</HEADER>
+          <HEADER LANG="fr-FR">Centre Sodium</HEADER>
+          <MAKER LANG="en-US">Lockwood Publishing</MAKER>
+          <MAKER LANG="fr-FR">Lockwood Publishing</MAKER>
+          <BODY LANG="en-US">Sodium has arrived in your reality!  Welcome to the entertainment hub of the future--an ever-evolving world built around creativity and excitement.  Showcasing mini games, popular social activities, and addictive meta-gaming with community objectives -- there's something for everyone.</BODY>
+          <BODY LANG="fr-FR">Sodium fait son arrivée dans votre monde!  Bienvenue au cœur du divertissement du futur dans un monde en évolution constante construit sur la créativité et la joie.  Explorez les mini-jeux, les activités sociales populaires et un méta-jeu passionnant associé à des objectifs de communauté.  Il y en a pour tous les goûts.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- Sodium One -->
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SodiumOnePub_Nav.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SodiumOnePub_Nav.dds</IMAGE>
+        <DESTINATION>Sodium_SodiumOne_6831_16E6</DESTINATION>
+      </ITEM>
+      <ITEM> <!-- Sodium 2 -->
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sodium2_Nav_SCEA.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sodium2_Nav_SCEA.dds</IMAGE>
+        <DESTINATION>Sodium2_RTM_1476_98E4</DESTINATION>
+      </ITEM>
+      <ITEM> <!-- Southern Island Getaway -->
+        <DESTINATION>SCEA_Gran_Lagoon_1E70_EAEC</DESTINATION>
+      </ITEM>
+	  <ITEM> <!-- Street Fighter X Tekken -->
+	    <DESTINATION>SFXTTGI_SCEE_SCEAsia_A0AA_6B3D</DESTINATION>
+	  </ITEM>
+	  <ITEM> <!-- Uncharted 3 -->
+        <TEXT LANG="en-US">UNCHARTED™3 Fortune Hunter</TEXT>
+        <TEXT LANG="fr-FR">UNCHARTED™3 Fortune Hunter</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/UC3_FortuneHunter_Navigator320x176_Week1.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/UC3_FortuneHunter_Navigator320x176_Week1.dds</IMAGE>
+        <DESTINATION>Uncharted_3_24E4_875D</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">UNCHARTED™3 Fortune Hunter</HEADER>
+          <HEADER LANG="fr-FR">UNCHARTED™3 Fortune Hunter</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">Think you have what it takes to run around the mean streets of Yemen? Does escaping from a posse of gun blazing enemies sound like your typical Saturday night? Do you like “borrowing” valuable items that don’t necessarily belong to you? Does getting shot at sound like fun? Well if you answered yes to all of these questions, then you’re in luck! Play the PS®Home Fortune Hunter game now and put your skills to the test!</BODY>
+          <BODY LANG="fr-FR">Pensez-vous avoir ce qu'il faut pour courir autour de la moyenne des rues au Yémen? Est s'échappant d'une petite troupe de pistolet flamboyant ennemis ressembler votre samedi soir typique? Aimez-vous les "emprunter" des éléments précieux qui n'appartiennent pas nécessairement à vous? Est-faire tirer dessus sembler amusant? Eh bien, si vous avez répondu oui à toutes ces questions, alors vous avez de la chance! Jouez le jeu PS ® Home Fortune Hunter dès maintenant et mettez vos compétences à l'épreuve!</BODY>
+        </DESCRIPTION>
+      </ITEM>
+	        <ITEM> <!-- Uproar -->
+        <TEXT LANG="en-US">Uproar</TEXT>
+        <TEXT LANG="fr-FR">Uproar</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/uproar_nav_scea.jpg</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/uproar_nav_scea.jpg</IMAGE>
+        <DESTINATION>es_map_0001_831_29AE</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Uproar</HEADER>
+          <HEADER LANG="fr-FR">Uproar</HEADER>
+          <MAKER LANG="en-US">Lockwood</MAKER>
+          <MAKER LANG="fr-FR">Lockwood</MAKER>
+          <BODY LANG="en-US">Uproar is a frantic and fun third-person shooter with a wealth of customisation options. Play for FREE as the renowned Swyfts or the notorious Outlaws, battling it out in an intense, fast-paced, action-packed, PvP experience!</BODY>
+		  <BODY LANG="fr-FR">Uproar is a frantic and fun third-person shooter with a wealth of customisation options. Play for FREE as the renowned Swyfts or the notorious Outlaws, battling it out in an intense, fast-paced, action-packed, PvP experience!</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- WipEout -->
+        <TEXT LANG="en-US">WipEout®</TEXT>
+        <TEXT LANG="fr-FR">WipEout®</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Subheader_Wipeout.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Subheader_Wipeout.dds</IMAGE>
+        <DESTINATION>Wipeout_Space_CC7E_1A5</DESTINATION>
+        <DESCRIPTION>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        </DESCRIPTION>
+      </ITEM>
+	  <ITEM> <!-- Yetis vs Hunters -->
+	    <DESTINATION>Yeti_Vs_Hunters_2_7F78_3368</DESTINATION>
+	  </ITEM>
+    </ITEM>
+  </CATEGORY>
+  <CATEGORY BGCOLOR="#000000"> <!-- My Home -->
+    <TEXT LANG="en-US">My Home</TEXT>
+    <TEXT LANG="fr-FR">Ma page d'accueil</TEXT>
+    <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Main_MyHome_01.dds</IMAGE>
+    <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Main_MyHome_01.dds</IMAGE>
+    <ITEM> <!-- My Friends -->
+      <TEXT LANG="en-US">My Friends</TEXT>
+      <TEXT LANG="fr-FR">Amis dans Home</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sub_MyFriends_01.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sub_MyFriends_01.dds</IMAGE>
+      <FUNCTION>FriendsList</FUNCTION>
+    </ITEM>
+    <ITEM> <!-- My Spaces -->
+      <TEXT LANG="en-US">My Spaces</TEXT>
+      <TEXT LANG="fr-FR">Mon Espace Perso</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sub_MySpaces_01.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sub_MySpaces_01.dds</IMAGE>
+	  <ITEM>
+	    <FUNCTION>DefaultApartmentItem</FUNCTION>
+	  </ITEM>
+      <ITEM> <!-- Your Apartments -->
+      <TEXT LANG="en-US">My Spaces</TEXT>
+      <TEXT LANG="fr-FR">Mon Espace Perso</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sub_MySpaces_01.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sub_MySpaces_01.dds</IMAGE>
+        <FUNCTION>YourApartments</FUNCTION>
+      </ITEM>
+    </ITEM>
+    <ITEM> <!-- My Clubs -->
+      <TEXT LANG="en-US">My Clubs</TEXT>
+      <TEXT LANG="fr-FR">Mes Clubs</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sub_MyClubs_01.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sub_MyClubs_01.dds</IMAGE>
+      <FUNCTION>YourClubhouses</FUNCTION>
+    </ITEM>
+    <ITEM> <!-- My Favorites -->
+      <TEXT LANG="en-US">My Favorites</TEXT>
+      <TEXT LANG="fr-FR">Favoris</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sub_MyFavorites_01.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sub_MyFavorites_01.dds</IMAGE>
+      <FUNCTION>Favourites</FUNCTION>
+    </ITEM>
+    <ITEM> <!-- Recently Visited -->
+      <TEXT LANG="en-US">Recently Visited</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sub_RecentlyVisited_01.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sub_RecentlyVisited_01.dds</IMAGE>
+      <FUNCTION>RecentlyVisited</FUNCTION>
+    </ITEM>
+  </CATEGORY>
+  <CATEGORY BGCOLOR="#000000"> <!-- Theaters -->
+    <TEXT LANG="en-US">Theaters</TEXT>
+    <TEXT LANG="fr-FR">cinémas</TEXT>
+    <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Main_Theaters_01.dds</IMAGE>
+    <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Main_Theaters_01.dds</IMAGE>
+      <ITEM> <!-- Community Theater -->
+        <TEXT LANG="en-US">Theater 1</TEXT>
+        <TEXT LANG="fr-FR">Theater 1</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/CommunityTheatreNav_Thurs_062712.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/CommunityTheatreNav_Thurs_062712.dds</IMAGE>
+        <DESTINATION>SCEA_Theater_Aud1_CCC9_EF75</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Community Theater</HEADER>
+        <HEADER LANG="fr-FR">Community Theater</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        <BODY LANG="en-US">For the PlayStation®Home community, presented by GlassWalls. \n \n
+
+Updated weekly with fresh videos from the PlayStation community right to you. We are proudly partnered with: Gamer Indepth, Hip Hop Gamer, HomeCast, LittleBigPodcast, Luge Control, PS Nation, PSTALENT.COM, PSX Extreme, Replay with Doc, SOCAST, Urgent Fury.</BODY>
+        <BODY LANG="fr-FR">For the PlayStation®Home community, presented by GlassWalls. \n \n
+
+Updated weekly with fresh videos from the PlayStation community right to you. We are proudly partnered with: Gamer Indepth, Hip Hop Gamer, HomeCast, LittleBigPodcast, Luge Control, PS Nation, PSTALENT.COM, PSX Extreme, Replay with Doc, SOCAST, Urgent Fury.</BODY>
+      </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- Tester 3 -->
+        <TEXT LANG="en-US">Theater 2</TEXT>
+        <TEXT LANG="fr-FR">Theater 2</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Tester3_seasonmarathon_Home_320x176.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Tester3_seasonmarathon_Home_320x176.dds</IMAGE>
+        <DESTINATION>SCEA_Theater_Aud2_C34B_D383</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Tester 3</HEADER>
+        <HEADER LANG="fr-FR">Tester 3</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        <BODY LANG="en-US">Season 3 of The Tester™ features a cast of dedicated gamers competing in a series of physical and mental elimination challenges to win a job as a Production Associate at Sony's Santa Monica Studio, the creative force behind the God of War® series. An original reality series from the PlayStation® Network.</BODY>
+        <BODY LANG="fr-FR">Season 3 of The Tester™ features a cast of dedicated gamers competing in a series of physical and mental elimination challenges to win a job as a Production Associate at Sony's Santa Monica Studio, the creative force behind the God of War® series. An original reality series from the PlayStation® Network.</BODY>
+      </DESCRIPTION>
+      </ITEM>
+  	<ITEM> <!-- Loot Space Station -->
+        <TEXT LANG="en-US">Theater 3</TEXT>
+        <TEXT LANG="fr-FR">Theater 3</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/PublicSpace_NAVIGATORupdate_Mar_06_320x176.png</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/PublicSpace_NAVIGATORupdate_Mar_06_320x176.png</IMAGE>
+        <DESTINATION>LOOT_Public_Space_237E_1F7A</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Loot Space Station</HEADER>
+        <HEADER LANG="fr-FR">Loot Space Station</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        <BODY LANG="en-US">Grab FREE rewards from the new LOOT game FORSAKEN PLANET, as well as preview all the latest and greatest Home items from LOOT. Catch up on great movies and TV shows from CRACKLE, listen to amazing artists now playing on RADIOIO, grab a front row seat for awesome live events from all over the world made available from USTREAM and NASA TV, or watch the latest web shows from REVISION3. Enjoy full access to the EOD - Entertainment On Demand system. ALL FOR FREE!!! PLEASE READ:  Due to contractual and rights agreements, all content may not be available in all countries. Content availability is dependent on the geolocation of the device. CRACKLE content is only available in US, CA, UK, and AU. RADIOIO is only available in US and CA. Only one LOOT TV or LOOT Radio can be active at a time.</BODY>
+        <BODY LANG="fr-FR">Grab FREE rewards from the new LOOT game FORSAKEN PLANET, as well as preview all the latest and greatest Home items from LOOT. Catch up on great movies and TV shows from CRACKLE, listen to amazing artists now playing on RADIOIO, grab a front row seat for awesome live events from all over the world made available from USTREAM and NASA TV, or watch the latest web shows from REVISION3. Enjoy full access to the EOD - Entertainment On Demand system. ALL FOR FREE!!! PLEASE READ:  Due to contractual and rights agreements, all content may not be available in all countries. Content availability is dependent on the geolocation of the device. CRACKLE content is only available in US, CA, UK, and AU. RADIOIO is only available in US and CA. Only one LOOT TV or LOOT Radio can be active at a time.</BODY>
+      </DESCRIPTION>
+      </ITEM>   
+      <ITEM> <!-- Platinum'd -->
+        <TEXT LANG="en-US">Theater 4</TEXT>
+        <TEXT LANG="fr-FR">Theater 4</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Platinumd_NavigatorTile.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Platinumd_NavigatorTile.dds</IMAGE>
+        <DESTINATION>SCEA_Theater_Aud4_74D0_618</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Platinum'D</HEADER>
+        <HEADER LANG="fr-FR">Platinum'D</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        <!-- <BODY LANG="en-US">  </BODY> -->
+        <!-- <BODY LANG="fr-FR">  </BODY> -->
+      </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- PSN -->
+        <TEXT LANG="en-US">Theater 5</TEXT>
+        <TEXT LANG="fr-FR">Theater 5</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/PSBlog_Nav.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/PSBlog_Nav.dds</IMAGE>
+        <DESTINATION>SCEA_Theater_Aud5_F6B6_65EA</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Playstation.Blog</HEADER>
+        <HEADER LANG="fr-FR">Playstation.Blog</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        <BODY LANG="en-US">Playstation.Blog</BODY>
+        <BODY LANG="fr-FR">Playstation.Blog</BODY>
+      </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- Starhawk -->
+        <TEXT LANG="en-US">Theater 6</TEXT>
+        <TEXT LANG="fr-FR">Theater 6</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/StarHawkNavTile_050912.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/StarHawkNavTile_050912.dds</IMAGE>
+        <DESTINATION>SCEA_Theater_Aud6_EBB2_2FCF</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Starhawk</HEADER>
+        <HEADER LANG="fr-FR">Starhawk</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        <!-- <BODY LANG="en-US">  </BODY> -->
+        <!-- <BODY LANG="fr-FR">  </BODY> -->
+      </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- Theater Lobby -->
+        <TEXT LANG="en-US">Theater Lobby</TEXT>
+        <TEXT LANG="fr-FR">CINÉMA HOME</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Theater_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Theater_large.dds</IMAGE>
+        <DESTINATION>Cinema</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Theater Lobby</HEADER>
+          <HEADER LANG="fr-FR">CINÉMA HOME</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">Keep up with the latest new releases.  Watch game and movie trailers on six exclusive screens in the Home Cinema.</BODY>
+		  <BODY LANG="fr-FR">Tenez-vous au courant des dernières sorties. Visionnez des bandes-annonces de jeux et de films sur les dix écrans du cinéma Home.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+  </CATEGORY>
+  <CATEGORY BGCOLOR="#000000"> <!-- Shop -->
+    <TEXT LANG="en-US">Shop</TEXT>
+    <TEXT LANG="fr-FR">Boutique</TEXT>
+    <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Main_Shop_01.dds</IMAGE>
+    <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Main_Shop_01.dds</IMAGE>
+    <ITEM> <!-- New and Featured Items -->
+      <TEXT LANG="en-US">New &amp; Featured Items</TEXT>
+      <TEXT LANG="fr-FR">New &amp; Featured Items</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/NewFeatured320x176.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/NewFeatured320x176.dds</IMAGE>
+      <DESTINATION>/Home_Square/A/OneStopShop.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">New &amp; Featured Items</HEADER>
+        <HEADER LANG="fr-FR">New &amp; Featured Items</HEADER>
+        <BODY LANG="en-US">Check out the latest items in PlayStation®Home!</BODY>
+        <BODY LANG="fr-FR">Check out the latest items in PlayStation®Home!</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Threads -->
+      <TEXT LANG="en-US">Threads</TEXT>
+      <TEXT LANG="fr-FR">Threads</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Threads_Nav_new.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Threads_Nav_new.dds</IMAGE>
+      <DESTINATION>/MarketPlace/A/CPAThreads.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Threads</HEADER>
+        <HEADER LANG="fr-FR">Threads</HEADER>
+        <BODY LANG="en-US">Check out the latest clothing items for your Avatar in Threads!</BODY>
+        <BODY LANG="fr-FR">Check out the latest clothing items for your Avatar in Threads!</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Costumes -->
+      <TEXT LANG="en-US">Costumes</TEXT>
+      <TEXT LANG="fr-FR">Costumes</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/CostumesStore_Nav.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/CostumesStore_Nav.dds</IMAGE>
+      <DESTINATION>/MarketPlace/A/CPACostumes.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Costumes</HEADER>
+        <HEADER LANG="fr-FR">Costumes</HEADER>
+        <BODY LANG="en-US">Looking for something a bit unique, check out our Costume store!</BODY>
+        <BODY LANG="fr-FR">Looking for something a bit unique, check out our Costume store!</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Estates -->
+      <TEXT LANG="en-US">Estates</TEXT>
+      <TEXT LANG="fr-FR">Estates</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/CommerceHeader_Estates.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/CommerceHeader_Estates.dds</IMAGE>
+      <DESTINATION>/MarketPlace/A/CPAEstates.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Estates</HEADER>
+        <HEADER LANG="fr-FR">Estates</HEADER>
+        <BODY LANG="en-US">Estates offers only the finest personal spaces in Home.  </BODY>
+        <BODY LANG="fr-FR">Estates offers only the finest personal spaces in Home.  </BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Exclusives -->
+      <TEXT LANG="en-US">Exclusives</TEXT>
+      <TEXT LANG="fr-FR">Exclusives</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/NewExclusives2_Nav.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/NewExclusives2_Nav.dds</IMAGE>
+      <DESTINATION>/MarketPlace/A/CPAExclusives.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Exclusives</HEADER>
+        <HEADER LANG="fr-FR">Exclusives</HEADER>
+        <BODY LANG="en-US">Catering to an exclusive clientele, only the best can be found in our Exclusives store!</BODY>
+        <BODY LANG="fr-FR">Catering to an exclusive clientele, only the best can be found in our Exclusives store!</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Furniture -->
+      <TEXT LANG="en-US">Furniture</TEXT>
+      <TEXT LANG="fr-FR">Furniture</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/CommerceHeader_Furniture2.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/CommerceHeader_Furniture2.dds</IMAGE>
+      <DESTINATION>/MarketPlace/A/CPAFurniture.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Furniture</HEADER>
+        <HEADER LANG="fr-FR">Furniture</HEADER>
+        <BODY LANG="en-US">Need to decorate your new personal space to your own unique taste?  The Furniture store has just what you need.</BODY>
+        <BODY LANG="fr-FR">Need to decorate your new personal space to your own unique taste?  The Furniture store has just what you need.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Boosters -->
+      <TEXT LANG="en-US">Boosters</TEXT>
+      <TEXT LANG="fr-FR">Boosters</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/boosters.png</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/boosters.png</IMAGE>
+      <DESTINATION>/MarketPlace/A/CPABoosters.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Boosters</HEADER>
+        <HEADER LANG="fr-FR">Boosters</HEADER>
+        <BODY LANG="en-US">Zip around Home with a speedy new Booster!</BODY>
+        <BODY LANG="fr-FR">Zip around Home with a speedy new Booster!</BODY>
+      </DESCRIPTION>
+    </ITEM>		
+    <ITEM> <!-- Music Store -->
+      <TEXT LANG="en-US">Music Store</TEXT>
+      <TEXT LANG="fr-FR">Music Store</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/MusicStore_Nav.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/MusicStore_Nav.dds</IMAGE>
+      <DESTINATION>/SCEA_Marketplace3_F18D_3380/A/CPAMusic.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Music Store</HEADER>
+        <HEADER LANG="fr-FR">Music Store</HEADER>
+        <BODY LANG="en-US">Music Store</BODY>
+        <BODY LANG="fr-FR">Music Store</BODY>
+      </DESCRIPTION>
+    </ITEM>	
+    <ITEM> <!-- Games Store -->
+      <TEXT LANG="en-US">Games Store</TEXT>
+      <TEXT LANG="fr-FR">Games Store</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/GamesStore_Nav.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/GamesStore_Nav.dds</IMAGE>
+      <DESTINATION>/MarketPlace/A/CPAGames.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Games Store</HEADER>
+        <HEADER LANG="fr-FR">Games Store</HEADER>
+        <BODY LANG="en-US">Games Store</BODY>
+        <BODY LANG="fr-FR">Games Store</BODY>
+      </DESCRIPTION>
+    </ITEM>	
+    <ITEM> <!-- Sidekicks -->
+      <TEXT LANG="en-US">Sidekicks Store</TEXT>
+      <TEXT LANG="fr-FR">Sidekicks Store</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SidekicksStore_Nav.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SidekicksStore_Nav.dds</IMAGE>
+      <DESTINATION>/MarketPlace/A/CPASidekicks.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Sidekicks Store</HEADER>
+        <HEADER LANG="fr-FR">Sidekicks Store</HEADER>
+        <BODY LANG="en-US">Sidekicks Store</BODY>
+        <BODY LANG="fr-FR">Sidekicks Store</BODY>
+      </DESCRIPTION>
+    </ITEM>	
+    <ITEM> <!-- Lockwood / Sodium -->
+      <TEXT LANG="en-US">Lockwood / Sodium</TEXT>
+      <TEXT LANG="fr-FR">Lockwood / Sodium</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/CommerceHeader_Lockwood.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/CommerceHeader_Lockwood.dds</IMAGE>
+      <DESTINATION>/SCEA_Marketplace3_F18D_3380/A/CPALockwood.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Lockwood / Sodium</HEADER>
+        <HEADER LANG="fr-FR">Lockwood / Sodium</HEADER>
+        <BODY LANG="en-US">The latest items from Lockwood and Sodium are just a click away!</BODY>
+        <BODY LANG="fr-FR">The latest items from Lockwood and Sodium are just a click away!</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Granzella Store -->
+      <TEXT LANG="en-US">Granzella Store</TEXT>
+      <TEXT LANG="fr-FR">Granzella Store</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/GranzellaStoreNav.png</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/GranzellaStoreNav.png</IMAGE>
+      <DESTINATION>/SCEA_Gran_Lagoon_1E70_EAEC/A/CPALagoon00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Granzella</HEADER>
+        <HEADER LANG="fr-FR">Granzella</HEADER>
+        <BODY LANG="en-US">Check out on all the great offerings from Granzella!</BODY>
+        <BODY LANG="fr-FR">Check out on all the great offerings from Granzella</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Juggernaut Store -->
+      <TEXT LANG="en-US">Juggernaut Store</TEXT>
+      <TEXT LANG="fr-FR">Juggernaut Store</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/JuggernautStore_320x176.png</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/JuggernautStore_320x176.png</IMAGE>
+      <DESTINATION>/Palace_7_Winds_Apt_289_263E/A/CPAP7WINDS00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Juggernaut Store</HEADER>
+        <HEADER LANG="fr-FR">Juggernaut Store</HEADER>
+        <BODY LANG="en-US">Check out on all the great offerings from Juggernaut Games!</BODY>
+        <BODY LANG="fr-FR">Check out on all the great offerings from Juggernaut Games!</BODY>
+      </DESCRIPTION>
+    </ITEM>	
+    <ITEM> <!-- Hellfire Games -->
+      <TEXT LANG="en-US">Hellfire Games</TEXT>
+      <TEXT LANG="fr-FR">Hellfire Games</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/HellfireNavigator.png</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/HellfireNavigator.png</IMAGE>
+      <DESTINATION>/grand_central_9290_4055/A/CPAHOMETYCOON00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Hellfire Games</HEADER>
+        <HEADER LANG="fr-FR">Hellfire Games</HEADER>
+        <BODY LANG="en-US">Check out on all the great offerings from Hellfire Games!</BODY>
+        <BODY LANG="fr-FR">Check out on all the great offerings from Hellfire Games!</BODY>
+      </DESCRIPTION>
+    </ITEM>	
+    <ITEM> <!-- Loot Store -->
+      <TEXT LANG="en-US">Loot Store</TEXT>
+      <TEXT LANG="fr-FR">Loot Store</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/CommerceHeader_Loot.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/CommerceHeader_Loot.dds</IMAGE>
+      <DESTINATION>/SCEA_Marketplace3_F18D_3380/A/CPALoot.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Loot Store</HEADER>
+        <HEADER LANG="fr-FR">Loot Store</HEADER>
+        <BODY LANG="en-US">Unique personal spaces, clothing and furniture abound in the Loot store!</BODY>
+        <BODY LANG="fr-FR">Unique personal spaces, clothing and furniture abound in the Loot store!</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- KONAMI -->
+      <TEXT LANG="en-US">KONAMI</TEXT>
+      <TEXT LANG="fr-FR">KONAMI</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/KONAMI_red_320x176.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/KONAMI_red_320x176.dds</IMAGE>
+      <DESTINATION>/Konami_Space_1A13_E5ED/A/CPAKONAMIPH00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">KONAMI Store</HEADER>
+        <HEADER LANG="fr-FR">KONAMI Store</HEADER>
+        <BODY LANG="en-US">Konami virtual goods, game demos and downloadable games are available only at the Konami store in PlayStation®Home.</BODY>
+        <BODY LANG="fr-FR">Konami virtual goods, game demos and downloadable games are available only at the Konami store in PlayStation®Home.</BODY>
+      </DESCRIPTION>
+    </ITEM>	
+    <ITEM> <!-- nDreams -->
+      <TEXT LANG="en-US">nDreams Ltd.</TEXT>
+      <TEXT LANG="fr-FR">nDreams Ltd.</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/nDreams_Nav.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/nDreams_Nav.dds</IMAGE>
+      <DESTINATION>/SCEA_Marketplace3_F18D_3380/A/CPANDreams.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">nDreams Ltd. Store</HEADER>
+        <HEADER LANG="fr-FR">nDreams Ltd. Store</HEADER>
+        <BODY LANG="en-US">nDreams Ltd. Store</BODY>
+        <BODY LANG="fr-FR">nDreams Ltd. Store</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Heavy Water -->
+      <TEXT LANG="en-US">Heavy Water</TEXT>
+      <TEXT LANG="fr-FR">Heavy Water</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/HeavyWater_Nav.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/HeavyWater_Nav.dds</IMAGE>
+      <DESTINATION>/SCEA_Marketplace3_F18D_3380/A/CPAHeavyWater.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Heavy Water Store</HEADER>
+        <HEADER LANG="fr-FR">Heavy Water Store</HEADER>
+        <BODY LANG="en-US">Heavy Water Store</BODY>
+        <BODY LANG="fr-FR">Heavy Water Store</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- VEEMEE -->
+      <TEXT LANG="en-US">VEEMEE</TEXT>
+      <TEXT LANG="fr-FR">VEEMEE</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/VEEMEE_Nav.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/VEEMEE_Nav.dds</IMAGE>
+      <DESTINATION>/SCEA_Marketplace3_F18D_3380/A/CPAVeemee.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">VEEMEE Store</HEADER>
+        <HEADER LANG="fr-FR">VEEMEE Store</HEADER>
+        <BODY LANG="en-US">VEEMEE Store</BODY>
+        <BODY LANG="fr-FR">VEEMEE Store</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Billabong -->
+      <TEXT LANG="en-US">Billabong</TEXT>
+      <TEXT LANG="fr-FR">Billabong</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Billabong_Nav.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Billabong_Nav.dds</IMAGE>
+      <DESTINATION>/SCEA_Marketplace3_F18D_3380/A/CPABillabong.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Billabong Store</HEADER>
+        <HEADER LANG="fr-FR">Billabong Store</HEADER>
+        <BODY LANG="en-US">Billabong Store</BODY>
+        <BODY LANG="fr-FR">Billabong Store</BODY>
+      </DESCRIPTION>
+    </ITEM>		
+    <ITEM> <!-- Mall First Floor -->
+      <TEXT LANG="en-US">Mall 1st Floor</TEXT>
+      <TEXT LANG="fr-FR">Mall première étage</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Mall_Floor01_WW_large.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Mall_Floor01_WW_large.dds</IMAGE>
+      <DESTINATION>Marketplace</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Mall 1st Floor</HEADER>
+        <HEADER LANG="fr-FR">Mall première étage</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        <BODY LANG="en-US">Looking for something new? Check out the latest items available for purchase in the Mall.</BODY>
+        <BODY LANG="fr-FR">Vous cherchez quelque chose de nouveau? Jetez un œil aux articles nouvellement disponibles au centre commercial.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Mall Second Floor -->
+      <TEXT LANG="en-US">Mall 2nd Floor</TEXT>
+      <TEXT LANG="fr-FR">Mall deuxième étage</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Mall_Floor02_WW_large.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Mall_Floor02_WW_large.dds</IMAGE>
+      <DESTINATION>SCEA_Marketplace3_F18D_3380</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Mall 2nd Floor</HEADER>
+        <HEADER LANG="fr-FR">Mall deuxième étage</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        <BODY LANG="en-US">Looking for something new? Check out the latest items available for purchase in the Mall.</BODY>
+        <BODY LANG="fr-FR">Vous cherchez quelque chose de nouveau? Jetez un œil aux articles nouvellement disponibles au centre commercial.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+  </CATEGORY>
+  <CATEGORY BGCOLOR="#000000"> <!-- Explore -->
+    <TEXT LANG="en-US">Explore</TEXT>
+    <TEXT LANG="fr-FR">Explore</TEXT>
+    <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Main_Explorer1.dds</IMAGE>
+    <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Main_Explorer1.dds</IMAGE>
+	<ITEM> <!-- Core Spaces -->
+      <TEXT LANG="en-US">Core Spaces</TEXT>
+      <TEXT LANG="fr-FR">Ma page d'accueil</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sub_CoreDistricts_01.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sub_CoreDistricts_01.dds</IMAGE>
+	  <ITEM> <!-- The Hub -->
+        <TEXT LANG="en-US">The Hub</TEXT>
+        <TEXT LANG="fr-FR">Le Hub</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Hub_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Hub_large.dds</IMAGE>
+        <DESTINATION>Home Square</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">The Hub</HEADER>
+          <HEADER LANG="fr-FR">Le Hub</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">The Hub brings games directly to you with a featured game front-and-center, an Activity Board where you can engage in quests and community activities, shopping, and direct path to a wide world of games and entertainment!</BODY>
+          <BODY LANG="fr-FR">Le Hub apporte des jeux directement chez vous avec une vedette de jeu avant et centre, un conseil d'activité où l'on peut s'engager dans des quêtes et des activités communautaires, commerciaux, et le chemin direct à une vaste monde des jeux et du divertissement!</BODY>
+        </DESCRIPTION>
+      </ITEM>
+	  <ITEM> <!-- Sportswalk -->
+        <TEXT LANG="en-US">Sportswalk</TEXT>
+        <TEXT LANG="fr-FR">Sportswalk</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Sports_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Sports_large.dds</IMAGE>
+        <DESTINATION>SCEA_Sports_District_77D3_A934</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Sportswalk</HEADER>
+          <HEADER LANG="fr-FR">Sportswalk</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">The Sportswalk has an exciting outside-the-stadium feel with instant major league sports scores, headlines and highlights, and sports games!</BODY>
+          <BODY LANG="fr-FR">Le Sportswalk a une passionnante en dehors du stade, la convivialité avec des instantanés ligue sportive majeure scores, des titres et met en évidence, et les jeux de sport!</BODY>
+        </DESCRIPTION>
+      </ITEM>
+	  <ITEM> <!-- Action District -->
+        <TEXT LANG="en-US">Action District</TEXT>
+        <TEXT LANG="fr-FR">Action District</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Action_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Action_large.dds</IMAGE>
+        <DESTINATION>SCEA_Action_District_B0D_FF0B</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Action District</HEADER>
+          <HEADER LANG="fr-FR">Action District</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">A gathering place for the hardest of the hardcore, the Action District has a gritty, urban feel reminiscent of a first-person shooter level and provides you a travel point to action and horror games!</BODY>
+          <BODY LANG="fr-FR">L'Action District est le lieu de rassemblement des joueurs les plus exigeants. Il rappelle le niveau d'un jeu de tir à la première personne avec son atmosphère urbaine et permet d'accéder aux jeux d'action et d'horreur !</BODY>
+        </DESCRIPTION>
+      </ITEM>
+	  <ITEM> <!-- Pier Park -->
+        <TEXT LANG="en-US">Pier Park</TEXT>
+        <TEXT LANG="fr-FR">Pier Park</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_PlayPier_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_PlayPier_large.dds</IMAGE>
+        <DESTINATION>SCEA_Casual_District_7831_9753</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Pier Park</HEADER>
+          <HEADER LANG="fr-FR">Pier Park</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">A waterfront boardwalk leads players to carnival, puzzle, outdoor and arcade games. Take a ride on the Ferris Wheel or visit the Bowling Alley for even more games.</BODY>
+          <BODY LANG="fr-FR">Une promenade riveraine entraîne les joueurs au carnaval, puzzle, jeux de plein air et d'arcade. Faites un tour sur la Grande Roue ou visitez le bowling pour les jeux encore plus.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+	  <ITEM> <!-- Adventure District -->
+        <TEXT LANG="en-US">Adventure District</TEXT>
+        <TEXT LANG="fr-FR">Adventure District</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Adventure_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Adventure_large.dds</IMAGE>
+        <DESTINATION>SCEA_Advent_District_8BDB_69FE</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Adventure District</HEADER>
+          <HEADER LANG="fr-FR">Adventure District</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">A lush tropical island full of mystery, hidden treasure and discovery, the Adventure District hosts games and content custom-tailored for the most adventurous players.</BODY>
+          <BODY LANG="fr-FR">L'Adventure District, île tropicale remplie de mystères, de trésors cachés et de découvertes, propose des mini-jeux et du contenu spécialement pensés pour les joueurs les plus aventureux !</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- Mall First Floor -->
+        <TEXT LANG="en-US">Mall 1st Floor</TEXT>
+        <TEXT LANG="fr-FR">Mall première étage</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Mall_Floor01_WW_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Mall_Floor01_WW_large.dds</IMAGE>
+        <DESTINATION>Marketplace</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Mall 1st Floor</HEADER>
+          <HEADER LANG="fr-FR">Mall première étage</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">Looking for something new? Check out the latest items available for purchase in the Mall.</BODY>
+          <BODY LANG="fr-FR">Vous cherchez quelque chose de nouveau? Jetez un œil aux articles nouvellement disponibles au centre commercial.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- Mall Second Floor -->
+        <TEXT LANG="en-US">Mall 2nd Floor</TEXT>
+        <TEXT LANG="fr-FR">Mall deuxième étage</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Mall_Floor02_WW_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Mall_Floor02_WW_large.dds</IMAGE>
+        <DESTINATION>SCEA_Marketplace3_F18D_3380</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Mall 2nd Floor</HEADER>
+          <HEADER LANG="fr-FR">Mall deuxième étage</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">Looking for something new? Check out the latest items available for purchase in the Mall.</BODY>
+          <BODY LANG="fr-FR">Vous cherchez quelque chose de nouveau? Jetez un œil aux articles nouvellement disponibles au centre commercial.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- Theater Lobby -->
+        <TEXT LANG="en-US">Theater Lobby</TEXT>
+        <TEXT LANG="fr-FR">CINÉMA HOME</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Theater_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Theater_large.dds</IMAGE>
+        <DESTINATION>Cinema</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Theater Lobby</HEADER>
+          <HEADER LANG="fr-FR">CINÉMA HOME</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">Keep up with the latest new releases.  Watch game and movie trailers on six exclusive screens in the Home Cinema.</BODY>
+		  <BODY LANG="fr-FR">Tenez-vous au courant des dernières sorties. Visionnez des bandes-annonces de jeux et de films sur les dix écrans du cinéma Home.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+	</ITEM>
+    <ITEM> <!-- Recently Updated -->
+      <TEXT LANG="en-US">Recently Updated</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sub_RecentlyUpdated_01.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sub_RecentlyUpdated_01.dds</IMAGE>
+	<ITEM> <!-- Cutthroats -->
+	  <DESTINATION>PiratesParadise_Lake_4DB1_E98A</DESTINATION>
+	</ITEM>
+    <ITEM> <!-- Southern Island Getaway -->
+      <DESTINATION>SCEA_Gran_Lagoon_1E70_EAEC</DESTINATION>
+    </ITEM>	
+      <ITEM> <!-- Digital Leisure Casino -->
+        <DESTINATION>casino_lobby_a30e_e9d0</DESTINATION>
+      </ITEM>
+	  <ITEM> <!-- No Man's Land -->
+	    <DESTINATION>NoMansLand_Lobby_9B47_E5F2</DESTINATION>
+		<IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/NML_NavigatorThumbnail_Final_320x176.dds</IMAGE>
+		<IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/NML_NavigatorThumbnail_Final_320x176.dds</IMAGE>
+	  </ITEM>
+	<ITEM> <!-- Edo Lounge -->
+	  <DESTINATION>Edo_Lounge_US_7169_6A1C</DESTINATION>
+	</ITEM>
+      <ITEM> <!-- Mall First Floor -->
+        <TEXT LANG="en-US">Mall 1st Floor</TEXT>
+        <TEXT LANG="fr-FR">Mall première étage</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Mall_Floor01_WW_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Mall_Floor01_WW_large.dds</IMAGE>
+        <DESTINATION>Marketplace</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Mall 1st Floor</HEADER>
+          <HEADER LANG="fr-FR">Mall première étage</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">Looking for something new? Check out the latest items available for purchase in the Mall.</BODY>
+          <BODY LANG="fr-FR">Vous cherchez quelque chose de nouveau? Jetez un œil aux articles nouvellement disponibles au centre commercial.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM> <!-- Mall Second Floor -->
+        <TEXT LANG="en-US">Mall 2nd Floor</TEXT>
+        <TEXT LANG="fr-FR">Mall deuxième étage</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Mall_Floor02_WW_large.dds</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Core_Mall_Floor02_WW_large.dds</IMAGE>
+        <DESTINATION>SCEA_Marketplace3_F18D_3380</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Mall 2nd Floor</HEADER>
+          <HEADER LANG="fr-FR">Mall deuxième étage</HEADER>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+          <BODY LANG="en-US">Looking for something new? Check out the latest items available for purchase in the Mall.</BODY>
+          <BODY LANG="fr-FR">Vous cherchez quelque chose de nouveau? Jetez un œil aux articles nouvellement disponibles au centre commercial.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+    </ITEM>
+
+    <ITEM> <!-- Assassin's Creed - Abstergo Labs -->
+      <TEXT LANG="en-US">Assassin's Creed - Abstergo Labs</TEXT>
+      <TEXT LANG="fr-FR">Assassin's Creed - Abstergo Labs</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Ubisoft_AssassinsCreed_Lab.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Ubisoft_AssassinsCreed_Lab.dds</IMAGE>
+      <DESTINATION>AC2_Lab_C277_EA79</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Assassin's Creed - Abstergo Labs</HEADER>
+        <HEADER LANG="fr-FR">Assassin's Creed - Abstergo Labs</HEADER>
+        <MAKER LANG="en-US">Ubisoft</MAKER>
+        <MAKER LANG="fr-FR">Ubisoft</MAKER>
+        <BODY LANG="en-US">Use your Eagle Vision to explore the Abstergo Animus Labs and discover hidden messages. Live through the Vendetta between the Templars and the Assassins in a unique twist on the Tower defense genre.</BODY>
+        <BODY LANG="fr-FR">Utilise la Vision de l’Aigle pour trouver les messages cachés chez Abstergo.  Revis la Vendetta entre Templiers et Assassins dans une adaptation unique du jeu de Tower Defense.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Aurora -->
+      <DESTINATION>Aurora_Non_SCEJ_568D_1E32</DESTINATION>
+      <DESCRIPTION>
+        <MAKER LANG="en-US">nDreams Ltd.</MAKER>
+        <MAKER LANG="fr-FR">nDreams Ltd.</MAKER>
+      </DESCRIPTION>
+    </ITEM>
+	<ITEM> <!-- BOOTLEGGERS -->
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Bootleggers_large.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_Bootleggers_large.dds</IMAGE>
+	  <DESTINATION>SCEA_Bootleggers_8D03_9B2D</DESTINATION>
+	</ITEM>
+    <ITEM> <!-- Bowling Alley -->
+      <TEXT LANG="en-US">Bowling Alley</TEXT>
+      <TEXT LANG="fr-FR">Bowling</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_BowlingAlley_Large.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_BowlingAlley_Large.dds</IMAGE>
+      <DESTINATION>Game Space</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Bowling Alley</HEADER>
+        <HEADER LANG="fr-FR">Bowling</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        <BODY LANG="en-US">Have some fun and challenge other people at the exciting games on offer in the Bowling Alley.</BODY>
+        <BODY LANG="fr-FR">Amusez-vous et affrontez d'autres joueurs dans les jeux palpitants du bowling.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Burn Zombie Burn -->
+      <TEXT LANG="en-US">Burn Zombie Burn</TEXT>
+      <TEXT LANG="fr-FR">Burn Zombie Burn</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/BurnZombieBurn_Large.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/BurnZombieBurn_Large.dds</IMAGE>
+      <DESTINATION>SCEA_DoubleSix_Lobby_9E4C_323</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Burn Zombie Burn</HEADER>
+        <HEADER LANG="fr-FR">Burn Zombie Burn</HEADER>
+        <MAKER LANG="en-US">Kuju</MAKER>
+        <MAKER LANG="fr-FR">Kuju</MAKER>
+        <BODY LANG="en-US">Welcome to the Burn Zombie Burn graveyard -- laugh at our Zombies, watch our trailer.</BODY>
+        <BODY LANG="fr-FR">Bienvenue dans le cimetière de Burn Zombie Burn - regardez notre trailer, riez de nos zombies.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- BUZZ!: HQ -->
+      <TEXT LANG="en-US">BUZZ!: HQ</TEXT>
+      <TEXT LANG="fr-FR">Buzz!: QG</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/BUZZHQ_Large.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/BUZZHQ_Large.dds</IMAGE>
+      <DESTINATION>Buzz_Lobby_1655_6402</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">BUZZ!: HQ</HEADER>
+        <HEADER LANG="fr-FR">Buzz!: QG</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        <BODY LANG="en-US">Step off the red carpet into BUZZ!: HQ's plush waiting area before heading into the Studio for a game.</BODY>
+        <BODY LANG="fr-FR">Foulez le tapis rouge jusqu'à la somptueuse zone d'attente Buzz!: QG avant d'entrer dans le studio pour jouer.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+	  <ITEM>
+	    <DESTINATION>Heavy_Water_CF4D_EA19</DESTINATION>
+	  </ITEM>
+	  	<ITEM>
+	    <DESTINATION>Diesel_Museum_9E_CE44</DESTINATION>
+	  </ITEM>
+    <ITEM> <!-- Digital Leisure Casino -->
+      <DESTINATION>casino_lobby_a30e_e9d0</DESTINATION>
+    </ITEM>	
+    <ITEM> <!-- Cogs -->
+      <DESTINATION>Cogs_Space_FBE9_3420</DESTINATION>
+    </ITEM>
+	<ITEM> <!-- Cutthroats -->
+	  <DESTINATION>PiratesParadise_Lake_4DB1_E98A</DESTINATION>
+	</ITEM>
+    <ITEM> <!-- Dead Nation -->
+      <TEXT LANG="en-US">Dead Nation</TEXT>
+      <TEXT LANG="fr-FR">Dead Nation</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/DeadNation_Nav.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/DeadNation_Nav.dds</IMAGE>
+      <DESTINATION>Dead_Nation_2_DD26_B0EE</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Dead Nation</HEADER>
+        <HEADER LANG="fr-FR">Dead Nation</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Disgaea 4 Lounge -->
+      <TEXT LANG="en-US">Disgaea 4 Lounge</TEXT>
+      <TEXT LANG="fr-FR">Disgaea 4 Lounge</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Disgaea4_nav.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Disgaea4_nav.dds</IMAGE>
+      <DESTINATION>SCEA_Evil_Academy_4A56_16C0</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Disgaea 4 Lounge</HEADER>
+        <HEADER LANG="fr-FR">Disgaea 4 Lounge</HEADER>
+        <MAKER LANG="en-US">NIS America, Inc.</MAKER>
+        <MAKER LANG="fr-FR">NIS America, Inc.</MAKER>
+        <BODY LANG="en-US">A HOME lounge themed off Disgaea 4's world. People can hang out here to play mini-games and watch trailers.</BODY>
+        <BODY LANG="fr-FR">A HOME lounge themed off Disgaea 4's world. People can hang out here to play mini-games and watch trailers.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Dragon's Green -->
+      <TEXT LANG="en-US">Dragon's Green</TEXT>
+      <TEXT LANG="fr-FR">Dragon's Green</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SubHeader_DragonsGreen.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SubHeader_DragonsGreen.dds</IMAGE>
+      <DESTINATION>SCEA_Outso_Arcade_3C7E_FB2B</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Dragon's Green</HEADER>
+        <HEADER LANG="fr-FR">Dragon's Green</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        <BODY LANG="en-US">Nine holes of fantasy mini-golf with four difficulty gauntlets. Challenge up to three friends and test your skills against dozens of enemy obstacles. Uncover secret challenges, unlock special rewards, and fulfill your destiny in the Dragon's Green.</BODY>
+        <BODY LANG="fr-FR">Démontrez votre habileté à travers ces 9 intensifs trous de mini-golf. Combattez les scarabées, insectes, plantes et les féroces crocodiles pour atteindre le but ultime et débarassez la terre du dragon mystique.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+	<ITEM> <!-- Dust 514 -->
+	  <DESTINATION>Dust514_Warbarge_84CA_57A</DESTINATION>
+	  <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/DUST514_WhatsNewNavigator_NA_052812_320x176.dds</IMAGE>
+	  <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/DUST514_WhatsNewNavigator_NA_052812_320x176.dds</IMAGE>
+	</ITEM>
+	<ITEM> <!-- Edo Lounge -->
+	  <DESTINATION>Edo_Lounge_US_7169_6A1C</DESTINATION>
+	</ITEM>
+	<ITEM>
+	    <DESTINATION>Emo_Ray_B4C9_ED5</DESTINATION>
+	  </ITEM>
+	  <ITEM> <!-- FUBAR -->
+	    <DESTINATION>Soldierville_142_8397</DESTINATION>
+	  </ITEM>	  
+    <ITEM> <!-- The Godfather II -->
+      <TEXT LANG="en-US">The Godfather II</TEXT>
+      <TEXT LANG="fr-FR">Le Parrain II, Casino Havana</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/EA_Godfather2.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/EA_Godfather2.dds</IMAGE>
+      <DESTINATION>Godfather_2_Casino_25F0_D814</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">The Godfather II</HEADER>
+        <HEADER LANG="fr-FR">Le Parrain II, Casino Havana</HEADER>
+        <MAKER LANG="en-US">EA</MAKER>
+        <MAKER LANG="fr-FR">EA</MAKER>
+        <BODY LANG="en-US">Welcome to The Godfather II, Casino Havana poker room.  Enjoy a game No Limit Texas Hold'em Poker and be sure to check out our promotional video and concept art.</BODY>
+        <BODY LANG="fr-FR">Bienvenue dans la salle de poker du jeu le Parrain II, Casino Havana.  Faites une partie de poker Texas Hold'em no limit et jetez un coup d'œil à nos visuels et à notre video promotionelle.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+	<ITEM>
+	    <DESTINATION>Avalon_30A5_6B4F</DESTINATION>
+	  </ITEM>	
+      <ITEM> <!-- Home Tycoon -->
+        <DESTINATION>Grand_Central_9290_4055</DESTINATION>
+      </ITEM>
+	<ITEM>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Prairie_Navtile.png</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Prairie_Navtile.png</IMAGE>		
+	    <DESTINATION>Prairie_F15F_8129</DESTINATION>
+	  </ITEM>	  
+    <ITEM> <!-- Hudson Gate -->
+      <TEXT LANG="en-US">Hudson Gate</TEXT>
+      <TEXT LANG="fr-FR">Arche d'Hudson</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SubHeader_Hudson.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SubHeader_Hudson.dds</IMAGE>
+      <DESTINATION>SCEA_HUDSON_Hudson_8980_F24F</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Hudson Gate</HEADER>
+        <HEADER LANG="fr-FR">Arche d'Hudson</HEADER>
+        <MAKER LANG="en-US">Hudson Entertainment, Inc.</MAKER>
+        <MAKER LANG="fr-FR">Hudson Entertainment, Inc.</MAKER>
+        <BODY LANG="en-US">The main hub that connects several virtual disks. There's a shop, relaxing waterfall, large theatre, and a place where virtual pet "Dolphies" race. Hudson Gate is the entrance to many new worlds.</BODY>
+        <BODY LANG="fr-FR">Une plateforme qui relie plusieurs disques virtuels. On y trouve une boutique, une salle de spectacle, une cascade apaisante et un parcours de course pour les Dolphies ! L'Arche d'Hudson mène à de nombreux nouveaux mondes.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Bomberman -->
+      <TEXT LANG="en-US">Bomberman</TEXT>
+      <TEXT LANG="fr-FR">Bomberman</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/BomDome_176.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/BomDome_176.dds</IMAGE>
+      <DESTINATION>SCEA_HUDSONBomberman_29CB_B88D</DESTINATION>
+      <DESCRIPTION>
+        <MAKER LANG="en-US">Hudson Entertainment, Inc.</MAKER>
+        <MAKER LANG="fr-FR">Hudson Entertainment, Inc.</MAKER>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Hudson Theater -->
+      <TEXT LANG="en-US">Hudson Theater</TEXT>
+      <TEXT LANG="fr-FR">Hudson Theater</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/HudsonTheater_Nav.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/HudsonTheater_Nav.dds</IMAGE>
+      <DESTINATION>SCEA_Hudson_Theatre_BBF_7960</DESTINATION>
+      <DESCRIPTION>
+        <MAKER LANG="en-US">Hudson Entertainment, Inc.</MAKER>
+        <MAKER LANG="fr-FR">Hudson Entertainment, Inc.</MAKER>
+      </DESCRIPTION>
+    </ITEM>
+	<ITEM> <!-- Indie Park -->
+	  <DESTINATION>IndiePark_US_6610_CC18</DESTINATION>
+	</ITEM>
+    <ITEM> <!-- Journey -->
+      <DESTINATION>Journey_2E32_65F3</DESTINATION>
+    </ITEM>	
+    <ITEM> <!-- Konami Penthouse -->
+      <TEXT LANG="en-US">Konami Penthouse</TEXT>
+      <TEXT LANG="fr-FR">Penthouse Konami</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SubHeader_KonamiV2.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SubHeader_KonamiV2.dds</IMAGE>
+      <DESTINATION>Konami_Space_1A13_E5ED</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Konami Penthouse</HEADER>
+        <HEADER LANG="fr-FR">Penthouse Konami</HEADER>
+        <MAKER LANG="en-US">Konami</MAKER>
+        <MAKER LANG="fr-FR">Konami</MAKER>
+        <BODY LANG="en-US">Explore and interact with some of the biggest names in gaming history. Make friends at the Konami lounge before joining them on the interactive DDR dance floor. Visit the exhibition space and penthouse area to catch up with Konami releases - both new and classic.</BODY>
+        <BODY LANG="fr-FR">Explorez et entrez en contact avec les plus grands noms de l'histoire des jeux vidéos. Faites-vous des amis au bar Konami avant de les rejoindre sur la piste de danse interactive de DDR. Visitez l'espace d'exposition et le Penthouse pour vous tenir au courant des sorties Konami, nouvelles ou anciennes.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- LittleBigPlanet Playground -->
+      <TEXT LANG="en-US">LittleBigPlanet™ Playground</TEXT>
+      <TEXT LANG="fr-FR">Terrain de jeu LittleBigPlanet™</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/littlebigplanet_scea.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/littlebigplanet_scea.dds</IMAGE>
+      <DESTINATION>SCEE_LBP_Hub_4C7A_664F</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">LittleBigPlanet™ Playground</HEADER>
+        <HEADER LANG="fr-FR">Terrain de jeu LittleBigPlanet™</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment </MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment </MAKER>
+        <BODY LANG="en-US">Welcome to the LittleBigPlanet™ Playground, a manifested embodiment of everyone’s favourite dream world, and a playground of adventure and possibilities. We do hope you enjoy your stay!</BODY>
+        <BODY LANG="fr-FR">Bienvenue dans le terrain de jeu LittleBigPlanet™, véritable incarnation du monde onirique préféré de tous et terrain de jeu riche en aventures. Nous espérons que vous passerez un agréable séjour!</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Lockwood Gift Shop -->
+      <DESTINATION>Lockwood_Gift_Shop_6D1C_FAE4</DESTINATION>
+    </ITEM>	
+    <ITEM> <!-- Lockwood Showcase -->
+      <DESTINATION>Lockwood_Showcase_6663_C388</DESTINATION>
+    </ITEM>
+    <ITEM> <!-- LocoRoco - MuiMui Ship -->
+      <TEXT LANG="en-US">LocoRoco - MuiMui Ship</TEXT>
+      <TEXT LANG="fr-FR">Navire MuiMui</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/LocoRoco_MuiMuiShip.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/LocoRoco_MuiMuiShip.dds</IMAGE>
+      <DESTINATION>SCEJ_LocoRoco_Pub02_A4CF_8E3F</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">MuiMui Ship</HEADER>
+        <HEADER LANG="fr-FR">Navire MuiMui</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        <BODY LANG="en-US">This great passenger ship built by the MuiMui is presently moored at LocoIsland! Use the binoculars to check LocoIsland, and play LocoReverse with friends on the deck while enjoying the wonderful view. A surprise awaits those who communicate with LocoRoco characters!</BODY>
+        <BODY LANG="fr-FR">Ce grand paquebot construit par les MuiMui est actuellement amarré sur l'ile Loco! Utilise les jumelles pour examiner l'ile Loco, et joue à LocoInversion avec tes amis sur le pont tout en profitant de la superbe vue. Une surprise attend ceux qui communiquent avec les personnages de LocoRoco!</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Loot Space Station Theater -->
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/LootPubSpace_Nav.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/LootPubSpace_Nav.dds</IMAGE>
+      <DESTINATION>LOOT_Public_Space_237E_1F7A</DESTINATION>
+    </ITEM>
+	<ITEM> <!-- Loot Space Apartment -->
+	  <DESTINATION>Space_Promo_8F39_7D3D</DESTINATION>
+	</ITEM>
+	<ITEM> <!-- Loot Stage Set Open House -->
+	  <DESTINATION>ModstageSet_Promo_FBC6_7926</DESTINATION>
+	  <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Open_House_SoundStage3_320x176.dds</IMAGE>
+	  <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Open_House_SoundStage3_320x176.dds</IMAGE>
+	</ITEM>
+    <ITEM> <!-- LucasArts Cantina -->
+      <TEXT LANG="en-US">The LucasArts Star Wars™ Cantina</TEXT>
+      <TEXT LANG="fr-FR">La cantina de LucasArts Star Wars™</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/LucasArts_Cantina.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/LucasArts_Cantina.dds</IMAGE>
+      <DESTINATION>Virtuos_Cantina_C7B_4487</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">The LucasArts Star Wars™ Cantina</HEADER>
+        <HEADER LANG="fr-FR">La cantina de LucasArts Star Wars™</HEADER>
+        <MAKER LANG="en-US">LucasArts</MAKER>
+        <MAKER LANG="fr-FR">LucasArts</MAKER>
+        <BODY LANG="en-US">You will never find a more wretched hive of scum and villainy. Be cautious and watch your step in the LucasArts Star Wars Cantina! Meet fellow Star Wars fans, get cool new gear for your avatar and obtain the latest details on LucasArts releases.</BODY>
+        <BODY LANG="fr-FR">Vous ne trouverez jamais une ruche plus misérable remplie de rebut et de vilénie. Faites attention où vous mettez les pieds dans la cantina de LucasArts Star Wars ! Rejoignez les fans de Star Wars, et jouez au tout premier Holoéchecs Dejarik numérique, obtenez de nouveaux gadgets cool pour votre avatar, et restez au courant des derniers détails sur les sorties de LucasArts.
+
+         </BODY>
+      </DESCRIPTION>
+    </ITEM>
+	<ITEM> <!-- Mercia -->
+	  <DESTINATION>Mercia_Hub_64E4_C8</DESTINATION>
+	</ITEM>
+	<ITEM> <!-- MIB Headquarters -->
+	  <DESTINATION>MIB_Lobby_6389_3BE0</DESTINATION>
+	</ITEM>
+	<ITEM> <!-- Midnight Glade -->
+	  <DESTINATION>Midnight_Glade_E5E9_7799</DESTINATION>
+	</ITEM>
+	<ITEM> <!-- Midway Hot Zone -->
+	  <DESTINATION>Hot_Spot_Lobby_2250_B5EF</DESTINATION>
+	</ITEM>
+    <ITEM> <!-- The Midway -->
+      <TEXT LANG="en-US">The Midway</TEXT>
+      <TEXT LANG="fr-FR">The Midway</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Midway.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Midway.dds</IMAGE>
+      <DESTINATION>SCEA_MMI_Midway_D11D_5547</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">The Midway</HEADER>
+        <HEADER LANG="fr-FR">The Midway</HEADER>
+        <MAKER LANG="en-US">Mass Media</MAKER>
+        <MAKER LANG="fr-FR">Mass Media</MAKER>
+        <BODY LANG="en-US">With 10 games, over a hundred rewards (including a personal space), and secrets hiding in every corner - the Midway Carnival provides one of the most epic gaming experiences in PlayStation®Home. Grab your tickets today!</BODY>
+        <BODY LANG="fr-FR">Des attractions folles truffées de jeux et de divertissement. Achète un billet, participe aux jeux et gagne des tonnes de lots ! Impressionne tes amis, ridiculise tes ennemis et amuse-toi ! Reçois un nouvel espace personnel délirant sur simple visite !</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- The Midway 2 -->
+      <TEXT LANG="en-US">The Midway 2</TEXT>
+      <TEXT LANG="fr-FR">The Midway 2</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SubHeader_Midway2.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SubHeader_Midway2.dds</IMAGE>
+      <DESTINATION>Midway2_68D9_45B4</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">The Midway 2</HEADER>
+        <HEADER LANG="fr-FR">The Midway 2</HEADER>
+        <MAKER LANG="en-US">Mass Media</MAKER>
+        <MAKER LANG="fr-FR">Mass Media</MAKER>
+        <BODY LANG="en-US">A crazy carnival midway bursting with games and excitement. Buy a ticket, play some games, win tons of prizes! Impress your friends, disgrace your enemies, enjoy the show!</BODY>
+        <BODY LANG="fr-FR">Des attractions folles truffées de jeux et de divertissement. Achète un billet, participe aux jeux et gagne des tonnes de lots ! Impressionne tes amis, ridiculise tes ennemis et amuse-toi !</BODY>
+      </DESCRIPTION>
+    </ITEM>
+	<ITEM> <!-- The Midway 3 -->
+	  <DESTINATION>Midway_3_C664_E87B</DESTINATION>
+	</ITEM>
+    <ITEM> <!-- MotorStorm: Carrier -->
+      <TEXT LANG="en-US">MotorStorm: Carrier</TEXT>
+      <TEXT LANG="fr-FR">Transporteur MotorStorm</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/MotorStorm_Carrier.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/MotorStorm_Carrier.dds</IMAGE>
+      <DESTINATION>SCEE_MS_Carrier_B6D5_23B8</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">MotorStorm: Carrier</HEADER>
+        <HEADER LANG="fr-FR">Transporteur MotorStorm</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        <BODY LANG="en-US">A decomissioned aircraft Carrier, bought by a wealthy, anonymous rock star and donated to MotorStorm. It is an integral part of the festival, providing a means of escape, an amazing party venue and a home, all rolled into one. The 'Stormers love the Carrier. The Carrier is MotorStorm.</BODY>
+        <BODY LANG="fr-FR">Un porte-avion en retraite, acheté par une riche star du rock restée anonyme et donné à MotorStorm. Il fait partie intégrante des festivitiés, on peut à la fois s'y s'échapper du monde, y organiser des fêtes fantastiques et y vivre.     Les 'Stormeurs adorent le porte-avion. Le porte-avion est MotorStorm.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+	<ITEM> <!-- No Man's Land -->
+	  <DESTINATION>NoMansLand_Lobby_9B47_E5F2</DESTINATION>
+	  <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/NML_NavigatorThumbnail_Final_320x176.dds</IMAGE>
+	  <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/NML_NavigatorThumbnail_Final_320x176.dds</IMAGE>
+	</ITEM>
+	<ITEM> <!-- nRage -->
+	  <DESTINATION>nRage_4A_6A5C</DESTINATION>
+	</ITEM>
+    <ITEM> <!-- Novus Prime -->
+      <TEXT LANG="en-US">Novus Prime</TEXT>
+      <TEXT LANG="fr-FR">Novus Prime</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/NovusPrimeVindication_newRecommended.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/NovusPrimeVindication_newRecommended.dds</IMAGE>
+      <DESTINATION>Hellfire_Nebulon_ED3C_DE23</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Novus Prime</HEADER>
+        <HEADER LANG="fr-FR">Novus Prime</HEADER>
+        <MAKER LANG="en-US">Hellfire Games, Inc.</MAKER>
+        <MAKER LANG="fr-FR">Hellfire Games, Inc.</MAKER>
+        <BODY LANG="en-US">Earn tons of new rewards as you fight to save the Earth from an onslaught of intergalactic enemies! Report to the Novus Prime space station and team up with other players to face the enemy armada in live-action multiplayer space combat! Upgrade your ship, level up to new ranks, and Spacewalk in Zero-G to blast the parasitic Crawlers that threaten the space station.</BODY>
+        <BODY LANG="fr-FR">Earn tons of new rewards as you fight to save the Earth from an onslaught of intergalactic enemies! Report to the Novus Prime space station and team up with other players to face the enemy armada in live-action multiplayer space combat! Upgrade your ship, level up to new ranks, and Spacewalk in Zero-G to blast the parasitic Crawlers that threaten the space station.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+	<ITEM>
+	    <DESTINATION>Peakvox_Ninja_3_5BBD_9BBA</DESTINATION>
+	  </ITEM>		
+	<ITEM>
+	    <DESTINATION>Pet_Shop_Aquarium_EA2B_8ADA</DESTINATION>
+	  </ITEM>	
+    <ITEM> <!-- PixelJunk Exhibition -->
+      <TEXT LANG="en-US">PixelJunk Exhibition</TEXT>
+      <TEXT LANG="fr-FR">Le musée PixelJunk</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/PixelJunk_Exhibition_Large.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/PixelJunk_Exhibition_Large.dds</IMAGE>
+      <DESTINATION>SCEJ_QGames_Exhibit_19A7_2689</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">PixelJunk Exhibition</HEADER>
+        <HEADER LANG="fr-FR">Le musée PixelJunk</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        <BODY LANG="en-US">The PixelJunk Home Exhibition is a virtual shrine to all things PixelJunk!  Stocked with artifacts and rarities from the PixelJunk series, you can get up-close and personal with a larger than life stone giant, kick the tires of a super slick PixelJunk Racer, or just sit back and zone out to the Eden Soundtrack</BODY>
+        <BODY LANG="fr-FR">Le musée PixelJunk est le temple virtuel de toutes les choses PixelJunk!  Truffé de bizarreries et autres raretés provenant de la serie PixelJunk, vous pourrez examiner a souhait le gigantesque géant de pierre, reluquer les jolis bolides de PixelJunk Racer, ou vous assoir et zoner en écoutant les musique de PixelJunk Eden.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- The Playground -->
+      <TEXT LANG="en-US">The Playground</TEXT>
+      <TEXT LANG="fr-FR">Le Playground</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/large_playground.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/large_playground.dds</IMAGE>
+      <DESTINATION>SCEA_Playground_CC0D_AEA4</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">The Playground</HEADER>
+        <HEADER LANG="fr-FR">Le Playground</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        <BODY LANG="en-US">The Playground is the place to hang out, play Chess, Challenge your friends to a game of HORSE, and dance on stage.  Pick up some fresh gear at Shopper's Delight and listen to new top 40 hits Jams on radio K-HOME!</BODY>
+        <BODY LANG="fr-FR">Ce terrain de jeu est l'endroit où traîner, défier vos amis au jeu H-O-R-S-E et danser sur la scène. Complétez votre garde-robe au magasin Shopper's Delight et écoutez le dernier top 40 sur la radio K-HOME !</BODY>
+      </DESCRIPTION>
+    </ITEM>
+	<ITEM> <!-- RC RALLY -->
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_RCRally_large.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SCEA_RCRally_large.dds</IMAGE>
+	  <DESTINATION>RC_Racers_Sports_BD78_4E21</DESTINATION>
+	</ITEM>
+    <ITEM> <!-- Resistance Station -->
+      <TEXT LANG="en-US">Resistance Station</TEXT>
+      <TEXT LANG="fr-FR">Gare Resistance</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/ResistanceStation_Large.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/ResistanceStation_Large.dds</IMAGE>
+      <DESTINATION>Resistance2_Lobby_77F0_7D02</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Resistance Station</HEADER>
+        <HEADER LANG="fr-FR">Gare Resistance</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        <BODY LANG="en-US">A last bastion of hope for Nathan Hale and the Sentinels where you'll need to fend off the Chimerian aerial forces with your trusty Quad Barrel, quick repeating, AA ball-turret gun.</BODY>
+        <BODY LANG="fr-FR">Dernière lueur d'espoir pour Nathan Hale et les Sentinelles, vous devez vaincre les forces aériennes des Chimères avec votre tourelle quadri-canons ultra-rapide.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Resistance 3 Diner -->
+      <DESTINATION>Resistance_3_Diner_25A3_C075</DESTINATION>
+    </ITEM>	
+	<ITEM>
+	  <DESTINATION>Seaside_Lounge_US_1BFD_B74B</DESTINATION>
+	</ITEM>
+    <ITEM> <!-- The SingStar Rooms -->
+      <TEXT LANG="en-US">The SingStar Rooms</TEXT>
+      <TEXT LANG="fr-FR">Les salles SingStar</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/TheSingStarRooms_Large.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/TheSingStarRooms_Large.dds</IMAGE>
+      <DESTINATION>singstar_main</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">The SingStar Rooms</HEADER>
+        <HEADER LANG="fr-FR">Les salles SingStar</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        <BODY LANG="en-US">Get your groove on to the hottest tracks in The SingStar Rooms.  Listen to great music and get funky on the interactive dance floor.</BODY>
+        <BODY LANG="fr-FR">Groovez sur les plus grands tubes dans les salles SingStar.  Écoutez de la super musique et bougez votre corps sur la piste de danse interactive.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- SIREN Lounge -->
+      <TEXT LANG="en-US">SIREN Lounge</TEXT>
+      <TEXT LANG="fr-FR">SIREN Lounge</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SIRENLounge_Large.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SIRENLounge_Large.dds</IMAGE>
+      <DESTINATION>Siren_1_A_49BC_2AE3</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">SIREN Lounge</HEADER>
+        <HEADER LANG="fr-FR">SIREN Lounge</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        <BODY LANG="en-US">Saiga Hospital, The Ultimate Horror Stage in Siren, coming to PlayStation Home!  Do you think you can survive in here!?</BODY>
+        <BODY LANG="fr-FR">Saiga Hospital, The Ultimate Horror Stage in Siren, coming to PlayStation Home!  Do you think you can survive in here!?</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Slap Happy Sam's Sideshow -->
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SlapHappy_NoText_Nav.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SlapHappy_NoText_Nav.dds</IMAGE>
+      <DESTINATION>Codename_DuelingGent_6D4E_B90A</DESTINATION>
+      <DESCRIPTION>
+        <MAKER LANG="en-US">Codename Games</MAKER>
+        <MAKER LANG="fr-FR">Codename Games</MAKER>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Sodium Hub -->
+      <TEXT LANG="en-US">Sodium Hub</TEXT>
+      <TEXT LANG="fr-FR">Centre Sodium</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/v4.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/v4.dds</IMAGE>
+      <DESTINATION>Sodium_Demo_6C9B_2C7B</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Sodium Hub</HEADER>
+        <HEADER LANG="fr-FR">Centre Sodium</HEADER>
+        <MAKER LANG="en-US">Lockwood Publishing</MAKER>
+        <MAKER LANG="fr-FR">Lockwood Publishing</MAKER>
+        <BODY LANG="en-US">Sodium has arrived in your reality!  Welcome to the entertainment hub of the future--an ever-evolving world built around creativity and excitement.  Showcasing mini games, popular social activities, and addictive meta-gaming with community objectives -- there's something for everyone.</BODY>
+        <BODY LANG="fr-FR">Sodium fait son arrivée dans votre monde!  Bienvenue au cœur du divertissement du futur dans un monde en évolution constante construit sur la créativité et la joie.  Explorez les mini-jeux, les activités sociales populaires et un méta-jeu passionnant associé à des objectifs de communauté.  Il y en a pour tous les goûts.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM> <!-- Sodium One -->
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SodiumOnePub_Nav.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/SodiumOnePub_Nav.dds</IMAGE>
+      <DESTINATION>Sodium_SodiumOne_6831_16E6</DESTINATION>
+    </ITEM>
+    <ITEM> <!-- Sodium 2 -->
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sodium2_Nav_SCEA.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sodium2_Nav_SCEA.dds</IMAGE>
+      <DESTINATION>Sodium2_RTM_1476_98E4</DESTINATION>
+    </ITEM>
+    <ITEM> <!-- Southern Island Getaway -->
+      <DESTINATION>SCEA_Gran_Lagoon_1E70_EAEC</DESTINATION>
+    </ITEM>	
+	<ITEM> <!-- Street Fighter X Tekken -->
+	  <DESTINATION>SFXTTGI_SCEE_SCEAsia_A0AA_6B3D</DESTINATION>
+	</ITEM>
+      <ITEM> <!-- Total Rekall -->
+        <TEXT LANG="en-US">Total Rekall</TEXT>
+        <TEXT LANG="fr-FR">Total Rekall</TEXT>
+        <DESTINATION>NoMansLand_TRLobby_9382_FE1A</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Total Rekall</HEADER>
+          <HEADER LANG="fr-FR">Total Rekall</HEADER>
+          <MAKER LANG="en-US">VEEMEE</MAKER>
+          <MAKER LANG="fr-FR">VEEMEE</MAKER>
+          <BODY LANG="en-US">Welcome to Rekall. Tell us your fantasy. We'll give you the memory.</BODY>
+		  <BODY LANG="fr-FR">Bienvenue sur Rekall. Racontez-nous votre fantaisie. Nous vous donnerons la mémoire.</BODY>
+        </DESCRIPTION>
+      </ITEM>	
+	<ITEM> <!-- Uncharted 3 -->
+      <TEXT LANG="en-US">UNCHARTED™3 Fortune Hunter</TEXT>
+      <TEXT LANG="fr-FR">UNCHARTED™3 Fortune Hunter</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/UC3_FortuneHunter_Navigator320x176_Week1.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/UC3_FortuneHunter_Navigator320x176_Week1.dds</IMAGE>
+      <DESTINATION>Uncharted_3_24E4_875D</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">UNCHARTED™3 Fortune Hunter</HEADER>
+        <HEADER LANG="fr-FR">UNCHARTED™3 Fortune Hunter</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        <BODY LANG="en-US">Think you have what it takes to run around the mean streets of Yemen? Does escaping from a posse of gun blazing enemies sound like your typical Saturday night? Do you like “borrowing” valuable items that don’t necessarily belong to you? Does getting shot at sound like fun? Well if you answered yes to all of these questions, then you’re in luck! Play the PS®Home Fortune Hunter game now and put your skills to the test!</BODY>
+        <BODY LANG="fr-FR">Pensez-vous avoir ce qu'il faut pour courir autour de la moyenne des rues au Yémen? Est s'échappant d'une petite troupe de pistolet flamboyant ennemis ressembler votre samedi soir typique? Aimez-vous les "emprunter" des éléments précieux qui n'appartiennent pas nécessairement à vous? Est-faire tirer dessus sembler amusant? Eh bien, si vous avez répondu oui à toutes ces questions, alors vous avez de la chance! Jouez le jeu PS ® Home Fortune Hunter dès maintenant et mettez vos compétences à l'épreuve!</BODY>
+      </DESCRIPTION>
+    </ITEM>
+      <ITEM> <!-- Uproar -->
+        <TEXT LANG="en-US">Uproar</TEXT>
+        <TEXT LANG="fr-FR">Uproar</TEXT>
+        <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/uproar_nav_scea.jpg</IMAGE>
+        <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/uproar_nav_scea.jpg</IMAGE>
+        <DESTINATION>es_map_0001_831_29AE</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="en-US">Uproar</HEADER>
+          <HEADER LANG="fr-FR">Uproar</HEADER>
+          <MAKER LANG="en-US">Lockwood</MAKER>
+          <MAKER LANG="fr-FR">Lockwood</MAKER>
+          <BODY LANG="en-US">Uproar is a frantic and fun third-person shooter with a wealth of customisation options. Play for FREE as the renowned Swyfts or the notorious Outlaws, battling it out in an intense, fast-paced, action-packed, PvP experience!</BODY>
+		  <BODY LANG="fr-FR">Uproar is a frantic and fun third-person shooter with a wealth of customisation options. Play for FREE as the renowned Swyfts or the notorious Outlaws, battling it out in an intense, fast-paced, action-packed, PvP experience!</BODY>
+        </DESCRIPTION>
+      </ITEM>
+	<ITEM>
+	    <DESTINATION>Avalon_30A5_6B4F</DESTINATION>
+	  </ITEM>	  
+    <ITEM> <!-- WipEout -->
+      <TEXT LANG="en-US">WipEout®</TEXT>
+      <TEXT LANG="fr-FR">WipEout®</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Subheader_Wipeout.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Subheader_Wipeout.dds</IMAGE>
+      <DESTINATION>Wipeout_Space_CC7E_1A5</DESTINATION>
+      <DESCRIPTION>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+      </DESCRIPTION>
+    </ITEM>
+	<ITEM> <!-- x7 Entrance -->
+	  <DESTINATION>VIP_Lobby_2305_A445</DESTINATION>
+        <DESCRIPTION>
+          <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+          <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        </DESCRIPTION>
+	</ITEM>
+	<ITEM> <!-- Yetis vs Hunters -->
+	  <DESTINATION>Yeti_Vs_Hunters_2_7F78_3368</DESTINATION>
+	</ITEM>
+	<ITEM>
+	    <DESTINATION>Xi2_Axiom_EBBE_26D4</DESTINATION>
+	  </ITEM>	
+    <ITEM> <!-- Xi Museum -->
+      <TEXT LANG="en-US">Xi Museum </TEXT>
+      <TEXT LANG="fr-FR">Musée de Xi</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Xi_Museum_Nav.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Xi_Museum_Nav.dds</IMAGE>
+      <DESTINATION>Xi_PostHub_final</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="en-US">Xi Museum </HEADER>
+        <HEADER LANG="fr-FR">Musée de Xi</HEADER>
+        <MAKER LANG="en-US">Sony Computer Entertainment</MAKER>
+        <MAKER LANG="fr-FR">Sony Computer Entertainment</MAKER>
+        <BODY LANG="en-US">The Xi Museum is a memorial to Xi, the world's first console-based Alternate Reality Game which ran in PlayStation®Home in 2009. There are lots of games to play, items to collect and make sure you check out the Xi shop!</BODY>
+        <BODY LANG="fr-FR">Le musée de Xi est un établissement commémoratif de Xi, le premier jau de réalité alternative sur console sorti sur PlayStation®Home en 2009. Il y a une multitude de jeux, d'objets à ramasser et assurez-vous de faire un tour au magasin de Xi !</BODY>
+      </DESCRIPTION>
+    </ITEM>
+<!-- Other Spaces -->
+<!--    <ITEM> 
+      <TEXT LANG="en-US">Other Spaces</TEXT>
+      <IMAGE LANG="en-US">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sub_OtherSpaces_01.dds</IMAGE>
+      <IMAGE LANG="fr-FR">http://scea-home.playstation.net/a.home/mfe/content/Navigator/Sub_OtherSpaces_01.dds</IMAGE>
+
+
+
+    </ITEM>
+-->
+  </CATEGORY>
+
+</XML>

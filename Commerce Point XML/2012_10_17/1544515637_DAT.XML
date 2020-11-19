@@ -1,0 +1,134 @@
+<commerce_point>
+  <node>
+      <header>
+    <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Diesel_CommerceBackground.dds</background>
+     </header>
+	<!--MALE-->
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="fr-FR" >Homme</name>
+        <name lang="it-IT" >Maschio</name>
+        <name lang="de-DE" >Männlich</name>
+        <name lang="es-ES" >Hombre</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+            <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Diesel_CommerceBackground.dds</background>
+      </header>
+             <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="fr-FR" >Torse</name>
+          <name lang="it-IT" >Torso</name>
+          <name lang="de-DE" >Rumpf</name>
+          <name lang="es-ES" >Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/torso.dds</thumbnail>
+                      <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Diesel_CommerceBackground.dds</background>
+        </header>
+	    <!--GreyOnGrey m-->
+        <object>8A0E2DB3-EBEE43B8-912B17C4-EFE98554</object>	
+		<!--Incognit m-->
+        <object>CD6872F1-E68243F7-A28F9E36-2F1922AC</object>
+          <!--KOOKOOKAKAKIIKIIWOWOW-->
+		  <object>08AA85B5-773D42C5-84634BF6-AD5CD64A</object>
+          <!-- Be Stupid T -->
+          <object>35DDA070-1A754B7A-9DE47A61-91993281</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Legs</name>
+          <name lang="fr-FR" >Jambes</name>
+          <name lang="it-IT" >Gambe</name>
+          <name lang="de-DE" >Beine</name>
+          <name lang="es-ES" >Piernas</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/legs.dds</thumbnail>
+                      <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Diesel_CommerceBackground.dds</background>
+        </header>
+		<!--Krooley m-->
+        <object>51648B41-094E4CEE-81D75879-DB5C19BD</object>
+		  <!--RED OR RED-->
+		  <object>53326B8B-0FB34E2E-BC497B18-EE687FF8</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Feet</name>
+          <name lang="fr-FR" >Pieds</name>
+          <name lang="it-IT" >Piedi</name>
+          <name lang="de-DE" >Füße</name>
+          <name lang="es-ES" >Pies</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/feet.dds</thumbnail>
+                      <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Diesel_CommerceBackground.dds</background>
+        </header>
+		<!--kinny m-->
+        <object>18B63B89-965A4311-89EB58F1-3BE1AD97</object>
+		  <!--WINSTON GERBELS-->
+        <object>E987735F-122448D0-88C7BDD2-7D3CADFE</object>
+      </node>
+    </node> 
+	<!--FEMALE-->
+	<node>
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR" >Femme</name>
+        <name lang="it-IT" >Femmina</name>
+        <name lang="de-DE" >Weiblich</name>
+        <name lang="es-ES" >Mujer</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+         <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Diesel_CommerceBackground.dds</background>
+      </header>       
+            <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="fr-FR" >Torse</name>
+          <name lang="it-IT" >Torso</name>
+          <name lang="de-DE" >Rumpf</name>
+          <name lang="es-ES" >Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/torso.dds</thumbnail>
+                      <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Diesel_CommerceBackground.dds</background>
+        </header>
+		<!--Tankgal F-->
+        <object>D45B0006-5BCB4378-A96A7014-A70A76D3</object>
+        <!-- Be Stupid T -->
+         <object>D5D47858-48184491-A806958E-B3486A6A</object>
+		<!-- TELIT-D -->
+          <object>E34CC4C2-B8784DE6-9B1443B8-9B5809E3</object>      
+		<!-- Satipe -->
+          <object>BEF4DEF2-73B445A6-88264CB6-C0D68755</object>  
+        <!-- Guizy -->
+          <object>B9DE9F1D-6D6544A8-8C16F58B-B7CDEC91</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Legs</name>
+          <name lang="fr-FR" >Jambes</name>
+          <name lang="it-IT" >Gambe</name>
+          <name lang="de-DE" >Beine</name>
+          <name lang="es-ES" >Piernas</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/legs.dds</thumbnail>
+                      <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Diesel_CommerceBackground.dds</background>
+        </header>
+                <!--Livy F-->
+        <object>43779231-78904DC9-B541193F-C88544CA</object>
+		<!--Matic F (shorts) -->
+        <object>8864E4B2-9FEF416D-A40CCF5A-37D238EB</object>
+        <!-- MATIC (long) -->
+		   <object>072EF10A-1BD34966-A176246C-E3ADA1E9</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Feet</name>
+          <name lang="fr-FR" >Pieds</name>
+          <name lang="it-IT" >Piedi</name>
+          <name lang="de-DE" >Füße</name>
+          <name lang="es-ES" >Pies</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/feet.dds</thumbnail>
+                      <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Diesel_CommerceBackground.dds</background>
+        </header>
+        <!--YOU CAN TAKE THE GIRL OUT OF THE SHOE BUT... -->
+        <object>B2CA0547-BF75459C-A143EA9C-D1DA055B</object>
+        <!--SEDUCE AND DESTROY-->
+        <object>162AB407-91CD41D1-880E6B49-3D77F24C</object>
+      </node>
+          </node>
+        </node>
+   </commerce_point>
+

@@ -1,0 +1,822 @@
+<commerce_point>
+	<node>
+		<header>
+			<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+		</header>
+	<node>
+				<header>
+			<name lang="en-GB" default="true">Playstation®Home</name>
+			<name lang="fr-FR" >Playstation®Home</name>
+			<name lang="it-IT" >Playstation®Home</name>
+			<name lang="de-DE" >Playstation®Home</name>
+			<name lang="es-ES" >Playstation®Home</name>
+			<thumbnail lang="en-GB" default="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/HomeStore.png</thumbnail>
+                  <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+				</header>
+								<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Male</name>
+					<name lang="fr-FR">Homme</name>
+					<name lang="de-DE">Männlich</name>
+					<name lang="it-IT">Maschio</name>
+					<name lang="es-ES">Hombre</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+				</header>
+				<!-- JackO'Lantern Head With Orbiting Ghosts  M -->
+				<object>9066073C-ED294DBE-B048A8A1-4FB63DA7</object>
+							    <!-- Skeleton Suit -->
+			    <object>9221006B-AECD413F-9A0CAAD1-06F45733</object>
+						<!--  Soul Hunter Bundle -->	
+					<object>35B2D01B-A47042DE-A8229EBC-D41B4979</object>
+											<!-- Headless Horseman -->
+						<object>B2058B07-9AAC47C5-9AB4FA2E-FF0FCC9D</object>
+										<!-- Goth suit bundle  -->
+			   	<object>2C3371AD-96604E01-B80BE775-D1CFEB28</object>
+			   							<!-- Spiked Demon, Flaming/Frozen Skeletons, Orc Warrior -->
+						<object>1C9F7C91-96584E36-93C31B4A-1AB0A1C6</object>
+						<object>078BC284-11554CA7-BBF1D3D1-2E3B3E5A</object>
+						<object>C29E5066-2D5A4CD5-AD00EC57-E2009FF9</object>
+						<object>40F16ECB-E5C9412D-BDC8ED97-470A4505</object>
+										  <!-- Frankenstein -->
+			    <object>41F9BB1A-165846A7-B7B18083-0795E162</object>
+			     <!-- Werewolf -->
+			    <object>8EFCD861-9D1E454C-94BF25AE-CC63E5D9</object>
+			    			    <!-- Mechanical Abomination Suit -->
+			    <object>21B586C6-8B064073-8D6C5ED4-A10CECBA</object>
+					 </node>
+					 	<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Female</name>
+					<name lang="fr-FR" >Femme</name>
+					<name lang="it-IT" >Femmina</name>
+					<name lang="de-DE" >Weiblich</name>
+					<name lang="es-ES" >Mujer</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+				</header>
+				<!-- JackO'Lantern Head With Orbiting Ghosts  F -->
+				<object>A0ED5F9F-66FF4BD0-8983CC5D-4568CBDD</object>
+										<!-- Witch 2011 -->
+						<object>63D0EB60-E3A14759-B1743CE6-38660169</object>
+												<!-- Dark Mistress -->
+						<object>749757FA-96154D70-82509311-F561B49C</object>
+								<!-- Orc Warrior Outfit (Female) -->
+	    <object>E9276035-8FE241A0-87B62DFF-4D5076B1</object>
+		<!-- Witch -->
+	    <object>0B866E95-4C9340A9-A7B5D92F-5FB651C1</object>
+		<!-- Ghost -->
+		<object>3A70B3B0-D1274AD6-BD6B83C2-F8B628EF</object>
+			 </node>
+			 			<node type="objects">
+				<header>
+        <name lang="en-GB" default="true">Furniture</name>
+        <name lang="fr-FR" >Meubles</name>
+        <name lang="it-IT" >Mobili</name>
+        <name lang="de-DE" >Möbel</name>
+        <name lang="es-ES" >Muebles</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Furniture_jp.dds</thumbnail>
+					<background default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background> 
+				</header>
+		<!-- Necrosofa -->   
+		<object>9448D349-B92E4893-AEECBD22-177B4D9F</object> 
+			</node>
+	  <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Personal Space</name>
+          <name lang="fr-FR" >Espace personnel</name>
+          <name lang="it-IT" >Spazio personale</name>
+          <name lang="de-DE" >Home-Apartment</name>
+          <name lang="es-ES" >Espacio personal</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/apartment_scee.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+        </header>
+                <!-- Mansion Garage -->
+                <object>A61C6C54-D6544E90-9F5B66EA-7247A79D</object>
+                <!-- Mansion Infinity Pool -->
+                <object>6C0884FA-6926419B-ABD4F676-9B4BBEF8</object>
+                 <!-- Mansion 1st floor -->
+                <object>9E680C54-57E64C05-824C5D9E-85192126</object>
+                <!-- Mansion ground floor -->
+                <object>28ADC591-B63448AC-B326E5DF-FC17A223</object>
+	 </node>
+	 	   <node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Companions</name>
+					<name lang="fr-FR" >Compagne</name>
+					<name lang="it-IT" >Compagno</name>
+					<name lang="de-DE" >Begleiter</name>
+					<name lang="es-ES" >Comrade</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/companion.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+				</header>
+		<!-- Baby Pet Companions - bundle -->
+		<object>72F46E2B-209A4D76-B55321F3-7AD74A5D</object>	
+		 <!-- Miniature Robot Companion -->
+		<object>E896973E-F5464932-89DEBFBB-DBAB6810</object>
+                <!-- Giant Spider companion -->
+                <object>931FDB06-E26A4EF0-AF28B7F7-0F1543E3</object>
+	    <!-- Pet Dragon Companion -->
+		<object>625728D3-47474705-924F40D2-B9EC55EB</object>
+			</node>
+	 	 </node>
+	 	  <node type="objects">
+	<header>
+			<name lang="en-GB" default="true">Board Games</name>
+			<name lang="fr-FR" >Jeux de société</name>
+			<name lang="it-IT" >Giochi da tavolo</name>
+			<name lang="de-DE" >Brettspiele</name>
+			<name lang="es-ES" >Juegos de mesa</name>
+			<thumbnail lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/reddice_scee.png</thumbnail>
+	<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+	</header>
+        <!-- Checkers -->
+        <object>657CF753-A11A4082-8BF4EC6D-5D9346F0</object>
+        <object>501664A1-951E4CF5-A7C3E343-3581D4D6</object>
+        <object>C69DAF52-E02A4835-8B6D4B7B-7C8C1DE0</object>
+        <object>4EF3DE0D-3E6442D0-8679FED6-F4832B6F</object>
+        <object>3964377E-06B54F36-A27A4628-948DC59B</object>
+        <!-- Chess -->
+        <object>4F269B85-34CB4615-99080E5E-1C6ADBFC</object>
+        <object>4436A967-8B7C419D-9AD37BAB-3FA136F7</object>
+        <object>23052E0D-D9C54F4E-9FA63EF4-52952F41</object>
+        <object>4A6B28FF-1E9044B7-91AEE3D5-E9F21740</object>
+        <object>4BD0B039-D06241DB-89024A65-97F0536F</object>
+       <!-- Solitaire tables -->
+       <object>D619F591-03DE4B60-BC01BF0C-47A609CF</object>
+       <object>60E8CABA-70E24819-87F0AC4E-9B42363F</object>
+       <object>E278013F-67444757-BB478237-1F178C8D</object>
+       <object>EF3928AA-CA9843C2-B978BB8B-6E37EAC1</object>
+       <object>8F8B97F0-C6D141D0-832640B4-CDF269DD</object>
+         <!--Solitaire Card Minigame (original) -->
+        <object>A294A886-F4AD4FB8-A309A8C7-0968FE50</object>
+        <!--Dice  -->
+        <object>00000000-00000000-000000F3-00000001</object>
+  </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB">Arcade Cabinets</name>
+        <name lang="fr-FR" >Console Arcade</name>
+        <name lang="it-IT" >Videogioco Arcade</name>
+        <name lang="de-DE" >Arcade Automat</name>
+        <name lang="es-ES" >Máquina Recreativa</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/arcade.dds</thumbnail>
+                  <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+      </header>
+              	<!-- VEEMEE Arcade Bundle  -->
+		<object>DB70A2A1-DCDC4FC9-82886B82-9EE60FAF</object> 
+	  	        <!--Superfun Madhouse - Arcade Cabinet-->
+        <object>06B9F020-A2ED4804-B7DD7766-E670B969</object>
+	              <!--Electrokid - Arcade Cabinet-->
+        <object>CA9F7DCA-B794441F-9C976B91-A20B0601</object>
+        <!--Savage Cosmos - Arcade Cabinet-->
+        <object>C28BBB0D-50DB4087-8C5E8AA9-E3534ABD</object>
+                <!-- Mad Blocker Home Arcade Machine  -->
+		<object>EFD9F073-E97242B9-91AFB5AC-29B1D6D8</object> 
+		                <!--Scribble Shooter-->
+        <object>07EC34C7-67984277-916874A1-E24A9A98</object>
+                      <!-- Trigger Happy In-A-Box-->
+        <object>42ABEBA2-33EB4755-8EF9514E-FAE075BA</object>
+        <!-- Cabin Boy Bundle-->
+                <object>CFF28148-BCB34F55-AD931253-F1E76849</object>
+                				<!-- Renegade Ops Preboot -->
+		 <object>ACAF6AFA-BE094696-B70D44FF-C60FEF56</object> 	
+          </node>
+                  		<node>
+				<header>
+			<name lang="en-GB" default="true">Total Recall</name>
+			<name lang="fr-FR" >Total Recall</name>
+			<name lang="it-IT" >Total Recall</name>
+			<name lang="de-DE" >Total Recall</name>
+			<name lang="es-ES" >Total Recall</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="false"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/totalrecall_scee.png</thumbnail>
+                  <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+				</header>
+		<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Male</name>
+					<name lang="fr-FR">Homme</name>
+					<name lang="de-DE">Männlich</name>
+					<name lang="it-IT">Maschio</name>
+					<name lang="es-ES">Hombre</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+				</header>
+				<!-- TR entrant bundle  -->		
+				<object>2D466BAF-BA0F4DD9-B7EBC5B7-2B9599AC</object>
+			<!-- mega complete sentry, synth bundles  -->		
+			<object>597C8E63-F0C546F9-871F908E-3412D6B5</object>	
+			<object>EFF103D9-106B49DA-B21A4DFC-00BD7B96</object>
+			<object>5256B304-8CB348B6-A641E899-0A9B40E2</object>
+			<object>683EB7EF-ADA54829-973D0451-38D04B6B</object>
+					<!-- light, medium, heavy male -->
+			<object>0C2F4656-A81D4621-9415091C-59BF3262</object>
+			<object>E8A26EF0-D1AD44BB-A74AFAA9-5679A1E6</object>
+			<object>37AC0FC1-10D34AA0-9DF6800D-5AB676F6</object>
+	</node>
+		<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Female</name>
+					<name lang="fr-FR" >Femme</name>
+					<name lang="it-IT" >Femmina</name>
+					<name lang="de-DE" >Weiblich</name>
+					<name lang="es-ES" >Mujer</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+				</header>
+				<!-- TR entrant bundle  -->		
+				<object>2D466BAF-BA0F4DD9-B7EBC5B7-2B9599AC</object>
+			<!-- mega complete sentry, synth bundles  -->		
+			<object>597C8E63-F0C546F9-871F908E-3412D6B5</object>	
+			<object>EFF103D9-106B49DA-B21A4DFC-00BD7B96</object>
+			<object>5256B304-8CB348B6-A641E899-0A9B40E2</object>
+			<object>683EB7EF-ADA54829-973D0451-38D04B6B</object>
+			<!-- light, medium, heavy female -->
+			<object>666F5785-C7754241-968015DC-A0443584</object>
+			<object>FAD834A3-FC68413D-892A382D-0EB0AA60</object>
+			<object>56916BB0-10094D16-B95C6534-EA8EFD69</object>		
+	 </node>	
+	 	 </node>	
+	 	 	<node>
+			<header>
+					<name lang="en-GB" default="true">Atom Republic</name>
+					<name lang="fr-FR">Atom Republic</name>
+					<name lang="de-DE">Atom Republic</name>
+					<name lang="it-IT">Atom Republic</name>
+					<name lang="es-ES">Atom Republic</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="false"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/atomrepublic_scee.png</thumbnail>
+					<background default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background> 
+			</header>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Male</name>
+					<name lang="fr-FR">Homme</name>
+					<name lang="de-DE">Männlich</name>
+					<name lang="it-IT">Maschio</name>
+					<name lang="es-ES">Hombre</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+					<background default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background> 
+				</header>
+				<!-- 10 Biker jackets M and F bundle -->
+				<object>22C3CC71-172242E9-AE8CED35-6162938D</object>
+					<!-- Biker jackets M -->
+					<object>6CD6FC44-5EA641BD-9AF80A44-A54E8088</object>
+				<object>1AB10FC4-4E48438F-A421CF42-C66A0CEB</object>
+				<object>9D4F089A-2E8F4CFA-90979FE5-133074BB</object>
+				<object>AF549CEE-EA2F4005-B2408988-43CDF888</object>
+				<object>BAF5D528-AB954EA9-B3621AE6-67D71547</object>
+				<object>FDDA8906-6FAD443F-8EF060A8-CF0C76CB</object>
+			</node>
+			<node type="objects">
+				<header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR" >Femme</name>
+        <name lang="it-IT" >Femmina</name>
+        <name lang="de-DE" >Weiblich</name>
+        <name lang="es-ES" >Mujer</name>
+					<thumbnail lang="en-US" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+					<background default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background> 
+				</header>
+				<!-- 10 Biker jackets M and F bundle -->
+				<object>22C3CC71-172242E9-AE8CED35-6162938D</object>
+					<!-- Biker jackets F -->
+					<object>E7C4997E-08CC4655-B563479D-BF5760C4</object>
+				<object>1E65B9BC-3E3A4B7C-A30FFF35-13ADB1B9</object>
+				<object>A8C77E33-395D4757-89C8638E-568B1274</object>
+				<object>F4C887B5-D3D24F88-9B840DB3-5974158A</object>
+				<object>8729D090-03264B78-84E2BF4A-41032D13</object>
+				<object>9B8F4B6D-4AD34976-9D3C9270-28C8B11B</object>
+			</node>
+							 	   <node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Companions</name>
+					<name lang="fr-FR" >Compagne</name>
+					<name lang="it-IT" >Compagno</name>
+					<name lang="de-DE" >Begleiter</name>
+					<name lang="es-ES" >Comrade</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/companion.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+				</header>
+					<!-- RadPetz - Skull and friends -->
+		<object>A8F87B51-405F4E56-BACFD8B4-76F30A4E</object> 
+	    <object>8CC6087E-46134C07-AD746840-FF1FA8E2</object> 
+	    <object>27C00372-FACD4E8C-BE2BACA9-7C70F4A7</object> 
+		<object>41AB19BB-46224A75-BAF8A8C8-9DF9E54B</object> 
+		<object>95B8D54C-766F439B-AB981B7D-0B330C86</object> 
+			</node>
+	 <node type="objects">
+				<header>
+        <name lang="en-GB" default="true">Animation</name>
+        <name lang="fr-FR" >Animation</name>
+        <name lang="it-IT" >Animazione</name>
+        <name lang="de-DE" >Animation</name>
+        <name lang="es-ES" >Animación</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/animation.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+				</header>
+					<!-- Cowboy Dance Moves -->
+		<object>4D9664A4-6B5A4CE6-BE99A474-4DEAC428</object> 
+			</node>
+						</node>
+									<node>
+				<header>
+					<name lang="en-GB" default="true">Little Big Planet</name>
+					<name lang="fr-FR">Little Big Planet</name>
+					<name lang="de-DE">Little Big Planet</name>
+					<name lang="it-IT">Little Big Planet</name>
+					<name lang="es-ES">Little Big Planet</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/LBP.png</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+				</header>
+								<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Male</name>
+					<name lang="fr-FR">Homme</name>
+					<name lang="de-DE">Männlich</name>
+					<name lang="it-IT">Maschio</name>
+					<name lang="es-ES">Hombre</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+				</header>
+        <object>A5B7E50F-04A04C85-A78C5316-716BEFAE</object>
+        <object>763C55E2-F7414524-94A14E84-4C918310</object>
+        <object>0DD18761-8413459D-9D1E88D1-AFC845F6</object>
+        <object>B0B7E6B2-649541F7-919A4320-EC640A71</object>
+        <object>A3AE1CEE-208C41CE-BF260044-E2396D6E</object>
+					 </node>
+					 	<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Female</name>
+					<name lang="fr-FR" >Femme</name>
+					<name lang="it-IT" >Femmina</name>
+					<name lang="de-DE" >Weiblich</name>
+					<name lang="es-ES" >Mujer</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+				</header>
+        <object>2260C13D-ADF14CDE-854D8DF4-182E176F</object>
+        <object>1CF23BF7-BD564DAF-90A48D54-49B87FD1</object>
+        <object>105C8437-26524A7B-9493E3D1-462D68DA</object>
+        <object>DCF4576E-7BF649D4-8D05A5FE-12B83378</object>
+        <object>8305BF2A-2EE940BF-A0043DCB-5C767E50</object>
+			 </node>		
+			 	 	 		<node type="objects">
+				<header>
+        <name lang="en-GB" default="true">Furniture</name>
+        <name lang="fr-FR" >Meubles</name>
+        <name lang="it-IT" >Mobili</name>
+        <name lang="de-DE" >Möbel</name>
+        <name lang="es-ES" >Muebles</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Furniture_jp.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+				</header>
+	 <!-- Sackboy™ Play mat -->
+		<object>7BE5B1B3-FC0E4F94-8E0DC04A-613CF40D</object> 	
+		<!-- LBP furniture -->
+        <object>90E359BD-9FA94228-AF376B27-9430148A</object>
+        <object>CBC606B5-EB3B4175-BE755580-4D6C2F1B</object>
+        <object>F1902A7B-4B0C4477-AA59FD15-85887AD4</object>
+        <object>AF998131-B8084D4D-BBBF7850-2BBF497E</object>
+        <object>5C1002DC-1D754039-A458F639-16108CE3</object>
+        <object>2443087D-16494D00-AEDA44E2-DB1D3FFE</object>
+	 </node>			
+					 	   <node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Companions</name>
+					<name lang="fr-FR" >Compagne</name>
+					<name lang="it-IT" >Compagno</name>
+					<name lang="de-DE" >Begleiter</name>
+					<name lang="es-ES" >Comrade</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/companion.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+				</header>
+         <!-- Sackboy Companion -->
+		<object>7D79B65E-99FB4E7B-932771ED-B535B751</object> 
+			</node>
+				  <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Personal Space</name>
+          <name lang="fr-FR" >Espace personnel</name>
+          <name lang="it-IT" >Spazio personale</name>
+          <name lang="de-DE" >Home-Apartment</name>
+          <name lang="es-ES" >Espacio personal</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/apartment_scee.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+        </header>
+        <!--LBP Apartment-->
+        <object>79B5B7FA-84CE4D07-9D5E93A4-4AE7466B</object>
+	 </node>
+	</node>
+		<node>
+			<header>
+        <name lang="en-GB" default="true">F.U.B.A.R.</name>
+        <name lang="fr-FR" >F.U.B.A.R.</name>
+        <name lang="it-IT" >F.U.B.A.R.</name>
+        <name lang="de-DE" >F.U.B.A.R.</name>
+        <name lang="es-ES" >F.U.B.A.R.</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="false"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/fubar_scee.png</thumbnail>
+					<background default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background> 
+			</header>
+						<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Male</name>
+					<name lang="fr-FR">Homme</name>
+					<name lang="de-DE">Männlich</name>
+					<name lang="it-IT">Maschio</name>
+					<name lang="es-ES">Hombre</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+					<background default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background> 
+				</header>
+		<!-- FUBAR clothing M -->   
+		<object>2ADC8CBD-375A4A96-B70E2A02-AD95A3CE</object>
+		<object>3B4C505A-5E394B64-93DE1666-29B54A42</object>
+			</node>
+			<node type="objects">
+				<header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR" >Femme</name>
+        <name lang="it-IT" >Femmina</name>
+        <name lang="de-DE" >Weiblich</name>
+        <name lang="es-ES" >Mujer</name>
+					<thumbnail lang="en-US" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+					<background default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background> 
+				</header>
+		<!-- FUBAR clothing F -->   
+		<object>1207E585-F4E14075-9ACAE17B-FA79B9E8</object>
+        <object>0520D183-00A3411E-BFAC0E6F-30DDEEB4</object>
+			</node>
+	  <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Personal Space</name>
+          <name lang="fr-FR" >Espace personnel</name>
+          <name lang="it-IT" >Spazio personale</name>
+          <name lang="de-DE" >Home-Apartment</name>
+          <name lang="es-ES" >Espacio personal</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/apartment_scee.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+        </header>
+					<!--FUBAR Apartment -->
+				<object>C8864540-2F1D4F2C-880D4A5F-5156EFB9</object>
+	 </node>
+	 						<node type="objects">
+				<header>
+        <name lang="en-GB" default="true">Warbucks</name>
+        <name lang="fr-FR" >Warbucks</name>
+        <name lang="it-IT" >Warbucks</name>
+        <name lang="de-DE" >Warbucks</name>
+        <name lang="es-ES" >Warbucks</name>
+					<thumbnail lang="en-US" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/warbucks_scee.png</thumbnail>
+					<background default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background> 
+				</header>
+		<!-- FUBAR warbucks - 10, 50, 250, 1000 -->   
+		<object>A6462FC7-C9304F9B-A72EF806-147C4B14</object>
+        <object>1FD4952A-7C454A8A-B9D69794-D76BAAA3</object>
+		<object>2DAA4874-5F224636-AC033B9D-9239A765</object>
+        <object>488443B1-804C4523-89D63BD6-52EEBFE1</object>
+			</node>
+			</node>
+								<node>
+			<header>
+					<name lang="en-GB" default="true">JAM Games</name>
+					<name lang="fr-FR">JAM Games</name>
+					<name lang="de-DE">JAM Games</name>
+					<name lang="it-IT">JAM Games</name>
+					<name lang="es-ES">JAM Games</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="false"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/jamgames_scee.png</thumbnail>
+					<background default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background> 
+			</header>
+					<node>
+			<header>
+					<name lang="en-GB" default="true">BeeBee Bots</name>
+					<name lang="fr-FR">BeeBee Bots</name>
+					<name lang="de-DE">BeeBee Bots</name>
+					<name lang="it-IT">BeeBee Bots</name>
+					<name lang="es-ES">BeeBee Bots</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="false"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/beebeebots_scee.png</thumbnail>
+					<background default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background> 
+			</header>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Male</name>
+					<name lang="fr-FR">Homme</name>
+					<name lang="de-DE">Männlich</name>
+					<name lang="it-IT">Maschio</name>
+					<name lang="es-ES">Hombre</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+					<background default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background> 
+				</header>
+				<!-- BeeBee Bots M -->
+				<object>EF6FE7B3-2A664A70-9B94B1C3-E33BAB15</object>
+				<object>18637F59-A26949C4-AFC26035-39ABC8C9</object>
+				<object>68CDE331-EF8E44E9-A21881A7-A836DF4B</object>
+				<object>335346E2-BE734357-807745D7-EE887DB9</object>
+				<object>11653FCB-A67E4EB3-BA532A3C-9FAFF48A</object>
+			</node>
+			<node type="objects">
+				<header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR" >Femme</name>
+        <name lang="it-IT" >Femmina</name>
+        <name lang="de-DE" >Weiblich</name>
+        <name lang="es-ES" >Mujer</name>
+					<thumbnail lang="en-US" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+					<background default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background> 
+				</header>
+				<!-- BeeBee Bots F -->
+				<object>E8A5BD2F-3B0A4301-99901769-441D4D7D</object>
+				<object>D644B16C-563E4D15-98BE0251-FA3EAC5C</object>
+				<object>A6988B8C-2F114A4A-A42D48B3-2FD07B02</object>
+				<object>725546A4-33A34A83-9D927EAC-B29CF28D</object>	
+			</node>
+						</node>
+							</node>
+		<node>
+			<header>
+					<name lang="en-GB" default="true">Juggernaut Games</name>
+					<name lang="fr-FR">Juggernaut Games</name>
+					<name lang="de-DE">Juggernaut Games</name>
+					<name lang="it-IT">Juggernaut Games</name>
+					<name lang="es-ES">Juggernaut Games</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="false"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/juggernaut_scee.png</thumbnail>
+					<background default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background> 
+			</header>
+			<node type="objects">
+				<header>
+        <name lang="en-GB" default="true">Hoverdiscs</name>
+        <name lang="fr-FR" >Hoverdiscs</name>
+        <name lang="it-IT" >Hoverdiscs</name>
+        <name lang="de-DE" >Hoverdiscs</name>
+        <name lang="es-ES" >Hoverdiscs</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="false"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/hoverdiscs_scee.png</thumbnail>
+					<background default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background> 
+				</header>
+					<!-- Hoverdiscs -->
+				<object>225CA3EF-710B4353-989D9808-BAB2A34C</object>
+				<object>D65C9840-FA8B420F-84BA61EA-E6D32BB9</object>
+				<object>98DC9DBB-ACD94BBB-A2DE2FCF-C8F83BD0</object>
+				<object>E5DF8BDD-E6384229-A7B3E4EB-8CAE8835</object>
+				<object>010049B6-EB7E41B8-A4BC8B3E-6B43200D</object>
+				<object>4E09E54C-86B64F28-982A1DCB-762E36FA</object>
+			</node>
+						</node>
+		<node>
+			<header>
+					<name lang="en-GB" default="true">Granzella</name>
+					<name lang="fr-FR">Granzella</name>
+					<name lang="de-DE">Granzella</name>
+					<name lang="it-IT">Granzella</name>
+					<name lang="es-ES">Granzella</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="false"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/granzella_scee.png</thumbnail>
+					<background default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background> 
+			</header>
+			<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Male</name>
+					<name lang="fr-FR">Homme</name>
+					<name lang="de-DE">Männlich</name>
+					<name lang="it-IT">Maschio</name>
+					<name lang="es-ES">Hombre</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+					<background default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background> 
+				</header>
+							<!-- Autumn Yukata M -->
+				<object>24E56092-DDD742BD-81AF6CD8-57F90EDD</object>
+				<object>251334EC-18A240C2-8D0F15E4-0FD46A68</object>
+				<object>34C2DCCC-8B9B4E20-9A7002FA-103060E1</object>
+				<object>37AB14C9-C9AF4582-AF0A15C9-6DDA3583</object>
+					<!-- Shoulder Suits M -->
+				<object>3E455F88-95004682-8BB866AD-101A223C</object>
+				<object>3E51074E-6E66445B-83E2A274-0F3C4E97</object>
+				<object>3F16FBC3-705146EB-A0F43DA1-EDD7D2AA</object>
+				<!-- Sideburns M -->
+				<object>97244E1A-8A594922-AA3628F2-B0AFD423</object>
+			</node>
+			<node type="objects">
+				<header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR" >Femme</name>
+        <name lang="it-IT" >Femmina</name>
+        <name lang="de-DE" >Weiblich</name>
+        <name lang="es-ES" >Mujer</name>
+					<thumbnail lang="en-US" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+					<background default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background> 
+				</header>
+					<!-- Autumn Dress F -->
+				<object>9033A42A-07E1422B-A2D07EEA-C3947040</object>
+				<object>945C3C9A-C7474661-A0F5EDD0-6B8D345D</object>
+				<object>946AA1FA-20B14166-BAA793F8-26B213BA</object>
+				<!-- Autumn Yukata F -->
+				<object>38D684D3-C0BC463A-AD70B323-30EE55A5</object>
+				<object>3A34677C-6EA644E4-B0DF5ED1-B3179876</object>
+				<object>41F7F88E-708F435D-846ED4BF-07CE8F87</object>
+				<object>425A35DA-A9BE40D7-83989826-76258E68</object>
+			    <!-- Shoulder Suits F -->
+				<object>4016AE98-7F554F86-A29EEE19-62D5A80A</object>
+				<object>40C260C5-47C04157-911EEBFC-D7673F7C</object>
+				<object>4131E5BE-DAD64D7D-B18330FB-FE0B5BA0</object>
+			   <!-- Sideburns (actually Fringe) F -->
+				<object>9BACDE2F-AB5644F7-B075AB5A-F1C1DD65</object>
+			</node>
+						</node>
+	 	 <node>
+				<header>
+			<name lang="en-GB" default="true">Terminator 2</name>
+			<name lang="fr-FR" >Terminator 2</name>
+			<name lang="it-IT" >Terminator 2</name>
+			<name lang="de-DE" >Terminator 2</name>
+			<name lang="es-ES" >Terminator 2</name>
+			<thumbnail lang="en-GB" default="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/terminator2_scee.png</thumbnail>
+                  <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+				</header>
+		<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Male</name>
+					<name lang="fr-FR">Homme</name>
+					<name lang="de-DE">Männlich</name>
+					<name lang="it-IT">Maschio</name>
+					<name lang="es-ES">Hombre</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+                  <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+				</header>
+		 <!-- T2 - Bundles - Ultimate -->
+	 <object>6F1E6A51-EC41491F-9454311B-FFAC4BEA</object> 
+	 	 		 <!-- T2 - Bundles - T1000 Collection  -->
+	 <object>41E82694-4A4544EA-A2DFFB41-5D55657B</object> 
+	 	 		 <!-- T2 - Bundles - T1000 Bundle  -->
+	 <object>AD47972D-8694447D-BD9E3D7B-FC0E53F9</object> 
+	 		 <!-- T2 - Bundles - Terminator  -->
+	 <object>C4931DA2-EB414960-95423183-C5240A39</object> 
+		 <!-- T2 - T1000 -->
+	 <object>313D0AD4-A135402D-8E559F1B-5C980488</object> <!-- T1000 Cop -->
+	 <object>42162A14-0F8241E5-A3E52535-D7C2FA9F</object> <!-- T1000 Cop w/pointed hands -->
+	 <object>101549BC-1F774689-B3349C2C-7E046EA2</object> <!-- T1000 Cop w/pointed hands and damage -->
+	 <object>9B712BAE-061246F2-AD1C83C8-BA5839AB</object> <!-- T1000 Pointed hands (any outfit) -->
+	 <object>D34D8D6C-50BA4A87-B8340F1D-40DCB41E</object> <!-- T1000 Pointed Hands and Damage (any outfit) -->
+	 <object>9300D5D8-2C3C413B-9EBF97BD-4047B3C0</object> <!-- T1000 Cop Shirt -->
+	 <object>F36E1D27-0A7B4377-B36BBB04-B98D0083</object> <!-- T1000 Cop Trousers and boots -->
+	 		 <!-- T2-  Metal T1000 -->
+	 <object>A30D2076-03A94C51-87E44D6C-47125C63</object> <!-- Metal T1000 -->
+	 <object>E3977B5B-FA4949DA-BA42B8FA-EC8C71F1</object> <!-- Metal T1000 w/pointed hands-->
+	 		 <!-- T2 The Terminator -->
+	 <object>A7760015-697A4CB1-B72F7F7B-63A826B0</object> <!-- Terminator outfit -->
+	 <object>DEB9F370-D03C4305-9250E874-5F88D3EA</object> <!-- Terminator jacket and grenade belt -->
+	 <object>DD979526-B52E4813-8A355E59-C515A1BB</object> <!-- Terminator shades -->
+	 <object>D668B025-9B874693-BA6291CA-2C8F3530</object> <!-- Terminator jacket -->
+	 <object>5909FE1C-35104514-854369A2-E749E9EE</object> <!-- Terminator legs -->
+	 <object>8E605DFF-5A5A4D09-ACC63275-68A90C56</object> <!-- Terminator feet -->
+	 <object>0372DCB6-89704358-A349E07D-351C84F6</object> <!-- Terminator grenade belt (any outfit) -->
+	 <object>662CF88C-F9854C6D-B456DE0A-5EEFF771</object> <!-- Terminator Eye M -->
+	  <!-- Terminator damaged outfit -->
+	 <object>B3721713-24AC4428-9DFB6395-0FD8077C</object> 
+	 	 		 <!-- T2 Endoskeleton -->
+	 <object>4EB39060-C6874AE5-8513139B-D229D219</object> 
+	 <object>F60BE1D6-7D794AD8-AAA159A1-9EB515AD</object> 
+	 <object>94FC92B6-8AF449EC-80B17135-7B66B8B6</object> 
+	  	 <!--  T2 Hoodie and t-shirt M -->
+	 <object>45F1851A-BEB94253-BD1120AF-E3C5F180</object> 
+	 <object>945E5331-18C14D54-8AC08349-F8A905A4</object> 
+					 </node>
+					 					 	<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Female</name>
+					<name lang="fr-FR" >Femme</name>
+					<name lang="it-IT" >Femmina</name>
+					<name lang="de-DE" >Weiblich</name>
+					<name lang="es-ES" >Mujer</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+                  <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+				</header>
+	 <!-- T2 - Ultimate Bundle -->
+	 <object>41E82694-4A4544EA-A2DFFB41-5D55657B</object> 
+		 <!-- T2 Sarah Connor -->
+	 <object>F7B55831-6B8141E9-8BC2656D-29FF43DA</object> 
+	 <object>DCF476EA-BDD74641-99589304-8628A87E</object> 
+	 <object>877C93CD-662E4E01-8CE4B735-51A94E6A</object> 
+	 <object>4979DF02-24CE457B-9C1FDAD0-454C3460</object> 
+	 <object>6FD808D0-CDAE4973-8ADBC345-5961598F</object> 
+	 <!--  T2 Womens Endoskeleton Hand -->
+	 <object>7A7F0540-F9484C1B-BA658196-99D5F9D3</object> 
+	  <!--  T2 Womens Endoskeleton Arm-->
+	 <object>B13B4935-D3E848E4-A5DF49AE-69CF56D7</object> 
+	 <!--  T2 Hoodie and t-shirt F -->
+	 <object>BA343138-FEE84BB7-9C9478FB-2281E8DF</object> 
+	 <object>228930B7-04464131-88ED5A5D-0E4B472C</object> 
+	 <!-- Terminator Eye F -->
+	 <object>D40B5D10-FAD74E8E-B961E881-9D68CB6D</object>
+			 </node>
+			 			 	 	 	<node type="objects">
+				<header>
+        <name lang="en-GB" default="true">Locomotion</name>
+        <name lang="fr-FR" >Locomotion</name>
+        <name lang="it-IT" >Locomotion</name>
+        <name lang="de-DE" >Bewegung</name>
+        <name lang="es-ES" >Locomoción</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/locomotion.dds</thumbnail>
+                  <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+				</header>
+		 <!-- T2 - Bundles - Ultimate -->
+	 <object>6F1E6A51-EC41491F-9454311B-FFAC4BEA</object> 
+	 	 		 <!-- T2 - Bundles - T1000 Bundle  -->
+	 <object>AD47972D-8694447D-BD9E3D7B-FC0E53F9</object> 
+	 		 <!-- T2 - Bundles - Terminator  -->
+	 <object>C4931DA2-EB414960-95423183-C5240A39</object> 
+	 		 <!-- T2 - T1000 Locomotion -->
+	 <object>2FFFB564-AB5F4B29-A41CF07D-0DA18C4A</object> 
+	 	  <!-- Terminator 2 Judgment Day The Terminator Locomotion-->
+	 <object>DC553365-BCD04548-B5D83364-92DF3F4D</object> 
+			 </node>
+					 </node>
+	 	 		<node>
+				<header>
+			<name lang="en-GB" default="true">Avalon Keep</name>
+			<name lang="fr-FR" >Avalon</name>
+			<name lang="it-IT" >Avalon</name>
+			<name lang="de-DE" >Avalon</name>
+			<name lang="es-ES" >Avalon</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="false"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/HW_avalon_scee.png</thumbnail>
+                  <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+				</header>
+							<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Male</name>
+					<name lang="fr-FR">Homme</name>
+					<name lang="de-DE">Männlich</name>
+					<name lang="it-IT">Maschio</name>
+					<name lang="es-ES">Hombre</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+					<background default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background> 
+				</header>
+			<!--Royal Crystal Mohawk M -->   
+		<object>927A511A-4F4F44C4-80200C1C-BAF86AA0</object> 
+		<!-- Noble Man casual -->   
+        <object>8FCDB2F6-DA364E4B-8D139744-FDC4F2BF</object>
+		<object>E9EE8693-5A7247C4-907F05D5-B7F5B587</object>
+		<object>E1678E31-36AF4E4B-BE730324-D283CD06</object>
+		<object>454105F0-C39F4CC0-A81B4B74-A50C4EEA</object>
+		<object>7E7BE8C0-31BE46F6-9BB80F88-01768393</object>
+        <object>60AEC083-396D4FB7-BBC98234-4F20E84B</object>
+		<object>82AB3F2C-44D34CC5-AB78666F-DD0DA606</object>
+		<object>83C53B44-A8C54C2C-BBAE0436-7A3B7595</object>
+		<object>23E292F9-437547F2-A01E2888-2063368E</object>
+			</node>
+			<node type="objects">
+				<header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR" >Femme</name>
+        <name lang="it-IT" >Femmina</name>
+        <name lang="de-DE" >Weiblich</name>
+        <name lang="es-ES" >Mujer</name>
+					<thumbnail lang="en-US" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+					<background default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background> 
+				</header>
+		<!-- Royal Crystal Mohawk F -->   
+		<object>34F97A9F-DF0A40B4-8F344702-4E363D4F</object> 
+		<!-- Noble Woman casual -->   
+		<object>FEF5B9AE-14EA4640-AC8DB36D-A39D7E74</object>
+        <object>368EF614-AB4D438F-AA0B2B0E-AEC5B187</object>
+		<object>F66F14A5-BB22448D-A2036491-E34F9493</object>
+		<object>4EC291EA-A8AB42AA-90A51F9C-1D247FEF</object>
+		<object>2D8BE777-B7D641FE-930DC2DA-B1E41AD0</object>
+		<object>350CB16C-642A4E24-8099C4AA-6E01BAAE</object>
+			</node>
+				  <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Personal Space and Expansion</name>
+          <name lang="fr-FR" >Espace personnel</name>
+          <name lang="it-IT" >Spazio personale</name>
+          <name lang="de-DE" >Home-Apartment</name>
+          <name lang="es-ES" >Espacio personal</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/apartment_scee.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_bg_scee.png</background>
+        </header>
+                 <!-- Avalon Keep -->
+                <object>E84D7BA7-84294427-A2BB09EE-65F1483F</object>
+                <!-- Avalon Dungeon -->
+                <object>25210DC6-3613429D-B1958F06-DA389239</object>
+	 </node>
+	 					</node>
+	 									  <node type="objects">
+        <header>
+	 									<name lang="en-GB" default="true">Sale</name>
+				<name lang="fr-FR" >Soldes</name>
+				<name lang="it-IT" >Offerte</name>
+				<name lang="de-DE" >Angebot</name>
+				<name lang="es-ES" >Rebajas</name>
+	<thumbnail lang="en-GB" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/sale_en_scee.png</thumbnail>
+	<thumbnail lang="fr-FR" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/sale_fr_scee.png</thumbnail>
+	<thumbnail lang="de-DE" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/sale_de_scee.png</thumbnail>
+	<thumbnail lang="it-IT" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/sale_it_scee.png</thumbnail>
+	<thumbnail lang="es-ES" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/sale_es_scee.png</thumbnail>
+        <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_asscreedsaleEN.jpg</background>
+        <background lang="fr-FR" >http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_asscreedsaleFR.jpg</background>
+        <background lang="de-DE" >http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_asscreedsaleDE.jpg</background>
+        <background lang="it-IT" >http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_asscreedsaleIT.jpg</background>
+        <background lang="es-ES" >http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starsyellow_asscreedsaleES.jpg</background>
+        </header>
+				<!--Assassin's Creed 2 Male Ezio Bundle-->
+				<object>200A1F04-233F4913-83AAFDA1-7DC58110</object>
+				<!--Assassin's Creed 2 Female Ezio Bundle-->
+				<object>7A3CB15A-B7484D9F-A31CD202-7A1809F8</object>
+	 </node>
+				</node>
+</commerce_point>

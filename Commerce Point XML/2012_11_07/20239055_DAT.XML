@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header />
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Home Threads</name>
+        <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Featured_threads.dds</thumbnail>
+        <name lang="ko-KR">Home Threads</name>
+        <name lang="en-SG">Home Threads</name>
+        <name lang="zh-HK">Home Threads</name>
+        <name lang="zh-TW">Home Threads</name>
+      </header>
+      <node>
+        <header>
+          <name>nDreams</name>
+          <thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TH_nDrems_Store.png</thumbnail>
+          <background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/nDreamsStore_Back_asia.dds</background>
+        </header>
+        <node>
+          <header>
+            <name>Fight Until Blood And Ruin</name>
+            <thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_nDreams_FUBAR.png</thumbnail>
+            <background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/nDreamsStore_Back_asia.dds</background>
+          </header>
+          <node type="objects">
+            <header>
+              <name lang="en-GB" default="true">Male</name>
+              <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/male.dds</thumbnail>
+              <background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/nDreamsStore_Back_asia.dds</background>
+              <name lang="fr-FR">Homme</name>
+              <name lang="de-DE">Mannlich</name>
+              <name lang="it-IT">Maschio</name>
+              <name lang="es-ES">Hombre</name>
+              <name lang="ja-JP">男性</name>
+              <name lang="ko-KR">남성</name>
+              <name lang="en-SG">Male</name>
+              <name lang="zh-HK">男性</name>
+              <name lang="zh-TW">男性</name>
+            </header>
+            <object>3B4C505A-5E394B64-93DE1666-29B54A42</object>
+            <object>2ADC8CBD-375A4A96-B70E2A02-AD95A3CE</object>
+          </node>
+          <node type="objects">
+            <header>
+              <name lang="en-GB" default="true">Female</name>
+              <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/female.dds</thumbnail>
+              <background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/nDreamsStore_Back_asia.dds</background>
+              <name lang="fr-FR">Femme</name>
+              <name lang="de-DE">Weiblich</name>
+              <name lang="it-IT">Femmina</name>
+              <name lang="es-ES">Mujer</name>
+              <name lang="ja-JP">女性</name>
+              <name lang="ko-KR">여자</name>
+              <name lang="en-SG">Female</name>
+              <name lang="zh-HK">女性</name>
+              <name lang="zh-TW">女性</name>
+            </header>
+            <object>0520D183-00A3411E-BFAC0E6F-30DDEEB4</object>
+            <object>1207E585-F4E14075-9ACAE17B-FA79B9E8</object>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Home Estates</name>
+        <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Featured_estates.dds</thumbnail>
+        <name lang="ko-KR">Home Estates</name>
+        <name lang="en-SG">Home Estates</name>
+        <name lang="zh-HK">Home Estates</name>
+        <name lang="zh-TW">Home Estates</name>
+      </header>
+      <node>
+        <header>
+          <name>nDreams</name>
+          <thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TH_nDrems_Store.png</thumbnail>
+          <background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/nDreamsStore_Back_asia.dds</background>
+        </header>
+        <node type="objects">
+          <header>
+            <name>Fight Until Blood And Ruin</name>
+            <thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_nDreams_FUBAR.png</thumbnail>
+            <background>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/nDreamsStore_Back_asia.dds</background>
+          </header>
+          <object>C8864540-2F1D4F2C-880D4A5F-5156EFB9</object>
+        </node>
+      </node>
+    </node>
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Home Stuff</name>
+        <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Featured_stuff.dds</thumbnail>
+        <name lang="ko-KR">Home Stuff</name>
+        <name lang="en-SG">Home Stuff</name>
+        <name lang="zh-HK">Home Stuff</name>
+        <name lang="zh-TW">Home Stuff</name>
+      </header>
+      <node type="objects">
+        <header>
+          <name>Granzella</name>
+          <thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_CP_Granzella_128x128.png</thumbnail>
+        </header>
+        	<object>F8FE145A-A8BF4408-907BE3D4-320AF52C</object>
+            <object>FBE129C5-E54C4F5F-B822C684-A17B6FD6</object>
+            <object>FE01F186-3C404153-AD9F36F1-A4DD40B1</object>
+            <object>FF707C87-BDEB4C6A-8FE1C46D-CA3ED268</object>
+            <object>FFBF3288-51C740EF-AFCCD80C-8660A1EA</object>
+            <object>04C3E0C3-FC0E4CD3-BBE8871F-CBC789F6</object>
+            <object>44177404-8B6A4738-A3B75520-3DE141A4</object>
+            <object>919F5B99-A3D44B76-A1987FE6-E709526C</object>
+            <object>B356D8A1-EFD74729-9B4B6268-F4C34AD6</object>
+        	<object>D672A274-9D914C27-AFAD4C86-AA38BE92</object>
+      </node>
+    </node>
+  </node>
+</commerce_point>

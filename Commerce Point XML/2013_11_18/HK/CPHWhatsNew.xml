@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header />
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Home Furnitures</name>
+        <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Featured_deco.dds</thumbnail>
+        <name lang="ko-KR">Home Furniture</name>
+        <name lang="en-SG">Home Furniture</name>
+        <name lang="zh-HK">Home Furniture</name>
+        <name lang="zh-TW">Home Furniture</name>
+      </header>
+      <node type="objects">
+        <header>
+          <name>Granzella</name>
+          <thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_CP_Granzella_128x128.png</thumbnail>
+        </header>
+        <object>864D4455-84F642E1-A9FEDE73-0A9A0DD6</object>
+        <object>D590808B-36FD4AC8-B72D261A-F19DF858</object>
+      </node>
+    </node>
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Home Estates</name>
+        <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Featured_estates.dds</thumbnail>
+        <name lang="ko-KR">Home Estates</name>
+        <name lang="en-SG">Home Estates</name>
+        <name lang="zh-HK">Home Estates</name>
+        <name lang="zh-TW">Home Estates</name>
+      </header>
+      <node type="objects">
+        <header>
+          <name>Granzella</name>
+          <thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_CP_Granzella_128x128.png</thumbnail>
+        </header>
+        <object>864D4455-84F642E1-A9FEDE73-0A9A0DD6</object>
+        <object>D590808B-36FD4AC8-B72D261A-F19DF858</object>
+      </node>
+    </node>
+  </node>
+</commerce_point>

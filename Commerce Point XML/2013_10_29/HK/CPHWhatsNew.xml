@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header />
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Home Threads</name>
+        <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/Featured_threads.dds</thumbnail>
+        <name lang="ko-KR">Home Threads</name>
+        <name lang="en-SG">Home Threads</name>
+        <name lang="zh-HK">Home Threads</name>
+        <name lang="zh-TW">Home Threads</name>
+      </header>
+      <node>
+        <header>
+          <name>Granzella</name>
+          <thumbnail>http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/TN_CP_Granzella_128x128.png</thumbnail>
+        </header>
+        <node type="objects">
+          <header>
+            <name lang="en-GB" default="true">Male</name>
+            <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/male.dds</thumbnail>
+            <name lang="fr-FR">Homme</name>
+            <name lang="de-DE">Mannlich</name>
+            <name lang="it-IT">Maschio</name>
+            <name lang="es-ES">Hombre</name>
+            <name lang="ja-JP">男性</name>
+            <name lang="ko-KR">남성</name>
+            <name lang="en-SG">Male</name>
+            <name lang="zh-HK">男性</name>
+            <name lang="zh-TW">男性</name>
+          </header>
+          <object>D3EAC6DF-C6E240CF-A481F1C4-79BB7362</object>
+          <object>D676717E-6B3B45E0-A2B323DE-A82AC751</object>
+          <object>D75B44F4-2863480E-8E4F125A-62948F78</object>
+          <object>D799722F-22404CBD-94FEB8CD-837D7E9C</object>
+          <object>DEC30A28-79854BB2-995930E5-E4B2EF7D</object>
+        </node>
+        <node type="objects">
+          <header>
+            <name lang="en-GB" default="true">Female</name>
+            <thumbnail useOsdColour="true">http://sceasia-home.playstation.net/asia.home/CommercePoints/Thumbnails/female.dds</thumbnail>
+            <name lang="fr-FR">Femme</name>
+            <name lang="de-DE">Weiblich</name>
+            <name lang="it-IT">Femmina</name>
+            <name lang="es-ES">Mujer</name>
+            <name lang="ja-JP">女性</name>
+            <name lang="ko-KR">여자</name>
+            <name lang="en-SG">Female</name>
+            <name lang="zh-HK">女性</name>
+            <name lang="zh-TW">女性</name>
+          </header>
+          <object>DF4047B4-D4E24D9D-B18BA049-C5E1C2EF</object>
+          <object>E03B0C0B-D6BC4819-8DCDAE8F-F5CC64B8</object>
+          <object>E09177D0-1ED74AEA-A18C7C09-DF109886</object>
+          <object>E0F35D2C-03A5411B-AE482271-D13706F1</object>
+          <object>E3AD739D-D16B417E-BD4D5A59-4931FC21</object>
+        </node>
+      </node>
+    </node>
+  </node>
+</commerce_point>

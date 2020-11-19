@@ -1,0 +1,1395 @@
+<XML>
+  <CONFIG>
+    <BGTYPE>GRAVPARTICLES</BGTYPE>
+  </CONFIG>
+  <CATEGORY BGCOLOR="#418a34">
+    <TEXT LANG="fr-FR">Mon Home</TEXT>
+    <TEXT LANG="de-DE">Mein Home</TEXT>
+    <TEXT LANG="it-IT">Il mio Home</TEXT>
+    <TEXT LANG="es-ES">Mi Home</TEXT>
+    <TEXT>My Home</TEXT>
+    <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/MyHome.dds</IMAGE>
+    <ITEM>
+      <TEXT LANG="fr-FR">Amis en ligne</TEXT>
+      <TEXT LANG="de-DE">Freunde online</TEXT>
+      <TEXT LANG="it-IT">Amici online</TEXT>
+      <TEXT LANG="es-ES">Amigos online</TEXT>
+      <TEXT>Friends Online</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/MyFriends.dds</IMAGE>
+      <FUNCTION>FriendsList</FUNCTION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="fr-FR">Espaces personnels</TEXT>
+      <TEXT LANG="de-DE">Persönliche Apartments</TEXT>
+      <TEXT LANG="it-IT">Spazi personali</TEXT>
+      <TEXT LANG="es-ES">Espacios personales</TEXT>
+      <TEXT>Personal Spaces</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/MyApartments.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="fr-FR">Mes appartements</TEXT>
+        <TEXT LANG="de-DE">Meine Apartments</TEXT>
+        <TEXT LANG="it-IT">I miei appartamenti</TEXT>
+        <TEXT LANG="es-ES">Mis apartamentos</TEXT>
+        <TEXT>My Apartments</TEXT>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/MyApartments.dds</IMAGE>
+        <FUNCTION>YourApartments</FUNCTION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="fr-FR">Mes clubs</TEXT>
+        <TEXT LANG="de-DE">Meine Clubs</TEXT>
+        <TEXT LANG="it-IT">I miei club</TEXT>
+        <TEXT LANG="es-ES">Mis clubs</TEXT>
+        <TEXT>My Clubs</TEXT>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/MyClubs.dds</IMAGE>
+        <FUNCTION>YourClubhouses</FUNCTION>
+      </ITEM>
+      <ITEM>
+        <TEXT>Estates</TEXT>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/estates_store_320x176.png</IMAGE>
+        <DESTINATION>MarketPlace/E/EstatesCP.xml</DESTINATION>
+        <FUNCTION>CommercePointItem</FUNCTION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="fr-FR">Favoris</TEXT>
+      <TEXT LANG="de-DE">Favoriten</TEXT>
+      <TEXT LANG="it-IT">Preferiti</TEXT>
+      <TEXT LANG="es-ES">Favoritos</TEXT>
+      <TEXT>Favourites</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/MyFavourites.dds</IMAGE>
+      <FUNCTION>Favourites</FUNCTION>
+    </ITEM>
+  </CATEGORY>
+  <CATEGORY BGCOLOR="#ffdd51">
+    <TEXT LANG="fr-FR">Nouveautés</TEXT>
+    <TEXT LANG="de-DE">Novità</TEXT>
+    <TEXT LANG="it-IT">Aktuell</TEXT>
+    <TEXT LANG="es-ES">Lo último</TEXT>
+    <TEXT>Latest</TEXT>
+    <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/NewRecommended.dds</IMAGE>
+    <ITEM>
+      <DESTINATION>Home Square</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="fr-FR">Notre sélection</TEXT>
+      <TEXT LANG="de-DE">Im Rampenlicht</TEXT>
+      <TEXT LANG="it-IT">Selezione speciale</TEXT>
+      <TEXT LANG="es-ES">Selección especial</TEXT>
+      <TEXT>Featured Items</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Featured(UPDATE).dds</IMAGE>
+      <DESTINATION>NAV/E/CPEFeatured00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="fr-FR">Notre sélection</HEADER>
+        <HEADER LANG="de-DE">Im Rampenlicht</HEADER>
+        <HEADER LANG="it-IT">Selezione speciale</HEADER>
+        <HEADER LANG="es-ES">Selección especial</HEADER>
+        <HEADER>Featured Items</HEADER>
+        <BODY LANG="fr-FR">Parcourez nos dernières recommandations d'achat ici.</BODY>
+        <BODY LANG="de-DE">Sehen Sie hier Ihre neuesten Einkaufsempfehlungen.</BODY>
+        <BODY LANG="it-IT">Qui puoi dare un'occhiata ai nostri consigli per gli acquisti.</BODY>
+        <BODY LANG="es-ES">Échale un vistazo a nuestras últimas recomendaciones de compra aquí.</BODY>
+        <BODY>Check out our latest shopping recommendations here.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Community</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/comm.png</IMAGE>
+      <ITEM>
+        <DESTINATION>Community_Lounge_383B_3C85</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_FR_395C_1950</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_IT_FFCD_B327</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_DE_20DF_C695</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_SP_5D44_94DA</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_GRE_76A2_1C4D</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_NED_8160_8FBB</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_POR_345_C47C</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_RUS_E521_9F2C</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_POL_E26E_D8C1</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_AR_826E_85F9</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_SCA_A7E_BAB5</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Space_Lounge_SCEE_71C7_4EE8</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Castle_Strakh_CFDB_36FE</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Greenhouse_Open_ABA2_A522</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Prehistoric_Canyon_CE35_532A</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Grand_Central_9290_4055</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>FortBellamyPublic_2A32_1E14</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>VeeMee_Park_58ED_D151</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <TEXT>PS Talent</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PSTALENTTheaterforAugust.jpg</IMAGE>
+      <DESTINATION>SCEE_Auditorium_6_3A92_BF0</DESTINATION>
+      <DESCRIPTION>
+        <HEADER>PS Talent</HEADER>
+        <BODY>This, you have to see! PSTalent does it again with another zany episode of the mega-funny Variety Show – the most popular community-filmed series in PlayStation®history! Volume 5 introduces new videos by Home’s most talented directors: Kozzzmo, Eleventythreve, KCP9973 and Smokey081984 featuring hundreds of talented actors, just like you!</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>casino_lobby_a30e_e9d0</DESTINATION>
+    </ITEM>
+  </CATEGORY>
+  <CATEGORY BGCOLOR="#0091d1">
+    <TEXT LANG="fr-FR">Points forts</TEXT>
+    <TEXT LANG="it-IT">In primo piano</TEXT>
+    <TEXT LANG="es-ES">Destacados</TEXT>
+    <TEXT>Highlights</TEXT>
+    <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Highlights(UPDATE).dds</IMAGE>
+    <ITEM>
+      <TEXT>Community</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/comm.png</IMAGE>
+      <ITEM>
+        <DESTINATION>Community_Lounge_383B_3C85</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_FR_395C_1950</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_IT_FFCD_B327</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_DE_20DF_C695</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_SP_5D44_94DA</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_GRE_76A2_1C4D</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_NED_8160_8FBB</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_POR_345_C47C</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_RUS_E521_9F2C</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_POL_E26E_D8C1</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_AR_826E_85F9</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Community_Lounge_SCA_A7E_BAB5</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="de-DE">Zufällig</TEXT>
+      <TEXT LANG="it-IT">Casuale</TEXT>
+      <TEXT LANG="es-ES">Informal</TEXT>
+      <TEXT>Casual</TEXT>
+      <IMAGE LANG="fr-FR">http://scee-home.playstation.net/e.home/hosted/nav/IconImages/4_IndiePark.jpg</IMAGE>
+      <IMAGE LANG="de-DE">http://scee-home.playstation.net/e.home/hosted/nav/IconImages/4_IndiePark.jpg</IMAGE>
+      <IMAGE LANG="it-IT">http://scee-home.playstation.net/e.home/hosted/nav/IconImages/4_IndiePark.jpg</IMAGE>
+      <IMAGE LANG="es-ES">http://scee-home.playstation.net/e.home/hosted/nav/IconImages/4_IndiePark.jpg</IMAGE>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/CasualDistrict(UPDATE).dds</IMAGE>
+      <ITEM>
+        <DESTINATION>Atom_Republic_Park_5825_4469</DESTINATION>
+        <DESCRIPTION>
+          <BODY LANG="fr-FR">Home Tycoon est le premier jeu de construction de ville free-to-play en 3D du PlayStation®Home's ! Créez la ville de vos rêves, volez en hélicoptère dans les cieux, faites la course avec 16 amis en ligne, profitez de promenades interactives et sensationnelles, et débloquez des récompenses gratuites dans l'expansion Home Tycoon : New Heights.</BODY>
+          <BODY LANG="de-DE">Home Tycoon ist PlayStation®Home's erstes kostenlos spielbares 3D Städtebau-Spiel! Erstelle deine Traumstadt, fliege mit dem Helikopter, tritt gegen bis zu 16 Freunden in Online-Rennen an, erlebe interaktive Achterbahnfahrten und schalte kostenlose Belohnungen frei in der Erweiterung Home Tycoon: New Heights.</BODY>
+          <BODY LANG="it-IT">Home Tycoon è il miglior gioco free-to-play di costruzione di città 3D disponibile per PlayStation®Home! Crea la città dei tuoi sogni, pilota elicotteri nel cielo, gareggia online con fino a 16 amici, divertiti con corse interattive da brividi, e sblocca ricompense gratuite nell'espansione Home Tycoon: New Heights.</BODY>
+          <BODY LANG="es-ES">¡Home Tycoon es el juego gratuito de construicción de ciudades en 3D por excelencia de PlayStation®Home! Crea la ciudad de tus sueños, vuela por los cielos con helicóptero, haz carreras en línea con hasta 16 amigos, disfruta de emocionantes  viajes interactivos y desbloquea premios gratuitos en Home Tycoon: expansión Nuevas Alturas.</BODY>
+          <BODY>Home Tycoon is PlayStation®Home's premier free-to-play 3D city-building game! Create your dream city, fly helicopters through the skies, race up to 16 friends online, enjoy interactive thrill rides, and unlock free rewards in the Home Tycoon: New Heights expansion.</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Aurora_Non_SCEJ_568D_1E32</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="it-IT">Azione</TEXT>
+      <TEXT LANG="es-ES">Acción</TEXT>
+      <TEXT>Action</TEXT>
+      <IMAGE LANG="fr-FR">http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Action_Thumbnail_320x176.png</IMAGE>
+      <IMAGE LANG="de-DE">http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Action_Thumbnail_320x176.png</IMAGE>
+      <IMAGE LANG="it-IT">http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Action_Thumbnail_320x176.png</IMAGE>
+      <IMAGE LANG="es-ES">http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Action_Thumbnail_320x176.png</IMAGE>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/ActionDistrict(UPDATE).dds</IMAGE>
+      <ITEM>
+        <DESTINATION>Hellfire_Nebulon_ED3C_DE23</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>NoMansLand_Lobby_9B47_E5F2</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT>Adventure</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/AdventureDistrict(UPDATE).dds</IMAGE>
+      <ITEM>
+        <DESTINATION>Killer_Plants_Space_9144_BA21</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>WF_MainTown_2502_365F</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="de-DE">Sport</TEXT>
+      <TEXT LANG="it-IT">Sport</TEXT>
+      <TEXT LANG="es-ES">Deportes</TEXT>
+      <TEXT>Sports</TEXT>
+      <IMAGE LANG="fr-FR">http://scee-home.playstation.net/e.home/hosted/nav/IconImages/5_SportsDistrict.jpg</IMAGE>
+      <IMAGE LANG="de-DE">http://scee-home.playstation.net/e.home/hosted/nav/IconImages/5_SportsDistrict.jpg</IMAGE>
+      <IMAGE LANG="it-IT">http://scee-home.playstation.net/e.home/hosted/nav/IconImages/5_SportsDistrict.jpg</IMAGE>
+      <IMAGE LANG="es-ES">http://scee-home.playstation.net/e.home/hosted/nav/IconImages/5_SportsDistrict.jpg</IMAGE>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/SportsDistrict(UPDATE).dds</IMAGE>
+      <ITEM>
+        <DESTINATION>Sodium2_RTM_1476_98E4</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>SCEA_Outso_Arcade_3C7E_FB2B</DESTINATION>
+      </ITEM>
+    </ITEM>
+  </CATEGORY>
+  <CATEGORY BGCOLOR="#662d91">
+    <TEXT LANG="fr-FR">Naviguer</TEXT>
+    <TEXT LANG="de-DE">Durchsuchen</TEXT>
+    <TEXT LANG="it-IT">Naviga</TEXT>
+    <TEXT LANG="es-ES">Explorar</TEXT>
+    <TEXT>Browse</TEXT>
+    <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Explore.dds</IMAGE>
+    <ITEM>
+      <TEXT LANG="fr-FR">Récemment consultés</TEXT>
+      <TEXT LANG="de-DE">Kürzlich besucht</TEXT>
+      <TEXT LANG="it-IT">Visitati di recente</TEXT>
+      <TEXT LANG="es-ES">Visitados recientemente</TEXT>
+      <TEXT>Recently Visited</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/RecentlyVisited.dds</IMAGE>
+      <FUNCTION>RecentlyVisited</FUNCTION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="fr-FR">Espaces centraux</TEXT>
+      <TEXT LANG="de-DE">Hub-Apartments</TEXT>
+      <TEXT LANG="it-IT">Spazi hub</TEXT>
+      <TEXT LANG="es-ES">Espacios de la Central</TEXT>
+      <TEXT>Hub Spaces</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/HomeSpaces(UPDATE).dds</IMAGE>
+      <ITEM>
+        <DESTINATION>Home Square</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>SCEE_PierPark_Dest_FB6D_390A</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>SCEE_Sports_Dest_4B15_D157</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Action_Thumbnail_320x176.png</IMAGE>
+        <DESTINATION>SCEE_Action_Dest_D62F_81CF</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>SCEE_Dest_Casual_C3B1_7215</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/AdventureDistrict_Nav_324x152.jpg</IMAGE>
+        <DESTINATION>SCEE_Adventure_Dest_23E1_DF4B</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Game Space</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>2013_Cinema_193B_7E40</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="fr-FR">Centre commercial - Est</TEXT>
+        <TEXT LANG="de-DE">Einkaufszentrum – Ost</TEXT>
+        <TEXT LANG="it-IT">Centro commerciale - Est</TEXT>
+        <TEXT LANG="es-ES">Centro comercial: Este</TEXT>
+        <TEXT>Shopping Mall East</TEXT>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/shoppingcentre001.png</IMAGE>
+        <DESTINATION>2013_Marketplace_8480_98F0</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="fr-FR">Centre commercial - Ouest</TEXT>
+        <TEXT LANG="de-DE">Einkaufszentrum – West</TEXT>
+        <TEXT LANG="it-IT">Centro commerciale - Ovest</TEXT>
+        <TEXT LANG="es-ES">Centro comercial: Oeste</TEXT>
+        <TEXT>Shopping Mall West</TEXT>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/ShoppingCentre2_Nav06.png</IMAGE>
+        <DESTINATION>VMShoppingCentre_F1EB_5D0C</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>VeeMee_Park_58ED_D151</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="fr-FR">Parque Atom Republic</TEXT>
+      <TEXT LANG="es-ES">Parco Atom Republic</TEXT>
+      <TEXT>Atom Republic Park</TEXT>
+      <DESTINATION>Atom_Republic_Park_5825_4469</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="fr-FR">Parque Atom Republic</HEADER>
+        <HEADER LANG="es-ES">Parco Atom Republic</HEADER>
+        <HEADER>Atom Republic Park</HEADER>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Audi</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Audi_Icon.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>AudiHub_231D_83AC</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>AudiVrun_152E_D24C</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Audi_Sled_D1B8_AAB8</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Audi_Auditorium_35B0_F3CE</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Aurora_Non_SCEJ_568D_1E32</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>casino_lobby_a30e_e9d0</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>PiratesParadise_Lake_4DB1_E98A</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Heavy_Water_CF4D_EA19</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>David_Guetta_World_208_DDDA</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Dead_Nation_2_DD26_B0EE</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>SCEA_Outso_Arcade_3C7E_FB2B</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Doctor Who TARDIS</TEXT>
+      <DESTINATION>tardis_open_house_b48d_2762</DESTINATION>
+      <DESCRIPTION>
+        <HEADER>Doctor Who TARDIS</HEADER>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Dust514_Warbarge_84CA_57A</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Emo_Ray_B4C9_ED5</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Soldierville_142_8397</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Granzella</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Granzella_Nav_SCEE.png</IMAGE>
+      <ITEM>
+        <DESTINATION>Whale_Lounge_6710_2FCB</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="fr-FR">Place Granzella au Crépuscule</TEXT>
+        <TEXT LANG="de-DE">Granzella Plaza im Abendlicht</TEXT>
+        <TEXT LANG="it-IT">Palazzo del Crepuscolo Granzella</TEXT>
+        <TEXT LANG="es-ES">Plaza crepuscular Granzella</TEXT>
+        <TEXT>Granzella Plaza in Twilight</TEXT>
+        <DESTINATION>Space_Lounge_SCEE_71C7_4EE8</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="fr-FR">Place Granzella au Crépuscule</HEADER>
+          <HEADER LANG="de-DE">Granzella Plaza im Abendlicht</HEADER>
+          <HEADER LANG="it-IT">Palazzo del Crepuscolo Granzella</HEADER>
+          <HEADER LANG="es-ES">Plaza crepuscular Granzella</HEADER>
+          <HEADER>Granzella Plaza in Twilight</HEADER>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="fr-FR">La base secrète</TEXT>
+        <TEXT LANG="de-DE">Die Geheimbasis</TEXT>
+        <TEXT LANG="it-IT">La base segreta</TEXT>
+        <TEXT LANG="es-ES">La base secreta</TEXT>
+        <TEXT>The Secret Base</TEXT>
+        <DESTINATION>2013Apl_base_SCEE_3A4E_22AE</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Edo_Lounge_EU_7026_1D</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>SCEE_Gran_Lagoon_99F8_FC64</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Seaside_Lounge_EU_E6F2_3E9E</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Greenhouse_Open_ABA2_A522</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>HGL_Combat_Lobby_452D_9FF9</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="fr-FR">Hollywood Hills Portes Ouvertes</TEXT>
+      <TEXT LANG="de-DE">Anwesen eines Hauses in Hollywood Hills</TEXT>
+      <TEXT LANG="it-IT">Casa di Hollywood Hills Open House</TEXT>
+      <TEXT LANG="es-ES">Casa pública Hollywood Hills</TEXT>
+      <TEXT>Hollywood Hills Open House</TEXT>
+      <DESTINATION>PUB_Hollywood_Hills_2D44_46FA</DESTINATION>
+      <DESCRIPTION>
+        <HEADER LANG="fr-FR">Hollywood Hills Portes Ouvertes</HEADER>
+        <HEADER LANG="de-DE">Anwesen eines Hauses in Hollywood Hills</HEADER>
+        <HEADER LANG="it-IT">Casa di Hollywood Hills Open House</HEADER>
+        <HEADER LANG="es-ES">Casa pública Hollywood Hills</HEADER>
+        <HEADER>Hollywood Hills Open House</HEADER>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Grand_Central_9290_4055</DESTINATION>
+      <DESCRIPTION>
+        <BODY LANG="fr-FR">Home Tycoon est le premier jeu de construction de ville free-to-play en 3D du PlayStation®Home's ! Créez la ville de vos rêves, volez en hélicoptère dans les cieux, faites la course avec 16 amis en ligne, profitez de promenades interactives et sensationnelles, et débloquez des récompenses gratuites dans l'expansion Home Tycoon : New Heights.</BODY>
+        <BODY LANG="de-DE">Home Tycoon ist PlayStation®Home's erstes kostenlos spielbares 3D Städtebau-Spiel! Erstelle deine Traumstadt, fliege mit dem Helikopter, tritt gegen bis zu 16 Freunden in Online-Rennen an, erlebe interaktive Achterbahnfahrten und schalte kostenlose Belohnungen frei in der Erweiterung Home Tycoon: New Heights.</BODY>
+        <BODY LANG="it-IT">Home Tycoon è il miglior gioco free-to-play di costruzione di città 3D disponibile per PlayStation®Home! Crea la città dei tuoi sogni, pilota elicotteri nel cielo, gareggia online con fino a 16 amici, divertiti con corse interattive da brividi, e sblocca ricompense gratuite nell'espansione Home Tycoon: New Heights.</BODY>
+        <BODY LANG="es-ES">¡Home Tycoon es el juego gratuito de construicción de ciudades en 3D por excelencia de PlayStation®Home! Crea la ciudad de tus sueños, vuela por los cielos con helicóptero, haz carreras en línea con hasta 16 amigos, disfruta de emocionantes  viajes interactivos y desbloquea premios gratuitos en Home Tycoon: expansión Nuevas Alturas.</BODY>
+        <BODY>Home Tycoon is PlayStation®Home's premier free-to-play 3D city-building game! Create your dream city, fly helicopters through the skies, race up to 16 friends online, enjoy interactive thrill rides, and unlock free rewards in the Home Tycoon: New Heights expansion.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>SCEE_LBP_Hub_4C7A_664F</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Lockwood</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/lockwood.png</IMAGE>
+      <ITEM>
+        <DESTINATION>Lockwood_Showcase_6663_C388</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Castle_Strakh_CFDB_36FE</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Prehistoric_Canyon_CE35_532A</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>FortBellamyPublic_2A32_1E14</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="fr-FR">Pic d'Ajagara - Dragontop</TEXT>
+        <TEXT LANG="de-DE">Ajagaras Gipfel - Dragontop</TEXT>
+        <TEXT LANG="it-IT">Cima di Ajagara - Dragontop</TEXT>
+        <TEXT LANG="es-ES">Pico de Ajagara - Dragontop</TEXT>
+        <TEXT>Ajagara's Peak - Dragontop</TEXT>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/ajagara_nav.png</IMAGE>
+        <DESTINATION>Ajagaras_Peak_Public_211C_B987</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Tundra_Lodge_Public_1721_17D9</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Abbey_Hill_Field_7D5D_6172</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="fr-FR">Le royaume des cieux</TEXT>
+        <TEXT LANG="de-DE">Königreich der Himmel</TEXT>
+        <TEXT LANG="it-IT">Il Regno dei Cieli</TEXT>
+        <TEXT LANG="es-ES">El Reino de los cielos</TEXT>
+        <TEXT>Kingdom of the Skies</TEXT>
+        <DESTINATION>Jewel_Of_The_Skies_B0C2_AB36</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="fr-FR">Le royaume des cieux</HEADER>
+          <HEADER LANG="de-DE">Königreich der Himmel</HEADER>
+          <HEADER LANG="it-IT">Il Regno dei Cieli</HEADER>
+          <HEADER LANG="es-ES">El Reino de los cielos</HEADER>
+          <HEADER>Kingdom of the Skies</HEADER>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Prairie_Navtile.png</IMAGE>
+        <DESTINATION>Prairie_F15F_8129</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Sunset_Lounge_EBEF_AD7C</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="fr-FR">Centrale Dream</TEXT>
+        <TEXT LANG="de-DE">Traumzentrale</TEXT>
+        <TEXT LANG="it-IT">Centrale dei sogni</TEXT>
+        <TEXT LANG="es-ES">El centro de los sueños</TEXT>
+        <TEXT>Dream Central</TEXT>
+        <DESTINATION>Millionaires_Hub_1508_98C7</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>SCEJ_LocoRoco_Pub03_6A94_35E8</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>LOOT_Public_Space_237E_1F7A</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Killer_Plants_Space_9144_BA21</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Mercia_Hub_64E4_C8</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>MIB_Lobby_6389_3BE0</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <TEXT>The Midway</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/large.png</IMAGE>
+      <ITEM>
+        <DESTINATION>Hot_Spot_Lobby_2250_B5EF</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>SCEA_MMI_Midway_D11D_5547</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Midway2_68D9_45B4</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Midway_3_C664_E87B</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Music_Unlimied_Pub_8890_79FD</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>NoMansLand_Lobby_9B47_E5F2</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Hellfire_Nebulon_ED3C_DE23</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>SCEA_Playground_CC0D_AEA4</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>J_Peakvox_Labs_9_AA4E_11FE</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Pet_Shop_Aquarium_EA2B_8ADA</DESTINATION>
+    </ITEM>
+<ITEM>
+			<TEXT LANG="fr-FR">Pottermore</TEXT>
+			<TEXT LANG="de-DE">Pottermore</TEXT>
+			<TEXT LANG="it-IT">Pottermore</TEXT>
+			<TEXT LANG="es-ES">Pottermore</TEXT>
+			<TEXT LANG="ja-JP">Pottermore</TEXT>
+			<TEXT>Pottermore</TEXT>
+			<IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PM_Content/pottermore_logo.dds</IMAGE>
+			<ITEM PARAM="Diagon_Alley_3DCB_D186">
+				<TEXT LANG="fr-FR">Le Chemin de Traverse</TEXT>
+				<TEXT LANG="de-DE">Winkelgasse</TEXT>
+				<TEXT LANG="it-IT">Diagon Alley</TEXT>
+				<TEXT LANG="es-ES">Callejón Diagon</TEXT>
+				<TEXT LANG="ja-JP">???????</TEXT>
+				<TEXT>Diagon Alley</TEXT>
+				<IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PM_Content/Diagon_Alley_large.png</IMAGE>
+				<TYPE>MINIAPP</TYPE>
+				<OBJECTID>B06DA2FB-251541B5-9C2303A9-6CCF5FB6</OBJECTID>
+				<FUNCTION>NavApp</FUNCTION>
+				<DESCRIPTION>
+					<TEXT LANG="fr-FR">Le Chemin de Traverse</TEXT>
+					<TEXT LANG="de-DE">Winkelgasse</TEXT>
+					<TEXT LANG="it-IT">Diagon Alley</TEXT>
+					<TEXT LANG="es-ES">Callejón Diagon</TEXT>
+					<TEXT LANG="ja-JP">???????</TEXT>
+					<HEADER>Diagon Alley</HEADER>
+					<BODY LANG="fr-FR">Le Chemin de Traverse est une rue pavée tortueuse cachée dans Londres. C’est le lieu où de nombreux sorciers vont faire leurs achats.</BODY>
+					<BODY LANG="de-DE">Die Winkelgasse ist eine verwinkelte Straße mit Kopfsteinpflaster in einer versteckten Ecke Londons, in der viele Hexen und Zauberer einkaufen gehen.</BODY>
+					<BODY LANG="it-IT">Diagon Alley è una stradina nascosta di Londra, storta e acciottolata: meta preferita per lo shopping di molte streghe e molti maghi.</BODY>
+					<BODY LANG="es-ES">El Callejón Diagon es una calle adoquinada y sinuosa, escondida en Londres, donde muchas brujas y magos se reúnen para hacer sus compras.</BODY>
+					<BODY LANG="ja-JP">ダイアゴン横丁はロンドンにある石畳の曲がりくねった隠れ通りで、多くの魔女と魔法使いが買い物をするためにここに集まってくる。</BODY>
+					<BODY>Diagon Alley is a cobbled, crooked street, hidden in London, where many witches and wizards gather to do their shopping.</BODY>
+				</DESCRIPTION>
+			</ITEM>
+			<ITEM PARAM="Hogwarts_Express_E7F2_12DF">
+				<TEXT LANG="fr-FR">Poudlard Express</TEXT>
+				<TEXT LANG="de-DE">Hogwarts-Express</TEXT>
+				<TEXT LANG="it-IT">Espresso per Hogwarts</TEXT>
+				<TEXT LANG="es-ES">Expreso de Hogwarts</TEXT>
+				<TEXT LANG="ja-JP">ホグワーツ特急</TEXT>
+				<TEXT>Hogwarts Express</TEXT>
+				<IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PM_Content/hogwarts_express_large.png</IMAGE>
+				<TYPE>MINIAPP</TYPE>
+				<OBJECTID>B06DA2FB-251541B5-9C2303A9-6CCF5FB6</OBJECTID>
+				<FUNCTION>NavApp</FUNCTION>
+				<DESCRIPTION>
+					<HEADER LANG="fr-FR">Poudlard Express</HEADER>
+					<HEADER LANG="de-DE">Hogwarts-Express</HEADER>
+					<HEADER LANG="it-IT">Espresso per Hogwarts</HEADER>
+					<HEADER LANG="es-ES">Expreso de Hogwarts</HEADER>
+					<HEADER LANG="ja-JP">ホグワーツ特急</HEADER>
+					<HEADER>Hogwarts Express</HEADER>
+					<BODY LANG="fr-FR">Le Poudlard Express est un train à vapeur qui transporte les élèves vers l'école et les en ramène.</BODY>
+					<BODY LANG="de-DE">Der Hogwarts-Express ist eine rote Dampflok, die die Schüler zur Schule und wieder nach London bringt.</BODY>
+					<BODY LANG="it-IT">L'Espresso per Hogwarts è un treno a vapore rosso scarlatto che accompagna a scuola gli studenti.</BODY>
+					<BODY LANG="es-ES">El expreso de Hogwarts es un tren de vapor escarlata que lleva y trae a los estudiantes del colegio.</BODY>
+					<BODY LANG="ja-JP">ホグワーツ特急は、ホグワーツへ行き来する学生を運ぶ大きな緋色の蒸気機関車である。</BODY>
+					<BODY>The Hogwarts Express is a scarlet steam engine that takes students to and from school.</BODY>
+				</DESCRIPTION>
+			</ITEM>
+			<ITEM PARAM="Hogwarts_Great_Hall_B6D6_836E">
+				<TEXT LANG="fr-FR">La Grande Salle</TEXT>
+				<TEXT LANG="de-DE">Große Halle</TEXT>
+				<TEXT LANG="it-IT">Sala Grande</TEXT>
+				<TEXT LANG="es-ES">Gran Comedor</TEXT>
+				<TEXT LANG="ja-JP">大広間</TEXT>
+				<TEXT>Great Hall</TEXT>
+				<IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PM_Content/greathall_large.png</IMAGE>
+				<TYPE>MINIAPP</TYPE>
+				<OBJECTID>B06DA2FB-251541B5-9C2303A9-6CCF5FB6</OBJECTID>
+				<FUNCTION>NavApp</FUNCTION>
+				<DESCRIPTION>
+					<HEADER LANG="fr-FR">La Grande Salle</HEADER>
+					<HEADER LANG="de-DE">Große Halle</HEADER>
+					<HEADER LANG="it-IT">Sala Grande</HEADER>
+					<HEADER LANG="es-ES">Gran Comedor</HEADER>
+					<HEADER LANG="ja-JP">大広間</HEADER>
+					<HEADER>Great Hall</HEADER>
+					<BODY LANG="fr-FR">La Grande Salle est l'une des salles les plus vastes du château de Poudlard, où l'on se rassemble pour les repas et les événements de l'école.</BODY>
+					<BODY LANG="de-DE">Die Große Halle ist einer der größten Räume in Schloss Hogwarts und der Hauptversammlungsplatz bei Mahlzeiten und Schulveranstaltungen.</BODY>
+					<BODY LANG="it-IT">La Sala Grande è una delle stanze più ampie del castello di Hogwarts, luogo di ritrovo principale per riunioni, pasti ed eventi scolastici.</BODY>
+					<BODY LANG="es-ES">El Gran Comedor es una de las habitaciones más grandes del castillo de Hogwarts, el principal punto de encuentro para comidas y eventos del colegio.</BODY>
+					<BODY LANG="ja-JP">大広間はホグワーツ城にある最もおおきな部屋の一つで、食事や学校行事のための大切な集いの場所である。</BODY>
+					<BODY>The Great Hall is one of the largest rooms in Hogwarts castle, the main gathering place for meals and school events.</BODY>
+				</DESCRIPTION>
+			</ITEM>
+			<ITEM PARAM="Hogwarts_Library_ED32_DE53">
+				<TEXT LANG="fr-FR">La Bibliothèque</TEXT>
+				<TEXT LANG="de-DE">Bibliothek</TEXT>
+				<TEXT LANG="it-IT">Biblioteca</TEXT>
+				<TEXT LANG="es-ES">Biblioteca</TEXT>
+				<TEXT LANG="ja-JP">ホグワーツの図書館</TEXT>
+				<TEXT>Library</TEXT>
+				<IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PM_Content/libraryLarge.png</IMAGE>
+				<TYPE>MINIAPP</TYPE>
+				<OBJECTID>B06DA2FB-251541B5-9C2303A9-6CCF5FB6</OBJECTID>
+				<FUNCTION>NavApp</FUNCTION>
+				<DESCRIPTION>
+					<HEADER LANG="fr-FR">La Bibliothèque</HEADER>
+					<HEADER LANG="de-DE">Bibliothek</HEADER>
+					<HEADER LANG="it-IT">Biblioteca</HEADER>
+					<HEADER LANG="es-ES">Biblioteca</HEADER>
+					<HEADER LANG="ja-JP">ホグワーツの図書館</HEADER>
+					<HEADER>Library</HEADER>
+					<BODY LANG="fr-FR">La bibliothèque de Poudlard est composée de centaines de rayons étroits remplis de livres de magie.</BODY>
+					<BODY LANG="de-DE">In der Bibliothek von Hogwarts gibt es Hunderte von schmalen Regalreihen, die mit Büchern über die Zauberkunst gefüllt sind.</BODY>
+					<BODY LANG="it-IT">La biblioteca di Hogwards custodisce centinaia di scaffali con ripiani stracolmi di libri di magia.</BODY>
+					<BODY LANG="es-ES">La biblioteca de Hogwarts cuenta con cientos de estrechos pasillos llenos de libros sobre magia.</BODY>
+					<BODY LANG="ja-JP">ホグワーツの図書館には、魔法についての本が詰まった棚が何百も立ち並んでいる。</BODY>
+					<BODY>The Hogwarts library holds hundreds of narrow rows full of books on magic.</BODY>
+				</DESCRIPTION>
+			</ITEM>
+			<ITEM PARAM="Charms_Lesson_526E_E8D9">
+				<TEXT LANG="fr-FR">Enchantements</TEXT>
+				<TEXT LANG="de-DE">Zauberkunst</TEXT>
+				<TEXT LANG="it-IT">Incantesimi</TEXT>
+				<TEXT LANG="es-ES">Encantamientos</TEXT>
+				<TEXT LANG="ja-JP">妖精の魔法</TEXT>
+				<TEXT>Charms</TEXT>
+				<IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PM_Content/charmsLarge.png</IMAGE>
+				<TYPE>MINIAPP</TYPE>
+				<OBJECTID>B06DA2FB-251541B5-9C2303A9-6CCF5FB6</OBJECTID>
+				<FUNCTION>NavApp</FUNCTION>
+				<DESCRIPTION>
+					<HEADER LANG="fr-FR">Enchantements</HEADER>
+					<HEADER LANG="de-DE">Zauberkunst</HEADER>
+					<HEADER LANG="it-IT">Incantesimi</HEADER>
+					<HEADER LANG="es-ES">Encantamientos</HEADER>
+					<HEADER LANG="ja-JP">妖精の魔法</HEADER>
+					<HEADER>Charms</HEADER>
+					<BODY LANG="fr-FR">Tous les élèves de première année à Poudlard doivent étudier sept matières : Métamorphose, Enchantements, Potions, Histoire de la magie, Défense contre les forces du Mal, Astronomie et Botanique.</BODY>
+					<BODY LANG="de-DE">Alle Erstklässler in Hogwarts müssen sieben Fächer belegen: Verwandlung, Zauberkunst, Zaubertränke, Geschichte der Zauberei, Verteidigung gegen die dunklen Künste, Astronomie und Kräuterkunde.</BODY>
+					<BODY LANG="it-IT">Durante il primo anno ad Hogwarts ci sono sette materie: Trasfigurazione, Incantesimi, Pozioni, Storia della magia, Difesa contro le Arti Oscure, Astronomia ed Erbologia.</BODY>
+					<BODY LANG="es-ES">Todos los estudiantes de Hogwarts de primer año tienen que coger siete asignaturas: Transformaciones, Encantamientos, Pociones, Historia de la Magia, Defensa Contra las Artes Oscuras, Astronomía y Herbología.</BODY>
+					<BODY LANG="ja-JP">ホグワーツの一年生には、七つの必須科目があります。変身術、妖精の魔法、魔法薬学、魔法史、闇の魔術の防衛術、天文学、薬草学です。</BODY>
+					<BODY>All first-years at Hogwarts must take seven subjects: Transfiguration, Charms, Potions, History of Magic, Defence Against the Dark Arts, Astronomy and Herbology.</BODY>
+				</DESCRIPTION>
+			</ITEM>
+			<ITEM PARAM="Broomstick_Racing_5E44_D072">
+				<TEXT LANG="fr-FR">La Forêt interdite</TEXT>
+				<TEXT LANG="de-DE">Verbotener Wald</TEXT>
+				<TEXT LANG="it-IT">Foresta proibita</TEXT>
+				<TEXT LANG="es-ES">Bosque prohibido</TEXT>
+				<TEXT LANG="ja-JP">禁じられた森</TEXT>
+				<TEXT>Forbidden Forest</TEXT>
+				<IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PM_Content/broomstickRaceLg.png</IMAGE>
+				<TYPE>MINIAPP</TYPE>
+				<OBJECTID>B06DA2FB-251541B5-9C2303A9-6CCF5FB6</OBJECTID>
+				<FUNCTION>NavApp</FUNCTION>
+				<DESCRIPTION>
+					<HEADER LANG="fr-FR">La Forêt interdite</HEADER>
+					<HEADER LANG="de-DE">Verbotener Wald</HEADER>
+					<HEADER LANG="it-IT">Foresta proibita</HEADER>
+					<HEADER LANG="es-ES">Bosque prohibido</HEADER>
+					<HEADER LANG="ja-JP">禁じられた森</HEADER>
+					<HEADER>Forbidden Forest</HEADER>
+					<BODY LANG="fr-FR">La Forêt interdite se trouve aux frontières du territoire de Poudlard, près de la hutte de Hagrid. Pleine de créatures magiques mystérieuses et dangereuses, elle est interdite à tout élève non accompagné par un membre du personnel de Poudlard.</BODY>
+					<BODY LANG="de-DE">Der Verbotene Wald befindet sich am Rande des Hogwarts-Geländes in der Nähe von Hagrids Hütte. Der Wald steckt voller magischer, geheimnisvoller und gefährlicher Geschöpfe, und Schülern, die nicht in Begleitung von Hogwarts-Personal sind, ist das Betreten untersagt.</BODY>
+					<BODY LANG="it-IT">La foresta proibita si trova al limitare del comprensorio di Hogwarts, vicino alla capanna di Hagrid. La foresta, piena di creature magiche, misteriose e pericolose, è vietata a tutti gli studenti, a meno che non siano accompagnati da un insegnante.</BODY>
+					<BODY LANG="es-ES">El bosque prohibido está en el límite de los terrenos de Hogwarts, cerca de la cabaña de Hagrid. Ningún estudiante sin compañía puede adentrarse en el bosque, lleno de criaturas mágicas, misteriosas y peligrosas.</BODY>
+					<BODY LANG="ja-JP">禁じられた森は、ホグワーツの敷地のはずれ、ハグリッドの小屋の近くにある。不思議で危険な生物だらけの森には、ホグワーツの先生たちの付添いなく学生たちが入ることは禁止されていた。</BODY>
+					<BODY>The Forbidden Forest is on the edge of the Hogwarts grounds, near Hagrid's hut. The forest, full of magical, mysterious and dangerous creatures, is out of bounds to any student unaccompanied by Hogwarts staff.</BODY>
+				</DESCRIPTION>
+			</ITEM>
+			<ITEM PARAM="Wizards_Chess_CCC4_8B3C">
+				<TEXT LANG="fr-FR">La salle de l'échiquier</TEXT>
+				<TEXT LANG="de-DE">Schachbrettkammer</TEXT>
+				<TEXT LANG="it-IT">Sala degli scacchi</TEXT>
+				<TEXT LANG="es-ES">Cámara de ajedrez</TEXT>
+				<TEXT LANG="ja-JP">チェス盤の部屋</TEXT>
+				<TEXT>Chessboard Chamber</TEXT>
+				<IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PM_Content/chessLarge.png</IMAGE>
+				<TYPE>MINIAPP</TYPE>
+				<OBJECTID>B06DA2FB-251541B5-9C2303A9-6CCF5FB6</OBJECTID>
+				<FUNCTION>NavApp</FUNCTION>
+				<DESCRIPTION>
+					<HEADER LANG="fr-FR">La salle de l'échiquier</HEADER>
+					<HEADER LANG="de-DE">Schachbrettkammer</HEADER>
+					<HEADER LANG="it-IT">Sala degli scacchi</HEADER>
+					<HEADER LANG="es-ES">Cámara de ajedrez</HEADER>
+					<HEADER LANG="ja-JP">チェス盤の部屋</HEADER>
+					<HEADER>Chessboard Chamber</HEADER>
+					<BODY LANG="fr-FR">Ce Moment de Harry Potter à l'École des Sorciers sur Pottermore.com représente les pièces d'échecs grandeur nature que le professeur McGonagall métamorphose dans les salles souterraines de l'école.</BODY>
+					<BODY LANG="de-DE">Diese Szene aus „Harry Potter und der Stein der Weisen“ auf Pottermore.com zeigt die lebensgroßen Schachfiguren, die Professor McGonagall in den unterirdischen Kammern der Schule verwandelt.</BODY>
+					<BODY LANG="it-IT">Questa scena tratta da Harry Potter e la Pietra Filosofale su Pottermore.com ripropone gli scacchi a dimensioni naturali che la professoressa McGranitt trasfigura nelle camere sotterranee della scuola.</BODY>
+					<BODY LANG="es-ES">Este momento de Harry Potter y la Piedra Filosofal en Pottermore.com representa las piezas de ajedrez de tamaño natural que la profesora McGonagall transforma en las cámaras que hay bajo el colegio.</BODY>
+					<BODY LANG="ja-JP">このPottermore.comの「ハリー・ポッターと賢者の石」の絵は、マクゴナガル先生が、学校の地下にある部屋で等身大サイズのチェスセットを変身した瞬間を描いたものです。</BODY>
+					<BODY>This Moment from Harry Potter and the Philosopher's Stone on Pottermore.com depicts the life-size chess pieces that Professor McGonagall transfigures in the underground chambers of the school.</BODY>
+				</DESCRIPTION>
+			</ITEM>
+			<ITEM>
+				<TEXT LANG="fr-FR">Relier Ton Compte Pottermore.com</TEXT>
+				<TEXT LANG="de-DE">Dein Pottermore.com-Konto Verbinden</TEXT>
+				<TEXT LANG="it-IT">Collega Il Tuo Account Pottermore.com</TEXT>
+				<TEXT LANG="es-ES">Vincula Tu Cuenta De Pottermore.com</TEXT>
+				<TEXT LANG="ja-JP">Pottermore.comのアカウントに連携</TEXT>
+				<TEXT>Link Your Pottermore.com Account</TEXT>
+				<IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PM_Content/sorting_hat.dds</IMAGE>
+				<TYPE>FOCUS</TYPE>
+				<OBJECTID>11A65FDC-2E314963-BC36CC6A-E7CCE7E8</OBJECTID>
+				<FUNCTION>NavApp</FUNCTION>
+				<DESCRIPTION>
+					<HEADER LANG="fr-FR">Relier Ton Compte Pottermore.com</HEADER>
+					<HEADER LANG="de-DE">Dein Pottermore.com-Konto Verbinden</HEADER>
+					<HEADER LANG="it-IT">Collega Il Tuo Account Pottermore.com</HEADER>
+					<HEADER LANG="es-ES">Vincula Tu Cuenta De Pottermore.com</HEADER>
+					<HEADER LANG="ja-JP">Pottermore.comのアカウントに連携</HEADER>
+					<HEADER>Link Your Pottermore.com Account</HEADER>
+					<BODY LANG="fr-FR">Relie ton ID PSN à ton compte Pottermore.com pour accéder à du contenu et des zones supplémentaires. Tu peux t'inscrire et créer un compte gratuitement sur Pottermore.com.</BODY>
+					<BODY LANG="de-DE">Verbinde deine PSN-ID mit deinem Pottermore.com-Konto, um auf weitere Inhalte und Bereiche zuzugreifen. Du kannst ein kostenloses Konto auf Pottermore.com einrichten.</BODY>
+					<BODY LANG="it-IT">Collega il tuo ID PSN al tuo account Pottermore.com per accedere a spazi e contenuti aggiuntivi. Puoi iscriverti con un account gratuito su Pottermore.com.</BODY>
+					<BODY LANG="es-ES">Vincula tu ID de PSN a tu cuenta de Pottermore.com para acceder a contenido y espacios adicionales. Puedes registrar una cuenta sin coste alguno en Pottermore.com.</BODY>
+					<BODY LANG="ja-JP">PSNのIDとPottermore.comのアカウントを連携させると、追加コンテンツと場所が手に入る。無料のアカウントは、Pottermore.comで作成できるよ。</BODY>
+					<BODY>Link your PSN ID to your Pottermore.com account to access additional content and spaces. You can sign up for a free account at Pottermore.com.</BODY>
+				</DESCRIPTION>
+			</ITEM>
+			<ITEM>
+				<TEXT LANG="fr-FR">Salle commune</TEXT>
+				<TEXT LANG="de-DE">Gemeinschaftsraum</TEXT>
+				<TEXT LANG="it-IT">Sala comune</TEXT>
+				<TEXT LANG="es-ES">Sala común</TEXT>
+				<TEXT LANG="ja-JP">談話室</TEXT>
+				<TEXT>Common Room</TEXT>
+				<IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/PM_Content/HogwartsCrest_Texture.dds</IMAGE>
+				<TYPE>MINIFOCUS</TYPE>
+				<OBJECTID>AC2904D1-D9FC4DFE-8A356618-C44EF9BF</OBJECTID>
+				<FUNCTION>NavApp</FUNCTION>
+				<DESCRIPTION>
+					<HEADER LANG="fr-FR">Salle commune</HEADER>
+					<HEADER LANG="de-DE">Gemeinschaftsraum</HEADER>
+					<HEADER LANG="it-IT">Sala comune</HEADER>
+					<HEADER LANG="es-ES">Sala común</HEADER>
+					<HEADER LANG="ja-JP">談話室</HEADER>
+					<HEADER>Common Room</HEADER>
+					<BODY LANG="fr-FR">Une fois ton compte Pottermore.com relié, visite la salle commune de ta maison.</BODY>
+					<BODY LANG="de-DE">Besuche den Gemeinschaftsraum deines Hauses, sobald du dein Pottermore.com-Konto verbunden hast.</BODY>
+					<BODY LANG="it-IT">Visita la sala comune della tua Casa dopo aver collegato il tuo account Pottermore.com.</BODY>
+					<BODY LANG="es-ES">Visita la sala común de tu casa una vez hayas vinculado tu cuenta de Pottermore.com.</BODY>
+					<BODY LANG="ja-JP">Pottermore.comのアカウントに連携したら、寮の談話室を訪ねよう。</BODY>
+					<BODY>Visit your house common room, once you have linked your Pottermore.com account.</BODY>
+				</DESCRIPTION>
+			</ITEM>
+		</ITEM>
+    <ITEM>
+      <DESTINATION>SCEE_PS4Zone_7E9D_10B5</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>NSIRCHOME_Hub_2BC9_87FD</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>RC_Racers_Sports_BD78_4E21</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>MiniBot_City_E7DE_512E</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>SingStar_Main</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>SIREN_Entrance_Space_B6A4_65E4</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Sodium</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/sodium_group_logo.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>Sodium_Demo_6C9B_2C7B</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Sodium_SodiumOne_6831_16E6</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Sodium2_RTM_1476_98E4</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Spunland_A485_606E</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Avalon_30A5_6B4F</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>es_map_0001_831_29AE</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>WF_MainTown_2502_365F</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Wipeout_Space_CC7E_1A5</DESTINATION>
+      <DESCRIPTION>
+        <BODY LANG="fr-FR">Observez en direct la préparation de vaisseaux WipEout de première main pour une course de ligue AG-350. Vivez une expérience où tous vos sens sont sollicités et qui invoque l'esprit de la nature innovante et dynamique de l'univers de WipEout.</BODY>
+        <BODY LANG="de-DE">Erleben Sie hautnah WipEout-Schiffe bei ihrer Vorbereitung auf AG-350-Ligarennen und tauchen Sie ein in ein völlig neuartiges Erlebnis für Ihre Sinne. Entdecken Sie den innovativen, dynamischen Geist der WipEout-Welt.</BODY>
+        <BODY LANG="it-IT">Assisti in prima persona alla preparazione delle navi di Wipeout per una gara AG-350 e tuffati in un'esperienza che coinvolge tutti i sensi e che scatena lo spirito innovativo e dinamico del mondo di Wipeout.</BODY>
+        <BODY LANG="es-ES">Conoce de primera mano las naves que se preparan para las carreras de la liga AG-350 y sumérgete en una experiencia para todos los sentidos que invoca el espíritu del carácter innovador y dinámico del mundo de WipEout.</BODY>
+        <BODY>Witness 1st hand WipEout® ships in preparation for an AG-350 league race and immerse yourself in an experience encompassing all the senses which invokes the spirit of the innovative, dynamic character of the WipEout® world.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Xi2_Axiom_EBBE_26D4</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <DESTINATION>Xi_PostHub_final</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="fr-FR">Plus d'espaces</TEXT>
+      <TEXT LANG="de-DE">Mehr Apartments</TEXT>
+      <TEXT LANG="it-IT">Altri spazi</TEXT>
+      <TEXT LANG="es-ES">Más espacios</TEXT>
+      <TEXT>More Spaces</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/MoreSpaces.dds</IMAGE>
+      <ITEM>
+        <DESTINATION>AC2_Lab_C277_EA79</DESTINATION>
+      </ITEM>
+      <ITEM BGCOLOR="#662d91">
+        <DESTINATION>DoubleSix_Lobby_D790_6CE</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>mingol_1_e_73F5_6807</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT>Far Cry 2</TEXT>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/SubHeader_FarCry2.dds</IMAGE>
+        <ITEM>
+          <DESTINATION>FC2_Trainstation</DESTINATION>
+        </ITEM>
+        <ITEM>
+          <DESTINATION>FC2_reubensroom</DESTINATION>
+        </ITEM>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>GAME_Moonbase_244E_AA34</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT>Hudson</TEXT>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/HUDSON_logo.png</IMAGE>
+        <ITEM>
+          <DESTINATION>SCEE_HUDSON_Hudson_97B7_545F</DESTINATION>
+        </ITEM>
+        <ITEM>
+          <DESTINATION>SCEE_HUDSONBomberman_24A6_49CF</DESTINATION>
+        </ITEM>
+        <ITEM>
+          <DESTINATION>SCEE_Hudson_Theatre_37E5_CFCB</DESTINATION>
+        </ITEM>
+        <ITEM>
+          <DESTINATION>SCEA_Elemon_Lounge_DD23_EBC</DESTINATION>
+        </ITEM>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Space_Apt_Promo_SCEE_5E81_2281</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT>ModNation™</TEXT>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/modnation_home_promo_324x152_01.png</IMAGE>
+        <ITEM>
+          <DESTINATION>ModNationSpace_F46D_47C</DESTINATION>
+        </ITEM>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>SCEE_MS_Carrier_B6D5_23B8</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>SCEJ_QGames_Exhibit_19A7_2689</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>E_CAPCOM_J_RE5_6B9D_6A46</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT>Resistance™</TEXT>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Resistance.dds</IMAGE>
+        <ITEM>
+          <DESTINATION>Resistance2_Lobby_77F0_7D02</DESTINATION>
+        </ITEM>
+        <ITEM>
+          <DESTINATION>Resistance_3_Diner_25A3_C075</DESTINATION>
+        </ITEM>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>modstageset_promo_fbc6_7926</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>Virtuos_Cantina_C7B_4487</DESTINATION>
+        <DESCRIPTION>
+          <BODY LANG="fr-FR">Vous ne trouverez jamais un endroit plus misérable et rempli d'autant de rebuts et de vilénie. Faites attention où vous mettez les pieds dans la cantina Star Wars™ de LucasArts ! Rejoignez les fans de Star Wars™, obtenez de nouveaux objets cool pour votre avatar, et restez au courant des derniers détails des jeux de LucasArts</BODY>
+          <BODY LANG="de-DE">Du wirst nirgends einen erbärmlicheren Haufen Abschaum und Halunken finden. Also, sei vorsichtig, wenn du die "LucasArts Star Wars™ Cantina" betrittst! Triff andere Star Wars™-Fans, erhalte cooles neues Zubehör für deinen Avatar und Informationen über neueste Veröffentlichungen von LucasArts</BODY>
+          <BODY LANG="it-IT">Non troverai mai un alveare di feccia e villania più terribile di questo. Fai attenzione quando entri nella Cantina Star Wars™ della LucasArts! Unisciti agli altri fan di Star Wars™, procurati nuovi fantastici accessori per il tuo avatar e ricevi gli ultimi aggiornamenti sulle novità della LucasArts</BODY>
+          <BODY LANG="es-ES">No podrás encontrar un peor agujero lleno de escoria y maldad. ¡Ten cuidado y guárdate las espaldas en la Cantina de Star Wars™ de LucasArts! Únete a los seguidores de Star Wars™, obtén nuevo equipamiento para tu avatar y ponte al día con los últimos detalles de los lanzamientos de LucasArts</BODY>
+          <BODY>You will never find a more wretched hive of scum and villainy. Be cautious and watch your step in the LucasArts Star Wars™  Cantina! Meet fellow Star Wars™ fans, get cool new gear for your avatar and obtain the latest details on LucasArts releases</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>E_CAPCOM_SF4_8C4B_C0B</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>SFXTTGI_SCEE_SCEAsia_A0AA_6B3D</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <DESTINATION>SCEE_Tekken6_A74C_61E9</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT>Uncharted™</TEXT>
+        <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Uncharted.dds</IMAGE>
+        <ITEM>
+          <DESTINATION>Uncharted_TheBar</DESTINATION>
+        </ITEM>
+        <ITEM>
+          <DESTINATION>Uncharted_3_24E4_875D</DESTINATION>
+        </ITEM>
+      </ITEM>
+    </ITEM>
+  </CATEGORY>
+  <CATEGORY BGCOLOR="#f26522">
+    <TEXT LANG="fr-FR">Boutique</TEXT>
+    <TEXT LANG="de-DE">Laden</TEXT>
+    <TEXT LANG="it-IT">Negozio</TEXT>
+    <TEXT LANG="es-ES">Tienda</TEXT>
+    <TEXT>Shop</TEXT>
+    <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Shopping.dds</IMAGE>
+    <ITEM>
+      <TEXT LANG="fr-FR">Notre sélection</TEXT>
+      <TEXT LANG="de-DE">Im Rampenlicht</TEXT>
+      <TEXT LANG="it-IT">Selezione speciale</TEXT>
+      <TEXT LANG="es-ES">Selección especial</TEXT>
+      <TEXT>Featured Items</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/Featured.dds</IMAGE>
+      <DESTINATION>NAV/E/CPEFeatured00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="fr-FR">Notre sélection</HEADER>
+        <HEADER LANG="de-DE">Im Rampenlicht</HEADER>
+        <HEADER LANG="it-IT">Selezione speciale</HEADER>
+        <HEADER LANG="es-ES">Selección especial</HEADER>
+        <HEADER>Featured Items</HEADER>
+        <BODY LANG="fr-FR">Parcourez nos dernières recommandations d'achat ici.</BODY>
+        <BODY LANG="de-DE">Sehen Sie hier Ihre neuesten Einkaufsempfehlungen.</BODY>
+        <BODY LANG="it-IT">Qui puoi dare un'occhiata ai nostri consigli per gli acquisti.</BODY>
+        <BODY LANG="es-ES">Échale un vistazo a nuestras últimas recomendaciones de compra aquí.</BODY>
+        <BODY>Check out our latest shopping recommendations here.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="fr-FR">Centre commercial - Est</TEXT>
+      <TEXT LANG="de-DE">Einkaufszentrum – Ost</TEXT>
+      <TEXT LANG="it-IT">Centro commerciale - Est</TEXT>
+      <TEXT LANG="es-ES">Centro comercial: Este</TEXT>
+      <TEXT>Shopping Mall East</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/shoppingcentre001.png</IMAGE>
+      <DESTINATION>2013_Marketplace_8480_98F0</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="fr-FR">Centre commercial - Ouest</TEXT>
+      <TEXT LANG="de-DE">Einkaufszentrum – West</TEXT>
+      <TEXT LANG="it-IT">Centro commerciale - Ovest</TEXT>
+      <TEXT LANG="es-ES">Centro comercial: Oeste</TEXT>
+      <TEXT>Shopping Mall West</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/ShoppingCentre2_Nav06.png</IMAGE>
+      <DESTINATION>VMShoppingCentre_F1EB_5D0C</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Estates</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/estates_store_320x176.png</IMAGE>
+      <DESTINATION>MarketPlace/E/EstatesCP.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>Estates</HEADER>
+        <BODY LANG="fr-FR">Envie de changer de décor ? Faites votre choix parmi une variété d'espaces personnels et de club-houses.</BODY>
+        <BODY LANG="de-DE">Tapetenwechsel gefällig? Hier gibt es eine große Auswahl persönlicher Apartments und Clubhäuser.</BODY>
+        <BODY LANG="it-IT">Vuoi cambiare scenario? Qui potrai scegliere tra una vasta gamma di spazi personali e di sedi dei club.</BODY>
+        <BODY LANG="es-ES">¿Te apetece un cambio de escenario? Explora una amplia gama de espacios personales y sedes de clubs aquí.</BODY>
+        <BODY>Fancy a change of scenery? Browse a wide range of personal spaces and clubhouses here.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Threads</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/threads_store_320x176.png</IMAGE>
+      <DESTINATION>MarketPlace/E/ThreadsCP.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>Threads</HEADER>
+        <BODY LANG="fr-FR">Changez de look grâce aux dernières tendances proposées dans cette rue commerçante virtuelle.</BODY>
+        <BODY LANG="de-DE">Ein gründliches Umstyling wird möglich mit der heißesten neuen Mode von der virtuellen Hauptstraße.</BODY>
+        <BODY LANG="it-IT">Trasformati completamente con i vestiti più incredibili della moda virtuale.</BODY>
+        <BODY LANG="es-ES">Cambia de aspecto con la moda más actual de la mejor zona virtual.</BODY>
+        <BODY>Give yourself a makeover with the hottest fashions from the virtual high street.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Alter Ego</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/alter_store_320x176.png</IMAGE>
+      <DESTINATION>MarketPlace/E/AlterEgoCP.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>Alter Ego</HEADER>
+        <BODY LANG="fr-FR">Des super-héros les plus fantastiques aux personnages de vos jeux favoris, c'est ici que vous trouverez les meilleures tenues.</BODY>
+        <BODY LANG="de-DE">Von epischen Superhelden bis hin zu den beliebtesten Spielcharakteren, hier finden sich die allerbesten Kostüme.</BODY>
+        <BODY LANG="it-IT">Dai supereroi epici ai tuoi personaggi preferiti dei giochi, qui troverai i migliori costumi.</BODY>
+        <BODY LANG="es-ES">Desde héroes épicos hasta tus personajes de videojuego favoritos, encontrarás los mejores disfraces aquí.</BODY>
+        <BODY>From epic superheroes to your favourite game characters, you'll find the very best costumes here.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Furniture</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/furniture_store_320x176.png</IMAGE>
+      <DESTINATION>MarketPlace/E/FurnitureCP.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>Furniture</HEADER>
+        <BODY LANG="fr-FR">Votre appartement a besoin d'un coup de jeune ? Faites votre choix parmi notre grande collection de meubles.</BODY>
+        <BODY LANG="de-DE">Braucht das Apartment schon länger mal ein frisches Aussehen? Eine große Auswahl an Möbeln findet sich hier.</BODY>
+        <BODY LANG="it-IT">Il tuo appartamento richiede una sistemata? Naviga tra un assortimento di mobili.</BODY>
+        <BODY LANG="es-ES">¿Tu apartamento necesita un cambio? Explora un gran selección de mobiliario aquí.</BODY>
+        <BODY>Does your apartment need a revamp? Browse a wide selection of furniture here.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Stuff</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/stuff_store_320x176.png</IMAGE>
+      <DESTINATION>MarketPlace/E/HomeStuffCP.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>Stuff</HEADER>
+        <BODY LANG="fr-FR">C'est ici que vous trouverez vos compagnons, vos animations, vos objets de locomotion et vos meubles animés.</BODY>
+        <BODY LANG="de-DE">Hier gibt es die besten Begleiter, Animationen, Bewegungsobjekte und animierten Möbelstücke zu entdecken.</BODY>
+        <BODY LANG="it-IT">Vieni a fare compere qui per i migliori compagni, animazioni, accessori di movimento e mobili animati.</BODY>
+        <BODY LANG="es-ES">Compra aquí las mejores mascotas, animaciones, objetos de locomoción y muebles animados.</BODY>
+        <BODY>Shop here for the best companions, animations, locomotions and animated furniture</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Lockwood</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/lockwood_store_320x176.png</IMAGE>
+      <DESTINATION>MarketPlace/E/CPELockwood00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>Lockwood</HEADER>
+        <BODY LANG="fr-FR">Découvrez les collections Lockwood dans leur intégralité, de la technologie avancée d'Iron Fusion à l'élégance de Figment. Découvrez également les marques Sodium, Fool Throttle, Drey, Cucumber, Delirious Squid et bien d'autres.</BODY>
+        <BODY LANG="de-DE">Die ganze Bandbreite an Lockwoods Kollektionen, von der futuristischen Technologie von Iron Fusion bis hin zur Eleganz von Figment. Außerdem Sodium, Fool Throttle, Drey, Cucumber, Delirious Squid und noch mehr! </BODY>
+        <BODY LANG="it-IT">Controlla l'intera offerta delle collezioni di Lockwood, dalla tecnologia futuristica di Iron Fusion all'eleganza di Figment. Oltre a Sodium, Fool Throttle, Drey, Cucumber, Delirious Squid e altri.</BODY>
+        <BODY LANG="es-ES">Explora todo el espectro de las colecciones de Lockwood, desde la tecnología futurista de Iron Fusion a la elegancia de Figment. Además de Sodium, Fool Throttle, Drey, Cucumber, Delirious Squid y muchos más. </BODY>
+        <BODY>Browse the full spectrum of Lockwood's collections, from the futuristic technology of Iron Fusion to the elegance of Figment. Plus Sodium, Fool Throttle, Drey, Cucumber, Delirious Squid and more. </BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Granzella</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/granzella_store_320x176.png</IMAGE>
+      <DESTINATION>VMShoppingCentre_F1EB_5D0C/E/CPEGranzella00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>Granzella</HEADER>
+        <BODY LANG="fr-FR">Procurez-vous les meilleurs articles en provenance du Japon dans la boutique Granzella.</BODY>
+        <BODY LANG="de-DE">Die besten Gegenstände aus Japan stehen im Granzella-Store zum Verkauf.</BODY>
+        <BODY LANG="it-IT">Vieni a comprare alcuni dei migliori oggetti provenienti dal Giappone al negozio di Granzella.</BODY>
+        <BODY LANG="es-ES">Compra algunos de los mejores objetos de Japón en la tienda Granzella.</BODY>
+        <BODY>Shop for some of the best items to come out of Japan at the Granzella store.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Konami</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/konami_nav_320x176.png</IMAGE>
+      <DESTINATION>MarketPlace/E/CPEKONAMI00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>Konami</HEADER>
+        <BODY LANG="fr-FR">Konami vous présente ses articles, allant de leurs jeux cultes à une vaste sélection de designs originaux. </BODY>
+        <BODY LANG="de-DE">Konami präsentiert Gegenstände aus seinen Klassikern und eine große Auswahl originaler Designs.</BODY>
+        <BODY LANG="it-IT">Konami presenta gli oggetti dei suoi giochi classici, così come una vasta selezione di progetti originali.</BODY>
+        <BODY LANG="es-ES">Konami presenta objetos de sus juegos clásicos además de una gran selección de diseños originales.</BODY>
+        <BODY>Konami present items from their classic games as well as a wide selection of original designs.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>nDreams</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/ndreams_store_320x176.png</IMAGE>
+      <DESTINATION>VMShoppingCentre_F1EB_5D0C/E/CPEnDreams00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>nDreams</HEADER>
+        <BODY LANG="fr-FR">Découvrez toute la gamme d'articles de nDreams. Vous pourrez également concevoir votre propre appartement grâce à Blueprint : Home.</BODY>
+        <BODY LANG="de-DE">Die gesamte Kollektion der Objekte von nDreams findet sich hier. Mit Blueprint:Home kann man sogar sein eigenes Apartment entwerfen!</BODY>
+        <BODY LANG="it-IT">Naviga qui per l'intera collezione degli oggetti di nDreams. Potrai pure ideare il tuo appartamento personale con Blueprint:Home.</BODY>
+        <BODY LANG="es-ES">Explora la colección completa de objetos de nDreams aquí. Hasta podrás diseñar tu propio apartamento con Blueprint:Home.</BODY>
+        <BODY>Browse the full collection of items from nDreams here. You can even design your own apartment with Blueprint:Home</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Juggernaut Games</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/juggernaut_nav_320x176.png</IMAGE>
+      <DESTINATION>Minibots_TrainingApt_E8EE_2E12/E/CPEMBTRAINFAC00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>Juggernaut Games</HEADER>
+        <BODY LANG="fr-FR">Découvrez tous les articles de Juggernaut Games, y compris l'incroyable shoot them up MiniBots qui transformera votre appartement en un véritable champ de bataille.</BODY>
+        <BODY LANG="de-DE">Alles, was Heavy Water zu bieten hat, inklusive der „Heavy Ink“-Tattoos und Gegenständen aus den Welten von Avalon und Emo Ray.</BODY>
+        <BODY LANG="it-IT">Qui trovi tutti gli oggetti di Juggernaut Games, compresi i fantastici MiniBots che possono trasformare qualsiasi appartamento in un campo di battaglia.</BODY>
+        <BODY LANG="es-ES">Encuentra aquí todos los objetos de Juggernaut Games, incluido el fantástico juego de disparos MiniBots que puede convertir cualquier apartamento en un campo de batalla.</BODY>
+        <BODY>Find all of Juggernaut Games' items here, including the fantastic MiniBots shooter that can turn any apartment into a battleground.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Atom Republic</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/atomrepublic_nav_320x176.png</IMAGE>
+      <DESTINATION>MarketPlace/E/CPEATOM00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>Atom Republic</HEADER>
+        <BODY LANG="fr-FR">Faites votre choix parmi certains des articles les plus innovants de PlayStation®Home, par l'éditeur Atom Republic.</BODY>
+        <BODY LANG="de-DE">Einige der innovativsten Objekte in PS Home von Publisher Atom Republic wollen hier durchstöbert werden.</BODY>
+        <BODY LANG="it-IT">Naviga tra alcuni degli oggetti più innovativi di PlayStation®Home dell'etichetta di Atom Republic.</BODY>
+        <BODY LANG="es-ES">Explora algunos de los objetos más innovadores de PlayStation®Home del editor Atom Republic.</BODY>
+        <BODY>Browse some of the most innovative items in PS Home from publisher Atom Republic.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>JAM Games</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/JAM_Games_Ltd_logo_320x176.png</IMAGE>
+      <DESTINATION>RaceOnGarage_43E0_DCA2/E/CPERaceOn00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>JAM Games</HEADER>
+        <BODY LANG="fr-FR">Découvrez tous les articles de JAM Games, y compris la collection RaceOn 100 % adrénaline.</BODY>
+        <BODY LANG="de-DE">Alles, was JAM Games zu bieten hat – einschließlich des adrenalingeladenen RaceOn-Angebotes – warten hier darauf, entdeckt zu werden.</BODY>
+        <BODY LANG="it-IT">Naviga tra tutta l'offerta di JAM Games, inclusa la gamma a base di adrenalina RaceOn.</BODY>
+        <BODY LANG="es-ES">Explora todo lo que JAM Games tiene que ofrecer, entre otras, la gama llena de adrenalina RaceOn.</BODY>
+        <BODY>Browse everything from JAM Games including their adrenalin-fuelled RaceOn range.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>VEEMEE</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/veemee_store_320x176.png</IMAGE>
+      <DESTINATION>MarketPlace/E/VshirtsCP.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>VEEMEE</HEADER>
+        <BODY LANG="fr-FR">Des appartements aux jeux, en passant par des vêtements, des compagnons, des objets de locomotion et des meubles. Faites un tour chez VEEMEE pour découvrir un vaste choix de contenu original de la marque VEEMEE.</BODY>
+        <BODY LANG="de-DE">Von Apartments, Spielen, Kleidung, Begleitern und Bewegungsobjekten bis hin zu Möbelobjekten – hier findet sich die ganze Auswahl an Marken- und Originalinhalten von VEEMEE.</BODY>
+        <BODY LANG="it-IT">Spazia tra appartamenti, giochi, vestiti, accessori di movimento e mobili. Vieni a comprare qui per l'assortimento completo dei contenuti originali e firmati da VEEMEE.</BODY>
+        <BODY LANG="es-ES">Desde apartamentos, juegos, ropa, mascotas y objetos de locomoción hasta muebles. Compra aquí si quieres disfrutar de la gama original y el contenido de marca de VEEMEE.</BODY>
+        <BODY>Ranging from Apartments, Games, Clothing, Companions, and Locomotion to Furniture items.  Shop here for the full range of original and branded content from VEEMEE.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Wrangler</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/wrangler_store_320x176.png</IMAGE>
+      <DESTINATION>VMShoppingCentre_F1EB_5D0C/E/CPEWrangler00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>Wrangler</HEADER>
+        <BODY LANG="fr-FR">La marque de jean américaine parfaite pour les activités en plein air 100 % adrénaline. Comprend une large gamme de vêtements.</BODY>
+        <BODY LANG="de-DE">Die original amerikanische, adrenalingeladene Marke für Outdoor-Denim. Enthält eine große Auswahl an Bekleidungsgegenständen.</BODY>
+        <BODY LANG="it-IT">La marca americana originale, con abiti di jeans ad alta adrenalina. Contiene una selezione di vestiti.</BODY>
+        <BODY LANG="es-ES">La marca vaquera estadounidense original llena de adrenalina. Contiene una línea de objetos de ropa.</BODY>
+        <BODY>The original American, adrenaline-fuelled outdoor denim brand.  Contains a range of clothing items.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Billabong</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/billabong_store_320x176.png</IMAGE>
+      <DESTINATION>VMShoppingCentre_F1EB_5D0C/E/CPEBillabong00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>Billabong</HEADER>
+        <BODY LANG="fr-FR">Des vêtements pour le surf, le skate, le snow et les sports aquatiques. La boutique de rêve de tout surfeur.</BODY>
+        <BODY LANG="de-DE">Surf-, Skate-, Schnee- und Wakeboarding-Bekleidung. Nur ein Surfer kennt das Gefühl.</BODY>
+        <BODY LANG="it-IT">Vestiti per fare surf, skateboard, sciare e sport con una tavola. Solo un surfista sa che significa.</BODY>
+        <BODY LANG="es-ES">Ropa de surf, skate, snowboard y kiting. Solo los surferos saben lo que se siente.</BODY>
+        <BODY>Surf, skate, snow and wake clothing.  Only a surfer knows the feeling.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>adidas</TEXT>
+      <IMAGE> http://scee-home.playstation.net/e.home/hosted/nav/IconImages/adidas_320x176_nav.png</IMAGE>
+      <DESTINATION>MarketPlace/E/CPEADIDAS00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>adidas</HEADER>
+        <BODY LANG="fr-FR">Trouvez marchandise officielle adidas ici.</BODY>
+        <BODY LANG="de-DE">Finden Sie offizielle adidas Waren hier.</BODY>
+        <BODY LANG="it-IT">Trova prodotti ufficiali adidas qui.</BODY>
+        <BODY LANG="es-ES">Encuentra mercancía oficial adidas aquí.</BODY>
+        <BODY>Find official adidas merchandise here.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>LOOT</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/loot_store_320x176.png</IMAGE>
+      <DESTINATION>VMShoppingCentre_F1EB_5D0C/E/CPELoot00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>LOOT</HEADER>
+        <BODY LANG="fr-FR">La boutique LOOT dispose de tous les articles nécessaires à la réalisation de chefs d'œuvre de machinimas.</BODY>
+        <BODY LANG="de-DE">Der LOOT-Store bietet alles, was das Herz begehrt, um ein Machinima-Meisterwerk zu erschaffen.</BODY>
+        <BODY LANG="it-IT">Il negozio LOOT ha tutti i più grandi oggetti per aiutarti a creare il tuo capolavoro di machinima.</BODY>
+        <BODY LANG="es-ES">La tienda LOOT cuenta con los mejores objetos para ayudarte a crear una obra maestra de la machinima. </BODY>
+        <BODY>The LOOT store has all the greatest items to help you make a machinima masterpiece.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Kovok</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/KOVOK_Tile_320x176.PNG</IMAGE>
+      <DESTINATION>MarketPlace/E/CPEKovok00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>Kovok</HEADER>
+        <BODY LANG="fr-FR">Découvrez toute la gamme d'articles de Kovok. </BODY>
+        <BODY LANG="de-DE">Die gesamte Kollektion der Objekte von Kovok findet sich hier. </BODY>
+        <BODY LANG="it-IT">Naviga qui per l'intera collezione degli oggetti di Kovok. </BODY>
+        <BODY LANG="es-ES">Explora la colección completa de objetos de Kovok aquí.</BODY>
+        <BODY>Browse the full collection of items from Kovok here. </BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Cardboard Cartel</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/codeglue_store_320x176.png</IMAGE>
+      <DESTINATION>VMShoppingCentre_F1EB_5D0C/E/CPECodeGlue00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>Cardboard Cartel</HEADER>
+        <BODY LANG="fr-FR">Procurez-vous les articles créés par Codeglue à la boutique Cardboard Cartel.</BODY>
+        <BODY LANG="de-DE">Alle von Codeglue entworfenen Gegenstände gibt es hier, am Cardboard Cartel, zu entdecken.</BODY>
+        <BODY LANG="it-IT">Vieni a comprare tutti gli oggetti creati da Codeglue qui al Cardboard Cartel.</BODY>
+        <BODY LANG="es-ES">Compra todos los objetos creados por Codeglue aquí, en Cardboard Cartel.</BODY>
+        <BODY>Shop for all items created by Codeglue here at the Cardboard Cartel.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Heavy Water</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/heavywater_nav_320x176.png</IMAGE>
+      <DESTINATION>MarketPlace/E/CPEHEAVY00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>Heavy Water</HEADER>
+        <BODY LANG="fr-FR">Découvrez tous les articles d'Heavy Water, y compris les tatouages Heavy Ink et des articles issus des mondes d'Avalon et d'Emo Ray.</BODY>
+        <BODY LANG="de-DE">Alles, was Heavy Water zu bieten hat, inklusive der „Heavy Ink“-Tattoos und Gegenständen aus den Welten von Avalon und Emo Ray.</BODY>
+        <BODY LANG="it-IT">Qui trovi tutto di Heavy Water, inclusi i tatuaggi di Heavy Ink e gli oggetti provenienti dai mondi di Avalon ed Emo Ray.</BODY>
+        <BODY LANG="es-ES">Encuentra aquí todo lo que puede ofrecer Heavy Water, incluidos los tatuajes Heavy Ink y objetos de los mundos de Avalon y Emo Ray.</BODY>
+        <BODY>Find everything from Heavy Water here including Heavy Ink tattoos and items from the worlds of Avalon and Emo Ray.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Lucasarts</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/lucas_store_320x176.png</IMAGE>
+      <DESTINATION>MarketPlace/E/CPELucasArts00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>Lucasarts</HEADER>
+        <BODY LANG="fr-FR">Découvrez la gamme Lucasart comprenant des articles issus de Star Wars, d'Indiana Jones et de Monkey Island.</BODY>
+        <BODY LANG="de-DE">Hier kann jeder das Angebot von Lucasarts durchstöbern, das Gegenstände aus Star Wars, Indiana Jones und Monkey Island beinhaltet.</BODY>
+        <BODY LANG="it-IT">Naviga nelle offerte Lucasarts tra gli oggetti di Star Wars, Indiana Jones e Monkey Island.</BODY>
+        <BODY LANG="es-ES">Explora la gama Lucasarts con objetos de Star Wars, Indiana Jones y Monkey Island.</BODY>
+        <BODY>Browse the Lucasarts range with items from Star Wars, Indiana Jones and Monkey Island.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>Novus Prime</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/novus_store_320x176.png</IMAGE>
+      <DESTINATION>MarketPlace/E/CPENOVPRHUB00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>Novus Prime</HEADER>
+        <BODY LANG="fr-FR">Découvrez des contenus relatifs au shoot them up Novus Prime et ainsi que d'autres articles d'Hellfire Games.</BODY>
+        <BODY LANG="de-DE">Hier sind Objekte zum Spaceshooter Novus Prime und zu weiteren Gegenständen von Hellfire Games erhältlich.</BODY>
+        <BODY LANG="it-IT">Trova i contenuti relativi allo sparatutto spaziale Novus Prime e altri oggetti di Hellfire Games.</BODY>
+        <BODY LANG="es-ES">Encuentra contenido relacionado con el juego espacial de disparos Novus Prime y otros objetos de Hellfire Games.</BODY>
+        <BODY>Find content relating to space shooter Novus Prime and other items from Hellfire Games.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>AAA</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/aaa_store_320x176.png</IMAGE>
+      <DESTINATION>VMShoppingCentre_F1EB_5D0C/E/CPEUniversal00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>AAA</HEADER>
+        <BODY LANG="fr-FR">La boutique Access All Areas d'Universal Music comprend une large gamme de vêtements et d'articles virtuels issus d'une sélection d'artistes.</BODY>
+        <BODY LANG="de-DE">Der „Access All Areas“-Store von Universal Music bietet eine Vielzahl von Kleidung und virtuellen Gegenständen von einer Auswahl verschiedener Künstler an.</BODY>
+        <BODY LANG="it-IT">Il negozio Access All Areas di Universal Music offre una varietà di vestiti e oggetti virtuali da una selezione di artisti.</BODY>
+        <BODY LANG="es-ES">La tienda Access All Areas de Universal Music cuenta con una gama de ropa y objetos virtuales de artistas selectos.</BODY>
+        <BODY>The Access All Areas store from Universal Music features a variety of clothing and virtual items from a selection of Artists.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT>mydeco</TEXT>
+      <IMAGE>http://scee-home.playstation.net/e.home/hosted/nav/IconImages/mydeco_store_320x176.png</IMAGE>
+      <DESTINATION>VMShoppingCentre_F1EB_5D0C/E/CPEMyDeco00.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER>mydeco</HEADER>
+        <BODY LANG="fr-FR">Une collection de meubles et d'accessoires de marque pour la maison, en provenance directe des meilleures boutiques européennes.</BODY>
+        <BODY LANG="de-DE">Eine Kollektion an Designer-Möbeln und Wohnaccessoires von Europas besten Boutiquen.</BODY>
+        <BODY LANG="it-IT">Una collezione di mobili di marca e accessori per la casa delle migliori boutique europee.</BODY>
+        <BODY LANG="es-ES">De la mejores tiendas de Europa llega una colección de mobiliario y complementos de hogar de diseño.</BODY>
+        <BODY>A collection of designer furniture and home accessories from Europe's best boutiques.</BODY>
+      </DESCRIPTION>
+    </ITEM>
+  </CATEGORY>
+</XML>

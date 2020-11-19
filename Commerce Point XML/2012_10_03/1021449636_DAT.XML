@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header>
+      <name lang="en-GB" default="true">Nebulon Store</name>
+      <background>http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+    </header>
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Clothing</name>
+        <name lang="fr-FR">Tenues</name>
+        <name lang="de-DE">Bekleidung</name>
+        <name lang="it-IT">Vestiario</name>
+        <name lang="es-ES">Uniformes</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Clothing.png</thumbnail>
+        <background>http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+      </header>
+      				<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Male</name>
+					<name lang="fr-FR">Homme</name>
+					<name lang="de-DE">Männlich</name>
+					<name lang="it-IT">Maschio</name>
+					<name lang="es-ES">Hombre</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+        <background>http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+				</header>
+							<!-- Discobot XT6000 (Male) -->
+		<object>8AAAB490-EFF247E3-B557F55C-FCB14AF2</object> 
+			<!-- Nebulon Storage Backpack (Male) -->
+		<object>BCAA547B-5908430F-AF823FFA-74247EE3</object> 
+							<!-- Twin Pulse Cannons M -->
+		<object>A05D2C30-E7E74C1C-BFB7D1B5-4876EB94</object> 
+			<!-- Disruption Shot Pistols M -->
+		<object>32AA025A-AB73423C-A08821E3-FB2D6064</object> 
+			<!-- Handheld Arc Drill M -->
+		<object>4054DC7E-14654310-8D312A09-7A18619A</object> 
+			<!-- Avatar Projection System M-->
+		<object>C23355AF-F51946CC-BD01D3B2-8DBC6554</object> 
+			<!-- Obsidian Bladewalker suit M -->		
+				<object>6E6143AB-C89A4B50-8BC9B3A1-CC601F90</object>
+				<!-- Midas suit M -->		
+				<object>BF9C1BA6-397A483C-91A65C60-771964F1</object>
+				<object>D7387B09-B1FB41E6-A0FDF8CB-151C2B15</object>
+				<object>1DAAF0AB-76AA44F9-A99D220F-F905C4FB</object>
+				<object>7A1B6AFE-17E0415C-AC55E187-6D4D2009</object>
+				<object>860D2539-CAB44560-8A98ECA4-4EA4B183</object>
+				<object>6368E019-07544E1D-9F1355C3-D89C965A</object>
+				<!-- Ion Stream armour M -->		
+				<object>96F79208-200548BB-ADBA1D69-7F3C3BA9</object>
+				<!-- Obsidian Throwing star M -->		
+				<object>F593CE19-FDE64B88-B1780565-5051B093</object>
+				      <!--Obs Pilot Suit w/ fighter M -->
+      <object>EDA8B63A-21234894-94F96F5A-AD548A9E</object>
+      <!-- Longterm Memory w/conduit gloves M and F -->
+      <object>C68AA2E4-D2044483-AE734AD6-5AD00EE4</object>
+      <!-- Obs Rune blades M and F -->
+      <object>5A8D5BA3-15DC4985-94BD20CD-16B38E41</object>
+      <!-- Tech Goggles w/ scanner M and F -->
+      <object>1CF08C65-F498490A-8AA07606-24CE4C8E</object>
+		<!-- Power-Mech Suit with Nebulon Magnet M and F -->
+		<object>7E5CF0A0-8B744411-A81409AE-90680803</object> 
+		<!-- Rogue Mech-Suit M and F-->
+		<object>A3922BBA-BDE44F64-97050BCD-74D2EDB6</object> 
+        <!-- Armored Pilot leggings w/ Deflect shield M and F -->
+		<object>9B1ED201-142A4603-9062443E-55FA4682</object>
+		<!--Ion Beam M and F -->
+		<object>49EFB84F-55794043-B2598610-70A0B5EB</object>
+		<!--Spacewalk Prop boots w/turbo M and F -->
+		<object>31290B53-9BB848EF-A5D57B25-4D043130</object>
+		<!-- Flames Paintjob w/helmet M and F -->
+		<object>B4083653-79254E21-9026222D-52A4B575</object>
+		<!-- Tiger Paintjob w/helmet M and F -->
+		<object>EF399B2B-D7BB496A-8A571022-9AB4FE59</object>
+		<!-- Tribal Paintjob w/helmet M and F -->
+		<object>ACC7CCC0-24814859-B3483943-CB8CEA0F</object>
+		<!-- Codebreaker ship w/helmet M and F -->
+		<object>018D087F-FBAC4E16-9C2FDE5B-401E0F5A</object>
+		<!-- Kunai ship w/helmet M and F -->
+		<object>A5E4BC14-F0EB46E6-BA801547-88E70EFF</object>
+		<!-- ZeroG simulator hand M and F -->
+		<object>D42FFDE9-82344CC8-98042983-296880CF</object>
+		<!-- Blaster Pistol M and F -->
+		<object>8C0CA0AE-B5C1448F-90344B94-2CF2060B</object>
+					 </node>
+					 	<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Female</name>
+					<name lang="fr-FR" >Femme</name>
+					<name lang="it-IT" >Femmina</name>
+					<name lang="de-DE" >Weiblich</name>
+					<name lang="es-ES" >Mujer</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+        <background>http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+				</header>
+		<!-- Nebulon Storage Backpack (Female)  -->
+		<object>E81B2444-121A49D3-8D9CC3F0-37222CCE</object> 
+							<!-- Twin Pulse Cannons F  -->
+		<object>21AA481D-571F46DF-A55A4B0D-CDFB1BB9</object> 
+			<!-- Disruption Shot Pistols F -->
+		<object>A6A6D7DB-FE7D45E0-8136A766-69AC32E7</object> 
+			<!-- Handheld Arc Drill F -->
+		<object>C8107A83-437F4DA7-81B5C459-865A4259</object> 
+			<!-- Avatar Projection System F-->
+		<object>515764BD-440A4109-94058C6E-C8969A1C</object> 
+						<!-- Obsidian Throwing star F -->		
+				<object>C5943383-AE2C4AF1-B9514B8D-20B2105B</object>
+				<!-- Midas suit F -->		
+				<object>57CE4F72-01A94A63-9706A9CC-823D4C59</object>
+				<object>8213F77B-83E744D8-951A452F-67A4C4D0</object>
+				<object>D715417B-EBD04C14-9064B5FD-C5642AF8</object>
+				<object>61D5310E-6A5F41EE-850E3AAC-E7F18903</object>
+				<object>AF9ACCEF-D41042B7-8582771C-D89AD2D5</object>
+				<object>3D670654-672A4186-B9C6293D-DEEFD0DD</object>
+      <!-- Longterm Memory w/conduit gloves M and F -->
+      <object>C68AA2E4-D2044483-AE734AD6-5AD00EE4</object>
+      <!-- Obs Rune blades M and F -->
+      <object>5A8D5BA3-15DC4985-94BD20CD-16B38E41</object>
+      <!-- Tech Goggles w/ scanner M and F -->
+      <object>1CF08C65-F498490A-8AA07606-24CE4C8E</object>
+		<!-- Power-Mech Suit with Nebulon Magnet M and F -->
+		<object>7E5CF0A0-8B744411-A81409AE-90680803</object> 
+		<!-- Rogue Mech-Suit M and F-->
+		<object>A3922BBA-BDE44F64-97050BCD-74D2EDB6</object> 
+        <!--Nebulon-interweave power suit F -->
+        <object>1331C53D-38D840AF-83EC0B91-BDADB50D</object>
+        <!-- Armored Pilot leggings w/ Deflect shield M and F -->
+		<object>9B1ED201-142A4603-9062443E-55FA4682</object>
+		<!--Ion Beam M and F -->
+		<object>49EFB84F-55794043-B2598610-70A0B5EB</object>
+		<!--Spacewalk Prop boots w/turbo M and F -->
+		<object>31290B53-9BB848EF-A5D57B25-4D043130</object>
+		<!-- Flames Paintjob w/helmet M and F -->
+		<object>B4083653-79254E21-9026222D-52A4B575</object>
+		<!-- Tiger Paintjob w/helmet M and F -->
+		<object>EF399B2B-D7BB496A-8A571022-9AB4FE59</object>
+		<!-- Tribal Paintjob w/helmet M and F -->
+		<object>ACC7CCC0-24814859-B3483943-CB8CEA0F</object>
+		<!-- Codebreaker ship w/helmet M and F -->
+		<object>018D087F-FBAC4E16-9C2FDE5B-401E0F5A</object>
+		<!-- Kunai ship w/helmet M and F -->
+		<object>A5E4BC14-F0EB46E6-BA801547-88E70EFF</object>
+		<!-- ZeroG simulator hand M and F -->
+		<object>D42FFDE9-82344CC8-98042983-296880CF</object>
+		<!-- Blaster Pistol M and F -->
+		<object>8C0CA0AE-B5C1448F-90344B94-2CF2060B</object>
+	 </node>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Boosters</name>
+        <name lang="fr-FR" >Améliorateurs</name>
+        <name lang="de-DE">Booster</name>
+        <name lang="it-IT" >Potenziatori</name>
+        <name lang="es-ES">Propulsores</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Boosters.png</thumbnail>
+        <background>http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+      </header>
+      <object>C68AA2E4-D2044483-AE734AD6-5AD00EE4</object>
+      <object>AB858A59-35354127-80DDFA3F-E06F9FCC</object>
+      <object>D06FEACD-1C3842C2-B09E259D-7FD6DEF0</object>
+      <object>F7CCF365-225F4CC8-BF7D3D33-CF15778F</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Ships</name>
+        <name lang="fr-FR">Vaisseaux</name>
+        <name lang="de-DE">Schiffe</name>
+        <name lang="it-IT">Navi</name>
+        <name lang="es-ES">Naves</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Ships.png</thumbnail>
+        <background>http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+      </header>
+      <object>EDA8B63A-21234894-94F96F5A-AD548A9E</object>
+      <object>018D087F-FBAC4E16-9C2FDE5B-401E0F5A</object>
+      <object>A5E4BC14-F0EB46E6-BA801547-88E70EFF</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Paint-jobs</name>
+        <name lang="fr-FR">Peintures de guerre</name>
+        <name lang="de-DE">Lackierung</name>
+        <name lang="it-IT">Verniciatura</name>
+        <name lang="es-ES">Trabajos de pintura</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Paintjobs.png</thumbnail>
+        <background>http://scee-home.playstation.net/e.home/hosted/CommercePoints/NebulonCommerceBG.dds</background>
+      </header>
+      <object>B4083653-79254E21-9026222D-52A4B575</object>
+      <object>EF399B2B-D7BB496A-8A571022-9AB4FE59</object>
+      <object>ACC7CCC0-24814859-B3483943-CB8CEA0F</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Weapons</name>
+        <name lang="fr-FR">Armes</name>
+        <name lang="de-DE">Bewaffnung</name>
+        <name lang="it-IT">Armi</name>
+        <name lang="es-ES">Armas</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Weapons.png</thumbnail>
+        <background>http://scee-home.playstation.net/e.home/hosted/CommercePoints/NebulonCommerceBG.dds</background>
+      </header>
+      <object>1CF08C65-F498490A-8AA07606-24CE4C8E</object>
+      <object>9B1ED201-142A4603-9062443E-55FA4682</object>
+      <object>49EFB84F-55794043-B2598610-70A0B5EB</object>
+      <object>FC770FD0-26C34625-9ACC4C65-0C6EC041</object>
+      <object>CA02D341-8E4D46CC-B5CD7E41-6E424964</object>
+    </node>    
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Personal Spaces and Furniture</name>
+        <name lang="fr-FR">Espaces personnels</name>
+        <name lang="de-DE">Privatgemächer</name>
+        <name lang="it-IT">Spazi personali</name>
+        <name lang="es-ES">Espacios personales</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Apartments.png</thumbnail>
+        <background>http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+      </header>
+      <object>57C7E33B-09E8429D-AEE20B44-2BB36885</object>
+      <object>8DC0CE0B-DBD74AA2-BC8E1557-0572B80F</object>
+      <object>F3FD800E-97754786-8562E216-07D48624</object>
+      <object>98D1FE12-1E7148CF-A938F071-363AE57D</object>
+      <object>2BDF790E-264B46C3-A593C06C-14E8CC47</object>
+      <object>DA19EDDE-029949CE-8485A68F-8773909E</object>
+      <object>BAEBBCFE-2CE74FAF-9983F736-05829577</object>
+      <object>B688A562-B6F04D4A-A6DBC313-AC48F69F</object>
+      <object>685F4F0C-CA8E412F-B75D904D-414D40C6</object>
+      <object>905E203D-39764154-9743111E-D9CAC019</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Companions</name>
+        <name lang="fr-FR">Compagnons</name>
+        <name lang="de-DE">Begleiter</name>
+        <name lang="it-IT">Compagni</name>
+        <name lang="es-ES">Compañeros</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Companions.png</thumbnail>
+        <background>http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+      </header>
+      	<!-- Novus Companions - Gladius, WitchDoctor, ObsidianBlade -->
+				<object>7A7F29D1-0DD74F5A-B4C4C9F4-DD271DD5</object>
+				<object>BEE926EB-AF794B0B-AF21EA8A-2CA40369</object>
+				<object>FDFCF33D-32044700-9100A856-3DED5627</object>
+		<!-- Novus Companions - Others -->
+      <object>40D59FA8-37F6484F-B66B9B12-839B1C3F</object>
+      <object>D895E073-760A4BB6-A837FEAA-8AC644E6</object>
+      <object>1F282331-D38C4AE8-B7343800-FF12493D</object>
+      <object>103CFB40-37484FC6-B81A6DE9-9B3024EF</object>
+      <object>FF176DED-34084CC4-957D0CC5-28F94ACE</object>
+    </node>
+    	<node type="objects">
+          <header>
+            <name lang="en-GB" default="true">Mission Packs</name>
+            <name lang="fr-FR">Pack de missions</name>
+            <name lang="de-DE">Missions-Pack</name>
+            <name lang="it-IT">Pacchetto missione</name>
+            <name lang="es-ES">Misión Paquete</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Games.png</thumbnail>
+	          <background>http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/NovusPrimeCommerceBG.dds</background>
+          </header>
+		<object>AB858A59-35354127-80DDFA3F-E06F9FCC</object>
+	 </node>
+  </node>
+</commerce_point>

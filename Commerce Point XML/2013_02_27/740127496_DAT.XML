@@ -1,0 +1,85 @@
+<commerce_point>
+	<node>
+		<header>
+			<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/aquarium_bg_scee.jpg</background>
+		</header>
+		 <node type="objects">
+				<header>
+			      <name lang="en-GB" default="true">Aquabux</name>
+			      <name lang="fr-FR" >Aquabux</name>
+			      <name lang="it-IT" >Aquabux</name>
+			      <name lang="de-DE" >Aquabux</name>
+			      <name lang="es-ES" >Aquabux</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Aquarium_Icon_AquaBucks.png</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/aquarium_bg_scee.jpg</background>
+				</header>
+	 <!-- Aquabux 100, 600, 1500, 4000 -->
+	 <object>E6DF37F6-2B634E74-BB0E8D95-CCA5C43A</object> 
+	 <object>451777B6-C52F45A9-800AF658-7217FB4C</object> 
+	 <object>90AD937B-E89D4704-85B07C6A-952CECF3</object> 
+	 <object>6F70D035-4BB74FE7-BC6D74A8-5C3D3502</object> 
+					 </node>
+		 <node type="objects">
+				<header>
+			      <name lang="en-GB" default="true">Aquarium</name>
+			      <name lang="fr-FR" >Aquarium</name>
+			      <name lang="it-IT" >Acquario</name>
+			      <name lang="de-DE" >Aquarium</name>
+			      <name lang="es-ES" >Acuario</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Aquarium_Icon_Tank.png</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/aquarium_bg_scee.jpg</background>
+				</header>
+	 <!-- Aquariums Bundle Packs - Small, Medium, Large, Deluxe, Ultimate-->
+	 <object>B76FE66B-F63D473F-848B0338-53B7094C</object> 
+	 <object>27C3B58C-9CB641AA-95078E41-CDD699C1</object> 
+	 <object>BD1FFA70-B27F49CF-BB01F0E3-503B8E8B</object> 
+	 <object>3753B663-53D84936-84FF89DD-6D67AF7B</object> 
+	 <object>47012280-7C7C4A2B-B5A32196-AF3840FC</object> 
+					 </node>
+		 <node type="objects">
+				<header>
+			      <name lang="en-GB" default="true">Care</name>
+			      <name lang="fr-FR" >Soins</name>
+			      <name lang="it-IT" >Cura</name>
+			      <name lang="de-DE" >Pflege</name>
+			      <name lang="es-ES" >Cuidado</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Aquarium_Icon_Care.png</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/aquarium_bg_scee.jpg</background>
+				</header>
+	  <!-- Tonic -->
+	 <object>FFC86048-276D471A-8FD267C0-0438166F</object>
+	 <!-- Sand & Gravel -->
+	 <object>44DCA20A-3B88478F-847A28AC-63A2E42A</object>
+	 <object>7EA89CD1-E9594B45-BE696663-31557C61</object>
+	 <object>68D805FC-3A884C8F-A47D73A8-44D657E1</object>
+	 <object>5771F73A-B777491D-96A5368E-8A62383C</object>
+					 </node>
+		 <node type="objects">
+				<header>
+			      <name lang="en-GB" default="true">Companions</name>
+			      <name lang="fr-FR" >Compagnon</name>
+			      <name lang="it-IT" >Compagno</name>
+			      <name lang="de-DE" >Begleiter</name>
+			      <name lang="es-ES" >Compañero</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="false">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Aquarium_Icon_Side.png</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/aquarium_bg_scee.jpg</background>
+				</header>
+	  <!-- All Pet Shop Companions -->
+	  <!-- Cats -->
+	 <object>390EE78E-F3FE4EB0-89AE6CC0-5985090D</object>
+	 <object>A833C19E-9A284942-8AFF4664-DCCEDBB6</object>
+	 <object>AF4EA232-543A415D-B452D19F-6797C2CA</object>
+	 <object>B645E473-81BB4DE4-BBD2386E-7843B95D</object>
+	 <object>BCF8DDC9-A4C04AAA-A6124011-5C7BE692</object>
+	 <object>0A5ABD3C-F5174272-949C4293-75FCC11C</object>
+	 <object>E484F1D6-BF034464-B8B3302D-2CCDDDD8</object>
+	 <!-- Dogs -->
+	 <object>75837F00-1EEF4660-A8FA5807-950C5852</object>
+	 <object>DBF24E96-5D5F4879-A26C87A5-245A1387</object>
+	 <object>8412AC08-647B4B6D-BEEFD983-326536A5</object>
+	 <object>F0934261-37B14E62-99AD836D-AB4DD9C3</object>
+	 <!-- Weasel -->
+	 <object>EACAB7B6-72534E61-B202598C-D7E77487</object>
+					 </node>		 
+	</node>
+</commerce_point>

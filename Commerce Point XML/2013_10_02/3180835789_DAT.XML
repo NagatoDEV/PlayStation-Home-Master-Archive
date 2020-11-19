@@ -1,0 +1,646 @@
+<XML>
+  <CONFIG>
+    <BGTYPE>GRAVPARTICLES</BGTYPE>
+  </CONFIG>
+  <CATEGORY BGCOLOR="#A91010">
+    <TEXT LANG="ja-JP">お気に入り</TEXT>
+    <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Header-Favourites2.dds</IMAGE>
+    <FUNCTION>Favourites</FUNCTION>
+  </CATEGORY>
+  <CATEGORY BGCOLOR="#FFDD51">
+    <TEXT LANG="ja-JP">おすすめ</TEXT>
+    <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Header-Featured2.dds</IMAGE>
+    <ITEM>
+      <BGIMAGE>http://scej-home.playstation.net/j.home/Navigator/BGImage/NavBG_OF20120926.dds</BGIMAGE>
+      <TEXT LANG="ja-JP">おしゃべりファーム　ユグドラ市場</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Nav_OF20130918_1.dds</IMAGE>
+      <DESTINATION>TL_CF_EntryGate_2DC6_4904</DESTINATION>
+      <DESCRIPTION>
+        <BODY LANG="ja-JP">ただいま1周年記念「収穫祭イベント」実施中！ \n
+秋にピッタリのホームリワードが盛りだくさん！\n
+さらにプランタ組合特別調査員からの報告が\n
+期間中に次々と公開されていきますよ。\n
+10月23日（水）メンテナンスまで開催中！</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">ホームタイクーン</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Nav_HomeTycoon20130927.dds</IMAGE>
+      <DESTINATION>SCEJ_Tycoon_Station_EB4_C159</DESTINATION>
+      <DESCRIPTION>
+        <BODY LANG="ja-JP">ホームタイクーン: ライジング・レベニューでは、\n
+立派な建物を購入したり、エキサイティングな\n
+ミッションに挑戦したり、他にもいろんなことが
+楽しめます！ホームタイクーン最大の拡張パックが到着しました！
+</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">ホームスクエア</TEXT>
+      <DESTINATION>Home Square</DESTINATION>
+      <DESCRIPTION>
+        <BODY LANG="ja-JP">オフィシャルエリアの中心となる人々が集う場所。\n
+『ホームスクエア』の中央にある\n
+「トネリコの樹」では、ときどき「オネガイ」が\n
+追加されていることも……？</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <BGIMAGE>http://scej-home.playstation.net/j.home/Navigator/BGImage/NavBG_PeakvoxMonster20130313.dds</BGIMAGE>
+      <TEXT LANG="ja-JP">peakvox monster</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Nav_PeakvoxMonster20130227.dds</IMAGE>
+      <DESTINATION>J_Peakvox_Labs_8_55DD_D004</DESTINATION>
+      <DESCRIPTION>
+        <BODY LANG="ja-JP">新たな敵、新たな仲間……\n
+ペット達が住まう古代都市ラウンジ最大の危機！\n
+peakvoxがお送りする第3のラウンジは、\n
+ペット育成・協力型バトルラウンジ\n
+『peakvox monster』。</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <BGIMAGE>http://scej-home.playstation.net/j.home/Navigator/BGImage/NavBG_SKINGDOM_1.dds</BGIMAGE>
+      <TEXT LANG="ja-JP">照英王国</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Spaces/SCEJ_Shoei_Kingdom_3.dds</IMAGE>
+      <DESTINATION>Shouei_Kingdom_1_1F57_8149</DESTINATION>
+      <DESCRIPTION>
+        <BODY LANG="ja-JP">王国民として王国に貢献しながら\n
+思いっきり王国ライフを楽しもう！\n
+みんなで力を合わせて王国を育てるのだ！</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">nDreams:オーロラ</TEXT>
+      <DESTINATION>nDreams_Skyhub_4809_6F8E</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <BGIMAGE>http://scej-home.playstation.net/j.home/Navigator/BGImage/NavBG_Peakvoxlabs_20120523.dds</BGIMAGE>
+      <TEXT LANG="ja-JP">peakvox labs</TEXT>
+      <DESTINATION>OTwo_peakvox_labs_3_F8B7_74CD</DESTINATION>
+      <DESCRIPTION>
+        <BODY LANG="ja-JP">ラウンジ各所に設置されたミニゲームから\n
+手に入れた培養アイテムを「Lプロジェクト」で\n
+培養し、新たな生命を誕生させる\n
+エンターテイメント研究所『peakvox labs』。</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <BGIMAGE>http://scej-home.playstation.net/j.home/Navigator/BGImage/NavBG_GZPlaza20130807.dds</BGIMAGE>
+      <TEXT LANG="ja-JP">夕暮れのグランゼーラ広場</TEXT>
+      <DESTINATION>Space_Lounge_SCEJ_E2AE_1CAA</DESTINATION>
+      <DESCRIPTION>
+        <BODY LANG="ja-JP">この広場は、グランゼーラのハブ・ラウンジ。\n
+グランゼーラのサービスがすべてここに集約！\n
+「未確認戦隊ユーマンなりきりステージ」も\n
+ご用意！　ステージにあがり、ボタンを押せば\n
+攻撃やジャンプなどのアクションが楽しめます。</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <BGIMAGE>http://scej-home.playstation.net/j.home/Navigator/BGImage/NavBG_edo.dds</BGIMAGE>
+      <TEXT LANG="ja-JP">大江戸・大商店と長屋</TEXT>
+      <DESTINATION>Edo_Lounge_3BEA_1FE6</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">スカイ・キングダム</TEXT>
+      <DESTINATION>Jewel_Of_The_Skies_B0C2_AB36</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <BGIMAGE>http://scej-home.playstation.net/j.home/Navigator/BGImage/NavBG_Seaside_20120704.dds</BGIMAGE>
+      <TEXT LANG="ja-JP">もうひとつの砂浜</TEXT>
+      <DESTINATION>Seaside_Lounge_42B3_EE61</DESTINATION>
+      <DESCRIPTION>
+        <BODY LANG="ja-JP">【ご注意】ご入場は15歳以上の方のみ限定\n
+\n
+白い砂浜、どこまでも青く澄みきった海、日常を\n
+忘れていつまでもいたくなるリゾートラウンジ!!</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <BGIMAGE>http://scej-home.playstation.net/j.home/Navigator/BGImage/NavBG_Will_Fishing.dds</BGIMAGE>
+      <TEXT LANG="ja-JP">怪物ジャポン　一本釣り</TEXT>
+      <DESTINATION>Jwill_Fishing_Lounge_55DD_BF9E</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <BGIMAGE>http://scej-home.playstation.net/j.home/Navigator/BGImage/NavBG_GRNNEON.dds</BGIMAGE>
+      <TEXT LANG="ja-JP">ネオンがしみる繁華街</TEXT>
+      <DESTINATION>Hankagai_Lounge_2444_82D2</DESTINATION>
+      <DESCRIPTION>
+        <BODY LANG="ja-JP">【ご注意】ご入場は17歳以上の方のみ限定\n
+\n
+大人たちが集う、夜の繁華街。雑然と様々な店が\n
+押し込まれたアーケード街は、今日もたくさんの\n
+人々が行き交い、様々なドラマが生まれる。</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <BGIMAGE>http://scej-home.playstation.net/j.home/Navigator/BGImage/NavBG_Lagoon.dds</BGIMAGE>
+      <TEXT LANG="ja-JP">南の島の隠れ家</TEXT>
+      <DESTINATION>Lagoon_Lounge_9496_A14</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <BGIMAGE>http://scej-home.playstation.net/j.home/Navigator/BGImage/NavBG_peakvoxninja_20120425.dds</BGIMAGE>
+      <TEXT LANG="ja-JP">peakvox ninja</TEXT>
+      <DESTINATION>Peakvox_Ninja_1_4045_EFD7</DESTINATION>
+      <DESCRIPTION>
+        <BODY LANG="ja-JP">【ご注意】ご入場は17歳以上の方のみ限定\n
+\n
+眠ることのない摩天楼。今宵も『NINJA』達の知\n
+られざる戦が繰り広げられる・・・。peakvoxの\n
+新たなる世界をどうぞお楽しみください。</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">ホットゾーン</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Spaces/SCEJ_MassMedia_HotZone_1.dds</IMAGE>
+      <DESTINATION>Hot_Spot_Lobby_2250_B5EF</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">Sodium 2</TEXT>
+      <DESTINATION>Sodium2_RTM_1476_98E4</DESTINATION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">ノーバス・プライム</TEXT>
+      <DESTINATION>Hellfire_Nebulon_ED3C_DE23</DESTINATION>
+    </ITEM>
+  </CATEGORY>
+  <CATEGORY BGCOLOR="#64BCE2">
+    <TEXT LANG="ja-JP">ショッピング</TEXT>
+    <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Header-Shopping1.dds</IMAGE>
+    <ITEM>
+      <BGIMAGE>http://scej-home.playstation.net/j.home/Navigator/BGImage/NavBG_OTWOSale20130925.dds</BGIMAGE>
+      <TEXT LANG="ja-JP">peakvox 値引きセール</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Nav_OTWOSale20130925.dds</IMAGE>
+      <DESTINATION> NAV/J/CPJ_Nav_Title.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="ja-JP">peakvox 値引きセール</HEADER>
+        <BODY LANG="ja-JP">peakvoxで使える各種アイテムが\n
+値引きキャンペーン実施中！\n
+実施期間は9/25～10/30です。\n</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <BGIMAGE>http://scej-home.playstation.net/j.home/Navigator/BGImage/NavBG_HellfireSale20130925_1.dds</BGIMAGE>
+      <TEXT LANG="ja-JP">Hellfire Games 期間限定半額セール</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Nav_HellfireSale20130925_1.dds</IMAGE>
+      <DESTINATION>NAV/J/CPJ_Nav_PickUP.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="ja-JP">Hellfire Games 期間限定半額セール</HEADER>
+        <BODY LANG="ja-JP">Hellfire Gamesの人気アイテムが\n
+期間限定で50% OFF！\n
+10/30までのこのお得な期間を/n
+お見逃し無く！
+</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <BGIMAGE>http://scej-home.playstation.net/j.home/Navigator/BGImage/NavBG_OF_Shopping20130918.dds</BGIMAGE>
+      <TEXT LANG="ja-JP">おしゃべりファーム　アイテム特集</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Nav_OF_Shopping_20130918_1.dds</IMAGE>
+      <DESTINATION>NAV/J/CPJ_Nav_HomeCamp.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="ja-JP">おしゃべりファーム　アイテム特集</HEADER>
+        <BODY LANG="ja-JP">おしゃべりファームの収穫祭イベントクリアに\n
+役立つ『育成効果付き』のファームスタイルセット\n
+や小物アイテムが新登場！\n
+さらに過去に販売したアイテムを一斉値下げ中！</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <BGIMAGE>http://scej-home.playstation.net/j.home/Navigator/BGImage/NavBG_GAW20130918.dds</BGIMAGE>
+      <TEXT LANG="ja-JP">怪物ジャポン 2013スペシャルセール</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Nav_GAW_Shopping20130918.dds</IMAGE>
+      <DESTINATION>NAV/J/CPJ_Nav_StoreCamp.xml</DESTINATION>
+      <FUNCTION>CommercePointItem</FUNCTION>
+      <DESCRIPTION>
+        <HEADER LANG="ja-JP">怪物ジャポン 2013スペシャルセール</HEADER>
+        <BODY LANG="ja-JP">開催期間：2013年9月18日(水)～10月30日(水)\n
+『怪物ジャポン』では釣り具・エサ類などの\n
+人気商品をドドーンと半額セールいたします！\n</BODY>
+      </DESCRIPTION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">カタログ</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Nav_catalog_1.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="ja-JP">MEN'S</TEXT>
+        <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Nav_ThreadsCP_M_ja-JP.dds</IMAGE>
+        <DESTINATION>MarketPlace/J/ThreadsCP_M_ja-JP.xml</DESTINATION>
+        <FUNCTION>CommercePointItem</FUNCTION>
+        <DESCRIPTION>
+          <HEADER LANG="ja-JP">MEN'S</HEADER>
+          <BODY LANG="ja-JP">店舗「Threads」で取りあつかっている\n
+男性アバター用のアイテムを紹介！\n
+</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">LADIES'</TEXT>
+        <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Nav_ThreadsCP_F_ja-JP.dds</IMAGE>
+        <DESTINATION>MarketPlace/J/ThreadsCP_F_ja-JP.xml</DESTINATION>
+        <FUNCTION>CommercePointItem</FUNCTION>
+        <DESCRIPTION>
+          <HEADER LANG="ja-JP">LADIES'</HEADER>
+          <BODY LANG="ja-JP">店舗「Threads」で取りあつかっている\n
+女性アバター用のアイテムを紹介！\n
+</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">家具・インテリア</TEXT>
+        <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Nav_FurnitureCP_ja-JP.dds</IMAGE>
+        <DESTINATION>FurnitureCP_ja-JP.xml</DESTINATION>
+        <FUNCTION>CommercePointItem</FUNCTION>
+        <DESCRIPTION>
+          <HEADER LANG="ja-JP">家具・インテリア</HEADER>
+          <BODY LANG="ja-JP">店舗「Deco」で取りあつかっている\n
+家具やインテリアを紹介！\n
+</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">パーソナルスペース</TEXT>
+        <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Nav_EstatesCP_ja-JP.dds</IMAGE>
+        <DESTINATION>EstatesCP_ja-JP.xml</DESTINATION>
+        <FUNCTION>CommercePointItem</FUNCTION>
+        <DESCRIPTION>
+          <HEADER LANG="ja-JP">パーソナルスペース</HEADER>
+          <BODY LANG="ja-JP">店舗「Estates」で取りあつかっている\n
+パーソナルスペースやクラブを紹介！\n
+</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">ポータブルアイテム</TEXT>
+        <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Nav_StuffCP_ja-JP.dds</IMAGE>
+        <DESTINATION>HomeStuffCP_ja-JP.xml</DESTINATION>
+        <FUNCTION>CommercePointItem</FUNCTION>
+        <DESCRIPTION>
+          <HEADER LANG="ja-JP">ポータブルアイテム</HEADER>
+          <BODY LANG="ja-JP">店舗「Stuff」で取りあつかっている\n
+ポータブルアイテムを紹介！\n</BODY>
+        </DESCRIPTION>
+      </ITEM>
+    </ITEM>
+  </CATEGORY>
+  <CATEGORY BGCOLOR="#F26522">
+    <TEXT LANG="ja-JP">プライベートラウンジ</TEXT>
+    <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Header-Personal2.dds</IMAGE>
+    <ITEM>
+      <FUNCTION>DefaultApartmentItem</FUNCTION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">パーソナルスペース</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Header-Personal1-Inverted.dds</IMAGE>
+      <FUNCTION>YourApartments</FUNCTION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">クラブハウス</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Header-Personal1-Inverted.dds</IMAGE>
+      <FUNCTION>YourClubhouses</FUNCTION>
+    </ITEM>
+  </CATEGORY>
+  <CATEGORY BGCOLOR="#5A2C7B">
+    <TEXT LANG="ja-JP">パブリックラウンジ</TEXT>
+    <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Header-Explore2.dds</IMAGE>
+    <ITEM>
+      <TEXT LANG="ja-JP">最近移動したラウンジ</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Header-Explore1-Inverted.dds</IMAGE>
+      <FUNCTION>RecentlyVisited</FUNCTION>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">PlayStation®Home</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Maker/PSHome.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="ja-JP">ホームスクエア</TEXT>
+        <DESTINATION>Home Square</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">マーケットプレイス</TEXT>
+        <DESTINATION>Marketplace</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">シアター</TEXT>
+        <DESTINATION>Cinema</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">ゲームスペース</TEXT>
+        <DESTINATION>Game Space</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">ホームカフェ</TEXT>
+        <DESTINATION>homecafe</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">おしゃべりファーム　ユグドラ市場</TEXT>
+        <DESTINATION>TL_CF_EntryGate_2DC6_4904</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">IREM SOFTWARE ENGINEERING INC.</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Maker/IREM.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="ja-JP">銀玉人情商店街</TEXT>
+        <DESTINATION>SCEJ_Pachipara_E34D_28F9</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">nDreams Ltd.</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Maker/nDreams.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="ja-JP">nDreams:オーロラ</TEXT>
+        <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Spaces/SCEJ_AuroraLounge.dds</IMAGE>
+        <DESTINATION>nDreams_Skyhub_4809_6F8E</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">nRage</TEXT>
+        <DESTINATION>nRage_4A_6A5C</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">O-Two inc.</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Maker/OTwo.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="ja-JP">peakvox monster</TEXT>
+        <DESTINATION>J_Peakvox_Labs_8_55DD_D004</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">peakvox ninja</TEXT>
+        <DESTINATION>Peakvox_Ninja_1_4045_EFD7</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">peakvox labs</TEXT>
+        <DESTINATION>OTwo_peakvox_labs_3_F8B7_74CD</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">Capcom Co.,ltd</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Maker/CAPCOM.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="ja-JP">カプコン號</TEXT>
+        <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Spaces/SCEJ_Capcom_Go1.dds</IMAGE>
+        <DESTINATION>Capcom_L_Infomation_2F13_CBC</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="ja-JP">カプコン號</HEADER>
+          <BODY LANG="ja-JP">CAPCOMが提供する夢のテーマパーク船。\n
+船内にはゲームからショップまで盛りだくさん。\n
+新たな出会いがきっとあなたを待っている。</BODY>
+        </DESCRIPTION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">ストIV S.I.N.の秘密基地</TEXT>
+        <DESTINATION>J_CAPCOM_SF4_50E0_DAC8</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">バイオハザード５　撮影スタジオ</TEXT>
+        <DESTINATION>J_CAPCOM_J_RE5_0000_C008_C14A</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">Q-Games Ltd.</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Maker/Q-GAMES.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="ja-JP">PixelJunk ミュージアム</TEXT>
+        <DESTINATION>J_QGames_TGS_Apt2_DF02_BF3B</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">Granzella Inc.</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Maker/Granzella.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="ja-JP">夕暮れのグランゼーラ広場</TEXT>
+        <DESTINATION>Space_Lounge_SCEJ_E2AE_1CAA</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">もうひとつの砂浜</TEXT>
+        <DESTINATION>Seaside_Lounge_42B3_EE61</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">南の島の隠れ家</TEXT>
+        <DESTINATION>Lagoon_Lounge_9496_A14</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">ネオンがしみる繁華街</TEXT>
+        <DESTINATION>Hankagai_Lounge_2444_82D2</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">大江戸・大商店と長屋</TEXT>
+        <DESTINATION>Edo_Lounge_3BEA_1FE6</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">照英王国</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Spaces/SCEJ_Shoei_Kingdom.dds</IMAGE>
+      <ITEM>
+        <BGIMAGE>http://scej-home.playstation.net/j.home/Navigator/BGImage/NavBG_SKINGDOM_1.dds</BGIMAGE>
+        <TEXT LANG="ja-JP">照英王国</TEXT>
+        <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Spaces/SCEJ_Shoei_Kingdom_3.dds</IMAGE>
+        <DESTINATION>Shouei_Kingdom_1_1F57_8149</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">『照英王国』王立映写室</TEXT>
+        <DESTINATION>Shoei_Kingdom_1496_D396</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">Sodium</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Maker/Sodium.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="ja-JP">Sodium Hub</TEXT>
+        <DESTINATION>Sodium_Demo_6C9B_2C7B</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">Sodium 2</TEXT>
+        <DESTINATION>Sodium2_RTM_1476_98E4</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">SCEJ</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Maker/SCE.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="ja-JP">ドラゴンズ・グリーン</TEXT>
+        <DESTINATION>SCEA_Outso_Arcade_3C7E_FB2B</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">リトルビッグプラネット™　プレイグラウンド</TEXT>
+        <DESTINATION>SCEE_LBP_Hub_4C7A_664F</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">MotorStorm Carrier</TEXT>
+        <DESTINATION>SCEE_MS_Carrier_B6D5_23B8</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">週刊トロ･ステーション™　ラウンジ</TEXT>
+        <DESTINATION>J_SCEJ_Toro_Lounge_0_47BF_CF6D</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">ムイムイ客船</TEXT>
+        <DESTINATION>SCEJ_LocoRoco_Pub01_8D96_528A</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">ラチェット&amp;クランク®：タイムトラベラーズ</TEXT>
+        <DESTINATION>NSIRCHOME_Hub_2BC9_87FD</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">SOCOM： 戦術司令部</TEXT>
+        <DESTINATION>SOCOM_TOC_JAP_182B_5647</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">Resistance™ ステーション</TEXT>
+        <DESTINATION>Resistance2_Lobby_77F0_7D02</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">SIRENラウンジ</TEXT>
+        <DESTINATION>SIREN_1_jp</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">みんGOLラウンジ</TEXT>
+        <DESTINATION>mingol_1_jp</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">TECMO KOEI GAMES CO., LTD.</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Maker/Tecmo_Koei_1.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="ja-JP">『大航海時代 Online』酒場</TEXT>
+        <DESTINATION>uncharted_waters_1_974f_cc6e</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">『信長の野望 Online』戦国の城</TEXT>
+        <DESTINATION>Nobunaga_no_Yabou_1_2974_7875</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">『真・三國無双 Online』 回廊</TEXT>
+        <DESTINATION>SCEJ_KOEI_Musou_21E9_35E9</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">NAMCO BANDAI Games Inc.</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Maker/BN.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="ja-JP">「鉄拳6」　三島ビル：娯楽フロア</TEXT>
+        <DESTINATION>SCEJ_Tekken6_FB11_91A9</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">キャロット　NBGI</TEXT>
+        <DESTINATION>NMCommCarrot1_4A80_F95C</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">NIPPON ICHI SOFTWARE INC.</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Maker/NIS.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="ja-JP">魔界戦記ディスガイア４ラウンジ</TEXT>
+        <DESTINATION>EvilAcademy_0000_0000</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">Hudson Soft Co., Ltd.</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Maker/HUDSON.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="ja-JP">エレメンタルモンスターラウンジ</TEXT>
+        <DESTINATION>J_HUDSON_Elemon_484C_DCA8</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">ハドソンシアター</TEXT>
+        <DESTINATION>SCEJ_Hudson_Theatre_59CE_9F5E</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">ボンバードーム</TEXT>
+        <DESTINATION>SCEJ_HUDSONBomberman_CD06_99E8</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">ハドソンゲート</TEXT>
+        <DESTINATION>SCEJ_HUDSON_Hudson_8552_C7E9</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">FromSoftware, Inc.</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Maker/From_Software.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="ja-JP">ドットニア城</TEXT>
+        <DESTINATION>J_FS_3DDGH_1_181D_4365</DESTINATION>
+        <DESCRIPTION>
+          <HEADER LANG="ja-JP">ドットニア城</HEADER>
+        </DESCRIPTION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">Hellfire Games, Inc.</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Maker/Hellfire.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="ja-JP">ホームタイクーン</TEXT>
+        <DESTINATION>SCEJ_Tycoon_Station_EB4_C159</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">ノーバス・プライム</TEXT>
+        <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/FeaturedSpaces/Nav_Novus_NewRecommended_3.dds</IMAGE>
+        <DESTINATION>Hellfire_Nebulon_ED3C_DE23</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">Presented by Will</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Maker/WILL.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="ja-JP">ＧＡＷシアター</TEXT>
+        <DESTINATION>J_will_Theater_EF0E_353E</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">怪物ジャポン 釣り堀</TEXT>
+        <DESTINATION>Will_Fishing_Lounge_F288_BB7E</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">怪物ジャポン　一本釣り</TEXT>
+        <DESTINATION>Jwill_Fishing_Lounge_55DD_BF9E</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">Mass Media Games, Inc.</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Maker/MassMedia.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="ja-JP">ホットゾーン</TEXT>
+        <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Spaces/SCEJ_MassMedia_HotZone_1.dds</IMAGE>
+        <DESTINATION>Hot_Spot_Lobby_2250_B5EF</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">アメリカン・カーニバル３</TEXT>
+        <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Spaces/SCEJ_MassMedia_Midway3.dds</IMAGE>
+        <DESTINATION>Midway_3_C664_E87B</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">アメリカン・カーニバル２</TEXT>
+        <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Spaces/SCEJ_MassMedia_Midway2.dds</IMAGE>
+        <DESTINATION>Midway2_68D9_45B4</DESTINATION>
+      </ITEM>
+      <ITEM>
+        <TEXT LANG="ja-JP">アメリカン・カーニバル</TEXT>
+        <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Spaces/SCEJ_MassMedia_Midway1.dds</IMAGE>
+        <DESTINATION>SCEA_MMI_Midway_D11D_5547</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">ユービーアイソフト株式会社</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Maker/UBISoft.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="ja-JP">アブスターゴ・ラボ</TEXT>
+        <DESTINATION>SCEJ_AC2_Lab_8DB_188E</DESTINATION>
+      </ITEM>
+    </ITEM>
+    <ITEM>
+      <TEXT LANG="ja-JP">Lockwood</TEXT>
+      <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Maker/Lockwood.dds</IMAGE>
+      <ITEM>
+        <TEXT LANG="ja-JP">スカイ・キングダム</TEXT>
+        <DESTINATION>Jewel_Of_The_Skies_B0C2_AB36</DESTINATION>
+      </ITEM>
+    </ITEM>
+  </CATEGORY>
+  <CATEGORY BGCOLOR="#418A34">
+    <TEXT LANG="ja-JP">フレンド</TEXT>
+    <IMAGE LANG="ja-JP">http://scej-home.playstation.net/j.home/Navigator/Category/Header-Friends2.dds</IMAGE>
+    <FUNCTION>FriendsList</FUNCTION>
+  </CATEGORY>
+</XML>

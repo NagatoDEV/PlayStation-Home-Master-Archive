@@ -1,0 +1,106 @@
+<commerce_point>
+  <node>
+  <header>
+	<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Diesel_Store_BG.dds</background> 
+    </header>
+	<!--MALE-->
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="en-US" >Male</name>
+        <name lang="fr-FR" >Homme</name>
+        <name lang="it-IT" >Maschio</name>
+        <name lang="de-DE" >Männlich</name>
+        <name lang="es-ES" >Hombre</name>
+        <name lang="ja-JP" >??</name>
+        <name lang="ko-KR" >??</name>
+        <name lang="zh-HK" >??</name>
+        <name lang="zh-TW" >??</name>
+        <name lang="en-SG" >Male</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Diesel_Store_BG.dds</background>
+      </header>
+		
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="en-US" >Torso</name>
+          <name lang="fr-FR" >Torse</name>
+          <name lang="it-IT" >Torso</name>
+          <name lang="de-DE" >Rumpf</name>
+          <name lang="es-ES" >Torso</name>
+          <name lang="ja-JP" >????</name>
+          <name lang="ko-KR" >?</name>
+          <name lang="zh-HK" >??</name>
+          <name lang="zh-TW" >??</name>
+          <name lang="en-SG" >Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/torso.dds</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Diesel_Store_BG.dds</background>
+        </header>
+	
+          <!--Torso-->
+		  <object>F366C1E9-D0B34758-832077D6-E5540561</object>
+		  <object>16C884FB-5A7E40C1-88909F4D-49AA9AD7</object>
+		  <object>B8F5DE1B-20F54E7A-A14B9479-5A3F6095</object>
+		  <object>E0104D91-B27A4685-81495961-E8EC7F0E</object>
+		  <object>6FCD2627-47754F4C-A43D4A57-C01C627B</object>
+		  
+
+		  
+		  <object>DE84BE3A-A40444E3-96A3EAEF-3477E243</object>
+		  <object>79F16003-74844C62-B6CDD45E-2BD4B8AC</object>
+		  <object>C075110A-89DE4F5A-8093F4B5-19F6862F</object>
+		  <object>5F36C982-A1204788-BBC211C6-1E450375</object>
+		  <object>D39BAD2C-3A1F4EDD-B406178B-6B78BD52</object>
+		  
+
+		  
+		  <object>4FD24223-3749448A-838FCF57-29B94071</object>
+		  <object>DE110E2A-76004D20-A37D98F4-9C77A021</object>
+		  
+
+		  
+		  <object>36BBEBF0-C6454381-AA72B36E-4DEDADBB</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Legs</name>
+          <name lang="en-US" >Legs</name>
+          <name lang="fr-FR" >Jambes</name>
+          <name lang="it-IT" >Gambe</name>
+          <name lang="de-DE" >Beine</name>
+          <name lang="es-ES" >Piernas</name>
+          <name lang="ja-JP" >????</name>
+          <name lang="ko-KR" >??</name>
+          <name lang="zh-HK" >?</name>
+          <name lang="zh-TW" >?</name>
+          <name lang="en-SG" >Legs</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/legs.dds</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Diesel_Store_BG.dds</background>
+        </header>
+		  <!--8th Jan Trousers-->
+		  <object>B4EAFA57-D46247B2-BD5FFE68-55DD4EAB</object>
+		  <object>7F69176A-B43A4772-BBCF0A79-DCB3577C</object>
+      </node>
+    </node> 
+
+
+
+	<!--FEMALE-->
+	<node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="en-US" >Female</name>
+        <name lang="fr-FR" >Femme</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/Diesel_Store_BG.dds</background>
+      </header>
+           <!--Torso-->
+      <object>ED6D1106-6F16493F-8ED04C42-3281E6AC</object>
+      <object>DE78D9C5-4DF64D55-B5BDDF49-898CC72F</object>	
+			
+    </node> 
+
+  </node>
+</commerce_point>
+

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+<node>
+	  <header>
+        <name lang="en-US" default="true">EA Sports</name>
+        <thumbnail lang="en-US" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/easports.png</thumbnail>
+	<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/EAStore_background.dds</background> 	
+      </header>
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="fr-FR">Homme</name>
+        <name lang="en-US">Male</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/EAStore_background.dds</background> 
+      </header>
+	  <node type="objects"> <!-- Battlefield 3 -->
+      <header>
+        <name lang="en-US" default="true">Battlefield 3</name>
+        <name lang="fr-FR">Battlefield 3</name>
+        <thumbnail lang="en-US" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/battlefield3_scea.png</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/EAStore_background.dds</background> 
+      </header>
+		<object>B4DFC3DB-23194348-9328F459-51C47836</object> <!-- 10/20/11 -->
+		<object>8A51F315-7C9245A2-BA409E9F-48B19CBA</object> <!-- 10/20/11 -->
+		<object>DA5AA935-D8144902-8C7140CE-52BA7DBC</object> <!-- 10/20/11 -->
+		<object>967CD313-B0464BB8-8C3A941E-8894415B</object> <!-- 10/20/11 -->
+		<object>CABAA16B-F152414B-880978F8-8442E22A</object> <!-- 10/20/11 -->
+		<object>2628F9A5-4E894DAD-91886BDF-04A05229</object> <!-- 10/20/11 -->
+		<object>5D52582B-033C47E1-B26D8B5B-6B2404D7</object> <!-- 10/20/11 -->
+      </node>
+  
+
+	  <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Fight Night 4 Clothes</name>
+        <name lang="fr-FR">Fight Night 4 Clothes</name>
+        <name lang="en-US">Fight Night 4 Clothes</name>
+        <thumbnail lang="en-US" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/fn4.png</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/EAStore_background.dds</background> 
+      </header>
+		<object>E6D9DEFA-EF104937-B1C9C3FB-FED898DC</object>
+		<object>D19C0141-C477422F-826FDAA7-FA29F1BF</object>
+      </node>
+	  </node>
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR">Femme</name>
+        <name lang="en-US">Female</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/EAStore_background.dds</background> 
+        </header>
+	  <node type="objects"> <!-- Battlefield 3 -->
+      <header>
+        <name lang="en-US" default="true">Battlefield 3</name>
+        <name lang="fr-FR">Battlefield 3</name>
+        <thumbnail lang="en-US" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/battlefield3_scea.png</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/EAStore_background.dds</background> 
+      </header>
+		<object>16CA6A0B-51014A87-811A9BCC-21B32E41</object> <!-- 10/20/11 -->
+		<object>B718F414-94A14663-83FE3412-BFA38B32</object> <!-- 10/20/11 -->
+		<object>055EDD47-D8864ECE-A9F4895C-5EC0A6C9</object> <!-- 10/20/11 -->
+
+      </node>
+
+
+	  <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Fight Night 4 Clothes</name>
+        <name lang="fr-FR">Fight Night 4 Clothes</name>
+        <name lang="en-US">Fight Night 4 Clothes</name>
+        <thumbnail lang="en-US" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/fn4.png</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/EAStore_background.dds</background> 
+        </header>
+		<object>5076C3EA-ECAE4D0D-987EF5AC-6699873B</object>
+		<object>41F5BF3A-AE104E76-8075F421-9346980D</object>
+        </node>
+		</node>
+	<node>
+      <header>
+        <name lang="en-GB" default="true">Furniture</name>
+        <name lang="en-US" >Furniture</name>
+        <name lang="fr-FR" >Furniture</name>
+		<thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/furniture_scea.dds</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/EAStore_background.dds</background> 
+      </header>
+	  	<node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Furniture</name>
+        <name lang="en-US" >Furniture</name>
+        <name lang="fr-FR" >Furniture</name>
+	  <thumbnail lang="en-US" default="true" useOsdColour="false">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/fn4.png</thumbnail>
+	  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/EAStore_background.dds</background> 
+	  </header>
+		<object>1552F26F-B861477D-AAE19E01-75490D62</object>
+		</node>
+      </node>
+	  </node>
+</commerce_point>

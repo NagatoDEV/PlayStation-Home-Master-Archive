@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+     <node>
+	 		  <header>
+			<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/otwo_ninja_scea_bg.dds</background> 	  
+          </header>
+		<node type="objects"> <!-- Bundles -->
+		  <header>
+			<name lang="en-US" default="true">Value Packs</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/value_packs.dds</thumbnail>
+			<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/otwo_ninja_scea_bg.dds</background> 	  
+          </header>
+			  <object>882B8E8F-DC78464B-815C2D08-2927C167</object> <!-- 1/9/13 -->		  
+		  </node>	 
+        <node type="objects"> <!-- Male -->
+          <header>
+            <name lang="en-GB" default="true">Male</name>
+            <name lang="fr-FR">Homme</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+    		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/otwo_ninja_scea_bg.dds</background> 
+          </header>	
+		<object>12B6198E-100549D6-8EF12500-C002D36F</object> <!-- 1/16/13 -->		  
+		<object>E2B40E07-FEAF4706-B5BEC777-81FA0CE9</object> <!-- 1/9/13 -->
+		<object>DBF2300F-8F7F429B-948A4B6C-6E5159D4</object> <!-- 1/9/13 -->
+		<object>C4A4F4DE-DACB493D-92B76F02-DF86A58F</object> <!-- 1/9/13 -->		
+		<object>4EFE348F-A3894805-BF9847A7-3569DB15</object> <!-- 1/9/13 -->		
+		<object>91A48E68-9344449B-92ABEF58-E98575A3</object> <!-- 1/9/13 -->
+		<object>F43EE23E-0C4641B8-AAE9A0AE-F6962FE9</object> <!-- 1/9/13 -->
+		<object>372DBFB7-20294A0B-9602129F-2AD179D0</object> <!-- 1/9/13 -->				  		  		  
+		  </node>
+        <node type="objects"> <!-- Female -->
+          <header>
+            <name lang="en-GB" default="true">Female</name>
+            <name lang="fr-FR">Femme</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+    		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/otwo_ninja_scea_bg.dds</background> 
+          </header>
+		<object>473A4931-604F4ACF-948462C6-D2C90179</object> <!-- 1/16/13 -->		  
+		<object>EC5EDEC8-C77B457F-BA0909EE-96D2763C</object> <!-- 1/9/13 -->
+		<object>87F4D38C-2D8B4D2C-98DC4D4A-73EE1405</object> <!-- 1/9/13 -->
+		<object>B53F7536-E7FD4D90-8388A012-E497F9E6</object> <!-- 1/9/13 -->		  
+		<object>87F4D38C-2D8B4D2C-98DC4D4A-73EE1405</object> <!-- 1/9/13 -->
+		<object>55AC7B0D-1EE14229-8F23ADB8-9A2DA164</object> <!-- 1/9/13 -->
+		<object>BE791662-8FC643F8-8D810295-DFF74412</object> <!-- 1/9/13 -->
+		<object>E790F1DE-9E244C02-83A3283B-4DD6BA53</object> <!-- 1/9/13 -->
+		<object>6584F2F4-C1D6427C-B123D2CA-79E83931</object> <!-- 1/9/13 -->		  	  		  		  
+		  </node>	
+      <node type="objects"> <!-- Personal Space -->
+        <header>
+          <name lang="en-US" default="true">Personal Space</name>
+          <name lang="fr-FR" >Espace personnel</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/estates_scea.dds</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/otwo_ninja_scea_bg.dds</background> 
+        </header>
+		<object>29397063-00C041E6-96009BC5-5DD3D992</object> <!-- 1/16/2013 -->
+	  </node>		  
+		</node>  
+</commerce_point>
