@@ -1,0 +1,92 @@
+<SETUP>
+<node name="Assassin's Creed 2" picName="AC2.dds">
+<node name="Abstergo Labs" picName="AC2Lab.dds" sceneName="AC2_Lab_C277_EA79"/>
+</node>
+<node name="Home" picName="home_header.dds">
+<node name="Bowling Alley" picName="bowling.dds" sceneName="Game Space"/>
+<node name="The Gamer's Lounge" picName="gamerslounge.dds" sceneName="SCEA_HomeCafe_7898_7B5"/>
+<node name="Mall" picName="mall.dds" sceneName="Marketplace"/>
+<node name="Home Theater" picName="theatre.dds" sceneName="Cinema"/>
+</node>
+<node name="Sodium" picName="sodiumparent.dds">
+<node name="Sodium Hub" picName="sodiumchild.dds" sceneName="Sodium_Demo_6C9B_2C7B"/>
+</node>
+<node name="Irem" picName="iremmainthumb.dds">
+<node name="Irem Square" picName="iremchildthumb.dds" sceneName="SCEA_IREM_Square_3B1B_28C3"/>
+<node name="Seaside of Memories" picName="IREM_Seaside_Small.dds" sceneName="SCEA_Irem_Island_46A2_E494"/>
+</node>
+<node name="Buzz!™" picName="buzz.dds">
+<node name="Buzz!™ HQ" picName="buzz_child.dds" sceneName="Buzz_Lobby_1655_6402"/>
+</node>
+<node name="MotorStorm®" picName="motorstorm.dds">
+<node name="MotorStorm® Carrier" picName="motorstormchild.dds" sceneName="SCEE_MS_Carrier_B6D5_23B8"/>
+</node>
+<node name="LocoRoco™" picName="locorocomain.dds">
+<node name="LocoRoco™ MuiMui Ship" picName="locorocochild.dds" sceneName="SCEJ_LocoRoco_Pub02_A4CF_8E3F"/>
+</node> 
+<node name="Capcom" picName="capcom_header.dds">
+<node name="Resident Evil 5: Studio Lot" picName="capcom.dds" sceneName="A_CAPCOM_J_RE5_E0E3_BA27"/>
+<node name="S.I.N.'s Secret Base from Street Fighter IV" picName="streetfighterIV_child.dds" sceneName="A_CAPCOM_SF4_906E_DF9E"/>
+</node>
+<node name="EA Sports" picName="easports_header.dds">
+<node name="Golf Complex - Poker II" picName="poker2.dds" sceneName="EA_SportsCpx_GB_Up_762F_97AD"/>
+<node name="Racing Complex" picName="racecomplex.dds" sceneName="EASportsLobby_0000_0000"/>
+<node name="Racing Complex - Poker I" picName="poker1.dds" sceneName="EASportsLobbyUpstair_54A2_6BBF"/>
+<node name="Club Fight Night" picName="fightnight.dds" sceneName="Fight_Night_Round_4_6F0E_9EC7"/>
+<node name="Golf Complex" picName="golfcomplex.dds" sceneName="EA_SportsComplex_FR_4DB0_F882"/>
+</node>
+<node name="Far Cry 2" picName="farcry2_header.dds">
+<node name="Train Station" picName="trainstation.dds" sceneName="FC2_Trainstation"/>
+<node name="Reuben's Office" picName="reubensoffice.dds" sceneName="FC2_reubensroom"/>
+</node>
+<node name="The Godfather II" picName="godfather_header.dds">
+<node name="The Godfather II" picName="godfather.dds" sceneName="Godfather_2_Casino_25F0_D814"/>
+</node>
+<node name="Guitar Hero" picName="guitarhero_header.dds">
+<node name="Backstage with Guitar Hero®" picName="guitarhero.dds" sceneName="GuitarHero_Lobby_E6FB_690B"/>
+</node>
+<node name="inFAMOUS" picName="infamous.dds">
+<node name="Abandoned Docks" picName="infamous_child.dds" sceneName="inFamous_Space_8C52_ADC9"/>
+</node>
+<node name="SingStar" picName="singstar.dds">
+<node name="The SingStar®Rooms" picName="singstarsub.dds" sceneName="SingStar_Main"/>
+</node>
+<node name="Hot Shots Golf®" picName="hotshotsmain.dds">
+<node name="Hot Shots Golf®" picName="hotshots.dds" sceneName="mingol_1_a_3F5C_F327"/>
+</node>
+<node name="PixelJunk™" picName="pixeljunk_header.dds">
+<node name="PixelJunk™ Exhibition" picName="pixeljunk_child.dds" sceneName="SCEJ_QGames_Exhibit_19A7_2689"/>
+</node>
+<node name="Red Bull" picName="redbull_header.dds">
+<node name="Red Bull Illume™" picName="redbull_illum_small.dds" sceneName="RedbullHub_illume_8B26_E7D1"/>
+<node name="Red Bull Air Race" picName="redbull.dds" sceneName="SCEA_RedBull_AirRace_3D04_DF49"/>
+<node name="Red Bull Beach" picName="redbull_flutag_small.dds" sceneName="Redbull_Flugtag_F33D_A3DE"/>
+</node>
+<node name="Resistance" picName="resistance.dds">
+<node name="Resistance™ Station" picName="resistance_child.dds" sceneName="Resistance2_Lobby_77F0_7D02"/>
+</node>
+<node name="Ratchet &amp; Clank®" picName="rachetnclank_header.dds">
+<node name="Ratchet &amp; Clank®: Time Travelers" picName="rachetnclank_child.dds" sceneName="NSIRCHOME_Hub_2BC9_87FD"/>
+</node>
+<node name="Siren: Blood Curse" picName="siren_header.dds">
+<node name="Siren Lounge" picName="siren.dds" sceneName="Siren_1_A_49BC_2AE3"/>
+</node>
+<node name="SOCOM" picName="socom_header.dds">
+<node name="T.O.C." picName="toc.dds" sceneName="SOCOMTOC_0000_0000"/>
+</node>
+<node name="Uncharted" picName="uncharted_header.dds">
+<node name="Uncharted™: Sully's bar" picName="uncharted.dds" sceneName="Uncharted_TheBar"/>
+<node name="Uncharted 2 Nepalese Village" picName="uncharted2_child.dds" sceneName="Uncharted2_Space_952F_A6C5"/>
+</node>
+<node name="Warhawk" picName="warhawk_header.dds">
+<node name="Warhawk" picName="warhawk.dds" sceneName="Warhawk_0000_0000"/>
+</node>
+<node name="Burn Zombie Burn" picName="burnzombieburn_header.dds">
+<node name="Burn Zombie Burn" picName="burnzombieburn.dds" sceneName="SCEA_DoubleSix_Lobby_9E4C_323"/>
+</node>
+<node name="NAMCO BANDAI Games" picName="banco_header.dds">
+<node name="Namco Arcade Centre" picName="namcoarcade.dds" sceneName="US_Namco_Arcade_1701_C9E1"/>
+<node name="Namco Theatre" picName="namcotheatre.dds" sceneName="US_Namco_Theatre_78CB_74AE"/>
+<node name="Mishima Zaibatsu - Recreation Floor" picName="namcotekken6_child.dds" sceneName="SCEA_Tekken6_B660_CAC2"/>
+</node>
+</SETUP>
