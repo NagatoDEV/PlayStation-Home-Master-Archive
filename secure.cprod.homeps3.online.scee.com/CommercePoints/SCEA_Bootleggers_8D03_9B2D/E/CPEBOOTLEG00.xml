@@ -1,0 +1,200 @@
+<commerce_point>
+	<node>
+		<header>
+			<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/bootleggers_bg_scee.png</background>
+		</header>
+		<node>
+					<header>
+						<name lang="en-GB" default="true">Male</name>
+						<name lang="fr-FR">Homme</name>
+						<name lang="de-DE">Männlich</name>
+						<name lang="it-IT">Maschio</name>
+						<name lang="es-ES">Hombre</name>
+						<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/bootleggers_bg_scee.png</background>
+					</header>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Head</name>
+          <name lang="fr-FR" >Accessoires de tête</name>
+          <name lang="it-IT" >Accessori testa</name>
+          <name lang="de-DE" >Kopf</name>
+          <name lang="es-ES" >Accesorios cabeza</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/head.dds</thumbnail>
+                   <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/bootleggers_bg_scee.png</background>
+        </header>
+        <!--Fedora-->
+        <object>00000000-00000000-00000000-00010067</object>
+        <object>0212C7AF-B7DC4E01-A31503A1-CBC5AE09</object>		<!-- Trilby -->
+        <object>6DB86199-0EC44A05-9A63BFA3-40C42BA6</object>		<!-- LKWD Figment trilby -->
+        <object>00000000-00000000-00000000-00010068</object>				<!-- Porkpie -->
+        <object>EBCCED0F-E4244EA0-87B78397-A526B270</object>		<!-- Homburg hat -->
+        <!--Sailors Beanie Hat-->
+        <object>AB1760E7-CA1543EA-99A74571-95F48049</object>
+        <object>D1B52336-72024B81-A08C0682-E2C9FFDA</object>			<!-- Flat cap -->
+        <!--Black and Grey Flatcap-->
+        <object>00000000-00000000-00000000-00010049</object>
+        <!--Black and Red Flatcap-->
+        <object>00000000-00000000-00000000-00010050</object>
+        <!--Black and Brown Flatcap-->
+        <object>00000000-00000000-00000000-00010051</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="en-US" >Torso</name>
+          <name lang="fr-FR" >Torse</name>
+          <name lang="it-IT" >Torso</name>
+          <name lang="de-DE" >Rumpf</name>
+          <name lang="es-ES" >Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/torso.dds</thumbnail>
+                  <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/bootleggers_bg_scee.png</background>
+        </header>
+        <!-- Paris Classical Male torso -->
+        <object>AEDB5536-48154EA9-88F6DC68-EBBC1ED9</object>
+        <!-- Paris Modern Male torso -->
+     	<object>2464AF2F-E45F4BEB-B2E41E88-45470129</object>		<!-- LKWD Figment Formal jacket -->
+     	<object>53FB822D-26D7458E-BF729B2F-890B9065</object>
+     	<object>91BF1B47-60374A4E-BD9BD2B5-4DA3BFDA</object>	<!-- Tailored suit jacket -->
+     	<object>BD117C51-66E84680-B91B9632-59750880</object>		<!-- Gothic suit jacket -->
+     	<object>82D8FBB3-E2864D15-B2D9E12D-78362E14</object>		<!-- Knitted jumper -->
+      </node>
+        <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Legs</name>
+          <name lang="fr-FR" >Jambes</name>
+          <name lang="it-IT" >Gambe</name>
+          <name lang="de-DE" >Beine</name>
+          <name lang="es-ES" >Piernas</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/legs.dds</thumbnail>
+                  <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/bootleggers_bg_scee.png</background>
+        </header>
+        <!-- Paris Classical Male legs -->
+        <object>2173CDF0-CD1E46AC-8514B823-E7E0A006</object>
+        <!-- Paris Modern Male legs -->
+     	<object>63F96CF0-F8464C01-9F7070FA-1C0A338D</object>
+     	<object>299F11E1-C93C4E03-BBF0B0B1-657C4BD7</object>		<!-- LKWD Figment Formal trousers -->
+     	<!-- Tailored -->
+        <object>22A5D4AC-0E154745-A2AA31E5-4CC9E405</object>
+        <!-- Gothic -->
+        <object>70B2DE18-707044E1-8AFFD367-3AD25D01</object> 
+        <object>00000000-00000000-00000000-00040026</object>			<!-- Smart -->
+          <!-- Woollen Wonders M-->
+		  <object>41B0A86B-8BBC4ACA-BEFC4111-7A86DF35</object>
+		  <object>8916F44A-A56A4A35-8F845444-0494E75D</object>
+        </node>
+        <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Feet</name>
+          <name lang="en-US" >Feet</name>
+          <name lang="fr-FR" >Pieds</name>
+          <name lang="it-IT" >Piedi</name>
+          <name lang="de-DE" >Füße</name>
+          <name lang="es-ES" >Pies</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/feet.dds</thumbnail>
+                  <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/bootleggers_bg_scee.png</background>
+        </header>
+        <!-- Paris Classical Male feet -->
+        <object>AF215795-B6CD47E8-A98B362E-3080BF67</object>
+        <!-- Paris Modern Male feet -->
+     	<object>A9E20FB5-8520463D-9577F26B-02BBFB5B</object>
+     	<object>CE205DCE-A99D46DF-A1D63075-09AF0EF5</object>		<!-- LKWD Figment Formal shoes -->
+     	        <!-- Black and brown brogues -->
+        <object>A4AF346C-71E94506-80761AAF-AD24F40B</object>
+        <object>8D420775-B2124AC4-AF0CB81C-458223CD</object>
+                  <!-- Suede boots-->
+        <object>00000000-00000000-00000000-00050014</object>
+                 <!-- Winklepickers -->
+        <object>00000000-00000000-00000000-00050031</object>
+      </node>
+		</node>
+			<node>
+					<header>
+						<name lang="en-GB" default="true">Female</name>
+						<name lang="fr-FR">Femme</name>
+						<name lang="it-IT">Femmina</name>
+						<name lang="de-DE">Weiblich</name>
+						<name lang="es-ES">Mujer</name>
+						<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/bootleggers_bg_scee.png</background>
+					</header>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Head</name>
+          <name lang="fr-FR" >Accessoires de tête</name>
+          <name lang="it-IT" >Accessori testa</name>
+          <name lang="de-DE" >Kopf</name>
+          <name lang="es-ES" >Accesorios cabeza</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/head.dds</thumbnail>
+                   <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/bootleggers_bg_scee.png</background>
+        </header>
+        <!--Sailors Beanie Hat-->
+        <object>611DA384-681147DE-AC944E92-A53B7097</object>
+                <!--Black and Grey Flat Cap-->
+        <object>00000000-00000000-00000000-01010051</object>
+        <!--Red Flat Cap-->
+        <object>00000000-00000000-00000000-01010053</object>
+                <!-- Gatsby hat -->
+        <object>30C7EE71-2C774E66-914AE889-516E450B</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="en-US" >Torso</name>
+          <name lang="fr-FR" >Torse</name>
+          <name lang="it-IT" >Torso</name>
+          <name lang="de-DE" >Rumpf</name>
+          <name lang="es-ES" >Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/torso.dds</thumbnail>
+                  <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/bootleggers_bg_scee.png</background>
+        </header>
+                  <!-- Paris black white purple tops -->
+          <object>9C068828-C51E423C-BECBFBD7-24D0ABAC</object>
+          <object>3D4B60CD-49BD4BD3-8AAC88BA-78FB9607</object>
+          <object>24FE45E1-79014D88-A5F734F9-943FDB18</object>
+                  <!-- Paris Classical Female torso -->
+		<object>A2CDA15E-08474941-B8882317-88D1F227</object>
+		        <!-- Purple Laced torso -->
+		<object>C636E866-922543F7-AF12D34B-009F247C</object>
+		        <!--Black Turtle Neck -->
+        <object>00000000-00000000-00000000-01030065</object>
+       <object>2232F7E3-FF8C4AEF-9F0B4D0C-5C7F4018</object>		<!-- LKWD Fool Throttle Blackberry Jam dress -->
+      </node>
+        <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Legs</name>
+          <name lang="fr-FR" >Jambes</name>
+          <name lang="it-IT" >Gambe</name>
+          <name lang="de-DE" >Beine</name>
+          <name lang="es-ES" >Piernas</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/legs.dds</thumbnail>
+                  <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/bootleggers_bg_scee.png</background>
+        </header>
+        <!-- Purple Laced skirt -->
+		<object>FDDCC98F-86FC4F2B-B5353EFF-86D26E80</object>
+	 <object>1088037E-B2CF4739-B7EA736C-13BEAFA5</object>		<!-- Base skirt -->
+	 <object>6CDC2AAA-FAEF48DF-BFBE04F5-60A1CA38</object>		<!-- Harem pants -->
+        </node>
+        <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Feet</name>
+          <name lang="en-US" >Feet</name>
+          <name lang="fr-FR" >Pieds</name>
+          <name lang="it-IT" >Piedi</name>
+          <name lang="de-DE" >Füße</name>
+          <name lang="es-ES" >Pies</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/feet.dds</thumbnail>
+                  <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/bootleggers_bg_scee.png</background>
+        </header>
+        <!-- Paris Classical Female feet -->
+		<object>8DD62046-8F9042A2-AC10A02B-A0AB8CEF</object>
+		        <!--Pointed Ankle Boots -->
+        <object>00000000-00000000-00000000-01050034</object>
+                <object>362FB5DC-CA6C4229-B0EF758C-6A83A671</object>		  <!-- Blk brogues -->
+        <object>C6702A34-E04F4848-9FDB6B62-FB599B3A</object>        	  <!-- Brn brogues -->
+                <object>B1CC14E7-6A09417A-B10F4031-2551B192</object>		  <!-- Ankle zip -->
+                        <object>00000000-00000000-00000000-01050041</object>		  <!-- Work boots -->
+      </node>
+     </node>
+	</node>
+</commerce_point>

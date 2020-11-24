@@ -1,0 +1,46 @@
+<!--  For SCEE users -->
+<commerce_point>
+	<node>
+    <header>
+      <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/ModN_Event_Backstage_2EE9_AFB3/E/modnation_background.png</background>
+    </header>
+	<node>
+      <header>
+        <name lang="en-GB" default="true">ModNation™ Racers</name>
+        <name lang="fr-FR" >ModNation™ Racers</name>
+        <name lang="it-IT" >ModNation™ Racers</name>
+        <name lang="de-DE" >ModNation™ Racers</name>
+        <name lang="es-ES" >ModNation™ Racers</name>
+        <thumbnail lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/modnation_thumb.png</thumbnail>
+      <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/ModN_Event_Backstage_2EE9_AFB3/E/modnation_background.png</background>
+      </header>
+      <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="en-US" >Male</name>
+        <name lang="fr-FR" >Homme</name>
+        <name lang="it-IT" >Maschio</name>
+        <name lang="de-DE" >Männlich</name>
+        <name lang="es-ES" >Hombre</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+      <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/ModN_Event_Backstage_2EE9_AFB3/E/modnation_background.png</background>
+      </header>
+          <!--Modnation Hat male-->
+		  <object>A8AEABD6-A1904AFE-967CFB2E-F3FF2819</object>
+		</node>
+      <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR" >Femme</name>
+        <name lang="it-IT" >Femmina</name>
+        <name lang="de-DE" >Weiblich</name>
+        <name lang="es-ES" >Mujer</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+      <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/ModN_Event_Backstage_2EE9_AFB3/E/modnation_background.png</background>
+      </header>           
+          <!--Modnation Hat female-->
+		  <object>7F1F1FEE-8339464A-8665F250-8BB4F4B1</object>
+		</node>
+		</node>
+	</node>
+</commerce_point> 

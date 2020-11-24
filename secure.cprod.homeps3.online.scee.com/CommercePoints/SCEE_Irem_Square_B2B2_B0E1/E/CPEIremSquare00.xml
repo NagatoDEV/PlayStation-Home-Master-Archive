@@ -1,0 +1,227 @@
+<commerce_point>
+  <node>
+  <header>
+      <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/SCEE_Irem_Square_B2B2_B0E1/E/iremsquare_background.dds</background>
+    </header>
+      <node>
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="fr-FR" >Homme</name>
+        <name lang="it-IT" >Maschio</name>
+        <name lang="de-DE" >Männlich</name>
+        <name lang="es-ES" >Hombre</name>
+        <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/SCEE_Irem_Square_B2B2_B0E1/E/iremsquare_background.dds</background>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+      </header>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Head</name>
+          <name lang="fr-FR">Accessoires de tête</name>
+          <name lang="de-DE">Kopf</name>
+          <name lang="it-IT">Accessori testa</name>
+          <name lang="es-ES">Accesorios cabeza</name>
+          <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/SCEE_Irem_Square_B2B2_B0E1/E/iremsquare_background.dds</background>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/head.dds</thumbnail>
+        </header>
+        <object>C2389C36-459E4857-B8FD469F-F6D6221C</object>
+        <object>00868D41-50264AAA-9EE3C79E-25A7DF9B</object>
+        <object>F41B5C0F-B3A94007-97E9FE8C-B97C157B</object>
+        <object>C7C719DF-DD774369-B7F714A5-9478BD90</object>
+      </node>
+          <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="fr-FR">Torse</name>
+          <name lang="de-DE">Rumpf</name>
+          <name lang="it-IT">Busto</name>
+          <name lang="es-ES">Torso</name>
+          <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/SCEE_Irem_Square_B2B2_B0E1/E/iremsquare_background.dds</background>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/torso.dds</thumbnail>
+        </header>
+        <object>2C842A0F-1CEC4417-AABFE12D-8F4503F2</object>
+        <object>81C3D516-506445FD-8C9E258B-70A6EDB5</object>
+        <object>34232BD4-E0674EB8-ADB04891-92CB0331</object>
+        <object>8B66D164-D6BA4B62-A6F24869-E660D544</object>
+        <object>AAFB03D9-5B7C457A-B608A482-65C03B8C</object>
+      </node>
+    <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Legs</name>
+          <name lang="fr-FR">Jambes</name>
+          <name lang="de-DE">Beine</name>
+          <name lang="it-IT">Gambe</name>
+          <name lang="es-ES">Piernas</name>
+          <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/SCEE_Irem_Square_B2B2_B0E1/E/iremsquare_background.dds</background>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/legs.dds</thumbnail>
+        </header>
+        <object>15D6B68C-A4444D2B-BE57163F-C9C7D8ED</object>
+        <object>B6FABF65-53ED41D2-A0FE4921-31C5C610</object>
+        <object>87C65D39-8DA24029-8F1023FB-B329CC0F</object>
+        <object>872D9EF1-F65146DD-82FBE550-3FF50C23</object>
+        <object>5311505E-87C04BBA-91BB4FDF-A71B5C65</object>
+      </node>
+   <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Feet</name>
+          <name lang="fr-FR">Pieds</name>
+          <name lang="de-DE">Füße</name>
+          <name lang="it-IT">Piedi</name>
+          <name lang="es-ES">Pies</name>
+          <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/SCEE_Irem_Square_B2B2_B0E1/E/iremsquare_background.dds</background>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/feet.dds</thumbnail>
+        </header>
+        <object>BB46CA26-FDBC42D2-8341A0DD-D8E95D9C</object>
+        <object>64E98308-62FA43FF-BE6D7759-C0090A90</object>
+        <object>7131A80E-72774B69-A1A2D703-619DB8FF</object>
+        <object>728E0F58-AF0A47E2-904FC1A3-3EBD2CF1</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Hands</name>
+          <name lang="fr-FR">Mains</name>
+          <name lang="de-DE">Hände</name>
+          <name lang="it-IT">Mani</name>
+          <name lang="es-ES">Manos</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/hands.dds</thumbnail>
+				  <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/SCEE_Irem_Square_B2B2_B0E1/E/iremsquare_background.dds</background>
+        </header>
+        <object>1F9EAB0C-E6AE4DD1-B312F019-454ACE9B</object>
+      </node>
+       <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Glasses</name>
+          <name lang="fr-FR">Lunettes</name>
+          <name lang="de-DE">Brille</name>
+          <name lang="it-IT">Occhiali</name>
+          <name lang="es-ES">Gafas</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/glasses.dds</thumbnail>
+				  <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/SCEE_Irem_Square_B2B2_B0E1/E/iremsquare_background.dds</background>
+        </header>
+        <object>EC433DB7-F4C740E5-8678C7D2-EFB9DE7B</object>
+        <object>8D344CF7-561B43B6-9E60A765-A9EB1AAF</object>
+        <object>29E607EE-133D4187-963401D1-75FAE8F5</object>
+        <object>45A0087F-BAB048D8-AD42C1CE-BBB7C355</object>
+        <object>BDD0DC6F-DFEC474D-8161280D-37CE4879</object>
+      </node>
+      </node>
+   <node>
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR" >Femme</name>
+        <name lang="it-IT" >Femmina</name>
+        <name lang="de-DE" >Weiblich</name>
+        <name lang="es-ES" >Mujer</name>
+        <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/SCEE_Irem_Square_B2B2_B0E1/E/iremsquare_background.dds</background>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+      </header>
+            <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Head</name>
+          <name lang="fr-FR">Accessoires de tête</name>
+          <name lang="de-DE">Kopf</name>
+          <name lang="it-IT">Accessori testa</name>
+          <name lang="es-ES">Accesorios cabeza</name>
+          <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/SCEE_Irem_Square_B2B2_B0E1/E/iremsquare_background.dds</background>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/head.dds</thumbnail>
+        </header>
+        <object>257C5582-E9F84B45-9BA9D127-61C3376F</object>
+        <object>4DF652F7-BBD34ECC-918FEA23-2F93D5BE</object>
+        <object>79CEBC7A-46604776-85926BC5-A8AC2DDD</object>
+        <object>3816FEA2-12074733-98BFC3EA-B69C528D</object>
+      </node>
+          <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="fr-FR">Torse</name>
+          <name lang="de-DE">Rumpf</name>
+          <name lang="it-IT">Busto</name>
+          <name lang="es-ES">Torso</name>
+          <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/SCEE_Irem_Square_B2B2_B0E1/E/iremsquare_background.dds</background>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/torso.dds</thumbnail>
+        </header>
+        <object>D66B3045-B5284382-8FFC0C96-B9F09482</object>
+        <object>CDC728E5-B8BD455C-BD5AA783-BCADC6FB</object>
+        <object>B5272665-ACB14EC4-A76A5EA0-FC9DA3C0</object>
+        <object>A737B464-D75F4F5C-A99364BE-EC6B9332</object>
+        <object>C307C52D-4E954613-AD3AF790-0F12E938</object>
+      </node>
+    <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Legs</name>
+          <name lang="fr-FR">Jambes</name>
+          <name lang="de-DE">Beine</name>
+          <name lang="it-IT">Gambe</name>
+          <name lang="es-ES">Piernas</name>
+          <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/SCEE_Irem_Square_B2B2_B0E1/E/iremsquare_background.dds</background>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/legs.dds</thumbnail>
+        </header>
+        <object>3C2D3793-389B44F1-9057FEEA-127BD5AC</object>
+        <object>7EC22DC1-F87348D6-B81165E3-9FA9AFF4</object>
+        <object>8B4B263B-D3814C52-AB9BF67E-A4F9226E</object>
+        <object>4FA0FEA4-14D34FE7-8E25FC8F-D2F64B32</object>
+        <object>F61ED1A9-CBA445E0-84312066-F6573C34</object>
+      </node>
+   <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Feet</name>
+          <name lang="fr-FR">Pieds</name>
+          <name lang="de-DE">Füße</name>
+          <name lang="it-IT">Piedi</name>
+          <name lang="es-ES">Pies</name>
+          <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/SCEE_Irem_Square_B2B2_B0E1/E/iremsquare_background.dds</background>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/feet.dds</thumbnail>
+        </header>
+        <object>C1434FC2-114049D1-822F9010-E825A6D9</object>
+        <object>8B2250B1-D45D4C77-BB678BAC-7A696FA3</object>
+        <object>F327154F-A69D4EE5-BAAA9F26-06182650</object>
+        <object>4B948D22-521A4877-880BBC50-F2084802</object>
+      </node>
+            <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Hands</name>
+          <name lang="fr-FR">Mains</name>
+          <name lang="de-DE">Hände</name>
+          <name lang="it-IT">Mani</name>
+          <name lang="es-ES">Manos</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/hands.dds</thumbnail>
+          <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/SCEE_Irem_Square_B2B2_B0E1/E/iremsquare_background.dds</background>
+        </header>
+        <object>330450E8-AABC4263-93624D7B-84C3D2F2</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Glasses</name>
+          <name lang="fr-FR">Lunettes</name>
+          <name lang="de-DE">Brille</name>
+          <name lang="it-IT">Occhiali</name>
+          <name lang="es-ES">Gafas</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/glasses.dds</thumbnail>
+				  <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/SCEE_Irem_Square_B2B2_B0E1/E/iremsquare_background.dds</background>
+        </header>
+        <object>B79FD582-60D54A69-9526C739-6BB3B4F6</object>
+        <object>611C81E3-C1654DA6-887922FA-7ABD54A8</object>
+        <object>11BC6BDD-6C0543BC-9A6A00B1-1BF09F1F</object>
+        <object>DBD72C56-4FBC4CC5-9EF27EFA-91821B39</object>
+        <object>E9FF727E-8B3F484F-B0106578-A859991D</object>
+      </node>
+      </node>
+      	<node type="objects">
+		<header>
+        <name lang="en-GB">Furniture</name>
+        <name lang="fr-FR" >Meubles</name>
+        <name lang="it-IT" >Mobili</name>
+        <name lang="de-DE" >Möbel</name>
+        <name lang="es-ES" >Muebles</name>
+			<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Furniture_jp.dds</thumbnail>
+          <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/SCEE_Irem_Square_B2B2_B0E1/E/iremsquare_background.dds</background>
+		</header>
+			    <!--R-type models-->
+			    <object>278EF51D-CB6B47A0-AD049728-B7707B83</object>
+			    <object>FF40E377-8DAF4B2E-87C6BA99-2C0ECEFB</object>
+		 	    <object>3710BE24-625D491B-8A730EB2-81989577</object>
+			    <object>824ED23B-527F48A2-B0F98135-493817DC</object>
+			    <object>F5509CF4-56E34D68-962F6694-54376AAB</object>
+			    <object>54FD4998-19644B62-906B949E-1339E10A</object>
+     </node>
+     </node>
+  </commerce_point>

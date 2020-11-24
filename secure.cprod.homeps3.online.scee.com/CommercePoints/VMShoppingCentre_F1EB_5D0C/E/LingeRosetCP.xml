@@ -1,0 +1,128 @@
+<commerce_point>
+  <node>
+    <header>
+      <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/MarketPlace/E/ligne_bg.png</background>
+    </header>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Chairs</name>
+        <name lang="fr-FR" >Sièges</name>
+        <name lang="it-IT" >Sedie</name>
+        <name lang="de-DE" >Stühle</name>
+        <name lang="es-ES" >Sillas</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Category_Chairs.dds</thumbnail>
+        <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/MarketPlace/E/ligne_bg.png</background>
+      </header>
+        <!--Facett Armchair-->
+	    <object>61964FF4-257B4484-B95A6E4E-A44689BC</object>
+        <!--Shaman Armchair-->
+	    <object>00000000-00000000-00000001-00000035</object>
+        <!--Pam Chair-->
+		<object>00000000-00000000-00000001-0000001A</object>
+        <!--Tip Up Armchair-->
+		<object>00000000-00000000-00000001-00000023</object>
+        <!--Moel Armchair-->
+		<object>00000000-00000000-00000001-00000015</object>
+        <!--Pop Armchair-->
+		<object>00000000-00000000-00000001-00000038</object>
+        <!--Neo Armchair-->
+	    <object>00000000-00000000-00000001-00000014</object>
+		<object>00000000-00000000-00000001-0000001B</object>
+	    <object>00000000-00000000-00000002-00000012</object>
+		<object>00000000-00000000-00000001-0000002D</object>
+    </node>
+   <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Footstools</name>
+        <name lang="fr-FR" >Repose-pieds</name>
+        <name lang="it-IT" >Sgabelli</name>
+        <name lang="de-DE" >Hocker</name>
+        <name lang="es-ES" >Banquetas</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/footstools.dds</thumbnail>
+    <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/MarketPlace/E/ligne_bg.png</background>
+      </header>
+        <!--Shaman Footstool-->
+      <object>00000000-00000000-00000002-00000013</object>
+        <!--Pas Si Classique Footstool-->
+      <object>00000000-00000000-00000001-00000007</object>
+        <!--Malhoun Footstool-->
+      <object>00000000-00000000-00000001-00000031</object>
+        <!--Neo Footstool-->
+      <object>00000000-00000000-00000001-00000016</object>
+        <!--Facett Footstool-->
+      <object>00000000-00000000-00000001-00000012</object>
+        <!--Facett 2 Seater Footstool-->
+      <object>00000000-00000000-00000001-00000021</object>
+        <!--Togo Footstool-->
+      <object>00000000-00000000-00000001-0000001C</object>
+        <!--Pop Footstool-->
+      <object>00000000-00000000-00000001-00000037</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Tables</name>
+        <name lang="fr-FR" >Tables</name>
+        <name lang="it-IT" >Tavoli</name>
+        <name lang="de-DE" >Tische</name>
+        <name lang="es-ES" >Mesas</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Category_Tables.dds</thumbnail>
+            <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/MarketPlace/E/ligne_bg.png</background>
+      </header>
+        <!--Cineline Table-->      
+		<object>00000000-00000000-00000001-00000018</object>
+        <!--Eaton Table-->      
+		<object>00000000-00000000-00000001-00000009</object>
+        <!--Bobine Table-->      
+		<object>00000000-00000000-00000001-00000024</object>
+        <!--Bobine Glass Table-->      
+		<object>00000000-00000000-00000001-00000027</object>
+        <!--Diamant Table-->      
+		<object>00000000-00000000-00000001-0000002E</object>
+        <!--Contours Table-->      
+        <object>00000000-00000000-00000001-00000025</object>
+		<object>00000000-00000000-00000002-00000011</object>
+		<object>00000000-00000000-00000001-0000000D</object>
+		<object>00000000-00000000-00000001-0000000C</object>
+		<object>00000000-00000000-00000001-00000064</object>
+    </node>
+   <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Sofas</name>
+        <name lang="fr-FR" >Canapés</name>
+        <name lang="it-IT" >Divani</name>
+        <name lang="de-DE" >Sofas</name>
+        <name lang="es-ES" >Sofás</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/Category_Sofas.dds</thumbnail>
+            <background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/MarketPlace/E/ligne_bg.png</background>
+      </header>
+        <!--Moel 3 Seater Sofa-->
+      <object>00000000-00000000-00000001-0000002A</object>
+        <!--Pas Si Classique Left Sofa-->
+      <object>00000000-00000000-00000001-00000029</object>
+        <!--Pas Si Classique Right Sofa-->
+      <object>00000000-00000000-00000001-0000002C</object>
+        <!--Facett 2 Seater Sofa-->
+      <object>00000000-00000000-00000001-00000013</object>
+        <!--Facett 3 Seater Sofa-->
+      <object>00000000-00000000-00000001-0000001F</object>
+        <!--Togo 1 Seater Sofa-->
+      <object>00000000-00000000-00000001-0000000F</object>
+        <!--Togo 2 Seater Sofa-->
+      <object>00000000-00000000-00000001-0000001E</object>
+      <!--Togo 3 Seater Sofa-->
+      <object>00000000-00000000-00000002-00000015</object>
+      <!--Togo Corner Sofa-->
+      <object>00000000-00000000-00000001-0000002B</object>
+        <!--Malhoun Chaise Left-->
+		<object>00000000-00000000-00000001-00000036</object>
+        <!--Malhoun Chaise Right-->
+	    <object>00000000-00000000-00000001-0000001D</object>
+        <!--Malhoun Mini-Chaise Left-->
+		<object>00000000-00000000-00000001-00000034</object>
+        <!--Malhoun Mini-Chaise Right-->
+	    <object>00000000-00000000-00000001-00000028</object>
+    </node>
+  </node>
+</commerce_point>
+
+
