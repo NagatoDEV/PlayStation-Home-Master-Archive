@@ -1,0 +1,70 @@
+﻿<XML>
+    <REGION_TYPES>
+        <!-- region name, territory and region tag (also default localisation) -->
+        <TYPE name="EU-GB" territory="SCEE">en-GB</TYPE>
+        <TYPE name="EU-France" territory="SCEE">fr-FR</TYPE>
+        <TYPE name="EU-Italy" territory="SCEE">it-IT</TYPE>
+        <TYPE name="EU-Germany" territory="SCEE">de-DE</TYPE>
+        <TYPE name="EU-Spain" territory="SCEE">es-ES</TYPE>
+        <TYPE name="US" territory="SCEA">en-US</TYPE>
+        <TYPE name="US-Mexico" territory="SCEA">es-MX</TYPE>
+    <!--<TYPE name="US-FrenchCanada" territory="SCEA">fr-CA</TYPE>-->
+        <TYPE name="Asia-Japan" territory="SCEJ">ja-JP</TYPE>
+        <TYPE name="Asia-Korea" territory="SCEAsia">ko-KR</TYPE>
+        <TYPE name="Asia-Taiwan" territory="SCEAsia">zh-TW</TYPE>
+        <TYPE name="Asia-HongKong" territory="SCEAsia">zh-HK</TYPE>
+        <TYPE name="Asia-Singapore" territory="SCEAsia">en-SG</TYPE>
+    </REGION_TYPES>
+
+    <REGION_MAP>
+        <MAP code="en-GB">EU-GB</MAP>
+        <MAP code="en-IE">EU-GB</MAP>
+        <MAP code="*-US" >US</MAP>
+    <!--<MAP code="fr-CA">US-FrenchCanada</MAP>-->
+        <MAP code="*-CA" >US</MAP>
+        <MAP code="*-MX" >US-Mexico</MAP>
+        <MAP code="it-*" >EU-Italy</MAP>
+        <MAP code="es-*" >EU-Spain</MAP>
+        <MAP code="pt-*" >EU-GB</MAP>
+        <MAP code="de-*" >EU-Germany</MAP>
+        <MAP code="fr-*" >EU-France</MAP>
+    <!--<MAP code="sv-*" >EU-Scandinavian</MAP>
+        <MAP code="no-*" >EU-Scandinavian</MAP>
+        <MAP code="da-*" >EU-Scandinavian</MAP>
+        <MAP code="fi-*" >EU-Scandinavian</MAP>
+        <MAP code="nl-*" >EU-Benelux</MAP>
+        <MAP code="*-BE" >EU-Benelux</MAP>
+        <MAP code="*-LU" >EU-Benelux</MAP>
+        <MAP code="*-RU" >EU-Russian</MAP>
+        <MAP code="*-AE" >EU-English</MAP>
+        <MAP code="*-ZA" >EU-English</MAP>-->
+        <MAP code="ja-*" >Asia-Japan</MAP>
+        <MAP code="ko-*" >Asia-Korea</MAP>
+        <MAP code="*-HK" >Asia-HongKong</MAP>
+        <MAP code="*-TW" >Asia-Taiwan</MAP>
+        <MAP code="*-SG" >Asia-Singapore</MAP>
+    <!--<MAP code="*-MY" >Asia-English</MAP>
+        <MAP code="*-TH" >Asia-English</MAP>-->
+        <MAP code="*-*"  >EU-GB</MAP>		
+    </REGION_MAP>
+
+    <LOCALISATIONS>
+        <REF language="en-HK">en-SG</REF>
+        <REF language="*-HK">zh-HK</REF>
+
+        <REF language="en-TW">en-SG</REF>
+        <REF language="*-TW">zh-TW</REF>
+
+        <REF language="*-SG">en-SG</REF>
+
+        <REF language="en-US">en-US</REF>
+        <REF language="en-CA">en-US</REF>
+        <REF language="en-*">en-GB</REF>
+        <REF language="fr-*">fr-FR</REF>
+        <REF language="it-*">it-IT</REF>
+        <REF language="de-*">de-DE</REF>
+        <REF language="es-*">es-ES</REF>
+        <REF language="ja-*">ja-JP</REF>
+        <REF language="ko-*">ko-KR</REF>
+    </LOCALISATIONS>
+</XML>
