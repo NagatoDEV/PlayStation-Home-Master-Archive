@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+      <header>
+        <name lang="en-US" default="true">Hudson</name>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/hudson_bg_scea.dds</background>
+      </header>
+	    <node type="products">
+          <header>
+            <name lang="en-US" default="true">PSN Games</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="false">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/ps3.dds</thumbnail>
+			<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/hudson_bg_scea.dds</background> 
+          </header>
+	    <product category="UP0555-NPUB30255_00">UP0555-NPUB30255_00-HDDBOOTHBL300000</product>
+		<product category="UP0555-NPUB30051_00">UP0555-NPUB30051_00-PS3_BOMBRMANFULL</product>
+		<!-- <product category="UP0555-NPUB30051_00">UP0555-NPUB30051_00-BMANLICENSEGAME1</product> -->
+		<product category="UP0555-NPUB30066_00">UP0555-NPUB30066_00-PS3STORE_DINERDA</product>
+		<!-- <product category="UP0555-NPUB30066_00">UP0555-NPUB30066_00-DDLICENSEGAME001</product> -->
+		<product category="UP0555-NPUB30067_00">UP0555-NPUB30067_00-PS3ST_MILMADNECT</product>
+		<!-- <product category="UP0555-NPUB30067_00">UP0555-NPUB30067_00-NECTARISPURCHASE</product> -->
+		  </node>
+	<node type="products">
+        <header>
+            <name lang="en-US" default="true">PSP Games</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="false">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/psp.dds</thumbnail>
+			<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/hudson_bg_scea.dds</background> 
+        </header>
+	    <product category="UP0555-NPUH10034_00">UP0555-NPUH10034_00-0000000000000001</product>
+		<product category="UP0555-ULUS10013_00">UP0555-ULUS10013_00-RENGOKUPSPLEGACY</product>
+		<product category="UP0555-ULUS10127_00">UP0555-ULUS10127_00-RENGOK2PSPLEGACY</product>
+		<product category="UP0555-ULUS10319_00">UP0555-ULUS10319_00-BOMBERMANLANDPSP</product>
+		<product category="UP0555-ULUS10289_00">UP0555-ULUS10289_00-DUNGEONPSPLEGACY</product>
+	</node>
+	<node type="products">
+                      <header>
+            <name lang="en-US" default="true">PSOne Games</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="false">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/psone.dds</thumbnail>
+			<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/hudson_bg_scea.dds</background> 
+          </header>
+	    <product category="UP9000-NPUI94199_00">UP9000-NPUI94199_00-0000000000000001</product>
+		<product category="UP9000-NPUJ94424_00">UP9000-NPUJ94424_00-0000000000000001</product>
+		<product category="UP9000-NPUJ00823_00">UP9000-NPUJ00823_00-0000000000000001</product>
+		<product category="UP9000-NPUJ01189_00">UP9000-NPUJ01189_00-0000000000000001</product>
+	</node>
+  </node>
+</commerce_point>
