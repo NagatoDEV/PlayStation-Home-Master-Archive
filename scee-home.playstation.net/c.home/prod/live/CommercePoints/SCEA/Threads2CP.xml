@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+ <header>
+ <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+ </header>
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="fr-FR">Homme</name>
+        <name lang="de-DE">Männlich</name>
+        <name lang="it-IT">Maschio</name>
+        <name lang="es-ES">Hombre</name>
+        <name lang="ja-JP">??</name>
+        <name lang="ko-KR">??</name>
+        <name lang="en-SG">Male</name>
+        <name lang="zh-HK">??</name>
+        <name lang="zh-TW">??</name>
+        <name lang="en-US">Male</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+      </header>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Headgear</name>
+          <name lang="fr-FR">Couvre-chef</name>
+          <name lang="de-DE">Kopfbedeckung</name>
+          <name lang="it-IT">Accessori testa</name>
+          <name lang="es-ES">Accesorios cabeza</name>
+          <name lang="ja-JP">?</name>
+          <name lang="ko-KR">??</name>
+          <name lang="en-SG">Headgear</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Headgear</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<!--Oct15th-->
+		<object>676F37E4-A9124001-8288BFE3-DE014757</object>
+		<!--Oct8th-->
+		<object>9CE57EF5-196E4F96-ACCF2FAD-C4B675D8</object>
+		<!--Sept10th-->
+		<object>83BA2E6F-485B4956-9D9EFB9F-CA4E4050</object>
+		<!--Sep3rd-->
+		<object>FEE82A57-7ABE4AF2-A5A61B42-A21DF9F5</object>
+		<!--August20th-->
+		<object>9634E6A9-0AA34776-AFF3474E-4D75382C</object>
+		<!--August13th-->
+		<object>D7D69C74-855D4088-911167C1-0F5A774C</object>
+		<!--July16th-->
+		<object>173A9774-031C49B2-BAE662C6-DEDBAEEA</object>
+      </node>
+	  <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Hands</name>
+          <name lang="fr-FR">Mains</name>
+          <name lang="de-DE">Hände</name>
+          <name lang="it-IT">Mani</name>
+          <name lang="es-ES">Manos</name>
+          <name lang="ja-JP">?</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Hands</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Hands</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hands.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<!--July16th-->
+		<object>ECA490B1-B46941F2-977F53BE-C891B2F4</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="fr-FR">Torse</name>
+          <name lang="de-DE">Rumpf</name>
+          <name lang="it-IT">Torso</name>
+          <name lang="es-ES">Torso</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Torso</name>
+          <name lang="zh-HK">??</name>
+          <name lang="zh-TW">??</name>
+          <name lang="en-US">Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<!--1119-->
+		<object>9361E582-CBED4288-BB258672-A230F4A6</object>
+		<!--legacy-->
+		<object>D31283B8-BEED49F7-830152A4-B190FCF9</object>
+		<!--Oct8th-->
+		<object>1CFEBC22-40444D20-9F23E065-726F1E33</object>
+		<object>0991D28F-9DFB426C-BDBDF650-5C3DD24F</object>
+		<object>BB857C54-B5454064-A1ED0E71-6AA743ED</object>
+		<object>51426FA6-F3044AB5-85877EE5-7A8F92D6</object>
+		<object>073D3488-7E704C16-81464CF8-B48B5497</object>
+		<!--Aug6th-->
+		<object>C09B894C-8125475F-80387997-2A4C875C</object>
+		<!--July16th-->
+		<object>AC3822BF-83FB4FBC-A3BE9F79-83696EA5</object>
+		<object>F6E99216-E7F143C5-A8F34DE1-002410B0</object>
+		<object>E758C9D7-A25B4331-8857C286-F4BF9DE9</object>
+		<object>CD6F7A03-C2494B1B-94D222B4-FD4F5710</object>
+		<object>174808B3-2D924392-B5D24ACF-34A3CDE2</object>
+		<object>54819191-70FB4D87-8D80A0E2-CF783317</object>
+		<object>303A21DE-60CC47A9-90B2F0BA-FEBC459F</object>
+		<object>7E7FA4B3-28914AE2-9321806C-E9670BF2</object>
+      </node>
+	  <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Legs</name>
+          <name lang="fr-FR">Jambes</name>
+          <name lang="de-DE">Beine</name>
+          <name lang="it-IT">Gambe</name>
+          <name lang="es-ES">Piernas</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">??</name>
+          <name lang="en-SG">Legs</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Legs</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/legs.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<object>10F816B3-3D304CDE-B0F6829B-1877C641</object>
+		</node>
+	       <node type="objects">
+          <header>
+            <name lang="en-GB" default="true">Spectacles</name>
+            <name lang="fr-FR">Lunettes</name>
+            <name lang="de-DE">Brille</name>
+            <name lang="it-IT">Occhiali</name>
+            <name lang="es-ES">Gafas</name>
+            <name lang="ja-JP">???</name>
+            <name lang="ko-KR">??</name>
+            <name lang="en-SG">Spectacles</name>
+            <name lang="zh-HK">??</name>
+            <name lang="zh-TW">??</name>
+            <name lang="en-US">Spectacles</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/glasses.dds</thumbnail>
+			<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+          </header>
+		  <object>BBC66209-ED85403C-908481D5-F37C3CF0</object>
+        </node>
+		<node type="objects">
+		<header>
+          <name lang="en-GB" default="true">Accessories</name>
+          <name lang="fr-FR">Accessoires</name>
+          <name lang="de-DE">Accessoires</name>
+          <name lang="it-IT">Accessori</name>
+          <name lang="es-ES">Accesorios</name>
+          <name lang="ja-JP">??????</name>
+          <name lang="ko-KR">????</name>
+          <name lang="en-SG">Accessories</name>
+          <name lang="zh-HK">??</name>
+          <name lang="zh-TW">??</name>
+          <name lang="en-US">Accessories</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/accessories.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<object>CBDA0193-92C64BE8-B6E29C9E-E6EE0267</object>
+        </node>
+		<node type="objects">
+      <header>
+        <name lang="en-GB" default="true">New Years 2010</name>
+        <name lang="fr-FR">New Years 2010</name>
+		<name lang="en-US">New Years 2010</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/sceanewyear.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+      </header>
+<object>C0726853-66F04D1E-807B41F9-013B5F90</object>
+<object>8E294442-42704642-AE922428-97394E8A</object>  
+<object>9C807821-1F274644-9F41F5EA-00F26032</object>
+<object>5461EE95-B0BC4530-B0BD3A22-42758BC0</object>
+<object>6F5BDDBD-2C174195-80D972D6-1E9558D8</object>
+<object>847982C6-0CF74044-8F16623A-340EE0F1</object>
+<object>0332BC00-EB99468C-90766DD9-A45AB22C</object>
+<object>1363A360-FB224491-A99449BD-1BC295EF</object>
+<object>C3493403-91694442-9B026036-312967E8</object>
+<object>F91D04B8-2CC24926-99A4D08E-1721DC03</object>
+	  </node>
+		<node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Neptune Collection</name>
+        <name lang="fr-FR">Neptune Collection</name>
+		<name lang="en-US">Neptune Collection</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/neptune.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+      </header>
+	<object>73A9289F-165B4AAF-BDBCDB20-2B85E0A8</object>
+	<object>166923D3-299F4DBC-80DA3721-4AE9A769</object>
+	<object>D8A8A308-147C42D8-AC73E596-C8A1AAB2</object>
+	<object>70779F45-4246420F-971E55A2-4290C19A</object>
+	<object>6E317D20-80E74FCC-9701B86F-111222DB</object>
+	<object>E28F6DC6-90284A65-9EFC37A1-3DEB6587</object>
+	<object>73F65E91-FA5345F4-9CE98682-079B5E32</object>
+	<object>FDFE0252-4B1F40EE-A8D80124-E494BCC8</object>
+	<object>A028101C-D2294AD3-A7F8C296-97038688</object>
+	<object>3DC1B83E-C9AE4CA7-B2A494C9-9BE7FAE8</object>
+	<object>E317716C-89C04BEC-8162232E-6ED31FAD</object>
+	  </node>
+	  <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Jon Burgerman Collection</name>
+        <name lang="fr-FR">Jon Burgerman Collection</name>
+		<name lang="en-US">Jon Burgerman Collection</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/burgerman.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+      </header>
+<object>FC9137B8-D50E4CDF-A2FCFA9C-38487B02</object>
+<object>67030CBD-DF18451E-80739BAA-492E8E16</object>
+<object>8F391701-51C64F57-9890071D-479F1B8B</object>
+<object>0820782D-82734739-8820740A-137A67F1</object>
+	  </node>
+	  <node>
+      <header>
+        <name lang="en-GB" default="true">Animated</name>
+        <name lang="fr-FR">Animated</name>
+		<name lang="en-US">Animated</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/animated.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+      </header>
+	  <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso Animated</name>
+          <name lang="fr-FR">Torse</name>
+          <name lang="de-DE">Rumpf</name>
+          <name lang="it-IT">Torso</name>
+          <name lang="es-ES">Torso</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Torso</name>
+          <name lang="zh-HK">??</name>
+          <name lang="zh-TW">??</name>
+          <name lang="en-US">Torso</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/atorso.png</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<!--Bundle1022-->
+		<object>660FE848-146A4A4A-8BF6F7C1-EF7B260B</object>
+		<!--Oct15th-->
+		<object>DC86FCEF-3D8F48D7-82AED450-796698EC</object>
+		<object>A267F9A8-EA6740B6-BD55ED4F-08C58DAD</object>
+		<!--August _27th-->
+		<object>E39B3F04-E6704173-86D23367-F7E21B76</object>
+		<object>CF91ED4D-40C946E2-96F66F3C-B541D42A</object>
+		<object>AF10533C-1F5F4624-80597D1E-75AD7102</object>
+		<object>60A977B1-012D4236-90657DD6-EAD9095D</object>
+		<object>306A72C2-6EA24DDB-89DD5233-4C7AAC53</object>
+		<object>74BF73C0-84C14B0B-B99204AC-F15538C8</object>
+		<object>EC23C317-87304411-9F5AE420-5A38321C</object>
+		<object>03E131B6-47E2474B-8255520C-CB7FCF21</object>
+		<object>EA6546D0-EBD04A83-90E7B8EB-A922580D</object>
+		<object>79C168C1-1BFD4654-92F36DCA-7E4B5A48</object>
+		<object>548F33CC-B59B4C6B-80119985-7056FDCB</object>
+		<object>339F5C04-80284106-A95377BA-BAD75E42</object>
+		<object>A1C19FDD-37994082-A2ABB2BA-1962064E</object>
+		<object>F9885F5E-2AD14ECD-AA666B7D-42BF87E3</object>
+		<object>9E729EA5-48BA42CA-98353949-EB26716B</object>
+		<object>BC8090BD-733044EF-BDA10200-1C0BA5B5</object>
+		<object>A2287762-30854F60-A224765C-79D25C84</object>
+		<!--July30th-->
+		<object>643A92C8-3AF841A9-8F56515D-25763D8A</object>
+		<object>AC72240E-B0324C15-9B81F7D0-195C4C92</object>
+		<object>25209BD9-E5CE4E7D-BC5F9E3C-28645FCE</object>
+		<object>5C6328BE-B447460C-B41F5944-9F2E504C</object>
+		<!--July16th-->
+		<object>248A634E-298F42AE-A547A507-7B2F8301</object>
+		<object>B11F747F-1A2F4EDD-AC1105B3-47B7BED1</object>
+		<object>F1AAD3EC-6BFF4EDE-AE4695B3-0E77EF77</object>
+		<object>2A9D655A-1FDD4ADA-A866390E-8EDE0262</object>
+		<object>BDE35DB7-594B4307-B41A2091-25D897DD</object>
+      </node>
+	  <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Animated Headgear</name>
+          <name lang="fr-FR">Animated Headgear</name>
+          <name lang="en-US">Animated Headgear</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/aheadgear.png</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<object>6242876B-57C444A1-80D72244-49BC2DF6</object>
+		</node>
+			  <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Animated Shoes</name>
+          <name lang="fr-FR">Animated Shoes</name>
+          <name lang="en-US">Animated Shoes</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/ashoes.png</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<!--910-->
+		<object>7C9ED226-16A34DDD-BA305579-200CC3BC</object>
+		<object>110F4F42-90B94B6C-91C2353A-97BCD82F</object>
+		<object>21BE875F-68DA488E-B293364B-6C7022B3</object>
+		</node>
+		<node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Animated Glasses</name>
+          <name lang="fr-FR">Animated Glasses</name>
+          <name lang="en-US">Animated Glasses</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/aglasses.png</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<!--910-->
+		<object>A1DBFFF5-1DA24466-A8F7B3E2-9483B5A1</object>
+		<object>8EA17F9E-FF6D4EF2-BDBF6970-B719AA5C</object>
+		<object>AB1A146F-AC144B0D-8F732674-36EFE722</object>
+		</node>
+				<node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Glow Batons</name>
+          <name lang="fr-FR">Glow Batons</name>
+          <name lang="en-US">Glow Batons</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/glowbaton.png</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<!--1126-->
+<object>0EDEACE0-66C34DDC-A90B17B8-161EC62C</object>
+<object>A908A88E-20934495-AC71A564-D153F913</object>
+		<!--1119-->
+<object>9D8CFEF9-0BB64A8A-9E35B423-46B801D9</object>
+<object>9CD162CA-6B2D4BFA-9EC8523B-90FF50EB</object>
+<object>54290EEE-D52B4B5C-AE69B71F-6461AB00</object>
+<object>BB35058E-B5FE46A8-BAD0964A-1952B16B</object>
+<object>A66E3999-52004DD1-AB886FD4-9F330FCC</object>
+		</node>
+	  <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Glow Sticks</name>
+          <name lang="fr-FR">Glow Sticks</name>
+          <name lang="en-US">Glow Sticks</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/glow.png</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<!--Bundle1022-->
+		<object>954E9641-9962475C-9481519F-8DF39B34</object>
+		<object>FCBFA92D-B028436C-8277D27D-19EDDEE1</object>
+		<!--910-->
+		<object>FCD7C21A-692548A7-84AFE986-070D9219</object>
+		<object>DEB1E274-FEE44E76-96629F64-5C015C4E</object>
+		<object>7AEDDBB6-6ACD46D3-A14475F6-68DBD3C3</object>
+		<!--827-->
+		<object>0360806A-6C8C4872-84D5C22A-F327D1BD</object>
+		<object>9D5B5C40-87974321-8CAC9199-EFAD70AB</object>
+		<object>1A8AC708-CAF14C3D-9E77B69B-67AEFB7A</object>
+		</node>
+	  </node>
+	  </node>
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR">Femme</name>
+        <name lang="de-DE">Weiblich</name>
+        <name lang="it-IT">Femmina</name>
+        <name lang="es-ES">Mujer</name>
+        <name lang="ja-JP">??</name>
+        <name lang="ko-KR">??</name>
+        <name lang="en-SG">Female</name>
+        <name lang="zh-HK">??</name>
+        <name lang="zh-TW">??</name>
+        <name lang="en-US">Female</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+      </header>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Head</name>
+          <name lang="fr-FR">Tête</name>
+          <name lang="de-DE">Kopf</name>
+          <name lang="it-IT">Capelli</name>
+          <name lang="es-ES">Head</name>
+          <name lang="ja-JP">?</name>
+          <name lang="ko-KR">??</name>
+          <name lang="en-SG">Head</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Head</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<object>845CA887-BAD441CF-A1903C12-1206F421</object>
+		<object>6E9F8DCF-8B2846E8-96DECB4E-F01C6092</object>
+		<!--July16th-->
+		<object>957B1535-D8D5418F-9212C29A-E42FFB9E</object>
+      </node>
+	  <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Hands</name>
+          <name lang="fr-FR">Mains</name>
+          <name lang="de-DE">Hände</name>
+          <name lang="it-IT">Mani</name>
+          <name lang="es-ES">Manos</name>
+          <name lang="ja-JP">?</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Hands</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Hands</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hands.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<!--Oct15th-->
+		<object>952D28AA-F855426B-A2CB9233-DBB7514B</object>
+		</node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="fr-FR">Torse</name>
+          <name lang="de-DE">Rumpf</name>
+          <name lang="it-IT">Torso</name>
+          <name lang="es-ES">Torso</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Torso</name>
+          <name lang="zh-HK">??</name>
+          <name lang="zh-TW">??</name>
+          <name lang="en-US">Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<!--1119-->
+		<object>3A751AD8-13FC4E68-B98AC125-886D74F9</object>
+		<!--legacy-->
+		<object>4140C38C-952841D6-A2252EB1-F2AB1C30</object>
+		<object>D5CC5178-2A514B29-BCB366E8-B1726991</object>
+		<!--Oct8thth-->
+		<object>00E443D1-216747EE-96188BF4-BD1B520F</object>
+		<object>A030F7A3-904847B1-AF7569E9-CF769175</object>
+		<object>2C460F05-2A604109-9685BCF7-B19FEA13</object>
+		<object>8880A91C-68D5445D-BD199145-AACD469A</object>
+		<!--July16th-->
+		<object>E758C9D7-A25B4331-8857C286-F4BF9DE9</object>
+		<object>1738BE84-199A487B-8E999AEF-22138824</object>
+		<object>0E5ADE5D-CA27442D-BF72A141-E36BACBB</object>
+		<object>F6E90094-0C0E4947-9E185D49-D160C77A</object>
+		<object>91A9D5A4-90E749D4-872E8546-1047C205</object>
+		<object>E4DCE8B7-F26F45BA-901F2871-8BC7C578</object>
+      </node>
+	  	  <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Legs</name>
+          <name lang="fr-FR">Jambes</name>
+          <name lang="de-DE">Beine</name>
+          <name lang="it-IT">Gambe</name>
+          <name lang="es-ES">Piernas</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">??</name>
+          <name lang="en-SG">Legs</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Legs</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/legs.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<object>629CB2D4-B6C5456B-83919231-A2CC882F</object>
+		<object>C330F062-30BA4043-A2F5BFCA-E3AB82C4</object>
+		</node>
+		<node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Feet</name>
+          <name lang="fr-FR">Pieds</name>
+          <name lang="de-DE">Füße</name>
+          <name lang="it-IT">Piedi</name>
+          <name lang="es-ES">Pies</name>
+          <name lang="ja-JP">?</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Feet</name>
+          <name lang="zh-HK">??</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Feet</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/feet.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<!--Oct15th-->
+		<object>8620DC2C-69AC4C7B-9A17D378-FA66D7CB</object>
+		</node>
+				<node type="objects">
+      <header>
+        <name lang="en-GB" default="true">New Years 2010</name>
+        <name lang="fr-FR">New Years 2010</name>
+		<name lang="en-US">New Years 2010</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/sceanewyear.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+      </header>
+	  <!--bundles-->
+<object>99F266B9-D1494F67-97A403AC-82215B40</object>
+<object>D1B3249D-FE344798-AC48B604-00AB9ACA</object>
+<object>E75A9CEA-C7684617-A912C251-99F11C6C</object>
+<object>1FF3A259-8279480B-95E6FEE1-B7BBB230</object>
+  <!---->
+<object>8659D3E4-BF274140-8B1F974A-26A0BCDA</object>
+<object>4230976D-992B4D3D-8D502701-936AFD6F</object>
+<object>D62768A2-80B14ABA-9F170C56-346E842E</object>
+<object>DA304320-CDEB48EF-9368DC4A-5D3A8F48</object>
+<object>CFC3E7A6-04BB4F9D-A292D779-B5F2A0E6</object>
+<object>A2426364-DF1047B3-8FCDA073-C787E37A</object>
+<object>EF8CCC35-8ABB4CE4-B4884D7A-0F75AC06</object>
+<object>44297334-78154DE0-B8ED4A02-5E0A0DC1</object>
+<object>DF4DF4CD-94DA483E-B7D253C6-1E780031</object>
+<object>4DB3DBD7-FC5548A9-8226C22C-45C912C6</object>
+<object>412B42C8-2EB2434C-A258D24C-B0175F43</object>
+<object>7C1C767F-9B264090-A1B9BCDD-98E3086A</object>
+<object>AD95F41C-848E4C87-A0AB7A69-DDE8BF92</object>
+<object>12A1BC2B-1959440B-BD0B0037-5A233E79</object>
+<object>9CD735BE-1D714E4D-9F755124-DF20957D</object>
+<object>A1E7A273-7F2D43A9-BA951600-77E0E64A</object>
+<object>100C7C04-36F44197-842BEF18-1B9A1279</object>
+<object>4A741A28-281D4807-A6B0DC02-B77F7E95</object>
+<object>5ABC8DFD-4D504B1A-BD07CD41-B030D248</object>
+<object>2BBF2BDC-4E7A4AC6-95502AC5-AD95C079</object>
+<object>EBC60C6F-F940431C-90D7BC8C-60DED466</object>
+<object>B8489CE4-C76C47C7-BD6300F5-33AB613E</object>
+<object>9AE5994A-61A949EA-B258CC5C-317D7298</object>
+	  </node>
+	  	<node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Neptune Collection</name>
+        <name lang="fr-FR">Neptune Collection</name>
+		<name lang="en-US">Neptune Collection</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/neptune.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+      </header>
+	<object>845DDE76-A6F74D9C-B31FCC94-D6FC7768</object>
+	<object>6BEC0059-90EE404B-9973EAE8-5D666250</object>
+	<object>3F6CD0A6-AE634DE8-8AEB3C4C-197AD3E9</object>
+	<object>5E84DDE3-CD684EBE-A2BCD443-9BD2374A</object>
+	<object>07385AF3-701844ED-B56FAE79-CE8C99E5</object>
+	<object>8FE0C6D3-84C24D9B-9067FCE5-C612A4FE</object>
+	<object>2CFDBD42-CFEE4BE6-AA1B4AF2-2ED5B82B</object>
+	<object>313EDBB6-E7FC4434-B76DC37A-4A355852</object>
+	<object>CB956AC2-392B4DB2-90D4E6E8-8CFE0235</object>
+	<object>8F3DBDD9-17574549-A2C70F3F-ED4635D3</object>
+	  </node>
+	  <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Jon Burgerman Collection</name>
+        <name lang="fr-FR">Jon Burgerman Collection</name>
+		<name lang="en-US">Jon Burgerman Collection</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/burgerman.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+      </header>
+		<object>8B945106-7D8D43F3-B646A1B3-807E2CC7</object>
+		<object>79E1F31F-C97E4598-BFACD1F3-7DC0E998</object>
+		<object>796D0DBC-8E37446D-81B58E0D-5EE57D1C</object>
+		<object>9E77687A-83D2424B-A27C84F3-5CCB3921</object>
+	  </node>
+	  <node>
+      <header>
+        <name lang="en-GB" default="true">Animated</name>
+        <name lang="fr-FR">Animated</name>
+		<name lang="en-US">Animated</name>
+        <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/animated.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+      </header>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso Animated</name>
+          <name lang="fr-FR">Torse</name>
+          <name lang="de-DE">Rumpf</name>
+          <name lang="it-IT">Torso</name>
+          <name lang="es-ES">Torso</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Torso</name>
+          <name lang="zh-HK">??</name>
+          <name lang="zh-TW">??</name>
+          <name lang="en-US">Torso</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/atorso.png</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<!--Bundle1022-->
+		<object>D8DE5BA8-20B7495A-AD2B1C67-94CB7584</object>
+		<!--Oct15th-->
+<object>A5666703-DEE444A5-92743930-B4CD7DD6</object>
+<object>AF0D3983-71DC4FDA-803DD9A5-AA71BCCB</object>
+		<!--Aug27th-->
+<object>9C2FFD75-41E64694-BB39DE4E-49A773F4</object>
+<object>D3AE5E09-87314A75-9A43DD35-DA5592F6</object>
+<object>BB1A69EE-16CB4BDD-8F7E4FBD-2101B3DB</object>
+<object>BE395F8A-7B104BDB-BF61C600-D60330D5</object>
+<object>F207F408-177D4761-886C91CF-EF52B63F</object>
+<object>C5078056-8E784630-A9462A4A-9AB14A6F</object>
+<object>79A55FF1-91A54C39-9B95282B-3FD5EE56</object>
+<object>7CE4CF19-3ADC4E08-868AB110-064DAC24</object>
+<object>3915C2B3-A203441A-AB33C90B-F91B8453</object>
+<object>F2FA12CB-2DA94911-8B8D0655-85E27301</object>
+<object>26F333C2-8D634A60-81DA240E-3C75212C</object>
+<object>3B8A3DC5-37BA4DB0-B20F8850-28BC47B9</object>
+<object>44434B8E-296241E6-BE7D6CEB-B7A7286F</object>
+<object>6358F24B-DC7B4BE7-A466D8D2-3F606531</object>
+<object>D732C3E5-CD9C4582-B971AEA4-52F75790</object>
+<object>A929ED04-792E4F39-9B896476-1AFA0C9C</object>
+		<!--Aug13thth-->
+		<object>DB6DABF3-C0E24509-851D9327-E005276F</object>
+		<object>215F3F20-2BE148C3-8E8F8F03-9CCBFD2B</object>
+		<!--July30th-->
+		<object>C8BBEC9A-254F43E5-B289553D-54FD5F7E</object>
+		<object>234A4F7A-EF564C26-ADE3F46D-82132397</object>
+		<!--July16th-->
+		<object>3F908C97-3B4142EB-97DC7D54-6D3CF5A9</object>
+		<object>59217056-2E62471F-AD484D75-8C2D1EEF</object>
+		<object>8B8FA4C0-4DCE4588-AB85BA1C-1D1C82F8</object>
+		<object>B2DD0D90-C44D4A0E-BD1AC8E6-7E691E64</object>
+		<object>A2B8B73F-D97B4480-BDC8F8D0-6B1F0642</object>
+      </node>
+	  <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Animated Headgear</name>
+          <name lang="fr-FR">Animated Headgear</name>
+          <name lang="en-US">Animated Headgear</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/aheadgear.png</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<object>BA79F08A-29ED463B-A2509817-CC17CF6D</object>
+		</node>
+		<node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Animated Shoes</name>
+          <name lang="fr-FR">Animated Shoes</name>
+          <name lang="en-US">Animated Shoes</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/ashoes.png</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<!--910-->
+		<object>F5BD2320-9F244C35-A9D1707E-29814BB1</object>
+		<object>A37ABF9A-3C1240C7-93CF0BE9-101C9949</object>
+		<object>6D5F5F86-F5E54B45-AD60563A-76A115D8</object>
+		</node>
+		<node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Animated Glasses</name>
+          <name lang="fr-FR">Animated Glasses</name>
+          <name lang="en-US">Animated Glasses</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/aglasses.png</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<!--910-->
+		<object>CF54788D-409941E9-873AAB53-D89D6D02</object>
+		<object>93183C2B-41E3433F-A8C66DB0-CB04EC87</object>
+		<object>DBC2DFD3-2BA04DDC-BB4A2E2C-F725D916</object>
+		</node>
+		<node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Glow Batons</name>
+          <name lang="fr-FR">Glow Batons</name>
+          <name lang="en-US">Glow Batons</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/glowbaton.png</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<!--1126-->
+<object>3E190489-3B1C4312-ACF5C891-EA6BC0D7</object>
+<object>CDEEA47E-5F62463C-8537BC65-E10308DB</object>
+<object>7E62CC0C-22D743B7-B5088744-65877554</object>
+<object>6C4C515B-CA7F4D40-A898FDB2-60CC0167</object>
+		<!--1119-->
+<object>CF77C2F9-0A6542A5-A0347B50-3235E2B1</object>
+<object>636FE21C-2F674436-AB7E687E-1CD57374</object>
+<object>D68365B2-A6C74F0A-B62366B7-61A3AE4E</object>
+		</node>
+	  	 <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Glow Sticks</name>
+          <name lang="fr-FR">Glow Sticks</name>
+          <name lang="en-US">Glow Sticks</name>
+          <thumbnail lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/glow.png</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+        </header>
+		<!--Bundle1022-->
+		<object>65415689-01B0482B-9E56BF59-D51BE8F8</object>
+		<object>9A828CD8-61EB4EAA-B9640330-2A9EEFAE</object>
+		<!--910-->
+		<object>E294B8E2-81B44CE6-9FA7A021-5BEF59B7</object>
+		<object>11C61895-954446DB-8F0DD3AE-8F718CF7</object>
+		<object>C94CB516-883A4CA0-9760F3B1-9199CDF6</object>
+		<!--827-->
+		<object>34F9EABC-FBC6405E-B63D40F4-0224812A</object>
+		<object>D72794B6-435B4543-A9FCBA48-81B76B12</object>
+		<object>CB7FFEEE-A9414087-A9B90AB0-00E0239C</object>
+		</node>
+		</node>
+        <node type="objects">
+          <header>
+            <name lang="en-GB" default="true">Eyewear</name>
+            <name lang="fr-FR">Lunettes</name>
+            <name lang="de-DE">Brille</name>
+            <name lang="it-IT">Occhiali</name>
+            <name lang="es-ES">Gafas</name>
+            <name lang="ja-JP">???</name>
+            <name lang="ko-KR">??</name>
+            <name lang="en-SG">Spectacles</name>
+            <name lang="zh-HK">??</name>
+            <name lang="zh-TW">??</name>
+            <name lang="en-US">Spectacles</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/glasses.dds</thumbnail>
+			<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Threads2A.png</background> 
+          </header>
+		  <object>FF0BDE2E-DF654CC2-A6CC87AD-E11775D9</object>
+        </node>
+    </node>
+  </node>
+</commerce_point>

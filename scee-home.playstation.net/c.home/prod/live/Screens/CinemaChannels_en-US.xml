@@ -1,1 +1,320 @@
+<XML>
+  <SCREEN ID="TheaterScreen_02">
+    <TYPE>MEDIARSS</TYPE>
+    <SOURCE LINK="http://www.us.playstation.com">http://scea-home.playstation.net/a.home/mfe/content/Movies/SCEA_Theater2.xml</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterScreen_03">
+    <TYPE>MEDIARSS</TYPE>
+    <SOURCE LINK="http://www.us.playstation.com/">http://scea-home.playstation.net/a.home/mfe/content/Movies/PSN_MainVid.xml</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterScreen_04">
+    <TYPE>MEDIARSS</TYPE>
+    <SOURCE LINK="http://www.us.playstation.com">http://scea-home.playstation.net/a.home/mfe/content/Movies/SCEA_Theater4_Schedule.xml</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterScreen_05">
+    <TYPE>MEDIARSS</TYPE>
+    <SOURCE LINK="http://www.us.playstation.com">http://scea-home.playstation.net/a.home/mfe/content/Movies/Pulse_MainVid.xml</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterScreen_06">
+    <TYPE>MEDIARSS</TYPE>
+    <SOURCE LINK="http://www.us.playstation.com/">http://scea-home.playstation.net/a.home/mfe/content/Movies/SCEA_Theater6.xml</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterScreen_07">
+    <TYPE>MEDIARSS</TYPE>
+    <SOURCE LINK="http://www.us.playstation.com">http://scea-home.playstation.net/a.home/mfe/content/Movies/SCEA_Theater7_Schedule.xml</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterScreen_08">
+    <TYPE>MEDIARSS</TYPE>
+    <SOURCE LINK="http://www.us.playstation.com/">http://scea-home.playstation.net/a.home/mfe/content/Movies/SCEA_Theater8_Schedule.xml</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterScreen_09">
+    <TYPE>MEDIARSS</TYPE>
+    <SOURCE LINK="http://www.us.playstation.com/">http://scea-home.playstation.net/a.home/mfe/content/Movies/SCEA_Theater9_Schedule.xml</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterScreen_10">
+    <TYPE>MEDIARSS</TYPE>
+    <SOURCE LINK="http://www.us.playstation.com">http://scea-home.playstation.net/a.home/mfe/content/Movies/SCEA_Theater10_Schedule.xml</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterScreen_01">
+    <TYPE>MEDIARSS</TYPE>
+    <SOURCE LINK="http://www.us.playstation.com/">http://scea-home.playstation.net/a.home/mfe/content/Movies/SCEA_Theater1.xml</SOURCE>
+  </SCREEN>
+  <SCREEN ID="Lobby_MainScreen">
+    <TYPE>MEDIARSS</TYPE>
+    <SOURCE LINK="http://us.playstation.com">http://scea-home.playstation.net/a.home/mfe/content/Movies/SCEA_TheaterMainLobby.xml</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterRSS_05">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/pulsebannerhome.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterRSS_06">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/MotorstormApocalypse_PreOrder_042811_684x192.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterEntrance_01">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/KZ3_Poster2-24-11.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterEntrance_02">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/InFamous2_ComingSoon_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterEntrance_03">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/UNI_LittleFockers_US_HomePoster.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/DSN_TronLegacy_US_HomePoster.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterEntrance_04">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/SOCOM4_OutNow_051011_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterEntrance_05">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Pulse_0419_Theater.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterEntrance_06">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/MotorstormApocalypse_PreOrder_042811_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterEntrance_07">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Patapon3_ComingSoon_033111_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterEntrance_08">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/RatchetnClank_All4One_032211_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterEntrance_09">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/110405_QoreEp35_Home_Poster_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterEntrance_10">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/HipHopGamer_ChampBelt_012411_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/GamerIndepth_Marquee_090910_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/littlebigposterNEW_02232011_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/uf_psh_standardposter001B.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/TheSpotlight_HeavyWater_051811_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="KioskScreens_01">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/MovieTheaterkiosk684x384.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="KioskScreens_02">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/MovieTheaterkiosk684x384.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_01">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Pulse_0419_Theater.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_02">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/SOCOM4_OutNow_051011_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_03">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/HeavyInk_Pinups01_041411_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/HeavyInk_Pinups02_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_04">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Pulse_0419_Theater.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_05">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/VASG_CyborgNinja_041411_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/VASG_ViperNinja_041411_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/VASG_PrinceOnCarpet_041411_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/VASG_PrincessOnCarpet_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_06">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_Navy_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_07">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_FoolThrottle_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_08">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/VASG_CyborgNinja_041411_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/VASG_ViperNinja_041411_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/VASG_PrinceOnCarpet_041411_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/VASG_PrincessOnCarpet_041411_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/VASG_FemaleNinja_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_09">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/SOCOM4_BombTechnicianSuit_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_10">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_CucumberOrnate01_042011_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_CucumberOrnate02_042011_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_CucumberOrnate03_042011_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_CucumberOrnate04_042011_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_CucumberOrnate05_042011_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_11">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/VUDU_Tron_042111_286x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_12">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/VUDU_Narnia_042111_286x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_13">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_FoolThrottle_041411_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_Navy_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_14">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Pulse_0419_Theater.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_15">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_Navy_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_16">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_FoolThrottle_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_17">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/VUDU_Potter_042111_286x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_18">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/HeavyInk_Pinups01_041411_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/HeavyInk_Pinups02_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_19">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/SOCOM4_BombTechnicianSuit_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_20">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_FoolThrottle_041411_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_Navy_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_21">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Pulse_0419_Theater.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_22">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_Navy_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_23">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_FoolThrottle_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_24">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_FoolThrottle_041411_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_Navy_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_25">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/VUDU_Tron_042111_286x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_26">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/WBR_HarryPotterAndTheDeathlyHallows-Part1_US_HomePoster.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_27">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/HeavyInk_Pinups01_041411_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/HeavyInk_Pinups02_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_28">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_FoolThrottle_041411_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_Navy_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_29">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_Navy_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_30">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_FoolThrottle_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_31">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Pulse_0419_Theater.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_32">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Pulse_0419_Theater.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_33">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/BluePool_SingleShot_040711_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/DreddSuit_Singleshot_040711_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/SmileySuit_SingleShot_040711_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/FHGUzi_SingleShot_040711_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/SkullPool_Singleshot_040711_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/SkullDart_SingleShot_040711_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_34">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/VUDU_Narnia_042111_286x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_35">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Pulse_0419_Theater.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_36">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/VUDU_Tron_042111_286x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_37">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_FoolThrottle_041411_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_Navy_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="LobbyPoster_38">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_FoolThrottle_041411_256x368.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Lockwood_Navy_041411_256x368.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterRSS_03">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/PSNbanner_home.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterRSS_01">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/KZ3_Marquee2-24-11.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterRSS_08">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/RatchetnClank_All4One_032211_684x192.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterRSS_02">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/InFamous2_ComingSoon_041411_684x192.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterRSS_04">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/SOCOM4_ComingSoon_041411_684x192.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterRSS_07">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/Patapon3_ComingSoon_033111_684x192.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterRSS_09">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/110405_QoreEp35_HomeTheater_Marquee_684x192.dds</SOURCE>
+  </SCREEN>
+  <SCREEN ID="TheaterRSS_10">
+    <TYPE>IMAGES</TYPE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/CommunityTheatre_Marquee_GENERIC_022811_684x192.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/HHG_CommunityTheater_111110_684x192.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/GamerIndepth_Marquee_090910_684x192.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/LBPodcast_marquee_021411_684x192.dds</SOURCE>
+    <SOURCE>http://scea-home.playstation.net/a.home/mfe/content/Posters/uf_pshome_theatermarquee001B.dds</SOURCE>
+  </SCREEN>
 </XML>
