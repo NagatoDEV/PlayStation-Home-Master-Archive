@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='/styles/rss.xsl'?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+	<title>Start Screening</title> <!-- This is the channel title, not currently used, but may be necessary for formatting or forward compatibility -->
+	<description>Displays only movie service entitlement for host user.</description> <!-- This is the channel description, not currently used, but may be necessary for formatting or forward compatibility -->
+	<item>
+		<media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/PSNation-Disclaimer-fixed_Profile3_001.mp4" type="application/x-shockwave-flash" medium="video" height="3" width="4" duration="-1" >
+			<media:keywords/>	<!-- necessary for streaming, needs to be inside media:content tag -->
+		</media:content>
+
+		<media:title type="html">Some Title</media:title> <!-- This is the video title, not currently used, but may be necessary for formatting or forward compatibility -->
+		<media:description>Some Description</media:description>
+		<media:thumbnail url="http://cdn.bdliveplatform.com/u/psh/Channels/1_Host_a_movie/images/01_heavy_metal.png" width="60" height="60" /> <!-- This is the video thumbnail, not currently used, but may be necessary for formatting or forward compatibility.  Don't worry about width and height.  These can be static, for now... not important. -->
+	</item>
+	<item>
+		<media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/PSNation-Home-Ep3_Profile3_001.mp4" type="application/x-shockwave-flash" medium="video" height="3" width="4" duration="-1" >
+			<media:keywords/>	<!-- necessary for streaming, needs to be inside media:content tag -->
+		</media:content>
+
+		<media:title type="html">Some Title</media:title> <!-- This is the video title, not currently used, but may be necessary for formatting or forward compatibility -->
+		<media:description>Some Description</media:description>
+		<media:thumbnail url="http://cdn.bdliveplatform.com/u/psh/Channels/1_Host_a_movie/images/01_heavy_metal.png" width="60" height="60" /> <!-- This is the video thumbnail, not currently used, but may be necessary for formatting or forward compatibility.  Don't worry about width and height.  These can be static, for now... not important. -->
+	</item>
+	<item>
+		<media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/GamerIndepth_Disclaimer-Show_090910_Profile3_001.mp4" type="application/x-shockwave-flash" medium="video" height="3" width="4" duration="-1" >
+			<media:keywords/>	<!-- necessary for streaming, needs to be inside media:content tag -->
+		</media:content>
+
+		<media:title type="html">Some Title</media:title> <!-- This is the video title, not currently used, but may be necessary for formatting or forward compatibility -->
+		<media:description>Some Description</media:description>
+		<media:thumbnail url="http://cdn.bdliveplatform.com/u/psh/Channels/1_Host_a_movie/images/01_heavy_metal.png" width="60" height="60" /> <!-- This is the video thumbnail, not currently used, but may be necessary for formatting or forward compatibility.  Don't worry about width and height.  These can be static, for now... not important. -->
+	</item>
+
+	<item>
+		<media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/GamerIndepth_ep2Censored_093010_Profile3_001.mp4" type="application/x-shockwave-flash" medium="video" height="3" width="4" duration="-1" >
+			<media:keywords/>	<!-- necessary for streaming, needs to be inside media:content tag -->
+		</media:content>
+
+		<media:title type="html">Some Title</media:title> <!-- This is the video title, not currently used, but may be necessary for formatting or forward compatibility -->
+		<media:description>Some Description</media:description>
+		<media:thumbnail url="http://cdn.bdliveplatform.com/u/psh/Channels/1_Host_a_movie/images/01_heavy_metal.png" width="60" height="60" /> <!-- This is the video thumbnail, not currently used, but may be necessary for formatting or forward compatibility.  Don't worry about width and height.  These can be static, for now... not important. -->
+	</item>
+	</channel>
+</rss>
+
+
+<!--
+http://thebissos.com/rich/01_Heavy_Metal_001_30min.mp4
+		06_An_Evening_Kevin_Smith_001.mp4?e=1256331620&h=b967cfc335aa1a69c475e3811327727d
+		<media:content url="http://cdn.bdliveplatform.com/u/psh/Channels/7_Promotional_Spaces/videos/FirstPlay.mp4" type="application/x-shockwave-flash" medium="video" height="3" width="4" duration="-1" />
+		<media:content url="http://cdn.bdliveplatform.com/u/psh/Channels/7_Promotional_Spaces/videos/b30s.mp4" type="application/x-shockwave-flash" medium="video" height="3" width="4" duration="-1" /> 
+
+-->
+	
+<!--
+C:\HomeHDK\build\MiniGames\MediaAptMediaCenter
+H:\projects\Blu-ray Apartment\Deliveries\Channels\2_Start_screening\videos\s\
+-->
