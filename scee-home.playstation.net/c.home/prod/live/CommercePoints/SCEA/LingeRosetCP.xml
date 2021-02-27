@@ -1,0 +1,109 @@
+<commerce_point>
+  <node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Chairs</name>
+        <name lang="en-US" >Chairs</name>
+        <name lang="fr-FR" >Si�ges</name>
+        <name lang="it-IT" >Sedie</name>
+        <name lang="de-DE" >St�hle</name>
+        <name lang="es-ES" >Sillas</name>
+        <name lang="ja-JP" >???</name>
+        <name lang="ko-KR" >??</name>
+        <name lang="zh-HK" >??</name>
+        <name lang="zh-TW" >??</name>
+        <name lang="en-SG" >Chairs</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Chairs.dds</thumbnail>
+      </header>
+        <!--Tip Up Armchair-->
+		<object>00000000-00000000-00000001-00000023</object>
+        <!--Moel Armchair-->
+		<object>00000000-00000000-00000001-00000015</object>
+        <!--Pop Armchair-->
+		<object>00000000-00000000-00000001-00000038</object>
+        <!--Neo Armchair-->
+	    <object>00000000-00000000-00000001-00000014</object>
+		<object>00000000-00000000-00000001-0000001B</object>
+	    <object>00000000-00000000-00000002-00000012</object>
+		<object>00000000-00000000-00000001-0000002D</object>
+    </node>
+   <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Footstools</name>
+        <name lang="en-US" >Footstools</name>
+        <name lang="fr-FR" >Repose-pieds</name>
+        <name lang="it-IT" >Sgabelli</name>
+        <name lang="de-DE" >Hocker</name>
+        <name lang="es-ES" >Banquetas</name>
+        <name lang="ja-JP" >???????</name>
+        <name lang="ko-KR" >? ??</name>
+        <name lang="zh-HK" >??</name>
+        <name lang="zh-TW" >??</name>
+        <name lang="en-SG" >Footstools</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/footstools.dds</thumbnail>
+      </header>
+        <!--Neo Footstool-->
+      <object>00000000-00000000-00000001-00000016</object>
+        <!--Facett 2 Seater Footstool-->
+      <object>00000000-00000000-00000001-00000021</object>
+        <!--Togo Footstool-->
+      <object>00000000-00000000-00000001-0000001C</object>
+        <!--Pop Footstool-->
+      <object>00000000-00000000-00000001-00000037</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Tables</name>
+        <name lang="en-US" >Tables</name>
+        <name lang="fr-FR" >Tables</name>
+        <name lang="it-IT" >Tavoli</name>
+        <name lang="de-DE" >Tische</name>
+        <name lang="es-ES" >Mesas</name>
+        <name lang="ja-JP" >????</name>
+        <name lang="ko-KR" >???</name>
+        <name lang="zh-HK" >??</name>
+        <name lang="zh-TW" >??</name>
+        <name lang="en-SG" >Tables</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Tables.dds</thumbnail>
+      </header>
+		<object>00000000-00000000-00000002-00000011</object>
+		<object>00000000-00000000-00000001-0000000D</object>
+		<object>00000000-00000000-00000001-0000000C</object>
+		<object>00000000-00000000-00000001-00000064</object>
+    </node>
+   <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Sofas</name>
+        <name lang="en-US" >Sofas</name>
+        <name lang="fr-FR" >Canapés</name>
+        <name lang="it-IT" >Divani</name>
+        <name lang="de-DE" >Sofas</name>
+        <name lang="es-ES" >Sofás</name>
+        <name lang="ja-JP" >????</name>
+        <name lang="ko-KR" >??</name>
+        <name lang="zh-HK" >??</name>
+        <name lang="zh-TW" >??</name>
+        <name lang="en-SG" >Sofas</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Sofas.dds</thumbnail>
+      </header>
+        <!--Facett 2 Seater Sofa-->
+      <object>00000000-00000000-00000001-00000013</object>
+        <!--Facett 3 Seater Sofa-->
+      <object>00000000-00000000-00000001-0000001F</object>
+        <!--Togo 1 Seater Sofa-->
+      <object>00000000-00000000-00000001-0000000F</object>
+        <!--Togo 2 Seater Sofa-->
+      <object>00000000-00000000-00000001-0000001E</object>
+      <!--Togo 3 Seater Sofa-->
+      <object>00000000-00000000-00000002-00000015</object>
+      <!--Togo Corner Sofa-->
+      <object>00000000-00000000-00000001-0000002B</object>
+        <!--Malhoun Chaise Left-->
+		<object>00000000-00000000-00000001-00000036</object>
+        <!--Malhoun Chaise Right-->
+	    <object>00000000-00000000-00000001-0000001D</object>
+    </node>
+  </node>
+</commerce_point>
+
+
