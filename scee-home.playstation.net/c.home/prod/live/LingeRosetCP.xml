@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+    <header />
+    <node>
+      <header>
+        <name>What's New</name>
+        <thumbnail>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/whatsnew_asia.png</thumbnail>
+      </header>
+      <node type="objects">
+        <header>
+          <name>Disgaea</name>
+          <thumbnail>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Disgaea3_asia.png</thumbnail>
+        </header>
+        <object>00C70C76-F79A4AB9-911AE3B4-06935DF2</object>
+        <object>18C57A56-A7C34C12-95669C79-8AAEF4B8</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name>LocoRoco</name>
+          <thumbnail>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/TM_LR_store_icon_asia.png</thumbnail>
+        </header>
+        <object>036BCDEA-529E4EE2-A08BDFA6-56EE38BA</object>
+        <object>BD17BDB5-96E84F98-A2440D65-457C40E2</object>
+        <object>C53785F9-672C48D1-83BAC10A-FCE4B93E</object>
+        <object>F96929E7-34124D77-A40F1BBA-F37F8EF9</object>
+        <object>35030735-38AC40BB-A70CCAAF-95496ECD</object>
+        <object>D8A9C407-FF5A4D17-89B134BE-99CDA176</object>
+        <object>E4AE2A85-8B9F426D-A1D63B61-189FF348</object>
+      </node>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Picture Frame</name>
+        <thumbnail useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_PictureFrames.dds</thumbnail>
+        <name lang="ko-KR">액자</name>
+        <name lang="en-SG">Picture Frame</name>
+        <name lang="zh-HK">相框</name>
+        <name lang="zh-TW">相框</name>
+      </header>
+      <object>00000000-00000000-00000002-00000006</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Chairs</name>
+        <thumbnail useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Chairs.dds</thumbnail>
+        <name lang="en-US">Chairs</name>
+        <name lang="fr-FR">Sièges</name>
+        <name lang="de-DE">Stühle</name>
+        <name lang="it-IT">Sedie</name>
+        <name lang="es-ES">Sillas</name>
+        <name lang="ja-JP">チェア</name>
+        <name lang="ko-KR">의자</name>
+        <name lang="en-SG">Chairs</name>
+        <name lang="zh-HK">椅子</name>
+        <name lang="zh-TW">椅子</name>
+      </header>
+      <object>59F67FC2-68CE4126-928DD35C-9CF1F358</object>
+      <object>A2CAB05C-2FDC4B4C-A710A2CA-F5D65130</object>
+      <object>00000000-00000000-00000002-00000017</object>
+      <object>00000000-00000000-00000001-0000003A</object>
+      <object>C640CF1B-03E2467C-957B5D65-DD0DA062</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Footstools</name>
+        <thumbnail useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/footstools.dds</thumbnail>
+        <name lang="en-US">Footstools</name>
+        <name lang="fr-FR">Repose-pieds</name>
+        <name lang="de-DE">Hocker</name>
+        <name lang="it-IT">Sgabelli</name>
+        <name lang="es-ES">Banquetas</name>
+        <name lang="ja-JP">フットスツール</name>
+        <name lang="ko-KR">발 받침</name>
+        <name lang="en-SG">Footstools</name>
+        <name lang="zh-HK">腳凳</name>
+        <name lang="zh-TW">腳凳</name>
+      </header>
+      <object>00000000-00000000-00000001-0000003B</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Tables</name>
+        <thumbnail useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Tables.dds</thumbnail>
+        <name lang="en-US">Tables</name>
+        <name lang="fr-FR">Tables</name>
+        <name lang="de-DE">Tische</name>
+        <name lang="it-IT">Tavoli</name>
+        <name lang="es-ES">Mesas</name>
+        <name lang="ja-JP">テーブル</name>
+        <name lang="ko-KR">테이블</name>
+        <name lang="en-SG">Tables</name>
+        <name lang="zh-HK">桌子</name>
+        <name lang="zh-TW">桌子</name>
+      </header>
+      <object>DEEF6928-1FE14CCD-B0086019-DA0335F1</object>
+      <object>08852A67-ED784064-968C53E6-52C7A5B6</object>
+      <object>00000000-00000000-00000001-0000003F</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Storage</name>
+        <thumbnail useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Storage.dds</thumbnail>
+        <name lang="en-US">Storage</name>
+        <name lang="fr-FR">Rangements</name>
+        <name lang="de-DE">Aufbewahrung</name>
+        <name lang="it-IT">Bauli</name>
+        <name lang="es-ES">Almacenamiento</name>
+        <name lang="ja-JP">収納家具</name>
+        <name lang="ko-KR">수납 가구</name>
+        <name lang="en-SG">Storage</name>
+        <name lang="zh-HK">儲物櫃</name>
+        <name lang="zh-TW">儲物櫃</name>
+      </header>
+      <object>EB9F700A-50F949A0-8FDFD9E0-E1F31172</object>
+      <object>00000000-00000000-00000002-00000053</object>
+      <object>00000000-00000000-00000002-00000054</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Flooring</name>
+        <thumbnail useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Flooring.dds</thumbnail>
+        <name lang="en-US">Flooring</name>
+        <name lang="fr-FR">Sol</name>
+        <name lang="de-DE">Fußböden</name>
+        <name lang="it-IT">Pavimento</name>
+        <name lang="es-ES">Revestimiento para suelo</name>
+        <name lang="ja-JP">ラグ</name>
+        <name lang="ko-KR">마룻바닥</name>
+        <name lang="en-SG">Flooring</name>
+        <name lang="zh-HK">地板</name>
+        <name lang="zh-TW">地板</name>
+      </header>
+      <object>A7E4F08C-6D814EFC-A9B78D88-057AFC8D</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Ornaments</name>
+        <thumbnail useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+        <name lang="en-US">Ornaments</name>
+        <name lang="fr-FR">Décoration</name>
+        <name lang="de-DE">Verzierungen</name>
+        <name lang="it-IT">Decorazioni</name>
+        <name lang="es-ES">Adornos</name>
+        <name lang="ja-JP">装飾品</name>
+        <name lang="ko-KR">장식품</name>
+        <name lang="en-SG">Ornaments</name>
+        <name lang="zh-HK">裝飾品</name>
+        <name lang="zh-TW">裝飾品</name>
+      </header>
+      <object>293670BC-99EE4BA3-A601657A-08DE9EE3</object>
+      <object>D2B51922-F40A4F1F-8E5776C7-C41D4A22</object>
+      <object>42803ED6-83AF4FDF-92934962-E01A8A4C</object>
+      <object>45935BF3-82F244E0-9042C19A-DCD2EB55</object>
+      <object>00000000-00000000-00000002-00000028</object>
+      <object>00000000-00000000-00000002-00000029</object>
+      <object>00000000-00000000-00000002-00000034</object>
+      <object>00000000-00000000-00000002-00000041</object>
+      <object>00000000-00000000-00000002-00000042</object>
+      <object>00000000-00000000-00000002-00000044</object>
+      <object>00000000-00000000-00000002-00000045</object>
+      <object>00000000-00000000-00000002-00000047</object>
+      <object>00000000-00000000-00000002-00000048</object>
+      <object>00000000-00000000-00000002-00000049</object>
+      <object>00000000-00000000-00000002-00000052</object>
+      <object>00000000-00000000-00000002-00000055</object>
+      <object>00000000-00000000-00000001-0000003D</object>
+      <object>00000000-00000000-00000002-00000030</object>
+      <object>00000000-00000000-00000002-00000031</object>
+      <object>00000000-00000000-00000002-00000032</object>
+      <object>00000000-00000000-00000002-00000033</object>
+      <object>00000000-00000000-00000002-00000040</object>
+      <object>00000000-00000000-00000002-00000043</object>
+      <object>00000000-00000000-00000002-00000046</object>
+      <object>00000000-00000000-00000002-00000050</object>
+      <object>00000000-00000000-00000002-00000051</object>
+      <object>00000000-00000000-00000002-00000056</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Lights</name>
+        <thumbnail useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Lights.dds</thumbnail>
+        <name lang="en-US">Lights</name>
+        <name lang="fr-FR">Éclairage</name>
+        <name lang="de-DE">Lampen</name>
+        <name lang="it-IT">Luci</name>
+        <name lang="es-ES">Luces</name>
+        <name lang="ja-JP">照明器具</name>
+        <name lang="ko-KR">조명 기구</name>
+        <name lang="en-SG">Lights</name>
+        <name lang="zh-HK">燈具</name>
+        <name lang="zh-TW">燈具</name>
+      </header>
+      <object>00000000-00000000-00000001-0000003C</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Sofas</name>
+        <thumbnail useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Sofas.dds</thumbnail>
+        <name lang="en-US">Sofas</name>
+        <name lang="fr-FR">Canapés</name>
+        <name lang="de-DE">Sofas</name>
+        <name lang="it-IT">Divani</name>
+        <name lang="es-ES">Sofás</name>
+        <name lang="ja-JP">ソファー</name>
+        <name lang="ko-KR">소파</name>
+        <name lang="en-SG">Sofas</name>
+        <name lang="zh-HK">沙發</name>
+        <name lang="zh-TW">沙發</name>
+      </header>
+      <object>00000000-00000000-00000002-00000019</object>
+      <object>00000000-00000000-00000002-00000020</object>
+      <object>4B5BBF3F-601246B0-929853D6-A252DFDD</object>
+      <object>CBDA5812-43924528-B6A5808A-53010D27</object>
+      <object>00000000-00000000-00000002-00000018</object>
+    </node>
+    <node>
+      <header>
+        <name>Disgaea</name>
+        <thumbnail>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Disgaea3_asia.png</thumbnail>
+      </header>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Ornament</name>
+          <thumbnail useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/catergory_decorations.dds</thumbnail>
+          <name lang="ko-KR">장식품</name>
+          <name lang="en-SG">Ornament</name>
+          <name lang="zh-HK">裝飾品</name>
+          <name lang="zh-TW">裝飾品</name>
+        </header>
+        <object>00C70C76-F79A4AB9-911AE3B4-06935DF2</object>
+        <object>18C57A56-A7C34C12-95669C79-8AAEF4B8</object>
+        <object>DF55E6E0-B30E45AC-A59A6263-7897BFEF</object>
+        <object>3F34A54E-C4E24C70-95B7E4A6-D0C05D1F</object>
+        <object>0AF7AA4D-0FDA4BFC-A24730E9-43D0723F</object>
+        <object>51622629-18414D92-92558BDB-51430F46</object>
+        <object>FD3469B5-4D9B4043-AE413F09-D1B28370</object>
+        <object>829DCDFE-9CA74FAF-93E556B8-AAE0CBD1</object>
+        <object>F3D2723B-469C4822-ADB0FFB8-A2973281</object>
+        <object>85107A13-50434C74-B64D6A09-984776C9</object>
+        <object>3B534609-E8FA487F-A0DF838E-F2BA0590</object>
+        <object>B3556754-2C4843A6-A1190C51-A5C911CD</object>
+        <object>0A785F34-C8AD4405-81C1CAF0-A738045B</object>
+        <object>C1474139-D4F84198-B0C928C4-2FC5CBAE</object>
+        <object>EF052701-CAD749EA-B723F540-D03EFA80</object>
+        <object>FD0EFD92-58154C69-BF944578-D8A9BAB6</object>
+        <object>4F1B4492-27AF4B43-8C93B61C-CC471F4B</object>
+        <object>D0CB1DF5-0DA74DE1-BFB34FDF-93154E11</object>
+        <object>411297BA-4C2A4CDE-8D7DBA23-23E516D5</object>
+        <object>75C91260-73FB43B7-AC78627C-771BFE19</object>
+        <object>C67EAC1D-AE814304-86779528-01592213</object>
+        <object>27A69F44-8DE14407-B9AE519F-C967C657</object>
+        <object>CB6C137D-00CA48A4-929A444F-E7D0C8C5</object>
+        <object>2EE23941-5AC54560-8EEA5F83-69DC0518</object>
+        <object>967172FF-02A44E32-BAAB0FD9-B7A2D6F4</object>
+        <object>A80A4628-A56C43CB-91A74AAA-E432A790</object>
+        <object>63032E86-43D34381-869EB483-0D971DA2</object>
+        <object>D04DE18C-76204782-8D3E63D1-42E9D4EE</object>
+        <object>F4F8CF22-3C704AED-A794A1A0-8B4A8E08</object>
+        <object>337CC048-F4E143FB-9719D317-084E582D</object>
+        <object>19C6142D-2C0245D7-B5673330-584421E2</object>
+        <object>B033DCE6-9C514182-AE3A08B3-DA84B30F</object>
+        <object>BA4E8603-64D246BD-8BC8265B-02D19B56</object>
+        <object>1FB81B7F-04954D06-AF3FA318-6D85F9D1</object>
+        <object>6D9C6608-6B174285-87FA80D5-4ED7D43C</object>
+        <object>30E434A4-11AE46CA-B9D7CEF7-0F979F4C</object>
+        <object>F9B0EA11-76624E9B-95540049-2EF157D6</object>
+        <object>9C3A6458-DB5245B0-A396471A-48E2982B</object>
+        <object>438D8013-B8864165-AE15DBE5-7FE108C1</object>
+        <object>7D292098-D0F34530-92E61041-2AD3FE79</object>
+        <object>02C600AF-054941B7-90AE2DF4-67580349</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Cube</name>
+          <thumbnail useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Cubes.dds</thumbnail>
+          <name lang="ko-KR">큐브</name>
+          <name lang="en-SG">Cube</name>
+          <name lang="zh-HK">擺設</name>
+          <name lang="zh-TW">擺設</name>
+        </header>
+        <object>808C2D7C-1A564FEB-BF3B887B-F6C7D39D</object>
+        <object>9B3437C9-311841FE-8E54AB93-48D8DBFD</object>
+        <object>122E5C7D-3A994C14-A25D2E1D-4216BEDE</object>
+        <object>16A5A15D-308C48BC-87700131-7F6AA06C</object>
+        <object>9E9C913A-1E7D4157-AE472301-C370934A</object>
+        <object>D7B79063-E3474657-9F1CF40D-8AC3A636</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Tables</name>
+          <thumbnail useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Tables.dds</thumbnail>
+          <name lang="ko-KR">테이블</name>
+          <name lang="en-SG">Tables</name>
+          <name lang="zh-HK">桌子</name>
+          <name lang="zh-TW">桌子</name>
+        </header>
+        <object>90535F68-747A4BED-BEA0DB62-98E94225</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Chairs</name>
+          <thumbnail useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Chairs.dds</thumbnail>
+          <name lang="ko-KR">의자</name>
+          <name lang="en-SG">Chairs</name>
+          <name lang="zh-HK">椅子</name>
+          <name lang="zh-TW">椅子</name>
+        </header>
+        <object>42864A35-43004F27-931C2AC2-9C34EEA2</object>
+      </node>
+    </node>
+    <node type="objects">
+      <header>
+        <name>LocoRoco</name>
+        <thumbnail>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/TM_LR_store_icon_asia.png</thumbnail>
+      </header>
+      <object>036BCDEA-529E4EE2-A08BDFA6-56EE38BA</object>
+      <object>BD17BDB5-96E84F98-A2440D65-457C40E2</object>
+      <object>C53785F9-672C48D1-83BAC10A-FCE4B93E</object>
+      <object>F96929E7-34124D77-A40F1BBA-F37F8EF9</object>
+      <object>35030735-38AC40BB-A70CCAAF-95496ECD</object>
+      <object>D8A9C407-FF5A4D17-89B134BE-99CDA176</object>
+      <object>E4AE2A85-8B9F426D-A1D63B61-189FF348</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name>MotorStorm</name>
+        <thumbnail>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/MS_thumnail_Asia.png</thumbnail>
+      </header>
+      <object>CB8EC660-37E6478B-9EE8B527-3F57CA58</object>
+      <object>FBF58C79-11064C13-AAF7C771-DD109254</object>
+      <object>598F459D-7B034471-81295CE6-B07265BC</object>
+      <object>1EA75F59-E7044239-9E5A11C4-756A3A0E</object>
+      <object>76BE07EF-FAE2488C-85D5DF69-B135DF5E</object>
+      <object>069A2BB2-4BAB4CAB-83E2F4C0-DD5A703B</object>
+      <object>55F3C953-667B48D4-846D025F-BD6BACF0</object>
+      <object>BAB7FC3F-2CD74B59-AB53FAD5-792A5E6B</object>
+      <object>5302B299-E4BB4022-997AB125-607DBDBC</object>
+      <object>849FC695-58604E8D-A06F12AD-D0EDBE1B</object>
+      <object>CE426BCD-2EB94C7C-840DD5D0-96D2F712</object>
+      <object>D482EED5-12A54DB4-878CC3DC-F13F5141</object>
+      <object>E147AB31-71B944B0-AA2339CB-5FD5B11D</object>
+      <object>461EF1D5-4DDA443D-BE8038AB-AB08C941</object>
+      <object>1491D001-0D084363-8F54E0F6-032EF4A6</object>
+      <object>D4E20BBA-B7294E93-ADB51717-0020658F</object>
+      <object>7136945D-E3AF453E-960E810C-2C63FF81</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name>Killzone2</name>
+        <thumbnail>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/killzone_TMasia.png</thumbnail>
+      </header>
+      <object>2A3B8130-A9AD4897-812F032D-D6A51B21</object>
+      <object>8CC2D15C-C89741FF-82635FCD-C65A9FEA</object>
+      <object>F94211CD-CF344B96-A4AEBCB1-77891EFE</object>
+      <object>D5296E11-2EB644E5-B88060D2-1B44C9EA</object>
+      <object>F7F25FE6-FF764D65-AD53F3A7-EB9FD31E</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name>IREM</name>
+        <thumbnail>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/irem_asia.png</thumbnail>
+      </header>
+      <object>FA57A682-DBBC4F22-BEA55A44-3A5FC028</object>
+      <object>E2452698-E4A54FC0-8C9632A3-1041E148</object>
+      <object>E6917E3B-C5384F6B-B3DB0969-9F59AD67</object>
+      <object>7F5958A7-4ADD4C01-8A854E12-F583950B</object>
+      <object>54C6965B-93384B3D-98F79ADD-FB7B1335</object>
+      <object>54FD4998-19644B62-906B949E-1339E10A</object>
+      <object>F5509CF4-56E34D68-962F6694-54376AAB</object>
+      <object>278EF51D-CB6B47A0-AD049728-B7707B83</object>
+      <object>FF40E377-8DAF4B2E-87C6BA99-2C0ECEFB</object>
+      <object>3710BE24-625D491B-8A730EB2-81989577</object>
+      <object>824ED23B-527F48A2-B0F98135-493817DC</object>
+      <object>C7CD61E8-41C94D88-92E0BF8C-00E1DAFC</object>
+      <object>F92DFF21-847348B4-8BA3B0C3-288217E3</object>
+      <object>059E40E3-D6FB4500-99C9F6E5-5AF7A1E2</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name>Street Fighter IV</name>
+        <thumbnail> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/streetfighter4.png</thumbnail>
+      </header>
+      <object>96F90ABD-AE954B5E-9DB273C3-2158C41D</object>
+      <object>D10D7F33-4E46424B-ABFC87AC-AEC61EB4</object>
+      <object>61B61186-68E5473A-93E70F8E-53BAB8BA</object>
+      <object>FEAB40BC-43FA47E4-8D890AE2-A5C57E86</object>
+      <object>C673CD6F-BEDB4892-B152A6CA-02AD7E0B</object>
+      <object>54865CC9-391243D6-80B2CA53-040789F8</object>
+      <object>9BFA9EE4-ECC4431D-9044F37A-56912AFA</object>
+      <object>D87C0FBC-0DED4B17-A2B98401-AEDC161C</object>
+      <object>1077A6D2-63A24379-802284FF-0318996E</object>
+      <object>F46CB429-C5E146F7-B34B211D-D6EB49EB</object>
+      <object>1E191412-3D264E39-807DAFAE-A1058DA3</object>
+      <object>7C14CAB8-B37144C9-A0BEC5E2-8D557FEB</object>
+      <object>AF5CBCD5-16224275-9E6E6230-CB633982</object>
+      <object>4FD72B0A-97314285-89166D00-C32DC265</object>
+      <object>4A4886DD-F2A842E2-B36E3715-D940FE92</object>
+      <object>42F6BBAD-7C8A4A2C-B3610C0B-FD07031E</object>
+      <object>729B3CFE-8ECB4B53-9EB1188A-79F409B9</object>
+      <object>A03747F3-24334708-98DA46CD-4FF6FC4A</object>
+      <object>C96843FC-1D8C4340-9177FC50-194C5F24</object>
+      <object>784E6868-49C14313-8DCD3469-0399D87E</object>
+      <object>2F5DA5E6-2C2C4D7B-815EAAA8-3522E9B9</object>
+      <object>DC50D23E-EE584BEB-96D9074E-452C9523</object>
+      <object>D807261A-8E7E4625-B83F9036-6E6022CA</object>
+      <object>BF64C89E-65DB4BF2-A7BE36E8-0D68DE0B</object>
+      <object>A9038182-93B345BC-BB51B4D0-B7F359C1</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name>NAMCO BANDAI</name>
+        <thumbnail> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/NAMCOBANDAI_Thumbnail_Asia.png</thumbnail>
+      </header>
+      <object>A4C28874-13614211-B1587F9D-F1140E15</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name>Echochrome</name>
+        <thumbnail> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Echochrome_asia.png</thumbnail>
+      </header>
+      <object>45510270-674340E5-AF56299F-24F71355</object>
+      <object>0C7FB805-BBE54C87-B18BB0A1-D053972D</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">TORO</name>
+        <thumbnail> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Toro_asia.png</thumbnail>
+        <name lang="ko-KR">TORO</name>
+        <name lang="en-SG">TORO</name>
+        <name lang="zh-HK">多樂</name>
+        <name lang="zh-TW">多樂</name>
+      </header>
+      <object>CB46A38B-A6A04769-83240800-B1389632</object>
+      <object>AB0243EC-764748E2-BF58D7A2-99B88DCE</object>
+      <object>41231C8F-50B34538-86DCCD8F-42C19156</object>
+      <object>1B3F30FC-E2E44398-B47070FE-1F0B6E7F</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Yusyanokuseninamaikida or2</name>
+        <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Yusha_asia.png</thumbnail>
+        <name lang="ko-KR">용사주제에 건방지다 or2</name>
+        <thumbnail lang="ko-KR"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Yusha_asia_KR.png</thumbnail>
+        <name lang="en-SG">Yusyanokuseninamaikida or2</name>
+        <name lang="zh-HK">勇者實在太囂張or2</name>
+        <name lang="zh-TW">勇者實在太囂張or2</name>
+      </header>
+      <object>7373DEB9-65BC491A-8FFEBFC9-4CE9E91B</object>
+      <object>5DC62C50-0CA04858-B1DA6D71-63E5AF8A</object>
+      <object>081B8284-F793489B-BF3A49B6-DED1A885</object>
+      <object>E5AF73C1-9C1F4E82-86E2BCA8-91AB35D8</object>
+      <object>F063F44A-DCF149F9-A0E0179F-BB6D5455</object>
+      <object>1F6D536F-8CE14B12-8C1E18DD-6D725598</object>
+      <object>538987BE-4B734004-A1776E95-A67DD614</object>
+    </node>
+    <node>
+      <header>
+        <name>Free</name>
+        <thumbnail useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/free.dds</thumbnail>
+      </header>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Chairs</name>
+          <thumbnail useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Chairs.dds</thumbnail>
+          <name lang="en-US">Chairs</name>
+          <name lang="fr-FR">Sièges</name>
+          <name lang="de-DE">Stühle</name>
+          <name lang="it-IT">Sedie</name>
+          <name lang="es-ES">Sillas</name>
+          <name lang="ja-JP">チェア</name>
+          <name lang="ko-KR">의자</name>
+          <name lang="en-SG">Chairs</name>
+          <name lang="zh-HK">椅子</name>
+          <name lang="zh-TW">椅子</name>
+        </header>
+        <object>59F67FC2-68CE4126-928DD35C-9CF1F358</object>
+        <object>A2CAB05C-2FDC4B4C-A710A2CA-F5D65130</object>
+      </node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Ornaments</name>
+          <thumbnail useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+          <name lang="en-US">Ornaments</name>
+          <name lang="fr-FR">Décoration</name>
+          <name lang="de-DE">Verzierungen</name>
+          <name lang="it-IT">Decorazioni</name>
+          <name lang="es-ES">Adornos</name>
+          <name lang="ja-JP">装飾品</name>
+          <name lang="ko-KR">장식품</name>
+          <name lang="en-SG">Ornaments</name>
+          <name lang="zh-HK">裝飾品</name>
+          <name lang="zh-TW">裝飾品</name>
+        </header>
+        <object>45935BF3-82F244E0-9042C19A-DCD2EB55</object>
+      </node>
+    </node>
+  </node>
+</commerce_point>
