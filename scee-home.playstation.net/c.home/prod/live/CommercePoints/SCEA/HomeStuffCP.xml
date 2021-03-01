@@ -1,0 +1,65 @@
+<commerce_point>
+  <node>
+      <header>
+	<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/StuffA.png</background> 
+	<palette type="red" />
+    </header>
+	<node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Ornaments</name>
+        <name lang="en-US" >Ornaments</name>
+        <name lang="fr-FR" >Décoration</name>
+        <name lang="it-IT" >Decorazioni</name>
+        <name lang="de-DE" >Verzierungen</name>
+        <name lang="es-ES" >Adornos</name>
+        <name lang="ja-JP" >???</name>
+        <name lang="ko-KR" >???</name>
+        <name lang="zh-HK" >???</name>
+        <name lang="zh-TW" >???</name>
+        <name lang="en-SG" >Ornaments</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+			<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/StuffA.png</background> 
+	<palette type="red" />
+      </header>
+	  <object>3417C351-AB1B443C-B6C16D61-33A273FE</object>
+	  <object>70360119-C4344FCC-86F4BD1F-AEF7FE1E</object>
+	  <object>2BE8B4B9-EEAC43B2-A9521E7F-AA454545</object>
+    </node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Lights</name>
+        <name lang="en-US" >Lights</name>
+        <name lang="fr-FR" >Éclairage</name>
+        <name lang="it-IT" >Luci</name>
+        <name lang="de-DE" >Lampen</name>
+        <name lang="es-ES" >Luces</name>
+        <name lang="ja-JP" >????</name>
+        <name lang="ko-KR" >?? ??</name>
+        <name lang="zh-HK" >??</name>
+        <name lang="zh-TW" >??</name>
+        <name lang="en-SG" >Lights</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Lights.dds</thumbnail>
+			<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/StuffA.png</background> 
+	<palette type="red" />
+      </header>
+	  <!--Lava-->
+<object>106DD9C4-000A48BF-9C9CCA59-DDAC73FE</object>
+<object>6220FEC9-39424848-9F546755-DC72BA8F</object>
+<object>1C911C3E-9B204867-990BFA70-E7E7A841</object>
+<object>8E3E0267-143A4C11-9AE7DBCA-85E0534F</object>
+<object>EB316AA6-F99E44BB-9625ABDB-36C60D9C</object>
+<object>38F2F89A-0C454B90-B0F8E053-196D90E5</object>
+<object>DCC100BA-5AC0440B-94CB7F37-8AE64B90</object>
+<object>C695FF6F-88B14B66-BEA1D973-FE1B2A61</object>
+<object>8297F342-3ECF489F-93224D85-125C820A</object>
+<object>F85CFAEF-316F402E-AE9FDE5E-771C635B</object>
+<object>D0770B54-88B141B6-A7869B77-07890F4C</object>
+<object>FFDBB4F6-D5154227-98DD0497-04FBBD30</object>
+	  <!--Neon-->
+      <object>ABAAC215-90974619-A7083DD6-BC63A0FD</object>
+	  <object>2E8A698B-12F140B1-AE102A2E-3D968AC7</object>
+	  <object>B7B3D05E-600F41E1-965CC801-7400CFE3</object>
+    </node>
+  </node>
+</commerce_point>
+
