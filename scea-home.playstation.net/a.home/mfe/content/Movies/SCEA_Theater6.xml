@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='/styles/rss.xsl'?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>Example Media RSS Feed</title>
+        <description>Example Media RSS feed served from an HTTP server.</description>
+		<item>
+            <media:title type="plain">TESTER2genEP201commV10_720_Profile3_001.mp4</media:title>
+            <media:description type="plain">TESTER2genEP201commV10_720_Profile3_001.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/TESTER2genEP201commV10_720_Profile3_001.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+		<item>
+            <media:title type="plain">TESTER2genEP202commV10_720-Profile3.mp4</media:title>
+            <media:description type="plain">TESTER2genEP202commV10_720-Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/TESTER2genEP202commV10_720-Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+		<item>
+            <media:title type="plain">The_Tester2_Episode3-HD720-Profile.H264.mp4</media:title>
+            <media:description type="plain">The_Tester2_Episode3-HD720-Profile.H264.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/The_Tester2_Episode3-HD720-Profile.H264.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+		<item>
+            <media:title type="plain">Tester2_Ep4_112410_720p-Profile3.mp4</media:title>
+            <media:description type="plain">Tester2_Ep4_112410_720p-Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/Tester2_Ep4_112410_720p-Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+		<item>
+            <media:title type="plain">Tester2_Ep5_120110_720-Profile3.mp4</media:title>
+            <media:description type="plain">Tester2_Ep5_120110_720-Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/Tester2_Ep5_120110_720-Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+		<item>
+            <media:title type="plain">Tester2_Ep6FULL_120810_720p-Profile3.mp4</media:title>
+            <media:description type="plain">Tester2_Ep6FULL_120810_720p-Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/Tester2_Ep6FULL_120810_720p-Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+		<item>
+            <media:title type="plain">The_Tester2_Episode7-HD720-Profile3.mp4</media:title>
+            <media:description type="plain">The_Tester2_Episode7-HD720-Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/The_Tester2_Episode7-HD720-Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+		<item>
+            <media:title type="plain">Tester2_SeasonFinale_122210_720p-Profile3.mp4</media:title>
+            <media:description type="plain">Tester2_SeasonFinale_122210_720p-Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/Tester2_SeasonFinale_122210_720p-Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+    </channel>
+</rss>
