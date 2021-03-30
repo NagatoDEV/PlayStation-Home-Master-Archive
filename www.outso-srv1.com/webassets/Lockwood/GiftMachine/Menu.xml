@@ -1,0 +1,1587 @@
+﻿
+<GUI>
+	<MainBackgroundSize>
+		<x>600</x>
+		<y>504</y>
+	</MainBackgroundSize>
+	<MainBackGround_PopupFadeAlpha>0.5</MainBackGround_PopupFadeAlpha>
+	
+	<FadeSpeed_Up>0.04</FadeSpeed_Up>
+	<FadeSpeed_Down>0.04</FadeSpeed_Down>	
+	
+	<GlobalFontScale>
+		<lang_en-US>1</lang_en-US>
+		<lang_en-GB>1</lang_en-GB>
+		<lang_en-SG>1</lang_en-SG>
+		<lang_fr-FR>1</lang_fr-FR>
+		<lang_de-DE>1</lang_de-DE>
+		<lang_it-IT>1</lang_it-IT>
+		<lang_es-ES>1</lang_es-ES>
+		<lang_ja-JP>1.1</lang_ja-JP>
+		<lang_ko-KR>0.95</lang_ko-KR>
+		<lang_zh-HK>1</lang_zh-HK>
+		<lang_zh-TW>1</lang_zh-TW>
+	</GlobalFontScale>
+	
+	
+	<ScreensList>
+		<1>WelcomeScreen</1>
+		<2>FriendsScreen</2>
+		<3>GiftsScreen</3>
+		<4>CommerceScreen</4>
+		<5>FinalScreen</5>
+		<6>GiftSentScreen</6>
+		<7>NoFriendsScreen</7>
+		<8>PreviewScreen</8>		
+	</ScreensList>
+	
+	<Categories>
+		<New>
+			<Order>1</Order>
+			<Texture>
+				<Name>New.dds</Name>
+			</Texture>
+		</New>
+		<Xmas>
+			<Order>2</Order>
+			<Texture>
+				<Name>Xmas.dds</Name>
+			</Texture>
+		</Xmas>
+		<Birthday>
+			<Order>3</Order>
+			<Texture>
+				<Name>Birthday.dds</Name>
+			</Texture>
+		</Birthday>
+		<Valantines>
+			<Order>4</Order>
+			<Texture>
+				<Name>Valantines.dds</Name>
+			</Texture>
+		</Valantines>
+		<Female>
+			<Order>5</Order>
+			<Texture>
+				<Name>Female.dds</Name>
+			</Texture>
+		</Female>
+		<Male>
+			<Order>6</Order>
+			<Texture>
+				<Name>Male.dds</Name>
+			</Texture>
+		</Male>
+		<Furniture>
+			<Order>7</Order>
+			<Texture>
+				<Name>Furniture.dds</Name>
+			</Texture>
+		</Furniture>
+		<Luxury>
+			<Order>8</Order>
+			<Texture>
+				<Name>Luxury.dds</Name>
+			</Texture>
+		</Luxury>
+		<Toys>
+			<Order>9</Order>
+			<Texture>
+				<Name>Toys.dds</Name>
+			</Texture>
+		</Toys>
+	</Categories>
+	
+	<Categories_Properties>
+		<ThumbSize>
+			<NormalX>45</NormalX>
+			<NormalY>45</NormalY>
+			<SelectedX>70</SelectedX>
+			<SelectedY>70</SelectedY>
+			<TailOffScale>5</TailOffScale>
+		</ThumbSize>
+		<ThumbPosition>
+			<StartX>-20</StartX>
+			<StartY>-210</StartY>
+			<DifferenceBetweenX>70</DifferenceBetweenX>
+		</ThumbPosition>
+	</Categories_Properties>
+	
+	<PSN_Message>
+		<Title>
+			<lang_en-US>New present!</lang_en-US>
+			<lang_en-GB>New present!</lang_en-GB>
+			<lang_en-SG>New present!</lang_en-SG>
+			<lang_fr-FR>Nouveau Cadeau !</lang_fr-FR>
+			<lang_de-DE>Neues Geschenk!</lang_de-DE>
+			<lang_it-IT>Nuovo regalo!</lang_it-IT>
+			<lang_es-ES>¡Nuevo regalo!</lang_es-ES>
+			<lang_ja-JP>新しいプレゼント！</lang_ja-JP>
+			<!--<lang_ko-KR>새로운 선물입니다!</lang_ko-KR>-->
+			<lang_ko-KR>선물입니다!</lang_ko-KR>
+			<lang_zh-HK>新禮物！</lang_zh-HK>
+			<lang_zh-TW>新禮物！</lang_zh-TW>
+		</Title>
+		<Body>
+			<lang_en-US> You have received a gift in PlayStation®Home! Claim it now from the Lockwood Gift Machine. (Not available to users in Japan)</lang_en-US>
+			<lang_en-GB>You have received a gift in PlayStation®Home! Claim it now from the Lockwood Gift Machine. (Not available to users in Japan)</lang_en-GB>
+			<lang_en-SG>You have received a gift in PlayStation®Home! Claim it now from the Lockwood Gift Machine. (Not available to users in Japan)</lang_en-SG>
+			<lang_fr-FR>Vous avez reçu un cadeau sur le PlayStation®Home ! Réclamez-le dès maintenant à partir de la Machine à Cadeaux Lockwood. (Non disponible au Japon)</lang_fr-FR>
+			<lang_de-DE>Du hast ein Geschenk in PlayStation®Home erhalten! Hole es jetzt an der Lockwood-Geschenkmaschine ab. (Nicht erhältlich für Nutzer in Japan)</lang_de-DE>
+			<lang_it-IT>Hai ricevuto un regalo in PlayStation®Home! Aprilo dalla Macchina dispensa regali Lockwood. (Non disponibile per gli utenti in Giappone)</lang_it-IT>
+			<lang_es-ES>¡Has recibido un regalo en PlayStation®Home! Recógelo desde la Máquina de regalos Lockwood. (No disponible para usuarios en Japón)</lang_es-ES>
+			<lang_ja-JP>PlayStation®Homeにあなた宛のギフトが届いています！今、Lockwoodギフトマシンから獲得しましょう。（日本未発売）</lang_ja-JP>
+			<lang_ko-KR>PlayStation®Home에서 선물을 받으셨습니다! Lockwood 선물용 기계에서 지금 그 선물을 찾으세요.(일본 내의 사용자들에게는 제공되지 않음)</lang_ko-KR>
+			<lang_zh-HK>您從PlayStation®Home收到禮物！請從Lockwood禮品販賣機接收。（日本玩家無法購買）</lang_zh-HK>
+			<lang_zh-TW>您從PlayStation®Home收到禮物！請從Lockwood禮品販賣機接收。（日本玩家無法購買）</lang_zh-TW>
+		</Body>
+	</PSN_Message>
+	
+	
+	<FriendsFonts> <!-- Selected = if the name is already in the list -->
+		<Online>
+			<Selected>
+				<r>0</r> <!-- red 0 - 255 -->
+				<g>240</g> <!-- green 0 - 255 -->
+				<b>255</b> <!-- blue 0 - 255 -->
+				<a>1</a> <!-- alpha 0 - 1 -->
+			</Selected>
+			<NotSelected>
+				<r>0</r>
+				<g>0</g>
+				<b>0</b>
+				<a>1</a>			
+			</NotSelected>
+		</Online>
+		<Offline>
+			<Selected>
+				<r>15</r>
+				<g>39</g>
+				<b>101</b>
+				<a>1</a>			
+			</Selected>
+			<NotSelected>
+				<r>0</r>
+				<g>0</g>
+				<b>0</b>
+				<a>1</a>				
+			</NotSelected>
+		</Offline>
+
+		<Listed> <!-- when the names are in the mail to list-->
+			<Active> <!-- highlighted colour -->
+				<r>255</r>
+				<g>255</g>
+				<b>255</b>
+				<a>1</a>				
+			</Active>
+			<Passive>
+				<r>255</r>
+				<g>255</g>
+				<b>255</b>
+				<a>1</a>			
+			</Passive>
+		</Listed>
+		
+		<Highlighted>
+				<r>255</r>
+				<g>255</g>
+				<b>255</b>
+				<a>1</a>		
+		</Highlighted>
+	</FriendsFonts>
+	
+	
+<!--       Generic Token Information           -->	
+	<TokenInfo>
+		<NumberOfTokensText>
+			<x>67</x>
+			<y>55</y>
+			<FontScale>2.2</FontScale>
+			<bold>1</bold>      <!-- sets the playstation font to bold, true = 1, false = 0 -->
+			<Colour>
+				<r>255</r>
+				<g>255</g>
+				<b>255</b>
+				<a>1</a>
+			</Colour>
+		</NumberOfTokensText>
+		
+		<GiftList>
+			<x_displacement>20</x_displacement>
+			<y_displacement>57</y_displacement>
+			<scale>0.8</scale>
+			<font_size>1.3</font_size>
+			<x_displacement_for_number>46</x_displacement_for_number>
+			<y_displacement_for_number>27</y_displacement_for_number>
+			<Colour>
+				<r>1</r>
+				<g>1</g>
+				<b>1</b>
+				<a>1</a>
+			</Colour>
+		</GiftList>
+		
+		<TokenImage>
+			<Xpos>495</Xpos>
+			<Ypos>408</Ypos>
+			<ImageSizeX>68</ImageSizeX>
+			<ImageSizeY>48</ImageSizeY>
+		</TokenImage>
+		
+	
+		<Tokens1>
+			<lang_en-US>You have</lang_en-US>
+			<lang_de-DE>Sie haben</lang_de-DE>
+			<lang_en-GB>You have</lang_en-GB>		
+		</Tokens1>
+		<Tokens2>
+			<lang_en-US>Tokens</lang_en-US>
+			<lang_de-DE>Tokens</lang_de-DE>
+			<lang_en-GB>Tokens</lang_en-GB>				
+		</Tokens2>
+
+		<UnderFinalScreenText>
+			<x_displacement>5</x_displacement>
+			<y_displacement>5</y_displacement>
+			<x_ImageSize>0</x_ImageSize>
+			<y_ImageSize>0</y_ImageSize>
+		</UnderFinalScreenText>
+	</TokenInfo>	 
+	
+	
+	
+<!--             Plain Text to be displayed                       -->
+<!-- if you want to add more text - just type in teh screen name and add a _ and a  unique number-->	
+	<Username>
+		<FontScale>1.8</FontScale>
+		<Xpos>5</Xpos>
+		<Ypos>64</Ypos>
+		<Alignment>center</Alignment>
+		<r>0</r>
+		<g>0</g>
+		<b>0</b>
+		<a>1</a>
+	</Username>
+
+	<PlainText>
+		 <!--       Welcome screen           -->
+		<WelcomeScreen_1>
+			<FontScale>3.5</FontScale> 
+			<MaxWidth>311</MaxWidth>
+			<MaxHeight>10</MaxHeight>
+			<MaxRows>1</MaxRows>
+			<Xpos>310</Xpos>
+			<Ypos>30</Ypos>
+			<Bold>0</Bold>
+			<Alignment>center</Alignment>			
+			<lang_en-US>WELCOME </lang_en-US>
+			<lang_en-GB>WELCOME </lang_en-GB>
+			<lang_en-SG>WELCOME </lang_en-SG>
+			<lang_fr-FR>BIENVENUE</lang_fr-FR>
+			<lang_de-DE>WILLKOMMEN</lang_de-DE>
+			<lang_it-IT>BENVENUTI	</lang_it-IT>
+			<lang_es-ES>BIENVENIDO</lang_es-ES>
+			<lang_ja-JP>ようこそ</lang_ja-JP>
+			<lang_ko-KR>환영합니다</lang_ko-KR>
+			<lang_zh-HK>歡迎使用</lang_zh-HK>
+			<lang_zh-TW>歡迎使用</lang_zh-TW>
+		</WelcomeScreen_1>
+		
+		<WelcomeScreen_2>
+			<FontScale>1.2</FontScale>
+			<MaxWidth>310</MaxWidth>
+			<MaxHeight>150</MaxHeight>
+			<MaxRows>1</MaxRows>
+			<Xpos>310</Xpos>
+			<Ypos>79</Ypos>
+			<Bold>0</Bold>
+			<Alignment>center</Alignment>	
+			<lang_en-US>to the Lockwood Gift Machine</lang_en-US>
+			<lang_en-GB>to the Lockwood Gift Machine</lang_en-GB>
+			<lang_en-SG>to the Lockwood Gift Machine</lang_en-SG>
+			<lang_fr-FR>sur la Machine à Cadeaux Lockwood</lang_fr-FR>
+			<lang_de-DE>zur Lockwood-Geschenkmaschine</lang_de-DE>
+			<lang_it-IT>alla Macchina dispensa regali Lockwood</lang_it-IT>
+			<lang_es-ES>a la Máquina de regalos Lockwood</lang_es-ES>
+			<lang_ja-JP>Lockwoodギフトマシンへ</lang_ja-JP>
+			<lang_ko-KR>Lockwood 선물용 기계입니다</lang_ko-KR>
+			<lang_zh-HK>Lockwood禮品販賣機</lang_zh-HK>
+			<lang_zh-TW>Lockwood禮品販賣機</lang_zh-TW>	
+		</WelcomeScreen_2> 
+		
+		<WelcomeScreen_3>
+			<FontScale>1.1</FontScale>
+			<MaxWidth>470</MaxWidth>
+			<MaxHeight>200</MaxHeight>
+			<MaxRows>2</MaxRows>
+			<Xpos>305</Xpos>
+			<Ypos>230</Ypos>
+			<Bold>1</Bold>
+			<Alignment>center</Alignment>	
+			<lang_en-US>USE LOCKWOOD TOKENS TO PURCHASE GIFTS</lang_en-US>
+			<lang_en-GB>USE LOCKWOOD TOKENS TO PURCHASE GIFTS</lang_en-GB>
+			<lang_en-SG>USE LOCKWOOD TOKENS TO PURCHASE GIFTS</lang_en-SG>
+			<lang_fr-FR>UTILISEZ LES JETONS LOCKWOOD POUR ACHETER DES CADEAUX</lang_fr-FR>
+			<lang_de-DE>KAUFE MIT LOCKWOOD-MÜNZEN GESCHENKE</lang_de-DE>
+			<lang_it-IT>USA I GETTONI LOCKWOOD PER ACQUISTARE REGALI</lang_it-IT>
+			<lang_es-ES>UTILIZA ALAS FICHAS LOCKWOOD PARA COMPRAR REGALOS</lang_es-ES>
+			<lang_ja-JP>Lockwoodトークンでギフトを購入し</lang_ja-JP>
+			<lang_ko-KR>선물을 구입하시려면 Lockwood 토큰을 사용하세요</lang_ko-KR>
+			<lang_zh-HK>請用LOCKWOOD代幣買禮物</lang_zh-HK>
+			<lang_zh-TW>請用LOCKWOOD代幣買禮物</lang_zh-TW>	
+		</WelcomeScreen_3>
+		
+		<WelcomeScreen_4>
+			<FontScale>1.1</FontScale>
+			<MaxWidth>470</MaxWidth>
+			<MaxHeight>200</MaxHeight>
+			<MaxRows>2</MaxRows>
+			<Xpos>305</Xpos>
+			<Ypos>270</Ypos>
+			<Bold>1</Bold>
+			<Alignment>center</Alignment>	
+			<lang_en-US>FOR ALL YOUR FRIENDS!</lang_en-US>
+			<lang_en-GB>FOR ALL YOUR FRIENDS!</lang_en-GB>
+			<lang_en-SG>FOR ALL YOUR FRIENDS!</lang_en-SG>
+			<lang_fr-FR>À TOUS VOS AMIS !</lang_fr-FR>
+			<lang_de-DE>FÜR ALLE DEINE FREUNDE!</lang_de-DE>
+			<lang_it-IT>PER TUTTI I TUOI AMICI!</lang_it-IT>
+			<lang_es-ES>PARA TODOS TUS AMIGOS	</lang_es-ES>
+			<lang_ja-JP>フレンドみんなに贈ろう！</lang_ja-JP>
+			<lang_ko-KR>여러분의 모든 친구들을 위해서요!</lang_ko-KR>
+			<lang_zh-HK>送給朋友！</lang_zh-HK>
+			<lang_zh-TW>送給朋友！</lang_zh-TW>
+		</WelcomeScreen_4>
+		
+		<WelcomeScreen_5>
+			<FontScale>1.3</FontScale>
+			<MaxWidth>470</MaxWidth>
+			<MaxHeight>150</MaxHeight>
+			<MaxRows>1</MaxRows>
+			<Xpos>305</Xpos>
+			<Ypos>144</Ypos>
+			<Bold>0</Bold>
+			<Alignment>center</Alignment>	
+			<lang_en-US>HELLO</lang_en-US>
+			<lang_en-GB>HELLO</lang_en-GB>
+			<lang_en-SG>HELLO</lang_en-SG>
+			<lang_fr-FR>BONJOUR</lang_fr-FR>
+			<lang_de-DE>HALLO</lang_de-DE>
+			<lang_it-IT>SALVE</lang_it-IT>
+			<lang_es-ES>HOLA</lang_es-ES>
+			<lang_ja-JP>こんにちは</lang_ja-JP>
+			<lang_ko-KR>안녕하세요</lang_ko-KR>
+			<lang_zh-HK>您好</lang_zh-HK>
+			<lang_zh-TW>您好</lang_zh-TW>	
+		</WelcomeScreen_5> 
+		
+		<WelcomeScreen_6>
+			<FontScale>1.1</FontScale>
+			<MaxWidth>470</MaxWidth>
+			<MaxHeight>200</MaxHeight>
+			<MaxRows>1</MaxRows>
+			<Xpos>305</Xpos>
+			<Ypos>293</Ypos>
+			<Bold>1</Bold>
+			<Alignment>center</Alignment>	
+			<lang_en-US>Gifts not available in Japan.</lang_en-US>
+			<lang_en-GB>Gifts not available in Japan.</lang_en-GB>
+			<lang_en-SG>Gifts not available in Japan.</lang_en-SG>
+			<lang_fr-FR>Cadeaux non-disponibles au Japon.</lang_fr-FR>
+			<lang_de-DE>Geschenke in Japan nicht erhältlich.</lang_de-DE>
+			<lang_it-IT>Regali non disponibili in Giappone.</lang_it-IT>
+			<lang_es-ES>Regalos no disponibles en Japón.</lang_es-ES>
+			<lang_ja-JP>このギフトは日本未発売です。</lang_ja-JP>
+			<lang_ko-KR>선물은 일본에서는 제공되지 않습니다.</lang_ko-KR>
+			<lang_zh-HK>日本地區不提供禮品。</lang_zh-HK>
+			<lang_zh-TW>日本地區不提供禮品。</lang_zh-TW>
+		</WelcomeScreen_6>	
+
+		<PreviewScreen_1>
+			<FontScale>3.2</FontScale>
+			<MaxWidth>311</MaxWidth>
+			<MaxHeight>41</MaxHeight>
+			<MaxRows>1</MaxRows>
+			<Xpos>310</Xpos>
+			<Ypos>40</Ypos>
+			<Bold>0</Bold>
+			<Alignment>center</Alignment>	
+			<lang_en-US>Preview Gifts</lang_en-US>
+			<lang_en-GB>Preview Gifts</lang_en-GB>
+			<lang_en-SG>Preview Gifts</lang_en-SG>
+			<lang_fr-FR>Aperçu Cadeaux</lang_fr-FR>	
+			<lang_de-DE>Geschenkvorschau</lang_de-DE>
+			<lang_it-IT>Anteprima regali</lang_it-IT>
+			<lang_es-ES>Vista previa de regalos</lang_es-ES>
+			<lang_ja-JP>ギフトを見る</lang_ja-JP>
+			<lang_ko-KR>선물들을 미리 확인하세요</lang_ko-KR>
+			<lang_zh-HK>預覽禮物</lang_zh-HK>
+			<lang_zh-TW>預覽禮物</lang_zh-TW>
+		</PreviewScreen_1>		
+		
+		<FriendsScreen_1>
+			<FontScale>3.5</FontScale>
+			<MaxWidth>311</MaxWidth>
+			<MaxHeight>41</MaxHeight>
+			<MaxRows>1</MaxRows>
+			<Xpos>310</Xpos>
+			<Ypos>30</Ypos>
+			<Bold>0</Bold>
+			<Alignment>center</Alignment>	
+			<lang_en-US>FRIENDS</lang_en-US>
+			<lang_en-GB>FRIENDS</lang_en-GB>
+			<lang_en-SG>FRIENDS</lang_en-SG>
+			<lang_fr-FR>AMIS</lang_fr-FR>
+			<lang_de-DE>FREUNDE</lang_de-DE>
+			<lang_it-IT>AMICI</lang_it-IT>
+			<lang_es-ES>AMIGOS</lang_es-ES>
+			<lang_ja-JP>フレンド</lang_ja-JP>
+			<lang_ko-KR>친구들</lang_ko-KR>
+			<lang_zh-HK>朋友</lang_zh-HK>
+			<lang_zh-TW>朋友</lang_zh-TW>
+		</FriendsScreen_1>
+		
+		<FriendsScreen_2>
+			<FontScale>1.2</FontScale>
+			<MaxWidth>310</MaxWidth>
+			<MaxHeight>150</MaxHeight>
+			<MaxRows>1</MaxRows>
+			<Xpos>310</Xpos>
+			<Ypos>79</Ypos>
+			<Bold>0</Bold>
+			<Alignment>centre</Alignment>	
+			<lang_en-US>Choose up to 6 friends to give a gift to</lang_en-US>
+			<lang_en-GB>Choose up to 6 friends to give a gift to</lang_en-GB>
+			<lang_en-SG>Choose up to 6 friends to give a gift to</lang_en-SG>
+			<lang_fr-FR>Offrez des cadeaux à 6 de vos amis</lang_fr-FR>	
+			<lang_de-DE>Wähle bis zu 6 Freunde, die du beschenken möchtest</lang_de-DE>
+			<lang_it-IT>Scegli fino a 6 amici a cui donare regali</lang_it-IT>
+			<lang_es-ES>Elige un máximo de seis amigos a los que hacerles un regalo</lang_es-ES>
+			<lang_ja-JP>送り先にフレンド６人まで選んでください</lang_ja-JP>
+			<lang_ko-KR>선물을 드릴 친구를 여섯 분까지 선택하세요</lang_ko-KR>
+			<lang_zh-HK>最多可選擇6個接受禮物的朋友</lang_zh-HK>
+			<lang_zh-TW>最多可選擇6個接受禮物的朋友</lang_zh-TW>
+		</FriendsScreen_2>
+
+		<FriendsScreen_3>
+			<FontScale>1</FontScale>
+			<MaxWidth>150</MaxWidth>
+			<MaxHeight>150</MaxHeight>
+			<MaxRows>1</MaxRows>
+			<Xpos>395</Xpos>
+			<Ypos>138</Ypos>
+			<Bold>1</Bold>
+			<r>255</r>
+			<g>255</g>
+			<b>255</b>
+			<Alignment>left</Alignment>	
+			<lang_en-US>GIVE TO...</lang_en-US>
+			<lang_en-GB>GIVE TO...</lang_en-GB>
+			<lang_en-SG>GIVE TO...</lang_en-SG>
+			<lang_fr-FR>OFFRIR À...</lang_fr-FR>	
+			<lang_de-DE>SCHENKEN ...</lang_de-DE>
+			<lang_it-IT>DONA A…</lang_it-IT>
+			<lang_es-ES>DAR A…</lang_es-ES>
+			<lang_ja-JP>送り先…</lang_ja-JP>
+			<lang_ko-KR>...께 드립니다</lang_ko-KR>
+			<lang_zh-HK>送給…</lang_zh-HK>
+			<lang_zh-TW>送給…</lang_zh-TW>
+		</FriendsScreen_3>		
+	
+		<FriendsScreen_4>
+			<FontScale>1</FontScale>
+			<MaxWidth>150</MaxWidth>
+			<MaxHeight>150</MaxHeight>
+			<MaxRows>1</MaxRows>
+			<Xpos>125</Xpos>
+			<Ypos>138</Ypos>
+			<Bold>1</Bold>
+			<r>255</r>
+			<g>255</g>
+			<b>255</b>
+			<Alignment>left</Alignment>	
+			<lang_en-US>YOUR FRIENDS...</lang_en-US>
+			<lang_en-GB>YOUR FRIENDS...</lang_en-GB>
+			<lang_en-SG>YOUR FRIENDS...</lang_en-SG>
+			<lang_fr-FR>VOS AMIS...</lang_fr-FR>	
+			<lang_de-DE>DEINE FREUNDE...</lang_de-DE>
+			<lang_it-IT>AMICI PERSONALI…</lang_it-IT>
+			<lang_es-ES>DTUS AMIGOS…</lang_es-ES>
+			<lang_ja-JP>あなたのフレンド…</lang_ja-JP>
+			<lang_ko-KR>여러분의 친구들…</lang_ko-KR>
+			<lang_zh-HK>您的朋友…</lang_zh-HK>
+			<lang_zh-TW>您的朋友……</lang_zh-TW>
+		</FriendsScreen_4>		
+		
+		<GiftsScreen_1>
+			<FontScale>3.2</FontScale>
+			<MaxWidth>311</MaxWidth>
+			<MaxHeight>41</MaxHeight>
+			<MaxRows>1</MaxRows>
+			<Xpos>310</Xpos>
+			<Ypos>40</Ypos>
+			<Bold>0</Bold>
+			<Alignment>center</Alignment>	
+			<lang_en-US>Choose Gift</lang_en-US>
+			<lang_en-GB>Choose Gift</lang_en-GB>
+			<lang_en-SG>Choose Gift</lang_en-SG>
+			<lang_fr-FR>Choisir Cadeau</lang_fr-FR>	
+			<lang_de-DE>Geschenk wählen</lang_de-DE>
+			<lang_it-IT>Scegli regalo</lang_it-IT>
+			<lang_es-ES>Elegir regalo</lang_es-ES>
+			<lang_ja-JP>ギフト選択</lang_ja-JP>
+			<lang_ko-KR>선물을 고르세요</lang_ko-KR>
+			<lang_zh-HK>選擇禮物</lang_zh-HK>
+			<lang_zh-TW>選擇禮物</lang_zh-TW>
+		</GiftsScreen_1>
+		
+		<GiftsScreen_2>
+			<FontScale>1.1</FontScale>
+			<MaxWidth>350</MaxWidth>
+			<MaxHeight>300</MaxHeight>
+			<MaxRows>1</MaxRows>
+			<Xpos>530</Xpos>
+			<Ypos>393</Ypos>
+			<Bold>0</Bold>
+			<r>255</r>
+			<g>255</g>
+			<b>255</b>
+			<Alignment>center</Alignment>	
+			<lang_en-US>TOTAL:</lang_en-US>
+			<lang_en-GB>TOTAL:</lang_en-GB>
+			<lang_en-SG>TOTAL:</lang_en-SG>
+			<lang_fr-FR>TOTAL:</lang_fr-FR>	
+			<lang_de-DE>SUMME:</lang_de-DE>
+			<lang_it-IT>TOTALE:</lang_it-IT>
+			<lang_es-ES>TOTAL:</lang_es-ES>
+			<lang_ja-JP>合計:</lang_ja-JP>
+			<lang_ko-KR>확인</lang_ko-KR>
+			<lang_zh-HK>確認</lang_zh-HK>
+			<lang_zh-TW>確認</lang_zh-TW>
+		</GiftsScreen_2>
+
+		<FinalScreen_1>
+			<FontScale>1.1</FontScale>
+			<MaxWidth>470</MaxWidth>
+			<MaxHeight>150</MaxHeight>
+			<MaxRows>1</MaxRows>
+			<Xpos>300</Xpos>
+			<Ypos>277</Ypos>
+			<Bold>1</Bold>
+			<r>255</r>
+			<g>255</g>
+			<b>255</b>
+			<Alignment>center</Alignment>	
+			<lang_en-US>SEND GIFT FOR   ^   ?</lang_en-US>
+			<lang_en-GB>SEND GIFT FOR   ^   ?</lang_en-GB>
+			<lang_en-SG>SEND GIFT FOR ^ TOKENS?</lang_en-SG>			
+			<lang_fr-FR>ENVOYER CADEAU POUR   ^   ?</lang_fr-FR>	
+			<lang_de-DE>GESCHENK FÜR   ^   VERSCHICKEN?</lang_de-DE>
+			<lang_it-IT>INVIARE REGALO PER UN VALORE DI   ^    GETTONI?</lang_it-IT>
+			<lang_es-ES>¿ENVIAR REGALO POR   ^   ?</lang_es-ES>
+			<lang_ja-JP>  ^   のギフトを送りますか？</lang_ja-JP>
+			<lang_ko-KR>##   개 상당의 선물을 보낼까요?</lang_ko-KR>
+			<lang_zh-HK>要送  ^   個代幣的禮物嗎？</lang_zh-HK>
+			<lang_zh-TW>要送  ^   個代幣的禮物嗎？</lang_zh-TW>	
+		</FinalScreen_1>		
+
+		<FinalScreen_2>
+			<FontScale>1.1</FontScale>
+			<MaxWidth>470</MaxWidth>
+			<MaxHeight>150</MaxHeight>
+			<MaxRows>1</MaxRows>
+			<Xpos>300</Xpos>
+			<Ypos>297</Ypos>
+			<Bold>1</Bold>
+			<r>255</r>
+			<g>255</g>
+			<b>255</b>
+			<Alignment>center</Alignment>	
+			<lang_en-US>YOU WILL HAVE   #    LEFT</lang_en-US>
+			<lang_en-GB>YOU WILL HAVE   #    LEFT</lang_en-GB>
+			<lang_en-SG>YOU WILL HAVE # TOKENS LEFT</lang_en-SG>			
+			<lang_fr-FR>IL VOUS RESTERA   #    </lang_fr-FR>	
+			<lang_de-DE>DU HÄTTEST DANN NOCH   #    ÜBRIG</lang_de-DE>
+			<lang_it-IT>TI RESTERANNO   #    GETTONI</lang_it-IT>
+			<lang_es-ES>TE QUEDAN   #    </lang_es-ES>
+			<lang_ja-JP>トークンの残りは   #    になります</lang_ja-JP>
+			<lang_ko-KR>   #   개가 남게 될 것입니다</lang_ko-KR>
+			<lang_zh-HK>您會剩下   #   個代幣</lang_zh-HK>
+			<lang_zh-TW>您會剩下   #   個代幣</lang_zh-TW>	
+		</FinalScreen_2>		
+		
+		<FinalScreen_3>
+			<FontScale>1.1</FontScale>
+			<MaxWidth>150</MaxWidth>
+			<MaxHeight>150</MaxHeight>
+			<MaxRows>1</MaxRows>
+			<Xpos>94</Xpos>
+			<Ypos>135</Ypos>
+			<Bold>1</Bold>
+			<r>255</r>
+			<g>255</g>
+			<b>255</b>
+			<Alignment>left</Alignment>	
+			<lang_en-US>TO...</lang_en-US>
+			<lang_en-GB>TO...</lang_en-GB>
+			<lang_en-SG>TO...</lang_en-SG>
+			<lang_fr-FR>À...</lang_fr-FR>	
+			<lang_de-DE>FÜR...</lang_de-DE>
+			<lang_it-IT>A…</lang_it-IT>
+			<lang_es-ES>PARA…</lang_es-ES>
+			<lang_ja-JP>送り先…</lang_ja-JP>
+			<lang_ko-KR>받는 사람:</lang_ko-KR>
+			<lang_zh-HK>給：</lang_zh-HK>
+			<lang_zh-TW>給：</lang_zh-TW>	
+		</FinalScreen_3>		
+
+		<FinalScreen_4>
+			<FontScale>1.1</FontScale>
+			<MaxWidth>400</MaxWidth>
+			<MaxHeight>150</MaxHeight>
+			<MaxRows>1</MaxRows>
+			<Xpos>300</Xpos>
+			<Ypos>320</Ypos>
+			<Bold>1</Bold>
+			<r>255</r>
+			<g>255</g>
+			<b>255</b>
+			<Alignment>center</Alignment>	
+			<lang_en-US>ONCE CONFIRMED, TOKENS CANNOT BE REFUNDED</lang_en-US>
+			<lang_en-GB>ONCE CONFIRMED, TOKENS CANNOT BE REFUNDED</lang_en-GB>
+			<lang_en-SG>ONCE CONFIRMED, TOKENS CANNOT BE REFUNDED</lang_en-SG>
+			<lang_fr-FR>UNE FOIS UTILISÉS, LES JETONS NE SERONT PAS REMBOURSÉS</lang_fr-FR>	
+			<lang_de-DE>BESTÄTIGTE MÜNZEN KÖNNEN NICHT RÜCKERSTATTET WERDEN</lang_de-DE>
+			<lang_it-IT>IMPOSSIBILE RIMBORSARE I GETTONI DOPO LA CONFERMA</lang_it-IT>
+			<lang_es-ES>TRAS CONFIRMAR, LAS FICHAS NO PUEDEN SER REEMBOLSADAS</lang_es-ES>
+			<lang_ja-JP>確定済みトークンの払い戻しはできません</lang_ja-JP>
+			<lang_ko-KR>일단 확인을 하시면, 토큰은 반환되지 않습니다</lang_ko-KR>
+			<lang_zh-HK>確認後恕不退還代幣</lang_zh-HK>
+			<lang_zh-TW>確認後恕不退還代幣</lang_zh-TW>	
+		</FinalScreen_4>		
+
+		<!--<FinalScreen_5>
+			<FontScale>1.1</FontScale>
+			<MaxWidth>400</MaxWidth>
+			<MaxHeight>150</MaxHeight>
+			<MaxRows>1</MaxRows>
+			<Xpos>300</Xpos>
+			<Ypos>328</Ypos>
+			<Bold>0</Bold>
+			<Alignment>center</Alignment>	
+			<lang_en-US>.</lang_en-US>
+			<lang_en-GB>.</lang_en-GB>
+			<lang_en-SG>.</lang_en-SG>
+			<lang_fr-FR>until the Gift Machine release for their gifts to be received</lang_fr-FR>	
+			<lang_de-DE>until the Gift Machine release for their gifts to be received</lang_de-DE>
+			<lang_it-IT>until the Gift Machine release for their gifts to be received</lang_it-IT>
+			<lang_es-ES>until the Gift Machine release for their gifts to be received</lang_es-ES>
+			<lang_ja-JP>until the Gift Machine release for their gifts to be received</lang_ja-JP>
+			<lang_ko-KR>until the Gift Machine release for their gifts to be received</lang_ko-KR>
+			<lang_zh-HK>until the Gift Machine release for their gifts to be received</lang_zh-HK>
+			<lang_zh-TW>until the Gift Machine release for their gifts to be received</lang_zh-TW>	
+		</FinalScreen_5>-->
+		
+		<GiftSentScreen_1>
+			<FontScale>3</FontScale>
+			<MaxWidth>150</MaxWidth>
+			<MaxHeight>150</MaxHeight>
+			<MaxRows>1</MaxRows>
+			<Xpos>310</Xpos>
+			<Ypos>200</Ypos>
+			<Bold>0</Bold>
+			<Alignment>center</Alignment>	
+			<lang_en-US>GIFT SENT!</lang_en-US>
+			<lang_en-GB>GIFT SENT!</lang_en-GB>
+			<lang_en-SG>GIFT SENT!</lang_en-SG>
+			<lang_fr-FR>CADEAU ENVOYÉ !</lang_fr-FR>	
+			<lang_de-DE>GESCHENK VERSCHICKT!</lang_de-DE>
+			<lang_it-IT>REGALO INVIATO!</lang_it-IT>
+			<lang_es-ES>¡REGALO ENVIADO!</lang_es-ES>
+			<lang_ja-JP>ギフト送信完了！</lang_ja-JP>
+			<lang_ko-KR>선물을 발송했습니다!</lang_ko-KR>
+			<lang_zh-HK>禮物已經送出！</lang_zh-HK>
+			<lang_zh-TW>禮物已經送出！</lang_zh-TW>		
+		</GiftSentScreen_1>
+		
+		<NoFriendsScreen_1>
+			<FontScale>1.5</FontScale>
+			<MaxWidth>150</MaxWidth>
+			<MaxHeight>150</MaxHeight>
+			<MaxRows>1</MaxRows>
+			<Xpos>310</Xpos>
+			<Ypos>200</Ypos>
+			<Bold>0</Bold>
+			<Alignment>center</Alignment>	
+			<lang_en-US>YOU DO NOT HAVE ANY PSN FRIENDS TO GIVE A GIFT TO</lang_en-US>
+			<lang_en-GB>YOU DO NOT HAVE ANY PSN FRIENDS TO GIVE A GIFT TO</lang_en-GB>
+			<lang_en-SG>YOU DO NOT HAVE ANY PSN FRIENDS TO GIVE A GIFT TO</lang_en-SG>
+			<lang_fr-FR>VOUS N'AVEZ PAS D'AMIS PSN À QUI OFFRIR DES CADEAUX</lang_fr-FR>	
+			<lang_de-DE>DU HAST KEINE PSN-FREUNDE, DIE DU BESCHENKEN KANNST</lang_de-DE>
+			<lang_it-IT>NON HAI AMICI SU PSN A CUI FARE REGALI</lang_it-IT>
+			<lang_es-ES>NO TIENES NINGÚN AMIGO PSN AL QUE DAR UN REGALO</lang_es-ES>
+			<lang_ja-JP>現在、ギフトを送れるPSNフレンズはいません</lang_ja-JP>
+			<lang_ko-KR>귀하는 선물을 보낼 PSN 친구들이 없습니다</lang_ko-KR>
+			<lang_zh-HK>您沒有PSN朋友可送禮</lang_zh-HK>
+			<lang_zh-TW>您沒有PSN朋友可送禮</lang_zh-TW>		
+		</NoFriendsScreen_1>		
+		
+	</PlainText>
+	
+	
+	
+	
+<!--                  Buttons                       -->	
+<ButtonSize>
+	<x>168</x>
+	<y>94</y>
+	<x_border>50</x_border>
+</ButtonSize>
+
+<!--   To add new buttons, say which screen followed by a unque number.  _ in the text are enters  -->	
+	<NormalButtons>
+		 <!--       Welcome screen buttons          -->
+		<WelcomeScreen1>
+			<MaxWidth>80</MaxWidth>
+			<SoundFX>Accept</SoundFX>
+			<Action>Screen</Action> <!-- screen, popup -->
+			<Target>4</Target> <!-- the number of the screen to show -->
+			<FontScale>1.15</FontScale>
+			<Xpos>80</Xpos>
+			<Ypos>363</Ypos>
+			<TextX_Displacement>-50</TextX_Displacement>
+			<TextY_Displacement>0</TextY_Displacement>
+			<Alignment>left</Alignment>
+			<ButtonType>Big</ButtonType>		<!-- changes the button texture - at the mo theres only big buttons -->	
+			<lang_en-US>Purchase Tokens</lang_en-US>
+			<lang_en-GB>Purchase Tokens</lang_en-GB>
+			<lang_en-SG>Purchase Tokens</lang_en-SG>
+			<lang_fr-FR>Acheter Jetons</lang_fr-FR>	
+			<lang_de-DE>Münzen kaufen</lang_de-DE>
+			<lang_it-IT>Acquista gettoni</lang_it-IT>
+			<lang_es-ES>Comprar Fichas</lang_es-ES>
+			<lang_ja-JP>    トークン購入</lang_ja-JP>
+			<lang_ko-KR>토큰을 구입하세요</lang_ko-KR>
+			<lang_zh-HK>購買代幣</lang_zh-HK>
+			<lang_zh-TW>購買代幣</lang_zh-TW>	
+		</WelcomeScreen1>
+		
+		<WelcomeScreen2>
+			<MaxWidth>118</MaxWidth>
+			<SoundFX>Accept</SoundFX>
+			<Action>Screen</Action>
+			<Target>2</Target>
+			<FontScale>1.15</FontScale>
+			<Xpos>222</Xpos>
+			<Ypos>363</Ypos>
+			<TextX_Displacement>0</TextX_Displacement>
+			<TextY_Displacement>0</TextY_Displacement>
+			<Alignment>center</Alignment>
+			<ButtonType>Big</ButtonType>					
+			<lang_en-US>Give Gift</lang_en-US>
+			<lang_en-GB>Give Gift</lang_en-GB>
+			<lang_en-SG>Give Gift</lang_en-SG>
+			<lang_fr-FR>Offrir Cadeau</lang_fr-FR>	
+			<lang_de-DE>Schenken</lang_de-DE>
+			<lang_it-IT>Dona regalo</lang_it-IT>
+			<lang_es-ES>Dar regalo</lang_es-ES>
+			<lang_ja-JP>ギフトを贈る</lang_ja-JP>
+			<lang_ko-KR>선물을 드리세요</lang_ko-KR>
+			<lang_zh-HK>送禮</lang_zh-HK>
+			<lang_zh-TW>送禮</lang_zh-TW>		
+		</WelcomeScreen2>
+		
+		<WelcomeScreen3>
+			<MaxWidth>118</MaxWidth>
+			<SoundFX>Accept</SoundFX>
+			<Action>Screen</Action>
+			<Target>8</Target>
+			<FontScale>1.15</FontScale>
+			<Xpos>363</Xpos>
+			<Ypos>363</Ypos>
+			<TextX_Displacement>0</TextX_Displacement>
+			<TextY_Displacement>0</TextY_Displacement>
+			<Alignment>center</Alignment>
+			<ButtonType>Big</ButtonType>					
+			<lang_en-US>Preview Gifts</lang_en-US>
+			<lang_en-GB>Preview Gifts</lang_en-GB>
+			<lang_en-SG>Preview Gifts</lang_en-SG>
+			<lang_fr-FR>Aperçu Cadeaux</lang_fr-FR>	
+			<lang_de-DE>Geschenk- vorschau</lang_de-DE>
+			<lang_it-IT>Anteprima regali</lang_it-IT>
+			<lang_es-ES>Vista previa de regalos</lang_es-ES>
+			<lang_ja-JP>ギフトを見る</lang_ja-JP>
+			<lang_ko-KR>선물들을 미리 확인하세요</lang_ko-KR>
+			<lang_zh-HK>預覽禮物</lang_zh-HK>
+			<lang_zh-TW>預覽禮物</lang_zh-TW>		
+		</WelcomeScreen3>	
+		
+		<FriendsScreen1>
+			<MaxWidth>118</MaxWidth>
+			<SoundFX>Accept</SoundFX>
+			<Action>Screen</Action>
+			<Target>3</Target>
+			<FontScale>1.15</FontScale>
+			<Xpos>222</Xpos>
+			<Ypos>363</Ypos>
+			<TextX_Displacement>0</TextX_Displacement>
+			<TextY_Displacement>0</TextY_Displacement>
+			<Alignment>center</Alignment>
+			<ButtonType>Big</ButtonType>					
+			<lang_en-US>Choose Gift</lang_en-US>
+			<lang_en-GB>Choose Gift</lang_en-GB>
+			<lang_en-SG>Choose Gift</lang_en-SG>
+			<lang_fr-FR>Choisir Cadeau</lang_fr-FR>	
+			<lang_de-DE>Geschenk wählen</lang_de-DE>
+			<lang_it-IT>Scegli regalo</lang_it-IT>
+			<lang_es-ES>Elegir regalo</lang_es-ES>
+			<lang_ja-JP>ギフト選択</lang_ja-JP>
+			<lang_ko-KR>선물을 고르세요</lang_ko-KR>
+			<lang_zh-HK>選擇禮物</lang_zh-HK>
+			<lang_zh-TW>選擇禮物</lang_zh-TW>		
+		</FriendsScreen1>	
+		
+		<FinalScreen1>
+			<MaxWidth>118</MaxWidth>
+			<SoundFX>Decline</SoundFX>
+			<Action>Screen</Action>
+			<Target>3</Target>
+			<FontScale>1.15</FontScale>
+			<Xpos>150</Xpos>
+			<Ypos>363</Ypos>
+			<TextX_Displacement>0</TextX_Displacement>
+			<TextY_Displacement>0</TextY_Displacement>
+			<Alignment>center</Alignment>
+			<ButtonType>Big</ButtonType>					
+			<lang_en-US>Back</lang_en-US>
+			<lang_en-GB>Back</lang_en-GB>
+			<lang_en-SG>Back</lang_en-SG>
+			<lang_fr-FR>Retour</lang_fr-FR>	
+			<lang_de-DE>Zurück</lang_de-DE>
+			<lang_it-IT>Indietro</lang_it-IT>
+			<lang_es-ES>Atrás</lang_es-ES>
+			<lang_ja-JP>戻る</lang_ja-JP>
+			<lang_ko-KR>뒤로</lang_ko-KR>
+			<lang_zh-HK>返回</lang_zh-HK>
+			<lang_zh-TW>返回</lang_zh-TW>
+		</FinalScreen1>		
+
+		<FinalScreen2>
+			<MaxWidth>118</MaxWidth>
+			<SoundFX>Accept</SoundFX>
+			<Action>Screen</Action>
+			<Target>6</Target>
+			<FontScale>1.15</FontScale>
+			<Xpos>295</Xpos>
+			<Ypos>363</Ypos>
+			<TextX_Displacement>0</TextX_Displacement>
+			<TextY_Displacement>0</TextY_Displacement>
+			<Alignment>center</Alignment>
+			<ButtonType>Big</ButtonType>					
+			<lang_en-US>Confirm</lang_en-US>
+			<lang_en-GB>Confirm</lang_en-GB>
+			<lang_en-SG>Confirm</lang_en-SG>
+			<lang_fr-FR>Confirmer</lang_fr-FR>	
+			<lang_de-DE>Bestätigen</lang_de-DE>
+			<lang_it-IT>Conferma</lang_it-IT>
+			<lang_es-ES>Confirmar</lang_es-ES>
+			<lang_ja-JP>確定</lang_ja-JP>
+			<lang_ko-KR>확인</lang_ko-KR>
+			<lang_zh-HK>確認</lang_zh-HK>
+			<lang_zh-TW>確認</lang_zh-TW>	
+		</FinalScreen2>
+
+		<GiftSentScreen1>
+			<MaxWidth>118</MaxWidth>
+			<SoundFX>Accept</SoundFX>
+			<Action>Screen</Action>
+			<Target>1</Target>
+			<FontScale>1.15</FontScale>
+			<Xpos>222</Xpos>
+			<Ypos>363</Ypos>
+			<TextX_Displacement>0</TextX_Displacement>
+			<TextY_Displacement>0</TextY_Displacement>
+			<Alignment>center</Alignment>
+			<ButtonType>Big</ButtonType>					
+			<lang_en-US>~~~~~~~Back to_~Welcome Screen</lang_en-US>
+			<lang_en-GB>~~~~~~~Back to_~Welcome Screen</lang_en-GB>
+			<lang_de-DE>????</lang_de-DE>	
+		</GiftSentScreen1>		
+		
+		<NoFriendsScreen1>
+			<MaxWidth>118</MaxWidth>
+			<SoundFX>Accept</SoundFX>
+			<Action>Screen</Action>
+			<Target>1</Target>
+			<FontScale>1.15</FontScale>
+			<Xpos>222</Xpos>
+			<Ypos>363</Ypos>
+			<TextX_Displacement>0</TextX_Displacement>
+			<TextY_Displacement>0</TextY_Displacement>
+			<Alignment>center</Alignment>
+			<ButtonType>Big</ButtonType>					
+			<lang_en-US>~~~~~~~Back to_~Welcome Screen</lang_en-US>
+			<lang_en-GB>~~~~~~~Back to_~Welcome Screen</lang_en-GB>
+			<lang_de-DE>????</lang_de-DE>	
+		</NoFriendsScreen1>
+		
+	</NormalButtons>
+	
+	<WelcomeScreen>
+		<Xpos>31</Xpos>
+		<Ypos>116</Ypos>
+		<xsize>548</xsize>
+		<ysize>256</ysize>		
+	</WelcomeScreen>
+	
+	<FriendsScreenPos>
+		<Arrow>
+			<Size>
+				<x>488</x>
+				<y>44</y>
+			</Size>
+			<Top_Pos>
+				<x>62</x>
+				<y>108</y>
+			</Top_Pos>
+			<Bot_Pos>
+				<x>62</x>
+				<y>335</y>
+			</Bot_Pos>			
+		</Arrow>
+	
+	
+		<Y_Difference_between_giveto_names>31</Y_Difference_between_giveto_names>
+		<LeftTextPosX>20</LeftTextPosX>
+		<LeftTextPosY>-1</LeftTextPosY>
+		<LeftTextFontScale>1</LeftTextFontScale>
+		<RightTextFontScale>1.3</RightTextFontScale>
+		<RIghtTextPosX>30</RIghtTextPosX>
+		<RIghtTextPosY>0</RIghtTextPosY>
+		<BackgroundSize> <!-- the size of teh texture of the friends background screen-->
+			<x>548</x>
+			<y>256</y>		
+		</BackgroundSize>		
+		<BackgroundPos> <!-- the position of teh texture of the friends background screen-->
+			<x>31</x>
+			<y>116</y>
+		</BackgroundPos>
+		<ActiveAreaSize> <!-- the size of teh scrollable area of the friends background screen-->
+			<x>460</x>
+			<y>187</y>		
+		</ActiveAreaSize>			
+		<ActiveAreaPos> <!--not photoshop units, changes the position of the text in the friends background screen -->
+			<x>-240</x>
+			<y>5</y>	
+		</ActiveAreaPos>
+		<ActiveAreaDebugOn>0</ActiveAreaDebugOn> <!--green debug box, makes it easy to show the size of the scrollable area, 1 = on, 0 = off -->
+		<OfflineText>
+			<lang_en-US>Offline</lang_en-US>
+			<lang_en-GB>Offline</lang_en-GB>			<!-- the text to show after peoples names if they are offline -->
+			<lang_de-DE>Off-line</lang_de-DE>			
+		</OfflineText>
+		<FriendsToGive> <!--not photoshop units, changes the position of the text in the friends background screen -->
+			<x>3</x>
+			<y>75</y>
+		</FriendsToGive>
+		<MaxFriendNameSize>15</MaxFriendNameSize>
+	</FriendsScreenPos>
+	
+	<GiftsScreenPos>
+		<PreviewGiftScreen>
+			<DesBox>
+				<X_pos>42</X_pos>
+				<Y_pos>345</Y_pos>
+				<X_Size>230</X_Size>
+				<Y_Size>156</Y_Size>
+			</DesBox>
+			<ThumbailDisplacement>
+				<x>37</x>
+				<y>5</y>
+			</ThumbailDisplacement>
+			<GiftTitleDisplacement>
+				<x>37</x>
+				<y>0</y>
+			</GiftTitleDisplacement>
+			<GiftDesDisplacement>
+				<x>37</x>
+				<y>0</y>
+			</GiftDesDisplacement>
+		</PreviewGiftScreen>
+		
+		<AnimationSpeed>6</AnimationSpeed> <!--frames per secound-->
+		<loading_x>40</loading_x>
+		<loading_y>40</loading_y>
+		<loading_x_descbox>40</loading_x_descbox>
+		<loading_y_descbox>40</loading_y_descbox>		
+		
+		<ThumbnailScaleWhenSelected>1.15</ThumbnailScaleWhenSelected>
+		<ThumbnailEFFECTSizeOverLap>30</ThumbnailEFFECTSizeOverLap>
+		<X_Displace_WhenSelected>6</X_Displace_WhenSelected>
+		<Y_Displace_WhenSelected>6</Y_Displace_WhenSelected>
+		<Arrow>
+			<Size>
+				<x>488</x>
+				<y>44</y>
+			</Size>
+			<Top_Pos>
+				<x>62</x>
+				<y>108</y>
+			</Top_Pos>
+			<Bot_Pos>
+				<x>62</x>
+				<y>335</y>
+			</Bot_Pos>			
+		</Arrow>	
+	
+		<DesBox>
+			<xpos>0</xpos>
+			<ypos>345</ypos>
+			<xsize>608</xsize>
+			<ysize>264</ysize>
+			<FriendsListY>100</FriendsListY>
+			<FriendsListX>0</FriendsListX>
+			<FriendsListY_Size>100</FriendsListY_Size>
+			<FriendsListX_Size>100</FriendsListX_Size>			
+		</DesBox>
+	
+		<BackgroundSize> <!-- the size of teh texture of the friends background screen-->
+			<x>488</x>
+			<y>212</y>		
+		</BackgroundSize>		
+		<BackgroundPos> <!-- the position of teh texture of the friends background screen-->
+			<x>62</x>
+			<y>20</y>
+		</BackgroundPos>
+		<ActiveAreaSize> <!-- the size of teh scrollable area of the friends background screen-->
+			<x>520</x>
+			<y>195</y>		
+		</ActiveAreaSize>			
+		<ActiveAreaPos> <!--not photoshop units, changes the position of the text in the friends background screen -->
+			<x>-250</x>
+			<y>94</y>	
+		</ActiveAreaPos>
+		<ActiveAreaDebugOn>0</ActiveAreaDebugOn> <!--green debug box, makes it easy to show the size of the scrollable area, 1 = on, 0 = off -->
+		<AlreadyHaveItemText>
+			<lang_en-US> already has this item, you will not be charged</lang_en-US> <!-- the text to show after peoples names if they are offline -->
+			<lang_de-DE> already has this item, you will not be charged Ger</lang_de-DE>			
+		</AlreadyHaveItemText>
+	
+		<Thumb>
+			<ScaleToSmall>1.</ScaleToSmall>
+			<LargeSizeX>85</LargeSizeX>	<!--large thumb dimension x-->
+			<LargeSizeY>85</LargeSizeY>	<!--large thumb dimension y-->
+			<XDisplacement>114</XDisplacement> <!--the start position of the thumbnails from the left hand side-->
+			<XDisplacement>114</XDisplacement> <!--the start position of the thumbnails from the left hand side-->
+			<YDisplacement>2</YDisplacement> <!--the start position of the thumbnails from the top of teh scroll pain-->
+			<BottomThumbX>125</BottomThumbX>
+			<BottomThumbY>384</BottomThumbY>
+		</Thumb>
+		
+		<SpaceBetweenItemsX>120</SpaceBetweenItemsX> <!--the space between thumbnails in gift pain-->
+		<SpaceBetweenItemsY>95</SpaceBetweenItemsY> <!--the space between thumbnails in gift pain-->
+		
+		<TitleText>
+			<x>305</x>
+			<y>389</y>
+			<Alignment>center</Alignment>
+			<FontScale>1.2</FontScale>
+			<MaxLength>300</MaxLength>
+			<Selected>
+				<r>255</r>
+				<g>255</g>
+				<b>255</b>
+				<a>1</a>			
+			</Selected>
+			<NotSelected>
+				<r>31</r>
+				<g>60</g>
+				<b>76</b>
+				<a>1</a>				
+			</NotSelected>
+			<CantSelect>
+				<r>31</r>
+				<g>60</g>
+				<b>76</b>
+				<a>1</a>				
+			</CantSelect>
+		</TitleText>
+		<DescriptionText>
+			<MaxLength>330</MaxLength> <!--in pixles-->
+			<MaxHeight>64</MaxHeight>
+			<CostFont>
+				<x>530</x>
+				<y>420</y>
+				<r>1</r>
+				<g>1</g>
+				<b>1</b>
+				<a>1</a>
+				<FontScale>1.5</FontScale>
+			</CostFont>
+			<x>149</x>
+			<y>410</y>
+			<Alignment>left</Alignment>
+			<FontScale>1</FontScale>
+			<Selected>
+				<r>255</r>
+				<g>255</g>
+				<b>255</b>
+				<a>1</a>				
+			</Selected>
+			<NotSelected>
+				<r>31</r>
+				<g>60</g>
+				<b>76</b>
+				<a>1</a>				
+			</NotSelected>
+			<CantSelect>
+				<r>31</r>
+				<g>60</g>
+				<b>76</b>
+				<a>1</a>				
+			</CantSelect>
+		</DescriptionText>
+		
+		<TitleDescDifferenceY>16</TitleDescDifferenceY>
+		
+		<Users>
+			<Normal>
+				<r>255</r>
+				<g>255</g>
+				<b>255</b>
+				<a>1</a>				
+			</Normal>
+			<AlreadyHasGift>
+				<r>0</r>
+				<g>0</g>
+				<b>0</b>
+				<a>1</a>	
+			</AlreadyHasGift>
+			<Pos>
+				<x>170</x>
+				<y>490</y>
+			</Pos>
+			<FontScale>1</FontScale>
+			<MaxWidth>16</MaxWidth>
+			<Alignment>center</Alignment>
+			<DistX_Apart>265</DistX_Apart>
+			<DistY_Apart>30</DistY_Apart>
+			<JustHide_AlreadyHasGift_People>0</JustHide_AlreadyHasGift_People>
+		</Users>
+	</GiftsScreenPos>
+	
+	<FinalScreen>
+		<Picture>
+			<xpos>60</xpos>
+			<ypos>15</ypos>
+			<xsize>488</xsize>
+			<ysize>340</ysize>
+		</Picture>
+				
+		<Gift>
+			<Thumb>
+				<Size>
+					<x>85</x>
+					<y>85</y>
+				</Size>
+				<Pos>
+					<x>142</x>
+					<y>27</y>
+				</Pos>
+			</Thumb>
+			<TitleText>
+				<MaxLength>200</MaxLength>
+				<MaxHeight>300</MaxHeight>
+				<Pos>
+					<x>246</x>
+					<y>40</y>
+				</Pos>
+				<FontScale>1.2</FontScale>
+				<Alignment>left</Alignment>
+				<Colour>
+					<r>255</r>
+					<g>255</g>
+					<b>255</b>
+					<a>1</a>
+				</Colour>
+			</TitleText>
+			<DescriptionText>
+				<MaxLength>227</MaxLength>
+				<MaxHeight>57</MaxHeight>
+				<Pos>
+					<x>245</x>
+					<y>58</y>
+				</Pos>
+				<FontScale>0.9</FontScale>
+				<Alignment>left</Alignment>
+				<Colour>
+					<r>255</r>
+					<g>255</g>
+					<b>255</b>
+					<a>255</a>
+				</Colour>
+				<NextLineDistance>14</NextLineDistance>
+			</DescriptionText>
+		</Gift>
+		
+		<Users>
+			<Pos>
+				<x>94</x>
+				<y>172</y>
+			</Pos>
+			<FontScale>1</FontScale>
+			<Colour>
+				<r>0</r>
+				<g>0</g>
+				<b>0</b>
+				<a>1</a>
+			</Colour>	
+			<DistX_Apart>230</DistX_Apart>
+			<DistY_Apart>32</DistY_Apart>
+		</Users>
+		
+		<Tokens>
+			<Pos1>
+				<x>20</x>
+				<y>10</y>
+			</Pos1>
+			<Pos2>
+				<x>20</x>
+				<y>10</y>
+			</Pos2>
+		</Tokens>
+		
+	</FinalScreen>
+	
+	<CommerceTexture>
+		<OnButton>
+			<Size>
+				<x>50</x>
+				<y>50</y>
+			</Size>
+			<Pos>
+				<x>93</x>
+				<y>22</y>
+			</Pos>
+		</OnButton>
+		<OnPopup>
+			<Size>
+				<x>50</x>
+				<y>50</y>
+			</Size>
+			<Pos>
+				<x>225</x>
+				<y>20</y>
+			</Pos>
+		</OnPopup>			
+	</CommerceTexture>
+	
+	
+	<PopUpTimer>200</PopUpTimer> <!-- frames-->
+	<Popups>
+		<!--<FriendsScreen1>
+			<Texture>PopupLarge.dds</Texture>
+			<TextureSize>
+				<x>576</x>
+				<y>472</y>
+			</TextureSize>
+			<PopupPos> -->        <!--bottom left point-->
+				<!--<x>30</x>
+				<y>470</y>
+			</PopupPos>
+			<PopupAlpha>1</PopupAlpha>
+			<TextPos>
+				<x>300</x>
+				<y>200</y>
+			</TextPos>
+			<TextColour>
+				<r>255</r>
+				<g>255</g>
+				<b>255</b>
+				<a>1</a>			
+			</TextColour>
+			<lang_en-US>You have already selected 6 friends</lang_en-US>
+			<lang_de-DE>Sie haben bereits 6 Freunde ausgew�hlt</lang_de-DE>
+		</FriendsScreen1>-->
+		<NoFriendsScreen1>
+			<MaxWidth>200</MaxWidth> <!-- text -->
+			<MaxHeight>150</MaxHeight> <!-- text -->
+			<MaxRows>3</MaxRows> <!-- text -->
+			<FontScale>1</FontScale>
+			<Texture>PopupLarge.dds</Texture>
+			<TextureSize>
+				<x>296</x>
+				<y>120</y>
+			</TextureSize>
+			<PopupPos> 
+				<x>30</x>
+				<y>470</y>
+			</PopupPos>
+			<PopupAlpha>1</PopupAlpha>
+			<TextPos>
+				<x>300</x>
+				<y>200</y>
+			</TextPos>
+			<TextColour>
+				<r>255</r>
+				<g>255</g>
+				<b>255</b>
+				<a>1</a>			
+			</TextColour>
+			<lang_en-US>YOU DO NOT HAVE ANY PSN FRIENDS TO GIVE A GIFT TO</lang_en-US>
+			<lang_en-GB>YOU DO NOT HAVE ANY PSN FRIENDS TO GIVE A GIFT TO</lang_en-GB>
+			<lang_en-SG>YOU DO NOT HAVE ANY PSN FRIENDS TO GIVE A GIFT TO</lang_en-SG>
+			<lang_fr-FR>VOUS N'AVEZ PAS D'AMIS PSN À QUI OFFRIR DES CADEAUX</lang_fr-FR>	
+			<lang_de-DE>DU HAST KEINE PSN-FREUNDE, DIE DU BESCHENKEN KANNST</lang_de-DE>
+			<lang_it-IT>NON HAI AMICI SU PSN A CUI FARE REGALI</lang_it-IT>
+			<lang_es-ES>NO TIENES NINGÚN AMIGO PSN AL QUE DAR UN REGALO</lang_es-ES>
+			<lang_ja-JP>現在、ギフトを送れるPSNフレンズはいません</lang_ja-JP>
+			<lang_ko-KR>귀하는 선물을 보낼 PSN 친구들이 없습니다</lang_ko-KR>
+			<lang_zh-HK>您沒有PSN朋友可送禮</lang_zh-HK>
+			<lang_zh-TW>您沒有PSN朋友可送禮</lang_zh-TW>		
+		</NoFriendsScreen1>
+		
+		<Other1>
+			<MaxWidth>150</MaxWidth> <!-- text -->
+			<MaxHeight>150</MaxHeight> <!-- text -->
+			<MaxRows>1</MaxRows> <!-- text -->
+			<FontScale>1</FontScale>
+			<Texture>PopupLarge.dds</Texture>
+			<TextureSize>
+				<x>296</x>
+				<y>120</y>
+			</TextureSize>
+			<PopupPos> 
+				<x>30</x>
+				<y>470</y>
+			</PopupPos>
+			<PopupAlpha>1</PopupAlpha>
+			<TextPos>
+				<x>300</x>
+				<y>200</y>
+			</TextPos>
+			<TextColour>
+				<r>255</r>
+				<g>255</g>
+				<b>255</b>
+				<a>1</a>			
+			</TextColour>
+			<lang_en-US>YOU HAVE RECEIVED A GIFT!</lang_en-US>
+			<lang_en-GB>YOU HAVE RECEIVED A GIFT!</lang_en-GB>
+			<lang_en-SG>YOU HAVE RECEIVED A GIFT!</lang_en-SG>
+			<lang_fr-FR>VOUS AVEZ REÇU UN CADEAU!</lang_fr-FR>	
+			<lang_de-DE>DU HAST EIN GESCHENK ERHALTEN!</lang_de-DE>
+			<lang_it-IT>HAI RICEVUTO UN REGALO!</lang_it-IT>
+			<lang_es-ES>¡HAS RECIBIDO UN REGALO!</lang_es-ES>
+			<lang_ja-JP>ギフトを受け取りました！</lang_ja-JP>
+			<lang_ko-KR>선물을 받으셨습니다!</lang_ko-KR>
+			<lang_zh-HK>您收到禮物了！</lang_zh-HK>
+			<lang_zh-TW>您收到禮物了！</lang_zh-TW>	
+		</Other1>		
+	</Popups>
+	
+	
+	<OptionPopup>
+		<GiftsScreen1>
+			<BackText>
+				<MaxWidth>100</MaxWidth>
+				<MaxHeight>90</MaxHeight>
+				<FontScale>1.15</FontScale>
+				<Alignment>center</Alignment>
+				<lang_en-US>Back</lang_en-US>
+				<lang_en-GB>Back</lang_en-GB> 
+				<lang_en-SG>Back</lang_en-SG> 
+				<lang_fr-FR>Quitter</lang_fr-FR>  <!-- Needs proper localisation-->	
+				<lang_de-DE>Verlassen</lang_de-DE>
+				<lang_it-IT>Esci</lang_it-IT>
+				<lang_es-ES>Salir</lang_es-ES>
+				<lang_ja-JP>終了</lang_ja-JP>
+				<lang_ko-KR>나가기</lang_ko-KR>
+				<lang_zh-HK>離開</lang_zh-HK>
+				<lang_zh-TW>離開</lang_zh-TW>
+				<TextColour>
+					<r>0</r>
+					<g>0</g>
+					<b>0</b>
+					<a>1</a>			
+				</TextColour>
+				<x>-55</x>
+				<y>-40</y>
+			</BackText>
+			<BackTextWidth></BackTextWidth>
+			<PurchaseText>
+				<MaxWidth>70</MaxWidth>
+				<MaxHeight>90</MaxHeight>
+				<FontScale>1.15</FontScale>
+				<Alignment>center</Alignment>
+				<lang_en-US>Purchase Tokens</lang_en-US>
+				<lang_en-GB>Purchase Tokens</lang_en-GB>
+				<lang_en-SG>Purchase Tokens</lang_en-SG>
+				<lang_fr-FR>Acheter Jetons</lang_fr-FR>	
+				<lang_de-DE>Münzen kaufen</lang_de-DE>
+				<lang_it-IT>Acquista gettoni</lang_it-IT>
+				<lang_es-ES>Comprar Fichas</lang_es-ES>
+				<lang_ja-JP>トークン購入</lang_ja-JP>
+				<lang_ko-KR>토큰을 구입하세요</lang_ko-KR>
+				<lang_zh-HK>購買代幣</lang_zh-HK>
+				<lang_zh-TW>購買代幣</lang_zh-TW>
+				<TextColour>
+					<r>0</r>
+					<g>0</g>
+					<b>0</b>
+					<a>1</a>			
+				</TextColour>
+				<x>62</x>
+				<y>-40</y>
+			</PurchaseText>
+			<Texture>PopupLarge.dds</Texture>
+			<TextureSize>
+				<x>296</x>
+				<y>196</y>
+			</TextureSize>
+			<PopupPos> 
+				<x>165</x>
+				<y>340</y>
+			</PopupPos>
+			<PopupAlpha>1</PopupAlpha>
+			<TextPos>
+				<x>5</x>
+				<y>65</y>
+			</TextPos>
+			<TextColour>
+				<r>255</r>
+				<g>255</g>
+				<b>255</b>
+				<a>1</a>			
+			</TextColour>
+			<MaxWidth>190</MaxWidth>
+			<MaxHeight>80</MaxHeight>
+			<MaxRows>3</MaxRows>
+			<Alignment>center</Alignment>
+			<FontScale>1</FontScale>
+			<lang_en-US>YOU DO NOT HAVE ENOUGH TOKENS TO PURCHASE THIS GIFT</lang_en-US>
+			<lang_en-GB>YOU DO NOT HAVE ENOUGH TOKENS TO PURCHASE THIS GIFT</lang_en-GB>
+			<lang_en-SG>YOU DO NOT HAVE ENOUGH TOKENS TO PURCHASE THIS GIFT</lang_en-SG>
+			<lang_fr-FR>VOUS N'AVEZ PAS ASSEZ DE JETONS À VOTRE DISPOSITION POUR ACHETER CE CADEAU</lang_fr-FR>	
+			<lang_de-DE>DU HAST NICHT GENUG MÜNZEN FÜR DIESES GESCHENK</lang_de-DE>
+			<lang_it-IT>NON HAI ABBASTANZA GETTONI PER ACQUISTARE QUESTO REGALO</lang_it-IT>
+			<lang_es-ES>NO TIENES SUFICIENTES FICHAS PARA COMPRAR ESTE REGALO</lang_es-ES>
+			<lang_ja-JP>このギフトを購入するにはトークンが足りません</lang_ja-JP>
+			<lang_ko-KR>이 선물을 구입하기에는 토큰이 충분하지 않습니다</lang_ko-KR>
+			<lang_zh-HK>您的代幣不足，無法購買這個禮物</lang_zh-HK>
+			<lang_zh-TW>您的代幣不足，無法購買這個禮物</lang_zh-TW>
+		</GiftsScreen1>
+
+		<GiftSentScreen1>
+			<BackText>
+				<MaxWidth>100</MaxWidth>
+				<MaxHeight>90</MaxHeight>
+				<FontScale>1</FontScale>
+				<Alignment>center</Alignment>
+				<lang_en-US>Exit</lang_en-US>
+				<lang_en-GB>Exit</lang_en-GB>
+				<lang_en-SG>Exit</lang_en-SG>
+				<lang_fr-FR>Quitter</lang_fr-FR>	
+				<lang_de-DE>Verlassen</lang_de-DE>
+				<lang_it-IT>Esci</lang_it-IT>
+				<lang_es-ES>Salir</lang_es-ES>
+				<lang_ja-JP>終了</lang_ja-JP>
+				<lang_ko-KR>나가기</lang_ko-KR>
+				<lang_zh-HK>離開</lang_zh-HK>
+				<lang_zh-TW>離開</lang_zh-TW>
+				<TextColour>
+					<r>0</r>
+					<g>0</g>
+					<b>0</b>
+					<a>1</a>			
+				</TextColour>
+				<x>-55</x>
+				<y>-40</y>
+			</BackText>
+			<BackTextWidth></BackTextWidth>
+			<PurchaseText>
+				<MaxWidth>100</MaxWidth>
+				<MaxHeight>90</MaxHeight>
+				<FontScale>1</FontScale>
+				<Alignment>center</Alignment>
+				<lang_en-US>Send Another Gift</lang_en-US>
+				<lang_en-GB>Send Another Gift</lang_en-GB>
+				<lang_en-SG>Send Another Gift</lang_en-SG>
+				<lang_fr-FR>Envoyer un Autre Cadeau</lang_fr-FR>	
+				<lang_de-DE>Verschicke noch ein Geschenk</lang_de-DE>
+				<lang_it-IT>Invia un altro regalo</lang_it-IT>
+				<lang_es-ES>Enviar otro regalo</lang_es-ES>
+				<lang_ja-JP>別のギフトを送る</lang_ja-JP>
+				<lang_ko-KR>다른 선물을 보내세요</lang_ko-KR>
+				<lang_zh-HK>送其他禮物</lang_zh-HK>
+				<lang_zh-TW>送其他禮物</lang_zh-TW>
+				<TextColour>
+					<r>0</r>
+					<g>0</g>
+					<b>0</b>
+					<a>1</a>			
+				</TextColour>
+				<x>80</x>
+				<y>-40</y>
+			</PurchaseText>
+			<Texture>PopupLarge.dds</Texture>
+			<TextureSize>
+				<x>296</x>
+				<y>196</y>
+			</TextureSize>
+			<PopupPos> 
+				<x>165</x>
+				<y>340</y>
+			</PopupPos>
+			<PopupAlpha>1</PopupAlpha>
+			<TextPos>
+				<x>0</x>
+				<y>50</y>
+			</TextPos>
+			<TextColour>
+				<r>255</r>
+				<g>255</g>
+				<b>255</b>
+				<a>1</a>			
+			</TextColour>
+			<MaxWidth>190</MaxWidth>
+			<MaxHeight>140</MaxHeight>
+			<MaxRows>3</MaxRows>
+			<Alignment>center</Alignment>
+			<FontScale>1.5</FontScale>
+			<lang_en-US>GIFT SENT!</lang_en-US>
+			<lang_en-GB>GIFT SENT!</lang_en-GB>
+			<lang_en-SG>GIFT SENT!</lang_en-SG>
+			<lang_fr-FR>CADEAU ENVOYÉ !</lang_fr-FR>	
+			<lang_de-DE>GESCHENK VERSCHICKT!</lang_de-DE>
+			<lang_it-IT>REGALO INVIATO!</lang_it-IT>
+			<lang_es-ES>¡REGALO ENVIADO!</lang_es-ES>
+			<lang_ja-JP>ギフト送信完了！</lang_ja-JP>
+			<lang_ko-KR>선물을 발송했습니다!</lang_ko-KR>
+			<lang_zh-HK>禮物已經送出！</lang_zh-HK>
+			<lang_zh-TW>禮物已經送出！</lang_zh-TW>
+		</GiftSentScreen1>		
+	</OptionPopup>
+	
+	<Music>
+		<Scroll>
+			<Volume>1</Volume>
+		</Scroll>
+		<Accept>
+			<Volume>1</Volume>
+		</Accept>
+		<Back>
+			<Volume>1</Volume>
+		</Back>
+		<BackgroundFX>
+			<Volume>1</Volume>
+		</BackgroundFX>
+		<GiftAppear>
+			<Volume>1</Volume>
+		</GiftAppear>
+		<GiftRecieve>
+			<Volume>1</Volume>
+		</GiftRecieve>
+	</Music>
+</GUI>
