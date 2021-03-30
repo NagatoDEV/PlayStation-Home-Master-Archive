@@ -1,0 +1,152 @@
+<!--
+
+USED TO ASSOCIATE IMAGES WITH SCREENS, 1-10 ARE IN THE GLASS EXHIBITION AREA, 11-18 ARE POSTERS IN THE PENTHOUSE
+
+<SCREENS>
+	<SCREEN>			Begin defining new screen
+		<ID> 				The ID of the screen (relates to which cube or poster in the world)
+		<NAME>				The name of the image (MUST BE UNIQUE IF IMAGE)
+		<ALWAYSACTIVE>		All images should be set to true, all videos should be set to false
+		<TYPE>				IMAGE or VIDEO
+		<VIDEOID>			ONLY NEEDED IF TYPE VIDEO, MUST BE UNIQUE
+		<AWARD>				ONLY NEEDED IT TYPE VIDEO, Award to be given to player on completed viewing
+		<URL>				URL of resource
+
+-->
+
+<SCREENS>
+	<SCREEN>
+		<ID>1</ID>
+		<NAME>IMAGE1</NAME>
+		<ALWAYSACTIVE>true</ALWAYSACTIVE>
+		<TYPE>IMAGE</TYPE>
+		<URL>http://scea-home.playstation.net/a.home/mfe/content/Konami/Exhibit1.dds</URL>
+	</SCREEN>
+	<SCREEN>
+		<ID>2</ID>
+		<NAME>IMAGE2</NAME>
+		<ALWAYSACTIVE>true</ALWAYSACTIVE>
+		<TYPE>IMAGE</TYPE>
+		<URL>http://scea-home.playstation.net/a.home/mfe/content/Konami/Exhibit2.dds</URL>
+	</SCREEN>
+	<SCREEN>
+		<!--<ID>3</ID>
+		<NAME>VIDEO</NAME>
+		<ALWAYSACTIVE>false</ALWAYSACTIVE>
+		<TYPE>VIDEO</TYPE>
+		<VIDEOID>1</VIDEOID>
+		<AWARD>100</AWARD>
+		<URL>http://www.outso-srv1.com/webassets/Konami/Konami_DanceDanceRevolution_PS3_Trailer.mp4</URL>
+	-->
+		<ID>3</ID>
+		<NAME>IMAGE3</NAME>
+		<ALWAYSACTIVE>true</ALWAYSACTIVE>
+		<TYPE>IMAGE</TYPE>
+		<URL>http://scea-home.playstation.net/a.home/mfe/content/Konami/Exhibit5.dds</URL>
+	</SCREEN>
+	<SCREEN>
+		<ID>4</ID>
+		<NAME>IMAGE4</NAME>
+		<ALWAYSACTIVE>true</ALWAYSACTIVE>
+		<TYPE>IMAGE</TYPE>
+		<URL>http://scea-home.playstation.net/a.home/mfe/content/Konami/Exhibit4.dds</URL>
+	</SCREEN>
+	<SCREEN>
+		<ID>5</ID>
+		<NAME>IMAGE5</NAME>
+		<ALWAYSACTIVE>true</ALWAYSACTIVE>
+		<TYPE>IMAGE</TYPE>
+		<URL>http://scea-home.playstation.net/a.home/mfe/content/Konami/Exhibit5.dds</URL>
+	</SCREEN>
+	<SCREEN>
+		<ID>6</ID>
+		<NAME>IMAGE6</NAME>
+		<ALWAYSACTIVE>true</ALWAYSACTIVE>
+		<TYPE>IMAGE</TYPE>
+		<URL>http://scea-home.playstation.net/a.home/mfe/content/Konami/Exhibit6.dds</URL>
+	</SCREEN>
+	<SCREEN>
+		<ID>7</ID>
+		<NAME>IMAGE7</NAME>
+		<ALWAYSACTIVE>true</ALWAYSACTIVE>
+		<TYPE>IMAGE</TYPE>
+		<URL>http://scea-home.playstation.net/a.home/mfe/content/Konami/Exhibit7.dds</URL>
+	</SCREEN>
+	<SCREEN>
+		<ID>8</ID>
+		<NAME>IMAGE8</NAME>
+		<ALWAYSACTIVE>true</ALWAYSACTIVE>
+		<TYPE>IMAGE</TYPE>
+		<URL>http://scea-home.playstation.net/a.home/mfe/content/Konami/Exhibit8.dds</URL>
+	</SCREEN>
+	<SCREEN>
+		<ID>9</ID>
+		<NAME>IMAGE9</NAME>
+		<ALWAYSACTIVE>true</ALWAYSACTIVE>
+		<TYPE>IMAGE</TYPE>
+		<URL>http://scea-home.playstation.net/a.home/mfe/content/Konami/Exhibit9.dds</URL>
+	</SCREEN>
+	<SCREEN>
+		<ID>10</ID>
+		<NAME>IMAGE10</NAME>
+		<ALWAYSACTIVE>true</ALWAYSACTIVE>
+		<TYPE>IMAGE</TYPE>
+		<URL>http://scea-home.playstation.net/a.home/mfe/content/Konami/Exhibit10.dds</URL>
+	</SCREEN>
+	<SCREEN>
+		<ID>11</ID>
+		<NAME>IMAGE11</NAME>
+		<ALWAYSACTIVE>true</ALWAYSACTIVE>
+		<TYPE>IMAGE</TYPE>
+		<URL>http://scea-home.playstation.net/a.home/mfe/content/Konami/CastlevaniaLoS_PSN_Home_Poster.dds</URL>
+	</SCREEN>
+	<SCREEN>
+		<ID>12</ID>
+		<NAME>IMAGE12</NAME>
+		<ALWAYSACTIVE>true</ALWAYSACTIVE>
+		<TYPE>IMAGE</TYPE>
+		<URL>http://scea-home.playstation.net/a.home/mfe/content/Konami/DDR_PS3_PSN_Home_Poster.dds</URL>
+	</SCREEN>
+	<SCREEN>
+		<ID>13</ID>
+		<NAME>IMAGE13</NAME>
+		<ALWAYSACTIVE>true</ALWAYSACTIVE>
+		<TYPE>IMAGE</TYPE>
+		<URL>http://scea-home.playstation.net/a.home/mfe/content/Konami/DefJam_RapStar_PSN_Home_Poster.dds</URL>
+	</SCREEN>
+	<SCREEN>
+		<ID>14</ID>
+		<NAME>IMAGE14</NAME>
+		<ALWAYSACTIVE>true</ALWAYSACTIVE>
+		<TYPE>IMAGE</TYPE>
+		<URL>http://scea-home.playstation.net/a.home/mfe/content/Konami/MGS_PW_PSN_Home_Poster.dds</URL>
+	</SCREEN>
+	<SCREEN>
+		<ID>15</ID>
+		<NAME>IMAGE15</NAME>
+		<ALWAYSACTIVE>true</ALWAYSACTIVE>
+		<TYPE>IMAGE</TYPE>
+		<URL>http://scea-home.playstation.net/a.home/mfe/content/Konami/MGS_Rising_PSN_Home_Poster.dds</URL>
+	</SCREEN>
+	<SCREEN>
+		<ID>16</ID>
+		<NAME>IMAGE16</NAME>
+		<ALWAYSACTIVE>true</ALWAYSACTIVE>
+		<TYPE>IMAGE</TYPE>
+		<URL>http://scea-home.playstation.net/a.home/mfe/content/Konami/PES2011_PSN_Home_Poster.dds</URL>
+	</SCREEN>
+	<SCREEN>
+		<ID>17</ID>
+		<NAME>IMAGE17</NAME>
+		<ALWAYSACTIVE>true</ALWAYSACTIVE>
+		<TYPE>IMAGE</TYPE>
+		<URL>http://scea-home.playstation.net/a.home/mfe/content/Konami/Rush'NAttack_PSN_Home_Poster.dds</URL>
+	</SCREEN>
+	<SCREEN>
+		<ID>18</ID>
+		<NAME>IMAGE18</NAME>
+		<ALWAYSACTIVE>true</ALWAYSACTIVE>
+		<TYPE>IMAGE</TYPE>
+		<URL>http://scea-home.playstation.net/a.home/mfe/content/Konami/SilentHill_PSN_Home_Poster.dds</URL>
+	</SCREEN>
+</SCREENS>

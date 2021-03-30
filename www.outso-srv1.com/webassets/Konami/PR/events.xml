@@ -1,0 +1,69 @@
+<!--
+
+USED TO SET AN EVENT, DURING AN EVENT PLAYERS CAN RECIEVE BOTH A ONE OFF AWARD AND A TIME BASED AWARD
+
+<EVENTS>
+	<EVENT>					Begin defining new event
+		<NAME>					Event name MUST BE UNIQUE
+		
+		<CLOTHING>				Begin defining clothing to wear for bonus
+			<ITEM>					UUID of clothing
+	
+		<CLOTHINGBONUS>			Multiplier for points when wearing a single clothing item	
+
+		<START>					Begin defining start time
+			<DATE>					Date in DD/MM/YYYY
+			<TIME>					Time in HH:MM:SS
+		</START>
+		
+		<END>					Begin defining end time
+			<DATE>					Date in DD/MM/YYYY
+			<TIME>					Time in HH:MM:SS
+		</END>
+		
+		<ONEOFFAWARD>			The award given once only
+			<TIME>					Time user must stay to receive award in HH:MM:SS
+			<AMOUNT>				Amount of points
+		</ONEOFFAWARD>
+		
+		<TIMEBASEDAWARD>		The award given every <time>
+			<TIME>					Rate in HH:MM:SS
+			<AMOUNT>				Amount of points
+
+-->
+<EVENTS>
+	<EVENT>
+		<NAME>2011_01_21</NAME>
+
+		<CLOTHING>
+			<ITEM>7F7AC5DE-4781454F-B4D0F69A-AD833036</ITEM>
+			<ITEM>0D56C354-8AC54370-A85136AA-0BEAC83F</ITEM>
+		</CLOTHING>
+	
+		<CLOTHINGBONUS>2</CLOTHINGBONUS>
+
+		<!-- EVENT START DATE & TIME -->
+		<START>
+			<DATE>21/01/2011</DATE>
+			<TIME>14:00:00</TIME>
+		</START>
+		
+		<!-- EVENT END DATE & TIME -->
+		<END>
+			<DATE>24/01/2011</DATE>
+			<TIME>14:00:00</TIME>
+		</END>
+		
+		<!-- AWARDED ONCE PER EVENT IF PLAYER STAYS FOR <TIME> -->
+		<ONEOFFAWARD>
+			<TIME>00:00:00</TIME>
+			<AMOUNT>0</AMOUNT>
+		</ONEOFFAWARD>
+		
+		<!-- AWARDED EVERY <TIME> -->
+		<TIMEBASEDAWARD>
+			<TIME>00:05:00</TIME>
+			<AMOUNT>25</AMOUNT>
+		</TIMEBASEDAWARD>
+	</EVENT>
+</EVENTS>

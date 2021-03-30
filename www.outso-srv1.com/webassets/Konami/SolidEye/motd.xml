@@ -1,0 +1,222 @@
+<!--
+
+USED TO SET MESSAGES OF THE DAY, NOTE: GAME WILL CHOOSE A RANDOM ONE UPON STARTUP
+
+<MOTD>
+	<MESSAGE>			Begin defining new message
+		<TITLEen-GB>		Message title in english	
+		<TITLEfr-FR>		Message title in french
+		<TITLEde-DE>		Message title in german
+		<TITLEit-IT>		Message title in italian
+		<TITLEes-ES>		Message title in spanish
+		<TITLEen-SG>		Message title in singapore (english)
+		<TITLEen-US>		Message title in ameraican (english)
+		<TEXTen-GB>			Message text in english
+		<TEXTfr-FR>			Message text in french
+		<TEXTde-DE>			Message text in german
+		<TEXTit-IT>			Message text in italian
+		<TEXTes-ES>			Message text in spanish
+		<TEXTen-SG>			Message text in singapore (english)
+		<TEXTen-US>			Message text in ameraican (english)
+-->
+
+<MOTD>
+	<!--
+	<MESSAGE>
+		<TITLEen-GB>MESSAGE OF THE DAY</TITLEen-GB>
+		<TITLEfr-FR>MESSAGE DU JOUR</TITLEfr-FR>
+		<TITLEde-DE>NACHRICHT DES TAGES</TITLEde-DE>
+		<TITLEit-IT>MESSAGGIO DEL GIORNO</TITLEit-IT>
+		<TITLEes-ES>MENSAJE DEL DÍA</TITLEes-ES>
+		<TITLEen-SG>MESSAGE OF THE DAY</TITLEen-SG>
+		<TITLEen-US>MESSAGE OF THE DAY</TITLEen-US>
+		<TEXTen-GB>Use Solid Eye to earn Konami Points as you analyse the scene, visitors and objects for extra information on your surroundings.</TEXTen-GB>
+		<TEXTfr-FR>Utilisez Solid Eye pour gagner des points Konami en analysant la scène, les visiteurs et les objets pour obtenir plus d'informations sur les environs.</TEXTfr-FR>
+		<TEXTde-DE>Analysiere mit dem Solid-Auge die Szene, Besucher und Objekte, um Konami-Punkte zu erhalten und Informationen über deine Umgebung zu sammeln.</TEXTde-DE>
+		<TEXTit-IT>Usa Solid Eye per guadagnare punti Konami analizzando la scena, i visitatori e gli oggetti alla ricerca di informazioni aggiuntive relative all'ambiente.</TEXTit-IT>
+		<TEXTes-ES>Utiliza el Solid Eye para conseguir Puntos Konami al analizar la escena, los visitantes y los objetos para conseguir información adicional sobre lo que te rodea.</TEXTes-ES>
+		<TEXTen-SG>Use Solid Eye to earn Konami Points as you analyse the scene, visitors and objects for extra information on your surroundings.</TEXTen-SG>
+		<TEXTen-US>Use Solid Eye to earn Konami Points as you analyse the scene, visitors and objects for extra information on your surroundings.</TEXTen-US>
+	</MESSAGE>
+	<MESSAGE>
+		<TITLEen-GB>MESSAGE OF THE DAY</TITLEen-GB>
+		<TITLEfr-FR>MESSAGE DU JOUR</TITLEfr-FR>
+		<TITLEde-DE>NACHRICHT DES TAGES</TITLEde-DE>
+		<TITLEit-IT>MESSAGGIO DEL GIORNO</TITLEit-IT>
+		<TITLEes-ES>MENSAJE DEL DÍA</TITLEes-ES>
+		<TITLEen-SG>MESSAGE OF THE DAY</TITLEen-SG>
+		<TITLEen-US>MESSAGE OF THE DAY</TITLEen-US>
+		<TEXTen-GB>Hidden Solid Eye analysis areas can be found around the scene</TEXTen-GB>
+		<TEXTfr-FR>On peut trouver des zones d'analyse Solid Eye cachées dans la scène</TEXTfr-FR>
+		<TEXTde-DE>Versteckte Bereich zur Analyse mit dem Solid-Auge können an mehreren Stellen gefunden werden</TEXTde-DE>
+		<TEXTit-IT>Nella scena puoi trovare area nascoste da analizzare con Solid Eye.</TEXTit-IT>
+		<TEXTes-ES>Puedes encontrar zonas de análisis de Solid Eye ocultas por la escena.</TEXTes-ES>
+		<TEXTen-SG>Hidden Solid Eye analysis areas can be found around the scene</TEXTen-SG>
+		<TEXTen-US>Hidden Solid Eye analysis areas can be found around the scene</TEXTen-US>
+	</MESSAGE>
+	-->
+	<MESSAGE>
+		<TITLEen-GB>MESSAGE OF THE DAY</TITLEen-GB>
+		<TITLEfr-FR>MESSAGE DU JOUR</TITLEfr-FR>
+		<TITLEde-DE>NACHRICHT DES TAGES</TITLEde-DE>
+		<TITLEit-IT>MESSAGGIO DEL GIORNO</TITLEit-IT>
+		<TITLEes-ES>MENSAJE DEL DÍA</TITLEes-ES>
+		<TITLEen-SG>MESSAGE OF THE DAY</TITLEen-SG>
+		<TITLEen-US>MESSAGE OF THE DAY</TITLEen-US>
+		<TEXTen-GB>Activate and view video and posters to earn Konami Points</TEXTen-GB>
+		<TEXTfr-FR>Activer et voir la vidéo et les posters pour gagner des points</TEXTfr-FR>
+		<TEXTde-DE>Aktiviere und sieh dir Videos und Poster an, um Konami-Punkte zu erhalten</TEXTde-DE>
+		<TEXTit-IT>Attiva e visualizza video e poster per guadagnare punti Konami</TEXTit-IT>
+		<TEXTes-ES>Activa y ve vídeos y pósteres para conseguir Puntos Konami.</TEXTes-ES>
+		<TEXTen-SG>Activate and view video and posters to earn Konami Points</TEXTen-SG>
+		<TEXTen-US>Activate and view video and posters to earn Konami Points</TEXTen-US>
+	</MESSAGE>
+	<!--
+	<MESSAGE>
+		<TITLEen-GB>MESSAGE OF THE DAY</TITLEen-GB>
+		<TITLEfr-FR>MESSAGE DU JOUR</TITLEfr-FR>
+		<TITLEde-DE>NACHRICHT DES TAGES</TITLEde-DE>
+		<TITLEit-IT>MESSAGGIO DEL GIORNO</TITLEit-IT>
+		<TITLEes-ES>MENSAJE DEL DÍA</TITLEes-ES>
+		<TITLEen-SG>MESSAGE OF THE DAY</TITLEen-SG>
+		<TITLEen-US>MESSAGE OF THE DAY</TITLEen-US>
+		<TEXTen-GB>Check back regularly for new posters, videos and hidden analysis areas</TEXTen-GB>
+		<TEXTfr-FR>Revenez régulièrement pour de nouveaux posters, vidéos et zones d'analyse cachées.</TEXTfr-FR>
+		<TEXTde-DE>Sieh regelmäßig nach, ob es neue Poster, Videos und versteckte Analysebereiche gibt</TEXTde-DE>
+		<TEXTit-IT>Torna spesso per nuovi poster, video e aree nascoste da analizzare</TEXTit-IT>
+		<TEXTes-ES>Vuelve con regularidad para encontrar nuevos pósteres, vídeos y zonas de análisis ocultas.</TEXTes-ES>
+		<TEXTen-SG>Check back regularly for new posters, videos and hidden analysis areas</TEXTen-SG>
+		<TEXTen-US>Check back regularly for new posters, videos and hidden analysis areas</TEXTen-US>
+	</MESSAGE>
+	-->
+	<MESSAGE>
+		<TITLEen-GB>MESSAGE OF THE DAY</TITLEen-GB>
+		<TITLEfr-FR>MESSAGE DU JOUR</TITLEfr-FR>
+		<TITLEde-DE>NACHRICHT DES TAGES</TITLEde-DE>
+		<TITLEit-IT>MESSAGGIO DEL GIORNO</TITLEit-IT>
+		<TITLEes-ES>MENSAJE DEL DÍA</TITLEes-ES>
+		<TITLEen-SG>MESSAGE OF THE DAY</TITLEen-SG>
+		<TITLEen-US>MESSAGE OF THE DAY</TITLEen-US>
+		<TEXTen-GB>All your Konami Points are added towards the community total</TEXTen-GB>
+		<TEXTfr-FR>Tous vos points Konami s'ajoutent au total de la communauté</TEXTfr-FR>
+		<TEXTde-DE>All deine Punkte werden der Community-Gesamtpunktzahl angerechnet</TEXTde-DE>
+		<TEXTit-IT>Tutti i punti Konami vengono aggiunti al totale della community</TEXTit-IT>
+		<TEXTes-ES>Todos tus Puntos Konami se suman al total de la comunidad.</TEXTes-ES>
+		<TEXTen-SG>All your Konami Points are added towards the community total</TEXTen-SG>
+		<TEXTen-US>All your Konami Points are added towards the community total</TEXTen-US>
+	</MESSAGE>
+	<MESSAGE>
+		<TITLEen-GB>MESSAGE OF THE DAY</TITLEen-GB>
+		<TITLEfr-FR>MESSAGE DU JOUR</TITLEfr-FR>
+		<TITLEde-DE>NACHRICHT DES TAGES</TITLEde-DE>
+		<TITLEit-IT>MESSAGGIO DEL GIORNO</TITLEit-IT>
+		<TITLEes-ES>MENSAJE DEL DÍA</TITLEes-ES>
+		<TITLEen-SG>MESSAGE OF THE DAY</TITLEen-SG>
+		<TITLEen-US>MESSAGE OF THE DAY</TITLEen-US>
+		<TEXTen-GB>You can earn Konami Points on the DDR dance floor even when no Dance Events are taking place</TEXTen-GB>
+		<TEXTfr-FR>Vous pouvez gagner des points Konami sur la piste de danse même s'il n'y a aucun concours de danse</TEXTfr-FR>
+		<TEXTde-DE>Du kannst auf der DDR-Tanzfläche Konami-Punkte sammeln, selbst wenn gerade keine Tanzveranstaltungen stattfinden</TEXTde-DE>
+		<TEXTit-IT>Puoi guadagnare punti Konami sulla pista da ballo DDR anche quando non si svolgono eventi di ballo</TEXTit-IT>
+		<TEXTes-ES>Puedes conseguir Puntos Konami en la pista de baile de DDR aunque no haya ninguna Prueba de baile en curso.</TEXTes-ES>
+		<TEXTen-SG>You can earn Konami Points on the DDR dance floor even when no Dance Events are taking place</TEXTen-SG>
+		<TEXTen-US>You can earn Konami Points on the DDR dance floor even when no Dance Events are taking place</TEXTen-US>
+	</MESSAGE>
+	<MESSAGE>
+		<TITLEen-GB>MESSAGE OF THE DAY</TITLEen-GB>
+		<TITLEfr-FR>MESSAGE DU JOUR</TITLEfr-FR>
+		<TITLEde-DE>NACHRICHT DES TAGES</TITLEde-DE>
+		<TITLEit-IT>MESSAGGIO DEL GIORNO</TITLEit-IT>
+		<TITLEes-ES>MENSAJE DEL DÍA</TITLEes-ES>
+		<TITLEen-SG>MESSAGE OF THE DAY</TITLEen-SG>
+		<TITLEen-US>MESSAGE OF THE DAY</TITLEen-US>
+		<TEXTen-GB>Earn Konami Points to unlock rewards</TEXTen-GB>
+		<TEXTfr-FR>Gagnez des points Konami pour débloquer des récompenses</TEXTfr-FR>
+		<TEXTde-DE>Verdiene Konami-Punkte, um Belohnungen freizuschalten</TEXTde-DE>
+		<TEXTit-IT>Guadagna punti Konami per sbloccare le ricompense</TEXTit-IT>
+		<TEXTes-ES>Consigue Puntos Konami para desbloquear recompensas.</TEXTes-ES>
+		<TEXTen-SG>Earn Konami Points to unlock rewards</TEXTen-SG>
+		<TEXTen-US>Earn Konami Points to unlock rewards</TEXTen-US>
+	</MESSAGE>
+	<MESSAGE>
+		<TITLEen-GB>MESSAGE OF THE DAY</TITLEen-GB>
+		<TITLEfr-FR>MESSAGE DU JOUR</TITLEfr-FR>
+		<TITLEde-DE>NACHRICHT DES TAGES</TITLEde-DE>
+		<TITLEit-IT>MESSAGGIO DEL GIORNO</TITLEit-IT>
+		<TITLEes-ES>MENSAJE DEL DÍA</TITLEes-ES>
+		<TITLEen-SG>MESSAGE OF THE DAY</TITLEen-SG>
+		<TITLEen-US>MESSAGE OF THE DAY</TITLEen-US>
+		<TEXTen-GB>Keep up with the latest Konami news at the Twitter feed screen</TEXTen-GB>
+		<TEXTfr-FR>Tenez-vous au courant des dernières nouveautés Konami sur l'écran Twitter</TEXTfr-FR>
+		<TEXTde-DE>Informiere dich mit dem Twitter-Bildschirm über alle Neuigkeiten von Konami</TEXTde-DE>
+		<TEXTit-IT>Tieniti aggiornato sulle ultime novità Konami con i feed di Twitter</TEXTit-IT>
+		<TEXTes-ES>Mantente al día de las últimas noticias de Konami en la pantalla de información de Twitter.</TEXTes-ES>
+		<TEXTen-SG>Keep up with the latest Konami news at the Twitter feed screen</TEXTen-SG>
+		<TEXTen-US>Keep up with the latest Konami news at the Twitter feed screen</TEXTen-US>
+	</MESSAGE>
+	<MESSAGE>
+		<TITLEen-GB>MESSAGE OF THE DAY</TITLEen-GB>
+		<TITLEfr-FR>MESSAGE DU JOUR</TITLEfr-FR>
+		<TITLEde-DE>NACHRICHT DES TAGES</TITLEde-DE>
+		<TITLEit-IT>MESSAGGIO DEL GIORNO</TITLEit-IT>
+		<TITLEes-ES>MENSAJE DEL DÍA</TITLEes-ES>
+		<TITLEen-SG>MESSAGE OF THE DAY</TITLEen-SG>
+		<TITLEen-US>MESSAGE OF THE DAY</TITLEen-US>
+		<TEXTen-GB>Keep track of your leaderboard rank via Facebook with the leaderboard application</TEXTen-GB>
+		<TEXTfr-FR>Suivez votre classement dans le tableau des leaders via Facebook avec l'application tableau des leaders</TEXTfr-FR>
+		<TEXTde-DE>Behalte mit der Ranglisten-Applikation auf Facebook deine Platzierung im Auge</TEXTde-DE>
+		<TEXTit-IT>Controlla la tua posizione in classifica su Facebook con l'applicazione apposita</TEXTit-IT>
+		<TEXTes-ES>Sigue la evolución de la posición que ocupas en la clasificación a través de Facebook con la aplicación de clasificación.</TEXTes-ES>
+		<TEXTen-SG>Keep track of your leaderboard rank via Facebook with the leaderboard application</TEXTen-SG>
+		<TEXTen-US>Keep track of your leaderboard rank via Facebook with the leaderboard application</TEXTen-US>
+	</MESSAGE>
+	<MESSAGE>
+		<TITLEen-GB>MESSAGE OF THE DAY</TITLEen-GB>
+		<TITLEfr-FR>MESSAGE DU JOUR</TITLEfr-FR>
+		<TITLEde-DE>NACHRICHT DES TAGES</TITLEde-DE>
+		<TITLEit-IT>MESSAGGIO DEL GIORNO</TITLEit-IT>
+		<TITLEes-ES>MENSAJE DEL DÍA</TITLEes-ES>
+		<TITLEen-SG>MESSAGE OF THE DAY</TITLEen-SG>
+		<TITLEen-US>MESSAGE OF THE DAY</TITLEen-US>
+		<TEXTen-GB>Dance Events are a good chance to test your DDR skills and earn maximum points</TEXTen-GB>
+		<TEXTfr-FR>Les concours de danse sont un bon moyen de tester vos talents dans DDR et gagner un maximum de points</TEXTfr-FR>
+		<TEXTde-DE>Tanzveranstaltungen sind perfekt, um deine DDR-Künste zu beweisen und viele Punkte zu erreichen</TEXTde-DE>
+		<TEXTit-IT>Gli eventi di ballo sono l'ideale per mettere alla prova le tue abilità e guadagnare un sacco di punti</TEXTit-IT>
+		<TEXTes-ES>Las Pruebas de baile son una buena ocasión para poner a prueba tus habilidades de DDR y conseguir la máxima puntuación.</TEXTes-ES>
+		<TEXTen-SG>Dance Events are a good chance to test your DDR skills and earn maximum points</TEXTen-SG>
+		<TEXTen-US>Dance Events are a good chance to test your DDR skills and earn maximum points</TEXTen-US>
+	</MESSAGE>
+	<!--
+	<MESSAGE>
+		<TITLEen-GB>MESSAGE OF THE DAY</TITLEen-GB>
+		<TITLEfr-FR>MESSAGE DU JOUR</TITLEfr-FR>
+		<TITLEde-DE>NACHRICHT DES TAGES</TITLEde-DE>
+		<TITLEit-IT>MESSAGGIO DEL GIORNO</TITLEit-IT>
+		<TITLEes-ES>MENSAJE DEL DÍA</TITLEes-ES>
+		<TITLEen-SG>MESSAGE OF THE DAY</TITLEen-SG>
+		<TITLEen-US>MESSAGE OF THE DAY</TITLEen-US>
+		<TEXTen-GB>Head to the bar area to activate the Solid Eye</TEXTen-GB>
+		<TEXTfr-FR>Rendez-vous dans la zone du bar pour activer le Solid Eye</TEXTfr-FR>
+		<TEXTde-DE>Begib dich an die Bar, um das Solid-Auge zu aktivieren</TEXTde-DE>
+		<TEXTit-IT>Dirigiti verso l'area del bar per attivare Solid Eye</TEXTit-IT>
+		<TEXTes-ES>Dirígete a la zona del bar para activar el Solid Eye.</TEXTes-ES>
+		<TEXTen-SG>Head to the bar area to activate the Solid Eye</TEXTen-SG>
+		<TEXTen-US>Head to the bar area to activate the Solid Eye</TEXTen-US>
+	</MESSAGE>
+	-->
+	<MESSAGE>
+		<TITLEen-GB>MESSAGE OF THE DAY</TITLEen-GB>
+		<TITLEfr-FR>MESSAGE DU JOUR</TITLEfr-FR>
+		<TITLEde-DE>NACHRICHT DES TAGES</TITLEde-DE>
+		<TITLEit-IT>MESSAGGIO DEL GIORNO</TITLEit-IT>
+		<TITLEes-ES>MENSAJE DEL DÍA</TITLEes-ES>
+		<TITLEen-SG>MESSAGE OF THE DAY</TITLEen-SG>
+		<TITLEen-US>MESSAGE OF THE DAY</TITLEen-US>
+		<TEXTen-GB>Get the leader board application from the Konami Facebook page to track your ranking via Facebook</TEXTen-GB>
+		<TEXTfr-FR>Retrouvez l'application tableau des leaders sur la page Facebook de Konami pour suivre votre classement via Facebook</TEXTfr-FR>
+		<TEXTde-DE>Hol dir die Ranglisten-Applikation auf Konamis Facebook-Seite, um über Facebook deine Platzierung im Auge zu behalten</TEXTde-DE>
+		<TEXTit-IT>Usa l'applicazione per le classifiche disponibile alla pagina Facebook di Konami per controllare la tua posizione.</TEXTit-IT>
+		<TEXTes-ES>Consigue la aplicación de la clasificación en la página de Facebook de Konami para seguir tu clasificación a través de Facebook.</TEXTes-ES>
+		<TEXTen-SG>Get the leader board application from the Konami Facebook page to track your ranking via Facebook</TEXTen-SG>
+		<TEXTen-US>Get the leader board application from the Konami Facebook page to track your ranking via Facebook</TEXTen-US>
+	</MESSAGE>
+</MOTD>
