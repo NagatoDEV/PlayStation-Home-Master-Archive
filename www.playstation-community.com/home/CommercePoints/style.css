@@ -1,0 +1,61 @@
+/*
+Theme Name: PlayStation Home
+Theme URL: http://www.playstation-community.com/home/
+Description: Theme Home items catalog
+Version: 2.3
+Author: br_steph
+*/
+
+html {font-family:Verdana, Geneva, sans-serif; font-size:10px;}
+
+a {color:#666; text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:visited {text-decoration:;}
+a.back {color:#00a0e9; font-weight:bold; text-decoration:none;}
+a.back:hover {text-decoration:none;}
+a.back:visited {text-decoration:none;}
+a.com_link {color:#C00;}
+
+img {border:0px;}
+
+.header {background:url(images/bg_header.png) no-repeat; width:580px; height:64px; display:block;}
+.lien_logo {padding:10px 0px 0px 18px; position:absolute;}
+.header_content {padding:12px 75px 0px 0px; float:right;}
+.header_content img {width:50px; height:40px; margin-left:5px;}
+
+.content {background:url(images/bg_content.png); width:580px; max-height:665px; overflow:auto; padding:5px 0px 5px 0px;}
+.menu {padding:5px 0px 10px 20px; color="#666"}
+
+.folder_table {width:560px;}
+.folder_table td {float:left;}
+.folder_thumbnail {width:128px; height:128px; border:1px #d2d2d2 solid; margin:5px 0px 5px 7px;}
+
+.new_thumbnail {width:128px; height:128px; border:0px; margin:0px 0px 5px 7px;}
+
+.object_table {width:100%; padding:0px 10px 0px 10px;}
+.object_table img {float:left;}
+.object_left {border-bottom:1px #d2d2d2 dotted; border-right:1px #d2d2d2 dotted; width:50%; padding-left:5px;}
+.object_right {border-bottom:1px #d2d2d2 dotted; width:50%;}
+.object_all {border-bottom:1px #d2d2d2 dotted; width:100%;}
+.object_br {width:50%;}
+.object_thumbnail {width:128px; height:128px; border:1px #d2d2d2 solid; margin:5px 10px 5px 5px;}
+.object_name {font-weight:bold; font-size:11px;}
+.object_price {}
+.object_note {color:#666; font-size:9px;}
+
+.club_table {width:100%; padding:0px 10px 0px 10px;}
+.club_table img {float:left;}
+.club_td {border-bottom:1px #d2d2d2 dotted; padding-left:5px;}
+.club_td a {}
+.club_thumbnail {width:128px; height:128px; border:1px #d2d2d2 solid; margin:5px 10px 5px 5px;}
+.club_name {font-weight:bold;}
+.club_name a {text-decoration:none; color:black;}
+.club_name a:hover {text-decoration: underline;}
+.club_leader {}
+.club_leader a {text-decoration:none; color:#C00;}
+.club_leader a:hover {text-decoration: underline;}
+.club_note {color:#666; text-align:justify;}
+.club_note span {color:#000;}
+
+.footer {background:url(images/bg_footer.png) no-repeat; width:580px; height:50px; display:block;}
+.footer_link {padding:25px 0px 0px 10px; display:block;}
