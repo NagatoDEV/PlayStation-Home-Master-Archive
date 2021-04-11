@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='/styles/rss.xsl'?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>Example Media RSS Feed</title>
+		<description>Example Media RSS feed served from an HTTP server.</description>
+		<item>
+			<media:title type="plain">Sherlock_trailer.mp4</media:title>
+			<media:description type="plain">Sherlock_trailer.mp4</media:description>
+			<media:content url="http://scee-home.playstation.net/e.home/mfe/content/2009_09/Sherlock_trailer.mp4" medium="video" duration="3.2"/>
+			<media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60"/>
+		</item>
+	</channel>
+</rss>
