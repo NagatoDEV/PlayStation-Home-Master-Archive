@@ -2,7 +2,7 @@
 
 ![SHOT07](https://user-images.githubusercontent.com/67494727/114958999-2a4a5500-9e32-11eb-8043-8ce833fdd6af.PNG)
 
-This archive is based on a snapshot of data from PlayStation Home at 04-01-2015. This archive is a mirror of JohnDrinkWater's repo in an extracted format, and will be updated whenever the Destination Home Team obtains Cache Donations. All of the main CDN contents will be posted in the "main branch." 
+This archive is based on Home's CDN Servers from April 1st, 2015. Additionally this archive is a mirror of JohnDrinkWater's snapshot from Home & will be updated whenever the Destination Home Team obtains more data via cache donations from ex-Home users. All of the main CDN contents will be posted in the main branch.
 
 For more information about the origin of this archive PlayStation Home you can refer to the original source here on archive.org: https://archive.org/details/psm_home_archive_2015_04_01
 
