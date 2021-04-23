@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='/styles/rss.xsl'?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>Example Media RSS Feed</title>
+        <description>Example Media RSS feed served from an HTTP server.</description>
+		<item>
+            <media:title type="plain">BioshockInfiniteInterview-Profile3.mp4</media:title>
+            <media:description type="plain">BioshockInfiniteInterview-Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/BioshockInfiniteInterview-Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+		<item>
+            <media:title type="plain">GCUncharted-Profile3.mp4</media:title>
+            <media:description type="plain">GCUncharted-Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/GCUncharted-Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+		<item>
+            <media:title type="plain">GCLBP2Create-Profile3.mp4</media:title>
+            <media:description type="plain">GCLBP2Create-Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/GCLBP2Create-Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+		<item>
+            <media:title type="plain">GCStarhawk-Profile3.mp4</media:title>
+            <media:description type="plain">GCStarhawk-Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/GCStarhawk-Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+		<item>
+            <media:title type="plain">SDCC11Journey-Profile3.mp4</media:title>
+            <media:description type="plain">SDCC11Journey-Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/SDCC11Journey-Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='/styles/rss.xsl'?>
+<!-- SCREEN ID="HTTP-OnDemand_Test" -->
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>Wowza_Live</title>
+        <description>Wowza_Live</description>
+        <item>
+            <media:title type="plain">Wowza_Live</media:title>
+            <media:description type="plain">Wowza_Live</media:description>
+            <media:content url="http://iphone-streaming.ustream.tv/ustreamVideo/8833858/streams/live/playlist.m3u8" medium="video" duration="120" />
+            <!-- <media:content url="http://217.18.25.200:10010/live/hpgcam.sdp/playlist.m3u8" medium="video" duration="120" /> -->
+        </item>
+    </channel>
+</rss>
