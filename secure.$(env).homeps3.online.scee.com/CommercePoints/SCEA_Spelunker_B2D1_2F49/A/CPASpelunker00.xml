@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+	<header>
+	<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/spelunker_bg_scea.dds</background>
+    </header>
+    <node> <!-- Male -->
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="fr-FR">Homme</name>
+        <name lang="de-DE">Männlich</name>
+        <name lang="it-IT">Maschio</name>
+        <name lang="es-ES">Hombre</name>
+        <name lang="ja-JP">??</name>
+        <name lang="ko-KR">??</name>
+        <name lang="en-SG">Male</name>
+        <name lang="zh-HK">??</name>
+        <name lang="zh-TW">??</name>
+        <name lang="en-US">Male</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/spelunker_bg_scea.dds</background>
+      </header>
+	  <node type="objects"> <!-- Head -->
+        <header>
+          <name lang="en-GB" default="true">Head</name>
+          <name lang="fr-FR">Tête</name>
+          <name lang="de-DE">Kopf</name>
+          <name lang="it-IT">Capelli</name>
+          <name lang="es-ES">Head</name>
+          <name lang="ja-JP">?</name>
+          <name lang="ko-KR">??</name>
+          <name lang="en-SG">Head</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Head</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/head.dds</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/spelunker_bg_scea.dds</background>
+        </header>
+		<object>6EF5E4B1-94754F39-B6289BC5-4ECE0DBF</object> <!-- 11/25/10 -->
+		<object>41AEDD42-C0304983-BD0159E6-908AF943</object> <!-- 11/25/10 -->
+		<object>6AD757F0-17DC413D-AEBB9C73-A0EE24BE</object> <!-- 11/25/10 -->
+		<object>E6FCFB96-9CCD4880-A40247C1-0055EC12</object> <!-- 11/25/10 -->
+		<object>B4E9998A-260C4B41-92162CA1-80C474DD</object> <!-- 11/25/10 -->
+		<object>F0BAD07B-088F413A-BB7EE3DD-3F4F5092</object> <!-- 11/25/10 -->
+		<object>F83E7087-04C2445D-80D103B4-48CEFD4C</object> <!-- 11/25/10 -->
+		<object>093A7428-F2EB4256-B22C39DC-E6CAA7B0</object> <!-- 11/25/10 -->
+		<object>E21B083A-DA2B4EC9-B39AF236-627EDC73</object> <!-- 11/25/10 -->
+		<object>D9AD3D7B-5FE64D49-AABD8A51-B20CC9EC</object> <!-- 11/25/10 -->
+	  </node>
+	  <node type="objects"> <!-- Hands -->
+        <header>
+          <name lang="en-GB" default="true">Hands</name>
+          <name lang="fr-FR">Mains</name>
+          <name lang="de-DE">Hände</name>
+          <name lang="it-IT">Mani</name>
+          <name lang="es-ES">Manos</name>
+          <name lang="ja-JP">?</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Hands</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Hands</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/hands.dds</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/spelunker_bg_scea.dds</background>
+        </header>
+		<object>713FC23B-EF0647FA-8FF83D56-81C2D93E</object> <!-- 11/25/10 -->
+	  </node>
+	  <node type="objects"> <!-- Torso -->
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="fr-FR">Torse</name>
+          <name lang="de-DE">Rumpf</name>
+          <name lang="it-IT">Torso</name>
+          <name lang="es-ES">Torso</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Torso</name>
+          <name lang="zh-HK">??</name>
+          <name lang="zh-TW">??</name>
+          <name lang="en-US">Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/torso.dds</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/spelunker_bg_scea.dds</background>
+        </header>
+		<object>88466833-308549AF-87A9F6E8-F7F06E08</object> <!-- 11/25/10 -->
+		<object>9719B922-7195490E-90C0D4F6-28A1DA5B</object> <!-- 11/25/10 -->
+		<object>EFD16B90-44A44D7A-9DA95852-84A288C1</object> <!-- 11/25/10 -->
+		<object>8E851EC7-2A7E4F13-9AD36BF7-88BA4836</object> <!-- 11/25/10 -->
+		<object>A1FA5A48-11814140-826727F5-35346068</object> <!-- 11/25/10 -->
+		<object>778FC587-1E7E459C-AEAEEAAE-D97D3FA6</object> <!-- 11/25/10 -->
+		<object>E614B285-E2FF4338-B8D482DD-094160E7</object> <!-- 11/25/10 -->
+		<object>3A015908-474E40E4-A1FA2EB6-9F404241</object> <!-- 11/25/10 -->
+	  </node>
+	  <node type="objects"> <!-- Legs -->
+        <header>
+          <name lang="en-GB" default="true">Legs</name>
+          <name lang="fr-FR">Jambes</name>
+          <name lang="de-DE">Beine</name>
+          <name lang="it-IT">Gambe</name>
+          <name lang="es-ES">Piernas</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">??</name>
+          <name lang="en-SG">Legs</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Legs</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/legs.dds</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/spelunker_bg_scea.dds</background>
+        </header>
+		<object>1AF664B7-08634534-9F582E57-520E1EDC</object> <!-- 11/25/10 -->
+		<object>C4F9C6EB-28554C33-BAB3D23F-EB21E7A0</object> <!-- 11/25/10 -->
+		<object>CA05EE30-ED5A43FB-88FC32BF-4B8990B3</object> <!-- 11/25/10 -->
+		<object>2EACC64F-0D8A4315-A9D46ABE-A6259F23</object> <!-- 11/25/10 -->
+		<object>BD25584B-8E4841D0-BC05F55C-7F49A22B</object> <!-- 11/25/10 -->
+	  </node>
+	  </node> <!-- Male Close -->
+    <node> <!-- Female -->
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR">Femme</name>
+        <name lang="de-DE">Weiblich</name>
+        <name lang="it-IT">Femmina</name>
+        <name lang="es-ES">Mujer</name>
+        <name lang="ja-JP">??</name>
+        <name lang="ko-KR">??</name>
+        <name lang="en-SG">Female</name>
+        <name lang="zh-HK">??</name>
+        <name lang="zh-TW">??</name>
+        <name lang="en-US">Female</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/spelunker_bg_scea.dds</background>
+      </header>
+  	  <node type="objects"> <!-- Head -->
+        <header>
+          <name lang="en-GB" default="true">Head</name>
+          <name lang="fr-FR">Tête</name>
+          <name lang="de-DE">Kopf</name>
+          <name lang="it-IT">Capelli</name>
+          <name lang="es-ES">Head</name>
+          <name lang="ja-JP">?</name>
+          <name lang="ko-KR">??</name>
+          <name lang="en-SG">Head</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Head</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/head.dds</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/spelunker_bg_scea.dds</background>
+        </header>
+		<object>E78F45A2-152B4A84-ABADBCAD-0AA1C826</object> <!-- 11/25/10 -->
+		<object>CF7ACD86-1C364E25-945BFECD-CA587832</object> <!-- 11/25/10 -->
+		<object>473A59D6-9AC9450D-814E4E94-A01F9FF1</object> <!-- 11/25/10 -->
+		<object>F7EE8048-D1304658-B2C6E6C6-9744590C</object> <!-- 11/25/10 -->
+		<object>E9473861-88DD42F3-8C233153-E099F443</object> <!-- 11/25/10 -->
+		<object>74C9B261-CBA34F34-A6DE8B0C-FA357D67</object> <!-- 11/25/10 -->
+		<object>73369B64-AC194FC9-A741CD69-C3434527</object> <!-- 11/25/10 -->
+		<object>CF66FDFC-6BDE4F05-96F5E78C-9E55630B</object> <!-- 11/25/10 -->
+		<object>94380881-FF0A4410-92AFBB2E-FB240472</object> <!-- 11/25/10 -->
+		<object>2C706E8F-000946E5-B9251306-23D0C56C</object> <!-- 11/25/10 -->
+  	  </node>
+  	  <node type="objects"> <!-- Hands -->
+        <header>
+          <name lang="en-GB" default="true">Hands</name>
+          <name lang="fr-FR">Mains</name>
+          <name lang="de-DE">Hände</name>
+          <name lang="it-IT">Mani</name>	
+          <name lang="es-ES">Manos</name>
+          <name lang="ja-JP">?</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Hands</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Hands</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/hands.dds</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/spelunker_bg_scea.dds</background>
+        </header>
+		<object>D13A3364-AC734F3A-85481DF5-1D9D274E</object> <!-- 11/25/10 -->
+  	  </node>
+  	  <node type="objects"> <!-- Torso -->
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="fr-FR">Torse</name>
+          <name lang="de-DE">Rumpf</name>
+          <name lang="it-IT">Torso</name>
+          <name lang="es-ES">Torso</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Torso</name>
+          <name lang="zh-HK">??</name>
+          <name lang="zh-TW">??</name>
+          <name lang="en-US">Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/torso.dds</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/spelunker_bg_scea.dds</background>
+        </header>
+		<object>1CC04DF7-A813419F-87AC048C-0BF47136</object> <!-- 11/25/10 -->
+		<object>EA896435-7D6F453E-80B246BE-ED398BDC</object> <!-- 11/25/10 -->
+		<object>20C77FF8-1A084D66-AF56EC3C-2A7E0571</object> <!-- 11/25/10 -->
+		<object>B70D684A-A407496E-890C85CD-09FBD650</object> <!-- 11/25/10 -->
+		<object>FF6BAC98-DB0B4980-9B9A0EF9-6BFF1E71</object> <!-- 11/25/10 -->
+		<object>3BE8928C-B44243A4-8999D11E-407AC840</object> <!-- 11/25/10 -->
+		<object>FE80F1B4-1AD34360-B614ECDB-38275BD5</object> <!-- 11/25/10 -->
+		<object>A035675B-D60C42FE-92DDAF85-B47E8405</object> <!-- 11/25/10 -->
+  	  </node>
+  	  <node type="objects"> <!-- Legs -->
+        <header>
+          <name lang="en-GB" default="true">Legs</name>
+          <name lang="fr-FR">Jambes</name>
+          <name lang="de-DE">Beine</name>
+          <name lang="it-IT">Gambe</name>
+          <name lang="es-ES">Piernas</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">??</name>
+          <name lang="en-SG">Legs</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Legs</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/legs.dds</thumbnail>
+		  <background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/spelunker_bg_scea.dds</background>
+        </header>
+		<object>D18CD0BA-509F4386-87EEC8F1-C2E8B0B6</object> <!-- 11/25/10 -->
+		<object>2F1D0FA8-2B7340AC-B43F030E-40CB05DD</object> <!-- 11/25/10 -->
+		<object>C33758E2-398A41A7-96D45642-E61B724E</object> <!-- 11/25/10 -->
+		<object>FDDA6DC2-DA694500-8A52CAFC-5FBC2B79</object> <!-- 11/25/10 -->
+		<object>5915B589-D73E464F-8AB22AA5-5789DD1B</object> <!-- 11/25/10 -->
+  	  </node>
+	  </node> <!-- Female Node Close -->
+	<node type="objects"> <!-- Furniture -->
+      <header>
+        <name lang="en-GB" default="true">Furniture</name>
+        <name lang="fr-FR" >Furniture</name>
+        <name lang="en-US" >Furniture</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/furniture_scea.dds</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/spelunker_bg_scea.dds</background>
+      </header>
+	  <object>81FBB51F-D8CC4E49-AFB9348F-D1E8139A</object> <!-- 11/25/10 -->
+	  <object>464C77CD-F6C24808-810E66E5-8D9D3474</object> <!-- 11/25/10 -->
+	  <object>F7404C4C-90754909-9D314288-328D9DE8</object> <!-- 11/25/10 -->
+	  <object>143DBE58-F6AF4F41-8CBA966F-107F83AF</object> <!-- 11/25/10 -->
+	  <object>3F3AF64F-FACE4E95-AD39A74C-C30F61E5</object> <!-- 11/25/10 -->
+    </node> <!-- Furniture Close -->
+  </node>
+</commerce_point> 
