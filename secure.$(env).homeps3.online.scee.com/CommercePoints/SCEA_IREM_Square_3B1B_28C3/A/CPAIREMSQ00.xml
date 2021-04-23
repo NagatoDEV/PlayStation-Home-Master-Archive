@@ -1,0 +1,881 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+	<header>
+	<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/iremsquare_bg_scea.dds</background>
+    </header>
+    <node> <!-- Male -->
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="fr-FR">Homme</name>
+        <name lang="de-DE">Männlich</name>
+        <name lang="it-IT">Maschio</name>
+        <name lang="es-ES">Hombre</name>
+        <name lang="ja-JP">??</name>
+        <name lang="ko-KR">??</name>
+        <name lang="en-SG">Male</name>
+        <name lang="zh-HK">??</name>
+        <name lang="zh-TW">??</name>
+        <name lang="en-US">Male</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/iremsquare_bg_scea.dds</background>
+      </header>
+	  <node type="objects"> <!-- Head -->
+        <header>
+          <name lang="en-GB" default="true">Head</name>
+          <name lang="fr-FR">Tête</name>
+          <name lang="de-DE">Kopf</name>
+          <name lang="it-IT">Capelli</name>
+          <name lang="es-ES">Head</name>
+          <name lang="ja-JP">?</name>
+          <name lang="ko-KR">??</name>
+          <name lang="en-SG">Head</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Head</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/iremsquare_bg_scea.dds</background>
+        </header>
+		<object>6EF5E4B1-94754F39-B6289BC5-4ECE0DBF</object> <!-- 11/25/10 -->
+		<object>41AEDD42-C0304983-BD0159E6-908AF943</object> <!-- 11/25/10 -->
+		<object>6AD757F0-17DC413D-AEBB9C73-A0EE24BE</object> <!-- 11/25/10 -->
+		<object>E6FCFB96-9CCD4880-A40247C1-0055EC12</object> <!-- 11/25/10 -->
+		<object>B4E9998A-260C4B41-92162CA1-80C474DD</object> <!-- 11/25/10 -->
+		<object>F0BAD07B-088F413A-BB7EE3DD-3F4F5092</object> <!-- 11/25/10 -->
+		<object>F83E7087-04C2445D-80D103B4-48CEFD4C</object> <!-- 11/25/10 -->
+		<object>093A7428-F2EB4256-B22C39DC-E6CAA7B0</object> <!-- 11/25/10 -->
+		<object>E21B083A-DA2B4EC9-B39AF236-627EDC73</object> <!-- 11/25/10 -->
+		<object>D9AD3D7B-5FE64D49-AABD8A51-B20CC9EC</object> <!-- 11/25/10 -->
+	
+		  <object>9AA4E8FC-E1AC4447-A9772192-5E7A8726</object> <!-- Added 5/20/10 -->
+		  <object>A2D81A67-5CE2474A-8D84D874-EDBFBB9C</object> <!-- Added 5/20/10 -->
+		  <object>D2A2F94D-16A44A69-BB38C532-F46CCFF3</object> <!-- Added 5/20/10 -->
+		  <object>9F256F88-6ED241CA-BCCC19B0-62E66FCA</object> <!-- Added 5/20/10 -->
+		  <object>1FF31985-80614C44-96FCE4CA-9D9F3746</object> <!-- Added 5/20/10 -->
+
+		  <!--032510-->
+		  <object>0295FE5F-50374C5C-B10A67AD-1F523BAF</object>
+		  <object>C6914E2B-E67D4D24-A6D5B403-2482824B</object>
+		  <object>47CD920C-B85348DC-82EDEED8-A5DC1744</object>
+		  <object>991FE7EB-24C54A6D-B30E073D-03D45201</object>
+		  <object>7C9BEE04-D5974024-AC853CD7-03FCBC64</object>
+		  <object>451284B5-35EC4B92-B7B9AA0C-4ABF1FD5</object>
+		  <object>53DECD4F-29A8416F-A1CEC2EE-EFED0D7D</object>
+		  <object>5BC0EAD8-11D144BD-BEF2B62A-968742FF</object>
+		  <object>FD325832-6AC945F0-9217E618-AF88B999</object>
+		  <!--Irem_Island_022510-->
+		  <object>A34E75D5-F0504A5A-8AF83310-F6BF42E5</object>
+		  <object>E2E39D78-5A324EEC-8B966723-C7DC1BA5</object>
+		  <object>78E587FE-7D5D4EA7-9D16F8B7-7DCA463E</object>
+		  <object>A8E33F8C-E690422A-A087C35F-D4BEC43B</object>
+		  <object>93BA3800-227B4EBA-A75B3CFA-0C6D37EA</object>
+		  <!--021110-->
+		  <object>4A321291-93484050-97A61271-B444E034</object>
+		  <object>EC84E415-76954447-946D1E70-401D62DD</object>
+		  <!--020410-->
+		  <!--<object>A0FB54EF-A7AD4904-9BFAEAE9-A726ED87</object>-->
+		  <!--<object>845252E1-A0514636-B8F132FF-88DBF6BA</object>-->
+		  <!--<object>B174FF85-4B2940AA-AFD9DE9E-00663DAD</object>-->
+		  <!--011410-->
+		  <object>C2389C36-459E4857-B8FD469F-F6D6221C</object>
+		  <object>00868D41-50264AAA-9EE3C79E-25A7DF9B</object>
+		  <object>F41B5C0F-B3A94007-97E9FE8C-B97C157B</object>
+		  <object>C7C719DF-DD774369-B7F714A5-9478BD90</object>
+	  </node>
+	  <node type="objects"> <!-- Hands -->
+        <header>
+          <name lang="en-GB" default="true">Hands</name>
+          <name lang="fr-FR">Mains</name>
+          <name lang="de-DE">Hände</name>
+          <name lang="it-IT">Mani</name>
+          <name lang="es-ES">Manos</name>
+          <name lang="ja-JP">?</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Hands</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Hands</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hands.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/iremsquare_bg_scea.dds</background>
+        </header>
+		<object>713FC23B-EF0647FA-8FF83D56-81C2D93E</object> <!-- 11/25/10 -->
+		  <!--040810-->
+		  <object>5FEE923C-C44C4EE2-AF9A4F01-E9FCCAA3</object>
+		  <object>7D7E1C00-F9D14B59-B3A2EE50-B43FA06C</object>
+
+		  <object>1F9EAB0C-E6AE4DD1-B312F019-454ACE9B</object>
+	  </node>
+	  <node type="objects"> <!-- Torso -->
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="fr-FR">Torse</name>
+          <name lang="de-DE">Rumpf</name>
+          <name lang="it-IT">Torso</name>
+          <name lang="es-ES">Torso</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Torso</name>
+          <name lang="zh-HK">??</name>
+          <name lang="zh-TW">??</name>
+          <name lang="en-US">Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/iremsquare_bg_scea.dds</background>
+        </header>
+		<object>88466833-308549AF-87A9F6E8-F7F06E08</object> <!-- 11/25/10 -->
+		<object>9719B922-7195490E-90C0D4F6-28A1DA5B</object> <!-- 11/25/10 -->
+		<object>EFD16B90-44A44D7A-9DA95852-84A288C1</object> <!-- 11/25/10 -->
+		<object>8E851EC7-2A7E4F13-9AD36BF7-88BA4836</object> <!-- 11/25/10 -->
+		<object>A1FA5A48-11814140-826727F5-35346068</object> <!-- 11/25/10 -->
+		<object>778FC587-1E7E459C-AEAEEAAE-D97D3FA6</object> <!-- 11/25/10 -->
+		<object>E614B285-E2FF4338-B8D482DD-094160E7</object> <!-- 11/25/10 -->
+		<object>3A015908-474E40E4-A1FA2EB6-9F404241</object> <!-- 11/25/10 -->
+		  <object>BDA90B0E-1B6E4348-B8AC7476-E6284A56</object> <!-- 11/11/10 -->
+		  <object>85516F8E-3A414AA3-AB9DF587-458D57DD</object> <!-- 11/11/10 -->
+		  <object>7493387F-53234B23-9BD0ABCB-FCC8D822</object> <!-- 11/11/10 -->
+		  <object>BC66C20A-C9B049DC-8B9A04A5-B72DF6AB</object> <!-- 11/11/10 -->
+		  <object>4C41089B-6F2745C9-B0E84238-0753582D</object> <!-- 11/11/10 -->
+		  <object>335C7079-16D34579-B011C31C-A19DAD8F</object> <!-- 11/11/10 -->
+		  <object>B2FA6895-31464EAD-B337658C-798DDEA1</object> <!-- 11/11/10 -->
+		  <object>DB5C3468-D2414910-89528EE2-C093A783</object> <!-- 11/11/10 -->
+
+		  <object>E66E7A06-FFD64DBC-8F785984-BD91A582</object> <!-- Added 5/20/10 -->
+		  <object>2C3FAB01-EA034CAE-8481EF0C-BA36B6EE</object> <!-- Added 5/20/10 -->
+		  <object>6982F4D8-662B45BC-A7B031B0-5487878F</object> <!-- Added 5/20/10 -->
+		  <object>A855F121-CA2E459D-9F23B876-1A88242E</object> <!-- Added 5/20/10 -->
+		  <object>E26EB997-80A54791-B395AC64-4BC939F6</object> <!-- Added 5/20/10 -->
+
+		  <!--041510-->
+		  <object>2A16A5B8-F6464AF4-8866FE61-80557889</object>
+		  <object>5903AD4E-43D74148-9E89CEC7-0B0122CD</object>
+		  <object>A60971F8-DB9A4294-A4D9B950-CF1AD0F0</object>
+		  <object>790EF8BB-599F4EB2-95C14464-623A1B62</object>
+		  <!--040810-->
+		  <object>4BDEC382-30BC4A36-93E40C21-3B1319F1</object>
+		  <object>AD1B7793-344F4FED-9D51738C-FDA80A1E</object>
+		  <object>BD12BB59-2F0641F6-A3C6AD68-B1353789</object>
+		  <object>A85E7D20-C08D400A-ACC604BA-4D4ADEDB</object>
+		  <object>91B0229B-89C44073-9E9A1261-2795A302</object>
+		  <object>73C971AD-6DA64D82-9E5FC954-3D49E6AA</object>
+		  <object>0191EADC-17634EEB-84F6C89C-EBABAE08</object>
+		  <object>87F5D279-57F444D7-96C35F21-285D2E2C</object>
+		  <!--040110-->
+		  <object>84636AF5-385E4974-BC2F1F7A-E559B43B</object>		
+		  <!--032510-->
+		  <object>0F31E344-2EA445C5-81C30D23-0D09E94E</object>
+		  <object>88985F5E-28264E5B-A9634309-89DBB3F2</object>
+		  <object>2C3F6F30-4A9A43E2-8FE0D262-9194A4F6</object>
+		  <object>0C87239C-3E024FB2-A86F5D7B-54B60E22</object>
+		  <object>4F837A90-24274171-9BBF1342-80A06749</object>
+		  <object>8DA60888-643A4B76-82723781-1AFEED02</object>
+		  <object>D599A540-E8E947B1-9DB47016-BADC0373</object>
+		  <object>EE0BAAB6-422047CF-B24F4D30-FDC2D196</object>
+		  <object>74906F63-512145F6-A5E95425-06831131</object>
+		  <object>752655E2-A1FF45E9-A90A9DDB-9669F312</object>
+		  <!--Irem_Island_022510-->
+		  <object>870C4B59-931D42FF-9DCE7468-6C1AF356</object>
+		  <object>EC86A942-26884BBF-9A29AD2B-3F438E33</object>
+		  <object>F2CD1627-1EAF4521-8B4B4CE0-26CA393D</object>
+		  <object>3EF01C31-32944179-85E0D35E-B9D8496E</object>
+		  <!--020410-->
+		  <!--<object>B70C6072-CF0242FF-B5121204-E1B76F9E</object>-->
+		  <!--011410-->
+		  <object>2C842A0F-1CEC4417-AABFE12D-8F4503F2</object>
+		  <object>81C3D516-506445FD-8C9E258B-70A6EDB5</object>
+		  <object>34232BD4-E0674EB8-ADB04891-92CB0331</object>
+		  <object>8B66D164-D6BA4B62-A6F24869-E660D544</object>
+		  <object>AAFB03D9-5B7C457A-B608A482-65C03B8C</object>
+		  <object>7477A142-111D43B4-A8402A79-36E3D7E9</object>
+		  <object>40F40D35-21FA4018-A5D4CF9F-4051FD9C</object>
+		  <object>0D593BC9-BCD241D5-88D0A6B2-22BD74C8</object>
+		  <object>98A4EF89-51A24059-809C1EE8-F3BC29AF</object>
+	  </node>
+	  <node type="objects"> <!-- Legs -->
+        <header>
+          <name lang="en-GB" default="true">Legs</name>
+          <name lang="fr-FR">Jambes</name>
+          <name lang="de-DE">Beine</name>
+          <name lang="it-IT">Gambe</name>
+          <name lang="es-ES">Piernas</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">??</name>
+          <name lang="en-SG">Legs</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Legs</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/legs.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/iremsquare_bg_scea.dds</background>
+        </header>
+		<object>1AF664B7-08634534-9F582E57-520E1EDC</object> <!-- 11/25/10 -->
+		<object>C4F9C6EB-28554C33-BAB3D23F-EB21E7A0</object> <!-- 11/25/10 -->
+		<object>CA05EE30-ED5A43FB-88FC32BF-4B8990B3</object> <!-- 11/25/10 -->
+		<object>2EACC64F-0D8A4315-A9D46ABE-A6259F23</object> <!-- 11/25/10 -->
+		<object>BD25584B-8E4841D0-BC05F55C-7F49A22B</object> <!-- 11/25/10 -->
+		  <object>BDA90B0E-1B6E4348-B8AC7476-E6284A56</object> <!-- 11/11/10 -->
+		  <object>85516F8E-3A414AA3-AB9DF587-458D57DD</object> <!-- 11/11/10 -->
+		  <object>7493387F-53234B23-9BD0ABCB-FCC8D822</object> <!-- 11/11/10 -->
+		  <object>BC66C20A-C9B049DC-8B9A04A5-B72DF6AB</object> <!-- 11/11/10 -->
+		  <object>C7A028CD-C5404FE4-AB746C1A-8FE10DE7</object> <!-- 11/11/10 -->
+		  <object>106D0B44-2B694BA5-B560DD3A-655026E8</object> <!-- 11/11/10 -->
+		  <object>0DFD8B3D-BA41410F-A8E2EC05-BD78BB50</object> <!-- 11/11/10 -->
+		  <object>1FBA9E7C-AD434DD2-BFA90EBE-4CA37606</object> <!-- 11/11/10 -->
+
+		  <object>3A0CE5C2-03514EC7-B1C033E5-7F111180</object> <!-- Added 5/20/10 -->
+		  <object>5DE72F90-769F4ACC-9031EA39-C0365F48</object> <!-- Added 5/20/10 -->
+		  <object>3CC7A7D9-EBE44EF5-9E8538F4-81880461</object> <!-- Added 5/20/10 -->
+		  <object>802AD8C3-B775444B-BCBAE868-80F4DC27</object> <!-- Added 5/20/10 -->
+		  <object>2845AEBF-22F54116-B62D9781-639A956F</object> <!-- Added 5/20/10 -->
+
+		  <!--041510-->
+		  <object>8196E66D-AB0B4598-9C13702F-FB7B64F1</object>
+		  <object>076E5FC1-0E09414B-B8FEAF3F-ED4F21F4</object>
+		  <object>921C6A7F-363C4FF0-908032B5-507A94E0</object>
+		  <object>B157134E-500645F2-89A14B6D-F5915F9D</object>
+		  <!--040810-->
+		  <object>5F79A499-02424E56-B1D18037-4CE97E53</object>
+		  <object>21A3330A-0813487B-BF00A368-5680BD9F</object>
+		  <object>11023780-D57F4B49-8A9B5308-98BB4886</object>
+		  <object>C462F447-71934C2D-8FDE9E17-C12F0784</object>
+		  <!--040110-->
+		  <object>3E503941-06674FC7-836AF1AE-7E62244C</object>
+		  <!--032510-->
+		  <object>148F8DB8-6B594C4B-B769DD20-1A0B9F9D</object>
+		  <object>F9876B46-7CA240EB-BB85F883-EBD4F680</object>
+		  <object>1A6C0C0F-EAAB4939-86188903-179CFCD1</object>
+		  <object>6788E2B2-04BC4ABC-8CC1DD78-40BE2302</object>
+		  <object>B304B944-3A3644B0-A47A8038-3192DEBA</object>
+		  <object>E6E566D1-546F4A6A-8E0CD58E-E7F24A68</object>
+		  <object>A4C23D98-241D4F22-A080BC74-3B990DFA</object>
+		  <object>C1E4BC0E-77014922-9360222F-D6091805</object>
+		  <object>79D7310A-3496448D-8A28E4FC-2BE81022</object>
+		  <object>6AF39768-32CF47FE-89BD0CD0-4F4F6855</object>
+		  <!--Irem_Island_022510-->
+		  <object>40C3130E-C6FA4E82-AB35E279-4882B022</object>
+		  <object>28A96617-49E645A1-AA4176BC-449BF0D1</object>
+		  <object>D5915F50-0E6E46EC-9D2CA1E4-BD0C2F49</object>
+		  <object>BEC1E89F-563A4CBA-A56A8AC4-D0769AA4</object>
+		  <!--021110-->
+		  <!--<object>F017287D-67574BCE-86978CEA-B7F28EDA</object>-->
+		  <!--011410-->
+		  <object>15D6B68C-A4444D2B-BE57163F-C9C7D8ED</object>
+		  <object>B6FABF65-53ED41D2-A0FE4921-31C5C610</object>
+		  <object>87C65D39-8DA24029-8F1023FB-B329CC0F</object>
+		  <object>872D9EF1-F65146DD-82FBE550-3FF50C23</object>
+		  <object>5311505E-87C04BBA-91BB4FDF-A71B5C65</object>
+		  <object>6E9DC4F3-D4A149E6-96EC3AE4-13098F1B</object>
+		  <object>E3187E03-9CB249BA-A53A61E3-9327274F</object>
+		  <object>79CDF8E6-C07A455E-9F5BCC6D-719577FF</object>
+		  <object>A2CA55D0-74A6453B-92150CDD-155A4DF6</object>
+	  </node>
+	  <node type="objects"> <!-- Feet -->
+        <header>
+          <name lang="en-GB" default="true">Feet</name>
+          <name lang="fr-FR">Pieds</name>
+          <name lang="de-DE">Füße</name>
+          <name lang="it-IT">Piedi</name>
+          <name lang="es-ES">Pies</name>
+          <name lang="ja-JP">?</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Feet</name>
+          <name lang="zh-HK">??</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Feet</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/feet.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/iremsquare_bg_scea.dds</background>
+        </header>
+		  <object>760B4757-C3D84D0D-9638270D-73FB1154</object> <!-- Added 5/20/10 -->
+		  <object>AE85B0C1-89C147E8-A4B2A9AE-A6319DA3</object> <!-- Added 5/20/10 -->
+		  <object>0D166843-0A6F4ADE-B1A0A39E-FABBD0B4</object> <!-- Added 5/20/10 -->
+		  <object>8B9C87F6-C8924866-BE5A4D5E-106E3735</object> <!-- Added 5/20/10 -->
+		  <object>048C22B1-A7304754-B4251D64-6F4E802F</object> <!-- Added 5/20/10 -->
+
+
+		  <!--041510-->
+		  <object>93084B18-CF9B4EBB-8B56BC99-FEEBDCBD</object>
+		  <object>B50473E0-6C414CBB-BB5C72C3-231BCC56</object>
+		  <object>EC96EEA6-E7684B9D-B3A2A304-DA3F1C5A</object>
+		  <object>50636613-B5764584-934017D2-8197950D</object>
+		  <!--040810-->
+		  <object>7A6ACAD8-D1414CAF-9F7F874F-894FC1B4</object>
+		  <object>7ABC5AB6-B8FE4C0E-B7D38095-86E83E82</object>
+		  <object>7060A0AF-C4354414-9EEE85F3-FBD73271</object>
+		  <object>7121639A-6FF54F07-9F1DA44B-1CF75627</object>
+		  <object>CB1A9799-037F4EFB-B0FDFFA6-6EA46AB1</object>
+		  <object>1657DF2A-82484650-8AC664B5-4150411C</object>
+		  <object>D2AA0AEC-40674E34-811781D4-23F0BFF1</object>
+		  <object>4E0EEFF8-C5854291-A2513E5E-C70BC62A</object>
+		  <object>D248D563-6EEB441C-A1E692EB-008FD026</object>
+		  <!--Irem_Island_022510-->
+		  <object>CBDC56EE-57FA44CE-8FF59192-392BCA75</object>
+		  <object>9AE4113E-D7D64F4E-BC0818C5-20AFD50A</object>
+		  <object>57FB120E-98004629-B0B8A6C1-D1A45ACC</object>
+		  <object>B0FA30A3-BC9642E6-98572310-3523D35C</object>
+		  <object>7A3F81E9-66A04C8E-9504A417-EBE6DB4D</object>
+		  <object>9495CCA2-B6C24B0F-ADC97609-CB80F6C0</object>
+		  <object>7C7D9A01-C819419C-8ACF3DB3-BED4FB73</object>
+		  <object>C155F53A-34004229-917025CE-3373DCA2</object>
+		  <object>053C6309-130C4E9F-85A2E9D9-0D76515C</object>
+		  <object>20791C12-0D5947B3-A971109E-B682B1D9</object>
+		  <object>43976206-3B074212-8A585986-C94A2043</object>
+		  <!--021110-->
+		  <!--<object>43700E61-103B4C3D-B10AF88B-DC7568A5</object>-->
+		  <!--011410-->		
+		  <object>BB46CA26-FDBC42D2-8341A0DD-D8E95D9C</object>
+		  <object>64E98308-62FA43FF-BE6D7759-C0090A90</object>
+		  <object>C95B0BE8-B28C459C-AA8909FE-AE3EF79D</object>
+		  <object>728E0F58-AF0A47E2-904FC1A3-3EBD2CF1</object>
+		  <object>7131A80E-72774B69-A1A2D703-619DB8FF</object>
+		  <object>C230B283-AB094ECD-A9E144BF-D4B7C24D</object>
+	  </node>
+	  <node type="objects"> <!-- Spectacles -->
+        <header>
+          <name lang="en-US" default="true">Spectacles</name>
+          <name lang="fr-FR">Lunettes</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/glasses.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/iremsquare_bg_scea.dds</background>
+        </header>
+		  <object>15CBF650-1BE74E42-B16E352F-22AAFC4E</object> <!-- 11/11/10 -->
+		  <object>BFE9CEDA-7C064BED-88F41408-5657ED5A</object> <!-- 11/11/10 -->
+		  <object>B91D05FE-6E0D49AF-822F39E2-2069A7E9</object> <!-- 11/11/10 -->
+		  <object>238D3712-C3B34C05-9017E89B-99E3F329</object> <!-- 11/11/10 -->
+		  <object>903AEA7C-99A248AF-BDF5BB63-607DE365</object> <!-- 11/11/10 -->
+		  <object>545E0E44-EEBB4098-882674E5-38DB6386</object> <!-- 11/11/10 -->
+		  <object>14E5AE33-00174933-820C2B94-7282C504</object> <!-- 11/11/10 -->
+		  <object>F849CF4F-26BA4324-BF073403-F1266701</object> <!-- 11/11/10 -->
+		  <object>C3B0033B-8C5E4555-B67DB2FC-576CA772</object> <!-- 11/11/10 -->
+		  <object>9810CEAC-BA9A449C-B3994E0F-1B160DD7</object> <!-- 11/11/10 -->
+		  <object>ED3E86DE-946C42A6-A5A4BABE-C95395E9</object> <!-- 11/11/10 -->
+		  <object>7361F274-5B0F4F83-BD2FD959-25A96FCE</object> <!-- 11/11/10 -->
+
+		  <!--Irem_Island_022510-->
+		  <object>37326E57-FCD240EE-98921787-7918C50B</object>
+		  <object>CB79CD3E-3C944C92-8709EBF6-3F1DE86D</object>
+		  <object>E44166B2-4B20463B-A526DC9F-B2FD2161</object>
+		  <object>7FF8141D-8D7F446C-A9202D8D-050619B5</object>
+		  <!--021410-->
+		  <object>EC433DB7-F4C740E5-8678C7D2-EFB9DE7B</object>
+		  <object>8D344CF7-561B43B6-9E60A765-A9EB1AAF</object>
+		  <object>29E607EE-133D4187-963401D1-75FAE8F5</object>
+		  <object>BDD0DC6F-DFEC474D-8161280D-37CE4879</object>
+		  <object>45A0087F-BAB048D8-AD42C1CE-BBB7C355</object>
+	  </node>
+	  <node type="objects"> <!-- Accessories -->
+		<header>
+			<name lang="en-US" default="true">Accessories (Left Ear)</name>
+			<name lang="fr-FR">Accessoires (Oreille Gauche)</name>
+			<thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/accessories.dds</thumbnail>
+			<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/iremsquare_bg_scea.dds</background> 
+		</header>
+		  <object>18621871-D6BE43D7-A8946E6F-2B61AA9A</object>
+		  <object>CD9FCD9F-14794C82-AF973D59-841B4A4D</object>
+		  <object>22155983-6B1F43C6-8D0AD703-2BCCD41D</object>
+		  <object>B9E54924-255F4D84-8717AFB7-6B97BB4E</object>
+	  </node>
+	  </node> <!-- Male Close -->
+    <node> <!-- Female -->
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR">Femme</name>
+        <name lang="de-DE">Weiblich</name>
+        <name lang="it-IT">Femmina</name>
+        <name lang="es-ES">Mujer</name>
+        <name lang="ja-JP">??</name>
+        <name lang="ko-KR">??</name>
+        <name lang="en-SG">Female</name>
+        <name lang="zh-HK">??</name>
+        <name lang="zh-TW">??</name>
+        <name lang="en-US">Female</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/iremsquare_bg_scea.dds</background>
+      </header>
+  	  <node type="objects"> <!-- Outfit -->
+  	    <header>
+          <name lang="en-US" default="true">Outfit</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/outfit_scea.dds</thumbnail> 
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/iremsquare_bg_scea.dds</background>		  
+        </header>
+  	  	  <!-- 050610 Swimsuits -->
+  	  	  <object>A5EFC3E4-97D24868-B35C6381-0F4FE4EF</object>
+  	  	  <object>325467F1-54544949-9A4D1C73-9F938C36</object>
+  	  	  <object>7735EB0E-E26D4932-A23459FE-CA4B7876</object>
+  	  	  <object>327EE4ED-5ECE4532-A7889C17-1B9365B7</object>
+  	  	  <object>0CED197F-91EE4A93-81FC5394-DBC01566</object>
+  	  </node>
+  	  <node type="objects"> <!-- Head -->
+        <header>
+          <name lang="en-GB" default="true">Head</name>
+          <name lang="fr-FR">Tête</name>
+          <name lang="de-DE">Kopf</name>
+          <name lang="it-IT">Capelli</name>
+          <name lang="es-ES">Head</name>
+          <name lang="ja-JP">?</name>
+          <name lang="ko-KR">??</name>
+          <name lang="en-SG">Head</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Head</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/iremsquare_bg_scea.dds</background>
+        </header>
+		<object>E78F45A2-152B4A84-ABADBCAD-0AA1C826</object> <!-- 11/25/10 -->
+		<object>CF7ACD86-1C364E25-945BFECD-CA587832</object> <!-- 11/25/10 -->
+		<object>473A59D6-9AC9450D-814E4E94-A01F9FF1</object> <!-- 11/25/10 -->
+		<object>F7EE8048-D1304658-B2C6E6C6-9744590C</object> <!-- 11/25/10 -->
+		<object>E9473861-88DD42F3-8C233153-E099F443</object> <!-- 11/25/10 -->
+		<object>74C9B261-CBA34F34-A6DE8B0C-FA357D67</object> <!-- 11/25/10 -->
+		<object>73369B64-AC194FC9-A741CD69-C3434527</object> <!-- 11/25/10 -->
+		<object>CF66FDFC-6BDE4F05-96F5E78C-9E55630B</object> <!-- 11/25/10 -->
+		<object>94380881-FF0A4410-92AFBB2E-FB240472</object> <!-- 11/25/10 -->
+		<object>2C706E8F-000946E5-B9251306-23D0C56C</object> <!-- 11/25/10 -->
+		  <object>A25D871D-11214065-9C21C6E4-A8E32764</object> <!-- Added 5/20/10 -->
+		  <object>C7DCE934-3A4246D1-96E723CB-A1B50F93</object> <!-- Added 5/20/10 -->
+		  <object>412C0B34-C1614E2B-BA31F520-39E0CFBE</object> <!-- Added 5/20/10 -->
+		  <object>83F9B1CA-2D2C4BCA-82662D0D-61138CBF</object> <!-- Added 5/20/10 -->
+		  <object>46417DF6-ACBD48C2-B9383203-CA544A65</object> <!-- Added 5/20/10 -->
+          
+  	  	  <!--040110-->
+  	  	  <object>3727220C-765C4576-9707BD9D-441A3184</object>
+  	  	  <!--032510-->
+		  <object>0FD748CA-3BC94AE6-AF113CC8-E7834BF0</object>
+  	  	  <object>3836AC9A-A3A34B7D-BEC7F041-AA1B6E14</object>
+  	  	  <object>DFE3A8B2-F59C4EE0-9E75528D-1ADCED72</object>
+  	  	  <object>5CFF1471-3EBA4F80-B70B9ECD-6976BD08</object>
+  	  	  <object>30A061EE-CC554FE3-B0279FE9-159707A5</object>
+  	  	  <object>9EC0D78A-47164E44-BEF7A6BC-A2030225</object>
+  	  	  <object>EF6D70FD-D4DE47EF-AEF728C0-72BDA13F</object>
+  	  	  <object>70FBF673-6C434F74-AFFCB889-0497B631</object>
+  	  	  <!--Irem_Island_022510-->
+  	  	  <object>3CC37404-90BE4C90-8F6F8DEF-84A127EF</object>
+  	  	  <object>09B839A2-DD0D4EDA-8D4AF81F-7AA20F97</object>
+  	  	  <object>0412F43B-AB124EC2-91ED9A0A-F29C9031</object>
+  	  	  <object>A2C32F8D-9F4B4E0C-A64191AA-C676DB25</object>
+  	  	  <object>A7F5B1E1-09084615-8D373C7D-0C709021</object>
+  	  	  <!--021110-->
+  	  	  <!--<object>DAFE3F6B-16AB40B6-8F044CD3-B26BB3BC</object>-->
+  	  	  <!--<object>AF6C1A40-DA63497F-A0640B63-1F1FDE04</object>-->
+  	  	  <!--<object>D07D46D2-7F7E48E0-B43F84D8-262F172A</object>-->
+  	  	  <!--<object>3F04E768-CD244052-B9740DC5-4A49137B</object>-->
+  	  	  <!--<object>A5DA71AE-C9DB4484-8EAC2989-F2D5B46C</object>-->
+  	  	  <!--<object>84870892-935D451D-9AB13252-DF85A795</object>-->
+  	  	  <!--011410-->	
+  	  	  <object>4DF652F7-BBD34ECC-918FEA23-2F93D5BE</object>
+  	  	  <object>79CEBC7A-46604776-85926BC5-A8AC2DDD</object>
+  	  	  <object>3816FEA2-12074733-98BFC3EA-B69C528D</object>
+  	  </node>
+  	  <node type="objects"> <!-- Hands -->
+        <header>
+          <name lang="en-GB" default="true">Hands</name>
+          <name lang="fr-FR">Mains</name>
+          <name lang="de-DE">Hände</name>
+          <name lang="it-IT">Mani</name>	
+          <name lang="es-ES">Manos</name>
+          <name lang="ja-JP">?</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Hands</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Hands</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hands.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/iremsquare_bg_scea.dds</background>
+        </header>
+			<object>D13A3364-AC734F3A-85481DF5-1D9D274E</object> <!-- 11/25/10 -->
+		  <object>F4E8B8CB-7E3A4216-9544DBD6-E57085C7</object> <!-- 11/11/10 -->
+		  <object>7FAFB53A-DAE4498F-9AF0F552-8C9D2EA3</object> <!-- 11/11/10 -->
+		  <object>F9BBE428-8A434242-BB16B16B-A29A9093</object> <!-- 11/11/10 -->
+		  <object>F2551840-1FD84643-8A5369A0-C842F858</object> <!-- 11/11/10 -->
+		  <object>79F9206E-659A4135-9A003A43-29AA0234</object> <!-- 11/11/10 -->
+		  <object>478964CC-F9D14EC0-B5003477-8099AAD4</object> <!-- 11/11/10 -->
+		  <object>18356615-78AD43AA-B2EFE832-94A09DA3</object> <!-- 11/11/10 -->
+		  <object>24936CA7-5DB54E39-9204BE98-A3865627</object> <!-- 11/11/10 -->
+		  <object>1B21C78C-027B46A9-A46ED4D2-8A338072</object> <!-- 11/11/10 -->
+
+  	  	  <!--040810-->
+  	  	  <object>2151C88B-25884299-9398AE04-1D3867DB</object>
+  	  	  <object>D27CDEEC-A05E4471-909F160A-FA2474D7</object>
+  	  	  <object>330450E8-AABC4263-93624D7B-84C3D2F2</object>
+  	  </node>
+  	  <node type="objects"> <!-- Torso -->
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="fr-FR">Torse</name>
+          <name lang="de-DE">Rumpf</name>
+          <name lang="it-IT">Torso</name>
+          <name lang="es-ES">Torso</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Torso</name>
+          <name lang="zh-HK">??</name>
+          <name lang="zh-TW">??</name>
+          <name lang="en-US">Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/iremsquare_bg_scea.dds</background>
+        </header>
+		<object>1CC04DF7-A813419F-87AC048C-0BF47136</object> <!-- 11/25/10 -->
+		<object>EA896435-7D6F453E-80B246BE-ED398BDC</object> <!-- 11/25/10 -->
+		<object>20C77FF8-1A084D66-AF56EC3C-2A7E0571</object> <!-- 11/25/10 -->
+		<object>B70D684A-A407496E-890C85CD-09FBD650</object> <!-- 11/25/10 -->
+		<object>FF6BAC98-DB0B4980-9B9A0EF9-6BFF1E71</object> <!-- 11/25/10 -->
+		<object>3BE8928C-B44243A4-8999D11E-407AC840</object> <!-- 11/25/10 -->
+		<object>FE80F1B4-1AD34360-B614ECDB-38275BD5</object> <!-- 11/25/10 -->
+		<object>A035675B-D60C42FE-92DDAF85-B47E8405</object> <!-- 11/25/10 -->
+		  <object>EA00F33F-DDC04E3A-BF66F3C3-C9FC35FE</object> <!-- 11/11/10 -->
+		  <object>4A809DC5-95D142DC-9389DAFB-237FA422</object> <!-- 11/11/10 -->
+		  <object>9980B2CE-2B244E96-BB3CBD7A-95A3FB15</object> <!-- 11/11/10 -->
+		  <object>FB4F3940-54D445CE-B3290CFD-A6FFC665</object> <!-- 11/11/10 -->
+		  <object>4E39021E-FB6141D1-828EDA94-A5C0FE98</object> <!-- 11/11/10 -->
+		  <object>05DBCBA2-4AA9407C-AD5B4697-273EA774</object> <!-- 11/11/10 -->
+		  <object>195D7311-DBF54679-88423F79-CDC8D62E</object> <!-- 11/11/10 -->
+		  <object>DAD19E8D-734A4DDC-97D9B47A-2C2C1387</object> <!-- 11/11/10 -->
+		  <object>E9065171-4CEE4A40-8CE5EF2A-5BE96B26</object> <!-- 11/11/10 -->
+		  <object>2433CDA9-2B684219-AF284F1D-57618F52</object> <!-- 11/11/10 -->
+		  <object>87024DAE-DA8F4528-A0CC6A27-6CB18B34</object> <!-- 11/11/10 -->
+		  <object>FD819C01-AF184214-B968D8A9-E627E08B</object> <!-- 11/11/10 -->
+		  <object>5C8A0E1C-6B07426F-9AE226B5-EDDDD3B2</object> <!-- 11/11/10 -->
+		  <object>B409BDD0-C8384B5B-953C6FA9-B78EEE7C</object> <!-- 11/11/10 -->
+		  <object>1E41312D-02054FE5-B355DE39-EDED8C82</object> <!-- 11/11/10 -->
+		  <object>7229D2D8-34E048E1-A1419EFB-15E5492D</object> <!-- 11/11/10 -->
+		  <object>8DEB0AC0-3B4F4D53-B336EBFE-9714DDDC</object> <!-- 11/11/10 -->
+
+		  <object>C25E652B-02994A25-95788A98-B1F05FC7</object> <!-- Added 5/20/10 -->
+		  <object>7C3F409B-D81E4387-BDD2DFFB-07CBCE85</object> <!-- Added 5/20/10 -->
+		  <object>92245865-6F414A15-93084157-C879BE7A</object> <!-- Added 5/20/10 -->
+		  <object>56F72864-D71849B2-A9692364-B8F82559</object> <!-- Added 5/20/10 -->
+		  <object>B2F48BBC-371C49A0-B84A60E2-D88E57E4</object> <!-- Added 5/20/10 -->
+		  <object>4C5EB9C6-CBC0455A-A660C313-C9D3AD15</object> <!-- Added 5/20/10 -->
+		  <object>6C83FADB-B8904117-8596E22C-12F761D1</object> <!-- Added 5/20/10 -->
+		  <object>88EDF983-9F694FBC-92851DBD-94F94E68</object> <!-- Added 5/20/10 -->
+		  <object>82670A4F-769247DE-B4CD62C7-8BF9861E</object> <!-- Added 5/20/10 -->
+		  <object>D1FB210D-5FBA4796-B6D74BB1-23849CAF</object> <!-- Added 5/20/10 -->
+		  <object>5A0DD5EF-156A4EB0-ABF4A7BE-EFC384A2</object> <!-- Added 5/20/10 -->
+		  <object>C705BC31-B7824268-A701DDBB-8E15F873</object> <!-- Added 5/20/10 -->
+		  <object>BE363B81-348D497B-931FBA19-741CCDD1</object> <!-- Added 5/20/10 -->
+		  <object>C99721DC-E7824ECF-A96F2861-C240EF56</object> <!-- Added 5/20/10 -->
+
+  	  	<!--041510-->
+  	  	<object>20B89548-712A4486-95C50B57-D59A015C</object>
+  	  	<object>62B630CC-D0524CF3-8244C834-1C0F5197</object>
+  	  	<!--040810-->
+  	  	<object>93782CE3-3C27448A-AA5DCFE7-839BEBDE</object>
+  	  	<object>F31A2000-FC4E41C9-92AE943E-18ACE294</object>
+  	  	<object>C6C4C93E-2C784783-A510C11B-3CA6606F</object>
+  	  	<object>D87EE71F-9C284BEB-BF39BE56-19C53183</object>
+  	  	<object>FBEA6473-CCD14DA4-BBF1B7A3-9180D849</object>
+  	  	<object>99C745E2-94414CC7-92DDF678-C903F711</object>
+  	  	<object>7377EC0B-6C7146C1-A1BAB809-CCB574FE</object>
+  	  	<object>E3FCFB35-0B974862-80C46AE5-DCFFF63C</object>
+  	  	<object>E1313DB2-D49547F8-89F13D2E-72E02B8D</object>
+  	  	<object>0EC75B4B-F6C04B60-930CBD03-1BE3BE2D</object>
+  	  	<!--032510-->
+  	  	<object>B9A24304-0B9A4ED7-9F77A012-646E7F8D</object>
+  	  	<object>19131CFD-F5644840-8E080B31-1648253C</object>
+  	  	<object>52AD294B-3C2345F3-87965425-4E82490B</object>
+  	  	<object>D0DAE4B1-E4104DCF-A2F83008-934641A5</object>
+  	  	<object>5AF567F5-EC5341C3-B9A19D1F-04D5BB3D</object>
+  	  	<object>5A2C79C1-BF0D41A4-9DD674FE-DEDD4EA8</object>
+  	  	<object>BCC71D61-37144E4F-98204DC4-4D242909</object>
+  	  	<object>2897EFCF-29A34DDE-9E1F4485-9747BBE5</object>
+  	  	<object>3F77E7D9-3D1A4D68-82DEE4F1-0BA717B4</object>
+  	  	<object>718E36E0-D3294944-9BD4DE28-37C6D291</object>
+  	  	<object>07BE2216-14524E48-8DFDD3E2-966C9BB9</object>
+  	  	<object>0AC28274-40EA4E6A-A3638E0E-A763DBE3</object>
+  	  	<!--Irem_Island_022510-->
+  	  	<object>7D9A2EDB-113A4BF5-997F856A-6D38A4A6</object>
+  	  	<object>F4A2952A-8C9E460C-B0526766-59617F0C</object>
+  	  	<object>424AC747-DC0640AF-BC74BC2F-F0AEBB31</object>
+  	  	<object>B755F5B6-154C4582-85ED8D7E-9A5F8E6A</object>
+  	  	<object>FB3F5681-33F941B5-96AB2DF6-FD172142</object>
+  	  	<object>7EBB5468-380D41DF-B33EDEB1-328F802A</object>
+  	  	<!--021110-->
+  	  	<!--<object>3FFE733E-D1E34F66-B41F4E8E-F962531A</object>-->
+  	  	<!--<object>5E30B135-8ABB4FC7-A8C55C27-58E3DA0A</object>-->
+  	  	<!--<object>14173B13-10944B0E-B79495B5-EDFB848A</object>-->
+  	  	<!--<object>6D33AAB7-EADC407D-89EA9C2C-7ADD2105</object>-->
+  	  	<!--011410-->
+  	  	<object>D66B3045-B5284382-8FFC0C96-B9F09482</object>
+  	  	<object>CDC728E5-B8BD455C-BD5AA783-BCADC6FB</object>
+  	  	<object>B5272665-ACB14EC4-A76A5EA0-FC9DA3C0</object>
+  	  	<object>A737B464-D75F4F5C-A99364BE-EC6B9332</object>
+  	  	<object>C307C52D-4E954613-AD3AF790-0F12E938</object>
+  	  	<object>3554B99C-01374055-AAB29388-1F7A0E7F</object>
+  	  	<object>B6D498C2-E455422E-9AB19A43-8AAF3C08</object>
+  	  	<object>BE54F05C-EB514F38-ADA93780-AFFC79D4</object>
+  	  	<object>CA89AB9E-489C4B10-BE287B83-316DF94D</object>
+  	  </node>
+  	  <node type="objects"> <!-- Legs -->
+        <header>
+          <name lang="en-GB" default="true">Legs</name>
+          <name lang="fr-FR">Jambes</name>
+          <name lang="de-DE">Beine</name>
+          <name lang="it-IT">Gambe</name>
+          <name lang="es-ES">Piernas</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">??</name>
+          <name lang="en-SG">Legs</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Legs</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/legs.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/iremsquare_bg_scea.dds</background>
+        </header>
+		<object>D18CD0BA-509F4386-87EEC8F1-C2E8B0B6</object> <!-- 11/25/10 -->
+		<object>2F1D0FA8-2B7340AC-B43F030E-40CB05DD</object> <!-- 11/25/10 -->
+		<object>C33758E2-398A41A7-96D45642-E61B724E</object> <!-- 11/25/10 -->
+		<object>FDDA6DC2-DA694500-8A52CAFC-5FBC2B79</object> <!-- 11/25/10 -->
+		<object>5915B589-D73E464F-8AB22AA5-5789DD1B</object> <!-- 11/25/10 -->
+		  <object>EA00F33F-DDC04E3A-BF66F3C3-C9FC35FE</object> <!-- 11/11/10 -->
+		  <object>4A809DC5-95D142DC-9389DAFB-237FA422</object> <!-- 11/11/10 -->
+		  <object>9980B2CE-2B244E96-BB3CBD7A-95A3FB15</object> <!-- 11/11/10 -->
+		  <object>FB4F3940-54D445CE-B3290CFD-A6FFC665</object> <!-- 11/11/10 -->
+		  <object>4E39021E-FB6141D1-828EDA94-A5C0FE98</object> <!-- 11/11/10 -->
+		  <object>05DBCBA2-4AA9407C-AD5B4697-273EA774</object> <!-- 11/11/10 -->
+		  <object>195D7311-DBF54679-88423F79-CDC8D62E</object> <!-- 11/11/10 -->
+		  <object>DAD19E8D-734A4DDC-97D9B47A-2C2C1387</object> <!-- 11/11/10 -->
+		  <object>E9065171-4CEE4A40-8CE5EF2A-5BE96B26</object> <!-- 11/11/10 -->
+		  <object>2433CDA9-2B684219-AF284F1D-57618F52</object> <!-- 11/11/10 -->
+		  <object>87024DAE-DA8F4528-A0CC6A27-6CB18B34</object> <!-- 11/11/10 -->
+		  <object>FD819C01-AF184214-B968D8A9-E627E08B</object> <!-- 11/11/10 -->
+		  <object>5C8A0E1C-6B07426F-9AE226B5-EDDDD3B2</object> <!-- 11/11/10 -->
+		  <object>C36B3B52-6053461A-A5A1A1D7-F3D211C6</object> <!-- 11/11/10 -->
+		  <object>43A3465D-F5FD415D-A6D29965-4AD7A52A</object> <!-- 11/11/10 -->
+		  <object>A1D9A6E2-2FB8433A-B7C7D780-67ACD7D0</object> <!-- 11/11/10 -->
+		  <object>6EAC4512-C37F44ED-BEBEE3F7-B1A57E7C</object> <!-- 11/11/10 -->
+
+		  <object>C8E6C4D0-FF1B4951-9FCE0CAE-0A774124</object> <!-- Added 5/20/10 -->
+		  <object>62115FF0-672B4F93-93841B7F-47618818</object> <!-- Added 5/20/10 -->
+		  <object>73598ACF-866848C8-A24E7398-EBAC455D</object> <!-- Added 5/20/10 -->
+		  <object>952BC306-78154849-952B11FC-43865759</object> <!-- Added 5/20/10 -->
+		  <object>D3C35584-2FDF4B0E-860BAECB-331266B6</object> <!-- Added 5/20/10 -->
+		  <object>E14F386E-991042AE-818D2471-60D21FB3</object> <!-- Added 5/20/10 -->
+		  <object>5CABC906-B9284203-9C889247-EDD0CECF</object> <!-- Added 5/20/10 -->
+		  <object>EF79A375-D94C4D53-ADB11669-D5FA7CD0</object> <!-- Added 5/20/10 -->
+		  <object>6B87F3F0-1DA84515-A98B5D48-770598CD</object> <!-- Added 5/20/10 -->
+		  <object>586F12F4-D0584F4D-80300A12-2B82CB07</object> <!-- Added 5/20/10 -->
+		  <object>1B130788-662047E3-8DA27AFC-C51B2EE1</object> <!-- Added 5/20/10 -->
+		  <object>DDFB571B-52004D56-A6D8EB03-DE086AF0</object> <!-- Added 5/20/10 -->
+		  <object>D620E983-30924A08-9A397AB8-8EE95A57</object> <!-- Added 5/20/10 -->
+		  <object>714EB681-C6604F91-877BCDA2-42CB91D6</object> <!-- Added 5/20/10 -->
+		  <object>4C853167-2B5A467A-803FCFAB-2FC2483F</object> <!-- Added 5/20/10 -->
+		  <object>F3F3E44A-901E4EA6-BD4A69C5-AD3C2267</object> <!-- Added 5/20/10 -->
+		  <object>0D43462A-7C084058-B58F2696-27D19261</object> <!-- Added 5/20/10 -->
+		  <object>F8D28457-4D5743A5-82066C78-00C37462</object> <!-- Added 5/20/10 -->
+		  <object>932F5B9F-12C84F1E-829E1E08-CC085517</object> <!-- Added 5/20/10 -->
+
+  	  	  <!--041510-->
+  	  	  <object>5B8F1DF4-7D8241EA-B775DF8F-AD257F00</object>
+  	  	  <object>CA3B5035-8389447D-B172C007-0CF2EEA0</object>
+  	  	  <object>2035CB21-0976410C-B136209A-565602BC</object>
+  	  	  <object>7EFC8AFF-5AB848D4-93BBD837-50E0539C</object>
+  	  	  <object>17CF6169-5B904CB8-8AE5F0EC-584137E4</object>
+  	  	  <object>CD3FA8DA-8FA74D2C-84C173D8-19FD87C4</object>
+  	  	  <object>FDB1F1CF-F6DF4707-BB87D29A-A7702AF4</object>
+  	  	  <object>674EC2C7-4AF24FA7-9C91199A-91E082D2</object>
+  	  	  <!--040810-->
+  	  	  <object>8C8BB76B-B8154E21-9BAFE63A-45A29181</object>
+  	  	  <object>39202B9B-77214211-9ABE5131-4B131B1F</object>
+  	  	  <object>5649A663-94AA4361-927F3E2B-8DA417BE</object>
+  	  	  <object>45B0C8CD-BE0C4ACE-AE8A2566-3A568AA3</object>
+  	  	  <object>316F8201-A5404924-953B269D-8B4500D0</object>
+  	  	  <object>3A0D1C14-EC2A4F12-85D1745A-4A35733C</object>
+  	  	  <object>BCD471A6-756A4C9D-88BEB511-CB43A051</object>
+  	  	  <object>318F06F9-9D6E4EC9-9B8D2B16-1BEC31E8</object>
+  	  	  <object>842EA69E-FEC2423B-89209EEE-B1E2C57B</object>
+  	  	  <object>4F1EB9EF-97004A02-A8675006-C170B12E</object>
+  	  	  <object>65C9FCCC-CA3A4DE1-B7FEBD74-4B37D697</object>
+  	  	  <object>1138FD48-242841FA-98074C65-59FC752C</object>
+  	  	  <object>9AD3E196-D9924B14-BE3ECEA9-CC99DA97</object>
+  	  	  <object>FC742853-93B343D1-BB180793-3F1EC7B9</object>
+  	  	  <!--032510-->
+  	  	  <object>128E80D9-D5C44561-87A2BE15-720AF94F</object>
+  	  	  <object>2A272830-2D304BF6-A8AFBCA8-391A7A43</object>
+  	  	  <object>D6ABE8D3-167C4E7A-A5B9C5E5-A9905D86</object>
+  	  	  <object>8B972FC1-12754F17-A4E8D039-B165C5DE</object>
+  	  	  <object>6A49109F-22D34293-A4C674A4-007A9D02</object>
+  	  	  <object>07723D05-556A4460-B9DBF2C0-99085958</object>
+  	  	  <object>7B03C93F-3F2D47D4-A99EF5CA-3888EF1D</object>
+  	  	  <object>8EC3B062-9D7D4A33-A521D5DB-2B8E442E</object>
+  	  	  <object>0D1B2407-4CF34F7C-B538833D-EAA6A7AD</object>
+  	  	  <object>55BAFF75-A55C45E1-89022FE4-C96F79A3</object>
+  	  	  <object>0C73E0C5-41D14C4B-B721C826-A61E2C60</object>
+  	  	  <object>2AC16CB9-752D46DA-B2C4C576-A456C9EE</object>
+  	  	  <object>1618828A-39A841E4-9619B1EB-21931292</object>
+  	  	  <object>5042CDB9-4BCA4350-A28F60D5-410E627E</object>
+  	  	  <object>28A9852D-13DF4F0E-BD298A46-02DE6A88</object>
+  	  	  <object>CADD125C-18E14630-9BC046B4-293174EA</object>
+  	  	  <!--Irem_Island_022510-->
+  	  	  <object>737B914D-A18842E6-AAD06C33-C60324FD</object>
+  	  	  <object>2007EA36-D8BF42E4-92D13EEF-AB67D131</object>
+  	  	  <object>97B68F55-47EA4B2A-BFA0DF22-2417C147</object>
+  	  	  <object>FB8C33E1-297549B1-ADF97775-CCA6ABE7</object>
+  	  	  <object>4F47A4BC-336C452E-87841ECB-2FF57169</object>
+  	  	  <object>BDC477BA-92AD4D5D-9133870F-C1FBE90B</object>
+  	  	  <!--021110-->
+  	  	  <!--<object>8007E068-40BC4C23-905AB25A-E01F7221</object>-->
+  	  	  <!--<object>2BEAAA53-0F81481E-AE04C845-EBAFC874</object>-->
+  	  	  <!--<object>5990905B-C2254F93-9FD85796-3B45CCA1</object>-->
+  	  	  <!--<object>F49B75A4-EC9C423C-99BE5A87-85478FE2</object>-->
+  	  	  <!--011410-->
+  	  	  <object>3C2D3793-389B44F1-9057FEEA-127BD5AC</object>
+  	  	  <object>7EC22DC1-F87348D6-B81165E3-9FA9AFF4</object>
+  	  	  <object>8B4B263B-D3814C52-AB9BF67E-A4F9226E</object>
+  	  	  <object>4FA0FEA4-14D34FE7-8E25FC8F-D2F64B32</object>
+  	  	  <object>F61ED1A9-CBA445E0-84312066-F6573C34</object>
+  	  	  <object>C938412F-023D4A8E-95D2CB23-88F15E2A</object>
+  	  	  <object>3D4799CE-FF494A17-8687AFD1-E3ADF054</object>
+  	  	  <object>16F6B634-E6AF4955-B6D85381-F7FBE4A3</object>
+  	  	  <object>C8C57A13-A6154C53-9F14C4B0-44FFD6A0</object>
+  	  </node>
+  	  <node type="objects"> <!-- Feet -->
+        <header>
+          <name lang="en-GB" default="true">Feet</name>
+          <name lang="fr-FR">Pieds</name>
+          <name lang="de-DE">Füße</name>
+          <name lang="it-IT">Piedi</name>
+          <name lang="es-ES">Pies</name>
+          <name lang="ja-JP">?</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Feet</name>
+          <name lang="zh-HK">??</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Feet</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/feet.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/iremsquare_bg_scea.dds</background>
+        </header>
+		  <object>AD6A425D-917D4B11-A7D27CEE-C530D16A</object> <!-- 11/11/10 -->
+		  <object>93AC8EF4-0F994C83-90A95723-3D2B121F</object> <!-- 11/11/10 -->
+		  <object>4B2045BE-947F4113-AF855774-F03710C9</object> <!-- 11/11/10 -->
+		  <object>171550E2-03604826-9189D0A8-2CC1855D</object> <!-- 11/11/10 -->
+		  <object>CDCF1D8E-00514081-9D37E8C2-242F499B</object> <!-- 11/11/10 -->
+		  <object>A5E3BBF7-C0E34E4E-BBC3F42B-F79E4F0F</object> <!-- 11/11/10 -->
+		  <object>B5799D9F-3DBA48D9-8BB713F6-23C0C6F4</object> <!-- 11/11/10 -->
+		  <object>A2654ED8-A25242B8-BD1E4E5B-B1D0D463</object> <!-- 11/11/10 -->
+		  <object>D0D86E77-48954251-BC9BCA2C-8C8F4AC8</object> <!-- 11/11/10 -->
+
+		  <object>971964F1-A4164666-AD36EC94-B512D16F</object> <!-- Added 5/20/10 -->
+		  <object>F98F0FC7-0F534836-8DB4E72A-C8096A70</object> <!-- Added 5/20/10 -->
+		  <object>ECEC5531-9DEB4659-B12A9100-88E81A74</object> <!-- Added 5/20/10 -->
+		  <object>9019C53D-BA3B4F19-A994140B-A06D8960</object> <!-- Added 5/20/10 -->
+		  <object>E991E15F-E6274B1D-BDEC389B-12221AC0</object> <!-- Added 5/20/10 -->
+
+  	  	  <!--041510-->
+  	  	  <object>362F4935-07C64689-B442738D-9B2E6CA0</object>
+  	  	  <object>02E48154-A77D4058-875E7310-C3C4422B</object>
+  	  	  <object>600B9133-CDF343AF-8240AF48-6C361EC9</object>
+  	  	  <object>87E9896D-01314A55-AEF87414-815CD45A</object>
+  	  	  <!--040810-->
+  	  	  <object>4D1ED359-E5F7477C-91B1C218-72E238E0</object>
+  	  	  <object>5259E839-2A034CD5-8803D2D6-D8200DBC</object>
+  	  	  <object>A61A10AF-81C7413C-8BB6CC57-9FDB0050</object>
+  	  	  <object>3826DEBB-6D6F4CB1-8C541385-19889310</object>
+  	  	  <object>EDA9983A-E3464BA9-B46DE239-460E55B2</object>
+  	  	  <object>15492060-910949AD-A87E70A8-D87A980C</object>
+  	  	  <object>FFADBE82-38B84B04-AFA92EED-1C2F35CF</object>
+  	  	  <object>CDF4EAF9-D36C4F2D-AA6B0D4C-2A0D9890</object>
+  	  	  <!--032510-->		
+  	  	  <object>25691C34-878C43E9-81C6BD47-3E163788</object>
+  	  	  <object>4923A7F8-703B4347-94487CCC-9B1E1A8A</object>
+  	  	  <object>70D0316F-85E64B26-B46FA431-ED11B3E3</object>
+  	  	  <object>DB50E2EF-9641486E-A1220073-44C19F80</object>
+  	  	  <!--Irem_Island_022510-->
+  	  	  <object>80EDB8D9-38034CAC-9372B636-E53D03DF</object>
+  	  	  <object>E5B47A7D-D49F41E7-A82B2CCD-99011997</object>
+  	  	  <object>9A9E7FDB-1F4141F6-82C7C3C4-86BF4B36</object>
+  	  	  <object>812B8689-713142E7-B563955A-3810D6BE</object>
+  	  	  <object>5B1B80D4-4611466E-8F8BC565-A0540200</object>
+  	  	  <object>11A1B07C-BD8B45BC-ADA4A417-8155CE2A</object>
+  	  	  <object>F0060E6A-2CCB4D68-921F7FC3-FD2FDCFB</object>
+  	  	  <!--021110-->		
+  	  	  <object>C1434FC2-114049D1-822F9010-E825A6D9</object>
+  	  	  <object>4B948D22-521A4877-880BBC50-F2084802</object>
+  	  	  <object>8B2250B1-D45D4C77-BB678BAC-7A696FA3</object>
+  	  	  <object>F327154F-A69D4EE5-BAAA9F26-06182650</object>
+  	  	  <object>BE20A9B5-B7294D76-809CF1A8-FBFC40DC</object>
+  	  	  <object>9FF5F9D8-F297499F-9774D666-91E78049</object>
+  	  </node>
+  	  <node type="objects"> <!-- Spectacles -->
+		<header>
+		  <name lang="en-GB" default="true">Spectacles</name>
+		  <name lang="fr-FR">Lunettes</name>
+		  <name lang="de-DE">Brille</name>
+		  <name lang="it-IT">Occhiali</name>
+		  <name lang="es-ES">Gafas</name>
+		  <name lang="ja-JP">???</name>
+		  <name lang="ko-KR">??</name>
+		  <name lang="en-SG">Spectacles</name>
+		  <name lang="zh-HK">??</name>
+		  <name lang="zh-TW">??</name>
+		  <name lang="en-US">Spectacles</name>
+		  <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/glasses.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/iremsquare_bg_scea.dds</background>
+		</header>
+		  <object>EA76C764-C5174A54-88018737-EEC92B75</object> <!-- 11/11/10 -->
+		  <object>E722AD2E-81EA4722-963132EE-04EC3E3C</object> <!-- 11/11/10 -->
+		  <object>8FEA4624-E1374475-8DDEF28C-57D62498</object> <!-- 11/11/10 -->
+		  <object>6616083D-D3274591-A6B28C7D-5DD7904E</object> <!-- 11/11/10 -->
+		  <object>9BA379C5-1BA14F54-B3424A6E-1348D71A</object> <!-- 11/11/10 -->
+		  <object>0E2E1C3E-52234986-B3A7C544-9F35DA70</object> <!-- 11/11/10 -->
+		  <object>802E5AE5-29844812-B74B4D47-5AF09AE2</object> <!-- 11/11/10 -->
+		  <object>1AA95683-7BC249AD-AB3B1EE2-3098DA82</object> <!-- 11/11/10 -->
+		  <object>448AA3E5-2A4C4EBE-B4254444-4ED014B8</object> <!-- 11/11/10 -->
+		  <object>D95DC93A-6E154B47-9D48D30B-6E090738</object> <!-- 11/11/10 -->
+		  <object>2AB9DCC6-FB0B454B-AFC5EB0E-71C0E1C3</object> <!-- 11/11/10 -->
+		  <object>30DAEDFD-78DC451F-B63657CE-78AFEAEC</object> <!-- 11/11/10 -->
+
+		  <!--Irem_Island_022510-->
+		  <object>6852BAB8-B5A84A07-A5B16D93-2539815F</object>
+		  <object>7D5CABAB-E2274D2F-B61B2424-4AF5531B</object>
+		  <object>2AA44E3A-94374F1F-AE6BE5F8-42357DC2</object>
+		  <object>3CDD1C4B-84574DE7-99777969-D842B2AE</object>
+		  <!--021110-->		
+		  <object>B79FD582-60D54A69-9526C739-6BB3B4F6</object>
+		  <object>611C81E3-C1654DA6-887922FA-7ABD54A8</object>
+		  <object>11BC6BDD-6C0543BC-9A6A00B1-1BF09F1F</object>
+		  <object>DBD72C56-4FBC4CC5-9EF27EFA-91821B39</object>
+		  <object>E9FF727E-8B3F484F-B0106578-A859991D</object>
+	  </node>
+	  <node type="objects"> <!-- Accessories -->
+		<header>
+			<name lang="en-US" default="true">Accessories (Left Ear)</name>
+			<name lang="fr-FR">Accessoires (Oreille Gauche)</name>
+			<thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/accessories.dds</thumbnail>
+			<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/iremsquare_bg_scea.dds</background> 
+		</header>
+          <object>7708EB12-94724635-9D5A327C-EC2B33E7</object>
+          <object>4F52DF5C-C25A4244-8E2F69C3-46D0A678</object>
+          <object>A9E70CBE-4CA54F96-9CEBC914-89E1914E</object>
+          <object>635ABB9C-2ED748D9-A567A3E3-577632DA</object>
+      </node>
+	  </node> <!-- Female Node Close -->
+	<node type="objects"> <!-- Furniture -->
+      <header>
+        <name lang="en-GB" default="true">Furniture</name>
+        <name lang="fr-FR" >Furniture</name>
+        <name lang="en-US" >Furniture</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/furniture_scea.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/iremsquare_bg_scea.dds</background>
+      </header>
+		  <object>81FBB51F-D8CC4E49-AFB9348F-D1E8139A</object> <!-- 11/25/10 -->
+		  <object>464C77CD-F6C24808-810E66E5-8D9D3474</object> <!-- 11/25/10 -->
+		  <object>F7404C4C-90754909-9D314288-328D9DE8</object> <!-- 11/25/10 -->
+		  <object>143DBE58-F6AF4F41-8CBA966F-107F83AF</object> <!-- 11/25/10 -->
+		  <object>3F3AF64F-FACE4E95-AD39A74C-C30F61E5</object> <!-- 11/25/10 -->
+
+		<!--042910-->
+		<object>C7CD61E8-41C94D88-92E0BF8C-00E1DAFC</object>
+		<object>F92DFF21-847348B4-8BA3B0C3-288217E3</object>
+		<object>059E40E3-D6FB4500-99C9F6E5-5AF7A1E2</object>
+		<!--040810-->
+		<object>FA57A682-DBBC4F22-BEA55A44-3A5FC028</object>
+		<object>E2452698-E4A54FC0-8C9632A3-1041E148</object>
+		<object>E6917E3B-C5384F6B-B3DB0969-9F59AD67</object>
+		<!--022510-->
+		<object>7F5958A7-4ADD4C01-8A854E12-F583950B</object>
+		<object>54C6965B-93384B3D-98F79ADD-FB7B1335</object>
+		<!--021110-->
+		<object>54FD4998-19644B62-906B949E-1339E10A</object>
+		<object>F5509CF4-56E34D68-962F6694-54376AAB</object>
+		<object>278EF51D-CB6B47A0-AD049728-B7707B83</object>
+		<object>FF40E377-8DAF4B2E-87C6BA99-2C0ECEFB</object>
+		<object>3710BE24-625D491B-8A730EB2-81989577</object>
+		<object>824ED23B-527F48A2-B0F98135-493817DC</object>
+    </node> <!-- Furniture Close -->
+  </node>
+</commerce_point> 
