@@ -42,7 +42,7 @@ My Twitter: [@NagatoRevenge](https://twitter.com/NagatoRevenge)
 
 ❤️ Join/Check out our social platforms:
 
-![Discord Banner 4](https://discordapp.com/api/guilds/621722473695805450/widget.png?style=banner4)
+[![name](https://discordapp.com/api/guilds/621722473695805450/widget.png?style=banner2&raw=true)](https://discord.gg/QguSBT3)
 
 ➤ Destination Home Official Website: http://destinationho.me/
 
