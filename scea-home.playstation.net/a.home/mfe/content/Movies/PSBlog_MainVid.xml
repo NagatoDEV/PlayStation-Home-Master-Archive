@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='/styles/rss.xsl'?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>Example Media RSS Feed</title>
+        <description>Example Media RSS feed served from an HTTP server.</description>
+		<item>
+            <media:title type="plain">TronEvolutionInterview-Profile3.mp4</media:title>
+            <media:description type="plain">TronEvolutionInterview-Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/TronEvolutionInterview-Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+		<item>
+            <media:title type="plain">GT5Awards-Profile3.mp4</media:title>
+            <media:description type="plain">GT5Awards-Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/GT5Awards-Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+		<item>
+            <media:title type="plain">PlayStation_Move_Heroes-Profile3.mp4</media:title>
+            <media:description type="plain">PlayStation_Move_Heroes-Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/PlayStation_Move_Heroes-Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+		<item>
+            <media:title type="plain">PlayStation_PAX_Booth-Profile3.mp4</media:title>
+            <media:description type="plain">PlayStation_PAX_Booth-Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/PlayStation_PAX_Booth-Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+		<item>
+            <media:title type="plain">Costume_Quest_Tour-Profile3.mp4</media:title>
+            <media:description type="plain">Costume_Quest_Tour-Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/Costume_Quest_Tour-Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+		<item>
+            <media:title type="plain">Netflix_on_PlayStation_3-Profile3.mp4</media:title>
+            <media:description type="plain">Netflix_on_PlayStation_3-Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/Netflix_on_PlayStation_3-Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+		<item>
+            <media:title type="plain">KungFu_Rider_Interview-Profile3.mp4</media:title>
+            <media:description type="plain">KungFu_Rider_Interview-Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/KungFu_Rider_Interview-Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+		<item>
+            <media:title type="plain">Toronto_NYC_Events-Profile3.mp4</media:title>
+            <media:description type="plain">Toronto_NYC_Events-Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/Toronto_NYC_Events-Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+		<item>
+            <media:title type="plain">PlayStation_TGS_Booth-Profile3.mp4</media:title>
+            <media:description type="plain">PlayStation_TGS_Booth-Profile3.mp4</media:description>
+            <media:content url="http://scea-home.playstation.net/a.home/mfe/content/Movies/PlayStation_TGS_Booth-Profile3.mp4" medium="video" duration="3.2"/>
+            <media:thumbnail url="http://homeps3-content.online.scee.com:10010/Alpha/Tutorials/ScreenTutorial/screencontent/images/image1.dds" width="60" height="60" />
+        </item>
+    </channel>
+</rss>
