@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+         <header>
+       <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/MarketPlace/E/loot_bg_scee.png</background>
+      </header>
+       <node>
+      <header>
+              <name lang="en-GB" default="true">Cabin Boy</name>
+        <name lang="fr-FR" >Cabin Boy</name>
+        <name lang="it-IT" >Cabin Boy</name>
+        <name lang="de-DE" >Cabin Boy</name>
+        <name lang="es-ES" >Cabin Boy</name>
+        <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/cabinboy_scee.png</thumbnail>
+       <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/MarketPlace/E/loot_bg_scee.png</background>
+      </header>
+<node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="fr-FR">Homme</name>
+        <name lang="de-DE">Männlich</name>
+        <name lang="it-IT">Maschio</name>
+        <name lang="es-ES">Hombre</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+        <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/MarketPlace/E/loot_bg_scee.png</background>
+      </header>
+        <object>07ACBEAD-471747F9-904546D6-C3F23CBA</object>
+  </node>
+  <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR">Femme</name>
+        <name lang="de-DE">Weiblich</name>
+        <name lang="it-IT">Femmina</name>
+        <name lang="es-ES">Mujer</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+               <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/MarketPlace/E/loot_bg_scee.png</background>
+      </header>
+        <object>490A358C-7F87413E-92E92E22-1DE7F837</object>
+              </node>
+                <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Appliances and Bundles</name>
+        <name lang="fr-FR">Appareils et Paquets</name>
+        <name lang="de-DE">Geräte und Bündel</name>
+        <name lang="it-IT">Apparecchi e Pacchi</name>
+        <name lang="es-ES">Accesorios y Paquetes</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_appliances.dds</thumbnail>
+               <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/MarketPlace/E/loot_bg_scee.png</background>
+      </header>
+        <object>CFF28148-BCB34F55-AD931253-F1E76849</object>
+        <object>293BDCA4-CEC94CC0-AF0AB94A-2D7D6ABF</object>
+        <object>C1F92ACA-AD304213-B6665D5B-FCF2FA34</object>
+        <object>2FDCE747-EA004FE2-AC98F299-45D437BF</object>
+              </node>
+            </node>
+<node>
+      <header>
+              <name lang="en-GB" default="true">The Karate Kid™ (Classic)</name>
+        <name lang="fr-FR" >The Karate Kid™ (Classic)</name>
+        <name lang="it-IT" >The Karate Kid™ (Classic)</name>
+        <name lang="de-DE" >The Karate Kid™ (Classic)</name>
+        <name lang="es-ES" >The Karate Kid™ (Classic)</name>
+        <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/KarateKidClassic.png</thumbnail>
+       <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/MarketPlace/E/loot_bg_scee.png</background>
+      </header>
+  <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="fr-FR">Homme</name>
+        <name lang="de-DE">Männlich</name>
+        <name lang="it-IT">Maschio</name>
+        <name lang="es-ES">Hombre</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+        <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/MarketPlace/E/loot_bg_scee.png</background>
+      </header>
+      <!--The Karate Kid™’s Headband-->
+        <object>6F9AE1F4-6318409A-BB9AB900-268F6B75</object>
+        <!--Daniel-San’s Hair-->
+        <object>679A4E84-511844E2-AD90A59C-EA789D0A</object>
+        <!--The Karate Kid™ – Vintage Strike-->
+        <object>270963B1-BC7A44C2-930BE08A-51CDDEA2</object>
+        <!--The Karate Kid™ – Young Blood-->
+        <object>D7856F2D-620E4BBD-A632B538-6BC9981F</object>
+        <!--The Karate Kid™ – Bonsai Karate-->
+        <object>FB212ABD-03BA4B59-AA085778-12E51924</object>
+  </node>
+  <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR">Femme</name>
+        <name lang="de-DE">Weiblich</name>
+        <name lang="it-IT">Femmina</name>
+        <name lang="es-ES">Mujer</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+               <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/MarketPlace/E/loot_bg_scee.png</background>
+      </header>
+            <!--The Karate Kid™’s Headband-->
+        <object>1D71450A-5FD1477D-9BB8A325-BE730A19</object>
+        <!--Daniel-San’s Hair-->
+        <object>C12CAF12-33C245EB-BF9CE6BA-252DC5FB</object>
+        <!--The Karate Kid™ – Vintage Strike-->
+        <object>F83E2391-75414189-9FB7C187-E802608E</object>
+      <!--The Karate Kid™ – Young Blood-->
+        <object>F42687A5-6B464F65-95BC1985-B91FB026</object>
+         <!--The Karate Kid™ – Bonsai Karate-->
+        <object>1A27A08E-09974C3E-B9BB97B4-CB41477A</object>
+  </node>
+        	<node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Furniture</name>
+        <name lang="fr-FR">Meubles</name>
+        <name lang="de-DE">Möbel</name>
+        <name lang="it-IT">Mobili</name>
+        <name lang="es-ES">Mobiliario</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Furniture_jp.dds</thumbnail>
+       <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/MarketPlace/E/loot_bg_scee.png</background>
+      </header>      
+        <!--Mr. Miyagi’s Bonsai Tree-->
+        <object>CCFFF077-782040BA-B4116E4F-6D3D7795</object>
+   </node>
+      </node>
+  <node>
+      <header>
+        <name lang="en-GB" default="true">The Karate Kid™ (2010)</name>
+        <name lang="en-US" >The Karate Kid™ (2010)</name>
+        <name lang="fr-FR" >The Karate Kid™ (2010)</name>
+        <name lang="it-IT" >The Karate Kid™ (2010)</name>
+        <name lang="de-DE" >The Karate Kid™ (2010)</name>
+        <name lang="es-ES" >The Karate Kid™ (2010)</name>
+        <thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/KarateKid2010.png</thumbnail>
+       <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/MarketPlace/E/loot_bg_scee.png</background>
+      </header>        
+      <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="fr-FR">Homme</name>
+        <name lang="de-DE">Männlich</name>
+        <name lang="it-IT">Maschio</name>
+        <name lang="es-ES">Hombre</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+        <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/MarketPlace/E/loot_bg_scee.png</background>
+      </header>
+        <!--The Karate Kid™ – Courage Hoodie-->
+        <object>64DA4B05-10D049C5-BD5EF142-426077B9</object>
+      <!--The Karate Kid™ - Courage-->
+        <object>895BC5FE-0EE94586-B34ED193-7A28A295</object>
+        <!--The Karate Kid™ – Fighter’s Spirit-->
+        <object>26793041-C1FA49CB-863D5967-04ABCC32</object>
+        <!--The Karate Kid™ – Power-->
+        <object>AE578C3F-8F1841A1-85544140-317F1E44</object>
+        <!--The Karate Kid™ - Dragon-->
+        <object>EB168704-1D9E470B-91CD1350-4A2D9F07</object>
+      <!--The Karate Kid™ – Kung Fu-->
+        <object>A7805031-97B446DD-BDDD7323-E685EA2F</object>
+        <!--The Karate Kid™ – Pagoda-->
+        <object>8B8A981D-CBE54DD5-A1D0CA38-1D3A2FAE</object>
+        <!--The Karate Kid™ – Dynasty Wall-->
+        <object>1274E852-971F4042-8F403B5B-BC82F6F4</object>
+        <!--The Karate Kid™ – Kick Yo Butt-->
+        <object>A29550DF-72614D78-AA3759A0-4B106C5C</object>
+      <!--The Karate Kid™ – Cobra-->
+        <object>FF7A335D-23274A62-BB35388F-622EEC2C</object>
+        <!--The Karate Kid™ – High Kick-->
+        <object>B2740BED-38D04A54-87A8DC2B-2E43FC2F</object>
+        <!--The Karate Kid™ – Karate Kick-->
+        <object>62D9C127-E840431F-918AEBE1-12437A4C</object>
+      <!--The Karate Kid™ – Blue Dragon-->
+        <object>7751077D-F2954B4F-AC236ADA-3ECCD64C</object>
+        <!--The Karate Kid™ – Red Cobra-->
+        <object>EF7DB5B5-B25E47FD-A6F716CA-F70DECBB</object> 
+        <!--The Karate Kid™ – Fighting Dragon-->
+        <object>1A76B631-A23D4C30-B33EDC4F-82E51EFF</object>   
+   </node>  
+   <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR">Femme</name>
+        <name lang="de-DE">Weiblich</name>
+        <name lang="it-IT">Femmina</name>
+        <name lang="es-ES">Mujer</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+               <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/MarketPlace/E/loot_bg_scee.png</background>
+      </header>      
+        <!--The Karate Kid™ – Courage Hoodie-->
+        <object>D941F1FA-4EFC4251-ABAFE460-36D86E08</object>
+      <!--The Karate Kid™ - Courage-->
+        <object>1FD08F73-7BF74D9F-9458DB37-F69AFFD8</object>
+        <!--The Karate Kid™ – Fighter’s Spirit-->
+        <object>024ABEBD-CACA469F-8DA414B0-D4C2E5CB</object>
+        <!--The Karate Kid™ – Power-->
+        <object>EA195E85-A9C846F0-9914B5CB-8DAA8703</object>
+        <!--The Karate Kid™ - Dragon-->
+        <object>CE90D3AE-70B34604-AB6CFCB0-83653F5B</object>
+      <!--The Karate Kid™ – Kung Fu-->
+        <object>CAFC65C6-FB4B4A65-8CF51CB8-1DD3F370</object>
+        <!--The Karate Kid™ – Pagoda-->
+        <object>AA614077-90954489-BACA4AB4-C1BECF89</object>
+        <!--The Karate Kid™ – Dynasty Wall-->
+        <object>E33B5D4F-ECD44A3C-9D0A2DD3-A22359A9</object>
+        <!--The Karate Kid™ – Kick Yo Butt-->
+        <object>05147C57-E88849AE-9802C9E4-0FCA8791</object>
+      <!--The Karate Kid™ – Cobra-->
+        <object>D1C8EEEE-5965411A-A2CC74AD-C0372BE6</object>
+        <!--The Karate Kid™ – High Kick-->
+        <object>63912553-69F94025-98410497-4777DA69</object>
+        <!--The Karate Kid™ – Karate Kick-->
+        <object>16F51438-56034658-999EDD69-CFF756A9</object>
+      <!--The Karate Kid™ – Blue Dragon-->
+        <object>8BD6205B-217C44D7-9BA3EF88-FB35B5AF</object>
+        <!--The Karate Kid™ – Red Cobra-->
+        <object>DB91C20A-B8B94797-A7717AF7-B9D115AF</object>   
+        <!--The Karate Kid™ – Fighting Dragon-->
+        <object>546852F1-ED5248BD-A937BDDD-8D9410C0</object>     
+   </node>
+   <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Furniture</name>
+        <name lang="fr-FR">Meubles</name>
+        <name lang="de-DE">Möbel</name>
+        <name lang="it-IT">Mobili</name>
+        <name lang="es-ES">Mobiliario</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Furniture_jp.dds</thumbnail>
+       <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/MarketPlace/E/loot_bg_scee.png</background>
+      </header>        
+        <!--The Karate Kid™ (2010) Movie Poster-->
+        <object>970B820E-9A2649FC-9CE57A68-2270820F</object>
+   </node>
+      </node>
+      <node>
+			<header>
+			<name lang="en-GB" default="true">Ghostbusters™</name>
+			<name lang="fr-FR" >S.O.S. Fantômes™</name>
+			<name lang="it-IT" >Ghostbusters™</name>
+			<name lang="de-DE" >Ghostbusters™</name>
+			<name lang="es-ES" >Cazafantasmas™</name>
+			<thumbnail lang="en-GB" default="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/STORE_Ghostbusters_128x128px_SCEE.png</thumbnail>
+       <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/MarketPlace/E/loot_bg_scee.png</background>
+	      </header>
+	      <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="fr-FR">Homme</name>
+        <name lang="de-DE">Männlich</name>
+        <name lang="it-IT">Maschio</name>
+        <name lang="es-ES">Hombre</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+        <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/MarketPlace/E/loot_bg_scee.png</background>
+      </header>
+				<!--Ghostbusters™ Cap.-->
+				<object>17540361-E8A74759-A1234D62-7E6CB67B</object>
+				<!--Male Ghostbusters Head-->
+				<object>95A95E73-DFBA498B-866BB658-4D111658</object>
+				<!--Male Ghostbusters Torso-->
+				<object>0B13812F-0ADC444B-8D31FE18-AF0808CD</object>
+				<!--Male Ghostbusters Gloves-->
+				<object>B42EB771-0D6D4253-AA709361-DFA313FC</object>
+				<!--Male Ghostbusters Trousers-->
+				<object>2CA8254B-A76848F9-864C695E-8E35FCEE</object>
+				<!--Male Ghostbusters Boots-->
+				<object>D0E4077E-2510491D-B9C2D519-7A1B9635</object>
+				<!--Ghostbusters™ Stay Puft Marshmallow Head-->
+				<object>D37DD9D5-543F4491-943A4978-C7F4924E</object>
+				<!--Male Ghostbusters™ "I Got Slimed!" Tee-->
+				<object>E388A30B-D2414D92-A945C7F7-262D2C53</object>
+				<!--Male Classic Ghostbuster™ Logo Tee-->
+				<object>80E17B10-F7CF4941-AB6B56FB-387C5948</object>
+				<!--Male Ghostbusters™ Stay Puft "Angry" Tee-->
+				<object>01A1A9FF-66CA4BAB-8A25724C-E3E88E03</object>
+				<object>640FE4C0-D3604179-94FBE578-A3133429</object>
+				<object>CA33950E-05044798-A6E451ED-BD6CB714</object>
+      </node>
+      <node type="objects">
+			<header>
+			<name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR">Femme</name>
+        <name lang="de-DE">Weiblich</name>
+        <name lang="it-IT">Femmina</name>
+        <name lang="es-ES">Mujer</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+               <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/MarketPlace/E/loot_bg_scee.png</background>
+		  </header>
+				<!--Female Ghostbusters Head-->
+				<object>C617A8E0-091847A5-AAD6A232-FADAEFD7</object>
+				<!--Female Ghostbusters Goggles
+				<object>74A05156-050B40F7-B5630D74-292F37BE</object>-->
+				<!--Female Ghostbusters Torso-->
+				<object>452B911F-23BB4F82-BB129419-48C191DC</object>
+				<!--Female Ghostbusters Gloves-->
+				<object>1DE352FB-A5624E35-9FF1A17B-B7196E6B</object>
+				<!--Female Ghostbusters Trousers-->
+				<object>4C6E5DB7-AEDE4C66-B1720ECF-7FE7DE49</object>
+				<!--Female Ghostbusters Boots-->
+				<object>00DBAEB6-404540DF-9BB3393B-3878811B</object>
+		     	<!--Ghostbusters™ Stay Puft Marshmallow Head-->
+				<object>172F571B-71B54DA5-AFD2D40B-7AF31C69</object>
+				<!--Female Classic Ghostbuster™ Logo Tee-->
+				<object>CED74E82-334647D7-9C230084-4F49C4BB</object>
+				<!--Female Ghostbusters™ Stay Puft "Angry" Tee-->
+				<object>82621592-3AF54EFB-8A6D3E51-D5628084</object>
+				<object>41EAE620-0F2B4E0D-9EB3F4EE-98290F0F</object>
+				<!--Female Ghostbusters™ "I Got Slimed!" Tee-->
+				<object>A8D0DA60-C47844AF-860C8A74-763231B3</object>
+				<object>B578984A-29674122-ACCC1675-C69E6A8F</object>
+              </node>
+       <node type="objects">
+			<header>
+			 <name lang="en-GB" default="true">Furniture</name>
+        <name lang="fr-FR">Meubles</name>
+        <name lang="de-DE">Möbel</name>
+        <name lang="it-IT">Mobili</name>
+        <name lang="es-ES">Mobiliario</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Furniture_jp.dds</thumbnail>
+       <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/MarketPlace/E/loot_bg_scee.png</background>
+		  </header>
+      <!-- Ghostbusters™ Stay Puft Figurine -->
+	  <object>F7F743A1-92114CEF-8B805C0F-CC7D5701</object>
+      <!-- Ghostbusters™ Slimer Figurine  -->
+	  <object>96370339-90014E39-96AF2A82-44806663</object>
+      <!-- Ghostbusters™ Ecto-1 Model  -->
+	  <object>13BDE219-69A0403E-B56F9A12-0D072BB2</object>
+      <!-- Ghostbusters™ Ghost Trap Toy  -->
+	  <object>8C3099BB-FF2C4B8B-8DC31229-4328E85F</object>
+      <!-- Ghostbusters™ PKE Meter Toy --> 
+	  <object>1D8F46B8-0AF349B6-B9BFF7FF-AE809A97</object>
+      <!-- Talents Director's Chair from Loot™ -->
+	  <object>4AB51258-537546D6-BE245DB3-B2447FEB</object>
+      <!-- Old fashion telephone -->
+	  <object>2B572369-97AA4BB7-BA0543B3-A7FBC820</object>
+      <!-- Metal bed -->
+	  <object>9C8815EC-C9814FD9-B228386C-2DA12C19</object>
+      <!-- Ghostbusters™ 80s Television -->
+	  <object>7BC9B661-4CF04635-95474541-84FCD839</object>
+        </node>
+        <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Personal Space</name>
+          <name lang="fr-FR" >Espace personnel</name>
+          <name lang="it-IT" >Spazio personale</name>
+          <name lang="de-DE" >Home-Apartment</name>
+          <name lang="es-ES" >Espacio personal</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="false">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/personalspace_scee.png</thumbnail>
+       <background lang="en-GB" default="true">[CONTENT_SERVER_ROOT]CommercePoints/MarketPlace/E/loot_bg_scee.png</background>
+        </header>
+        <!--Ghostbusters™ Firehouse: On Location-->  
+        <object>2935147C-2D4043C9-87E252B8-B960C809</object>
+  </node>
+    </node>
+        </node>
+</commerce_point>
