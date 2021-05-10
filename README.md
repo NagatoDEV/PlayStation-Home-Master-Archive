@@ -25,7 +25,7 @@ Currently our development team is looking for anyone who still has PlayStation H
 
 For more information on how to donate cache data please refer to this guide: https://www.youtube.com/watch?v=BppPWh49ROU&feature=youtu.be
 
-## Our team is also looking for any Development/PROD-QA/Alpha-Beta/Retail builds of PlayStation Home which included's:**
+## Our team is also looking for any Development/PROD-QA/Alpha-Beta/Retail builds of PlayStation Home which included's:
 
 * NPEA00013: Development, Alpha, Beta, PROD-QA
 
