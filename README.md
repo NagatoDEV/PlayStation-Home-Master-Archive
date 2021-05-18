@@ -46,14 +46,14 @@ My Twitter: [@NagatoRevenge](https://twitter.com/NagatoRevenge)
 
 [![name](https://discordapp.com/api/guilds/621722473695805450/widget.png?style=banner2&raw=true)](https://discord.gg/QguSBT3)
 
-* Destination Home Official Website: http://destinationho.me/
+* [Destination Home Official Website](http://destinationho.me/)
 
-* Destination Home Preservation (Alternative Discord Link): https://discord.gg/QguSBT3
+* [Destination Home Preservation `Alternative Discord Link`](https://discord.gg/QguSBT3)
 
-* Destination Home Twitch Channel: https://www.twitch.tv/playstationhome/
+* [Destination Home Twitch Channel](https://www.twitch.tv/playstationhome/)
 
-* Destination Home Official YouTube Channel: https://www.youtube.com/channel/UCQhwhFevEgsRqMTHof7FwPQ
+* [Destination Home Official YouTube Channel](https://www.youtube.com/channel/UCQhwhFevEgsRqMTHof7FwPQ)
 
-* Destination Home 1.86 Dev Offline Client Patches: https://github.com/NagatoDEV/Destination-Home-1.86-Offline-Client-Patches
+* [Destination Home 1.86 Dev Offline Client Patches](https://github.com/NagatoDEV/Destination-Home-1.86-Offline-Client-Patches)
 
 **Disclaimer: This repository is purely for preservation and educational purposes.**
