@@ -1,0 +1,24 @@
+<xml>
+  <url_map>
+    <!-- BEGIN HPG SCRIPT BLOCK -->
+    <item key="secureobjectroot" server_url="https://secure.cdeva.homeps3.online.scee.com/objects" />
+    <item key="securesceneroot" server_url="https://secure.cdeva.homeps3.online.scee.com/scenes" />
+    <item key="ssfw_identity" server_url="https://nonprod1.homeidentity.online.scee.com:10443/bb88aea9-6bf8-4201-a6ff-5d1f8da0dd37" />
+    <item key="ssfw_savedata" server_url="https://nonprod3.homerewards.online.scee.com:10443/SaveDataService/local" />
+    <item key="ssfw_rewards" server_url="https://nonprod3.homerewards.online.scee.com:10443/RewardsService/local" />
+    <!-- END HPG SCRIPT BLOCK -->
+
+    <!-- BEGIN DESTINATIONS SCRIPT BLOCK -->
+    <item key="15816_destinations1" server_url="https://dev.destinations.scea.com" />
+    <item key="15816_hellfire_poker_eu" server_url="http://c93f2f1d-3946-4f37-b004-1196acf599c5.scalr.ws/PokerServer" />
+    <item key="15816_hellfire_poker_us" server_url="http://c93f2f1d-3946-4f37-b004-1196acf599c5.scalr.ws/PokerServer" />
+    <!-- BEGIN DESTINATIONS SCRIPT BLOCK -->
+		
+    <!-- BEGIN SERVERSERVICES SCRIPT BLOCK -->
+    <item key="5038_SS_ID_BASE" server_url="http://217.18.25.162:10093/bb88aea9-6bf8-4201-a6ff-5d1f8da0dd37" />
+    <item key="5038_SS_REWARD_BASE" server_url="http://217.18.25.162:10094/RewardsService/local" />
+    <item key="5038_SS_SAVEDATA_BASE" server_url="http://217.18.25.162:10094/SaveDataService/local" />
+    <!-- END SERVERSERVICES SCRIPT BLOCK -->
+
+  </url_map>
+</xml>

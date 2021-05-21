@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+<node>
+		<header>
+			<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starrysky_bg_scee.png</background>
+		</header>
+<node>
+				<header>
+        <name lang="en-GB" default="true">Star Wars 50% Off Sale</name>
+        <name lang="fr-FR" >Star Wars Soldes (-50%)</name>
+        <name lang="it-IT" >Star Wars Offerte (-50%)</name>
+        <name lang="de-DE" >Star Wars Angebot (-50%)</name>
+        <name lang="es-ES" >Star Wars Rebajas (-50%)</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="false"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/StarWarsDay_CP_Thumb_01.png</thumbnail>
+        <thumbnail lang="fr-FR"  useOsdColour="false"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/StarWarsDay_CP_Thumb_02.png</thumbnail>
+        <thumbnail lang="de-DE"  useOsdColour="false"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/StarWarsDay_CP_Thumb_02.png</thumbnail>
+        <thumbnail lang="it-IT"  useOsdColour="false"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/StarWarsDay_CP_Thumb_02.png</thumbnail>
+        <thumbnail lang="es-ES"  useOsdColour="false"> http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/StarWarsDay_CP_Thumb_02.png</thumbnail>
+		<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starrysky_bg_scee.png</background>
+				</header>
+						<node type="objects">
+				<header>
+					<name lang="en-GB" default="true">Male</name>
+					<name lang="fr-FR">Homme</name>
+					<name lang="de-DE">Männlich</name>
+					<name lang="it-IT">Maschio</name>
+					<name lang="es-ES">Hombre</name>
+					<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starrysky_bg_scee.png</background>
+				</header>
+		<!-- Star Wars Sale 30/4/14 -->
+		<object>F9782B7B-3422438B-ADBB182C-3F042D1A</object>  <!-- empire bdl -->
+<object>EE0A2ECD-4C2D4A91-A98D553C-FED903E8</object> <!-- scout M -->
+<object>C99B4F4A-824F48EE-B8C7C267-B4347A08</object>   <!-- starkiller hunter M -->
+<object>3ECA4D2B-CE5B45BB-A02942CA-2FD8EFED</object> <!-- kota M -->
+<object>1B1BFC1B-217F4549-B77A62B3-4F137AA0</object>  <!-- terror M -->
+<object>A05A43B4-3DC945A6-8E87D41D-9DEB5623</object>  <!-- jump M -->
+<object>B6737C45-CC9C47E2-B51F0FD0-8DBF1233</object>  <!-- rebel endor M -->
+<object>29E7797F-35DA436C-A0D3E751-380CB822</object>  <!-- dark lordM -->
+<object>3C08BFD4-81494D13-A5EFE2C6-CF415270</object>  <!-- storm M -->
+<object>345A4F4F-C3914785-920439D0-C33F2DAF</object>  <!-- imperial M -->
+<object>A71C3EB0-A16A4BA7-B18A8CB7-06B28462</object>  <!-- apprentice M -->
+<object>038307CC-702A4C29-9A4E384F-FBD84548</object>  <!-- boba M -->
+<object>0169258B-E1394244-88D478A5-A3426E5D</object>  <!-- bossk M -->
+<object>B2F57DD2-2A314CC9-894F657C-9859CEF1</object>  <!-- lando M -->
+<object>AAFC3E2A-772E4A0E-9CAA806F-53D728B6</object>  <!-- luke M -->
+<object>E6B03122-EEA546E8-9210EA71-892ADDED</object>  <!-- han M -->
+<object>95FACD9B-C684423E-B740F516-92486C6E</object>  <!-- han hoth M -->
+<object>06620E74-140148F8-8F5D796A-E5252077</object>  <!-- rebel pilot M -->
+<object>195E6087-FD9A4304-872B6CD2-ADE29F22</object>  <!-- chewie M -->
+<object>D465885C-FE434938-BF7A26F1-9933DA84</object>  <!-- c3po M -->
+<object>4D15D26C-60414BAE-96C64494-0E4EE2F5</object>  <!-- imp snowM -->
+<object>B2BB4BCA-57D14EE5-A952931B-344DDCFD</object>  <!-- atat M -->
+<object>4A2EC132-15BF4773-A89F9725-610D5497</object>  <!-- zuckuss M -->
+<object>3636E7F3-4A494F70-B5B9A50E-E5FECB7E</object>  <!-- imp snow M -->
+<object>21E2EAA3-001E4EE3-91F48A55-77EA153A</object>  <!-- atat F -->
+<object>AC6ED4EC-4D7648E8-9CF9718A-B8BA9F41</object>  <!-- obi M -->
+<object>23758D8C-ED634000-940A0EB7-8F1DADF0</object> <!-- clone M -->
+<object>0598F1C7-85C24DA7-A2B6B10C-D310EE83</object>  <!-- dual M -->
+<object>1B118DFF-AD904F54-9066EAFB-871DE2E0</object>  <!-- blue M -->
+<object>B7D62613-58FA4056-B2D85F99-D1DCC635</object>  <!-- black M -->
+<object>49CDDAFD-ECE74D62-9B234899-D987051C</object> <!-- yoda M -->
+		</node>
+					 <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR" >Femme</name>
+        <name lang="it-IT" >Femmina</name>
+        <name lang="de-DE" >Weiblich</name>
+        <name lang="es-ES" >Mujer</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+						<background lang="en-GB" default="true">http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/starrysky_bg_scee.png</background>
+      </header> 
+		<!-- Star Wars Sale 30/4/14 -->
+		<object>F9782B7B-3422438B-ADBB182C-3F042D1A</object>  <!-- empire bdl -->
+<object>4A1F88A2-884449FA-99D1096C-238E96E9</object>   <!-- rebel endor F -->
+<object>A1D50841-2BDB4976-8EAAD40A-D6BBF92C</object> <!-- jump F -->
+<object>EBC0BBFC-9D3543D2-9FE4FF75-9B7704DB</object>  <!-- starkiller F -->
+<object>83FCA11B-7CFD43F5-B35EFCF3-C0D2FA54</object>  <!-- scout F -->
+<object>D8E4A8BB-26104391-9AD9A18E-2C3E4C9E</object>  <!-- terror F -->
+<object>D8C357A1-F0094384-93D0522D-295619C9</object>  <!-- storm F -->
+<object>423639CE-E6344FBD-A95C1145-B98D2722</object>  <!-- juno F -->
+<object>C386B1C2-BA474287-86E3EB36-91C63CBB</object>  <!-- zuckuss F -->
+<object>AA4A9D44-361A4601-8D34735C-0BE8BA66</object>  <!-- boba F -->
+<object>8F3BFA2E-2E5F42EA-BE1475BF-8D37CF81</object>  <!-- bossk F -->
+<object>FB9D1C1B-B7744EA8-B8323DC3-6725D736</object>  <!-- rebel pilot F -->
+<object>6391C8F1-FECC4308-8BD73BA9-E7558134</object>  <!-- chewie F -->
+<object>27F1DE05-49EE419A-ABE86E5B-28EFFA8A</object>  <!-- leia hoth F -->
+<object>F8E43F2C-B0BD44DB-B585294D-15C84C60</object>  <!-- c3po F -->
+<object>21E2EAA3-001E4EE3-91F48A55-77EA153A</object>  <!-- atat F -->
+<object>71CCC95C-ED244D0B-86271E72-1DA81590</object>  <!-- dual F -->
+<object>679A56C3-C2584F15-96B5B334-930612E9</object> <!-- blue F -->
+<object>AEF77AE3-F83140B7-8F094AEC-5C8357A7</object> <!-- black F -->
+<object>639FDBE9-4B674B23-A98F18AC-01EF4A94</object> <!-- yoda F -->
+ </node>	
+			</node>
+			 </node>	
+</commerce_point>
