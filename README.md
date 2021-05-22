@@ -25,22 +25,29 @@ However this archive isn't 100% complete snapshot of Home CDN servers. Regions s
 
 Currently our development team is looking for anyone who still has PlayStation Home on there PS3 console, any data we can obtain can help the preservation for home. Our primary goal is to get Home back running online. So our team has been working on trying to emulate Sony's Medius server via using the PlayStation 3 CFW & RPCS3.
 
-For more information on how to donate cache data please refer to this guide: https://www.youtube.com/watch?v=BppPWh49ROU&feature=youtu.be
+For more information on how to donate cache data please refer to this [guide.](https://www.youtube.com/watch?v=BppPWh49ROU&feature=youtu.be)
 
 ## Our team is also looking for any Development/PROD-QA/Alpha-Beta/Retail builds of PlayStation Home which included's:
 
-* NPEA00013: Development, Alpha, Beta, PROD-QA
-
-* NPIA00010: Development & PROD-QA 
-
-* NPIA00005: Retail
-
-* XXXX00071: Development/Alpha builds
+* CDN Snapshots
+* CDN Snapshots
+* EBOOTS/Selfs
+* HDK's
+* Home .RAP `activation files` for `alpha/beta/debug` builds.
+* Home Builds `.PKG files, or HDD dumps are accepted`
+	* `NPEA00013: Development, Alpha, Beta, PROD-QA`
+	* `NPIA00010: Development & PROD-QA`
+	* `NPIA00005: Retail & PROD-QA`
+	* `XXXX00071: Development/Alpha`
+* Objects/Scenes in .sdat file format
+* Old Home Exploit/Mod files
+* Packet Captures
+* Proxy Cache Data.
+* Save-data
 
 ## Contact Me
 
 My Twitter: [@NagatoRevenge](https://twitter.com/NagatoRevenge)
-
 
 # ❤️ Join/Check out our social platforms:
 
