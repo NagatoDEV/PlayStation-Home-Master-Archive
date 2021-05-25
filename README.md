@@ -8,7 +8,7 @@ For more information about the origin of this archive PlayStation Home you can r
 
 ## Information about this archive:
 
-As of 4/15/2021, this archive/repo contains 147GB's worth of Home Data. This archive contains the following data information:
+As of 5/25/2021, this archive/repo contains 178GB's worth of Home Data. This archive contains the following data information:
 
 * Commerce points
 * Navigator Icons
@@ -16,6 +16,7 @@ As of 4/15/2021, this archive/repo contains 147GB's worth of Home Data. This arc
 * Retail PKG Files: "EP9000-NPIA00005_00-HOME000000000001-E"
 * Scenes: Spaces from PlayStation Home. This includes
 * Screenlinks: Various media content. This includes audio files in .MP3/.BNK format, video's in MP4 format usually encoded MPEG-4.
+* XML, RSS Files.
 
 However this archive isn't 100% complete snapshot of Home CDN servers. Regions such as, SCEJ and SCEA (Asia) Home data is currently a WIP in terms of archiving scenes (spaces), .SDC information, screenlinks etc.
 
