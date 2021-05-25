@@ -19,13 +19,13 @@ As of 4/15/2021, this archive/repo contains 147GB's worth of Home Data. This arc
 
 However this archive isn't 100% complete snapshot of Home CDN servers. Regions such as, SCEJ and SCEA (Asia) Home data is currently a WIP in terms of archiving scenes (spaces), .SDC information, screenlinks etc.
 
-**P.S:** If you want to see our current progress of what spaces `scenes` have been archived by the Destination Home Team, you can check out the [Destination Home Scene List Spreadsheet here:](https://github.com/NagatoDEV/PlayStation-Home-Scene-List-Spreadsheet)
+**P.S:** If you want to see our current progress of what spaces `scenes` have been archived by the Destination Home Team, you can check out the Destination Home Scene List Spreadsheet [here.](https://github.com/NagatoDEV/PlayStation-Home-Scene-List-Spreadsheet)
 
 ## How can you help out the project?
 
 Currently our development team is looking for anyone who still has PlayStation Home on there PS3 console, any data we can obtain can help the preservation for home. Our primary goal is to get Home back running online. So our team has been working on trying to emulate Sony's Medius server via using the PlayStation 3 CFW & RPCS3.
 
-For more information on how to donate cache data please refer to this [guide.](https://www.youtube.com/watch?v=BppPWh49ROU&feature=youtu.be)
+For more information on how to donate cache data please refer to this [guide.](https://www.youtube.com/watch?v=BppPWh49ROU&feature=youtu.be) Alternatively you can check out my written version of this guide [here.](https://gist.github.com/NagatoDEV/587b5a76a1789a9d91c48e87c634771b)
 
 ## Our team is also looking for any Development/PROD-QA/Alpha-Beta/Retail builds of PlayStation Home which included's:
 
