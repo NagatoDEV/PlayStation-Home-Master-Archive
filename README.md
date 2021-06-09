@@ -31,7 +31,6 @@ For more information on how to donate cache data please refer to this [guide.](h
 ## Our team is also looking for any Development/PROD-QA/Alpha-Beta/Retail builds of PlayStation Home which included's:
 
 * CDN Snapshots
-* CDN Snapshots
 * EBOOTS/Selfs
 * HDK's
 * Home .RAP `activation files` for `alpha/beta/debug` builds.
