@@ -8,13 +8,13 @@ For more information about the origin of this archive PlayStation Home you can r
 
 ## Information about this archive:
 
-As of 5/25/2021, this archive/repo contains 178GB's worth of Home Data. This archive contains the following data information:
+As of 6/9/2021, this archive/repo contains 178GB's worth of Home Data. This archive contains the following data information:
 
 * Commerce points
 * Navigator Icons
-* Objects: Clothing & Minigames via .sdat
+* 66,106 Unique Objects: Clothing, Minigames, LMO's, Scripts, via .sdat
 * Retail PKG Files: "EP9000-NPIA00005_00-HOME000000000001-E"
-* Scenes: Spaces from PlayStation Home. This includes
+* Scenes: Spaces from PlayStation Home. This includes public, private, and development scenes from all regions of home (SCEA/SCEE/SCEJ/SCEAsia).
 * Screenlinks: Various media content. This includes audio files in .MP3/.BNK format, video's in MP4 format usually encoded MPEG-4.
 * XML, RSS Files.
 
