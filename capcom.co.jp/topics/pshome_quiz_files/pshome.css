@@ -1,0 +1,311 @@
+@charset "UTF-8";
+/*コンテンツ関連CSS
+------------------------------------------------------------ */
+
+body {
+	color: #222;
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/bg_all.gif);}
+div.header-UI-bg {
+	background:url("/web/20110518214716im_/http://capcom.co.jp/img_common/common/bg_header_gui_main_bg.jpg") repeat-x scroll center top transparent;
+}
+
+#copyright {
+	background: #fff;}
+	
+#pshomeBody {
+	width: 100%;
+	background: #3d8ad2;
+	position: relative;
+	font-size: 62.5%;
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','Osaka', verdana, Helvetica,Arial, sans-serif;
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/bg_grad.gif) repeat-x center top;}
+#pshomeBody a {
+	color: #1542c3;}
+#pshomeBody a:hover {
+	text-decoration: none;}
+	
+#pshomeContents {
+	width: 922px;
+	margin: 0 auto;
+	position: relative;
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/bg_menu_plate.jpg) no-repeat left top;}
+#pshomeBody #gNavi {
+	position: absolute;
+	width: 265px;
+	height: 680px;
+	left: -80px;
+	top: 0;
+	margin: 0 276px 0 0;
+	padding-top: 157px;
+	text-align: right;
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/bg_menu_left.jpg) no-repeat left top;}
+#pshomeBody #gNavi ul {
+	padding-left: 83px;}
+#pshomeBody #gNavi li {
+	margin: 0;
+	padding: 0;
+	width: 182px;
+	height: 50px;
+	position: relative;
+	list-style: none;
+	text-align: left;}
+#pshomeBody #gNavi li img {
+	vertical-align: bottom;}
+#pshomeBody #gNavi li img.new {
+	position:absolute;
+	top: 3px;
+	right: 2px;}
+#pshomeBody #gNavi li a {
+	display: block;
+	width: 182px;
+	height: 50px;
+	text-indent: -9999px;
+	color: #0f5ca4;
+	font-size: 1px;
+	text-decoration: none;}
+	
+#pshomeBody #gNavi li.top a {
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/btn_gnavi_top.gif) no-repeat left top;}
+#pshomeBody #gNavi li.up0331 a {
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/btn_gnavi_up0331.gif) no-repeat left top;}
+#pshomeBody #gNavi li.up0805 a {
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/btn_gnavi_up0805.gif) no-repeat left top;}
+#pshomeBody #gNavi li.about a {
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/btn_gnavi_about.gif) no-repeat left top;}
+#pshomeBody #gNavi li.quiz a {
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/btn_gnavi_quiz.gif) no-repeat left top;}
+#pshomeBody #gNavi li.dlc a {
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/btn_gnavi_dlc.gif) no-repeat left top;}
+/* hover */
+#pshomeBody #gNavi li.top a:hover {
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/btn_gnavi_top_r.gif) no-repeat left top;}
+#pshomeBody #gNavi li.up0331 a:hover {
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/btn_gnavi_up0331_r.gif) no-repeat left top;}
+#pshomeBody #gNavi li.up0805 a:hover {
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/btn_gnavi_up0805_r.gif) no-repeat left top;}
+#pshomeBody #gNavi li.about a:hover {
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/btn_gnavi_about_r.gif) no-repeat left top;}
+#pshomeBody #gNavi li.quiz a:hover {
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/btn_gnavi_quiz_r.gif) no-repeat left top;}
+#pshomeBody #gNavi li.dlc a:hover {
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/btn_gnavi_dlc_r.gif) no-repeat left top;}
+	
+#pshomeBody #mainContents {
+	text-align: left;
+	font-size: 1.2em;
+	line-height: 140%;
+	background-color: #fff;
+	margin: 0 0 0 184px;
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/bg_contents_all.gif) repeat-y bottom right;}
+	
+#pshomeBody #topicsArea {
+	padding-top: 8px;
+	float: right;
+	width: 738px;
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/bg_topics_top.jpg) no-repeat right top;}
+	
+/* news -----------------*/
+#pshomeBody #newsArea {
+	width: 462px;
+	float: left;
+	padding-bottom: 30px;
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/bg_news_btm.gif) no-repeat right bottom;}
+#pshomeBody #newsArea h3 {
+	text-align: right;
+	margin: 0;
+	padding: 0;}
+#pshomeBody #newsArea dl {
+	padding: 5px 12px 0 30px;
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/bg_news_all.gif) repeat-y right bottom;} 
+
+#pshomeBody #newsArea #archiveShow {
+	display: none;
+	text-align: center;
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/bg_news_all.gif) repeat-y right bottom;} 
+#pshomeBody #newsArea dt {
+	color: #666;
+	line-height: 24px;
+	margin-bottom: 5px;
+	border-bottom: 1px dotted #7eaacb;}
+#pshomeBody #newsArea dd {
+	padding-bottom: 15px;}
+#pshomeBody #newsArea dd a {
+	padding-left: 17px;
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/ico_arrow_blue.gif) no-repeat 3px center;}
+#pshomeBody #newsArea dd .indent {
+	padding-left: 17px;}
+	
+#pshomeBody #newsArea dd a.update,  
+a.update {
+	display: block;
+	height: 32px;
+	margin-bottom: 5px;
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 30px;
+	padding-left: 17px;
+	text-align: left;
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/btn_update.gif) no-repeat center top;}
+#pshomeBody #newsArea dd a.update:hover, 	
+a.update:hover {
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/btn_update_r.gif) no-repeat center top;}
+	
+	
+/* banner -----------------*/
+#pshomeBody #bnArea {
+	width: 265px;
+	float: right;}
+#pshomeBody #bnArea ul {
+	width: 250px;}
+#pshomeBody #bnArea li {
+	list-style: none;
+	margin-bottom: 10px;}
+#pshomeBody #bnArea li.last {
+	margin-bottom: 0;}
+	
+#copyPShome {
+	clear: both;
+	height: 50px;
+	text-align: center;
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/bg_contents_btm.gif) no-repeat center top;}
+#copyPShome p {
+	padding: 20px 0 0;}
+#subContents #copyPShome {
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/bg_contents_sub_btm.gif) no-repeat center top;}
+	
+/* subContents -----------------*/
+#subContents {
+	text-align: left;
+	font-size: 1.2em;
+	line-height: 140%;
+	background-color: #fff;
+	margin: 0 0 0 184px;
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/bg_contents_sub.gif) repeat-y bottom right;}
+#subContents h2 {
+	text-align: center;
+	padding-top: 5px;
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/bg_contents_sub_top.gif) no-repeat center top;}
+	
+#subContents #ttlTopics {
+	width: 700px;
+	margin: 0 auto 15px;
+	position: relative;
+	text-align: center;
+	}
+#subContents #ttlTopics ul {
+	position: absolute;
+	top: 55px;
+	right: 0;
+	width: 340px;
+	text-align: left;}
+#subContents #ttlTopics li {
+	margin-bottom: 4px;
+	list-style: none;
+	padding-left: 10px;
+	background: url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/ico_dot_topics.gif) no-repeat left 8px;}
+	
+#subDetail {
+	width: 700px;
+	margin: 0 auto;}
+#subDetail dl {
+	width: 693px;
+	min-height: 220px;
+	height: auto !important;
+	height: 220px;
+	margin: 10px 0;
+	position: relative;}
+#subDetail dt {
+	margin-bottom: 10px;}
+#subDetail dd {
+	width: 310px;
+	margin-left: 10px;}
+#subDetail dd p {
+	margin-bottom: 10px;}
+#subDetail dd.place {
+	width: 260px;
+	margin: 15px 10px;
+	padding-left: 50px;
+	background: #deeaf4 url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/ico_place.gif) no-repeat center left;}
+#subDetail dd.place a {
+	display: block;
+	padding: 3px 10px;
+	text-decoration: none;
+	background: #deeaf4;}
+#subDetail dd.place a:hover {
+	background: #f9e000;}
+#subDetail dd.place span {
+	display: block;
+	padding: 3px 10px;}
+	
+#subDetail .detailStep {
+	width: 693px;
+	margin: 0 auto;}
+#subDetail .detailStep h3 {
+	margin: 0;
+	padding: 15px 0;
+	border-top: 1px dotted #245c8c;}
+	
+#subDetail .detailStep p {
+	margin: 0 0 30px;
+	width: auto;
+	padding-left: 5px;
+	padding-bottom: 30px;
+	border-bottom: 1px dotted #D3E3F3;}
+#subDetail .detailStep p img {
+	margin-top: 20px;
+	margin-left: -5px;}
+	
+#subDetail dd.link {
+	width: 290px;
+	margin: 15px 10px;
+	padding-left: 20px;
+	background: #deeaf4 url(/web/20110518214716im_/http://capcom.co.jp/img_common/title_pshome/ico_arrow_yellow.gif) no-repeat center left;}
+#subDetail dd.link a {
+	display: block;
+	padding: 3px 10px;
+	text-decoration: none;
+	background: #deeaf4;}
+#subDetail dd.link a img {
+	vertical-align: middle;
+	margin: 0 5px 0 -5px;}
+#subDetail dd.link a:hover {
+	background: #f9e000;}
+	
+#subDetail dd.ss {
+	width: 348px;
+	position: absolute;
+	top: 0;
+	right: 0;}
+#subDetail dd.top {
+	top: -15px;}
+	
+/* common */
+.Cred {
+	color: #e72118;}
+.mt10 {
+	margin-top: 10px;}
+.textC {
+	text-align: center;}
+/*
+     FILE ARCHIVED ON 21:47:16 May 18, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:37:41 Jun 16, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 53.332
+  exclusion.robots: 0.204
+  exclusion.robots.policy: 0.198
+  RedisCDXSource: 2.328
+  esindex: 0.007
+  LoadShardBlock: 35.028 (3)
+  PetaboxLoader3.datanode: 58.448 (4)
+  CDXLines.iter: 13.86 (3)
+  load_resource: 81.091
+  PetaboxLoader3.resolve: 42.328
+*/

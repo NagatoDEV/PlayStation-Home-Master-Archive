@@ -1,0 +1,235 @@
+@charset "shift-jis";
+/*コンテンツ関連CSS
+------------------------------------------------------------ */
+* {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+.ind2nd em, .ind2ndAtv span em {
+	display: inline;
+	color: #FF0000;
+	font-style: normal;
+	font-size: 10px;
+	padding-left: 2px;
+}
+body {
+	margin: 0px;
+	background: #f1f1f1 url(/web/20110518213849im_/http://capcom.co.jp/img_common/common/bg_header_gui_main_bg.jpg) repeat-x top;
+	text-align: center;
+}
+h1 {
+	margin-bottom: 0px;
+}
+h2.MenuTab {
+	padding: 12px 0px 0px 0px;
+}
+h3 {
+	padding: 6px 0px 0px 13px;
+	font-weight: normal;
+}
+h3.titleIMG, p.titleIMG {
+	padding: 0px 0px 0px 0px;
+	clear: both;
+}
+h3.cntHeader {
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+}
+
+/************************コンテンツ全体枠************************************/
+
+/*--LeftMenu（無印が第三階層）
+---------------------------------------------------------------------------------**/
+#mainBody-Menu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#mainBody-Menu li {
+	margin: 0px auto;
+	text-align: left;
+	padding: 3px 0px 5px 23px;
+	font-size: 75%;
+	color: #FFFFFF;
+}
+#mainBody-Menu li.ind2nd, #mainBody-Menu li.ind2ndAtv {
+	margin: 0px auto;
+	text-align: left;
+	padding: 3px 0px 5px 18px;
+	font-size: 75%;
+	color: #FFFFFF;
+}
+#mainBody-Menu li.ind2ndAtv span, #mainBody-Menu li.ind2ndAtv a {
+	display: block;
+	text-align: center;
+	color: #CCFF00;
+	background: url(/web/20110518213849im_/http://capcom.co.jp/img_common/game/arrow_msj_a.gif) no-repeat 0px center;
+}
+#mainBody-Menu li span {
+	display: block;
+	text-align: center;
+	color: #EEEEEE;
+	background: url(/web/20110518213849im_/http://capcom.co.jp/img_common/game/arrow_3rd_a.gif) no-repeat 0px center;
+}
+#mainBody-Menu li.ind2nd span {
+	display: block;
+	text-align: center;
+	color: #666666;
+	background: url(/web/20110518213849im_/http://capcom.co.jp/img_common/game/arrow_3rd_off.gif) no-repeat 0px center;
+}
+
+/*****ノーマル　→　****/
+#mainBody-Menu li a {
+	display: block;
+	width: 170px;
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+	background: url(/web/20110518213849im_/http://capcom.co.jp/img_common/game/arrow_3rd.gif) no-repeat 0px center;
+}
+#mainBody-Menu li a:hover {
+	width: 170px;
+	display: block;
+	background: url(/web/20110518213849im_/http://capcom.co.jp/img_common/game/arrow_3rd_r.gif) no-repeat 2px center;
+}
+
+/*****　＋　****/
+#mainBody-Menu li a.pls {
+	display: block;
+	width: 175px;
+	background: url(/web/20110518213849im_/http://capcom.co.jp/img_common/title_line_up/arrow_pls.gif) no-repeat 0px center;
+}
+#mainBody-Menu li a.pls:hover  {
+	display: block;
+	width: 175px;
+	background: url(/web/20110518213849im_/http://capcom.co.jp/img_common/title_line_up/arrow_pls_r.gif) no-repeat 2px center;
+}
+
+/*****■が2つ・CP：Change Panel****/
+#mainBody-Menu li a.cp {
+	display: block;
+	width: 175px;
+	background: url(/web/20110518213849im_/http://capcom.co.jp/img_common/game/arrow_cp.gif) no-repeat 0px center;
+}
+#mainBody-Menu li a.cp:hover  {
+	display: block;
+	width: 175px;
+	background: url(/web/20110518213849im_/http://capcom.co.jp/img_common/game/arrow_cp_r.gif) no-repeat 2px center;
+}
+
+
+
+/*--ブロック関連*
+---------------------------------------------------------------------------*/
+
+/***左右均等振り分け***/
+.blockPartition {
+	width: 366px;
+	float: left;
+}
+/***左右振り分け***/
+.blockLeft {
+	width: 488px;
+	float: left;
+}
+.blockRight {
+	width: 244px;
+	float: left;
+}
+/***3ブロック内ニュース枠左右振り分け***/
+.newsLeft {
+	width: 122px;
+	height: 122px;
+	float: left;
+	padding: 0px;
+}
+.newsRight {
+	width: 244px;
+	height: 122px;
+	float: left;
+	text-align: left;
+	padding: 0px;
+	background: url(/web/20110518213849im_/http://capcom.co.jp/img_common/common/bg_newspanel.jpg) no-repeat 7px 7px;
+}
+.newsRight p {
+	padding: 12px 10px 0px 12px;
+	font-size: 80%;
+}
+
+.whatsnew {
+	font-size: 75%;
+	line-height: 1.6;
+}
+/*--トピックス／発売スケジュール：３×１枠汎用
+---------------------------------------------------------------------------------**/
+.blockBannerLw3h1 {
+	width: 366px;
+	height: auto;
+	padding-bottom: 15px;
+	text-align: left;
+	float: left;
+}
+.blockBannerLw4 {
+	width: 488px;
+	text-align: left;
+	clear: both;
+}
+.blockBannerLw6h1 {
+	width: 732px;
+	height: 122px;
+	text-align: left;
+	/**background: #FFFFFF url(/web/20110518213849im_/http://capcom.co.jp/img_common/game/bg_topic.gif) no-repeat 0px 0px;**/
+}
+/* CSSハック
+------------------------------------------------------------ */
+.at-clear {
+	clear: both;
+}
+#at-clear {
+	clear: both;
+}
+.at-clear-h {
+	clear: both;
+	width: 40px;
+	height: 1px;
+	/*background-color: #CC9900;--■■背景黄土色ー■■--*/
+}
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix { display: inline-block; }
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
+/*
+     FILE ARCHIVED ON 21:38:49 May 18, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:35:23 Jun 16, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 169.191
+  load_resource: 106.201
+  exclusion.robots.policy: 0.14
+  RedisCDXSource: 2.411
+  LoadShardBlock: 147.42 (3)
+  exclusion.robots: 0.151
+  esindex: 0.01
+  PetaboxLoader3.datanode: 110.05 (4)
+  PetaboxLoader3.resolve: 68.115
+  CDXLines.iter: 15.773 (3)
+*/

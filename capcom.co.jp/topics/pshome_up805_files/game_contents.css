@@ -1,0 +1,123 @@
+@charset "shift-jis";
+/** コンテンツ関連CSS
+------------------------------------------------------------ **/
+div.header-UI {
+	height: 90px;
+    background: url(/web/20110520133018im_/http://www.capcom.co.jp/img_common/gameportal/bg_header_gui_main.jpg) no-repeat top center;
+	text-align: center;
+}
+#contentsHeader {
+	background: url(/web/20110520133018im_/http://www.capcom.co.jp/img_common/topics/panel_header_02.jpg) no-repeat 0px 0px;
+	padding: 0px 0px 0px 3px;
+}
+
+#contentsHeader2 {
+	background: url(/web/20110520133018im_/http://www.capcom.co.jp/img_common/topics/panel_header_02.jpg) no-repeat 0px 0px;
+}
+
+/**-- 最下層の背景  
+#mainBodyGrd {
+	background: url(/web/20110520133018im_/http://www.capcom.co.jp/img_common/title_bh/bg_grd.jpg) repeat-x center top;
+}--**/
+
+#mainBodyBTT {
+	/**background: #EEEEEE url(/web/20110520133018im_/http://www.capcom.co.jp/img_common/game/bg_main.jpg) 0px 0px;**/
+	background: url(/web/20110520133018im_/http://www.capcom.co.jp/img_common/bg.jpg) no-repeat center top;/
+}
+
+/**--メインバナー下グラデーション
+#contentsBodyGrd {
+	background: url(/web/20110520133018im_/http://www.capcom.co.jp/img_common/title/bg_panel_grd.jpg) no-repeat center top;
+	text-align:left;
+}
+--*/
+/************************コンテンツ全体枠************************************/
+
+
+/**本体941px：背景左メニュー右側ドロップシャドウ**/
+#mainBodyBG {
+	width: 941px;
+	background: #EEEEEE url(/web/20110520133018im_/http://www.capcom.co.jp/img_common/game/bg_mainbody.jpg) repeat-y 0px 0px;
+	margin: auto;
+	clear: both;
+}
+/**本体941px：背景左メニュードロップシャドウＲに消えるドロップシャドウ**/
+#mainBody {
+	width: 941px;
+	background: url(/web/20110520133018im_/http://www.capcom.co.jp/img_common/game/bg_body_left.jpg) no-repeat 0px bottom;
+	margin: auto;
+}
+
+
+/**右側コンテンツ748px：背景グリッド**/
+#mainBody-Contents {
+	float: right;
+	width: 748px;
+	text-align: center;
+	background: #EAEAEA url(/web/20110520133018im_/http://www.capcom.co.jp/img_common/game/bg_panel.jpg) repeat-y 0px 182px;
+}
+
+/**左メニュー：幅193px**/
+#mainBody-search {
+	width: 193px;
+	height: 47px;
+	background: #000000 url(/web/20110520133018im_/http://www.capcom.co.jp/img_common/game/bg_body.jpg) 0px 0px;
+}
+#mainBody-Menu {
+	height: 800px;
+	background: url(/web/20110520133018im_/http://www.capcom.co.jp/img_common/game/bg_side_grd.jpg) no-repeat left 73px;
+}
+#mainBody-Left {
+	float: left;
+	width: 193px;
+	text-align: left;
+	background: url(/web/20110520133018im_/http://www.capcom.co.jp/img_common/common/bg_side.jpg) repeat-y 0px 0px;
+}
+.menuBottImg {
+	padding: 10px 0px 0px 0px;
+}
+
+/**左メニュー：下線**/
+
+#mainBody-Menu li {
+	background: url(/web/20110520133018im_/http://www.capcom.co.jp/img_common/game/menu_line.jpg) no-repeat 0px bottom;
+}
+#mainBody-Menu li.ind2nd, #mainBody-Menu li.ind2ndAtv {
+	background: url(/web/20110520133018im_/http://www.capcom.co.jp/img_common/game/menu_line.jpg) no-repeat 0px bottom;
+}
+
+/***フッター***/
+#footer {
+	background-color:#009966;
+	clear: both;
+	font-size: 75%;
+	margin-top: 20px;
+	padding: 5px 0px 10px 0px;
+	background: url(/web/20110520133018im_/http://www.capcom.co.jp/img_common/game/bg_footer.jpg) repeat-x 0px bottom;
+}
+#copyright {
+	padding: 10px 0px;
+	font-size: 10px;
+}
+
+/*
+     FILE ARCHIVED ON 13:30:18 May 20, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:44:09 Jun 16, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  PetaboxLoader3.datanode: 173.04 (4)
+  RedisCDXSource: 8.038
+  exclusion.robots.policy: 0.182
+  CDXLines.iter: 18.662 (3)
+  captures_list: 188.886
+  LoadShardBlock: 158.142 (3)
+  load_resource: 54.052
+  esindex: 0.013
+  PetaboxLoader3.resolve: 31.003
+  exclusion.robots: 0.196
+*/
