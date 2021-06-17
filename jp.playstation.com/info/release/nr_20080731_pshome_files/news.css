@@ -1,0 +1,636 @@
+@charset "UTF-8";
+/* 2010-06-11T22:57:01+09:00 */
+
+/* ---------------------------------------------- */
+/* 共通要素 */
+
+/* ページタイトル上ボーダー */
+body#ps3 div#main,
+body#news div#main,
+body#support div#main,
+body#psp div#main{
+	border-top: 1px solid #cacaca;
+}
+
+/* ニュース一覧内リンク */
+.news a{
+	display: block;
+	padding-left: 13px;
+	background: url("/common/img/iconListGeneral.gif") no-repeat 0 0.4em;
+}
+
+.news a:link{
+	color: #3f3f3f;
+}
+
+.news a:visited{
+	color: #8c8c8c;
+}
+
+.news a:hover{
+	background-image: url("/common/img/iconListGeneralHover.gif");
+	color: #eb422b;
+}
+
+/* ニュース一覧テーブル */
+table.news{
+	width: 860px;
+	margin-bottom: 20px;
+	border-collapse: separate;
+	border-spacing: 1px;
+}
+
+table.news th,
+table.news td{
+	padding: 8px 5px;
+	border-top: solid 1px;
+}
+
+table.news th{
+	width: 11em;
+	border-color: #636363;
+	vertical-align: top;
+}
+
+table.news td{
+	border-color: #a4a4a4;
+	font-size: 93%;
+}
+
+table.news a:hover{
+	text-decoration: none;
+}
+
+/* タブ */
+ul#newsMenu li{
+	float: left;
+}
+
+ul#newsMenu a{
+	display: block;
+	overflow: hidden;
+}
+
+ul#newsMenu a span{
+	display: none;
+}
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* 1.3.2 PS3アップデート一覧 */
+body#ps3 table.news th{
+	border-color: #9e122b;
+}
+
+body#ps3 table.news td{
+	border-color: #e5c3ca;
+}
+
+/* ---------------------------------------------- */
+/* 2.3.2 PSPアップデート一覧 */
+body#psp table.news th{
+	border-color: #c0ae08;
+}
+
+body#psp table.news td{
+	border-color: #e6de64;
+}
+
+/* ---------------------------------------------- */
+/* S5.1 障害・メンテナンス情報トップ */
+
+body#support div#main h2{
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 123.1%;
+}
+
+/* お知らせ */
+div.info{
+	height: 100%;
+	margin-bottom: 40px;
+	border: solid 6px #a6a6a6;
+}
+
+div.info h2{
+	margin: 0;
+	padding: 6px 0 7px 0;
+	background-color: #ebebeb;
+	border: solid 1px #fff;
+	text-align: center;
+}
+
+div.info ul.general{
+	padding: 10px 10px 10px 5px;
+	border-top: solid 1px #a6a6a6;
+}
+
+/* 最新の障害・メンテナンス情報 */
+div.latest h2:after,
+div.latest dl.news:after{
+	display: block;
+	height: 0;
+	clear: both;
+	content: "";
+}
+
+div.latest{
+	margin-bottom: 37px;
+}
+
+div.latest h2{
+	height: 100%;
+}
+
+div.latest h2 span.title{
+	display: block;
+	width: 812px;
+	float: left;
+}
+
+div.latest h2 a{
+	float: right;
+}
+
+div.latest h3{
+	padding: 8px 2px 0 2px;
+	background: url("/common/img/bgOnlineInfo.gif") no-repeat top left;
+	text-align: left;
+	font-weight: bold;
+	font-size: 108%;
+}
+
+div.latest h3 a:link{
+	color: #3f3f3f;
+}
+
+div.latest h3 a:visited{
+	color: #8c8c8c;
+}
+
+div.latest h3 a:hover{
+	color: #eb422b;
+	text-decoration: none; 
+}
+
+div.latest h3 img{
+	vertical-align: middle;
+}
+
+div.latest dl.news{
+	width: 860px;
+	margin: 0;
+}
+
+div.latest dl.news dt,
+div.latest dl.news dd{
+	padding: 8px 0 8px 15px;
+}
+
+div.latest dl.news dt{
+	width: 11em;
+	float: left;
+	clear: left;
+	font-weight: bold;
+	margin-right: 0;
+}
+
+div.latest dl.news dd{
+	height: 100%;
+	overflow: hidden;
+	padding-top: 11px;
+	font-size: 93%;
+}
+
+div.latest dl.news dd a{
+	margin: 0;
+}
+
+/* ---------------------------------------------- */
+/* S5.1.1 対応タイトル一覧, S5.2 フォーマット別ソフトウェア一覧 */
+
+div.result{
+	margin-bottom: 20px;
+	padding: 10px;
+	border: solid 2px #dfdfdf;
+}
+
+#main div.result p.mainImage{
+	float: left;
+	margin-bottom: 10px;
+}
+
+div.result ul.subImage{
+	float: right;
+}
+
+div.result ul.subImage li{
+	display: inline;
+}
+
+div.result p.mainImage a,
+div.result ul.subImage a{
+	display: block;
+}
+
+div.result p.mainImage a{
+	width: 664px;
+	height: 214px;
+	border: solid 1px #ccc;
+}
+
+div.result ul.subImage a{
+	width: 164px;
+	margin-bottom: 10px;
+}
+
+div.result ul.subImage a img{
+	margin-bottom: 2px;
+}
+
+div.result ul.subImage li.screenImage1 a{
+	margin-bottom: 22px;
+}
+
+div.result p.mainImage img{
+	display: block;
+	margin: 2px;
+}
+
+div.result ul.subImage img{
+	display: block;
+	margin-top: 3px;
+	margin-bottom: 26px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+div.result p.mainImage a.img:hover,
+div.result ul.subImage a.img:hover{
+	border-color: #8c8c8c;
+}
+
+body#softCalendar div.result div.pack{
+	left: 0;
+	width: 833px;
+	float: none;
+	clear: both;
+}
+
+div.result h2.softTitle{
+	margin: 0;
+}
+
+div.result ul.general{
+	padding-top: 5px;
+	text-align: right;
+}
+
+div.result ul.general li{
+	display: inline-block;
+	/display: inline;
+	/zoom: 1;
+	margin-bottom: 0;
+	margin-left: 6px;
+}
+
+div.result ul.general li.disc,
+div.result ul.general li.umd{
+	width: 9em;
+	text-align: left;
+}
+
+/* ---------------------------------------------- */
+/* S5.1.1.1 障害・メンテナンス情報詳細 */
+
+/* 障害・メンテナンス情報 */
+div.latest.detail h3{
+	_height: 20px;
+	margin-bottom: 10px;
+	font-weight: normal;
+	font-size: 108%;
+}
+
+div.latest.detail span.date{
+	margin-right: 15px;
+	margin-left: 15px;
+	font-weight: bold;
+	font-size: 85%;
+}
+
+div.latest.detail div.pack{
+	margin: 0 15px 15px 15px;
+}
+
+div.latest.detail ul.general{
+	padding-top: 10px;
+	margin: 0 15px 20px 15px;
+}
+
+/* ---------------------------------------------- */
+/* 7.0 お知らせトップ, 7.1 ニュースリリース, 11.0 イベント情報 */
+
+/* 上部ボタン */
+ul.pageNation{
+	margin-bottom: 15px;
+	text-align: right;
+}
+
+ul.pageNation li{
+	display: inline-block;
+	/display: inline;
+	/zoom: 1;
+	margin-left: 1px;
+	/margin-left: 5px;
+	line-height: 1;
+}
+
+ul.pageNation li.rss{
+	display: block;
+	text-align: right;
+	margin-top: 1px;
+	/margin-top: 5px;
+}
+
+/* ニュース一覧 */
+body#news table.news{
+	margin-bottom: 2px;
+	border-bottom: solid 1px #e0e0e0;
+}
+
+body#news table.news th{
+	width: 10em;
+	padding-left: 15px;
+}
+
+table.news td div.pack{
+	margin-right: 0;
+	margin-left: 13px;
+}
+
+table.news td h2,
+table.news td h3{
+	font-size: 116%;
+}
+
+table.news td h2 a,
+table.news td h3 a{
+	font-weight: normal;
+}
+
+/* ページネーション */
+ul.paging{
+	padding: 10px 10px 7px;
+	text-align: center;
+	background: #f1f1f1;
+}
+
+ul.paging li{
+	display: inline;
+	margin-left: 7px;
+	padding-left: 7px;
+	line-height: 1.1;
+	border-left: 1px solid #959595;
+}
+
+ul.paging .prev,
+ul.paging .next,
+ul.paging .first{
+	padding-left: 0;
+	border: none;
+}
+
+ul.paging li img,
+#softCalendar ul.paging li img{
+	vertical-align: middle;
+}
+
+/* 11.0 イベント情報 */
+body.ad table.news td div.thumb a{
+	display: block;
+	width: 90px;
+	height: 90px;
+	float: left;
+	margin-right: 20px;
+	padding-left: 0;
+	border: solid 1px #cbcbcb;
+}
+
+body.ad table.news td div.thumb a:hover{
+	border: solid 1px #989898;
+}
+
+body.ad table.news div.text{
+	height: 100%;
+	overflow: hidden;
+	text-align: left;
+}
+
+body.ad table.news div.pack{
+	margin-left: 0;
+}
+
+body.ad table.news{
+	border-bottom: none;
+}
+
+body.ad h2{
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 123.1%;
+}
+
+/* ---------------------------------------------- */
+/* 7.1.1 お知らせ詳細, 11.1 イベント情報詳細 */
+
+body#news.detail div#main{
+	background: none;
+}
+
+body#news.detail p.catTitle{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 93%;
+}
+
+body#news.detail div.metadata{
+	text-align: right;
+}
+
+body#news.detail #main div.metadata p{
+	margin-bottom: 0;
+	font-size: 77%;
+	color: #656565;
+}
+
+body#news.detail #pageTitle{
+	margin-top: 10px;
+	margin-bottom: 35px;
+	padding: 10px 0;
+	border-top: solid 1px #dcdcdc;
+	border-bottom: solid 1px #dcdcdc;
+}
+
+body#news.detail #pageTitle span.title{
+	border-left: none;
+}
+
+/* ---------------------------------------------- */
+/* 7.2 SCEJからの重要なお知らせ */
+
+/* 重要 */
+div.important{
+	height: 100%;
+	margin-bottom: 40px;
+	padding: 13px;
+	border: solid 3px #cbcbcb;
+}
+
+div.important ul.general{
+	padding-top: 0;
+}
+
+div.important ul.general a{
+	padding-left: 60px;
+	background: url("/common/img/iconListImportant.gif") no-repeat 0 0.3em;
+}
+
+div.important ul.general a:hover{
+	background-image: url("/common/img/iconListImportantHover.gif");
+}
+
+/* タブ */
+body#news ul#newsMenu{
+	height: 41px;
+	margin-bottom: 10px;
+	background: url("/common/img/spriteSceNews.gif") no-repeat 0 -74px;
+}
+
+body#news ul#newsMenu a{
+	height: 37px;
+}
+
+body#news ul#newsMenu li#scejImportant a{
+	width: 199px;
+	background: url("/common/img/spriteSceNews.gif") no-repeat 0 0;
+}
+
+body#news ul#newsMenu li#scejImportant a:hover{
+	background-position: -199px 0;
+}
+
+body#news ul#newsMenu li#scejImportant a.active,
+body#news ul#newsMenu li#scejImportant a:hover.active{
+	background-position: -398px 0;
+}
+
+body#news ul#newsMenu li#sceSoftTitle a{
+	width: 328px;
+	background: url("/common/img/spriteSceNews.gif") no-repeat 0 -37px;
+}
+
+body#news ul#newsMenu li#sceSoftTitle a:hover{
+	background-position: -328px -37px;
+}
+
+body#news ul#newsMenu li#sceSoftTitle a.active,
+body#news ul#newsMenu li#sceSoftTitle a:hover.active{
+	background-position: -656px -37px;
+}
+
+/* ---------------------------------------------- */
+/* 8.0 更新情報 */
+
+/* タブ */
+ul#newsMenu a{
+	background-image: url("/common/img/spritePS3Top.png");
+}
+
+ul#newsMenu li#update a{
+	width: 87px;
+	background-position: 0 0;
+}
+
+ul#newsMenu li#update a:hover{
+	background-position: 0 -37px;
+}
+
+ul#newsMenu li#update a.active,
+ul#newsMenu li#update a:hover.active{
+	background-position: 0 -74px;
+}
+
+ul#newsMenu li#ps3 a{
+	width: 71px;
+	background-position: -87px 0;
+}
+
+ul#newsMenu li#ps3 a:hover{
+	background-position: -87px -37px;
+}
+
+ul#newsMenu li#ps3 a.active,
+ul#newsMenu li#ps3 a:hover.active{
+	background-position: -87px -74px;
+}
+
+ul#newsMenu li#psp a{
+	width: 71px;
+	background-position: -158px 0;
+}
+
+ul#newsMenu li#psp a:hover{
+	background-position: -158px -37px;
+}
+
+ul#newsMenu li#psp a.active,
+ul#newsMenu li#psp a:hover.active{
+	background-position: -158px -74px;
+}
+
+ul#newsMenu li#psn a{
+	width: 72px;
+	background-position: -229px 0;
+}
+
+ul#newsMenu li#psn a:hover{
+	background-position: -229px -37px;
+}
+
+ul#newsMenu li#psn a.active,
+ul#newsMenu li#psn a:hover.active{
+	background-position: -229px -74px;
+}
+
+ul#newsMenu li.rss a{
+	width: 53px;
+	float: right;
+	margin-top: 12px;
+	padding-left: 506px;
+	background: none;
+}
+
+body#news.detail #socialBtn{
+	text-align:right;
+	height:30px;
+	margin:-10px 0 15px 0;
+}
+body#news.detail #socialBtn #niceBtn,
+body#news.detail #socialBtn #snsLinks{
+	float:right;
+	margin-left:20px;
+}
+body#news.detail #socialBtn #niceBtn .view_nice_span{
+	background:url('/common/img/news/icon_like.gif') left center no-repeat;
+	padding-left:17px;
+	font-size:10px;
+}
+
+body#news.detail #socialBtn .sns_mixi,
+body#news.detail #socialBtn .sns_twitter,
+body#news.detail #socialBtn .sns_facebook{
+	float:left;
+}

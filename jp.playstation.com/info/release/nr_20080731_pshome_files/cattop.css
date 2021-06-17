@@ -1,0 +1,638 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------- */
+/* 共通要素 */
+
+/* ページタイトル上ボーダー */
+body#Ps3SupportTop div#main,
+body#PspSupportTop div#main,
+/** 2011.12.1 add START */
+body#PsVitaSupportTop div#main,
+/** 2011.12.1 add END */
+body#PsnSupportTop div#main,
+body#Ps1SupportTop div#main,
+body#Ps2SupportTop div#main,
+body#supportTop div#main{
+	border-top: 1px solid #cacaca;
+}
+
+/* 重要なお知らせ */
+body#Ps3SupportTop ul.general.important,
+body#Ps3SupportTop ul.general.unlink,
+body#PspSupportTop ul.general.important,
+body#PspSupportTop ul.general.unlink,
+/** 2011.12.1 add START */
+body#PsVitaSupportTop ul.general.important,
+body#PsVitaSupportTop ul.general.unlink,
+/** 2011.12.1 add END */
+body#PsnSupportTop ul.general.important,
+body#PsnSupportTop ul.general.unlink,
+body#Ps1SupportTop ul.general.important,
+body#Ps1SupportTop ul.general.unlink,
+body#Ps2SupportTop ul.general.important,
+body#Ps2SupportTop ul.general.unlink,
+body#supportTop ul.general.important,
+body#supportTop ul.general.unlink{
+	padding-top: 0;
+}
+
+ul.general.unlink li{
+	margin-left: 0;
+	padding-left: 54px;
+	list-style: none;
+	background: url("/common/img/iconListUnlink.gif") no-repeat 0 0.2em;
+}
+
+/* サポート情報, お問い合わせ */
+div.supportMenu{
+	height: 100%;
+	margin-top: 20px;
+	padding-bottom: 1px;
+	background: url("/common/img/bgSupportTop.jpg") no-repeat right bottom;
+	background-size: 3695px 1000px;
+}
+
+div.supportMenu:after{
+	display: block;
+	height: 0;
+	clear: both;
+	content: "";
+}
+
+div.supportMenu dd{
+	margin-bottom: 0.4em;
+	line-height: 1.3;
+}
+
+/* サポート情報, お問い合わせ > サポート情報 */
+div.supportInfo{
+	width: 567px;
+	float: left;
+	background: url("/common/img/bgSupportTop.jpg") no-repeat;
+	background-size: 3695px 1000px;
+}
+
+div.supportInfo h2{
+	padding: 8px 0 22px 10px;
+}
+
+div.supportInfo div.column{
+	width: 162px;
+	float: left;
+	padding-left: 16px;
+}
+
+div.supportInfo dl{
+	height: 100%;
+	margin-bottom: 15px;
+}
+
+div.supportInfo dt{
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 108%;
+}
+
+/* サポート情報, お問い合わせ > お問い合わせ */
+div.supportMenu div.inquiry{
+	width: 244px;
+	float: right;
+	padding: 10px 15px;
+	border: none;
+	border-top: solid 1px #cbcbcb;
+}
+
+div.supportMenu div.inquiry dl{
+	width: auto;
+	float: none;
+	padding-left: 0;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: solid 1px #cbcbcb;
+}
+
+div.supportMenu div.inquiry dl.first{
+	margin-top: 0;
+	padding-top: 0;
+	border-top: none;
+}
+
+/* 下部お問い合わせ */
+div.footerInquiry{
+	height: 100%;
+	margin-top: 20px;
+	padding: 15px 15px 10px 15px;
+	border: solid 1px #cbcbcb;
+}
+
+div.footerInquiry:after{
+	display: block;
+	height: 0;
+	clear: both;
+	content: "";
+}
+
+div.footerInquiry h2{
+	width: 72px;
+	float: left;
+}
+
+div.footerInquiry h3,
+div.footerInquiry p,
+div.footerInquiry ul{
+	width: 743px;
+	float: right;
+}
+
+div.footerInquiry h3,
+div.footerInquiry p{
+	font-size: 93%;
+}
+
+div.footerInquiry p{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	line-height: 1.3;
+}
+
+div.footerInquiry ul li{
+	margin-bottom: 0.5em;
+	margin-left: 1em;
+	line-height: 1.4;
+	text-indent: -1em;
+	font-size: 77%;
+	color: #7c7c7c;
+}
+
+/* アイコン付きリンク */
+div.supportInfo dd a,
+div.inquiry dd a{
+	display: block;
+	padding-left: 13px;
+	background: url("/common/img/iconListGeneral.gif") no-repeat 0 0.45em;
+}
+
+div.supportInfo dd a:link,
+div.inquiry dd a:link{
+	color: #404040;
+}
+
+div.supportInfo dd a:visited,
+div.inquiry dd a:visited{
+	color: #8c8c8c;
+}
+
+div.supportInfo dd a:hover,
+div.inquiry dd a:hover{
+	background-image: url("/common/img/iconListGeneralHover.gif");
+	text-decoration: none;
+	color: #eb422b;
+}
+
+div.supportMenu dd a{
+	background-position: 0 0.3em;
+}
+
+/* ラインナップ */
+p#Ps3SupportMenu01,
+p#Ps3SupportMenu02,
+p#Ps3SupportMenu03,
+p#PspSupportMenu01,
+p#PspSupportMenu02,
+p#PspSupportMenu03,
+/** 2011.12.1 add START */
+p#PsVitaSupportMenu01,
+p#PsVitaSupportMenu02,
+p#PsVitaSupportMenu03,
+/** 2011.12.1 add END */
+p#PsnSupportMenu01,
+p#PsnSupportMenu02,
+p#PsnSupportMenu03{
+	margin: 20px 0 0 0;
+	width: 274px;
+}
+
+p#Ps3SupportMenu01,
+p#Ps3SupportMenu02,
+p#PspSupportMenu01,
+p#PspSupportMenu02,
+/** 2011.12.1 add START */
+p#PsVitaSupportMenu01,
+p#PsVitaSupportMenu02,
+/** 2011.12.1 add END */
+p#PsnSupportMenu01,
+p#PsnSupportMenu02{
+	float: left;
+	margin-right: 19px;
+}
+
+p#Ps3SupportMenu03,
+p#PspSupportMenu03,
+/** 2011.12.1 add START */
+p#PsVitaSupportMenu03,
+/** 2011.12.1 add END */
+p#PsnSupportMenu03{
+	float: right;
+}
+
+/* メイン画像 */
+div#mainPic{
+	margin-bottom: 10px;
+}
+
+/* ---------------------------------------------- */
+/* 1.4 PS3サポートトップ */
+
+body#Ps3SupportTop div.supportInfo{
+	background-position: 0 0;
+}
+
+/* ---------------------------------------------- */
+/* 2.4 PSPサポートトップ */
+
+body#PspSupportTop div.supportInfo{
+	background-position: -567px 0;
+}
+
+body#PspSupportTop div.pack p a:hover{
+	border-color: #f9be14;
+}
+
+/** 2011.12.1 add START */
+/* ---------------------------------------------- */
+/* 14.4 PSVitaサポートトップ */
+
+body#PsVitaSupportTop div.supportInfo{
+	background-position: -2835px 0;
+}
+
+body#PsVitaSupportTop div.pack p a:hover{
+	border-color: #0066af;
+}
+/** 2011.12.1 add END */
+
+/* ---------------------------------------------- */
+/* 3.0 PS2トップ, 3.1 PS2ハードウェア */
+/* 12.0 PSOneトップ, 12.1 PSOneハードウェア */
+
+body#ps2Top div.pack,
+body#ps1Top div.pack{
+	margin-top: 30px;
+}
+
+body#ps2Top div.pack p,
+body#ps1Top div.pack p{
+	width: 421px;
+	height: 266px;
+}
+
+p#ps2Menu01,
+p#ps1Menu01{
+	float: left;
+}
+
+p#ps2Menu02,
+p#ps1Menu02{
+	float: right;
+}
+
+body#ps2Top div.pack p a:hover,
+body#ps2HardTop div.block a.img:hover{
+	border-color: #165493;
+}
+
+body#ps1Top div.pack p a:hover,
+body#ps1HardTop div.block a.img:hover{
+	border-color: #40ab91;
+}
+
+/* ---------------------------------------------- */
+/* 3.3 PS2サポートトップ */
+body#Ps2SupportTop div.supportInfo{
+	background-position: -2268px 0;
+}
+
+/* ---------------------------------------------- */
+/* 4 系 PSN 共通 */
+body.psn div.pack p a:hover{
+	border-color: #4352b7;
+}
+
+/* ---------------------------------------------- */
+/* 4.1 PSStore, 5.0 キャラクターグッズ, 6.0 公式モバイルサイト お知らせ共通 */
+body#pssTop ul#newsMenu,
+body#goodsTop ul#newsMenu,
+body#mobileTop ul#newsMenu{
+	background-image: url("/common/img/spritePS3.png");
+	background-position: 0 -37px;
+}
+
+body#pssTop ul#newsMenu li.info,
+body#goodsTop ul#newsMenu li.info,
+body#mobileTop ul#newsMenu li.info{
+	width: 85px;
+	height: 37px;
+	background: url("/common/img/spritePS3Top.png") no-repeat -301px 0;
+}
+
+body#pssTop ul#newsMenu li.info span,
+body#goodsTop ul#newsMenu li.info span,
+body#mobileTop ul#newsMenu li.info span{
+	display: none;
+}
+
+body#pssTop ul#newsMenu li.page,
+body#goodsTop ul#newsMenu li.page,
+body#mobileTop ul#newsMenu li.page{
+	padding-left: 662px;
+}
+
+/* 4.1 PSStore */
+p#pssMenu01,
+p#pssMenu02,
+p#pssMenu03,
+p#pssMenu04,
+p#pssMenu05,
+p#pssMenu06,
+p#pssMenu07,
+p#pssMenu08{
+	width: 200px;
+	height: 125px;
+}
+
+p#pssMenu01,
+p#pssMenu02,
+p#pssMenu03,
+p#pssMenu05,
+p#pssMenu06,
+p#pssMenu07{
+	float: left;
+	margin-right: 20px;
+}
+
+p#pssMenu04,
+p#pssMenu08{
+	float: right;
+}
+
+/* ---------------------------------------------- */
+/* 4.2 PSNサポート */
+body#PsnSupportTop div.supportInfo{
+	background-position: -1134px 0;
+}
+
+body#PsnSupportTop div.pack p a:hover{
+	border-color: #4352b7;
+}
+/* ---------------------------------------------- */
+/* 5.0 キャラクターグッズ, 6.0 公式モバイルサイト 共通 */
+
+/* ラインナップ */
+body#goodsTop div.pack,
+body#mobileTop div.pack{
+	margin-top: 20px;
+}
+
+body#goodsTop div.pack,
+body#mobileTop div.pack{
+	margin-left: -19px;
+}
+
+body#goodsTop div.pack p,
+body#mobileTop div.pack p{
+	width: 274px;
+	float: left;
+	padding-left: 19px;
+}
+
+body#goodsTop div.pack p{
+	height: 162px;
+}
+
+body#mobileTop div.pack p{
+	height: 122px;
+}
+
+body#goodsTop div.pack p a:hover,
+body#mobileTop div.pack p a:hover{
+	border-color: #8c8c8c;
+}
+
+/* ---------------------------------------------- */
+/* 9.0 サポートトップ */
+
+/* ラインナップ */
+p#supportMenu01,
+p#supportMenu02,
+p#supportMenu03{
+	margin: 20px 0;
+	width: 274px;
+}
+
+p#supportMenu01,
+p#supportMenu02{
+	float: left;
+	margin-right: 19px;
+}
+
+p#supportMenu03{
+	float: right;
+}
+
+div#supportMenuPack{
+	float: left;
+}
+
+div#supportMenuPack p{
+	margin: 0;
+}
+
+#main p#supportMenu04{
+	margin-bottom: 7px;
+}
+
+p#supportMenu06{
+	float: right;
+}
+
+p#supportMenu01 a.img:hover{
+	border-color: #ba0728;
+}
+
+p#supportMenu02 a.img:hover{
+	border-color: #f9be14;
+}
+
+p#supportMenu03 a.img:hover,
+p#supportMenu04 a.img:hover{
+	border-color: #4252b9;
+}
+
+p#supportMenu05 a.img:hover{
+	border-color: #2fb594;
+}
+
+p#supportMenu06 a.img:hover{
+	border-color: #8b8b8b;
+}
+
+/* お問い合わせ */
+div.inquiry{
+	width: 830px;
+	padding: 14px;
+	border: solid 1px #cbcbcb;
+}
+
+div.inquiry div.inner{
+	height: 100%;
+	background: url("/common/img/bgSupportInquiry.gif") repeat-y 0 0;
+}
+
+div.inquiry div.inner:after{
+	display: block;
+	height: 0;
+	clear: both;
+	content: "";
+}
+
+div.inquiry dl{
+	width: 401px;
+	float: left;
+	padding-left: 28px;
+}
+
+div.inquiry dl.first{
+	padding-left: 0;
+}
+
+div.inquiry dt{
+	margin-bottom: 7px;
+	font-weight: bold;
+	font-size: 108%;
+}
+
+div.inquiry dd{
+	margin-bottom: 0.2em;
+}
+
+/* タブ */
+ul#newsMenu{
+	height: 37px;
+	background: url("/common/img/spriteSceNews.gif") no-repeat 0 -74px;
+}
+
+ul#newsMenu li#scejImportant{
+	width: 199px;
+	height: 37px;
+	background: url("/common/img/spriteSceNews.gif") no-repeat -199px 0;
+}
+
+/* ---------------------------------------------- */
+/* 12.3 PSOneサポートトップ */
+body#Ps1SupportTop div.supportInfo{
+	background-position: -1701px 0;
+}
+
+/* ---------------------------------------------- */
+/* S5.0 SCEソフトウェア */
+
+/* ラインナップ */
+p#sceMenu01,
+p#sceMenu02{
+	margin: 20px 0 0;
+	width: 421px;
+}
+
+p#sceMenu01{
+	float: left;
+}
+
+p#sceMenu02{
+	float: right;
+}
+
+p#sceMenu01 a.img:hover{
+	border-color: #ba0728;
+}
+
+p#sceMenu02 a.img:hover{
+	border-color: #f9be14;
+}
+
+/* タブ */
+ul#newsMenu li#update a,
+ul#newsMenu li#info a,
+ul#newsMenu li#online a{
+	display: block;
+	height: 37px;
+	background: url("/common/img/spriteSceTop.gif") no-repeat;
+}
+
+ul#newsMenu li a span{
+	display: none;
+}
+
+ul#newsMenu li#update a{
+	width: 86px;
+	background-position: 0 0;
+}
+
+ul#newsMenu li#update a:hover{
+	background-position: 0 -37px;
+}
+
+ul#newsMenu li#update a.active,
+ul#newsMenu li#update a.active:hover{
+	background-position: 0 -74px;
+}
+
+ul#newsMenu li#info a{
+	width: 304px;
+	background-position: -86px 0;
+}
+
+ul#newsMenu li#info a:hover{
+	background-position: -86px -37px;
+}
+
+ul#newsMenu li#info a.active,
+ul#newsMenu li#info a.active:hover{
+	background-position: -86px -74px;
+}
+
+ul#newsMenu li#online a{
+	width: 217px;
+	background: url("/common/img/spriteSceTop.gif") no-repeat -390px 0;
+}
+
+ul#newsMenu li#online a:hover{
+	background-position: -390px -37px;
+}
+
+ul#newsMenu li#online a.active,
+ul#newsMenu li#online a.active:hover{
+	background-position: -390px -74px;
+}
+
+/* 一覧へ */
+body#sceTop div#news div.newsList{
+	background: url("/common/img/spritePS3.png") no-repeat right bottom;
+}
+
+/* テキストバナー */
+div#termsMenu ul,
+ul.banner.text{
+	text-align: left;
+}
+
+div#termsMenu li,
+ul.banner.text li{
+	display: inline-block;
+	/display: inline;
+	/zoom: 1;
+	width: auto;
+	float: none;
+	margin-right: 20px;
+	margin-bottom: 0.5em;
+	padding-left: 0;
+}

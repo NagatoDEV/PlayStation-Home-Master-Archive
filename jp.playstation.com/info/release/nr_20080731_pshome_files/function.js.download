@@ -1,0 +1,163 @@
+function puWin(url,width,height){
+	if(!width)width = 400;
+
+	if(!height)height = 420;
+
+	window.open(url,"popup","width="+width+",height="+height+"toolbar=no,status=no,menubar=no,resizable=no,scrollbars");
+}
+
+function Init(){
+	if(jQuery("#psGNav").length > 0){
+		jQuery("#psGNav li[class!='here'] a").hover(
+			function(){
+				jQuery(this).css('opacity',0).animate({opacity:1},0.5*1000);
+			},
+			function(){
+				jQuery(this).css('opacity',1);
+			}
+		);
+	}
+
+	jQuery('a[href="#top"]').click(function(){
+		jQuery(window).scrollTop(0);
+		return false;
+	});
+
+	if(jQuery(".softPanel").length){
+		jQuery(".softPanel").swPanel();
+	}
+
+	jQuery("#pulldownArrow").hover(
+		function(){
+			jQuery("#changeSearch").show();
+		},
+		function(){
+			jQuery("#changeSearch").hide();
+		}
+	);
+	jQuery("#changeSearch").hover(
+		function(){
+			jQuery("#changeSearch").show();
+		},
+		function(){
+			jQuery("#changeSearch").hide();
+		}
+	);
+
+	updateTabInit();
+	srchFunc.init();
+}
+
+function rollThumbSC(name,ref){
+	
+			var s = s_gi(s_account);
+			s.linkTrackVars='eVar1,eVar28';
+			s.eVar1='thumbnail';
+			s.eVar28=ref+':'+name;
+			s.tl(this,'o','finding method');
+		
+}
+
+function makerLinkSC(name,title){
+	
+			var s=s_gi(s_account);
+			s.linkTrackVars='eVar22,events';
+			s.linkTrackEvents='event10';
+			s.eVar22=name+':'+title;
+			s.events='event10';
+			s.tl(this,'o','partner lead');
+		
+}
+
+function updateTabInit(){
+	if(!jQuery(".tabs").length){
+		return false;
+	}
+	var btns = jQuery(".tabs *[class*='tab']");
+	var tabs = jQuery(".tabs *[id^='tabBody']");
+	btns.each(function(){
+		var btn = jQuery(this);
+		var aTag = jQuery(this).children("a");
+		aTag.click(function(){
+			btns.children('a').removeClass('active');
+			tabs.removeClass('active');
+			var myClass = jQuery(btn).attr('class').match(/tab(\d)/);
+			var tabNum = myClass[1];
+			btn.children('a').addClass('active');
+			jQuery("#tabBody"+tabNum).addClass("active");
+			return false;
+		});
+	});
+}
+
+(function(window){
+	var srchFlag = "srchSite";
+
+	var srchParams = {
+		srchSite:{
+			string:"サイト内検索",
+			dParam:1,
+			gParam:0
+		},
+		srchSw:{
+			string:"ソフトウェア検索",
+			dParam:2,
+			gParam:1
+		}
+	};
+
+	var srchFunc = new Object();
+
+	srchFunc.chgParam = function(id){
+		srchFlag = id;
+		jQuery("#paramDesign").val(srchParams[id].dParam);
+		jQuery("#paramGroup").val(srchParams[id].gParam);
+		if(!chkQueryString()){
+			jQuery("#SS_searchQuery").val(srchParams[srchFlag].string);
+		}
+		jQuery("#changeSearch").hide();
+		return false;
+	};
+
+	srchFunc.init = function(){
+		jQuery("#changeSearch ul li a").each(function(){
+			jQuery(this).click(function(){
+				srchFunc.chgParam(jQuery(this).attr('id'));
+			});
+		});
+		jQuery("#SS_searchQuery").focus(function(){
+			if(!chkQueryString()){
+				jQuery(this).val("");
+			}
+		})
+		jQuery("#SS_searchQuery").blur(function(){
+			var string = jQuery(this).val();
+			if(!string){
+				jQuery(this).val(srchParams[srchFlag].string);
+			}
+		})
+		jQuery("#SS_searchForm").submit(function(){
+			if(chkQueryString() && jQuery("#SS_searchQuery").val() != ""){
+				jQuery(this).submit();
+			}else{
+				return false;
+			}
+		});
+	};
+
+	function chkQueryString(){
+		var string = jQuery("#SS_searchQuery").val();
+		for(i in srchParams){
+			if(srchParams[i].string == string){
+				return false;
+			}
+		}
+		return true;
+	}
+
+	window.srchFunc = srchFunc;
+})(window);
+
+
+
+jQuery(Init);

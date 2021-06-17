@@ -1,0 +1,190 @@
+
+<!-- saved from url=(0037)https://sp.gmossp-sp.jp/ads/sync.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body data-new-gr-c-s-check-loaded="14.1014.0" data-gr-ext-installed="">
+<script type="text/javascript">
+(function(){
+	var getCookie = function(n){
+		var i,x,y,c=document.cookie.split(";");
+		for (i=0;i<c.length;i++)
+		{
+			x=c[i].substr(0,c[i].indexOf("="));
+			y=c[i].substr(c[i].indexOf("=")+1);
+			x=x.replace(/^\s+|\s+$/g,"");
+			if (x==n)
+			{
+				return unescape(y);
+			}
+		}
+		return null;
+	},
+    getUserAgentInfo = function() {
+      var ua = navigator.userAgent.toLowerCase();
+      if (match = /edge\/([.0-9]+)/.exec(ua)) {
+        return {"app": "edge", "ver": match[1]};
+      } else if (match = /chrome\/([.0-9]+)/.exec(ua)) {
+        return {"app": "chrome", "ver": match[1]};
+      }
+      return {"app": "", "ver": "0"};
+    },
+    getProtocol = function() {
+      var ua = getUserAgentInfo();
+      if (ua.app == "chrome") {
+        return "https:";
+      }
+
+      return location.protocol;
+    },
+	getStorage = function(n,j){
+		var r = getCookie(n);
+		
+		if(j){
+			if(!r) return {};
+			r = JSON.parse(r);
+		}
+		return r;
+	},
+	
+	setStorage = function(n,v,j,e){
+		if(j){
+			v = window.JSON.stringify(v);
+		}
+		if(!e){
+			e = "Mon, 01-Jan-2038 12:00:00 GMT;";
+		}
+        var cookieValue = n + "=" + escape(v) + "; expires=" + e;
+        var ua = getUserAgentInfo();
+        if (ua.app == "chrome") {
+            cookieValue += "; SameSite=None; Secure";
+        }
+        document.cookie = cookieValue;
+	},
+	
+	create_img = function(url){
+		var d = document.createElement("img");
+		d.setAttribute("style", "border:0px; width:1px; height:1px;");
+		d.setAttribute("src",url);
+		document.body.appendChild(d);
+    },
+    createIframe = function(url) {
+        var i = document.createElement("iframe");
+        i.setAttribute("style", "position:absolute;top:-999px;left:-999px;");
+        i.setAttribute("src", url);
+        document.body.appendChild(i);
+	},
+
+	checkSync = function(){
+		var ua = navigator.userAgent;
+		var isIOS = /iP(hone|(o|a)d)/.test(ua);
+		
+		if (isIOS){
+			if (ua.indexOf('Safari') >= 0) {
+			
+				var version = ua.split('OS ')[1].split(' ')[0];
+				
+				if (version.indexOf('_') >= 0) {
+					version = parseInt(version.split('_')[0]);
+				}
+				
+				if (version >= 11 && ua.indexOf('Version/') >= 0) {
+					return false;
+				}
+			}
+		}
+		return true;
+	}
+	
+	window.onload = function (){
+		if(!navigator.cookieEnabled){
+			return true;
+		}
+		
+		var uid = getStorage("deviceIdentifier");
+		if( !uid ){
+			return false;
+		}
+
+		if (uid.length < 16){
+		    return false;
+        }
+
+		var isHttp = (location.protocol=="http:");
+		var isHttps = (location.protocol=="https:");
+        var protocol = getProtocol();
+
+        setTimeout(function() {
+            if(window.stop)
+            {
+                window.stop();
+            }
+            else if(window.document.execCommand)
+            {
+                window.document.execCommand("Stop", false);
+            }
+        },1000);
+        
+		if(isHttp || isHttps){
+			create_img(protocol + "//pixel.tapad.com/idsync/ex/receive?partner_id=2741&partner_device_id=" + uid);
+		}
+
+        if(getStorage("sync_interval")){
+		    return false;
+        }else{
+            var dat = new Date();
+            dat.setDate(dat.getDate() + 1);
+            setStorage("sync_interval", Math.round( dat.getTime() / 1000 ), false, dat.toUTCString());
+        }
+		
+		if(isHttp || isHttps){
+			var syncValid = checkSync();
+	
+			if(!getStorage("dsp_freakout")){
+				create_img(protocol + "//sync.fout.jp/sync?xid=gmosspsp&uid=" + uid);
+				var dat = new Date();
+				dat.setDate(dat.getDate() + 30);
+				setStorage("dsp_freakout", {"sync":true}, true, dat.toUTCString());
+			}
+		
+			if(!getStorage("dsp_admatrix")){
+                create_img("https://sync-dsp.ad-m.asia/dsp/api/sync/send?s=gmo");
+			}
+			if(!getStorage("dmp_im")){
+				create_img(protocol + "//sync.im-apps.net/imid/set?cid=1000096&tid=sid&uid=" + uid);
+				var dat = new Date();
+				dat.setDate(dat.getDate() + 93);
+				setStorage("dmp_im", {"sync":true}, true, dat.toUTCString());
+			}
+			
+			if(!getStorage("dsp_momentum")){
+				create_img(protocol + "//jp-axia.m0mentum.net/sync/1/4/" + uid);
+			}
+			if(!getStorage("dsp_uliza")){
+				var qs=location.search.substring(1);
+				if(/uliza=1/.test(qs)){
+					create_img(protocol + "//ad-api-v01.uliza.jp/cookiesync_gmo.php?sync_uuid=" + uid);
+				}
+			}
+			if(!getStorage("dsp_reemo") && syncValid){
+				create_img(protocol + "//sync.dsp.reemo-ad.jp/gmo_ssp?stype=0&sp_uid=" + uid);
+                createIframe(protocol + "//js.dsp.reemo-ad.jp/html/sync-sp.html");
+            }
+            if(!getStorage("dsp_logicad") && syncValid){
+                create_img(protocol + "//cr-p32.ladsp.jp/cookiesender/32");
+            }
+            if (!getStorage("dsp_amebadsp")) {
+                create_img("https://adsd-sync.amanad.adtdp.com/gmosync");
+            }
+            if (!getStorage("dsp_unicorn")) {
+                create_img(protocol + "//ds.uncn.jp/gm/0/sync");
+            }
+
+			if(!getStorage("dsp_bidswitch")) {
+				create_img(protocol + "//x.bidswitch.net/sync?ssp=gmo&gmossp=1&user_id=" + uid);
+			}
+            
+		}
+	}
+})();
+</script>
+
+
+<img style="border:0px; width:1px; height:1px;" src="./receive"><img style="border:0px; width:1px; height:1px;" src="./sync"><img style="border:0px; width:1px; height:1px;" src="./send"><img style="border:0px; width:1px; height:1px;" src="./set"><img style="border:0px; width:1px; height:1px;" src="./qGkLDQan928uQFGh"><img style="border:0px; width:1px; height:1px;" src="./gmo_ssp"><iframe style="position:absolute;top:-999px;left:-999px;" src="./sync-sp.html"></iframe><img style="border:0px; width:1px; height:1px;" src="./32"><img style="border:0px; width:1px; height:1px;" src="./gmosync"><img style="border:0px; width:1px; height:1px;" src="./sync(1)"><img style="border:0px; width:1px; height:1px;" src="./sync(2)"></body></html>

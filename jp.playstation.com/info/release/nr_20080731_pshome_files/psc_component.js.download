@@ -1,0 +1,1688 @@
+//------------------------------------------------
+// Signin改修 2016.09.07
+//------------------------------------------------
+var psn_sigin_path = '/sys/auth/signin?type=sso&referer=' + encodeURIComponent(location.href);
+// テスト用
+if(location.hash == "#notsignin") {
+    psn_sigin_path = '../../../../../signin/result_not_siginined.html';
+}
+if(global_psnSignined == undefined) {
+    var global_myAccountInfo = null;
+    var global_psnSignined   = null;
+    var global_Signin_loaded = false;
+}
+var signinStatus = function (loginStatus, accountInfo) {
+    //console.log(loginStatus);
+    //console.log(accountInfo);
+    global_myAccountInfo    = accountInfo;
+    global_psnSignined      = loginStatus;
+    // メイン処理を実行
+    mainApp.signinStatus(loginStatus, accountInfo);
+    if(window["global_account_app"]) {
+        global_account_app.main();
+    }
+    else {
+        global_Signin_loaded = true;
+    }
+};
+var Delegate = (function () {
+    /**
+     * Constractor
+     * @param func 関数
+     * @param scope スコープ等
+     * @param args　可変長引数
+     */
+    function Delegate(func, scope) {
+        var args = [];
+        for (var _i = 2; _i < arguments.length; _i++) {
+            args[_i - 2] = arguments[_i];
+        }
+        this._func = func;
+        this._scope = scope;
+        if (args != null || args.length != 0) {
+            this._args = args;
+        }
+    }
+
+    /*----------------------------------------------------------------------------------------------------
+     METHOD
+     ---------------------------------------------------------------------------------------------------*/
+    /**
+     * 実行
+     */
+    Delegate.prototype.invoke = function (e) {
+        if (this._args != undefined) {
+            this._func.apply(this._scope, this._args);
+        }
+        else {
+            this._func.apply(this._scope, e);
+        }
+    };
+    return Delegate;
+})();
+var CookieUtil = (function () {
+    function CookieUtil() {
+    }
+
+    //------------------------------------------------------
+    // Method
+    //------------------------------------------------------
+    /**
+     * サインイン状態かどうか調べる
+     */
+    CookieUtil.checkCookie = function () {
+        if (CookieUtil.cookies == undefined)
+            CookieUtil.initialize();
+        if (CookieUtil.cookies[CookieUtil.PSN_ID] == undefined) {
+            return false;
+        }
+        else {
+            var value = CookieUtil.cookies[CookieUtil.PSN_ID];
+            // pscomlg = 1 : signined, 0: singin
+            if (value == "1") {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+    };
+    /**
+     * サインイン
+     */
+    CookieUtil.signin = function () {
+    };
+    /**
+     * サインアウト
+     */
+    CookieUtil.signout = function () {
+    };
+    /**
+     * 初期化
+     */
+    CookieUtil.initialize = function () {
+        CookieUtil.cookies = {};
+        var cookie = document.cookie.split('; ');
+        for (var i = 0; i < cookie.length; ++i) {
+            var temp = cookie[i].split("=");
+            var key = temp[0];
+            var value = temp[1];
+            CookieUtil.cookies[key] = value;
+        }
+    };
+    //------------------------------------------------------
+    // PROPERTY
+    //------------------------------------------------------
+    // 定数
+    CookieUtil.PSN_ID = 'pscomlg';
+    return CookieUtil;
+})();
+var UserAgent = (function () {
+    /*----------------------------------------------------------------------------------------------------
+     PROPERTY
+     ---------------------------------------------------------------------------------------------------*/
+
+    //public static _instance:UserAgent = null;      // インスタンス
+    /**
+     * Constractor
+     */
+    function UserAgent() {
+    }
+
+    /*----------------------------------------------------------------------------------------------------
+     METHOD
+     ---------------------------------------------------------------------------------------------------*/
+    /**
+     * サポート対応を調べる
+     *
+     * @param browsers
+     * @returns {boolean}
+     */
+    UserAgent.isSupported = function (browsers) {
+        var thusBrowser = UserAgent.getBrowser();
+        for (var i = 0; i < browsers.length; i++) {
+            if (browsers[i] == thusBrowser) {
+                return true;
+            }
+        }
+        return false;
+    };
+    /**
+     * ブラウザを取得
+     * @returns {string}
+     */
+    UserAgent.getBrowser = function () {
+        var ua = window.navigator.userAgent.toLowerCase();
+        var ver = window.navigator.appVersion.toLowerCase();
+        var name = 'unknown';
+        if (ua.indexOf("msie") != -1) {
+            if (ver.indexOf("msie 6.") != -1) {
+                name = 'ie6';
+            }
+            else if (ver.indexOf("msie 7.") != -1) {
+                name = 'ie7';
+            }
+            else if (ver.indexOf("msie 8.") != -1) {
+                name = 'ie8';
+            }
+            else if (ver.indexOf("msie 9.") != -1) {
+                name = 'ie9';
+            }
+            else if (ver.indexOf("msie 10.") != -1) {
+                name = 'ie10';
+            }
+            else {
+                name = 'ie';
+            }
+        }
+        else if (ua.indexOf('trident/7') != -1) {
+            name = 'ie11';
+        }
+        else if (ua.indexOf('chrome') != -1) {
+            name = 'chrome';
+        }
+        else if (ua.indexOf('safari') != -1) {
+            if (ua.indexOf('iphone') != -1) {
+                name = 'iphone';
+            }
+            else if (ua.indexOf('android') != -1) {
+                name = 'android';
+            }
+            else {
+                name = 'safari';
+            }
+        }
+        else if (ua.indexOf('opera') != -1) {
+            name = 'opera';
+        }
+        else if (ua.indexOf('firefox') != -1) {
+            name = 'firefox';
+        }
+        else if (ua.indexOf('playstation vita') != -1) {
+            name = 'playstation vita';
+        }
+        else if (ua.indexOf('playstation 4') != -1) {
+            name = 'playstation 4';
+        }
+        else if (ua.indexOf('playstation 3') != -1) {
+            name = 'playstation 3';
+        }
+        //name = 'playstation 4';
+        //name = 'ie7';
+        return name;
+    };
+    return UserAgent;
+})();
+/**
+ * @class Browser
+ * ブラウザチェックし、IE10以下の場合には、アラートを表示する。
+ * @date    2015.04.10
+ */
+var Browser = (function () {
+    /**
+     * Constructor
+     */
+    function Browser() {
+        throw new Error("can't create Browser class instance");
+    }
+
+    //------------------------------------------------------
+    // Method
+    //------------------------------------------------------
+    /**
+     * Browser情報を取得
+     *
+     * @returns {string}
+     */
+    Browser.checkBrowser = function () {
+        Browser._ua = UserAgent.getBrowser();
+        return Browser._ua;
+    };
+    /**
+     *
+     * @param $browser_name
+     */
+    Browser.judgmentAlert = function ($browser_name) {
+        if ('ie10' == $browser_name || 'ie9' == $browser_name || 'ie8' == $browser_name || 'ie7' == $browser_name || 'ie6' == $browser_name) {
+            $('#browser-alert').css({'display': 'block'});
+        }
+    };
+    return Browser;
+})();
+/************************************************
+ * PSConfigクラス
+ *
+ * 設定クラス。
+ * 各種APIのパス等
+ *
+ *
+ ************************************************/
+var PSConfig = (function () {
+    function PSConfig() {
+    }
+
+    //------------------------------------------------------
+    // METHOD
+    //------------------------------------------------------
+    /**
+     * 初期化
+     */
+    PSConfig.initialize = function () {
+        PSConfig.API_SIGNIN = PSConfig.getSigninPath();
+        PSConfig.API_SIGNOUT = PSConfig.getSignoutPath();
+        PSConfig.API_USER_INFO = PSConfig.getInfoPath();
+    };
+    /**
+     * サインインURLを作成
+     * @returns {string}
+     */
+    PSConfig.createSigninPath = function () {
+        var url = location.href;
+        // 取得したURLは既にURLエンコード済みのため、そのまま設定するので問題なし。
+        return PSConfig.API_SIGNIN + "?referer=" + url;
+    };
+    /**
+     * サインアウトURLを作成
+     * @returns {string}
+     */
+    PSConfig.createSignoutPath = function () {
+        var url = location.href;
+        return PSConfig.API_SIGNOUT + "?referer=" + url;
+    };
+    /**
+     * サインインパスを返す
+     *
+     * @returns {string}
+     */
+    PSConfig.getSigninPath = function () {
+        if (PSConfig.isDevelop()) {
+            return 'signin.html' + '?referer=' + encodeURIComponent(location.href);
+        }
+        else {
+            return PSConfig.PRO_SIGNIN + '?referer=' + encodeURIComponent(location.href);
+        }
+    };
+    /**
+     * サインアウトパスを返す
+     *
+     * @returns {string}
+     */
+    PSConfig.getSignoutPath = function () {
+        if (PSConfig.isDevelop()) {
+            return 'signout.html' + '?referer=' + encodeURIComponent(location.href);
+        }
+        else {
+            return PSConfig.PRO_SIGNOUT + '?referer=' + encodeURIComponent(location.href);
+        }
+    };
+    /**
+     * ユーザー情報を返す
+     *
+     * @returns {string}
+     */
+    PSConfig.getInfoPath = function () {
+        if (PSConfig.isDevelop()) {
+            return 'api/info.jsonp';
+        }
+        else {
+            return PSConfig.PRO_INFO;
+        }
+    };
+    /**
+     * ゲームリストパス
+     *
+     * @returns {string}
+     */
+    PSConfig.getGamesPath = function () {
+        if (PSConfig.isDevelop()) {
+            return 'api/games.json';
+        }
+        else {
+            return PSConfig.PRO_GAMES;
+        }
+    };
+    /**
+     * トロフィーリストパス
+     *
+     * @returns {string}
+     */
+    PSConfig.getTrophyPath = function () {
+        if (PSConfig.isDevelop()) {
+            return 'api/trophies.json';
+        }
+        else {
+            return PSConfig.PRO_TROPHY;
+        }
+    };
+    /**
+     * フレンドリストパス
+     *
+     * @returns {string}
+     */
+    PSConfig.getFriendPath = function () {
+        if (PSConfig.isDevelop()) {
+            return 'api/friends.json';
+        }
+        else {
+            return PSConfig.PRO_FRIEND;
+        }
+    };
+    /**
+     * フレンドのゲームリストパス
+     *
+     * @returns {string}
+     */
+    PSConfig.getFriendGamesPath = function () {
+        if (PSConfig.isDevelop()) {
+            return 'api/friends_games.json';
+        }
+        else {
+            return PSConfig.PRO_FRIEND_GAMES;
+        }
+    };
+    /**
+     * フレンドのトロフィーリストパス
+     *
+     * @returns {string}
+     */
+    PSConfig.getFriendTrophyPath = function () {
+        if (PSConfig.isDevelop()) {
+            return 'api/friends_trophies.json';
+        }
+        else {
+            return PSConfig.PRO_FRIEND_TROPHY;
+        }
+    };
+    /**
+     * 開発環境かどうか調べる
+     *
+     * @returns {boolean}
+     */
+    PSConfig.isDevelop = function () {
+        return false;
+        var path = location.href;
+        // プロダクション環境か調べる
+        if (path.indexOf(PSConfig.DOMAIN_PRODUCTION) != -1) {
+            return false;
+        }
+        return true;
+    };
+    //------------------------------------------------------
+    // PROPERTY
+    //------------------------------------------------------
+    // Production環境のドメイン
+    PSConfig.DOMAIN_PRODUCTION = 'asia.playstation.com';
+    PSConfig.PRO_SIGNIN = '/sys/auth/signin';
+    PSConfig.PRO_SIGNOUT = '/sys/auth/signout';
+    PSConfig.PRO_INFO = '/sys/account/info';
+    PSConfig.PRO_GAMES = '../sys/account/games/';
+    PSConfig.PRO_TROPHY = '../sys/account/games/trophies/';
+    PSConfig.PRO_FRIEND = '../sys/account/friends/';
+    PSConfig.PRO_FRIEND_GAMES = '../sys/account/friends/games/';
+    PSConfig.PRO_FRIEND_TROPHY = '..//sys/account/friends/games/trophies/';
+    return PSConfig;
+})();
+/**
+ * ViewSPNaviクラス
+ *
+ * スマートフォン用ナビゲーション機能
+ *
+ */
+var ViewSPNavi = (function () {
+    /**
+     * Constractor
+     */
+    function ViewSPNavi() {
+        this._isOpen = false;
+        this._currentWidth = 0;
+        // フリック処理
+        this._currentX = 0;
+        this._posX = 0;
+        this._y1 = 0;
+        this._y2 = 0;
+        this._target_toggle = $('#psc-sp-nav-toggle');
+        this._target_nav = $('#nav-sp-main');
+    }
+
+    /*----------------------------------------------------------------------------------------------------
+     METHOD
+     ---------------------------------------------------------------------------------------------------*/
+    /**
+     * 初期化
+     */
+    ViewSPNavi.prototype.init = function () {
+        // 初回の表示関数をセットする。
+        this._naviFunc = this.appear;
+        // ポジション設定
+        $('#nav-global-sp').css({top: $('#global-header').height()});
+        var _this = this;
+        // SP用ハンバーガーナビ
+        this._target_toggle.click(function (e) {
+            e.preventDefault();
+            _this._naviFunc();
+        });
+        //
+        this.setTargetLeftPosition();
+        // サイト内検索のラベルクリック
+        $('#sp-search-game').click(function (e) {
+            e.stopPropagation();
+        });
+        // ゲームソフト検索のラベルクリック
+        $('#sp-search-site').click(function (e) {
+            e.stopPropagation();
+        });
+        // コールバックを受け取るためにリスナー設定
+        if (this._target_nav.on != undefined) {
+            this._target_nav.on("oTransitionEnd mozTransitionEnd webkitTransitionEnd transitionend", function () {
+                if (!_this._isOpen) {
+                    $('#nav-global-sp').css({"display": "none"});
+                }
+            });
+        }
+        this._currentWidth = $(window).width();
+        // リサイズ処理
+        $(window).resize(function () {
+            _this.onResizeListener();
+        });
+        _this.onResizeListener();
+        // フリックイベント設定
+        /*
+         var box:any = $('#nav-global-sp')[0];
+         var callback:Function = this.onTouchListener;
+         box.addEventListener("touchstart", function(e){
+         callback.call(_this, e);
+         }, false);
+         box.addEventListener("touchmove", function(e){
+         callback.call(_this, e);
+         }, false);
+         box.addEventListener("touchend", function(e){
+         callback.call(_this, e);
+         }, false);
+         */
+        // 透過背景
+        /*$('#nav-global-sp').click(function(){
+         //console.log("close done");
+         var value:number = _this._currentX - _this._posX;
+         if(value > 80 ) _this.disappear();
+
+         console.log(value, "ok");
+         });*/
+    };
+    /**
+     * 表示処理
+     */
+    ViewSPNavi.prototype.appear = function () {
+        var header_height = $('#global-header').height();
+        $('#nav-global-sp').css({"display": "block", "top": header_height});
+        this._naviFunc = this.disappear;
+        var goal = $(window).width() - $(this._target_nav).width();
+        this._isOpen = true;
+        var valueX = $('#nav-sp-main .psc-sp-nav-inner').innerWidth();
+        this._target_nav.css({
+            "-webkit-transform": "translate3d(" + (-valueX) + "px, 0, 0)",
+            "-moz-transform": "translate3d(" + (-valueX) + "px, 0, 0)",
+            "-ms-transform": "translate3d(" + (-valueX) + "px, 0, 0)",
+            "-o-transform": "translate3d(" + (-valueX) + "px, 0, 0)",
+            "-webkit-transition": "-webkit-transform 400ms cubic-bezier(0,0,0.25,1)",
+            "-moz-transition": "-moz-transform 400ms cubic-bezier(0,0,0.25,1)",
+            "-ms-transition": "-ms-transform 400ms cubic-bezier(0,0,0.25,1)",
+            "-o-transition": "-o-transform 400ms cubic-bezier(0,0,0.25,1)"
+        });
+    };
+    /**
+     * 非表示
+     */
+    ViewSPNavi.prototype.disappear = function () {
+        this._naviFunc = this.appear;
+        //this._target_nav.animate({"left": $(window).width()});
+        this._isOpen = false;
+        this._target_nav.css({
+            //"-webkit-transform": "translate3d(0px, 0, 0)",
+            //"-webkit-transition": "-webkit-transform 500ms cubic-bezier(0,0,0.25,1)"
+            "-webkit-transform": "translate3d(0px, 0, 0)",
+            "-moz-transform": "translate3d(0px, 0, 0)",
+            "-ms-transform": "translate3d(0px, 0, 0)",
+            "-o-transform": "translate3d(0px, 0, 0)",
+            "-webkit-transition": "-webkit-transform 400ms cubic-bezier(0,0,0.25,1)",
+            "-moz-transition": "-moz-transform 400ms cubic-bezier(0,0,0.25,1)",
+            "-ms-transition": "-ms-transform 400ms cubic-bezier(0,0,0.25,1)",
+            "-o-transition": "-o-transform 400ms cubic-bezier(0,0,0.25,1)"
+        });
+    };
+    ViewSPNavi.prototype.setTargetLeftPosition = function () {
+        var w = $(window).width();
+        this._target_nav.css({"left": w});
+    };
+    /**
+     * リサイズリスナ
+     */
+    ViewSPNavi.prototype.onResizeListener = function () {
+        if (this._currentWidth != $(window).width()) {
+            this.disappear();
+            this._currentWidth = $(window).width();
+        }
+        this.setTargetLeftPosition();
+    };
+    /**
+     * 画面タッチリスナ。フリック対応
+     * @param e
+     */
+    ViewSPNavi.prototype.onTouchListener = function (e) {
+        var touch = e.touches[0];
+        if (e.type == "touchstart") {
+            this._posX = touch.pageX;
+            this._y1 = touch.pageY;
+        }
+        if (e.type == "touchmove") {
+            this._currentX = touch.pageX;
+            this._y2 = touch.pageY;
+            var dist = this._y1 - this._y2;
+            if (Math.abs(dist) < 5) {
+                e.preventDefault();
+            }
+        }
+        if (e.type == "touchend") {
+            var value = this._currentX - this._posX;
+            if (value > 80)
+                this.disappear();
+        }
+    };
+    return ViewSPNavi;
+})();
+/// <reference path="../common/jquery.d.ts" />
+/**
+ * グローバルナビゲーションの実装
+ *
+ * メガドロップダウン
+ *
+ *
+ */
+var ViewMDD = (function () {
+    function ViewMDD() {
+        this._isOpen = false; // オープンフラグ
+        this._isPS4 = false; // PS4フラグ
+    }
+
+    /*----------------------------------------------------------------------------------------------------
+     METHOD
+     ---------------------------------------------------------------------------------------------------*/
+    /**
+     * 初期化
+     */
+    ViewMDD.prototype.init = function () {
+        this._megaDropdown = $('#mdd');
+        this._naviHeight = $('#global-header').height();
+        // グローバルナビを作成
+        this.initGlobalNavi();
+    };
+    /**
+     * PSVita TVページ用にIDを置き換える
+     *
+     * @param id
+     * @returns {any}
+     */
+    ViewMDD.prototype.replaceID = function (id) {
+        var tempID = id;
+        switch (id) {
+            case 'nav-1':
+                tempID = '#mdd-products';
+                break;
+            case 'nav-2':
+                tempID = '#mdd-services';
+                break;
+            case 'nav-3':
+                tempID = '#mdd-store';
+                break;
+            case 'nav-4':
+                tempID = '#mdd-support';
+                break;
+            case 'nav-5':
+                tempID = '#mdd-signin';
+                break;
+            case 'nav-6':
+                tempID = '#mdd-signed';
+                break;
+        }
+        return tempID;
+    };
+    /**
+     * グローバルナビを初期化
+     */
+    ViewMDD.prototype.initGlobalNavi = function () {
+        var _this = this;
+        // マウスオーバー処理
+        $('.psc-cell-global').hover(function () {
+            _this.removeMegaDropdown($(this));
+            if (_this._currentNav)
+                _this.clearNavMouseOver();
+            _this._currentNav = this;
+            // 背景の色変更
+            var id = $(this).attr("id");
+            _this.changeNavMouseOver(id);
+            // PS VitaTVページ用
+            var data = $(this).data("id");
+            if (data == undefined)
+                data = id;
+            data = _this.replaceID(data);
+            _this.onMouseOver(data);
+        });
+        $('.psc-cell-global-signed').hover(function () {
+            _this.removeMegaDropdown($(this));
+            if (_this._currentNav)
+                _this.clearNavMouseOver();
+            _this._currentNav = this;
+            // 背景の色変更
+            var id = $(this).attr("id");
+            _this.changeNavMouseOver(id);
+            var id = $(this).data("id");
+            _this.onMouseOver(id);
+        });
+        // メガドロップダウンのマウスオーバー処理
+        this._megaDropdown.hover(function () {
+            _this.appearMegaDropdown();
+        }, function () {
+            _this.disappearMegaDropdown();
+        });
+        this._megaDropdown.click(function () {
+            _this.disappearMegaDropdown();
+        });
+        $('#sony-area').hover(function () {
+            _this.disappearMegaDropdown();
+        });
+        // PSロゴのマウスオーバー
+        $('#nav-0').hover(function () {
+            _this.disappearMegaDropdown();
+        });
+        // コールバックを受け取るためにリスナー設定
+        if (this._megaDropdown.on != undefined) {
+            this._megaDropdown.on("oTransitionEnd mozTransitionEnd webkitTransitionEnd transitionend", function () {
+                if (!_this._isOpen) {
+                    $('#mdd').css({"display": "none"});
+                }
+            });
+        }
+        $(window).scroll(function () {
+            _this.disappearMegaDropdown();
+        });
+        $(window).resize(function () {
+            if ($(window).width() < 850) {
+                $('#mdd').css({display: "none"});
+            }
+            else {
+                $('#mdd').css({display: "block"});
+            }
+        });
+
+        // Starblasterにマウスオーバー
+        $('#sb-social-toolbar-root').hover(function () {
+            _this.removeMegaDropdown($(this));
+            _this.disappearMegaDropdown();
+        });
+
+        /**
+         * アクセシビリティ対応追加
+         * 2018.5.8
+         */
+
+        // フォーカス処理
+        $('.psc-cell-global > a').focus(function () {
+            if (_this._currentNav)
+                _this.clearNavMouseOver();
+            _this._currentNav = this.parentNode;
+            // 背景の色変更
+            var id = $(this).parent().attr("id");
+            _this.changeNavMouseOver(id);
+            // PS VitaTVページ用
+            var data = $(this).parent().data("id");
+            if (data == undefined)
+                data = id;
+            data = _this.replaceID(data);
+            _this.navFocus(data);
+            // メガドロップダウンのDOM移動
+            _this.moveMegaDropdown($(this));
+        });
+        $('.psc-link-global-signed').focus(function () {
+            if (_this._currentNav)
+                _this.clearNavMouseOver();
+            _this._currentNav = this.parentNode;
+            // 背景の色変更
+            var id = $(this).parent().attr("id");
+            _this.changeNavMouseOver(id);
+            // PS VitaTVページ用
+            var data = $(this).parent().data("id");
+            if (data == undefined)
+                data = id;
+            data = _this.replaceID(data);
+            _this.navFocus(data);
+            // メガドロップダウンのDOM移動
+            _this.moveMegaDropdown($(this));
+        });
+        $('.psc-link-global-ps').focus(function () {
+            _this.removeMegaDropdown($(this));
+            _this.disappearMegaDropdown();
+        });
+        // 検索フォームにフォーカス
+        $('.psc-global-search input').focus(function () {
+            _this.removeMegaDropdown($(this));
+            _this.disappearMegaDropdown();
+        });
+        // Starblasterにフォーカス
+        $('#sb-social-toolbar-root').on('focus', 'a', function() {
+            _this.removeMegaDropdown($(this));
+            _this.disappearMegaDropdown();
+        });
+
+        /**
+         * アクセシビリティ対応追加
+         * ここまで
+         */
+    };
+    /**
+     * メガドロップダウンメニューを表示
+     */
+    ViewMDD.prototype.appearMegaDropdown = function () {
+        $('#sb-social-toolbar-root').click();  // StarblasterのWindowを非表示
+        if (this._isOpen)
+            return;
+        this._megaDropdown.css({"display": "block"});
+        var pos = this._megaDropdown.height() + $('#global-header').height() - 200; // 200はMDDの上部にある空白エリア
+        this._megaDropdown.css({
+            "-webkit-transform": "translate3d(0, " + (pos) + "px, 0)",
+            "-moz-transform": "translate3d(0, " + (pos) + "px, 0)",
+            "-ms-transform": "translate3d(0, " + (pos) + "px, 0)",
+            "-webkit-transition": "-webkit-transform 400ms cubic-bezier(0,0,0.25,1)",
+            "-moz-transition": "-moz-transform 400ms cubic-bezier(0,0,0.25,1)",
+            "-ms-transition": "-ms-transform 400ms cubic-bezier(0,0,0.25,1)"
+        });
+        this._isOpen = true;
+    };
+    /**
+     * メガドロップダウンメニューを非表示
+     */
+    ViewMDD.prototype.disappearMegaDropdown = function () {
+        // var pos:number = -$('body').scrollTop();
+        this._megaDropdown.css({
+            "-webkit-transform": "translate3d(0, " + (0) + "px, 0)",
+            "-moz-transform": "translate3d(0, " + (0) + "px, 0)",
+            "-ms-transform": "translate3d(0, " + (0) + "px, 0)",
+            "-webkit-transition": "-webkit-transform 400ms cubic-bezier(0,0,0.25,1)",
+            "-moz-transition": "-moz-transform 400ms cubic-bezier(0,0,0.25,1)",
+            "-ms-transition": "-moz-transform 400ms cubic-bezier(0,0,0.25,1)"
+        });
+        // マウスオーバーをクリア
+        this.clearNavMouseOver();
+        this._isOpen = false;
+    };
+    /**
+     * グローバルナビのマウスオーバー処理
+     * @param id
+     */
+    ViewMDD.prototype.onMouseOver = function (id) {
+        // 検索のオプションが表示されていれば、非表示
+        $('#nav-global-search-option').css({"display": "none"});
+        if (this._currentTarget != undefined)
+            this._currentTarget.css({"display": "none"});
+        if (this._currentTarget != $(id)) {
+            this._isOpen = false;
+        }
+        this._currentTarget = $(id);
+
+        if (id != "#mdd-store") {
+            this._currentTarget.css({"display": "block"});
+        }
+        else {
+            this._currentTarget.css({"display": "table"});
+        }
+
+
+        this._megaDropdown.css({"top": -this._megaDropdown.height()});
+        this.appearMegaDropdown();
+    };
+    /**
+     * グローバルナビのマウスオーバー
+     * @param id
+     */
+    ViewMDD.prototype.changeNavMouseOver = function (id) {
+        $('#' + id + ">a").first().css({"background": "#003791"});
+    };
+    /**
+     * グローバルナビのマウスオーバー処理をクリアする。
+     */
+    ViewMDD.prototype.clearNavMouseOver = function () {
+        // グローバルナビの背景を戻す
+        var id = $(this._currentNav).attr("id");
+        $('#' + id + ">a").css({"background": "transparent"});
+    };
+    /**
+     * スクロールリスナ
+     */
+    ViewMDD.prototype.onScrollListener = function () {
+        var value = $('html body').scrollTop();
+        if (value > 100) {
+            this.disappearMegaDropdown();
+        }
+    };
+
+    /**
+     * アクセシビリティ対応追加
+     * 2018.5.8
+     */
+
+    /**
+     * グローバルナビのフォーカス処理
+     * @param id
+     */
+    ViewMDD.prototype.navFocus = function (id) {
+        // 検索のオプションが表示されていれば、非表示
+        $('#nav-global-search-option').css({"display": "none"});
+        if (this._currentTarget != undefined)
+            this._currentTarget.css({"display": "none"});
+        if (this._currentTarget != $(id)) {
+            this._isOpen = false;
+        }
+        this._currentTarget = $(id);
+
+        if (id != "#mdd-store") {
+            this._currentTarget.css({"display": "block"});
+        }
+        else {
+            this._currentTarget.css({"display": "table"});
+        }
+        this.appearMegaDropdownFocus();
+    };
+    /**
+     * メガドロップダウンメニューを表示（フォーカス制御対応）
+     */
+    ViewMDD.prototype.appearMegaDropdownFocus = function () {
+        $('#sb-social-toolbar-root').click();  // StarblasterのWindowを非表示
+        if (this._isOpen)
+            return;
+        this._megaDropdown.css({
+            "display": "block",
+            "top": "65px",
+            "-webkit-transform": "none",
+            "-moz-transform": "none",
+            "-ms-transform": "none"
+        });
+        this._isOpen = true;
+    };
+    /**
+     * メガドロップダウンのDOM操作（フォーカス制御対応）
+     */
+    ViewMDD.prototype.moveMegaDropdown = function ($pscLinkGlobal) {
+        $('.psc-mdd-empty-area').css({"display": "none"});
+        this._megaDropdown.insertAfter($pscLinkGlobal);
+    };
+    ViewMDD.prototype.removeMegaDropdown = function ($pscLinkGlobal) {
+        $('.psc-mdd-empty-area').css({"display": "block"});
+        var _this = this;
+        $("#global-header").has(this._megaDropdown).each(function () {
+            _this._megaDropdown.insertAfter($("#global-header"));
+            _this._megaDropdown.css({
+                "display": "none",
+                "-webkit-transform": "translate3d(0, 0, 0)",
+                "-moz-transform": "translate3d(0, 0, 0)",
+                "-ms-transform": "translate3d(0, 0, 0)",
+                "-webkit-transition": "-webkit-transform 400ms cubic-bezier(0,0,0.25,1)",
+                "-moz-transition": "-moz-transform 400ms cubic-bezier(0,0,0.25,1)",
+                "-ms-transition": "-moz-transform 400ms cubic-bezier(0,0,0.25,1)"
+            });
+        });
+    };
+
+    /**
+     * アクセシビリティ対応追加
+     * ここまで
+     */
+
+    return ViewMDD;
+})();
+var ViewSearch = (function () {
+    /**
+     * Constractor
+     */
+    function ViewSearch() {
+        /*----------------------------------------------------------------------------------------------------
+         PROPERTY
+         ---------------------------------------------------------------------------------------------------*/
+        this._isInit = false;
+    }
+
+    /*----------------------------------------------------------------------------------------------------
+     METHOD
+     ---------------------------------------------------------------------------------------------------*/
+    /**
+     * 初期化
+     */
+    ViewSearch.prototype.init = function () {
+        if (this._isInit)
+            return;
+        var _this = this;
+        var search_dom = $('#nav-global-search');
+        // フォーカス処理を実装
+        search_dom.focusin(function () {
+            _this.appearOptions();
+        });
+        search_dom.focusout(function () {
+            //_this.disappearOptions();
+        });
+        $('#sony-area').hover(function () {
+            _this.disappearOptions();
+        });
+        $('#psc-link-global').hover(function () {
+            _this.disappearOptions();
+        });
+        if ($('#psc-link-global-signed')[0]) {
+            $('#psc-link-global-signed').hover(function () {
+                _this.disappearOptions();
+            });
+        }
+    };
+    /**
+     * オプションパネルを表示
+     */
+    ViewSearch.prototype.appearOptions = function () {
+        // 入力フィールドの幅 + 入力フィールドのパディング領域 - オプションパネルのパディング
+        var width = $('#nav-search form fieldset').width() - 32; // + 40 - 32;
+        var posX = 42; // 右側のpadding分
+        $('#nav-global-search-option').css({"width": width, "display": "block", "right": posX});
+    };
+    /**
+     * オプションパネルを非表示
+     */
+    ViewSearch.prototype.disappearOptions = function () {
+        $('#nav-global-search-option').css({"display": "none"});
+    };
+    return ViewSearch;
+})();
+/**
+ * ViewNavigationクラス
+ *
+ * グローバルナビゲーションの機能クラス
+ *
+ *
+ */
+var ViewNavigation = (function () {
+    //------------------------------------------------------
+    // PROPERTY
+    //------------------------------------------------------
+    /**
+     * Constructor
+     */
+    function ViewNavigation() {
+    }
+
+    //------------------------------------------------------
+    // METHOD
+    //------------------------------------------------------
+    /**
+     * 初期化
+     */
+    ViewNavigation.prototype.init = function (type) {
+        if (type == 'signin') {
+            $('.psc-type-signout').css({display: 'none'});
+        }
+        else {
+            $('.psc-type-signin').css({display: 'none'});
+            $('.psc-type-signout').css({display: 'inline-block'});
+        }
+    };
+    /**
+     * 表示処理
+     */
+    ViewNavigation.prototype.appear = function () {
+        $('#global-header').css({display: 'block'});
+    };
+    /**
+     * 非表示処理
+     */
+    ViewNavigation.prototype.disappear = function () {
+        $('#global-header').css({display: 'none'});
+    };
+    return ViewNavigation;
+})();
+/// <reference path="../common/jquery.d.ts" />
+/// <reference path="../common/Delegate.ts"/>
+/// <reference path="../common/CookieUtil.ts"/>
+/// <reference path="../common/UserAgent.ts"/>
+/// <reference path="../common/Browser.ts"/>
+/// <reference path="../common/PSConfig.ts" />
+/// <reference path="ViewSPNavi.ts"/>
+/// <reference path="ViewMDD.ts"/>
+/// <reference path="ViewSearch.ts" />
+/// <reference path="ViewNavigation.ts"/>
+/**
+ * Applicationクラス
+ *
+ *
+ * @author  suguru.sasaki@quad.co.jp
+ * @date    2014.12.19
+ *
+ */
+var Application = (function () {
+    /**
+     * Constractor
+     */
+    function Application() {
+        this._userData = null; // PSNから取得するユーザーデータ
+        this._isLoadUserData = false; // ユーザーデータ読み込みフラグ
+        this._isSignined = false; // サインインしているか判定する
+    }
+
+    /*----------------------------------------------------------------------------------------------------
+     METHOD
+     ---------------------------------------------------------------------------------------------------*/
+    /**
+     * サインインを調べる
+     */
+    Application.prototype.checkSignin = function() {
+        // サインイン判定処理を実行する
+        // var $target = $('#sso_frame');
+        // $target.attr("src", psn_sigin_path); // 実際はサインイン用のURL
+    };
+    /**
+     * サインインステータスを受け取り、サインイン済みかどうか、判定する
+     * @param loginStatus
+     * @param accountInfo
+     */
+    Application.prototype.signinStatus = function(loginStatus, accountInfo) {
+        if(loginStatus){
+            this._isSignined = true;
+            this.setupSignINED();
+            if (window.AgegateContainer && AgegateContainer.setupContainerSignINED) {
+                AgegateContainer.setupContainerSignINED(accountInfo.age);
+            }
+            this._userData = accountInfo;
+            this._isLoadUserData = true;
+            this.setUserData();
+        } else {
+            this.setupSignIN();
+        }
+    };
+    /**
+     * メイン処理
+     */
+    Application.prototype.main = function () {
+        // ブラウザチェック
+        this.checkBrowser();
+        // Config初期化
+        PSConfig.initialize();
+        // 年齢認証サインインボタンにurlをセット
+        if (window.AgegateContainer && AgegateContainer.setupSignInButton) {
+            AgegateContainer.setupSignInButton(PSConfig.API_SIGNIN);
+        }
+        // サインイン検証スタート
+        this.checkSignin();
+    };
+    /**
+     * ヘッダー読み込み後に実行する
+     */
+    Application.prototype.mainHeader = function () {
+        // ブラウザチェック
+        this.checkBrowser();
+        // すでにデータ読み込みが完了している場合は
+        if (this._isLoadUserData) {
+            this.checkSignin();
+        }
+        else if (!this._isSignined) {
+            this.setupSignIN();
+        }
+    };
+    /**
+     * SPNavi読み込み時に実行
+     */
+    Application.prototype.mainSPNavi = function () {
+        // すでにデータ読み込みが完了している場合は
+        if (this._isLoadUserData) {
+            this.checkSignin();
+        }
+        else if (!this._isSignined) {
+            this.setupSignIN();
+        }
+    };
+    /**
+     * サインインの機能のセットアップ
+     * 表示とリンク設定
+     */
+    Application.prototype.setupSignIN = function () {
+        //this.setupSigninPath();
+        this.appearSignINPC();
+        this.appearSignINSP();
+        this.disappearSignINEDPC();
+        this.disappearSignINEDSP();
+        this.createNavigation('signin');
+    };
+    /**
+     * サインイン済みのセットアップ
+     * 表示とリンク設定
+     */
+    Application.prototype.setupSignINED = function () {
+        this.setupSigninedPath();
+        this.appearSignINEDPC();
+        this.appearSignINEDSP();
+        this.disappearSignINPC();
+        this.disappearSignINSP();
+    };
+    /**
+     * サインインユーザーナビを作成
+     */
+    Application.prototype.loadSigninUserDataNavigation = function () {
+        this.loadUserInfo();
+    };
+    /**
+     * ユーザー情報を取得する
+     */
+    /*
+     Application.prototype.loadUserInfo = function () {
+     var _this = this;
+     $.ajax({
+     url: PSConfig.API_USER_INFO,
+     method: 'GET',
+     dataType: 'jsonp',
+     cache: false,
+     jsonpCallback: 'callback',
+     success: function (data, textStatus) {
+     _this.setupSignINED();
+     _this._userData = data;
+     _this._isLoadUserData = true;
+     _this.setUserData();
+     },
+     error: function (xhr, textStatus, errorThrown) {
+     var status = xhr.status;
+     _this._isLoadUserData = true;
+     _this.setupSignIN();
+     },
+     complete: function () {
+     }
+     });
+     };
+     */
+    /**
+     * ユーザーデータを反映する
+     * @param data
+     */
+    Application.prototype.setUserData = function () {
+        this.setupSignINEDHeaderContents();
+        this.setupSignINEDSPNaviContents();
+        // ナビゲーション作成
+        this.createNavigation('signined');
+    };
+    /**
+     * Headerナビのデータ設定
+     */
+    Application.prototype.setupSignINEDHeaderContents = function () {
+        if (!this.isHeaderLoaded())
+            return;
+        if (!this._isLoadUserData)
+            return;
+        var data = this._userData;
+        // グローバルナビ
+        $('.psc-global-signed-name').text(data.onlineId);
+        $('.psc-global-signed-icon').attr('src', data.iconUrl);
+        // MDDの情報設定
+        $('#psn-mdd-signin-name').text(data.onlineId);
+        $('#psn-mdd-signin-icon').attr('src', data.iconUrl);
+    };
+    /**
+     * SPナビのデータ設定
+     */
+    Application.prototype.setupSignINEDSPNaviContents = function () {
+        if (!this.isSPNaviLoaded())
+            return;
+        if (!this._isLoadUserData)
+            return;
+        var data = this._userData;
+        // スマホナビ
+        $('#id-sp-profile-signined-nav img').attr('src', data.iconUrl);
+        $('#id-sp-profile-signined-nav img').attr('alt', '');
+        $('#id-sp-profile-signined-nav span').text(data.onlineId);
+    };
+    /**
+     * ナビゲーション作成
+     * @param type
+     */
+    Application.prototype.createNavigation = function (type) {
+        // Global Navigation
+        this._viewNavigation = new ViewNavigation();
+        this._viewNavigation.init(type);
+        this._viewNavigation.appear();
+        // MegaDropDown
+        this._viewMDD = new ViewMDD();
+        this._viewMDD.init();
+        // Search Box
+        this._viewSearch = new ViewSearch();
+        this._viewSearch.init();
+        // SPナビ
+        this._viewSPNav = new ViewSPNavi();
+        this._viewSPNav.init();
+        // BackButton
+        this._viewBackButton = new ViewBackToTop();
+        this._viewBackButton.init();
+    };
+    /**
+     * PCのサインインナビを設定
+     */
+    Application.prototype.appearSignINPC = function () {
+        if (!this.isHeaderLoaded())
+            return;
+        // グローバルナビ
+        $('.psc-type-signin a').css({display: 'block', opacity: 0}).animate({opacity: 1}, {duration: 50});
+        // MDDのサインイン
+        $('#psn-pc-signin-nav').attr('href', PSConfig.API_SIGNIN);
+    };
+    /**
+     * スマホのサインインナビを設定
+     */
+    Application.prototype.appearSignINSP = function () {
+        if (!this.isSPNaviLoaded())
+            return;
+        // スマホ
+        //$('#id-sp-profile-signin-nav a').attr('href', PSConfig.API_SIGNIN );
+    };
+    /**
+     * PCのサインインナビを設定
+     */
+    Application.prototype.disappearSignINPC = function () {
+        if (!this.isHeaderLoaded())
+            return;
+        $('.psc-type-signin').css({display: 'none'});
+    };
+    /**
+     * スマホのサインインナビを設定
+     */
+    Application.prototype.disappearSignINSP = function () {
+        if (!this.isSPNaviLoaded())
+            return;
+        $('#id-sp-profile-signin-nav').css({display: 'none'});
+    };
+    /**
+     * PCのサインイン済みナビ設定
+     */
+    Application.prototype.appearSignINEDPC = function () {
+        if (!this.isHeaderLoaded())
+            return;
+        $('.psc-type-signout').css({display: 'inline-block', opacity: 0}).animate({opacity: 1}, {duration: 100});
+    };
+    /**
+     * SPのサインイン済みナビ設定
+     */
+    Application.prototype.appearSignINEDSP = function () {
+        if (!this.isSPNaviLoaded())
+            return;
+        $('#id-sp-profile-signined-nav').css({display: 'block', opacity: 1});
+    };
+    /**
+     * PCのサインイン済みナビの非表示
+     */
+    Application.prototype.disappearSignINEDPC = function () {
+        if (!this.isHeaderLoaded())
+            return;
+        $('.psc-type-signout').css({display: 'none'});
+    };
+    /**
+     * SPのサインイン済みナビの非表示
+     */
+    Application.prototype.disappearSignINEDSP = function () {
+        if (!this.isSPNaviLoaded())
+            return;
+        $('#id-sp-profile-signined-nav').css({display: 'none'});
+    };
+    /**
+     * Headerの読み込み判定
+     * @returns {boolean}
+     */
+    Application.prototype.isHeaderLoaded = function () {
+        if ($('#global-header').length)
+            return true;
+        return false;
+    };
+    /**
+     * スマホナビの読み込み判定
+     * @returns {boolean}
+     */
+    Application.prototype.isSPNaviLoaded = function () {
+        if ($('#nav-global-sp').length)
+            return true;
+        return false;
+    };
+    /**
+     * サインインパスを設定する
+     */
+    /*
+     Application.prototype.setupSigninPath = function () {
+     // PC
+     $('#psn-pc-signin-nav').attr('href', PSConfig.API_SIGNIN);
+     // スマホ
+     if (PSConfig.isDevelop()) {
+     $('#id-sp-profile-signin-nav a').attr('href', PSConfig.API_SIGNIN);
+     }
+     else {
+     //$('#id-sp-profile-signin-nav a').attr('href', $('#id-sp-profile-signin-nav a').attr('href') + '?referer=' + encodeURIComponent(location.href));
+     //$('#id-sp-profile-signin-nav a').attr('href', "https://www.jp.playstation.com/account/#profile");
+     $('#id-sp-profile-signin-nav a').attr('href', "https://my.playstation.com/profile/me/");
+     }
+     };
+     */
+    /**
+     * サインアウトのパスを設定する
+     */
+    Application.prototype.setupSigninedPath = function () {
+        $('#psn-pc-signout-nav').attr('href', PSConfig.API_SIGNOUT);
+    };
+    /**
+     * ブラウザチェック
+     */
+    Application.prototype.checkBrowser = function () {
+        if ($('#browser-alert').length) {
+            // ブラウザチェック IE11以下はアラート表示する
+            Browser.judgmentAlert(Browser.checkBrowser());
+        }
+    };
+    return Application;
+})();
+var ViewBackToTop = (function () {
+    /**
+     * Constractor
+     */
+    function ViewBackToTop() {
+        this._isAppear = false;
+        this._isBrowser = false;
+        this._isInit = false; // 初期フラグ
+        this._isSPFlg = false;
+    }
+
+    /*----------------------------------------------------------------------------------------------------
+     METHOD
+     ---------------------------------------------------------------------------------------------------*/
+    /**
+     * 初期化
+     */
+    ViewBackToTop.prototype.init = function () {
+        if (this._isInit)
+            return;
+        this._target_dom = $('#back-to-top');
+        this._window = $(window);
+        this._target_dom.css({"opacity": 0});
+        // クリック処理
+        this._target_dom.click(function () {
+            _this.backToTop();
+        });
+        // マウスオーバー処理
+        this._target_dom.hover(function () {
+            $(this).css({"opacity": 1});
+        }, function () {
+            $(this).css({"opacity": 0.7});
+        });
+        // イベント処理
+        var _this = this;
+        $(window).scroll(function () {
+            _this.onScrollListener();
+        });
+        $(window).resize(function () {
+            _this.onResizeListener();
+        });
+        // 初期化
+        this.onScrollListener();
+        this.onResizeListener();
+    };
+    /**
+     * トップへ戻るアニメーション
+     */
+    ViewBackToTop.prototype.backToTop = function () {
+        $('body, html').animate({scrollTop: 0}, 500);
+    };
+    /**
+     * スクロールリスナ
+     */
+    ViewBackToTop.prototype.onScrollListener = function () {
+        if (!this._isBrowser)
+            return;
+        var _this = this;
+        // スマホ処理
+        if ($(window).width() < 700) {
+            this.checkSP();
+        }
+        if (this._window.scrollTop() > 100) {
+            if (this._isAppear)
+                return;
+            this._isAppear = true;
+            // console.log(this._window.scrollTop(), "表示");
+            this._target_dom.css({"display": "block"});
+            this._target_dom.stop();
+            this._target_dom.animate({"opacity": 1});
+        }
+        else {
+            if (!this._isAppear)
+                return;
+            this._isAppear = false;
+            //console.log(this._window.scrollTop(), "非表示");
+            this._target_dom.stop();
+            this._target_dom.animate({"opacity": 0}, {
+                complete: function () {
+                    $(_this._target_dom).css({"display": "none"});
+                }
+            });
+        }
+    };
+    /**
+     *
+     */
+    ViewBackToTop.prototype.checkSP = function () {
+        var _this = this;
+        // スマホの時
+        //console.log("check sp");
+        var target_posY = $('#global-footer').offset().top - $(window).height();
+        if (target_posY <= this._window.scrollTop()) {
+            if (_this._isSPFlg)
+                return;
+            this._target_dom.stop().animate({"opacity": 0}, {
+                complete: function () {
+                    $(_this._target_dom).css({"display": "none"});
+                    _this._isSPFlg = true;
+                }
+            });
+        }
+        else {
+            if (!this._isSPFlg)
+                return;
+            this._target_dom.css({"display": "block"}).stop().animate({"opacity": 1});
+            this._isSPFlg = false;
+        }
+    };
+    /**
+     * リサイズ処理
+     */
+    ViewBackToTop.prototype.onResizeListener = function () {
+        this._isBrowser = true;
+        if ($(window).width() < 700) {
+        }
+        else {
+            //this._isBrowser = true;
+            this.onScrollListener();
+        }
+    };
+    return ViewBackToTop;
+})();
+/// <reference path="../common/jquery.d.ts" />
+/*--------------------------------------------------------
+
+ Applicationクラスのmain()がシステム全体のmain()メソッドです。
+ main()メソッドを実行することで、Applicationクラス内へ移動します。
+
+ -------------------------------------------------------*/
+var $ = jQuery;
+var trace = function (str) {
+    //console.log(str);
+};
+var mainApp = new Application();
+// Document読み込み完了後実行
+$(document).ready(function () {
+    mainApp.main();
+});
+
+function execHeadSearch() {
+    var search = document.getElementsByName("search");
+    for (var i = 0; i < search.length; i++) {
+        if (search[i].checked && (search[i].value == '1' || search[i].value == 'game')) {
+            // ゲームソフト検索
+            document.getElementsByName('charset')[0].value = 'utf-8';
+            document.getElementsByName('group')[0].value   = '1';
+            document.getElementsByName('design')[0].value  = '2';
+
+            // onsaleAndSoon=0を付与
+            if (document.getElementsByName('onsaleAndSoon')[0]) {
+                document.getElementsByName('onsaleAndSoon')[0].value  = '0';
+                document.getElementsByName('onsaleAndSoon')[0].disabled = false;
+            }
+
+            var ident = 'gnavi-search';
+            var s = s_gi(s_account);
+            s.linkTrackVars = 'eVar30';
+            s.eVar30 =  ident + '-2';
+            s.tl(this, 'o', 'area-click');
+
+            break;
+        } else if (search[i].checked && (search[i].value == '0' || search[i].value == 'site')) {
+            // サイト内検索
+            document.getElementsByName('charset')[0].value = 'utf-8';
+            document.getElementsByName('group')[0].value   = '0';
+            document.getElementsByName('design')[0].value  = '1';
+
+            // onsaleAndSoonの定義自体除去
+            if (document.getElementsByName('onsaleAndSoon')[0]) {
+                document.getElementsByName('onsaleAndSoon')[0].disabled = true;
+            }
+
+            var ident = 'gnavi-search';
+            var s = s_gi(s_account);
+            s.linkTrackVars = 'eVar30';
+            s.eVar30 =  ident + '-1';
+            s.tl(this, 'o', 'area-click');
+
+            break;
+        }
+    }
+}
+
+function execSpNaviSearch() {
+    var search = document.getElementsByName('searchSpRadio');
+    for (var i = 0; i < search.length; i++) {
+        if (search[i].checked) {
+            document.submitForm.elements['charset'].value = document.getElementsByName('lineCharset')[i].value;
+            document.submitForm.elements['group'].value   = document.getElementsByName('lineGroup')[i].value;
+            document.submitForm.elements['design'].value  = document.getElementsByName('lineDesign')[i].value;
+
+            if (document.submitForm.elements['onsaleAndSoon']) {
+                var removetarget = document.submitForm.elements['onsaleAndSoon'];
+                document.submitForm.removeChild(removetarget);
+
+            }
+
+            if ("2" == document.submitForm.elements['design'].value) {
+                // ソフトウェア検索だったらパラメータにonsaleAndSoon=0を追加
+                var elm = document.createElement("input");
+                elm.setAttribute("name", "onsaleAndSoon");
+                elm.setAttribute("type", "hidden");
+                elm.setAttribute("value", "0");
+                document.submitForm.appendChild(elm);
+            }
+
+            var ident = 'spnavi-search';
+            var s = s_gi(s_account);
+            s.linkTrackVars = 'eVar30';
+            s.eVar30 =  ident + '-' +  document.getElementsByName('lineDesign')[i].value;
+            s.tl(this, 'o', 'area-click');
+
+            break;
+        }
+    }
+
+    // 送信対象外のものをdisable化する
+    var lineCharsetElements = document.getElementsByName('lineCharset');
+    for (var i = 0; i < lineCharsetElements.length; i++) {
+        lineCharsetElements[i].disabled = 'disabled';
+    }
+
+    var lineGroupElements = document.getElementsByName('lineGroup');
+    for (var i = 0; i < lineGroupElements.length; i++) {
+        lineGroupElements[i].disabled = 'disabled';
+    }
+
+    var lineDesignElements = document.getElementsByName('lineDesign');
+    for (var i = 0; i < lineDesignElements.length; i++) {
+        lineDesignElements[i].disabled = 'disabled';
+    }
+}
+
+$(function () {
+    var movieTrackingCode;
+
+    $('.tracking a').click(function () {
+        var ident = $(this).closest('.tracking').attr('id');
+        var index = $('#' + ident + ' a').index(this) + 1;
+        var s = s_gi(s_account);
+        s.linkTrackVars = 'eVar30';
+        s.eVar30 = ident + '-' + index;
+        s.tl(this, 'o', 'area-click');
+
+        movieTrackingCode = s.eVar30 + '-movie';
+    });
+
+    $('.tracking-input').click(function () {
+        var ident = $(this).attr('id');
+        var index = $('#' + ident).index(this) + 1;
+        var s = s_gi(s_account);
+        s.linkTrackVars = 'eVar30';
+        s.eVar30 = ident + '-' + index;
+        s.tl(this, 'o', 'area-click');
+    });
+
+    if ($(document).on != undefined) {
+        $(document).on('click', '#video-area .psc-video-link-btn', function () {
+            if (movieTrackingCode == '') {
+                return true;
+            }
+
+            var s = s_gi(s_account);
+            s.linkTrackVars = 'eVar30';
+            s.eVar30 = movieTrackingCode;
+            s.tl(this, 'o', 'area-click');
+
+            movieTrackingCode = '';
+        });
+    } else {
+        $(document).delegate('#video-area .psc-video-link-btn', 'click', function () {
+            if (movieTrackingCode == '') {
+                return true;
+            }
+
+            var s = s_gi(s_account);
+            s.linkTrackVars = 'eVar30';
+            s.eVar30 = movieTrackingCode;
+            s.tl(this, 'o', 'area-click');
+
+            movieTrackingCode = '';
+        });
+    }
+
+    if ($(document).on != undefined) {
+        $(document).on('click', '#nav-global-sp .psc-sp-nav-list', function () {
+            var page = location.pathname.replace(/\.html$/, '').replace(/^\/$/, 'index').replace(/^\//, '').replace(/\//g, '-');
+            var index = $('#nav-global-sp .psc-sp-nav-list:visible').index(this) + 1;
+            var s = s_gi(s_account);
+            s.linkTrackVars = 'eVar30';
+            s.eVar30 = page + "-spnavi-" + index;
+            s.tl(this, 'o', 'area-click');
+        });
+    } else {
+        $(document).delegate('#nav-global-sp .psc-sp-nav-list', 'click', function () {
+            var page = location.pathname.replace(/\.html$/, '').replace(/^\/$/, 'index').replace(/^\//, '').replace(/\//g, '-');
+            var index = $('#nav-global-sp .psc-sp-nav-list:visible').index(this) + 1;
+            var s = s_gi(s_account);
+            s.linkTrackVars = 'eVar30';
+            s.eVar30 = page + "-spnavi-" + index;
+            s.tl(this, 'o', 'area-click');
+        });
+    }
+});
+

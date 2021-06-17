@@ -1,0 +1,872 @@
+@charset "UTF-8";
+.clearfix:after, #header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul:after, #header #header-block-02 #header-block-02-inner #compact-menu #nav-utility ul:after, #footer #footer-block-01 #footer-block-01-inner #nav-footer-01 ul:after, #footer #footer-block-02 #footer-block-02-inner #nav-footer-02:after, #footer #footer-block-02 #footer-block-02-inner #nav-footer-02 .nav-footer-02-inner:after {
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  content: ".";
+}
+
+/* global */
+.small {
+  font-size: 84% !important;
+}
+
+.link-external-01 img {
+  padding-right: 6px;
+  vertical-align: baseline !important;
+}
+
+.pt5 {
+  padding-top: 5px !important;
+}
+
+/* header */
+#header {
+  font-size: 92%;
+	text-align:left;
+}
+#header a {
+  text-decoration: none !important;
+}
+#header a:link, #header a:visited {
+  text-decoration: none !important;
+}
+#header a:hover {
+  text-decoration: underline !important;
+}
+#header #header-block-01 {
+  background-color: #000;
+}
+#header #header-block-01 #header-block-01-inner {
+  margin: 0 auto;
+  padding: 5px 0 6px;
+  width: 960px;
+}
+#header #header-block-01 #header-block-01-inner #company-logo {
+  text-align: right;
+  font-size: 40%;
+}
+#header #header-block-02 {
+  padding: 0 20px;
+  background-color: #292929;
+}
+#header #header-block-02 #header-block-02-inner {
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+  width: 960px;
+  height: 95px;
+}
+#header #header-block-02 #header-block-02-inner #site-logo {
+  padding-top: 21px;
+  /* main.css 対応 */
+  display: block !important;
+  position: static;
+}
+#header #header-block-02 #header-block-02-inner #btn-compact {
+  display: none;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu {
+  display: block;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global {
+  position: absolute;
+  bottom: 0;
+  left: 8.125%;
+  width: 91.875%;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul {
+  background: url("/common/img/nav_global_bg.gif") no-repeat 100% 0;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li {
+  position: relative;
+  float: left;
+  text-align: center;
+  background: url("/common/img/nav_global_bg.gif") no-repeat 0 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  /* main.css 対応 */
+  padding-top: 0 !important;
+  min-height: 0 !important;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li.ps4 {
+  width: 12.712%;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li.ps3 {
+  width: 12.712%;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li.psvita {
+  width: 13.053%;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li.vitatv {
+  width: 13.393%;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li.psp {
+  width: 12.712%;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li.nasne {
+  width: 13.053%;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li.psn {
+  width: 18.047%;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li.psmobile {
+  width: 17.026%;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li.psn .child-list {
+  left: -15px;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li.psmobile .child-list {
+  left: -15px;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li a {
+  border-bottom: 3px solid #292929;
+  display: block;
+  height: 39px;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li a:active, #header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li a:hover, #header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li a:focus {
+  border-bottom: 3px solid #fff;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li a img {
+  vertical-align: top;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li .active {
+  border-bottom: 3px solid #fff;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li .child-list {
+  padding: 0 2px 2px;
+  position: absolute;
+  top: 42px;
+  left: -33px;
+  z-index: 10010;
+  display: none;
+  width: 180px;
+  background: url("/common/img/child_list_bg.png") no-repeat 0 100%;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li .child-list li {
+  border-bottom: 1px solid #000;
+  float: none !important;
+  text-align: left;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li .child-list li a {
+  border-bottom: 0 none;
+  padding: 11px 10px 10px 16px;
+  display: block;
+  height: auto;
+  color: #fff;
+  background-color: #393939;
+  zoom: 1;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li .child-list li a:active, #header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li .child-list li a:hover, #header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li .child-list li a:focus {
+  background-color: #292929;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-global ul li .child-list li .last {
+  border-bottom: none;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-utility {
+  position: absolute;
+  top: 14px;
+  right: 213px;
+}
+/*
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-utility ul {
+  border-right: 1px solid #6A6A6A;
+}
+*/
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-utility ul li {
+/*  margin-right: 11px; */
+  float: left;
+  line-height: 1.8;
+  padding-left: 10px;
+/*  border-left: 1px solid #6A6A6A; */
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-utility ul li a {
+  display: block;
+  color: #d3d3d3;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  font-size: 92%;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-utility ul li a:active,
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-utility ul li a:hover,
+#header #header-block-02 #header-block-02-inner #compact-menu #nav-utility ul li a:focus {
+  color: #fff;
+}
+
+
+	/* ゲームソフト */
+		#header #header-block-02 #header-block-02-inner #compact-menu #nav-utility ul li.nav-02 a {
+		  padding-left: 25px;
+		  background-image: url(/common/8tnu01000000008q-img/nu-01_02_bg.png);
+		}
+		#header #header-block-02 #header-block-02-inner #compact-menu #nav-utility ul li.nav-02 a:active,
+		#header #header-block-02 #header-block-02-inner #compact-menu #nav-utility ul li.nav-02 a:hover,
+		#header #header-block-02 #header-block-02-inner #compact-menu #nav-utility ul li.nav-02 a:focus {
+		  background-image: url(/common/8tnu01000000008q-img/nu-01_02_o_bg.png);
+		}
+	
+	/* サポート */
+		#header #header-block-02 #header-block-02-inner #compact-menu #nav-utility ul li.nav-03 a {
+		  padding-left: 23px;
+		  background-image: url(/common/8tnu01000000008q-img/nu-01_03_bg.png);
+		}
+		#header #header-block-02 #header-block-02-inner #compact-menu #nav-utility ul li.nav-03 a:active,
+		#header #header-block-02 #header-block-02-inner #compact-menu #nav-utility ul li.nav-03 a:hover,
+		#header #header-block-02 #header-block-02-inner #compact-menu #nav-utility ul li.nav-03 a:focus {
+		  background-image: url(/common/8tnu01000000008q-img/nu-01_03_o_bg.png);
+		}
+	
+	/* PlayStation®Store */
+		#header #header-block-02 #header-block-02-inner #compact-menu #nav-utility ul li.nav-04 a {
+		  padding-left: 21px;
+		  background-image: url(/common/8tnu01000000008q-img/nu-01_04_bg.png);
+		}
+		#header #header-block-02 #header-block-02-inner #compact-menu #nav-utility ul li.nav-04 a:active,
+		#header #header-block-02 #header-block-02-inner #compact-menu #nav-utility ul li.nav-04 a:hover,
+		#header #header-block-02 #header-block-02-inner #compact-menu #nav-utility ul li.nav-04 a:focus {
+		  background-image: url(/common/8tnu01000000008q-img/nu-01_04_o_bg.png);
+		}
+	
+
+#header #header-block-02 #header-block-02-inner #compact-menu #site-search-container {
+  position: absolute;
+  top: 11px;
+  right: 0;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #site-search-container #site-search {
+  position: relative;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #site-search-container #site-search p .input-text {
+  position: relative;
+  z-index: 10013;
+  padding: 0 8px 0;
+  padding-top: 4px\9;
+  display: block;
+  border: 0 none;
+  float: left;
+  width: 161px;
+  height: 24px;
+  height: 20px\9;
+  background-color: #fff;
+  font-size: 100%;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #site-search-container #site-search p .search-btn {
+  position: relative;
+  z-index: 10013;
+  float: left;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #site-search-container #site-search .SS_suggest {
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  top: 25px;
+  left: 0;
+  z-index: 99999;
+  width: 198px;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #site-search-container #site-search #search-option-list {
+  padding: 51px 2px 8px 16px;
+  position: absolute;
+  display: none;
+  top: -11px;
+  left: -10px;
+  z-index:10011;
+  width: 206px;
+  color: #fff;
+  background: url("/common/img/search_option_list_bg.png") no-repeat 0 100%;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #site-search-container #site-search #search-option-list li {
+  margin-bottom: 5px;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #site-search-container #site-search #search-option-list li input {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #site-search-container #site-search #search-option-list li .jqTransformRadio {
+  background: url("/common/img/radio_01_bg.png") no-repeat 0 0;
+}
+#header #header-block-02 #header-block-02-inner #compact-menu #site-search-container #site-search #search-option-list li .jqTransformChecked {
+  background-position: 0 100%;
+}
+#header #header-block-03 {
+  height: 30px;
+  background: #4C4C4C;
+  display: none;
+  position: relative;
+}
+#header #header-block-03 #header-block-03-inner {
+  margin: 0 auto;
+  width: 960px;
+}
+#header #header-block-03 #header-block-03-inner .local-menu {
+  display: none;
+}
+#header #header-block-03 #header-block-03-inner .local-menu ul li {
+  line-height: 30px;
+  color: #FFF;
+  float: left;
+  padding-right: 33px;
+  /*
+  .hardtop,.psntop{
+  	color: #FFF;
+  	font-weight: bold;
+  }
+  */
+}
+#header #header-block-03 #header-block-03-inner .local-menu ul li a {
+  color: #bbbbbb;
+}
+#header #header-block-03 #header-block-03-inner .local-menu ul li a:hover {
+  color: #FFF;
+}
+
+body#playstation3 #header-block-03,
+body.playstation3 #header-block-03,
+body#ps3Hard #header-block-03,
+body#ps3Peripheral #header-block-03,
+body#Ps3SupportTop #header-block-03,
+body#playstation3 #header-block-03,
+body.ps3 #header-block-03,
+
+/*
+body#playstation-portable #header-block-03,
+body.playstation-portable #header-block-03,
+body#pspHard #header-block-03,
+body#pspPeripheral #header-block-03,
+body#PspSupportTop #header-block-03,
+body.psp #header-block-03,
+*/
+
+body#playstation-vita #header-block-03,
+body.playstation-vita #header-block-03,
+body#PsVitaSupportTop #header-block-03,
+body#PsVitaPeripheral #header-block-03,
+body#PsVitaHard #header-block-03,
+body.psv #header-block-03,
+body#playstation-network #header-block-03,
+body.playstation-network #header-block-03 {
+  display: block !important;
+}
+
+body#playstation3 #nav-global li.ps3 a, body#playstation3 #nav-global li.ps3 a:active, body#playstation3 #nav-global li.ps3 a:hover, body#playstation3 #nav-global li.ps3 a:focus,
+body.playstation3 #nav-global li.ps3 a,
+body.playstation3 #nav-global li.ps3 a:active,
+body.playstation3 #nav-global li.ps3 a:hover,
+body.playstation3 #nav-global li.ps3 a:focus,
+body#ps3Hard #nav-global li.ps3 a,
+body#ps3Hard #nav-global li.ps3 a:active,
+body#ps3Hard #nav-global li.ps3 a:hover,
+body#ps3Hard #nav-global li.ps3 a:focus,
+body#ps3Peripheral #nav-global li.ps3 a,
+body#ps3Peripheral #nav-global li.ps3 a:active,
+body#ps3Peripheral #nav-global li.ps3 a:hover,
+body#ps3Peripheral #nav-global li.ps3 a:focus,
+body#Ps3SupportTop #nav-global li.ps3 a,
+body#Ps3SupportTop #nav-global li.ps3 a:active,
+body#Ps3SupportTop #nav-global li.ps3 a:hover,
+body#Ps3SupportTop #nav-global li.ps3 a:focus,
+body#playstation3 #nav-global li.ps3 a,
+body#playstation3 #nav-global li.ps3 a:active,
+body#playstation3 #nav-global li.ps3 a:hover,
+body#playstation3 #nav-global li.ps3 a:focus,
+body.ps3 #nav-global li.ps3 a,
+body.ps3 #nav-global li.ps3 a:active,
+body.ps3 #nav-global li.ps3 a:hover,
+body.ps3 #nav-global li.ps3 a:focus {
+  border-bottom: 3px solid #999 !important;
+}
+body#playstation3 #nav-global li.ps3 .child-list li,
+body.playstation3 #nav-global li.ps3 .child-list li,
+body#ps3Hard #nav-global li.ps3 .child-list li,
+body#ps3Peripheral #nav-global li.ps3 .child-list li,
+body#Ps3SupportTop #nav-global li.ps3 .child-list li,
+body#playstation3 #nav-global li.ps3 .child-list li,
+body.ps3 #nav-global li.ps3 .child-list li {
+  border-bottom: 1px solid #000 !important;
+}
+body#playstation3 #nav-global li.ps3 .child-list li a,
+body.playstation3 #nav-global li.ps3 .child-list li a,
+body#ps3Hard #nav-global li.ps3 .child-list li a,
+body#ps3Peripheral #nav-global li.ps3 .child-list li a,
+body#Ps3SupportTop #nav-global li.ps3 .child-list li a,
+body#playstation3 #nav-global li.ps3 .child-list li a,
+body.ps3 #nav-global li.ps3 .child-list li a {
+  border: none !important;
+}
+body#playstation3 #header-block-03 .local-menu.ps3,
+body.playstation3 #header-block-03 .local-menu.ps3,
+body#ps3Hard #header-block-03 .local-menu.ps3,
+body#ps3Peripheral #header-block-03 .local-menu.ps3,
+body#Ps3SupportTop #header-block-03 .local-menu.ps3,
+body#playstation3 #header-block-03 .local-menu.ps3,
+body.ps3 #header-block-03 .local-menu.ps3 {
+  display: block !important;
+}
+
+body#playstation-portable #nav-global li.psp a, body#playstation-portable #nav-global li.psp a:active, body#playstation-portable #nav-global li.psp a:hover, body#playstation-portable #nav-global li.psp a:focus,
+body.playstation-portable #nav-global li.psp a,
+body.playstation-portable #nav-global li.psp a:active,
+body.playstation-portable #nav-global li.psp a:hover,
+body.playstation-portable #nav-global li.psp a:focus,
+body#pspHard #nav-global li.psp a,
+body#pspHard #nav-global li.psp a:active,
+body#pspHard #nav-global li.psp a:hover,
+body#pspHard #nav-global li.psp a:focus,
+body#pspPeripheral #nav-global li.psp a,
+body#pspPeripheral #nav-global li.psp a:active,
+body#pspPeripheral #nav-global li.psp a:hover,
+body#pspPeripheral #nav-global li.psp a:focus,
+body#PspSupportTop #nav-global li.psp a,
+body#PspSupportTop #nav-global li.psp a:active,
+body#PspSupportTop #nav-global li.psp a:hover,
+body#PspSupportTop #nav-global li.psp a:focus,
+body.psp #nav-global li.psp a,
+body.psp #nav-global li.psp a:active,
+body.psp #nav-global li.psp a:hover,
+body.psp #nav-global li.psp a:focus {
+  border-bottom: 3px solid #999 !important;
+}
+body#playstation-portable #nav-global li.psp .child-list li,
+body.playstation-portable #nav-global li.psp .child-list li,
+body#pspHard #nav-global li.psp .child-list li,
+body#pspPeripheral #nav-global li.psp .child-list li,
+body#PspSupportTop #nav-global li.psp .child-list li,
+body.psp #nav-global li.psp .child-list li {
+  border-bottom: 1px solid #000 !important;
+}
+body#playstation-portable #nav-global li.psp .child-list li a,
+body.playstation-portable #nav-global li.psp .child-list li a,
+body#pspHard #nav-global li.psp .child-list li a,
+body#pspPeripheral #nav-global li.psp .child-list li a,
+body#PspSupportTop #nav-global li.psp .child-list li a,
+body.psp #nav-global li.psp .child-list li a {
+  border: none !important;
+}
+body#playstation-portable #header-block-03 .local-menu.psp,
+body.playstation-portable #header-block-03 .local-menu.psp,
+body#pspHard #header-block-03 .local-menu.psp,
+body#pspPeripheral #header-block-03 .local-menu.psp,
+body#PspSupportTop #header-block-03 .local-menu.psp,
+body.psp #header-block-03 .local-menu.psp {
+  display: block !important;
+}
+
+body#playstation-vita #nav-global li.psvita a, body#playstation-vita #nav-global li.psvita a:active, body#playstation-vita #nav-global li.psvita a:hover, body#playstation-vita #nav-global li.psvita a:focus,
+body.playstation-vita #nav-global li.psvita a,
+body.playstation-vita #nav-global li.psvita a:active,
+body.playstation-vita #nav-global li.psvita a:hover,
+body.playstation-vita #nav-global li.psvita a:focus,
+body#PsVitaSupportTop #nav-global li.psvita a,
+body#PsVitaSupportTop #nav-global li.psvita a:active,
+body#PsVitaSupportTop #nav-global li.psvita a:hover,
+body#PsVitaSupportTop #nav-global li.psvita a:focus,
+body#PsVitaPeripheral #nav-global li.psvita a,
+body#PsVitaPeripheral #nav-global li.psvita a:active,
+body#PsVitaPeripheral #nav-global li.psvita a:hover,
+body#PsVitaPeripheral #nav-global li.psvita a:focus,
+body#PsVitaHard #nav-global li.psvita a,
+body#PsVitaHard #nav-global li.psvita a:active,
+body#PsVitaHard #nav-global li.psvita a:hover,
+body#PsVitaHard #nav-global li.psvita a:focus,
+body.psv #nav-global li.psvita a,
+body.psv #nav-global li.psvita a:active,
+body.psv #nav-global li.psvita a:hover,
+body.psv #nav-global li.psvita a:focus {
+  border-bottom: 3px solid #999 !important;
+}
+body#playstation-vita #nav-global li.psvita .child-list li,
+body.playstation-vita #nav-global li.psvita .child-list li,
+body#PsVitaSupportTop #nav-global li.psvita .child-list li,
+body#PsVitaPeripheral #nav-global li.psvita .child-list li,
+body#PsVitaHard #nav-global li.psvita .child-list li,
+body.psv #nav-global li.psvita .child-list li {
+  border-bottom: 1px solid #000 !important;
+}
+body#playstation-vita #nav-global li.psvita .child-list li a,
+body.playstation-vita #nav-global li.psvita .child-list li a,
+body#PsVitaSupportTop #nav-global li.psvita .child-list li a,
+body#PsVitaPeripheral #nav-global li.psvita .child-list li a,
+body#PsVitaHard #nav-global li.psvita .child-list li a,
+body.psv #nav-global li.psvita .child-list li a {
+  border: none !important;
+}
+body#playstation-vita #header-block-03 .local-menu.psvita,
+body.playstation-vita #header-block-03 .local-menu.psvita,
+body#PsVitaSupportTop #header-block-03 .local-menu.psvita,
+body#PsVitaPeripheral #header-block-03 .local-menu.psvita,
+body#PsVitaHard #header-block-03 .local-menu.psvita,
+body.psv #header-block-03 .local-menu.psvita {
+  display: block !important;
+}
+
+body#playstation-network #nav-global li.psn a, body#playstation-network #nav-global li.psn a:active, body#playstation-network #nav-global li.psn a:hover, body#playstation-network #nav-global li.psn a:focus,
+body.playstation-network #nav-global li.psn a,
+body.playstation-network #nav-global li.psn a:active,
+body.playstation-network #nav-global li.psn a:hover,
+body.playstation-network #nav-global li.psn a:focus {
+  border-bottom: 3px solid #999 !important;
+}
+body#playstation-network #nav-global li.psn .child-list li,
+body.playstation-network #nav-global li.psn .child-list li {
+  border-bottom: 1px solid #000 !important;
+}
+body#playstation-network #nav-global li.psn .child-list li a,
+body.playstation-network #nav-global li.psn .child-list li a {
+  border: none !important;
+}
+body#playstation-network #header-block-03 .local-menu.psn,
+body.playstation-network #header-block-03 .local-menu.psn {
+  display: block !important;
+}
+
+/* PS3 */
+body#playstation3 .hardtop,
+body.playstation3.hardware #header-block-03 .local-menu.ps3 .hardware,
+body.playstation3.accessory #header-block-03 .local-menu.ps3 .accessory,
+body.ps3.update #header-block-03 .local-menu.ps3 .update,
+body.ps3.support #header-block-03 .local-menu.ps3 .support {
+  color: #FFF !important;
+  font-weight: bold;
+}
+
+/* PSVita */
+body#playstation-vita .hardtop,
+body.playstation-vita.hardware #header-block-03 .local-menu.psvita .hardware,
+body.playstation-vita.accessory #header-block-03 .local-menu.psvita .accessory,
+body.psv.update #header-block-03 .local-menu.psvita .update,
+body.psv.support #header-block-03 .local-menu.psvita .support {
+  color: #FFF !important;
+  font-weight: bold;
+}
+
+/* PSP */
+body#playstation-portable .hardtop,
+body.playstation-portable.hardware #header-block-03 .local-menu.psp .hardware,
+body.playstation-portable.accessory #header-block-03 .local-menu.psp .accessory,
+body.psp.update #header-block-03 .local-menu.psp .update,
+body.psp.support #header-block-03 .local-menu.psp .support {
+  color: #FFF !important;
+  font-weight: bold;
+}
+
+/* PSN */
+body.psntop .psntop,
+body#PsnSupportTop #header-block-03 .local-menu.psn .support,
+body#support.playstation-network #header-block-03 .local-menu.psn .info {
+  color: #FFF !important;
+  font-weight: bold;
+}
+
+/* footer */
+#footer {
+  font-size: 92%;
+  line-height: 1.6;
+  width: auto !important;
+  text-align: left;
+}
+#footer a {
+  text-decoration: none !important;
+}
+#footer a:link, #footer a:visited {
+  text-decoration: none !important;
+}
+#footer a:hover {
+  text-decoration: underline !important;
+}
+#footer .block {
+  clear: none !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+  background: none !important;
+}
+#footer h3 {
+  line-height: 1.5;
+}
+#footer #footer-block-01 {
+  background-color: #000;
+  zoom: 1;
+}
+#footer #footer-block-01 #footer-block-01-inner {
+  margin: 0 auto;
+  padding: 5px 6px 5px;
+  width: 948px;
+  zoom: 1;
+}
+#footer #footer-block-01 #footer-block-01-inner #nav-footer-01 ul #ps-rss {
+  float: left;
+  color: #ccc;
+  font-weight: bold;
+}
+#footer #footer-block-01 #footer-block-01-inner #nav-footer-01 ul #ps-rss a {
+  margin-left: 8px;
+}
+#footer #footer-block-01 #footer-block-01-inner #nav-footer-01 ul #ps-rss a img {
+  vertical-align: middle;
+}
+#footer #footer-block-01 #footer-block-01-inner #nav-footer-01 ul #opinion-link {
+  padding-right: 26px;
+  float: right;
+  background: url("/common/img/nf_01_01_bg.png") no-repeat 100% 0;
+}
+#footer #footer-block-01 #footer-block-01-inner #nav-footer-01 ul #opinion-link a {
+  color: #ccc;
+}
+#footer #footer-block-02 {
+  padding: 21px 0;
+  background-color: #333;
+}
+#footer #footer-block-02 #footer-block-02-inner {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 960px;
+}
+#footer #footer-block-02 #footer-block-02-inner #nav-footer-02 {
+  padding: 0 20px 10px;
+  border-bottom: 1px solid #5c5c5c;
+  *zoom: 1;
+}
+#footer #footer-block-02 #footer-block-02-inner #nav-footer-02 img {
+  vertical-align: top;
+}
+#footer #footer-block-02 #footer-block-02-inner #nav-footer-02 .nav-footer-02-inner .column {
+  float: left;
+  width: 184px;
+}
+#footer #footer-block-02 #footer-block-02-inner #nav-footer-02 .nav-footer-02-inner .column .title {
+  margin: 0 0 3px 0 !important;
+  padding: 0 0 0 12px !important;
+  background: url("/common/img/icon_arrow_right_03.png") no-repeat 0 0.35em;
+  font-size: 100% !important;
+  /* vitatv 対応 */
+  border-bottom:none !important;
+  letter-spacing: normal !important;
+}
+#footer #footer-block-02 #footer-block-02-inner #nav-footer-02 .nav-footer-02-inner .column .title a {
+  color: #ccc;
+}
+#footer #footer-block-02 #footer-block-02-inner #nav-footer-02 .nav-footer-02-inner .column .link-list {
+  margin-left: 6px;
+  padding-bottom: 18px;
+}
+#footer #footer-block-02 #footer-block-02-inner #nav-footer-02 .nav-footer-02-inner .column .link-list li {
+  padding-left: 12px;
+  background: url("/common/img/icon_arrow_right_02.png") no-repeat 0 0.5em;
+  font-size: 92%;
+}
+#footer #footer-block-02 #footer-block-02-inner #nav-footer-02 .nav-footer-02-inner .column .link-list li a {
+  color: #ccc;
+}
+#footer #footer-block-02 #footer-block-02-inner #nav-footer-02 .nav-footer-02-inner .column .link-list li.external {
+  background: url("/common/img/icon_external_01.gif") no-repeat 0 0.5em;
+}
+#footer #footer-block-02 #footer-block-02-inner #nav-footer-02 .nav-footer-02-inner.block-02 .block-L, #footer #footer-block-02 #footer-block-02-inner #nav-footer-02 .nav-footer-02-inner.block-02 .block-R {
+  display: inline\9;
+  vertical-align: top\9;
+}
+#footer #footer-block-02 #footer-block-02-inner #nav-footer-03 {
+  padding-top: 22px;
+}
+#footer #footer-block-02 #footer-block-02-inner #nav-footer-03 ul {
+  text-align: center;
+  line-height: 1.2;
+}
+#footer #footer-block-02 #footer-block-02-inner #nav-footer-03 ul li {
+  margin-bottom: 8px;
+  padding: 0 8px;
+  border-right: 1px solid #7b7b7b;
+  display: inline-block;
+  display: inline\9;
+  vertical-align: middle;
+}
+#footer #footer-block-02 #footer-block-02-inner #nav-footer-03 ul li.last {
+  border-right: none;
+}
+#footer #footer-block-02 #footer-block-02-inner #nav-footer-03 ul li a {
+  color: #ccc;
+  font-size: 84%;
+}
+#footer #footer-block-02 #footer-block-02-inner #copyright {
+  padding-top: 10px;
+  color: #ccc;
+  text-align: center;
+  font-size: 84%;
+}
+
+/* modules */
+/*  jqTransform
+--------------------------------------- */
+.jqTransformRadioWrapper {
+  margin-top: 3px;
+  float: left;
+  display: block;
+}
+
+.jqTransformRadio {
+  display: block;
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+}
+
+.jqTransformHidden {
+  display: none;
+}
+
+.jqtransformdone label {
+  padding-left: 7px;
+}
+
+/*  Suggest
+--------------------------------------- */
+#SS_searchQuery {
+  ime-mode: active;
+}
+
+.SS_suggest {
+  position: absolute;
+  display: none;
+  background-color: #fff;
+  font-weight: normal;
+  z-index: 10;
+}
+
+.SS_suggest .SS_suggestItemOff {
+  padding: 2px 10px 2px 15px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.SS_suggest .SS_suggestItemOn {
+  padding: 2px 10px 2px 15px;
+  background-color: #ccc;
+  cursor: pointer !important;
+}
+
+.SS_suggest .SS_suggestKey {
+  width: 150px;
+  font-size: 100%;
+}
+
+/********************* bnr *********************/
+#bnr {
+  padding: 30px 0 40px 0;
+}
+#playstation3 #bnr,
+#playstation-vita #bnr,
+#playstation-portable #bnr{
+  background-color: transparent;
+}
+
+#bnr ul {
+  width: 919px;
+  margin: 0 auto;
+}
+
+/* nav01 */
+#bnr .nav01 {
+  margin: 0 auto 30px;
+}
+
+#bnr .nav01 li {
+  margin: 0 29px 0 0;
+  float: left;
+  display: inline;
+}
+
+#bnr .nav01 li:nth-child(4) {
+  margin: 0;
+}
+
+#bnr .nav01 li a {
+  display: block;
+  border: 1px solid #CCCCCC;
+}
+
+#bnr .nav01 li a:hover {
+  border: 1px solid #009EE9;
+}
+
+/* nav02 */
+#bnr .nav02 ul {
+  width: 919px;
+  margin: 0 auto;
+}
+
+#bnr .nav02 li {
+  margin: 0 72px 0 0;
+  float: left;
+  display: inline;
+}
+
+#bnr .nav02 li:nth-child(6) {
+  margin: 0;
+}
+
+@media screen and (min-width:770px) and (max-width:1000px){
+	#bnr ul{
+		width:auto !important;
+		padding:0 2%;
+	}
+	#bnr .nav01 li a{
+		display:inline-block !important;
+	}
+}
+
+@media screen and (max-width:769px) {
+	#bnr{
+		background-color:#e5e5e5;
+		padding:0 3% 2rem;
+	}
+	#bnr ul{
+		width:auto;
+	}
+	/* nav01 */
+	#bnr .nav01{
+		width:auto;
+		padding:2rem 0;
+		margin-bottom:0;
+	}
+	#bnr .nav01 li{
+		width:49%;
+		height:auto;
+		margin:0 2% 2% 0;
+		display:inline;
+		float:left;
+	}
+	#bnr .nav01 li a:hover{
+		border:1px solid #009EE9;
+	}
+	#bnr .nav01 li:nth-child(2n){
+		margin:0 0 2% 0;
+	}
+	#bnr .nav01 li a{
+		display:block;
+		border:1px solid #CCCCCC;
+	}
+	#bnr .nav01 li img{
+		width:100%;
+		height:auto;
+	}
+
+	/* nav02 */
+	#bnr .nav02 li{
+		width:47%;
+		height:auto;
+		margin:0 2% 2% 0;
+		padding:1%;
+		display:inline;
+		text-align:center;
+		float:left;
+	}
+	#bnr .nav02 li:nth-child(2n){
+		margin:0 0 2% 0;
+	}
+	#bnr .nav02 li img{
+		width:auto;
+		height:auto;
+	}
+}

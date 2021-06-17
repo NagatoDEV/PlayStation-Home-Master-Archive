@@ -1,0 +1,36 @@
+(function(w,d,s){
+    var f=d.getElementsByTagName(s)[0],j=d.createElement(s);
+    j.async=true;j.src='https://dmp.im-apps.net/sdk/im-uid.js';
+    f.parentNode.insertBefore(j, f);
+    w.IMUIDRequest = w.IMUIDRequest || [];
+    w.IMUIDPushed = w.IMUIDPushed || [];
+    var cookieName = "_im_uid.1000283";
+    var l = cookieName.length + 1;
+    var cookieAry = document.cookie.split("; ");
+    var cookieValue = "";
+    for (var i = 0; i < cookieAry.length; i++) {
+        if (cookieAry[i].substr(0, l) === cookieName + "=") {
+            cookieValue = cookieAry[i].substr(l, cookieAry[i].length);
+            break;
+        }
+    }
+    if (!cookieValue) {
+        if (w.IMUIDPushed.indexOf(1000283) < 0) {
+            w.IMUIDPushed.push(1000283);
+            w.IMUIDRequest.push({
+                customerId: 1000283,
+                callback: function (res) {
+                    const expiryDate = new Date();
+                    expiryDate.setTime(expiryDate.getTime() + 3 * 60 * 60 * 1000);
+                    document.cookie = cookieName + "=" + res.uid +
+                    ";expires=" + expiryDate.toUTCString() +
+                    ";path=/" +
+                    ";domain=." + window.location.hostname +
+                    (window.location.protocol == "https:" ? "; SameSite:None; secure;" : ";");
+                },
+                callbackTimeout: 3000
+            });
+        }
+    }
+})(window,document,'script');
+
