@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node> <!--Main Container Node-->
+    <header>
+	<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/socomopforbg.dds</background> 
+	<palette type="red" />
+	</header>
+
+	<node> <!--Parent Node w/ SOCOM Icon-->
+	  <header>
+		<name lang="en-US" default="true">SOCOM</name>
+		<thumbnail lang="en-US" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/socom.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/socomopforbg.dds</background> 
+		<palette type="black" />
+      </header>
+
+    <node> <!--Male Node-->
+      <header>
+        <name lang="en-US" default="true">Male</name>
+        <name lang="fr-FR">Homme</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/socomopforbg.dds</background> 
+		<palette type="black" />
+      </header>
+	  <node type="objects">
+        <header>
+          <name lang="en-US" default="true">Head</name>
+          <name lang="fr-FR">Tête</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/socomopforbg.dds</background> 
+		  <palette type="black" />
+        </header>
+		<object>ED91CCF2-B6384715-BFF6EF59-E13E893A</object>
+		<object>B3B6BECA-FDA642B9-B193D6CB-101C4E31</object>
+		<object>035166B3-0DF74F71-8BE141C0-D2D6BCA6</object>
+		<object>800281FE-CE654860-9C0C6346-59C10DB2</object>
+		<object>1A424936-EA9E4FA0-B6B47A32-053EF216</object>
+		<object>E8D6005F-013F4F4A-8B4C3FEC-9469F07C</object>
+		<object>8193B497-E7294453-A85DF86F-4145468C</object>
+		<object>397E7081-2A244971-93B2C861-931E5444</object>
+		<object>ED959B65-C55443A4-B0D94708-E9863861</object>
+		<object>EF3361DC-8BC643C7-838244BE-B1BC22EE</object>
+	  </node>
+	  <node type="objects">
+        <header>
+          <name lang="en-US" default="true">Hands</name>
+          <name lang="fr-FR">Mains</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hands.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/socomopforbg.dds</background> 
+		  <palette type="black" />
+        </header>
+		<object>CFD11995-DB454B6C-BF498854-BEDEF2E2</object>
+	  </node>
+	  <node type="objects">
+        <header>
+          <name lang="en-US" default="true">Torso</name>
+          <name lang="fr-FR">Torse</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/socomopforbg.dds</background> 
+		  <palette type="black" />
+        </header>
+	    <object>EB2E1059-AFE841E1-8660EFC0-F55CC649</object>
+	    <object>EDDDF20B-2D8A4DF5-B9322722-58EA7A1F</object>
+	    <object>3EBE70B9-D8474240-8C9CBE29-EC917243</object>
+	    <object>C0B7B41F-232F493E-A07E47BB-2713CD9D</object>
+	    <object>677925FE-6BF1470E-87514690-7C88F525</object>
+	    <object>1F6404C6-02EB483B-A641C01B-EA6BC594</object>
+	    <object>943C7317-0F8B434C-AA654EED-1DC0D4F1</object>
+	  </node>
+	  <node type="objects">
+        <header>
+          <name lang="en-US" default="true">Legs</name>
+          <name lang="fr-FR">Jambes</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/legs.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/socomopforbg.dds</background> 
+		  <palette type="black" />
+        </header>
+	    <object>200E22D2-9DB54C9E-824B0F01-013AF876</object>
+	    <object>64C697F9-7B0C40E2-99D9C97D-AFE8B2AD</object>
+	    <object>96AC2869-14924ED5-8CF97CE5-9DA7C116</object>
+	    <object>74AC20CD-85FC420D-BC1BE1BD-4FFEA8FE</object>
+	  </node>
+	  <node type="objects">
+        <header>
+          <name lang="en-US" default="true">Feet</name>
+          <name lang="fr-FR">Pieds</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/feet.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/socomopforbg.dds</background> 
+		  <palette type="black" />
+        </header>
+	    <object>8762D429-448E46A6-B2080978-5AF2DC03</object>
+	    <object>9304231D-D7B24FBE-AA4EE191-62F68022</object>
+	  </node>
+	  <node type="objects">
+        <header>
+          <name lang="en-US" default="true">Spectacles</name>
+          <name lang="fr-FR">Lunettes</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/glasses.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/socomopforbg.dds</background> 
+		  <palette type="black" />
+		</header>
+	    <object>B1CDA9C9-B0534DE2-AD8CEF65-9355DB62</object>
+	    <object>5E6E2E64-D08C4606-B0850F27-054228F0</object>
+	    <object>F2476C88-4F024E83-889B73FE-B0FF330D</object>
+	  </node>
+	</node> <!--Male Node Close-->
+
+    <node> <!--Female Node-->
+      <header>
+        <name lang="en-US" default="true">Female</name>
+        <name lang="fr-FR">Femme</name>
+        <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/socomopforbg.dds</background> 
+		<palette type="black" />
+      </header>
+	  <node type="objects">
+        <header>
+          <name lang="en-US" default="true">Head</name>
+          <name lang="fr-FR">Tête</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/socomopforbg.dds</background> 
+		  <palette type="black" />
+        </header>
+		<object>DE5DA3E7-9BE1425A-A9AED993-FF732439</object>
+	  </node>
+	  <node type="objects">
+        <header>
+          <name lang="en-US" default="true">Hands</name>
+          <name lang="fr-FR">Mains</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hands.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/socomopforbg.dds</background> 
+		  <palette type="black" />
+        </header>
+		<object>D5DEF599-66CA445D-8A6DF505-EC853183</object>
+	  </node>
+	  <node type="objects">
+        <header>
+          <name lang="en-US" default="true">Torso</name>
+          <name lang="fr-FR">Torse</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/socomopforbg.dds</background> 
+		  <palette type="black" />
+        </header>
+		<object>EE06A6EF-78FB44CC-85182F1E-2BDF66DC</object>
+	  </node>
+	  <node type="objects">
+        <header>
+          <name lang="en-US" default="true">Legs</name>
+          <name lang="fr-FR">Jambes</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/legs.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/socomopforbg.dds</background> 
+		  <palette type="black" />
+        </header>
+		<object>C8887B53-128B425E-894E5E5D-2C63B8C3</object>
+	  </node>
+	  <node type="objects">
+        <header>
+          <name lang="en-US" default="true">Feet</name>
+          <name lang="fr-FR">Pieds</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/feet.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/socomopforbg.dds</background> 
+		  <palette type="black" />
+        </header>
+		<object>85D4E5B8-80064747-A0593420-0460D43F</object>
+	  </node>
+	</node> <!--Female Node Close-->
+
+    <node type="objects"> <!-- Furniture Node Open -->
+      <header>
+        <name lang="en-GB" default="true">Ornaments</name>
+        <name lang="fr-FR" >Décoration</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/socomopforbg.dds</background> 
+		<palette type="black" />
+      </header>
+	  <!-- 050610 -->
+ 	  <object>57080937-33AA4BB4-BB866524-62BBC536</object>
+	  <object>4DA85786-70C9463A-89F24AC5-FD731D05</object>
+	  
+	  <object>0A16FE85-FFEF40F1-919E5BA9-FC483BE5</object>
+	  <object>269C9D96-166B4DAC-9513B9C8-85E69317</object>
+	  <object>ECAAF675-13A94A09-AFD9A773-60329C25</object>
+	  <object>4A831BFE-14A44423-8DE9E596-68244D8E</object>
+	  <object>F4CC1C25-E23E40C7-A4015DE8-CFB4F25A</object>
+	  <object>568120CE-7DD2486A-8B16546C-36F73DB1</object>
+	  <object>4C5BCD0B-4DFC4617-B7369CBC-70055270</object>
+	  <object>4DE3AF33-52DD4DFD-A952DF2A-57966A5C</object>
+	  <object>443F8F0E-469F4D42-B4DC7083-CDACA6A3</object>
+	  <object>06CEB02E-9D4B4DB2-9FC96CC2-4A1DBF32</object>
+
+    </node> <!--Furniture Node Close-->
+
+	</node> <!--Parent Node w/ SOCOM Icon Close-->
+
+  </node> <!--Main Container Node Close-->
+</commerce_point>
