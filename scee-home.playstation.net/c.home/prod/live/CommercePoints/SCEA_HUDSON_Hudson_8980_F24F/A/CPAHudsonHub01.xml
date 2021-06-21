@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+      <header>
+        <name lang="en-US" default="true">Hudson</name>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hudson_bg_scea.dds</background>
+      </header>
+	    <node> <!--Male-->
+          <header>
+            <name lang="en-GB" default="true">Male</name>
+            <name lang="en-US" >Male</name>
+            <name lang="fr-FR" >Homme</name>
+            <name lang="it-IT" >Maschio</name>
+            <name lang="de-DE" >Männlich</name>
+            <name lang="es-ES" >Hombre</name>
+            <name lang="ja-JP" >??</name>
+            <name lang="ko-KR" >??</name>
+            <name lang="zh-HK" >??</name>
+            <name lang="zh-TW" >??</name>
+            <name lang="en-SG" >Male</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+			<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hudson_bg_scea.dds</background> 
+          </header>
+	    <node type="objects"> <!-- Value Packs -->
+          <header>
+            <name lang="en-US" default="true">Value Packs</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/value_packs.dds</thumbnail>
+		    <background default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hudson_bg_scea.dds</background> 
+          </header>
+			  <object>FDC54FED-82A14A04-941E7424-B1288D95</object> <!-- 9/9/10 -->
+			  <object>CF2C7501-577A42E5-B3D52112-3E94A61B</object> <!-- 9/9/10 -->
+			  <object>54D4A30A-061747AF-9B5FC032-9DF006D1</object> <!-- 9/9/10 -->
+		  </node>
+		  <node type="objects"> <!-- Head -->
+            <header>
+			  <name lang="en-US" default="true">Headgear</name>
+			  <name lang="fr-FR">Couvre-chef</name>
+			  <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+			  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hudson_bg_scea.dds</background> 
+            </header>
+			  <object>0A2E169B-775A43D9-95390B6E-8EEDAAB3</object> <!-- 9/9/10 -->
+		      <object>E3C2ADE0-82CA4990-84E6E823-E43C65AE</object> <!-- 9/9/10 -->
+			  <object>DFB746FF-7E424982-B5986C0E-BDC2890C</object> <!-- 9/9/10 -->
+		  </node>
+      </node> 
+		<node> <!-- Female -->
+          <header>
+            <name lang="en-GB" default="true">Female</name>
+            <name lang="en-US" >Female</name>
+            <name lang="fr-FR" >Femme</name>
+            <name lang="it-IT" >Femmina</name>
+            <name lang="de-DE" >Weiblich</name>
+            <name lang="es-ES" >Mujer</name>
+            <name lang="ja-JP" >??</name>
+            <name lang="ko-KR" >??</name>
+            <name lang="zh-HK" >??</name>
+            <name lang="zh-TW" >??</name>
+            <name lang="en-SG" >Female</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+			<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hudson_bg_scea.dds</background> 
+          </header>
+	    <node type="objects"> <!-- Value Packs -->
+          <header>
+            <name lang="en-US" default="true">Value Packs</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/value_packs.dds</thumbnail>
+		    <background default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hudson_bg_scea.dds</background> 
+          </header>
+			  <object>B166A010-BBD44F83-A96DC06D-FF4BC30F</object> <!-- 9/9/10 -->
+			  <object>798872DA-D91C44B9-9C754B8E-9772D509</object> <!-- 9/9/10 -->
+			  <object>1847CB83-39904B43-B88749CD-78C68FE7</object> <!-- 9/9/10 -->
+		  </node>
+		  <node type="objects"> <!-- Head -->
+            <header>
+			  <name lang="en-US" default="true">Headgear</name>
+			  <name lang="fr-FR">Couvre-chef</name>
+			  <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+			  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hudson_bg_scea.dds</background> 
+            </header>
+			  <object>6CA909CF-AC4B4B87-8B74C35D-26DE6A9B</object> <!-- 9/9/10 -->
+		      <object>A1917CEB-EC7844C4-80F963FF-CD25B0BC</object> <!-- 9/9/10 -->
+			  <object>14C8EDBF-E60741F6-BC66DDD1-A08F9E8B</object> <!-- 9/9/10 -->
+		  </node>
+		</node> 
+	    <node> <!-- Hudson -->
+		  <header>
+            <name lang="en-US" default="true">Furniture</name>
+            <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/furniture_scea.dds</thumbnail>
+		    <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hudson_bg_scea.dds</background>  
+          </header>
+	      <node type="objects"> <!-- Chairs -->
+            <header>
+              <name lang="en-US" default="true">Chairs</name>
+              <name lang="en-US" >Chairs</name>
+              <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Category_Chairs.dds</thumbnail>
+	      	  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hudson_bg_scea.dds</background>  
+            </header>
+		      <object>32EB254D-A64242AB-AFFEBFBF-656E670D</object> <!-- 9/9/10 -->
+		      <object>5FA439DE-00284F5A-8381ADC1-8DFDE560</object> <!-- 9/9/10 -->
+	          <object>996560DB-7B044ACD-95BC3FF9-6EB8F8E7</object> <!-- 9/9/10 -->
+		      <object>92EDA9CF-36F7470F-8973026F-48E6B47B</object> <!-- 9/9/10 -->
+		      <object>F99D5DCF-A9664627-8C74C873-3B082B8B</object> <!-- 9/9/10 -->
+	      </node>
+	    </node>
+		<node type="objects">
+          <header>
+            <name lang="en-US" default="true">Personal Space</name>
+            <name lang="fr-FR" >Espace personnel</name>
+            <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/estates_scea.dds</thumbnail>
+		    <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hudson_bg_scea.dds</background> 
+          </header>
+		  <!-- Dolphy Room -->
+		  <object>2A1841E3-A5584FCF-82CE49E9-A6091868</object> <!-- 8/26/10 -->
+		</node>
+  </node>
+</commerce_point>

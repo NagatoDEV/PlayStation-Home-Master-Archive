@@ -1,0 +1,108 @@
+<rss version="0.91">
+<channel>
+<item>
+<title>Interview with HPG's Thom Saunders</title>
+<description>by NorseGamer, HSM Publisher.
+
+(This interview was first published in Homestation Magazine on June 3rd, 2014)
+
+There have been, of late, a number of very cool features introduced into PlayStation Home: the 1.86 core client update ushered in the era of two-player interactions, which promises to be the hot new market segment for Home 2014. In addition, the Home Challenges have made Home itself into a game, offering some very unique and lucrative rewards, up to and including entire estates. Further, Home now has an interactive News Reader which features (in SCEE region) user-generated content, and – most notably – Home now has trophy support.
+
+There’s a lot going on. And that means it’s the perfect time to talk with Thom Saunders from SCEE Home Platform Group. Thom is the main point person for developer support – I’ve interacted with him in the past on DevNet – and he’s also part of the features team, which has, to put it mildly, made some really nifty things for Home.
+
+HSM: Thom, thanks for consenting to be interviewed. Let’s start with a summation of what the scope of your job duties is.
+
+TS: Hi Jason, my pleasure! I work on the HPG Support team and the newly formed Features team. The Support team is responsible for dealing directly with any technical queries from developers regarding the Home tools, as well as various other bits and pieces when required. We’re essentially there to make sure developers are able to create content easily and on time. This will sometimes require assisting with issues they may have or providing tips and tricks for the tools. It can also extend to advice and guidance on design, and we have a suite of code examples and scenes with this in mind as well as plenty of documentation.
+
+<img src="http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/best_show_ever.dds"/>
+
+The Features team was set up last year with the goal of taking all those ideas which we thought might be fun or features which the code team had half-finished in their spare time, and seeing which ones could be polished up and released. We had a checklist of big features that we wanted to create, and as we started to reach the end of that list we started to turn our attention to some smaller things that we could look in to. These were generally experiments or side-projects that people had come up with in their spare time, or just ideas that we kept coming back to but weren&#8217;t a priority at the time. We had a few discussions about little things that we&#8217;d heard the community ask for or that we&#8217;d always thought would be fun, anything we thought that Home was missing that we could add with a minimum of disruption to users and developers. In the end we had so many ideas kicking around that we thought we should dedicate some time to polishing some of them up and seeing what it would take to get them made. Kind of like the Raggy Dolls? Or maybe Super Ted &#8211; We’re sprinkling magical dust on some old abandoned toys and making them AWESOME.
+
+<img src="http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/me_and_fleur.dds"/>
+
+HSM: Can you give some examples of how feedback from third-party developers has influenced Home’s development as a platform?
+
+TS: We always release a beta of the new HDK and Client to developers, and sometimes, for bigger updates, we’ve also released an Alpha to certain developers and their feedback has always been very useful. The problem when developing something like Home is that it’s so hard to imagine what developers will do with a template or feature. You tend to develop something with one example in mind, and then when it gets into the hands of developers they have all these other ideas which you’d never thought of and if you haven’t made the feature flexible enough then you need to build those options in. Many of our Lua libraries have been extended to include options which developers have specifically requested. Companions were originally very restrictive, but were enhanced and expanded thanks to developer and community feedback. It was the same with the new Portable. Once we announced them to developers they immediately got back to us with ideas which we hadn’t considered, and once those ideas were included the templates were much better.
+
+HSM: What are some of the features you’ve had a hand in helping to create and deploy?
+
+TS: I did the initial investigation into various Portable types including the recently released 2 player interactions and deployable objects. I took the deployable objects to completion, and my colleague Mark fleshed out and polished the 2 player interactions, which by all accounts have been a huge hit. I’ve also done investigation work into other portables which, unfortunately, we weren’t able to release for various reasons. I also created the ‘Have you Seen..?’ object in the new Home Square as well as parts of last year’s Christmas event. The first thing I ever made for release was the Moustache event which happened last December.
+
+<img src="http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/lolcat_techsupport.dds"/>
+
+HSM: You’ve been in developer support for the last five years or so. Heck, you’ve helped me out on DevNet more than once! What can you share about the process from your side when a developer reaches out for support?
+
+TS: Well, the first thing to consider is that this developer has a deadline, so they need their issue investigating ASAP. That means dropping any other incidental work which you may have picked up and looking into the problem. Generally, the developer will describe their issue and it’ll give me an inkling as to what the problem might be. Then it’s a matter of asking the right questions to get the information I need to be able to reproduce it. Reproduction is extremely important (as in so many areas of life), as without a reliable way to reproduce the issue it can be very hard to narrow down the cause. Once it’s reproduced we need to work out if it’s a developer error – the bug is in their script/config/assets; a tools issue – the bug is in the tools and the developer should be able to do what they’re trying to do; or a client issue – the bug is neither the developer’s fault, nor a problem with the tools. The latter is the hardest to fix because it involves a patch to the client which is disruptive for users, but they are very rare and we can usually find a workaround. Once we’ve worked that out it’s just a matter of either guiding the developer in how to fix their issue, providing a workaround to achieve the same result in a different way, or fixing the client or tools to allow them to achieve their goal. Finally, in some rare cases, what the developer wants to do is impossible and they have to rethink that aspect of their project. We then also need to decide if this issue will affect other developers and if so release a technote or workaround so other developers don’t fall into the same trap, and update the documentation.
+
+HSM: What’s this about a Portable type you’ve created, by the way?
+
+TS: The new feature which I took to completion was the ‘Portable Item’ (not the best name, but these things are hard! “Portable Object” is already in use, “Deployable Model Which You Can Choose to Animate if You Want” is not catchy). It’s basically a model with an optional animation which you can place in any space. So you could put down a sleeping cat that would wake up and yawn as you approached, or a security camera on a pole which follows you as you pass. It would allow you to add all sorts of incidental behavior to a scene.
+
+<img src="http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/portableoriginaltemplate.dds"/>
+
+It started out as a way to see if we could recreate the Bubble Machine using our Lua libraries. Developers had asked us if it was possible to make them in the past and we’d always had to disappoint them, so we decided to see once and for all where the blockers were and if we could work around them. I managed to recreate the Bubble Machine (only via some internal tools jiggery-pokery though), and broke down the component parts into a template that developers could edit – a model file, an animation file, a particle, a point in space to emit the particle from etc. After this I passed it onto other members of the team to see what they would create with it. Mark added the option to have the object rotate to always face the player, and I added the ability to trigger it via the local player’s distance from the object rather than turning it on and off.
+
+After that I had to tidy it up so that it used the absolute minimum memory possible. If you could have 60 of these in a space then they need to be super-efficient. This was a great learning experience for me as it was the first time I had to really scrutinize every part of my script to see where I could save time.
+
+After that we did a few more tests and we decided to remove the ability to add a particle. Although in theory it’s nice, the risk of destroying a scene’s frame rate with 60 large particles was too much of a risk.
+Then finally we tidied up the config file to make it as straightforward as possible and then we documented it and out it went!
+
+HSM: Two-player interactions have been on many a Home user’s wishlist over the years. Can you give us a rough idea of the path taken to finally make them a reality?
+
+TS: Two player interactions were an idea which came out of the desire to have two people ballroom dance together. There are myriad problems which come with making two players interact though. Firstly, no two avatars are the same size/height, so it’s very difficult to line up their hands with each other, or any part of the body for that matter. Also, we were stuck with a client issue which meant that the object (which belongs to user A) wouldn’t be able to get pad input from user B. This means if you joined a dance you wouldn’t be able to leave until the owner left.
+
+The other issues to consider were making sure the animations all worked together and looked correct on all viewer’s screens, and also how you avoid travelling through collision. All this stuff is trivial for one player, but the addition of any more brings up a whole load of issues. Then you have the possible griefing issues to consider. We can’t have a situation where people are able to spam you with requests to dance, or block people from activating other objects.
+Luckily, this was an object which was pre-released to developers for feedback and a lot of these issues were ironed out with their help, and in the end, as you can see in Home, it turned out really well!
+HSM: Most Home users probably don’t know that you voiced one of the elves in the Christmas Home content. How did that come about? 
+
+TS: Well, we’re a multi-talented team :) Basically we were looking for ways to make the Christmas event as good as it could be, and we had a few people on the team who’d done acting or voice-over work in the past so we decided to voice as many characters as we could. Thankfully, my whiny nasal voice was perfect for Santa’s elves, so we booked some time in the recording room upstairs and cracked off a few takes.
+
+<img src="http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/happy_on_stage.dds"/>
+
+HSM: You’ve been involved with the HDK for a while now. Looking back over the years, what feature deployment or project are you most proud of having been involved with?
+
+TS: Ooh, that’s hard to say. I’m really proud of the example objects and scenes we made. We made a few release-quality scenes as examples for developers which, when released, we saw aspects of added to developer’s scenes in Live. This was perfect because we’d done it to inspire developers and show parts of the HDK we thought were underused and then there was the evidence to show that we’d done just that.
+
+HSM: Let’s rewind for a moment. Share a bit about your background?
+
+TS: Well I’ve done all sorts of things. I’ve toured in bands, managed a pub, worked in various shops and finally got into QA for Sony in Liverpool. After a few months there we moved to London and I got a job as the embedded tester for Gangs of London on the PSP. After a while there, I got moved on to form the test team for Home and that was eight and a half years ago!
+
+HSM: What’s this we hear about you being in a Star Wars punk band?
+
+TS: Yep, that’s true. I’m in a band called Order 66 with my brother and some friends.
+
+<img src="http://scee-home.playstation.net/e.home/hosted/CommercePoints/Thumbnails/singingthom.dds"/>
+
+HSM: Ha! How’d that all come about?
+
+TS: We’d been in an equally unmarketable band before that called Action Hank (Guildford’s premier swing, circus, gameshow, punk, ska, horror, jazz, rock septet). I was singing in that, but I fancied playing the bass in a smaller, more focused band, so my Brother and I found a drummer and formed a pop-punk three-piece who only write songs about Star Wars. It’s sort of an intellectual challenge. Anyone can write a love song (Ooooh I was so blue, until I met you, maybe, maybe, you’ll be my baby etc.). By restricting ourselves to one subject we force ourselves to be more creative with our lyrics. We don’t dress up or anything though, we don’t want to alienate non-Star Wars liking people. You could come to one of our gigs and not even know we were singing about Star Wars, but if you’re a Star Wars fan there’s loads in there for you. You can listen to us at http://order66.bandcamp.com/
+
+HSM: And is the rumor true that you’ve actually been in a TV drama? 
+
+TS: Yeah that’s true too! Who have you been speaking to? I was in a police drama called The Bill as a clubber coming back from a night out who’s questioned by the police about something. I had 13 lines and my character’s name was Bernie.
+
+HSM: Of course, now someone has to create a Home machinima adaptation of this…
+
+TS: I’m not sure there’s a Home space which could adequately reflect the dreariness of a damp evening in Wimbledon in 1995!
+
+HSM: One of the questions that Home users have debated since the beginning is how to define Home; to paraphrase Churchill, ask two Home users to define Home and you get three opinions. From your perspective, what <em>is</em> Home? What would your definition of Home be?
+
+TS: I think the reason that it’s so hard to define is that Home is really just a platform, and you get out of it what you put in. It doesn’t have a purpose except to bring people together and give them a framework to express themselves. It’s basically like a Youtube comments section came to life, but you can ride a tiger around in it.
+
+HSM: Very cool! And finally, what sort of future project would be a dream-come-true for you to work on down the road?
+
+TS: Well I spend most of my gaming time on the PC, so a proper strategy title or a MOBA would be fantastic.
+
+HSM: Thom, thank you very much for your time.
+
+This interview series with the Home Platform Group exists because we want to show you that the architects of Home aren't really any different than you or I; like us, they are fans of the platform themselves, and are constantly listening and striving to make Home as compelling an experience as possible. They're not necessarily in community-facing roles; chances are, you'll probably never interact with them. But they are the ones who, behind the curtain, have built and continue to grow and maintain the Home that we have enjoyed for all of these years.
+
+Let's take a moment and salute them for the work that they do. They've earned it.
+
+(The author wishes to thank Thom Saunders for consenting to be interviewed, and Sara Gousy for her support and tireless efforts in making this ongoing interview series a reality.)
+
+</description>
+
+</item>
+</channel>
+</rss> 

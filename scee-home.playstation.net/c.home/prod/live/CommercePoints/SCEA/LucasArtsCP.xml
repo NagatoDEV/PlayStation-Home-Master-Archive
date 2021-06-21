@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+  <header>
+	<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/LucasArts_Store.dds</background> 
+	<palette type="black" />
+    </header>
+	<node>
+      <header>
+        <name lang="en-GB" default="true">Male</name>
+        <name lang="fr-FR">Homme</name>
+        <name lang="de-DE">Männlich</name>
+        <name lang="it-IT">Maschio</name>
+        <name lang="es-ES">Hombre</name>
+        <name lang="ja-JP">??</name>
+        <name lang="ko-KR">??</name>
+        <name lang="en-SG">Male</name>
+        <name lang="zh-HK">??</name>
+        <name lang="zh-TW">??</name>
+        <name lang="en-US">Male</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/male.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/LucasArts_Store.dds</background> 
+		<palette type="black" />
+      </header>
+ <node>
+      <header>
+        <name lang="en-US" default="true">Star Wars</name>
+		<name lang="fr-FR">Star Wars</name>
+        <thumbnail lang="en-US" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/starwars.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/LucasArts_Store.dds</background>
+<palette type="black" />	
+      </header>
+<node type="objects">
+        <header>
+          <name lang="en-US" default="true">Hands</name>
+          <name lang="fr-FR">Mains</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hands.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/LucasArts_Store.dds</background> 
+		  <palette type="black" />
+        </header>
+		<object>1B118DFF-AD904F54-9066EAFB-871DE2E0</object>
+		</node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="fr-FR">Torse</name>
+          <name lang="de-DE">Rumpf</name>
+          <name lang="it-IT">Torso</name>
+          <name lang="es-ES">Torso</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Torso</name>
+          <name lang="zh-HK">??</name>
+          <name lang="zh-TW">??</name>
+          <name lang="en-US">Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/LucasArts_Store.dds</background>
+<palette type="black" />	  
+        </header>
+<object>74F48322-149F4F41-A9CF5DB5-6EF15E06</object>
+<object>FEF698DE-16574F35-9D67A712-4DCC45D4</object>
+<object>2F0D0A32-C9D34538-871040B4-360D3705</object>
+        </node>
+<node type="objects">
+			<header>
+          <name lang="en-US" default="true">Outfit</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/outfit_scea.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/LucasArts_Store.dds</background>
+<palette type="black" />		  
+        </header>
+<object>3C08BFD4-81494D13-A5EFE2C6-CF415270</object>
+<object>71A26C52-BED44DC5-8C467A3C-BAA962F1</object>
+        </node>	  
+	  </node>
+ <node>
+      <header>
+        <name lang="en-US" default="true">Indiana Jones</name>
+		<name lang="fr-FR">Indiana Jones</name>
+        <thumbnail lang="en-US" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/indianajones.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/LucasArts_Store.dds</background>
+<palette type="black" />	
+      </header>
+	  <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Headgear</name>
+          <name lang="fr-FR">Couvre-chef</name>
+          <name lang="de-DE">Kopfbedeckung</name>
+          <name lang="it-IT">Accessori testa</name>
+          <name lang="es-ES">Accesorios cabeza</name>
+          <name lang="ja-JP">?</name>
+          <name lang="ko-KR">??</name>
+          <name lang="en-SG">Headgear</name>
+          <name lang="zh-HK">?</name>
+          <name lang="zh-TW">?</name>
+          <name lang="en-US">Headgear</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/head.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/LucasArts_Store.dds</background>
+<palette type="black" />	  
+        </header>
+<object>79BA7BA9-F2B3492B-A4253D07-E4842CAA</object>
+</node>
+<node type="objects">
+			<header>
+          <name lang="en-US" default="true">Outfit</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/outfit_scea.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/LucasArts_Store.dds</background>
+		  <palette type="black" />
+        </header>
+<object>62922329-9B384DE8-A4AEC77E-59C8C08B</object>
+        </node>	 
+	  </node>
+	  </node>
+    <node>
+      <header>
+        <name lang="en-GB" default="true">Female</name>
+        <name lang="fr-FR">Femme</name>
+        <name lang="de-DE">Weiblich</name>
+        <name lang="it-IT">Femmina</name>
+        <name lang="es-ES">Mujer</name>
+        <name lang="ja-JP">??</name>
+        <name lang="ko-KR">??</name>
+        <name lang="en-SG">Female</name>
+        <name lang="zh-HK">??</name>
+        <name lang="zh-TW">??</name>
+        <name lang="en-US">Female</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/female.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/LucasArts_Store.dds</background>
+<palette type="black" />		
+      </header>
+ <node>
+      <header>
+        <name lang="en-US" default="true">Star Wars</name>
+		<name lang="fr-FR">Star Wars</name>
+        <thumbnail lang="en-US" default="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/starwars.png</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/LucasArts_Store.dds</background> 
+		<palette type="black" />
+      </header>
+<node type="objects">
+        <header>
+          <name lang="en-US" default="true">Hands</name>
+          <name lang="fr-FR">Mains</name>
+          <thumbnail lang="en-US" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/hands.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/LucasArts_Store.dds</background>
+		  <palette type="black" />
+        </header>
+		<object>679A56C3-C2584F15-96B5B334-930612E9</object>
+		</node>
+      <node type="objects">
+        <header>
+          <name lang="en-GB" default="true">Torso</name>
+          <name lang="fr-FR">Torse</name>
+          <name lang="de-DE">Rumpf</name>
+          <name lang="it-IT">Torso</name>
+          <name lang="es-ES">Torso</name>
+          <name lang="ja-JP">????</name>
+          <name lang="ko-KR">?</name>
+          <name lang="en-SG">Torso</name>
+          <name lang="zh-HK">??</name>
+          <name lang="zh-TW">??</name>
+          <name lang="en-US">Torso</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/torso.dds</thumbnail>
+		 <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/LucasArts_Store.dds</background> 
+		  <palette type="black" />
+        </header>
+<object>393FB470-EA424AB4-9AE4BD3C-3435D9B8</object>
+<object>B05AA00C-B2C54ED3-97EADA88-E3CD8903</object>
+        </node>
+<node type="objects">
+			<header>
+          <name lang="en-US" default="true">Outfit</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/outfit_scea.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/LucasArts_Store.dds</background>
+<palette type="black" />		  
+        </header>
+<object>D8C357A1-F0094384-93D0522D-295619C9</object>
+        </node>	  
+	  </node>
+	  </node>
+   <node>
+        <header>
+          <name lang="en-US" default="true">Furniture</name>
+          <thumbnail lang="en-GB" default="true" useOsdColour="true">[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/furniture_scea.dds</thumbnail>
+		  <background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/LucasArts_Store.dds</background>
+<palette type="black" />		  
+        </header>
+<node type="objects">
+      <header>
+        <name lang="en-US" default="true">Wall Hangings</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/wallhangings.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/LucasArts_Store.dds</background> 
+		<palette type="black" />
+      </header> 
+<object>1A53AB74-91344D62-81C3A827-F39CC030</object>
+<object>7A99539B-2D574C4A-9B4BA8E0-ABC26859</object>
+</node>
+    <node type="objects">
+      <header>
+        <name lang="en-GB" default="true">Ornaments</name>
+        <name lang="en-US" >Ornaments</name>
+        <name lang="fr-FR" >Décoration</name>
+        <name lang="it-IT" >Decorazioni</name>
+        <name lang="de-DE" >Verzierungen</name>
+        <name lang="es-ES" >Adornos</name>
+        <name lang="ja-JP" >装飾品</name>
+        <name lang="ko-KR" >장식품</name>
+        <name lang="zh-HK" >裝飾品</name>
+        <name lang="zh-TW" >裝飾品</name>
+        <name lang="en-SG" >Ornaments</name>
+        <thumbnail lang="en-GB" default="true" useOsdColour="true"> [CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/Categoryvases.dds</thumbnail>
+		<background>[CONTENT_SERVER_ROOT]CommercePoints/Thumbnails/LucasArts_Store.dds</background> 
+		<palette type="black" />
+      </header>
+<object>3DE6F002-7A814021-AEDF54D6-968FA229</object>
+</node>
+	</node>
+	</node>
+</commerce_point>
