@@ -1,0 +1,452 @@
+<lang>
+    <CLOTH>
+        <clothing_1>
+            <name>Clothing Item 1</name>
+            <desc>This is a clothing item</desc>
+        </clothing_1>
+        <clothing_2>
+            <name>Clothing Item 2</name>
+            <desc>This is another clothing item</desc>
+        </clothing_2>
+    </CLOTH>
+    <FURN>
+        <furniture_1>
+            <name>Furniture Item 1</name>
+            <desc>Description furniture item 1</desc>
+        </furniture_1>
+        <furniture_2>
+            <name>Furniture Item 2</name>
+            <desc>Description furniture item 2</desc>
+        </furniture_2>
+        <furniture_3>
+            <name>Furniture Item 3</name>
+            <desc>Description furniture item 3</desc>
+        </furniture_3>
+        <furniture_4>
+            <name>Furniture Item 4</name>
+            <desc>Description furniture item 4</desc>
+        </furniture_4>
+        <furniture_5>
+            <name>Furniture Item 5</name>
+            <desc>Description furniture item 5</desc>
+        </furniture_5>
+        <furniture_6>
+            <name>Furniture Item 6</name>
+            <desc>Description furniture item 6</desc>
+        </furniture_6>
+        <furniture_7>
+            <name>Furniture Item 7</name>
+            <desc>Description furniture item 7</desc>
+        </furniture_7>
+        <furniture_8>
+            <name>Furniture Item 8</name>
+            <desc>Description furniture item 8</desc>
+        </furniture_8>
+        <furniture_9>
+            <name>Furniture Item 9</name>
+            <desc>Description furniture item 9</desc>
+        </furniture_9>
+        <furniture_10>
+            <name>Furniture Item 10</name>
+            <desc>Description furniture item 10</desc>
+        </furniture_10>
+        <furniture_11>
+            <name>Furniture Item 11</name>
+            <desc>Description furniture item 11</desc>
+        </furniture_11>
+        <furniture_12>
+            <name>Furniture Item 12</name>
+            <desc>Description furniture item 12</desc>
+        </furniture_12>
+        <furniture_13>
+            <name>Furniture Item 13</name>
+            <desc>Description furniture item 13</desc>
+        </furniture_13>
+        <furniture_14>
+            <name>Furniture Item 14</name>
+            <desc>Description furniture item 14</desc>
+        </furniture_14>
+        <furniture_4ab>
+            <name>Furniture Item 4ab</name>
+            <desc>Description furniture item 4ab</desc>
+        </furniture_4ab>
+        <furniture_5ab>
+            <name>Furniture Item 5ab</name>
+            <desc>Description furniture item 5ab</desc>
+        </furniture_5ab>
+        <furniture_6ab>
+            <name>Furniture Item 6ab</name>
+            <desc>Description furniture item 6ab</desc>
+        </furniture_6ab>
+        <furniture_7ab>
+            <name>Furniture Item 7ab</name>
+            <desc>Description furniture item 7ab</desc>
+        </furniture_7ab>
+        <furniture_8ab>
+            <name>Furniture Item 8ab</name>
+            <desc>Description furniture item 8ab</desc>
+        </furniture_8ab>
+        <furniture_9ab>
+            <name>Furniture Item 9ab</name>
+            <desc>Description furniture item 9ab</desc>
+        </furniture_9ab>
+        <furniture_10ab>
+            <name>Furniture Item 10ab</name>
+            <desc>Description furniture item 10ab</desc>
+        </furniture_10ab>
+        <furniture_11ab>
+            <name>Furniture Item 11ab</name>
+            <desc>Description furniture item 11ab</desc>
+        </furniture_11ab>
+        <furniture_12ab>
+            <name>Furniture Item 12ab</name>
+            <desc>Description furniture item 12ab</desc>
+        </furniture_12ab>
+    </FURN>
+    <JATO>
+        <JATO_uber>
+            <name>TURBULENCE Heavy Rocket Booster</name>
+            <desc>Add to your Sodium2 racer to gain the advantage. Massive acceleration bonuses available at the touch of a button are balanced by the heavy fuel load of an unused rocket.</desc>
+        </JATO_uber>
+        <JATO_SSRB_x>
+            <name>HARE Fast Action Rocket Booster</name>
+            <desc>Add to your Sodium2 racer to gain the advantage. Instant acceleration for those times when you want to leave the pack behind.</desc>
+        </JATO_SSRB_x>
+        <JATO_basic>
+            <name>TOUCHSTONE Rocket Boosters </name>
+            <desc>Add these explosive boosters to Sodium2 racer to gain the advantage! Average burn time and thrust power make this the perfect all-purpose rocket. Experiment to find the best place to trigger.</desc>
+        </JATO_basic>
+        <JATO_Ride>
+            <name>FIRECRACKER Explosive Rocket Boosters</name>
+            <desc>Add these boosters to your Sodium2 racer to gain the advantage. Best things come in small packages - unbelievable acceleration pushing your vehicle to the limit but with a short life so make it count.</desc>
+        </JATO_Ride>
+        <JATO_Pulsar>
+            <name>AEON Long Life Rocket Booster</name>
+            <desc>Add to your Sodium2 racer to gain the advantage. A more steady boost effect but a much longer life will give a big advantage if you can maintain speed.</desc>
+        </JATO_Pulsar>
+        <JATO_uber_Sink>
+            <name>ANTERIAL THRUST Heavy Rocket Booster</name>
+            <desc>Add to your Sodium2 racer to gain the advantage. Massive acceleration bonuses available at the touch of a button are balanced by the heavy fuel load of an unused rocket.</desc>
+        </JATO_uber_Sink>
+        <JATO_SSRB_x_Sink>
+            <name>RABBIT Fast Action Rocket Booster</name>
+            <desc>Add to your Sodium2 racer to gain the advantage. Instant acceleration for those times when you want to leave the pack behind.</desc>
+        </JATO_SSRB_x_Sink>
+        <JATO_basic_Sink>
+            <name>AGGRESSOR Rocket Booster</name>
+            <desc>Add to your Sodium2 racer to gain the advantage. Average burn time and thrust power make this the perfect all-purpose rocket. Experiment to find the best place to trigger.</desc>
+        </JATO_basic_Sink>
+        <JATO_Ride_Sink>
+            <name>ERUPTOR Explosive Rocket Booster</name>
+            <desc>Add to your Sodium2 racer to gain the advantage. Best things come in small packages - unbelievable acceleration pushing your vehicle to the limit but with a short life so make it count.</desc>
+        </JATO_Ride_Sink>
+        <JATO_Pulsar_Sink>
+            <name>TERAPIN Long Life Rocket Booster</name>
+            <desc>Add to your Sodium2 racer to gain the advantage. A more steady boost effect but a much longer life will give a big advantage if you can maintain speed.</desc>
+        </JATO_Pulsar_Sink>
+    </JATO>
+    <FUEL>
+        <FUEL_Basic>
+            <name>Stock Fuel</name>
+            <desc>Don't play it safe with the standard fuel, try out our new experimental fuel variants to take those precious seconds off your lap time.</desc>
+        </FUEL_Basic>
+        <FUEL_BioNomic>
+            <name>NOBEL 808 Fuel</name>
+            <desc>A balanced fuel type for your Sodium2 racer that marginally increases both your top speed and acceleration.</desc>
+        </FUEL_BioNomic>
+        <FUEL_JP2>
+            <name>MOLOTOV Fuel</name>
+            <desc>A highly unstable fuel mix for your Sodium2 racer that focuses on providing boosted acceleration.</desc>
+        </FUEL_JP2>
+        <FUEL_JP3>
+            <name>DYNAMITE Fuel</name>
+            <desc>An explosive fuel variant for your Sodium2 racer that increases your maximum top speed.</desc>
+        </FUEL_JP3>
+        <FUEL_BioNomic_Sink>
+            <name>SCHONBEIN Fuel</name>
+            <desc>A balanced fuel type for your Sodium2 racer that marginally increases both your top speed and acceleration.</desc>
+        </FUEL_BioNomic_Sink>
+        <FUEL_JP2_Sink>
+            <name>THERMOCHEM Fuel</name>
+            <desc>A highly unstable fuel mix for your Sodium2 racer that focuses on providing boosted acceleration.</desc>
+        </FUEL_JP2_Sink>
+        <FUEL_JP3_Sink>
+            <name>DETON8 Fuel</name>
+            <desc>An explosive fuel variant for your Sodium2 racer that increases your maximum top speed.</desc>
+        </FUEL_JP3_Sink>
+    </FUEL>
+    <BURN>
+        <BURN_basic>
+            <name>Stock Afterburners</name>
+            <desc>More thrust equals more acceleration but increased air pressure will destabilise your vehicle. Have you got the skill to take advantage of this advantage?</desc>
+        </BURN_basic>
+        <BURN_InjectionMatrix>
+            <name>IGNITION Afterburners</name>
+            <desc>Adds a small level of acceleration to your Sodium2 racer. Your ride may become more unstable as a result.</desc>
+        </BURN_InjectionMatrix>
+        <BURN_FDC>
+            <name>BONESHAKER Afterburners</name>
+            <desc>Hold your nerve through the increased instability and you will control a higher level of acceleration.</desc>
+        </BURN_FDC>
+        <BURN_Ballistic>
+            <name>BALLISTIC Afterburners</name>
+            <desc>With great power comes great instability. Leave your opponents standing but be careful that the reduced stability doesn’t slam you into a wall. That would be embarrassing. </desc>
+        </BURN_Ballistic>
+        <BURN_InjectionMatrix_Sink>
+            <name>LIVE WIRE Afterburners</name>
+            <desc>Adds a small level of acceleration to your Sodium2 racer. Your ride may become more unstable as a result.</desc>
+        </BURN_InjectionMatrix_Sink>
+        <BURN_FDC_Sink>
+            <name>FOREFRONT Afterburners</name>
+            <desc>Hold your nerve through the increased instability and you will control a higher level of acceleration.</desc>
+        </BURN_FDC_Sink>
+        <BURN_Ballistic_Sink>
+            <name>EXPEL v82  Afterburners</name>
+            <desc>With great power comes great instability. Leave your opponents standing but be careful that the reduced stability doesn’t slam you into a wall. That would be embarrassing. </desc>
+        </BURN_Ballistic_Sink>
+    </BURN>
+    <ENG>
+        <ENG_basic>
+            <name>Stock Engine</name>
+            <desc>Feel the need? The need for speed? It’s a fine balance between increasing your top speed and being weighed down on corners.</desc>
+        </ENG_basic>
+        <ENG_LEXAN_EnyoJAR>
+            <name>TITAN Engine</name>
+            <desc>A noticeable jump in top speed to pull your Sodium2 racer away from its competition on the straights. An increase in weight will slow you down through the turns.</desc>
+        </ENG_LEXAN_EnyoJAR>
+        <ENG_JETBOX_ShockDriver_JB22>
+            <name>SHOCKDRIVER Engine</name>
+            <desc>Control the lower turning speed into corners and your Sodium2 racer will hit those higher velocities.</desc>
+        </ENG_JETBOX_ShockDriver_JB22>
+        <ENG_HDC_Aerospike_HF>
+            <name>DREADNOUGHT Engine</name>
+            <desc>A large and powerful engine to push your Sodium2 racer towards Mach 2. Don't forget to take account of the extra weight through the bends or a crash at that speed will leave nothing but a smear.</desc>
+        </ENG_HDC_Aerospike_HF>
+        <ENG_LEXAN_EnyoJAR_Sink>
+            <name>APOLLO Engine</name>
+            <desc>A noticeable jump in top speed to pull your Sodium2 racer away from its competition on the straights. An increase in weight will slow you down through the turns.</desc>
+        </ENG_LEXAN_EnyoJAR_Sink>
+        <ENG_JETBOX_ShockDriver_JB22_Sink>
+            <name>THUNDERHORSE Engine</name>
+            <desc>Control the lower turning speed into corners and your Sodium2 racer will hit those higher velocities.</desc>
+        </ENG_JETBOX_ShockDriver_JB22_Sink>
+        <ENG_HDC_Aerospike_HF_Sink>
+            <name>THOR Engine</name>
+            <desc>A large and powerful engine to push your Sodium2 racer towards Mach 2. Don't forget to take account of the extra weight through the bends or a crash at that speed will leave nothing but a smear.</desc>
+        </ENG_HDC_Aerospike_HF_Sink>
+    </ENG>
+    <BRKS>
+        <BRKS_basic>
+            <name>Stock Air Brakes</name>
+            <desc>It's all in the reflexes. Speed is nothing if you haven't installed air brakes to prevent catastrophic crashes.</desc>
+        </BRKS_basic>
+        <BRKS_Icarus>
+            <name>DEADLINE Air Brakes</name>
+            <desc>Sacrifice a small fraction of your Sodium2 racer's top speed and you'll turn more sharply into corners.</desc>
+        </BRKS_Icarus>
+        <BRKS_WakeBender>
+            <name>TERMINUS Air Brakes</name>
+            <desc>Improved hydraulics for your Sodium2 vehicle will give you a greater braking force so you spend less time on the brakes round the tight bends and more time on the POWER!</desc>
+        </BRKS_WakeBender>
+        <BRKS_Frictodraulic>
+            <name>HYDROSTATIC Air Brakes</name>
+            <desc>A brutally effective Air Brake system to get your Sodium2 racer through tighter corners at higher speeds but compliment them with other increased acceleration components or your rivals will make up lost ground as you struggle to pull away.</desc>
+        </BRKS_Frictodraulic>
+        <BRKS_Icarus_Sink>
+            <name>INERTIA Air Brakes</name>
+            <desc>Sacrifice a small fraction of your Sodium2 racer's top speed and you'll turn more sharply into corners.</desc>
+        </BRKS_Icarus_Sink>
+        <BRKS_WakeBender_Sink>
+            <name>TERMINAL FRICTION Air Brakes</name>
+            <desc>Improved hydraulics for your Sodium2 vehicle will give you a greater braking force so you spend less time on the brakes round the tight bends and more time on the POWER!</desc>
+        </BRKS_WakeBender_Sink>
+        <BRKS_Frictodraulic_Sink>
+            <name>CYBER-HALT Air Brakes</name>
+            <desc>A brutally effective Air Brake system to get your Sodium2 racer through tighter corners at higher speeds but compliment them with other increased acceleration components or your rivals will make up lost ground as you struggle to pull away.</desc>
+        </BRKS_Frictodraulic_Sink>
+    </BRKS>
+    <FRAME>
+        <FRAME_basic>
+            <name>Stock Frame</name>
+            <desc>It's what's inside that counts. Customise the internal frame of your racer to tweak stability, weight and crash impact effects.</desc>
+        </FRAME_basic>
+        <FRAME_NanoFiber>
+            <name>NANOFIBER V.24 Lightweight Frame</name>
+            <desc>A lighter frame will increase the acceleration of your Sodium2 racer at the cost of stability and crash impacts that reduce momentum by a greater amount.</desc>
+        </FRAME_NanoFiber>
+        <FRAME_Composite>
+            <name>GALVONIUM Alpha Composite Frame</name>
+            <desc>Heavier materials increase the stability of your Sodium2 racer as well as making it more resistant to loss of speed during impacts.</desc>
+        </FRAME_Composite>
+        <FRAME_Omniplex>
+            <name>OMNIPLEX 48x Sturdy Frame</name>
+            <desc>A heavy, sturdy frame for your Sodium2 racer will notably increase stability but the increased weight will create a greater loss of momentum following race impacts.</desc>
+        </FRAME_Omniplex>
+        <FRAME_NanoFiber_Sink>
+            <name>DIGIVAULT Frame</name>
+            <desc>A lighter frame will increase the acceleration of your Sodium2 racer at the cost of stability and crash impacts that reduce momentum by a greater amount.</desc>
+        </FRAME_NanoFiber_Sink>
+        <FRAME_Composite_Sink>
+            <name>STERLING Frame</name>
+            <desc>Heavier materials increase the stability of your Sodium2 racer as well as making it more resistant to loss of speed during impacts.</desc>
+        </FRAME_Composite_Sink>
+        <FRAME_Omniplex_Sink>
+            <name>SCHUMATTER Frame</name>
+            <desc>A heavy, sturdy frame for your Sodium2 racer will notably increase stability but the increased weight will create a greater loss of momentum following race impacts.</desc>
+        </FRAME_Omniplex_Sink>
+    </FRAME>
+    <FCOMP>
+        <FCOMP_basic>
+            <name>Stock Flight Computer</name>
+            <desc>Flight Computer updates will make your vehicle much more responsive and increase stability at higher speeds.</desc>
+        </FCOMP_basic>
+        <FCOMP_AutoAdjustomator>
+            <name>SYNAPSE Flight Computer</name>
+            <desc>A minor stability increase is offset by a longer transonic period as you push through the speed of sound.</desc>
+        </FCOMP_AutoAdjustomator>
+        <FCOMP_Synap_9000>
+            <name>VOLTA Flight Computer</name>
+            <desc>This Sodium2 flight computer is designed for optimum transonic transition up to Mach 1, but will also offer an increase in stability and improved turn response.</desc>
+        </FCOMP_Synap_9000>
+        <FCOMP_Ray_The_Tube>
+            <name>WHITE BOX Flight Computer</name>
+            <desc>The latest in flight computer technology will constantly update the trajectory of your Sodium2 racer to greatly increase stability and turn response, but an extended time to break the Mach 1 barrier may let your opponents in.</desc>
+        </FCOMP_Ray_The_Tube>
+        <FCOMP_AutoAdjustomator_Sink>
+            <name>HALLI Flight Computer</name>
+            <desc>A minor stability increase is offset by a longer transonic period as you push through the speed of sound.</desc>
+        </FCOMP_AutoAdjustomator_Sink>
+        <FCOMP_Synap_9000_Sink>
+            <name>VECTOR Flight Computer</name>
+            <desc>This Sodium2 flight computer is designed for optimum transonic transition up to Mach 1, but will also offer an increase in stability and improved turn response.</desc>
+        </FCOMP_Synap_9000_Sink>
+        <FCOMP_Ray_The_Tube_Sink>
+            <name>PULSEDROID Flight Computer</name>
+            <desc>The latest in flight computer technology will constantly update the trajectory of your Sodium2 racer to greatly increase stability and turn response, but an extended time to break the Mach 1 barrier may let your opponents in.</desc>
+        </FCOMP_Ray_The_Tube_Sink>
+    </FCOMP>
+    <SKIN>
+        <SKIN_basic>
+            <name>SILVER - Sodium 2 Racer Paint Scheme</name>
+            <desc>New skins for your Sodium2 racer. </desc>
+        </SKIN_basic>
+        <SKIN_basic_01>
+            <name>CRIMSON - Sodium 2 Racer Paint Scheme</name>
+            <desc>Purchase this striking, deep red paint scheme for your Sodium2 vehicle and be the envy of the racing community.</desc>
+        </SKIN_basic_01>
+        <SKIN_basic_02>
+            <name>RACING GREEN - Sodium 2 Racer Paint Scheme</name>
+            <desc>Add a smooth green skin to your Sodium2 racer for a more natural look whilst racing to winning times.</desc>
+        </SKIN_basic_02>
+        <SKIN_basic_03>
+            <name>BUMBLE BEE - Sodium 2 Racer Paint Scheme</name>
+            <desc>A dazzling yellow skin for your Sodium2 racer. Pass over the finish line as no more than a blinding, golden streak!</desc>
+        </SKIN_basic_03>
+        <SKIN_basic_04>
+            <name>HDC SALAMANDER - Sodium 2 Racer Paint Scheme</name>
+            <desc>This radical HDC paint scheme features go-faster everything! </desc>
+        </SKIN_basic_04>
+        <SKIN_basic_05>
+            <name>JETBOX SONIC CAMO - Sodium 2 Racer Paint Scheme</name>
+            <desc>This futuristic evolution of the classic camo paint scheme will leave other racers wondering what just past them by.</desc>
+        </SKIN_basic_05>
+        <SKIN_basic_06>
+            <name>Sodium 2 Racer Paint Scheme - RYLEE</name>
+            <desc>New skins for your Sodium2 racer. </desc>
+        </SKIN_basic_06>
+        <SKIN_basic_07>
+            <name>Sodium2 Vehicle Paint Scheme - [JETBOX]</name>
+            <desc>An exciting new paint scheme for your Sodium 2 racer!</desc>
+        </SKIN_basic_07>
+        <SKIN_basic_08>
+            <name>Sodium 2 Racer Paint Scheme - LEXAN</name>
+            <desc>New skins for your Sodium2 racer. </desc>
+        </SKIN_basic_08>
+        <SKIN_basic_09>
+            <name>Sodium 2 Racer Paint Scheme  - [ProPulse]</name>
+            <desc>An exciting new paint scheme for you Sodium 2 racer!</desc>
+        </SKIN_basic_09>
+        <SKIN_basic_10>
+            <name>FRUIT SALAD - Sodium 2 Racer Paint Scheme</name>
+            <desc>New skins for your Sodium2 racer. </desc>
+        </SKIN_basic_10>
+    </SKIN>
+    <ENGH>
+        <ENGH_basic>
+            <name>Stock Hover Engine</name>
+            <desc>Hover Engines for your Sodium2 racer. Experiment with these for tighter, faster, smoother turns. Make sure you compensate for the extra weight added to your vehicle.</desc>
+        </ENGH_basic>
+        <ENGH_Jetfan>
+            <name>JETFAN Hover Engine</name>
+            <desc>More responsive turning allows your Sodium2 racer to avoid surprise obstacles at high speed.</desc>
+        </ENGH_Jetfan>
+        <ENGH_Electrostatic>
+            <name>ELECTROSTATIC Hover Engine</name>
+            <desc>Adding the more powerful motor in this Hover Engine to your Sodium2 racer will increase turn response at the cost of weight.</desc>
+        </ENGH_Electrostatic>
+        <ENGH_VortexThruster>
+            <name>VORTEX Hover Engine</name>
+            <desc>This Hover Engine benefits from increased blade size and less weight to produce faster turning, although loss of momentum after impacts will pronounced.</desc>
+        </ENGH_VortexThruster>
+        <ENGH_Jetfan_Sink>
+            <name>HUMMING BIRD Hover Engine</name>
+            <desc>More responsive turning allows your Sodium2 racer to avoid surprise obstacles at high speed.</desc>
+        </ENGH_Jetfan_Sink>
+        <ENGH_Electrostatic_Sink>
+            <name>HORNET Hover Engine</name>
+            <desc>Adding the more powerful motor in this Hover Engine to your Sodium2 racer will increase turn response at the cost of weight.</desc>
+        </ENGH_Electrostatic_Sink>
+        <ENGH_VortexThruster_Sink>
+            <name>VERTICES Hover Engine</name>
+            <desc>This Hover Engine benefits from increased blade size and less weight to produce faster turning, although loss of momentum after impacts will pronounced.</desc>
+        </ENGH_VortexThruster_Sink>
+    </ENGH>
+    <AERO>
+        <AERO_basic>
+            <name>Stock Aerofoils</name>
+            <desc>Change the aerodynamic profile of your Sodium2 racer to ride the turbulence hazards of a supersonic race.</desc>
+        </AERO_basic>
+        <AERO_Aerobatic>
+            <name>STEADFAST Aerofoils</name>
+            <desc>Improves general handling of the Sodium2 racer and reduces drag through the sound barrier.</desc>
+        </AERO_Aerobatic>
+        <AERO_Scythe>
+            <name>AEROBATIC Aerofoils</name>
+            <desc>A minor improvement to the straight line speed of the Sodium2 racer also allows you to cut smoothly through the most awkward of turns.</desc>
+        </AERO_Scythe>
+        <AERO_Interceptor>
+            <name>INTERCEPTOR Aerofoils</name>
+            <desc>A more streamlined design for your Sodium2 racer to produce exceptional straight line speed and turning power. Turn too tightly though and you'll lose momentum.</desc>
+        </AERO_Interceptor>
+        <AERO_Aerobatic_Sink>
+            <name>FLIGHT SYS Aerofoils</name>
+            <desc>Improves general handling of the Sodium2 racer and reduces drag through the sound barrier.</desc>
+        </AERO_Aerobatic_Sink>
+        <AERO_Scythe_Sink>
+            <name>ALBATROS Aerofoils</name>
+            <desc>A minor improvement to the straight line speed of the Sodium2 racer also allows you to cut smoothly through the most awkward of turns.</desc>
+        </AERO_Scythe_Sink>
+        <AERO_Interceptor_Sink>
+            <name>ENTROPY Aerofoils </name>
+            <desc>A more streamlined design for your Sodium2 racer to produce exceptional straight line speed and turning power. Turn too tightly though and you'll lose momentum.</desc>
+        </AERO_Interceptor_Sink>
+    </AERO>
+    <INTA>
+        <INTA_Basic>
+            <name>Stock Air Intakes</name>
+            <desc>Stock Air Intakes</desc>
+        </INTA_Basic>
+    </INTA>
+    <CTRL>
+        <CTRL_Basic>
+            <name>Stock Control Surfaces</name>
+            <desc>Stock Control Surfaces</desc>
+        </CTRL_Basic>
+    </CTRL>
+    <ANY>
+        <ANY_empty>
+            <name>Nothing</name>
+            <desc>Mount nothing here</desc>
+        </ANY_empty>
+    </ANY>
+</lang>
