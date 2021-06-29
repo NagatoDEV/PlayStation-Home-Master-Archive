@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commerce_point>
+  <node>
+	<header>
+	  <background default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+	</header>
+	  <node type="objects"> <!-- Sodium -->
+		  <header>
+			<name lang="en-US" default="true">Sodium</name>
+			<name lang="fr-FR">Sodium</name>
+			<thumbnail lang="en-US" default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/sodium.png</thumbnail>
+			<background default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+		  </header>
+			<object>163B865E-980D4FF2-BA2373A0-1E0B3478</object> <!-- 2/24/11 -->
+			<object>B8A6C1BD-4D0D45BD-AB5C793E-CC0CC574</object> <!-- 2/24/11 -->
+			<object>DE470753-D99148A6-8FA0FD9E-D2E2DE63</object> <!-- 2/24/11 -->
+	  </node>
+
+	<node type="objects"> <!-- Male NODE OPEN-->
+	  <header >
+		<name lang="en-US" default="true">Male</name>
+		<name lang="fr-FR">Homme</name>
+		<thumbnail lang="en-GB" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/male.dds</thumbnail>
+		<background default="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+	  </header>
+		  <!-- Sodium Jacket -->
+		  <object>88D8CFB1-F4284844-9CE955CB-B479B00A</object>
+    </node> <!-- Male NODE CLOSE -->
+    <node type="objects"> <!-- Female NODE OPEN -->
+	  <header>
+		<name lang="en-US" default="true">Female</name>
+		<name lang="fr-FR">Femme</name>
+		<thumbnail lang="en-US" default="true" useOsdColour="true">http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/female.dds</thumbnail>
+		<background>http://scea-home.playstation.net/a.home/hosted/CommercePoints/Thumbnails/S1_GRID_BG.jpg</background>
+	  </header>
+		<!-- Sodium Jacket -->
+		<object>D999BA81-2E564A9F-A2EF088E-F4E89211</object>
+	</node> <!-- Female NODE CLOSE -->
+ </node>
+</commerce_point>
