@@ -4,7 +4,7 @@
 
 This archive is based on Home's CDN Servers from April 1st, 2015. Additionally this archive is a mirror of JohnDrinkWater's snapshot from Home & will be updated whenever the Destination Home Team obtains more data via cache donations from ex-Home users. All of the main CDN contents will be posted in the main branch.
 
-For more information about the origin of this archive PlayStation Home you can refer to the original source [here](https://archive.org/details/psm_home_archive_2015_04_01) at archive.org.
+For more information about the origin of this archive of PlayStation Home you can refer to the original source [here](https://archive.org/details/psm_home_archive_2015_04_01) at archive.org.
 
 ## Information about this archive:
 
