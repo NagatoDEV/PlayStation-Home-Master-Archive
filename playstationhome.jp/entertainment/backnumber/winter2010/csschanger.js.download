@@ -1,0 +1,96 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+var css01 = "";
+var css02 = "";
+
+var swfwidth = "780";
+
+var marketswf01 = "600";
+var marketswf02 = "385";
+
+var loungeswf01 = "560";
+var loungeswf02 = "260";
+
+var intro_swf_w = "521";
+var intro_swf_h = "312";
+
+
+if (navigator.userAgent.indexOf("PLAYSTATION 3") != -1) {
+	var width = window.innerWidth ? window.innerWidth : document.documentElement.offsetWidth;
+	var height = window.innerHeight ? window.innerHeight : document.documentElement.offsetHeight;
+	
+	//userAgentがPS3時のフラグ変数
+	uaPS3_Fn = true;
+	
+	if(height > 0 && height <= 480) {
+		if (width >= 640 && height < 480) {
+			//480p/NTSC 16:9
+			uaPS3 = true; //PS3のSD対応時のフラグ変数
+		} else {
+			//480p/NTSC 4:3
+			uaPS3 = true; //PS3のSD対応時のフラグ変数
+		}
+	} else {
+		uaPS3_big = true; //PS3のワイド表示時のフラグ変数
+		css01 = "adjust720.css";
+	}
+}
+
+if(uaPS3) { //PS3 SD対応時の各設定変数は以下に記述
+	css01 = "adjust480.css";
+	css02 = "adjust48001.css";
+	swfwidth = "514";
+	marketswf01 = "333";
+	marketswf02 = "313";
+	loungeswf01 = "290";
+	loungeswf02 = "150";
+	intro_swf_w = "286";
+	intro_swf_h = "171";
+}
+
+if(uaPS3_big) { //PS3 ワイド表示時の各設定変数は以下に記述
+	css01 = "adjust720.css";
+}
+
+if (css01.length > 0) {
+	document.write('<style type=\"text/css\">@import url(\"/' + gMemberPath + 'css/' + css01 + '\");</style>');
+}
+
+if (css02.length > 0) {
+	document.write('<style type=\"text/css\">@import url(\"/' + gMemberPath + 'css/' + css02 + '\");</style>');
+}
+
+
+
+}
+/*
+     FILE ARCHIVED ON 07:48:47 Nov 27, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:24:28 Jul 20, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 161.291
+  exclusion.robots: 0.234
+  exclusion.robots.policy: 0.219
+  RedisCDXSource: 7.451
+  esindex: 0.013
+  LoadShardBlock: 125.141 (3)
+  PetaboxLoader3.datanode: 134.25 (4)
+  CDXLines.iter: 22.634 (3)
+  load_resource: 54.776
+  PetaboxLoader3.resolve: 32.534
+*/

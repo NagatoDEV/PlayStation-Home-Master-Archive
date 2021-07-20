@@ -1,0 +1,82 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+/*--setup--*/
+window.onload=function() {
+tab.setup = {
+   tabs: document.getElementById('tab').getElementsByTagName('li'),
+   
+   pages: [
+      document.getElementById('bbs01'),
+      document.getElementById('bbs02'),
+   ]
+}
+
+tab.init();
+}
+/*--setup end--*/
+
+var tab = {
+   init: function(){
+      var tabs = this.setup.tabs;
+      var pages = this.setup.pages;
+      
+      for(i=0; i<pages.length; i++) {
+         if(i !== 0) pages[i].style.display = 'none';
+         tabs[i].onclick = function(){ tab.showpage(this); return false; };
+      }
+   },
+   
+   showpage: function(obj){
+      var tabs = this.setup.tabs;
+      var pages = this.setup.pages;
+      var num;
+      
+      for(num=0; num<tabs.length; num++) {
+         if(tabs[num] === obj) break;
+      }
+      
+      for(var i=0; i<pages.length; i++) {
+         if(i == num) {
+            pages[num].style.display = 'block';
+            tabs[num].className = 'selected';
+         }
+         else{
+            pages[i].style.display = 'none';
+            tabs[i].className = null;
+         }
+      }
+   }
+}
+
+}
+/*
+     FILE ARCHIVED ON 07:49:33 Nov 27, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:27:40 Jul 20, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 108.856
+  exclusion.robots: 0.095
+  exclusion.robots.policy: 0.087
+  RedisCDXSource: 2.215
+  esindex: 0.007
+  LoadShardBlock: 89.541 (3)
+  PetaboxLoader3.datanode: 72.744 (4)
+  CDXLines.iter: 14.68 (3)
+  load_resource: 40.116
+  PetaboxLoader3.resolve: 23.471
+*/

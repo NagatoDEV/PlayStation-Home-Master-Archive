@@ -1,0 +1,312 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+
+/*
+ * loginLayer.js
+ * 
+ * using prototype.js -version 1.6.0.3-
+ */
+
+
+
+//ログインボタンのID名
+//var loginBt = "loginPSN";
+
+//ログイン先URL
+var selfHost;
+var iframeURL;
+
+//ロードimgのパス指定
+var loadingIMG = "/" + gMemberPath + "community/images/default/tabAjaxLoading.gif";
+
+
+var loginLayer;
+var innerBlock;
+var innerBlock_height = 350;
+var closeBt;
+var insertObj;
+
+//Safari2系 ログインレイヤーと重なるFlashのdivのidを設定。レイヤー表示時にvisibility : hidden;に
+var flashOverlapObj = ["visual","boxFlashView","loungeflash","boxFlashView","flashTop"]
+
+
+Event.observe(window, "load", setLayer, true);
+
+//ページロード時の関数
+function setLayer(){
+	
+
+	
+	selfHost = window.location.host;
+	
+	selfPath = selfHost + window.location.pathname;
+	if(window.location.search != ""){
+		selfPath += window.location.search;
+	}
+	if(window.location.hash  != ""){
+		selfPath += window.location.hash ;
+	}
+	
+	selfHost = encodeURIComponent(selfHost);
+	selfPath = encodeURIComponent(selfPath);
+	
+//	iframeURL = "https://web.archive.org/web/20101127080506/https://store.playstation.com/external/index.vm?returnURL=http%3A%2F%2F" + selfHost + "%2F" + encodeURIComponent(gMemberPath) +"bbs%2Fset_everywhere.php?t=" + selfPath;
+	iframeURL = "https://web.archive.org/web/20101127080506/https://store.playstation.com/external/index.vm?returnURL=" + gBbsProtocol +"%3A%2F%2F" + selfHost + "%2F" + encodeURIComponent(gMemberPath) + "community%2Fset_everywhere.php";
+
+	var selfHref = window.location.href;
+	
+	if(uaPS3_Fn){
+		insertObj = '<iframe src="' + selfHref + '" style="display:none;" name="hiddenFrame" id="hiddenFrame" width="0" height="0"></iframe><iframe src="' + iframeURL + '" id="loginFrame" name="loginFrame" frameborder="0" width="450" height="0">このコンテンツはインラインフレームを使用しています。</iframe>';
+	} else {
+		insertObj = '<iframe src="' + iframeURL + '" id="loginFrame" name="loginFrame" frameborder="0" width="450" height="0">このコンテンツはインラインフレームを使用しています。</iframe>';
+	}
+	
+	//loginBt = $(loginBt);
+	//if(!$(loginBt)){return false}
+	
+	//半透明レイヤー作成
+	loginLayer = document.createElement("div");
+	loginLayer.setAttribute("id","loginLayer");
+	//半透明のstyleの記述はjsからだとPS3で利かないので半透明レイヤーのstyleはcssへ
+	
+	
+	//iframeの親div作成
+	innerBlock = document.createElement("div");
+	innerBlock.setAttribute("id","innerBlock");
+	//Element.addClassName(innerBlock,"alphaPNG");
+	Element.setStyle(innerBlock,{
+		position: "absolute",
+		left: "50%",
+		width: "450px",
+		height: innerBlock_height + "px",
+		marginLeft: "-260px",
+		padding: "45px 35px",
+		zIndex: "1000",
+		background: "url(/" + gMemberPath + "images/login/bg_loginForm.png) no-repeat 0 0"
+	});
+	
+	if(navigator.userAgent.indexOf("MSIE 6") != -1){
+		Element.setStyle(innerBlock,{
+			zoom: "1",
+			height: "1",
+			backgroundColor: "#294F74",
+			paddingRight: "33px",
+			paddingBottom: "44px"
+		});
+	}
+	
+	if(uaPS3){
+		Element.setStyle(innerBlock,{
+			marginLeft: "-230px",
+			padding: "25px 5px",
+			background: "url(/" + gMemberPath + "images/login/sd_bg_loginForm.png) no-repeat 0 0",
+			backgroundColor: "transparent"
+		});
+	}
+	
+	//loadimgの生成
+	loadImg = document.createElement("img");
+	loadImg.setAttribute("src",loadingIMG);
+	loadImg.setAttribute("alt","now loading");
+	Element.setStyle(loadImg,{
+		display: "block",
+		margin: "0 auto",
+		width: "208px",
+		height: "13px",
+		textAlign: "center",
+		marginTop: "100px"
+	});
+	
+	//閉じるボタンのノード作成
+	closeBt = document.createElement("a");
+	closeBt.href= "javascript:void(0);";
+	if(uaPS3){
+		closeBt.innerHTML = "<img class='alphaPNG' src='/" + gMemberPath + "images/login/sd_bt_lodginClose.png' />";
+	} else {
+		closeBt.innerHTML = "<img class='alphaPNG' src='/" + gMemberPath + "images/login/bt_lodginClose.png' />";
+	}
+	var closeWidth = "40";
+	var closeMgn = (innerBlock.style.width.replace("px","") / 2) + 45 + "px";
+	Element.setStyle(closeBt,{
+		position: "absolute",
+		display: "block",
+		width: closeWidth + "px",
+		height: "40px",		
+		zIndex: "9999",
+		top: "2px",
+		left: "50%",
+		marginLeft: closeMgn
+	});
+	
+	if(uaPS3){
+		closeWidth = "16";
+		closeMgn = (innerBlock.style.width.replace("px","") / 2)  + 5 + "px";
+		Element.setStyle(closeBt,{
+			width: closeWidth + "px",
+			height: "21px",
+			left: "50%",
+			marginTop: "13px",
+			marginLeft: closeMgn
+		});
+	}
+	
+	
+	//onclickイベント設定
+	//Event.observe(loginBt, "click", showLayer, true);
+	Event.observe(loginLayer, "click", hideLayer, true);
+	Event.observe(closeBt, "click", hideLayer, true);
+}
+
+
+
+
+
+//レイヤー表示関数
+function showLayer(){
+	//スクロールナシ
+	//document.body.style.overflow="hidden";
+	
+	//safari2系 & uaPS3_big
+	if(navigator.userAgent.indexOf("AppleWebKit/41") != -1 || uaPS3_big == true){
+		for(var i = 0; i < flashOverlapObj.length; i++){
+			try {
+				$(flashOverlapObj[i]).style.visibility = "hidden";
+			} catch(e){
+				
+			}
+		}
+	}
+	
+	//ページ全体の高さ取得
+	var h = Math.max( document.body.clientHeight , document.body.scrollHeight );
+	h = Math.max( h , document.documentElement.scrollHeight );
+	h = Math.max( h , document.documentElement.clientHeight );
+	
+	//半透明レイヤーの高さ設定
+	Element.setStyle(loginLayer,{
+		height: h + "px"
+	});
+	
+	//フォーム部分の高さ位置指定
+	var T = new Number(Position.realOffset(document.body).top);
+	var Ajaxform_height = window.innerHeight ? window.innerHeight : document.documentElement.offsetHeight;
+	innerBlock.style.top = T + (Ajaxform_height / 2) - (innerBlock_height / 2)  + "px";
+	
+	
+	//閉じるボタンの高さ位置指定
+	closeBt.style.top = innerBlock.style.top;
+	
+	
+	//bodyにノードの挿入
+	document.body.appendChild(loginLayer);
+	document.body.appendChild(innerBlock);
+	document.body.appendChild(closeBt);
+	
+	//ノードの挿入より少し遅らせてiframeの挿入
+	setTimeout("loadFn()",100);
+}
+
+
+//iframeの挿入、userAgentごとにPSNのフォーム表示を切り分け
+function loadFn(){
+	//height:0;のiframeを挿入
+	innerBlock.innerHTML = insertObj;
+	innerBlock.appendChild(loadImg);
+	
+	//IE以外のPS3を含むモダンブラウザ
+	if (uaPS3_Fn == true || !document.all) {
+		
+		//Safari2以下に別指定(iframeのonloadが使えない)
+		if(navigator.userAgent.indexOf("Safari") != -1 && navigator.userAgent.indexOf("Chrome") == -1 && navigator.userAgent.indexOf("Version") == -1){
+			displayPSN()
+		} else {
+			$("loginFrame").onload = function () {
+				displayPSN()
+			}
+		}
+	} else {
+		$("loginFrame").onreadystatechange = function () {
+			if (this.readyState == "complete") {
+				displayPSN();
+				this.onreadystatechange = null;
+			}
+		}
+	}
+}
+
+
+
+
+//レイヤー削除関数
+function hideLayer(){
+	document.body.style.overflow="visible";
+	
+	//safari2 & uaPS3_big
+	if(navigator.userAgent.indexOf("AppleWebKit/41") != -1 || uaPS3_big == true){
+		for(var i = 0; i < flashOverlapObj.length; i++){
+			try {
+				$(flashOverlapObj[i]).style.visibility = "visible";
+			} catch(e){
+				
+			}
+		}
+	}
+	
+	$("loginFrame").setAttribute("height","0");
+	document.body.removeChild(loginLayer);
+	document.body.removeChild(innerBlock);
+	document.body.removeChild(closeBt);
+	
+	//PS3のフォームが残るバグ回避のためページリロード
+	if(uaPS3_Fn == true){
+		setTimeout(function(){window.location.reload()},250);
+	}
+}
+
+
+//PSNのheight指定、ロードimgの削除
+function displayPSN(){
+//	if($("loginFrame")){
+		$("loginFrame").setAttribute("height","350");
+//	}
+
+//	if(innerBlock && $(loadImg)){
+		innerBlock.removeChild($(loadImg));
+//	}
+}
+
+
+
+
+}
+/*
+     FILE ARCHIVED ON 08:05:06 Nov 27, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:37:44 Jul 20, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 251.339
+  exclusion.robots: 0.079
+  exclusion.robots.policy: 0.072
+  RedisCDXSource: 1.514
+  esindex: 0.006
+  LoadShardBlock: 232.13 (3)
+  PetaboxLoader3.datanode: 348.108 (4)
+  CDXLines.iter: 15.279 (3)
+  load_resource: 176.16
+  PetaboxLoader3.resolve: 28.748
+*/
