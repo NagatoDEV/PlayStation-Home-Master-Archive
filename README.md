@@ -19,7 +19,7 @@ As of 7/19/2021, this archive/repo contains 188GB's `202,593,148,213 bytes` wort
 * Screenlinks: Various media content. This includes audio files in .MP3/.BNK format, video's in MP4 format usually encoded MPEG-4.
 * XML, RSS Files.
 
-However this archive isn't 100% complete snapshot of Home CDN servers. Regions such as, SCEJ and SCEA (Asia) Home data is currently a WIP in terms of archiving scenes (spaces), .SDC information, screenlinks etc.
+However this archive isn't 100% complete snapshot of Home CDN servers. Regions such as, SCEJ and SCEAsia Home data is currently a WIP in terms of archiving scenes (spaces), .SDC information, screenlinks etc.
 
 **P.S:** If you want to see our current progress of what spaces `scenes` have been archived by the Destination Home Team, you can check out the Destination Home Scene List Spreadsheet [here.](https://github.com/NagatoDEV/PlayStation-Home-Scene-List-Spreadsheet)
 
@@ -47,6 +47,8 @@ For more information on how to donate cache data please refer to this [guide.](h
 * Save-data
 
 ## Contact Me
+
+Have any questions about this archive? Feel free to contact me at the following methods:
 
 My Twitter: [@NagatoRevenge](https://twitter.com/NagatoRevenge)
 
