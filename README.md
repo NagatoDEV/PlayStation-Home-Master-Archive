@@ -48,6 +48,8 @@ For more information on how to donate cache data please refer to this [guide.](h
 
 ## Contact Me
 
+Have any questions about this archive? Feel free to contact me at the following methods:
+
 My Twitter: [@NagatoRevenge](https://twitter.com/NagatoRevenge)
 
 # ❤️ Join/Check out our social platforms:
