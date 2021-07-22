@@ -7,6 +7,7 @@ This archive is based on Home's CDN Servers from April 1st, 2015. Additionally t
 Additionally, this archive will also preserve any PlayStation Home websites & 3rd Party Companies that made content within Home. As of current here are the following sites that will be preserved. **Note more sites will be preseved at a later time**.
 
 * https://blog.playstation.com/
+* http://blog.eu.playstation.com/
 * https://www.irem.co.jp
 * http://playstationhome.jp/
 * https://www.jp.playstation.com
