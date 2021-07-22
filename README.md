@@ -4,6 +4,13 @@
 
 This archive is based on Home's CDN Servers from April 1st, 2015. Additionally this archive is a mirror of JohnDrinkWater's snapshot from Home & will be updated whenever the Destination Home Team obtains more data via cache donations from ex-Home users. All of the main CDN contents will be posted in the main branch.
 
+Additionally, this archive will also preserve any PlayStation Home websites & 3rd Party Companies that made content within Home. As of current here are the following sites that will be preserved. **Note more sites will be preseved at a later time**.
+
+* https://blog.playstation.com/
+* https://www.irem.co.jp
+* http://playstationhome.jp/
+* https://www.jp.playstation.com
+
 For more information about the origin of this archive of PlayStation Home you can refer to the original source [here](https://archive.org/details/psm_home_archive_2015_04_01) at archive.org.
 
 ## Information about this archive:
