@@ -1,0 +1,210 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+var overImgName = "_on";
+var outImgName  = "_off";
+
+var rollOverImg   = true;
+var rollOverInput = true;
+var rollOverMap   = true;
+
+var Format = function(){
+	var doc      = document;
+	var na       = navigator.userAgent;
+
+	this.doc     = doc;
+	this.Opera   = window.opera;
+	this.IE      = (doc.all && !window.opera);
+	this.macIE   = (na.toLowerCase().indexOf('mac') != -1 && na.toLowerCase().indexOf('msie') != -1);
+	this.macFF   = (na.indexOf('mac') != -1 && na.indexOf('firefox')!=-1);
+};
+
+Format.prototype = {
+	onload: function(func){
+		if(this.Opera){
+			window.addEventListener('load', func, false);
+		}else if(this.macIE){
+			window.onload = function(){ func(); }
+		}else if(this.IE){
+			window.attachEvent('onload', func);
+		}else if(window.addEventListener){
+			window.addEventListener('load', func, false);
+		}else{
+			window.onload = function(){
+				func();
+			}
+		}
+	},
+
+	ID: function(){
+		if(arguments.length > 1){
+			var getAE = [];
+			for(i=0; i<arguments.length; i++){
+				if(this.doc.all) getAE[i] = this.doc.all(arguments[i]);
+				else if(this.doc.getElementById) getAE[i] = this.doc.getElementById(arguments[i]);
+			}
+			return getAE;
+		}else{
+			if(this.doc.all) return this.doc.all(arguments[0]);
+			else if(this.doc.getElementById) return this.doc.getElementById(arguments[0]);
+		}
+	},
+
+	check: function(chkID){
+		var flag = true;
+		if(!chkID) return false;
+		else{
+			if(chkID.length){
+				for(i=0; i<chkID.length; i++) if(!chkID[i]) return false;
+			}else{
+				if(!chkID) return false;
+			}
+		}
+		return flag;
+	}
+};
+
+var FK = new Format;
+
+
+var FKroFormat = function(over,out){
+	this.tagName = FK.doc.getElementsByTagName;
+	this.regOver = new RegExp(outImgName + "+(\.[a-z]+)$");
+	this.regOut  = new RegExp(overImgName + "+(\.[a-z]+)$");
+};
+
+FKroFormat.prototype = {
+	init: function(){
+		if(rollOverImg) FKro.roImg();
+		if(rollOverInput) FKro.roInput();
+	},
+
+	roImg: function(){
+		if(this.tagName){
+			var imgTagData = this.getTag('img');
+			var useImg = [];
+			var useCount = 0;
+
+			for(i=0; i<imgTagData.length; i++){
+				var imgSrc = imgTagData[i].getAttribute("src");
+				if(imgSrc.match(FKro.regOver)){
+					this.preload(imgSrc,FKro.regOver,overImgName);
+
+					if(rollOverMap){
+						var imgMap = imgTagData[i].getAttribute("usemap");
+						if(imgMap){
+							useImg[useCount] = imgTagData[i];
+							useCount++;
+							continue;
+						}
+					}
+
+					imgTagData[i].onmouseover = function() {
+						FKro.action(this,FKro.regOver,overImgName);
+					}
+					imgTagData[i].onmouseout = function() {
+						FKro.action(this,FKro.regOut,outImgName);
+					}
+				}
+			}
+
+			if(rollOverMap && (useCount > 0)){
+				var mapName = [];
+
+				for(i=0; i<useImg.length; i++){
+					mapName[i] = useImg[i].getAttribute("usemap").substring(1);
+
+					if(FK.check(FK.ID(mapName[i]))){
+						FK.ID(mapName[i]).onmouseover = function(){
+							for(x=0; x<useImg.length; x++){
+								if(this.id == mapName[x]){
+									FKro.action(useImg[x],FKro.regOver,overImgName);
+									break;
+								}
+							}
+						}
+
+						FK.ID(mapName[i]).onmouseout = function(){
+							for(x=0; x<useImg.length; x++){
+								if(this.id == mapName[x]){
+									FKro.action(useImg[x],FKro.regOut,outImgName);
+									break;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+
+	roInput: function(){
+		if(this.tagName){
+			var imgTagData = this.getTag('input');
+
+			for(i=0; i<imgTagData.length; i++){
+				var imgSrc = imgTagData[i].getAttribute("src");
+				var imgType = imgTagData[i].getAttribute("type");
+				if((imgType.match('image')) && (imgSrc.match(FKro.regOver))){
+					this.preload(imgSrc,FKro.regOver,overImgName);
+
+					imgTagData[i].onmouseover = function() {
+						FKro.action(this,FKro.regOver,overImgName);
+					}
+					imgTagData[i].onmouseout = function() {
+						FKro.action(this,FKro.regOut,outImgName);
+					}
+				}
+			}
+		}
+	},
+
+	getTag: function(tag){
+		return FK.doc.getElementsByTagName(tag);
+	},
+
+	preload: function(src,reg,name){
+		var pre = new Image();
+		pre.src = src.replace(reg, name + "$1");		
+	},
+
+	action: function(target,reg,name){
+		target.setAttribute("src", target.getAttribute("src").replace(reg, name + "$1"));
+	}
+};
+
+var FKro = new FKroFormat;
+
+FK.onload(FKro.init);
+
+}
+/*
+     FILE ARCHIVED ON 00:46:50 Sep 26, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:03:44 Jul 22, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 73.235
+  exclusion.robots: 0.182
+  exclusion.robots.policy: 0.171
+  RedisCDXSource: 2.756
+  esindex: 0.008
+  LoadShardBlock: 42.745 (3)
+  PetaboxLoader3.datanode: 54.813 (4)
+  CDXLines.iter: 23.313 (3)
+  load_resource: 822.544
+  PetaboxLoader3.resolve: 765.167
+*/
