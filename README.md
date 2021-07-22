@@ -75,4 +75,3 @@ My Twitter: [@NagatoRevenge](https://twitter.com/NagatoRevenge)
 * [Destination Home 1.86 Dev Offline Client Patches](https://github.com/NagatoDEV/Destination-Home-1.86-Offline-Client-Patches)
 
 **Disclaimer: This repository is purely for preservation and educational purposes.**
-{"mode":"full","isActive":false}
