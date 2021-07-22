@@ -1,0 +1,1034 @@
+@charset "UTF-8";
+
+/**
+* common
+*--------------------------------------------------*/
+
+.radius {
+	border-left: #dbdbdb 1px solid;
+	border-right: #dbdbdb 1px solid;
+	border-bottom: #dbdbdb 1px solid;
+	-webkit-border-radius: 0 0 4px 4px; 
+	-moz-border-radius: 0 0 4px 4px; 
+	-o-border-radius : 0 0 4px 4px;
+	-ms-border-radius: 0 0 4px 4px; 
+	border-radius: 0 0 4px 4px;
+}
+
+
+#cero-z {
+	width: 859px;
+	background-color: #FFF;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border: 1px solid #dbdbdb;
+	margin: 30px auto 30px auto;
+	position: relative;
+}
+.cero-z-hide {
+	display: none !important;
+}
+
+.content-hide {
+	display: none;
+	position: absolute !important;
+}
+
+#contents {
+	visibility: hidden;
+	position: absolute;
+	top: -99999px;
+}
+
+#software-menu {
+	visibility: hidden;
+	position: absolute;
+	top: -99999px;
+}
+
+.content-show {
+	visibility: visible !important;
+	position: relative !important;
+	top: 0 !important;
+}
+
+#ceroAlert {
+	width: 800px;
+	text-align: center;
+	margin: 40px auto 0 auto;
+}
+	#cero-close {
+		position: absolute;
+		top: 17px;
+		right: 30px;
+	}
+	#cero-close a {
+		background: url(/common/img/software_detail/back_icon.png) no-repeat 0 2px;
+		padding-left: 18px;
+	}
+
+	#ceroAlertTitle {
+		font-size: 153.9%;
+		text-align: center;
+		margin: 20px auto;
+	}
+
+	#ceroZIcon {
+		margin-bottom: 20px;
+	}
+
+	#ceroAlert p {
+		margin-bottom: 20px;
+	}
+
+	#ageCheck {
+		padding-bottom: 20px;
+		background: url(/common/img/software_detail/cero_separator.png) no-repeat 0 bottom;
+	}
+
+	#ageCheck li {
+		display: inline;
+		width: 177px;
+		margin: 0 10px;
+	}
+
+	#ceroAlert h3 {
+		font-size: 123.1%;
+		margin: 20px 0 15px 0;
+	}
+
+	#aboutCero {
+		padding-bottom: 20px;
+		margin-bottom: 30px;
+		background: url(/common/img/software_detail/cero_separator.png) no-repeat 0 bottom;
+	}
+
+	#ceroAlert .blank {
+		padding-left: 15px;
+		background: url(/common/img/software_detail/blank_icon.png) no-repeat 0 3px;
+	}
+
+/**
+* title
+*--------------------------------------------------*/
+/** 2013.1.7 add START */
+#software-title {
+	position: relative;
+	margin-top: 2px;
+	background: #151515 url("/common/img/title_bg_head.png") no-repeat 0 -2px;
+}
+
+	#software-title-inner {
+		background: url("/common/img/title_bg_head.png") no-repeat;
+		width: 844px;
+		position: relative;
+		top: -2px;
+		padding: 29px 0 5px 16px;
+	}
+
+		#software-title-inner h2 {
+			color: #FFF;
+			font-size: 123%;
+			font-weight: bold;
+			width: 640px;
+		}
+
+	#title-hard {
+		position: absolute;
+		/** 2013.1.22 add START */
+		top: -2px;
+		/** 2013.1.22 add END */
+		left: 17px;
+	}
+		#title-hard img:first-child{
+			padding-right:3px;
+		}
+
+
+/**
+* Store Button Area
+*--------------------------------------------------*/
+#store-button-area-dummy,
+#store-button-area {
+	position: absolute;
+	right: 0;
+	width: 189px;
+	height: 68px;
+	top: 10px;
+	display: none;
+}
+
+#store-button-area2 {
+	display: none;
+}
+
+#store-button-area-dummy {
+	display: block;
+}
+
+.store-button-show {
+	display: block !important;
+}
+
+#store-type-id {
+	display: none;
+}
+
+	#store-button-area-dummy .store-button-sony-dummy,
+	#store-button-area .store-button-sony,
+	#store-button-area-dummy .store-button-sen-dummy,
+	#store-button-area .store-button-sen {
+		display: none;
+		width: 161px;
+		height: 38px;
+		background: url(/common/img/software_detail/store_button_sony.png) no-repeat 0 0;
+		position: absolute;
+		left: 15px;
+		top: 6px;
+	}
+
+	#store-button-area-dummy .store-button-sen-dummy,
+	#store-button-area .store-button-sen {
+		background: url(/common/img/software_detail/store_button_sen.png) no-repeat 0 0;
+	}
+
+	#store-button-area-dummy .store-button-none,
+	#store-button-area .store-button-reserve,
+	#store-button-area .store-button-buy,
+	#store-button-area .store-button-none {
+		display: block;
+	}
+
+	#store-button-area .store-button-sony:hover,
+	#store-button-area .store-button-sen:hover {
+		background-position: 0 -40px;
+	}
+
+	/** none */
+	#store-button-area-dummy .store-button-none,
+	#store-button-area-dummy .store-button-none:hover,
+	#store-button-area .store-button-none,
+	#store-button-area .store-button-none:hover {
+		background-position: 0 -80px !important;
+		cursor: default;
+		top: 15px;
+	}
+
+		#store-button-area .store-button-sony img,
+		#store-button-area .store-button-sen img {
+			width: 159px;
+			height: 36px;
+		}
+
+	#store-button-area .store-button-info {
+		font-size: 93%;
+		text-align: center;
+		position: absolute;
+		top: 50px;
+		color: #FFF;
+		width: 189px;
+	}
+
+/**
+* スペック部
+*/
+#explain-box-img {
+	position: relative;
+}
+
+	#explain-box-img img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	#explain-box-img .store-button-sony-dummy,
+	#explain-box-img .store-button-sony,
+	#explain-box-img .store-button-sen-dummy,
+	#explain-box-img .store-button-sen {
+		display: none;
+		width: 161px;
+		height: 38px;
+		background: url(/common/img/software_detail/store_button_sony2.png) no-repeat 0 0;
+		margin: 20px auto 5px;
+	}
+
+	#explain-box-img .store-button-sen-dummy,
+	#explain-box-img .store-button-sen {
+		background: url(/common/img/software_detail/store_button_sen2.png) no-repeat 0 0;
+	}
+
+	#explain-box-img .store-button-sony-dummy,
+	#explain-box-img .store-button-sen-dummy {
+		display: block;
+	}
+
+	#explain-box-img .store-button-reserve,
+	#explain-box-img .store-button-buy,
+	#explain-box-img .store-button-none {
+		display: block;
+	}
+
+	#explain-box-img .store-button-sony:hover,
+	#explain-box-img .store-button-sen:hover {
+		background-position: 0 -40px;
+	}
+
+	/** none */
+	#explain-box-img .store-button-none,
+	#explain-box-img .store-button-none:hover {
+		background-position: 0 -80px !important;
+		cursor: default;
+	}
+
+	#explain-box-img .store-button-sony img,
+	#explain-box-img .store-button-sen img {
+			width: 159px;
+			height: 36px;
+		}
+
+	#explain-box-img .store-button-info {
+		font-size: 93%;
+		text-align: center;
+		width: 189px;
+		margin: 0 auto;
+	}
+
+/** 2013.1.7 add END */
+
+/**
+* Carousel(override)
+*--------------------------------------------------*/
+#carousel-thumbs-wrap {
+	border-top: none !important;
+}
+
+/**
+* navigation
+*--------------------------------------------------*/
+/** 2013.1.7 add START */
+	#software-nav-inner {
+		/* background: url("/common/img/software_detail/nav_bg_upper.png") no-repeat; */
+		padding: 0 0 8px 15px;
+		border-left: #353535 1px solid;
+		border-right: #353535 1px solid;
+		margin: 0 1px;
+	}
+
+		#software-nav-inner li {
+			position: relative;
+			white-space: nowrap;
+			text-align: center;
+			padding: 0 16px 0 16px;
+			margin-bottom: 1px;
+			display: inline-block;
+			border-left: 1px solid #333;
+			border-right: 1px solid #070707;
+			float: left;
+		}
+
+			#software-nav-inner li a:hover {
+				text-decoration: none;
+				opacity: 0.6;
+				-moz-opacity: 0.6;
+				filter:alpha(opacity=6);
+			}
+
+			#software-nav-inner li a.anchor {
+				font-size: 105%;
+				color: #FFF;
+				background: url("/common/img/software_detail/software_detail_nav_anchor.png") no-repeat 0 45%;
+				padding-left: 15px;
+			}
+			
+			#software-nav-inner li a.link {
+				font-size: 105%;
+				color: #FFF;
+				background: url("/common/img/software_detail/nav_link.png") no-repeat 0 48%;
+				padding-left: 11px;
+			}
+			
+			#software-nav-inner li a.blank {
+				font-size: 105%;
+				color: #FFF;
+				background: url("/common/img/software_detail/nav_blank.png") no-repeat 0 48%;
+				padding-left: 18px;
+			}
+
+	#nav-line {
+		height: 4px;
+	}
+
+/**
+* detail
+*--------------------------------------------------*/
+
+#main-image-area {
+	width: 860px;
+	background-color: #000;
+	padding: 15px 0;
+}
+
+/**
+* carousel
+*--------------------------------------------------*/
+
+#carousel-image {
+	background-color: #000;
+	height: auto;
+	padding: 15px 0;
+	width: 860px;
+}
+
+#carousel-area {
+	margin-bottom: 0;
+}
+
+#carousel-loading {
+	top: 0;
+	background: url(/common/img/loading_l_black.gif) no-repeat 51% 0;
+}
+
+/**
+* about
+*--------------------------------------------------*/
+
+#software-about {
+	padding: 16px 14px 3px 14px;
+	background-color: #FFF;
+	margin-bottom: 21px;
+}
+
+	.about-info {
+		margin-bottom: 12px;
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		font-size: 108%;
+		line-height: 160%;
+	}
+
+
+	/**
+	* WYSIWYGエリア基本設定
+	*/
+	#software-about .type-bg h1,
+	#software-about .type-text h1,
+	#software-about .type-bg h2,
+	#software-about .type-text h2,
+	#software-about .type-bg h3,
+	#software-about .type-text h3,
+	#software-about .type-bg h4,
+	#software-about .type-text h4,
+	#software-about .type-bg h5,
+	#software-about .type-text h5,
+	#software-about .type-bg h6,
+	#software-about .type-text h6 {
+		font-weight: bold;
+		line-height: 140%;
+		margin-bottom: 10px;
+	}
+
+	#software-about .type-bg h1,
+	#software-about .type-text h1 {
+		font-size: 153.9%;
+	}
+
+	#software-about .type-bg h2,
+	#software-about .type-text h2 {
+		font-size: 138.5%;
+	}
+	
+	#software-about .type-bg h3,
+	#software-about .type-text h3 {
+		font-size: 123%;
+	}
+	
+	#software-about .type-bg h4,
+	#software-about .type-text h4 {
+		font-size: 116%;
+	}
+	
+	#software-about .type-bg h5,
+	#software-about .type-text h5 {
+		font-size: 108%;
+	}
+	
+	#software-about .type-bg h6,
+	#software-about .type-text h6 {
+		font-size: 108%;
+	}
+	
+	#software-about .type-bg p,
+	#software-about .type-text p {
+		font-size: 100%;
+		line-height: 160%;
+		margin-bottom: 13px;
+	}
+		
+	#software-about .type-text p.note,
+	#software-about p.note {
+		font-size: 77%;
+		line-height: 130%;
+	}
+	
+	#software-about .type-text li {
+		list-style-type: disc;
+		list-style-position: outside;
+		margin-left: 22px;
+	}
+	
+	#software-about .box {
+		padding: 20px;
+		background-color: #F2F2F2;
+		margin: 10px 0;
+		color: #333;
+	}
+		
+	/**
+	* 背景あり
+	*/
+	#software-about .type-bg {
+		padding: 16px 27px;
+		width: 774px;
+	}
+
+	/**
+	 * 背景なし
+	 */
+	#software-about .type-text {
+		background-color: #FFF;
+		border: 1px solid #e6e6e6;
+		color: #333;
+		padding: 16px 27px;
+		width: 774px;
+	}
+
+		
+
+	/**
+	* 旧ビデオプレイヤー
+	*/
+	#software-about .type-video {
+		background-color: #FFF;
+		padding: 16px 27px;
+		width: 774px;
+		border: 1px solid #e6e6e6;
+	}
+
+	#software-about #flmovie {
+		color: #4c4c4c;
+		font-size: 16px !important;
+		text-align: left !important;
+		margin-bottom: 15px;
+	}
+
+	#software-about .moviePlayer, 
+	#software-about .flash {
+		margin-bottom: 0 !important;
+	}
+
+	/**
+	* 2カラム
+	*/
+	#software-about .type-column2 {
+		background-color: #FFF;
+		padding: 16px 27px;
+		width: 774px;
+		border: 1px solid #e6e6e6;
+	}
+	
+		#software-about .type-column2 div.left-column {
+			float: left;
+			margin-right: 25px;
+		}
+
+		#software-about .type-column2 div.right-column {
+			float: right;
+		}
+
+		/**
+		* 共通
+		*/
+		#software-about .type-column2 h3 {
+			color: #333;
+			font-weight: bold;
+			font-size: 123%;
+			line-height: 120%;
+			margin-bottom: 10px;
+		}
+
+		#software-about .type-column2 p {
+			color: #333;
+			font-size: 108%;
+			line-height: 160%;
+		}
+
+/**
+* news info
+*--------------------------------------------------*/
+
+.news-info {
+	background: none;
+	margin-bottom: 12px;
+}
+
+	.information-title {
+		background: url("/common/img/software_detail/software_detail_title_background.jpg") no-repeat;
+		padding-left: 25px;
+	}
+
+	.news-info .inner {
+		background-color: #FFFFFF;
+		border-left: 1px solid #E5E5E5;
+		border-right: 1px solid #E5E5E5;
+		padding: 2px 13px;
+	}
+
+	.news-info ul li {
+		background: url("/common/img/sepalator.gif") repeat-x scroll 0 0 transparent;
+		clear: both;
+		display: inline-block;
+		padding: 7px 0 5px;
+	}
+
+		.news-info ul li.first {
+			background: none repeat scroll 0 0 transparent !important;
+		}
+
+		.news-info ul li:after {
+			clear: both;
+			content: url("/common/img/spacer.gif");
+			display: block;
+			height: 0;
+		}
+
+	.news-info .news-date {
+		display: block;
+		float: left;
+		font-weight: bold;
+		margin: 0 12px 0 1px;
+		width: 83px;
+	}
+
+	.type-none .news-wrap {
+		width: 700px;
+		padding-left: 0 !important;
+		float: left;
+	}
+
+	.news-info ul li a {
+		background: url("/common/img/arrow.gif") no-repeat scroll 0 5px transparent;
+		display: block;
+		float: left;
+		padding-left: 11px;
+	}
+
+		.news-info ul li a:link {
+			color: #333333 !important;
+			text-decoration: none;
+		}
+		
+		.news-info ul li a:visited {
+			color:#333 !important;
+			text-decoration:none;
+		}
+
+		.news-info ul li a:hover {
+			color: #333333 !important;
+			text-decoration: underline;
+		}
+
+		.news-info ul li a:active {
+			color:#333 !important;
+			text-decoration:underline;
+		}
+
+/**
+* explain
+*--------------------------------------------------*/
+/** sync search */
+#ss {
+	display: none;
+}
+#software-explain {
+	width: 860px;
+	margin-bottom: 21px;
+}
+
+	#explain-title {
+		position: relative;
+		background: url("/common/img/software_detail/title_bg.png") repeat-y;
+	}
+
+		#explain-title-inner {
+			background: url("/common/img/title_bg_head.png") no-repeat;
+			width: 844px;
+			position: relative;
+			top: -2px;
+			padding: 16px 0 12px 16px;
+		}
+
+			#explain-title-inner h2 {
+				color: #FFF;
+				font-weight: bold;
+				font-size: 123%;
+				width: 700px;
+			}
+
+			#explain-title-inner p {
+				color: #FFF;
+				font-size: 93%;
+				width: 700px;
+			}
+
+			#explain-title-inner span {
+				position: absolute;
+				top: 18px;
+				right: 15px;
+				*right: 30px;
+				color: #9b9b9b;
+				font-size: 93%;
+			}
+
+	#explain-inner {
+		padding: 20px 24px;
+		background-color: #FFF;
+	}
+
+		#explain-spec {
+			margin-bottom: 20px;
+		}
+
+			/**
+			* 左イメージ用
+			*/
+			#explain-spec .type-left {
+				float: left;
+			}
+
+			/**
+			* 右イメージ用
+			*/
+			#explain-spec .type-right {
+				float: right;
+			}
+
+			/**
+			* 共通
+			*/
+			#explain-box-spec {
+				background: url("/common/img/software_detail/line.gif") repeat-x top left;
+				width: 560px;
+			}
+
+			#explain-box-psnow{
+				margin-top:50px;
+				width: 560px;
+			}
+				#explain-box-psnow table{
+					width: 560px;
+				}
+				#explain-box-psnow a{
+					padding-left:10px;
+					background: url("/common/img/software_detail/link_arrow.png") 2px 2px no-repeat;
+				}
+				#explain-box-psnow a:hover{
+
+				}
+				#explain-box-psnow .box-title{
+					overflow: hidden;
+				}
+				#explain-box-psnow .box-title .title{
+					float:left;
+				}
+				#explain-box-psnow .box-title .detail-link{
+					float:right;
+				}
+				#explain-box-psnow .explain-box td ul{
+					padding-left: 30px;
+				}
+					#explain-box-psnow .explain-box td ul li{
+						list-style-type: circle;
+					}
+
+
+			.explain-box {
+				font-size: 93%;
+				display: block;
+				background: url("/common/img/software_detail/line.gif") repeat-x bottom left;
+				overflow: hidden;
+			}
+
+				.explain-box th {
+					width: 150px;
+					padding: 5px 8px 6px 0;
+					display: table-cell;
+				}
+
+				.explain-box td {
+					vertical-align: middle;
+					padding: 5px 5px 5px 0;
+					display: table-cell;
+				}
+
+				.explain-box td dl dt {
+					padding-right: 3px;
+				}
+				#umdPassportPrice a {
+					padding-left: 10px;
+					background: url('/common/img/software_detail/link_arrow.png') no-repeat 2px 4px;
+				}
+
+				/**
+				* 販売形態
+				*/
+				.figure-type dt, 
+				.figure-type dd {
+					display: table-cell;
+					vertical-align: middle;
+					line-height: 32px;
+					*display: inline;
+					*position: relative;
+				}
+
+					.figure-type img {
+						width: 32px;
+						height: 32px;
+					}
+
+				/**
+				* CEROレーティング
+				*/
+				.cero-type dl {
+					display: table;
+					*position: relative;
+				}
+
+				.cero-type dt, 
+				.cero-type dd {
+					display: table-cell;
+					vertical-align: middle;
+					line-height: 40px;
+					*display: inline;
+					*position: relative;
+				}
+
+				.cero-type dd {
+					*top: 15px;
+				}
+					
+					.cero-type img {
+						width: 32px;
+						height: 40px;
+					}
+
+				/**
+				 * ゲームカテゴリー
+				 */
+				.category-type li {
+					float: left;
+					margin-left: 3px;
+					margin-bottom: 3px;
+					display: table-cell;
+					white-space: nowrap;
+				}
+
+				.category-type li img {
+					width: 18px;
+					height: 18px;
+					margin: 0 5px 0 5px;
+				}
+		/**
+		* リンク
+		*/
+		#explain-link {
+			margin-bottom: 20px;
+			font-size: 0;
+		}
+		#explain-link a {
+			margin: 0 9px 9px 0;
+		}
+		#explain-link a:hover {
+			opacity: 0.7;
+			-moz-opacity: 0.7;
+			filter:alpha(opacity=70);
+		}
+		
+		#explain-vitaicon-area,
+		#explain-compliant {
+			background-color: #e6e6e6;
+			-webkit-border-radius: 4px; 
+			-moz-border-radius: 4px; 
+			-o-border-radius : 4px;
+			-ms-border-radius: 4px; 
+			border-radius: 4px;
+		}
+
+		#explain-compliant .explain-compliant-link {
+			display: block;
+		}
+
+		#explain-compliant img {
+			margin-right: 5px;
+		}
+
+		#explain-vitaicon-area {
+			margin-bottom: 10px;
+		}
+			
+			#explain-vitaicon-area ul,
+			#explain-compliant ul {
+				padding: 11px 11px 3px 11px;
+				*padding: 11px;
+			}
+
+				#explain-compliant ul li {
+					float: left;
+					margin-right: 15px;
+					margin-bottom: 8px;
+					white-space: nowrap;
+				}
+
+					#explain-vitaicon-area ul li span,
+					#explain-compliant ul li span {
+						line-height: 30px;
+						white-space: nowrap;
+						*display: inline;
+						*position: relative;
+						*top: 10px;
+						font-size: 93%;
+					}					
+					
+					/** 2013.1.7 add START */
+					#explain-compliant ul li {
+						height: 38px;
+					}
+
+					/* 2015.8.3 add START */
+					#explain-compliant .manual{
+						padding-top:0;
+					}
+						#explain-compliant .manual li{
+							margin-right:0;
+							white-space: normal;
+							height:auto;
+						}
+						#explain-compliant .manual a{
+
+						}
+						#explain-compliant .manual img{
+							vertical-align:top;
+						}
+						#explain-compliant .manual p{
+							line-height:1.4em;
+							font-size:77%;
+							width:750px;
+							margin:5px 0 0 0;
+						}
+					/* 2015.8.3 add END */
+					/** 2013.1.7 add END */
+					
+				#explain-vitaicon-area ul li {
+					float: left;
+					margin-right: 4px;
+					margin-bottom: 8px;
+				}
+
+				#explain-vitaicon-area ul li.separator {
+					padding-right: 12px;
+					margin-right: 12px;
+					border-right: #ccc 1px solid;
+				}
+				
+	iframe#pscommu-product-rating {
+		height: 440px !important;
+		margin-bottom: 20px;
+	}
+	
+#software-copyright-area {
+	color: #a6a6a6;
+	font-size: 85%;
+	margin-bottom: 20px;
+}
+
+	#store-button-area-dummy .store-button-sen-dummy,
+	#store-button-area .store-button-sen {
+		background: url(/common/img/software_detail/store_button_sen.png) no-repeat 0 0;
+	}
+
+	#store-button-area-dummy .store-button-sony-dummy,
+	#store-button-area .store-button-sony,
+	#store-button-area-dummy .store-button-sen-dummy,
+	#store-button-area .store-button-sen {
+		background: url(/common/img/software_detail/store_button_sen.png) no-repeat 0 0;
+		height: 45px;
+		position: absolute;
+		top: 1px;
+	}
+
+	#store-button-area .store-button-sony {
+		background: url(/common/img/software_detail/store_button_sony.png) no-repeat 0 0;
+		height: 40px;
+	}
+
+	#store-button-area .store-button-sen img{
+		height: 45px;
+	}
+
+	#store-button-area .store-button-sony img {
+		height: 40px;
+	}
+
+	#store-button-area .store-button-sen:hover {
+		background-position: 0 -50px !important;
+	}
+
+	#store-button-area .store-button-sony:hover {
+		background-position: 0 -40px !important;
+	}
+
+	#store-button-area .btn_gray{
+		background-position:0px -100px !important;
+	}
+
+	#store-button-area .store-button-info {
+		font-size: 86%;
+	}
+
+	#explain-box-img .store-button-sen-dummy,
+	#explain-box-img .store-button-sen{
+		height: 45px;
+	}
+
+	#explain-box-img .store-button-sony-dummy,
+	#explain-box-img .store-button-sony {
+		height: 40px;
+	}
+
+	#explain-box-img .store-button-sen img {
+		height:45px;
+	}
+
+	#explain-box-img .store-button-sony img {
+		height: 40px;
+	}
+
+	#explain-box-img .store-button-sen:hover {
+		background-position: 0 -50px !important;
+	}
+
+	#explain-box-img .store-button-sony:hover {
+		background-position: 0 -40px !important;
+	}
+
+	#explain-box-img .btn_gray{
+		background-position:0px -100px!important;
+	}
+
+	#explain-box-img .store-button-info {
+		font-size: 86%;
+		text-align: center;
+		width: 189px;
+		margin: 0 auto;
+	}

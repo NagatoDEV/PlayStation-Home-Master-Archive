@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+#carousel-area {
+	margin-bottom: 20px;
+}
+
+.carousel-area-medium {
+	width: 619px;
+}
+
+/**
+* メイン画像
+*/
+#carousel-image {
+	background-color: #FFF;
+	height: 0;
+	position: relative;
+	padding: 10px 0 5px 0;
+	margin: 0 auto;
+	width: 860px;
+}
+
+.carousel-area-medium #carousel-image {
+	margin: 0 auto;
+	width: 610px;
+	height: 0;
+	padding: 10px 0 5px 0;
+}
+
+#carousel-image img {
+	display: block;
+	opacity: 1;
+	zoom: 1;
+	width: auto;
+	margin: 0 auto;
+	top: 5px;
+	left: 5px;
+	margin: auto;
+}
+
+.carousel-area-medium #carousel-image img {
+	width: auto;
+	height: auto;
+}
+
+/**
+* 動画
+*/
+#carousel-movie {
+	text-align: center;
+	margin: 0 auto;
+}
+#carousel-movie object {
+	margin: 0 auto;
+}
+
+/**
+* loading
+*/
+#carousel-loading {
+	position: absolute;
+	top: middle;
+	left: 5px;
+	width: 850px;
+	/** 2013.1.7 add START */
+	background: url(/common/img/loading_l_black.gif) no-repeat 51% 0;
+	/** 2013.1.7 add END */
+	z-index: 2;
+}
+
+.carousel-area-medium #carousel-loading {
+	width: 609px !important;
+	height: 164px !important;
+	background-position: 249px 24px;
+}
+
+.carousel-hide {
+	display: none !important;
+}
+
+/*
+* サムネイル
+*/
+#carousel-thumbs-wrap {
+	position: relative;
+	overflow: hidden;
+	height: 94px;
+	top: 0;
+	border: #DBDBDB 1px solid;
+
+	visibility: hidden;
+	
+	opacity: 0;
+	-moz-opacity: 0;
+}
+#carousel-thumbs-wrapbg {
+	border: #FFF 1px solid;
+	height: 92px;
+	background: url('/common/img/carousel/carousel_thumb_bg.jpg') repeat-x 0 0;
+}
+#carousel-thumbs {
+	overflow: hidden;
+	width: 716px;
+	height: 94px;
+	margin-left: 70px;
+	position: relative;
+}
+
+#carousel-thumbs ul {
+	margin: 8px 0 0 0;
+	position: absolute;
+	width: 860px;
+}
+
+.carousel-area-medium #carousel-thumbs {
+	width: 426px;
+	margin-left: 94px;
+}
+
+#carousel-thumbs ul li {
+	display: block;
+	width: 136px;
+	height: 77px;
+	float: left;
+	margin-right: 9px;
+	text-align: center;
+}
+#carousel-thumbs li a {
+	border: #E0E1E5 1px solid;
+	width:134px;
+	display: table-cell;
+	* display: block;
+	height: 75px;
+	vertical-align: middle;
+	overflow:hidden;
+}
+#carousel-thumbs li a img{
+	width: 134px;
+	height: auto;
+}
+
+#carousel-thumbs li a.on,
+#carousel-thumbs li a:hover {
+	border: #000 1px solid;
+}
+
+
+#carousel-current-cursor {
+	background: url('/common/img/carousel/carousel_current_cursor.png') no-repeat 0 0;
+	width: 15px;
+	height: 7px;
+	position: absolute;
+	top: -1px;
+	left: 70px;
+	font-size: 0;
+	text-indent: -9999px;
+}
+
+/**
+* Arrow
+*/
+.carousel-right-button,
+.carousel-left-button {
+	width: 41px;
+	height: 75px;
+	position: absolute;
+	top: 10px;
+	
+}
+.carousel-right-button a,
+.carousel-left-button a {
+	display: block;
+	width: 41px;
+	height: 75px;
+	cursor: default;
+	background: url('/common/img/carousel/arrows.jpg') no-repeat 0 0;
+}
+#left-arrow-anchor,
+#right-arrow-anchor {
+	cursor: pointer;
+}
+
+#left-arrow-anchor {
+	background-position: 0 -75px;
+}
+#right-arrow-anchor {
+	background-position: -41px -75px;
+}
+.carousel-left-button a#left-arrow-anchor:hover {
+	background-position: 0 -75px;
+}
+.carousel-right-button a {
+	background-position: -41px 0px;
+}
+.carousel-right-button a#right-arrow-anchor:hover {
+	background-position: -41px -75px;
+}
+
+.carousel-right-button {
+	right: 15px;
+}
+
+.carousel-left-button {
+	left: 15px;
+}
+
+/**
+* closeButton
+*/
+.carousel-close-button {
+	width: 43px;
+	height: 43px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	display: none;
+	z-index: 4;
+}
+.carousel-close-button a {
+	display: block;
+	width: 43px;
+	height: 43px;
+	background: url('/common/img/carousel/carousel_close_button.png') no-repeat 0 0;
+}

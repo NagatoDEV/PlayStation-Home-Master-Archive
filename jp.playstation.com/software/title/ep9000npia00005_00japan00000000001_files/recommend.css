@@ -1,0 +1,36 @@
+.recommend h2.radius-ttl  {
+	border-left: #dbdbdb 1px solid;
+	border-right: #dbdbdb 1px solid;
+	border-top: #dbdbdb 1px solid;
+	-webkit-border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	-o-border-radius : 4px 4px 0 0;
+	-ms-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+	background-color:#FFF;
+	padding: 16px 0 0 16px;
+	font-size:130%;
+}
+
+.recommend #lineup-area ul li {
+	width:152px;
+}
+
+.recommend #lineup-area ul li a.titlelink {
+	width: 142px;
+}
+
+.recommend #lineup-area ul li a.titlelink:link {
+	border:1px solid #FFF;
+	box-sizing: border-box;
+}
+
+.recommend #lineup-area ul li a.titlelink:hover {
+	border:1px solid #5D7BA2;
+	box-sizing: border-box;
+}
+
+.recommend .lineup-wrap-over,
+.recommend .lineup-wrap {
+	width:142px;
+}

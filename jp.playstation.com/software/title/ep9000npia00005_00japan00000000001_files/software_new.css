@@ -1,0 +1,277 @@
+@charset "utf-8";
+
+/**
+* ソフトウェア用のメニュー
+*--------------------------------------------------*/
+/*
+* Software Menu
+*--------------------------------------------------*/
+#software-menu {
+	width: 860px;
+	height: 43px;
+	margin: 12px auto 12px auto;
+	position: relative;
+	background: url('/common/img/software_menu_buttons_bg.png') no-repeat 0 0;
+}
+#software-menu .software-menu-li {
+	height: 43px;
+	float: left;
+}
+#software-menu a {
+	display: block;
+	height: 43px;
+	text-indent: -9999px;
+}
+
+#software-menu .software-menu-li a {
+	background: url('/common/img/software_menu_buttons.png') no-repeat 0 0;
+}
+
+	#software-menu-top {
+		padding-left: 106px;
+		display: inline;
+		width: 154px;
+	}
+	#software-menu-top a {
+		background-position: -106px 0 !important;
+	}
+	#software-menu-top a:hover {
+		background-position: -106px -45px !important;
+	}
+	#software-menu-list {
+		width: 173px;
+	}
+	#software-menu-list a {
+		background-position: -260px 0 !important;
+	}
+	#software-menu-list a:hover {
+		background-position: -260px -45px !important;
+	}
+	#software-menu-list a.over {
+		background-position: -260px -90px !important;
+	}
+
+	.software-submenu-arrow {
+		background: url('/common/img/soft_submenu_arrow.png') no-repeat 0 0;
+		width: 20px !important;
+		height: 16px !important;
+		position: absolute;
+		z-index: 10;
+	}
+	#software-menu-list .software-submenu-arrow {
+		top: -11px;
+		left: 326px;
+	}
+
+	#software-menu-calendar {
+		width: 192px;
+	}
+	#software-menu-calendar a {
+		background-position: -433px 0 !important;
+	}
+	#software-menu-calendar a:hover {
+		background-position: -433px -45px !important;
+	}
+
+	#software-menu-sce {
+		width: 156px;
+	}
+	#software-menu-sce a {
+		background-position: -625px 0 !important;
+	}
+	#software-menu-sce a:hover {
+		background-position: -625px -45px !important;
+	}
+
+/**
+* カレント表示
+*/
+/** ゲームソフトトップ */
+body.software-top #software-menu-top a {
+	background-position: -106px -45px !important;
+}
+/** ゲームソフト一覧（検索） */
+body.software-search #software-menu-list a {
+	background-position: -260px -45px !important;
+}
+/** 今月発売のゲームソフト */
+body.software-calendar #software-menu-calendar a {
+	background-position: -433px -45px !important;
+}
+/** SCEJのゲームソフト */
+body.software-scej #software-menu-sce a {
+	background-position: -625px -45px !important;
+}
+
+/*
+* Software Sub Menu
+*--------------------------------------------------*/
+.software-submenu-wrap {
+	background: url('/common/img/soft_sub_head.png') no-repeat 0 0;
+	z-index: 2;
+	position: absolute;
+	width: 860px !important;
+	display: none;
+	float: none !important;
+	left: 0px;
+	margin-top: 11px;
+	padding-top: 6px;
+}
+.software-submenu-foot {
+	width: 860px !important;
+	height: 6px !important;
+	float: none !important;
+	font-size: 0;
+	left: 0;
+	background: url('/common/img/soft_sub_foot.png') no-repeat 0 0;
+}
+
+/**
+* メインメニュー部
+*/
+#item-info .software-submenu-wrap {
+	margin-top: 19px;
+	height: auto !important;
+}
+/** ゲームソフト一覧サブメニュー */
+#softtop-mainmenu-gamelist .software-submenu-wrap {
+	top: 171px;
+	position: absolute;
+}
+
+#item-info .show,
+#software-menu-list .show,
+#software-menu-others .show {
+	display: block !important;
+}
+
+.software-submenu {
+	position: relative;
+	width: 860px;
+	padding-bottom: 13px;
+	background: url('/common/img/soft_sub_bg.png') repeat-y 0 0;
+}
+
+.software-submenu li {
+	position: relative;
+	float: left;
+	width: 174px !important;
+	height: 43px !important;
+	text-indent: 0 !important;
+	margin: 13px 18px 1px 17px;
+}
+
+.software-submenu li a {
+	display: block;
+	text-indent: -9999px;
+	width: 174px !important;
+	height: 43px !important;
+	position: absolute;
+	background: none !important;
+	top: -2px;
+	left: -2px;
+	margin: 0 !important;
+}
+.software-submenu li a.on,
+.software-submenu li a:hover {
+	border: #5D7BA2 2px solid;
+	height: 42px !important;
+}
+
+/*
+* Shortcut link
+*--------------------------------------------------*/
+/**
+* ショートカットリンク
+*/
+#format-shorcut-area {
+	position: relative;
+	z-index: 5;
+	margin: 8px 0 14px 0;
+}
+#format-shortcut-wrap {
+	position: relative;
+	top: 0;
+	width: 860px;
+	z-index: 10;
+}
+
+	#shortcut-button-wrap {
+		width: 858px;
+		height: 39px;
+		-webkit-border-bottom-left-radius: 2px;
+		-webkit-border-bottom-right-radius: 2px;
+		-moz-border-bottom-left-radius: 2px;
+		-moz-border-bottom-right-radius: 2px;
+		border-bottom-left-radius: 2px;
+		border-bottom-right-radius: 2px;
+		border: #dbdbdb 1px solid;
+	}
+	#shortcut-button-wrap ul {
+		height: 37px;
+		-webkit-border-bottom-left-radius: 2px;
+		-webkit-border-bottom-right-radius: 2px;
+		-moz-border-bottom-left-radius: 2px;
+		-moz-border-bottom-right-radius: 2px;
+		border-bottom-left-radius: 2px;
+		border-bottom-right-radius: 2px;
+		border: #FFF 1px solid;
+		background-color: #f5f5f5;
+	}
+	#format-shortcut-wrap li{
+		display: inline;
+		float: left;
+		background: url('/common/img/nav_anchor.png') no-repeat 0 8px;
+		height: 36px;
+		margin: 0px 6px 0 12px;
+	}
+	#format-shortcut-wrap li a {
+		display: block;
+		height: 36px;
+	}
+	#format-shortcut-wrap li a:hover {
+		opacity: 0.7;
+		-moz-opacity: 0.7;
+		filter:alpha(opacity=70);
+	}
+	#format-shortcut-wrap li a.no-scroll {
+		cursor: default;
+		opacity: .4;
+		-moz-opacity: .4;
+		filter:alpha(opacity=40);
+	}
+	#format-shortcut-wrap li a.no-scroll:hover {
+		opacity: .4;
+		-moz-opacity: .4;
+		filter:alpha(opacity=40);
+	}
+	#format-shortcut-wrap li a img {
+		margin: 12px 0 0 25px;
+	}
+
+	.shortcut-ps3 {
+		width: 129px;
+	}
+	.shortcut-psv {
+		width: 145px;
+	}
+	.shortcut-psp {
+		width: 129px;
+	}
+	.shortcut-archives {
+		width: 134px;
+	}
+	.shortcut-others {
+		width: 190px;
+	}
+
+
+.fixscroll-ie6 {
+	_position: absolute;
+	_top: expression(((document.documentElement.clientHeight || document.body.clientHeight)-1300)+((e=document.documentElement.scrollTop)?e:document.body.scrollTop)+'px') !important;
+	z-index: 100;
+	left: auto;
+	right: auto;
+	bottom: auto;
+	background-color: #00f0f0 !important;
+}

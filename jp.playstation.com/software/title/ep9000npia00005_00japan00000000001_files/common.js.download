@@ -1,0 +1,337 @@
+/********************************************************************************
+
+	Common Functions
+
+	- Header Search Form
+	- Header Compact Menu
+	- Global Navi Drop Down Menu
+	- Roll Over
+	- Set Height
+	- PS3 Font Size Change
+
+*********************************************************************************/
+
+
+// Common Function Class
+if( !CF ){ var CF = {}; }
+
+
+$(function(){
+// ----------------------------------------------------------------------------
+// Header Search Form
+// ----------------------------------------------------------------------------
+	CF.headerSearch = function(){
+		$( "#top-menu-search-query" ).ready ( function () {
+			
+			var msf = false;
+			
+			$( "#top-menu-search-query" ).focus ( function ( e ) {
+				if ( !msf ) {
+					
+					var userAgent = window.navigator.userAgent.toLowerCase();
+					var appVersion = window.navigator.appVersion.toLowerCase();
+					
+					if( appVersion.indexOf("msie 6.") != -1 || appVersion.indexOf("msie 7.") != -1 || appVersion.indexOf("msie 8.") != -1 ){
+						$( "#search-option-list" ).css({ 'display' : 'block' });
+						msf = true;
+					} else{
+						$( "#search-option-list" ).fadeIn( "fast", function () { msf = true; } );
+					}
+				}
+			});
+			
+			$( '#header' ).click ( function ( e ) {
+				if ( msf && !$( e.target ).is ( "#site-search-container *" ) ) {
+					
+					var userAgent = window.navigator.userAgent.toLowerCase();
+					var appVersion = window.navigator.appVersion.toLowerCase();
+					
+					if( appVersion.indexOf("msie 6.") != -1 || appVersion.indexOf("msie 7.") != -1 || appVersion.indexOf("msie 8.") != -1 ){
+						$( "#search-option-list" ).css({ 'display' : 'none' });
+						msf = false;
+					} else{
+						$( "#search-option-list" ).fadeOut( "fast", function () { msf = false; } );
+					}
+				}
+				return true;
+			} );		
+		} );
+		
+		function siteSearchCheckVal(){
+			var checkVal  = $('input[name="search-header-radio"]:checked').val(),
+				group     = $('#site-search').find('input[name="group"]'),
+				design    = $('#site-search').find('input[name="design"]');
+			
+			if( checkVal == 'game' ){
+				group.val(1);
+				design.val(2);
+			} else if( checkVal == 'site' ){
+				group.val(0);
+				design.val(1);			
+			}	
+		}
+		siteSearchCheckVal();
+	
+		$("input[name='search-header-radio']").click(function(){
+			var checkVal  = $(this).val(),
+				group     = $('#site-search').find('input[name="group"]'),
+				design    = $('#site-search').find('input[name="design"]');
+			
+			if( checkVal == 'game' ){
+				group.val(1);
+				design.val(2);
+			} else if( checkVal == 'site' ){
+				group.val(0);
+				design.val(1);			
+			}
+		}); 
+	}
+	CF.headerSearch();
+ 
+// ----------------------------------------------------------------------------
+// Header Compact Menu
+// ----------------------------------------------------------------------------
+	CF.headerCompactMenu = function(){
+		var viewport = $("meta[name=viewport]");
+		if(viewport.length == 0){
+			return;
+		}
+		// var responsiveId = ['top','playstation4','psn'];
+		// var bodyId = $("body").attr('id');
+		// if(bodyId){
+		// 	if(jQuery.inArray(bodyId, responsiveId) == -1){
+		// 		return;
+		// 	}
+		// }else{
+		// 	return;
+		// }
+
+		$('#btn-compact').on('click', function(e){
+				
+			if( $('#compact-menu').css('display') === 'none' ){
+				$('#compact-menu').stop().slideDown(400, 'easeInOutQuint',function(){ $('#btn-compact').find('img').attr({ src : '/shared/img/header/btn_compact-menu_01_close.png' , alt : 'メニューを閉じる'}) });
+			} else{
+				$('#compact-menu').stop().slideUp(400, 'easeInOutQuint',function(){ $('#btn-compact').find('img').attr({ src : '/shared/img/header/btn_compact-menu_01.png' , alt : 'メニューを開く'}) });
+			}
+			
+			if( e.target ){
+				e.stopPropagation();
+			}else if( window.event.srcElement ){
+				window.event.cancelBubble = true;
+			}
+		});
+		
+		var prev_width = $(window).width();
+		$(window).resize(function() {
+			if(prev_width != $(window).width()){
+				if($(window).width() >= 880){
+					$('#compact-menu').show();
+				} else if($(window).width() > 320 && $(window).width() < 880){
+					var userAgent = window.navigator.userAgent.toLowerCase();
+					var appVersion = window.navigator.appVersion.toLowerCase();
+					
+					if( appVersion.indexOf("msie 6.") != -1 || appVersion.indexOf("msie 7.") != -1 || appVersion.indexOf("msie 8.") != -1 ){
+						$('#compact-menu').show();
+					} else{
+						$('#compact-menu').hide();
+						$('#btn-compact').find('img').attr({ src : '/shared/img/header/btn_compact-menu_01.png' , alt : 'メニューを開く'});
+					}
+				}
+			}
+			prev_width = $(window).width();
+		});
+	}
+	CF.headerCompactMenu(); 
+
+
+// ----------------------------------------------------------------------------
+// Global Navi Drop Down Menu
+// ----------------------------------------------------------------------------	
+	CF.dropDownMenu = function(){
+		var flag = true;
+
+		var selector;
+		if(typeof current != "undefined" && current){
+			selector = '#nav-global li:not(.' + current + ')';
+		}else{
+			selector = '#nav-global li';
+		}
+		$(selector).hover(
+			function () {
+				if( flag === true ){
+					flag = false;
+					$(this).find(".parent-link").addClass('active');
+					$('ul', this).stop(true, true).slideDown(400, 'easeInOutQuint');
+				}
+			}, 
+			function () {
+				$(this).find(".parent-link").removeClass('active');
+				$('ul', this).stop(true, true).slideUp(400, 'easeInOutQuint');
+				flag = true;	
+			}
+		);
+		
+		$(window).resize(function(){
+			$('#nav-global').find('.child-list').hide();
+		});
+	}
+	CF.dropDownMenu();
+
+// ----------------------------------------------------------------------------
+// Roll Over
+// ----------------------------------------------------------------------------	
+	CF.rollOver = function(options){
+		var roll = options.roll,
+		unroll = options.unroll;
+
+		function find_child(elm){
+
+			var collect_img = {},
+				collect_a = {},
+				counter_img = 0,
+				counter_a = 0;
+	
+			function get_elms(elm){
+				var element = elm;
+				
+				elm.children().each(function(){
+					
+					if($(this).attr('class') !== unroll){
+						if(this.tagName === 'IMG' || this.tagName === 'INPUT'){
+							collect_img[counter_img] = $(this);
+							counter_img++;
+						}else if(this.tagName === 'A'){
+							var tag_a = $(this);
+							tag_a.find('img').each(function(){
+								if($(this).attr('class') !== unroll){
+									collect_img[counter_img] = $(this);
+									counter_img++;
+								}
+							});
+							
+							collect_a[counter_a] = tag_a;
+							counter_a++;
+							
+							return true;
+						}
+						get_elms($(this));
+					}else{
+						return true;
+					}
+				});
+			}
+			
+			get_elms(elm);
+			
+			return [collect_img,collect_a];
+		}
+		
+		$('.roll-extra, #header .' + roll).each(function(){
+			var items = find_child($(this)),
+				items_img = items[0],
+				items_link = items[1],
+				onmouse_check = false;
+				btnParent = $(this).parent();
+						
+			$.each(items_img, function(i){
+				
+				var btn = items_img[i];
+				
+				if(btn[0].tagName === 'INPUT' && btn.attr('type') === 'text'){
+					return true;
+				}
+				
+				var bc = btnParent.attr('class');				
+				if(!bc || bc.indexOf('rollParent') == -1){
+					btnParent = btn;
+				}else{
+					
+					if(!items_link[0]) return;
+					
+					btnParent.children('.text').click(function(){
+						location.href = items_link[0].attr('href');	
+					}).css('cursor','pointer');
+				}
+				
+				btnParent.mouseover(function(){
+					if (!onmouse_check) {
+						onmouse_check = true;
+						btn.attr('src', btn.attr('src').replace(/(\.[^\.]+$)/, "_o$1"));
+						
+					}
+				});
+				btnParent.mouseout(function(){
+					btn.attr('src', btn.attr('src').replace(/_o/, ""));
+					onmouse_check = false;
+				});
+			});
+			
+			$.each(items_link, function(i){
+				var btn = items_link[i],
+					imgs = btn.find('img');
+					
+				var src_on = imgs.attr('src').replace(/(\.[^\.]+$)/, "_o$1");
+				$('<img />').attr('src', src_on);
+			});	
+		});
+	};
+	
+	CF.rollOver({ roll : 'roll', unroll : 'unroll' });
+
+// ----------------------------------------------------------------------------
+// Set Height
+// ----------------------------------------------------------------------------		
+	CF.equalheight = function(container) {
+	
+		var currentTallest = 0,
+			 currentRowStart = 0,
+			 rowDivs = new Array(),
+			 $el,
+			 topPosition = 0;
+		
+		$(container).each(function() {
+		
+			$el = $(this);
+			$($el).height('auto');
+			topPostion = $el.position().top;
+		
+			if (currentRowStart != topPostion) {
+				for (currentDiv = 0; currentDiv < rowDivs.length; currentDiv++) {
+					rowDivs[currentDiv].height(currentTallest);
+				}
+
+				rowDivs.length = 0;
+				currentRowStart = topPostion;
+				currentTallest = $el.height();
+				rowDivs.push($el);
+			}
+			else {
+				rowDivs.push($el);
+				currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);
+			}
+			
+			for (currentDiv = 0; currentDiv < rowDivs.length; currentDiv++) {
+				rowDivs[currentDiv].height(currentTallest);
+			}
+		});
+	}
+	
+	$(window).resize(function() {
+		if($('body').width() >= 100){
+			CF.equalheight('.list-content-01 .column a');
+			CF.equalheight('.list-content-02 .column a');
+		}
+	});
+
+// ----------------------------------------------------------------------------
+// Play Station 3 Font Size Change
+// ----------------------------------------------------------------------------
+	CF.ps3FontSizeChange = function() {
+		if(navigator.userAgent.indexOf("PLAYSTATION 3") != -1){
+			$('body').css({ 'font-size' : '100%' });
+			$('.lyt-search-01').find('.search-box').css({ 'width' : '70%' });
+			$('.lyt-search-01').find('.list-game').css({ 'width' : '26%' });
+		}
+	}
+	CF.ps3FontSizeChange();
+});

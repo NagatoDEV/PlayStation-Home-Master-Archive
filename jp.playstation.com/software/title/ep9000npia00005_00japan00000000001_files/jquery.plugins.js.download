@@ -1,0 +1,475 @@
+
+/********************************************************************************
+
+	jQuery Plugins
+
+	- jquery.easing.js
+	- jquery.scrolltotopcontrol.js
+	- jqTransform.js
+	
+*********************************************************************************/
+
+
+// ----------------------------------------------------------------------------
+// jQuery Easing
+// ----------------------------------------------------------------------------	
+/*
+ * jQuery Easing v1.3 - http://gsgd.co.uk/sandbox/jquery/easing/
+ *
+ * Uses the built in easing capabilities added In jQuery 1.1
+ * to offer multiple easing options
+ *
+ * TERMS OF USE - jQuery Easing
+ * 
+ * Open source under the BSD License. 
+ * 
+ * Copyright (C) 2008 George McGinley Smith
+ * All rights reserved.
+ * 
+ * Redistribution and use in source and binary forms, with or without modification, 
+ * are permitted provided that the following conditions are met:
+ * 
+ * Redistributions of source code must retain the above copyright notice, this list of 
+ * conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice, this list 
+ * of conditions and the following disclaimer in the documentation and/or other materials 
+ * provided with the distribution.
+ * 
+ * Neither the name of the author nor the names of contributors may be used to endorse 
+ * or promote products derived from this software without specific prior written permission.
+ * 
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY 
+ * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ *  COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ *  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+ *  GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED 
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ *  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
+ * OF THE POSSIBILITY OF SUCH DAMAGE. 
+ *
+*/
+(function(jQuery){
+// t: current time, b: begInnIng value, c: change In value, d: duration
+jQuery.easing['jswing'] = jQuery.easing['swing'];
+
+jQuery.extend( jQuery.easing,
+{
+	def: 'easeOutQuad',
+	swing: function (x, t, b, c, d) {
+		//alert(jQuery.easing.default);
+		return jQuery.easing[jQuery.easing.def](x, t, b, c, d);
+	},
+	easeInQuad: function (x, t, b, c, d) {
+		return c*(t/=d)*t + b;
+	},
+	easeOutQuad: function (x, t, b, c, d) {
+		return -c *(t/=d)*(t-2) + b;
+	},
+	easeInOutQuad: function (x, t, b, c, d) {
+		if ((t/=d/2) < 1) return c/2*t*t + b;
+		return -c/2 * ((--t)*(t-2) - 1) + b;
+	},
+	easeInCubic: function (x, t, b, c, d) {
+		return c*(t/=d)*t*t + b;
+	},
+	easeOutCubic: function (x, t, b, c, d) {
+		return c*((t=t/d-1)*t*t + 1) + b;
+	},
+	easeInOutCubic: function (x, t, b, c, d) {
+		if ((t/=d/2) < 1) return c/2*t*t*t + b;
+		return c/2*((t-=2)*t*t + 2) + b;
+	},
+	easeInQuart: function (x, t, b, c, d) {
+		return c*(t/=d)*t*t*t + b;
+	},
+	easeOutQuart: function (x, t, b, c, d) {
+		return -c * ((t=t/d-1)*t*t*t - 1) + b;
+	},
+	easeInOutQuart: function (x, t, b, c, d) {
+		if ((t/=d/2) < 1) return c/2*t*t*t*t + b;
+		return -c/2 * ((t-=2)*t*t*t - 2) + b;
+	},
+	easeInQuint: function (x, t, b, c, d) {
+		return c*(t/=d)*t*t*t*t + b;
+	},
+	easeOutQuint: function (x, t, b, c, d) {
+		return c*((t=t/d-1)*t*t*t*t + 1) + b;
+	},
+	easeInOutQuint: function (x, t, b, c, d) {
+		if ((t/=d/2) < 1) return c/2*t*t*t*t*t + b;
+		return c/2*((t-=2)*t*t*t*t + 2) + b;
+	},
+	easeInSine: function (x, t, b, c, d) {
+		return -c * Math.cos(t/d * (Math.PI/2)) + c + b;
+	},
+	easeOutSine: function (x, t, b, c, d) {
+		return c * Math.sin(t/d * (Math.PI/2)) + b;
+	},
+	easeInOutSine: function (x, t, b, c, d) {
+		return -c/2 * (Math.cos(Math.PI*t/d) - 1) + b;
+	},
+	easeInExpo: function (x, t, b, c, d) {
+		return (t==0) ? b : c * Math.pow(2, 10 * (t/d - 1)) + b;
+	},
+	easeOutExpo: function (x, t, b, c, d) {
+		return (t==d) ? b+c : c * (-Math.pow(2, -10 * t/d) + 1) + b;
+	},
+	easeInOutExpo: function (x, t, b, c, d) {
+		if (t==0) return b;
+		if (t==d) return b+c;
+		if ((t/=d/2) < 1) return c/2 * Math.pow(2, 10 * (t - 1)) + b;
+		return c/2 * (-Math.pow(2, -10 * --t) + 2) + b;
+	},
+	easeInCirc: function (x, t, b, c, d) {
+		return -c * (Math.sqrt(1 - (t/=d)*t) - 1) + b;
+	},
+	easeOutCirc: function (x, t, b, c, d) {
+		return c * Math.sqrt(1 - (t=t/d-1)*t) + b;
+	},
+	easeInOutCirc: function (x, t, b, c, d) {
+		if ((t/=d/2) < 1) return -c/2 * (Math.sqrt(1 - t*t) - 1) + b;
+		return c/2 * (Math.sqrt(1 - (t-=2)*t) + 1) + b;
+	},
+	easeInElastic: function (x, t, b, c, d) {
+		var s=1.70158;var p=0;var a=c;
+		if (t==0) return b;  if ((t/=d)==1) return b+c;  if (!p) p=d*.3;
+		if (a < Math.abs(c)) { a=c; var s=p/4; }
+		else var s = p/(2*Math.PI) * Math.asin (c/a);
+		return -(a*Math.pow(2,10*(t-=1)) * Math.sin( (t*d-s)*(2*Math.PI)/p )) + b;
+	},
+	easeOutElastic: function (x, t, b, c, d) {
+		var s=1.70158;var p=0;var a=c;
+		if (t==0) return b;  if ((t/=d)==1) return b+c;  if (!p) p=d*.3;
+		if (a < Math.abs(c)) { a=c; var s=p/4; }
+		else var s = p/(2*Math.PI) * Math.asin (c/a);
+		return a*Math.pow(2,-10*t) * Math.sin( (t*d-s)*(2*Math.PI)/p ) + c + b;
+	},
+	easeInOutElastic: function (x, t, b, c, d) {
+		var s=1.70158;var p=0;var a=c;
+		if (t==0) return b;  if ((t/=d/2)==2) return b+c;  if (!p) p=d*(.3*1.5);
+		if (a < Math.abs(c)) { a=c; var s=p/4; }
+		else var s = p/(2*Math.PI) * Math.asin (c/a);
+		if (t < 1) return -.5*(a*Math.pow(2,10*(t-=1)) * Math.sin( (t*d-s)*(2*Math.PI)/p )) + b;
+		return a*Math.pow(2,-10*(t-=1)) * Math.sin( (t*d-s)*(2*Math.PI)/p )*.5 + c + b;
+	},
+	easeInBack: function (x, t, b, c, d, s) {
+		if (s == undefined) s = 1.70158;
+		return c*(t/=d)*t*((s+1)*t - s) + b;
+	},
+	easeOutBack: function (x, t, b, c, d, s) {
+		if (s == undefined) s = 1.70158;
+		return c*((t=t/d-1)*t*((s+1)*t + s) + 1) + b;
+	},
+	easeInOutBack: function (x, t, b, c, d, s) {
+		if (s == undefined) s = 1.70158; 
+		if ((t/=d/2) < 1) return c/2*(t*t*(((s*=(1.525))+1)*t - s)) + b;
+		return c/2*((t-=2)*t*(((s*=(1.525))+1)*t + s) + 2) + b;
+	},
+	easeInBounce: function (x, t, b, c, d) {
+		return c - jQuery.easing.easeOutBounce (x, d-t, 0, c, d) + b;
+	},
+	easeOutBounce: function (x, t, b, c, d) {
+		if ((t/=d) < (1/2.75)) {
+			return c*(7.5625*t*t) + b;
+		} else if (t < (2/2.75)) {
+			return c*(7.5625*(t-=(1.5/2.75))*t + .75) + b;
+		} else if (t < (2.5/2.75)) {
+			return c*(7.5625*(t-=(2.25/2.75))*t + .9375) + b;
+		} else {
+			return c*(7.5625*(t-=(2.625/2.75))*t + .984375) + b;
+		}
+	},
+	easeInOutBounce: function (x, t, b, c, d) {
+		if (t < d/2) return jQuery.easing.easeInBounce (x, t*2, 0, c, d) * .5 + b;
+		return jQuery.easing.easeOutBounce (x, t*2-d, 0, c, d) * .5 + c*.5 + b;
+	}
+});
+		  })(jQuery);
+
+/*
+ *
+ * TERMS OF USE - EASING EQUATIONS
+ * 
+ * Open source under the BSD License. 
+ * 
+ * Copyright (C) 2001 Robert Penner
+ * All rights reserved.
+ * 
+ * Redistribution and use in source and binary forms, with or without modification, 
+ * are permitted provided that the following conditions are met:
+ * 
+ * Redistributions of source code must retain the above copyright notice, this list of 
+ * conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice, this list 
+ * of conditions and the following disclaimer in the documentation and/or other materials 
+ * provided with the distribution.
+ * 
+ * Neither the name of the author nor the names of contributors may be used to endorse 
+ * or promote products derived from this software without specific prior written permission.
+ * 
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY 
+ * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ *  COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ *  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+ *  GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED 
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ *  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
+ * OF THE POSSIBILITY OF SUCH DAMAGE. 
+ *
+ */
+ 
+ 
+// ----------------------------------------------------------------------------
+// Scroll to Top Control
+// ----------------------------------------------------------------------------
+//** jQuery Scroll to Top Control script- (c) Dynamic Drive DHTML code library: http://www.dynamicdrive.com.
+//** Available/ usage terms at http://www.dynamicdrive.com (March 30th, 09')
+//** v1.1 (April 7th, 09'):
+//** 1) Adds ability to scroll to an absolute position (from top of page) or specific element on the page instead.
+//** 2) Fixes scroll animation not working in Opera. 
+
+$(function(){
+	
+	var scrolltotop={
+		//startline: Integer. Number of pixels from top of doc scrollbar is scrolled before showing control
+		//scrollto: Keyword (Integer, or "Scroll_to_Element_ID"). How far to scroll document up when control is clicked on (0=top).
+		setting: {startline:100, scrollto: 0, scrollduration:1200, fadeduration:[500, 100]},
+		controlHTML: '<img src="/new_assets/image/btn/btn_pagetop_01.png" style="width:40px; height:40px" />', //HTML for control, which is auto wrapped in DIV w/ ID="topcontrol"
+		controlHTMLJrStep: '<img src="/jr_step/shared/img/btn/btn_pagetop_01.png" style="width:35px; height:101px" />', //HTML for control, which is auto wrapped in DIV w/ ID="topcontrol"
+		controlattrs: {offsetx:20, offsety:20}, //offset of control relative to right/ bottom of window corner
+		anchorkeyword: '#top', //Enter href value of HTML anchors on the page that should also act as "Scroll Up" links
+	
+		state: {isvisible:false, shouldvisible:false},
+	
+		scrollup:function(){
+			if (!this.cssfixedsupport) //if control is positioned using JavaScript
+				this.$control.css({opacity:0}) //hide control immediately after clicking it
+			var dest=isNaN(this.setting.scrollto)? this.setting.scrollto : parseInt(this.setting.scrollto)
+			if (typeof dest=="string" && jQuery('#'+dest).length==1) //check element set by string exists
+				dest=jQuery('#'+dest).offset().top
+			else
+				dest=0
+			this.$body.animate({scrollTop: dest}, this.setting.scrollduration, "easeOutQuint");
+		},
+	
+		keepfixed:function(){
+			var $window=jQuery(window)
+			var controlx=$window.scrollLeft() + $window.width() - this.$control.width() - this.controlattrs.offsetx
+			var controly=$window.scrollTop() + $window.height() - this.$control.height() - this.controlattrs.offsety
+			this.$control.css({left:controlx+'px', top:controly+'px'})
+		},
+	
+		togglecontrol:function(){
+			var scrolltop=jQuery(window).scrollTop()
+			if (!this.cssfixedsupport)
+				this.keepfixed()
+			this.state.shouldvisible=(scrolltop>=this.setting.startline)? true : false
+			if (this.state.shouldvisible && !this.state.isvisible){
+				this.$control.stop().animate({opacity:1}, this.setting.fadeduration[0])
+				this.state.isvisible=true
+			}
+			else if (this.state.shouldvisible==false && this.state.isvisible){
+				this.$control.stop().animate({opacity:0}, this.setting.fadeduration[1])
+				this.state.isvisible=false
+			}
+		},
+		
+		init:function(){
+			jQuery(document).ready(function($){
+				var mainobj=scrolltotop
+				var iebrws=document.all
+				mainobj.cssfixedsupport=!iebrws || iebrws && document.compatMode=="CSS1Compat" && window.XMLHttpRequest //not IE or IE7+ browsers in standards mode
+				mainobj.$body=(window.opera)? (document.compatMode=="CSS1Compat"? $('html') : $('body')) : $('html,body')
+				
+	
+				var condIndex = /\/index\.(html|php)?/;
+				var path = location.pathname.replace(condIndex, '/');
+				var pathSlice = path.slice(0,9);
+				
+				if(pathSlice == '/jr_step/'){
+					mainobj.$control=$('<div id="topcontrol">'+mainobj.controlHTMLJrStep+'</div>')	
+						.css({position:mainobj.cssfixedsupport? 'fixed' : 'absolute', bottom:mainobj.controlattrs.offsety, right:mainobj.controlattrs.offsetx, opacity:0, cursor:'pointer'})
+						.attr({title:'Page Top'})
+						.click(function(){mainobj.scrollup(); return false})
+						.appendTo('body');
+				} else{
+					mainobj.$control=$('<div id="topcontrol">'+mainobj.controlHTML+'</div>')
+						.css({position:mainobj.cssfixedsupport? 'fixed' : 'absolute', bottom:mainobj.controlattrs.offsety, right:mainobj.controlattrs.offsetx, opacity:0, cursor:'pointer'})
+						.attr({title:'Page Top'})
+						.click(function(){mainobj.scrollup(); return false})
+						.appendTo('body');
+				}
+	
+		
+				if (document.all && !window.XMLHttpRequest && mainobj.$control.text()!='') //loose check for IE6 and below, plus whether control contains any text
+					mainobj.$control.css({width:mainobj.$control.width()}) //IE6- seems to require an explicit width on a DIV containing text
+				mainobj.togglecontrol()
+				$('a[href="' + mainobj.anchorkeyword +'"]').click(function(){
+					mainobj.scrollup()
+					return false
+				})
+				$(window).bind('scroll resize', function(e){
+					mainobj.togglecontrol()
+				})
+				
+				$('#topcontrol img').hover(					  
+					function(){
+						var thisImg = $(this);
+						thisImg.attr('src',thisImg.attr('src').replace('.png','_o.png'));
+					},
+					function(){
+						var thisImg = $(this);
+						thisImg.attr('src',thisImg.attr('src').replace('_o.png','.png'));			
+					}
+				);
+				
+				/*if (navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('iPad') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+					$('#topcontrol img').css({ display : 'none' });
+				}*/
+				
+			})
+		}	
+	}
+	
+	scrolltotop.init();	
+	
+});
+
+
+// ----------------------------------------------------------------------------
+// Jqtransform
+// ----------------------------------------------------------------------------
+/*
+ *
+ * jqTransform
+ * by mathieu vilaplana mvilaplana@dfc-e.com
+ * Designer ghyslain armand garmand@dfc-e.com
+ *
+ *
+ * Version 1.0 25.09.08
+ * Version 1.1 06.08.09
+ * Add event click on Checkbox and Radio
+ * Auto calculate the size of a select element
+ * Can now, disabled the elements
+ * Correct bug in ff if click on select (overflow=hidden)
+ * No need any more preloading !!
+ * 
+ ******************************************** */
+ 
+(function($){
+	var defaultOptions = {preloadImg:true};
+	var jqTransformImgPreloaded = false;
+
+	var jqTransformPreloadHoverFocusImg = function(strImgUrl) {
+		//guillemets to remove for ie
+		strImgUrl = strImgUrl.replace(/^url\((.*)\)/,'$1').replace(/^\"(.*)\"$/,'$1');
+		var imgHover = new Image();
+		imgHover.src = strImgUrl.replace(/\.([a-zA-Z]*)$/,'-hover.$1');
+		var imgFocus = new Image();
+		imgFocus.src = strImgUrl.replace(/\.([a-zA-Z]*)$/,'-focus.$1');				
+	};
+
+	
+	/***************************
+	  Labels
+	***************************/
+	var jqTransformGetLabel = function(objfield){
+		var selfForm = $(objfield.get(0).form);
+		var oLabel = objfield.next();
+		if(!oLabel.is('label')) {
+			oLabel = objfield.prev();
+			if(oLabel.is('label')){
+				var inputname = objfield.attr('id');
+				if(inputname){
+					oLabel = selfForm.find('label[for="'+inputname+'"]');
+				} 
+			}
+		}
+		if(oLabel.is('label')){return oLabel.css('cursor','pointer');}
+		return false;
+	};
+	
+	/* Hide all open selects */
+	var jqTransformHideSelect = function(oTarget){
+		var ulVisible = $('.jqTransformSelectWrapper ul:visible');
+		ulVisible.each(function(){
+			var oSelect = $(this).parents(".jqTransformSelectWrapper:first").find("select").get(0);
+			//do not hide if click on the label object associated to the select
+			if( !(oTarget && oSelect.oLabel && oSelect.oLabel.get(0) == oTarget.get(0)) ){$(this).hide();}
+		});
+	};
+	/* Check for an external click */
+	var jqTransformCheckExternalClick = function(event) {
+		if ($(event.target).parents('.jqTransformSelectWrapper').length === 0) { jqTransformHideSelect($(event.target)); }
+	};
+
+	/* Apply document listener */
+	var jqTransformAddDocumentListener = function (){
+		$(document).mousedown(jqTransformCheckExternalClick);
+	};	
+			
+	/* Add a new handler for the reset action */
+	var jqTransformReset = function(f){
+		var sel;
+		$('.jqTransformSelectWrapper select', f).each(function(){sel = (this.selectedIndex<0) ? 0 : this.selectedIndex; $('ul', $(this).parent()).each(function(){$('a:eq('+ sel +')', this).click();});});
+		$('a.jqTransformCheckbox, a.jqTransformRadio', f).removeClass('jqTransformChecked');
+		$('input:checkbox, input:radio', f).each(function(){if(this.checked){$('a', $(this).parent()).addClass('jqTransformChecked');}});
+	};
+
+	/***************************
+	  Radio Buttons 
+	 ***************************/	
+	$.fn.jqTransRadio = function(){
+		return this.each(function(){
+			if($(this).hasClass('jqTransformHidden')) {return;}
+
+			var $input = $(this);
+			var inputSelf = this;
+				
+			oLabel = jqTransformGetLabel($input);
+			oLabel && oLabel.click(function(){aLink.trigger('click');});
+	
+			var aLink = $('<a href="#" class="jqTransformRadio" rel="'+ this.name +'"></a>');
+			$input.addClass('jqTransformHidden').wrap('<span class="jqTransformRadioWrapper"></span>').parent().prepend(aLink);
+			
+			$input.change(function(){
+				inputSelf.checked && aLink.addClass('jqTransformChecked') || aLink.removeClass('jqTransformChecked');
+				return true;
+			});
+			// Click Handler
+			aLink.click(function(){
+				if($input.attr('disabled')){return false;}
+				$input.trigger('click').trigger('change');
+	
+				// uncheck all others of same name input radio elements
+				$('input[name="'+$input.attr('name')+'"]',inputSelf.form).not($input).each(function(){
+					$(this).attr('type')=='radio' && $(this).trigger('change');
+				});
+	
+				return false;					
+			});
+			// set the default state
+			inputSelf.checked && aLink.addClass('jqTransformChecked');
+		});
+	};
+	
+	$.fn.jqTransform = function(options){
+		var opt = $.extend({},defaultOptions,options);
+		 return this.each(function(){
+			var selfForm = $(this);
+			if(selfForm.hasClass('jqtransformdone')) {return;}
+			selfForm.addClass('jqtransformdone');
+			$('input:radio', this).jqTransRadio();
+			selfForm.bind('reset',function(){var action = function(){jqTransformReset(this);}; window.setTimeout(action, 10);});
+						
+		});		
+	};
+
+})(jQuery);
+
+$(function(){
+	$('#search-option-list').jqTransform();
+	$('#search-module-option').jqTransform();
+});	

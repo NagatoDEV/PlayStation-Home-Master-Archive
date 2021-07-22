@@ -1,0 +1,58 @@
+/**
+* navigation (override)
+*--------------------------------------------------*/
+#software-nav {
+	border-bottom: 4px solid #ba0000 !important;
+}
+
+	/** 2013.1.7 add START */
+	#store-button-area {
+		border-left: 1px solid #090909;
+		background: url(/common/img/software_ps3/8tnu010000abd6v9.png) repeat-y top left;
+	}
+	/** 2013.1.7 add END */
+
+/*
+* Carousel (override)
+*--------------------------------------------------*/
+#carousel-thumbs li a.on,
+#carousel-thumbs li a:hover {
+	border: #ba0000 1px solid !important;
+}
+
+/**
+* explain (override)
+*--------------------------------------------------*/
+#explain-title {
+	border-bottom: 3px solid #ba0000 !important;
+}
+
+/* =================================================
+
+2013.10 overwrite start
+
+===================================================*/
+
+#software-nav {
+	border-bottom: 4px solid #003791 !important;
+}
+
+#store-button-area {
+		border-left: 1px solid #003791;
+	}
+
+#carousel-thumbs li a.on,
+#carousel-thumbs li a:hover {
+	border: #003791 1px solid !important;
+}
+
+#explain-title {
+	border-bottom: 3px solid #003791 !important;
+}
+
+/* =================================================
+
+2013.10 overwrite end
+
+===================================================*/
+
